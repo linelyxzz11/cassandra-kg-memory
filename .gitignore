@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary test files
+test_*.csv
+test_*.txt
+*.tmp
+*.bak
+
+# Large generated KG data
+edges_structured_10k.csv
+edges_structured_100k.csv
+edges_high_degree_21k.csv
+edges_high_degree_*.csv
+
+# Local logs
+*.log
+
+# Backup files
+backup_before_comment_cleanup/
