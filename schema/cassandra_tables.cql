@@ -48,3 +48,17 @@ CREATE TABLE IF NOT EXISTS kg_edges_by_relation_bucket (
     created_at timestamp,
     PRIMARY KEY ((graph_id, relation, bucket), src_id, dst_id, edge_id)
 ) WITH CLUSTERING ORDER BY (src_id ASC, dst_id ASC, edge_id ASC);
+
+CREATE TABLE IF NOT EXISTS kg_edges_by_src_relation (
+    graph_id text,
+    src_id text,
+    relation text,
+    dst_id text,
+    edge_id timeuuid,
+    src_type text,
+    dst_type text,
+    confidence double,
+    source text,
+    created_at timestamp,
+    PRIMARY KEY ((graph_id, src_id, relation), dst_id, edge_id)
+) WITH CLUSTERING ORDER BY (dst_id ASC, edge_id ASC);

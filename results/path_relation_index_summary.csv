@@ -1,0 +1,3 @@
+graph_id,start_node,relation_sequence,baseline_latency_ms,index_latency_ms,index_speedup,baseline_raw_count,index_raw_count,raw_edge_reduction,conclusion
+synthetic_10k,user_000001,"likes,suitable_for,related_to,suggests",1061.557,1052.548,1.01,105,85,20,"Index is correctly integrated but benefit is limited in chain-like graph"
+synthetic_10k,user_000001,"studies,includes,used_for,requires",1087.407,1117.652,0.97,115,92,23,"Raw scan is reduced but latency is dominated by repeated one-hop queries"
