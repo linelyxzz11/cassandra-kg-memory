@@ -34,3 +34,7 @@ edges_high_degree_*.csv
 
 # Backup files
 backup_before_comment_cleanup/
+
+generated_data/
+*.pyc
+__pycache__/

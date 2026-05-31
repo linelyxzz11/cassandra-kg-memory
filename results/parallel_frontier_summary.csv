@@ -1,0 +1,11 @@
+graph_id,start_node,depth,fanout,workers,parallel_latency_ms,speedup
+synthetic_high_degree_21k,user_big,4,20,1,1119.646,1.04
+synthetic_high_degree_21k,user_big,4,20,4,188.430,6.06
+synthetic_high_degree_21k,user_big,4,20,8,125.085,8.57
+synthetic_high_degree_21k,user_big,4,20,16,109.343,10.35
+synthetic_high_degree_21k,user_big,4,20,32,123.555,9.05
+synthetic_10k,user_000001,4,20,1,1076.162,1.00
+synthetic_10k,user_000001,4,20,4,141.271,7.35
+synthetic_10k,user_000001,4,20,8,83.678,12.68
+synthetic_10k,user_000001,4,20,16,79.616,13.03
+synthetic_10k,user_000001,4,20,32,69.085,14.65

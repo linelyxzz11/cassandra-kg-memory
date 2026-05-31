@@ -1,0 +1,10 @@
+optimization_direction,scenario,baseline_ms,optimized_ms,speedup,raw_before,raw_after,key_evidence
+frontier_parallel,synthetic_high_degree_21k,1131.530,109.343,10.35,,,workers=16
+frontier_parallel,synthetic_10k,1012.130,69.085,14.65,,,workers=32
+high_degree_cache,user_big_parallel_cache,120.282,57.295,2.10,5069,69,high-degree-aware cache
+relation_index,selectivity_1pct,111.040,15.121,7.34,10000,100,src+relation index
+relation_index,selectivity_10pct,112.608,15.720,7.16,10000,1000,src+relation index
+relation_index,selectivity_50pct,91.281,52.838,1.73,10000,5000,src+relation index
+parallel_relation_index,noisy_path_v1,104.506,67.518,1.55,12580,80,parallel+relation index
+parallel_relation_index,noisy_path_v15,156.834,71.503,2.19,62080,80,parallel+relation index
+parallel_relation_index,noisy_path_v2,263.788,67.626,3.90,125080,80,parallel+relation index
