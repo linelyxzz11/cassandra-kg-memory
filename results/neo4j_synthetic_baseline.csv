@@ -1,0 +1,7 @@
+system,scenario,total_edges,avg_ms,p95_ms,note
+Neo4j,noisy path v1 (4-hop relation),12580,13.2,16.7,native graph
+Cassandra-KG opt,noisy path v1 (4-hop relation),12580,67.5,92.4,parallel+index
+Cassandra-KG base,noisy path v1 (4-hop relation),12580,104.5,127.2,parallel only
+Neo4j,noisy path v2 (4-hop relation),125080,67.3,79.7,native graph
+Cassandra-KG opt,noisy path v2 (4-hop relation),125080,67.6,88.9,parallel+index
+Cassandra-KG base,noisy path v2 (4-hop relation),125080,263.8,319.4,parallel only

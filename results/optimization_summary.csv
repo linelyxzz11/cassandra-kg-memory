@@ -1,0 +1,10 @@
+optimization,scenario,baseline_ms,optimized_ms,speedup,raw_edges_before,raw_edges_after,note
+Frontier Parallel,synthetic_high_degree_21k (4-hop),1131.5,109.3,10.35,,,workers=16
+Frontier Parallel,synthetic_10k (4-hop),1012.1,69.1,14.65,,,workers=32
+High-Degree Cache,"user_big (4-hop,parallel)",120.3,57.3,2.1,5069,69,high-degree-aware cache
+Relation Index,1% selectivity,111.0,15.1,7.34,10000,100,src+relation index
+Relation Index,10% selectivity,112.6,15.7,7.16,10000,1000,src+relation index
+Relation Index,50% selectivity,91.3,52.8,1.73,10000,5000,src+relation index
+Parallel+Relation Index,noisy path v1,104.5,67.5,1.55,12580,80,
+Parallel+Relation Index,noisy path v1.5,156.8,71.5,2.19,62080,80,
+Parallel+Relation Index,noisy path v2,263.8,67.6,3.9,125080,80,

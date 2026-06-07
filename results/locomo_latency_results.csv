@@ -1,0 +1,4 @@
+method,index_build_ms,avg_query_ms,note
+TF-IDF (pure),142.6,1.47,200 queries x 5882 memories
+TF-IDF + KG boost,142.6,2.45,"boost=0.5, 200 queries, KG dict lookup only"
+TF-IDF + Neo4j boost,142.6,2.43,"KG load: 1679ms, 200 queries"
