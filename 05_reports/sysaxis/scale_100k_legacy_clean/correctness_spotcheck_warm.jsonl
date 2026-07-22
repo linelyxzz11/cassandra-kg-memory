@@ -1,0 +1,10 @@
+{"system": "neo4j", "mode": "warm", "repeat": 2, "spotcheck": {"checked": 10, "passed": 10, "all_pass": true, "failures": []}, "write_validation": {"checked": 20, "passed": 20, "all_pass": true}}
+{"system": "neo4j", "mode": "warm", "repeat": 3, "spotcheck": {"checked": 10, "passed": 10, "all_pass": true, "failures": []}, "write_validation": {"checked": 20, "passed": 20, "all_pass": true}}
+{"system": "cassandra_opt", "mode": "warm", "repeat": 2, "spotcheck": {"checked": 10, "passed": 10, "all_pass": true, "failures": []}, "write_validation": {"checked": 20, "passed": 20, "all_pass": true}}
+{"system": "cassandra_opt", "mode": "warm", "repeat": 3, "spotcheck": {"checked": 10, "passed": 10, "all_pass": true, "failures": []}, "write_validation": {"checked": 20, "passed": 20, "all_pass": true}}
+{"system": "neo4j", "mode": "warm", "repeat": 1, "spotcheck": {"checked": 10, "passed": 10, "all_pass": true, "failures": []}, "write_validation": {"checked": 20, "passed": 20, "all_pass": true}}
+{"system": "cassandra_opt", "mode": "warm", "repeat": 5, "spotcheck": {"checked": 10, "passed": 10, "all_pass": true, "failures": []}, "write_validation": {"checked": 20, "passed": 20, "all_pass": true}}
+{"system": "neo4j", "mode": "warm", "repeat": 4, "spotcheck": {"checked": 10, "passed": 10, "all_pass": true, "failures": []}, "write_validation": {"checked": 20, "passed": 20, "all_pass": true}}
+{"system": "cassandra_opt", "mode": "warm", "repeat": 1, "spotcheck": {"checked": 10, "passed": 10, "all_pass": true, "failures": []}, "write_validation": {"checked": 20, "passed": 20, "all_pass": true}}
+{"system": "cassandra_opt", "mode": "warm", "repeat": 4, "spotcheck": {"checked": 10, "passed": 10, "all_pass": true, "failures": []}, "write_validation": {"checked": 20, "passed": 20, "all_pass": true}}
+{"system": "neo4j", "mode": "warm", "repeat": 5, "spotcheck": {"checked": 10, "passed": 10, "all_pass": true, "failures": []}, "write_validation": {"checked": 20, "passed": 20, "all_pass": true}}

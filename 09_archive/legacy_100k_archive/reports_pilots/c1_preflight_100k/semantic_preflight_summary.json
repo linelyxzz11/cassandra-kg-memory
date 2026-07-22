@@ -1,0 +1,8 @@
+{
+  "total_queries": 256,
+  "empty_queries": 0,
+  "naive_vs_parallel_disagreements": 0,
+  "naive_vs_neo4j_disagreements": 0,
+  "all_pass": true,
+  "elapsed_seconds": 23.7
+}

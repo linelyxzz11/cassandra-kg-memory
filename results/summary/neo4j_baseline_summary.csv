@@ -1,7 +1,0 @@
-system,method,graph_id,total_edges,avg_latency_ms,p95_latency_ms,path_count,notes
-neo4j,relation_sequence_4hop,synthetic_path_index_noise_v1,12580,13.217,16.704,20,native graph traversal baseline
-cassandra,parallel_relation_index,synthetic_path_index_noise_v1,12580,67.518,92.449,80,optimized Cassandra-KG traversal
-cassandra,parallel_baseline,synthetic_path_index_noise_v1,12580,104.506,127.247,80,Cassandra without relation-aware index
-neo4j,relation_sequence_4hop,synthetic_path_index_noise_v2,125080,67.293,79.744,20,native graph traversal baseline
-cassandra,parallel_relation_index,synthetic_path_index_noise_v2,125080,67.626,88.874,80,optimized Cassandra-KG traversal
-cassandra,parallel_baseline,synthetic_path_index_noise_v2,125080,263.788,319.419,80,Cassandra without relation-aware index

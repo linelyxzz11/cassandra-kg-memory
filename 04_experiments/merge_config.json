@@ -1,0 +1,26 @@
+{
+  "raw": {
+    "path": "D:/memorytable/cassandra-kg-memory/results/locomo_memory_records.csv",
+    "memory_id": "memory_id",
+    "conversation_id": "sample_id",
+    "raw_text": "text"
+  },
+  "summary": {
+    "path": "D:/memorytable/cassandra-kg-memory/scripts/experiments/artifacts/memory_summaries.csv",
+    "memory_id": "memory_id",
+    "summary": "summary"
+  },
+  "erk": {
+    "path": "D:/memorytable/cassandra-kg-memory/scripts/experiments/artifacts/erk_with_keywords.csv",
+    "memory_id": "memory_id",
+    "entities": "entities",
+    "relations": "relations",
+    "keywords": "keywords"
+  },
+  "triples": {
+    "path": "D:/memorytable/cassandra-kg-memory/scripts/experiments/artifacts/triples_by_memory.csv",
+    "memory_id": "memory_id",
+    "triples": "triples"
+  },
+  "output": "D:/memorytable/cassandra-kg-memory/scripts/experiments/artifacts/p3_memory_features.csv"
+}

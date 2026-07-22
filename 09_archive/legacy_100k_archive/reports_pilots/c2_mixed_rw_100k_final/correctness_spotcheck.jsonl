@@ -1,0 +1,6 @@
+{"system": "neo4j", "wr": 0, "repeat": 1, "read_hash_pass": true}
+{"system": "cassandra_parallel", "wr": 0, "repeat": 1, "read_hash_pass": true}
+{"system": "neo4j", "wr": 0, "repeat": 2, "read_hash_pass": true}
+{"system": "cassandra_parallel", "wr": 0, "repeat": 2, "read_hash_pass": true}
+{"system": "cassandra_parallel", "wr": 0, "repeat": 3, "read_hash_pass": true}
+{"system": "neo4j", "wr": 0, "repeat": 3, "read_hash_pass": true}

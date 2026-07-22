@@ -1,0 +1,53 @@
+Reference Check - _archive_20260709
+Generated: 2026-07-09 17:47 GMT+8
+Searched: scripts/**/*.py for all candidate file patterns
+
+=== BLOCKED: c3_manifest_scale_1m_h2.jsonl ===
+REFERENCED BY (KEEP dirs):
+  scripts/memory/sysaxis_1m_concurrency/concurrency_cold_sweep.py
+  scripts/memory/sysaxis_1m_concurrency/concurrency_sweep.py
+  scripts/memory/sysaxis_1m_concurrency/concurrency_warm_sweep.py
+  scripts/memory/c3_benchmark/c3_hash_gate.py
+  scripts/memory/c3_benchmark/c3_serial_restore.py
+ACTION: EXCLUDE from archive. Keep in results/.
+
+=== SAFE: c1_manifest_100k_h2.jsonl (10 refs) ===
+All references are inside candidate move dirs:
+  scripts/memory/c1_benchmark/c1_all.py
+  scripts/memory/c1_benchmark/c1_concurrency_sweep.py
+  scripts/memory/c1_benchmark/c1_neo4j_reimport.py
+  scripts/memory/c1_benchmark/c1_preflight.py
+  scripts/memory/c1_benchmark/c1_stability_followup.py
+ACTION: Safe to archive.
+
+=== SAFE: c1_source_100k.csv (6 refs) ===
+All references inside candidate move dirs:
+  scripts/memory/c1_benchmark/c1_all.py
+  scripts/memory/c1_benchmark/c1_neo4j_reimport.py
+  scripts/memory/c1_benchmark/generate_c1_manifest.py
+  scripts/memory/c1_benchmark/prepare_c1_dataset.py
+  scripts/memory/c3_benchmark/c3_serial_restore.py (also moving)
+ACTION: Safe to archive.
+
+=== SAFE: c3_manifest_100k_h2.jsonl (1 ref) ===
+Reference: scripts/memory/c3_benchmark/c3_preflight.py (moving)
+ACTION: Safe to archive.
+
+=== SAFE: c3_manifest_1m_h2.jsonl (1 ref) ===
+Reference: scripts/memory/c3_benchmark/c3_preflight.py (moving)
+ACTION: Safe to archive.
+
+=== SAFE: c3_source_dense_1M.csv ===
+0 references in ANY script.
+ACTION: Safe to archive.
+
+=== REMAINING CANDIDATES (no script refs, safe) ===
+  reports/c1_concurrency_100k_final_fixed/
+  reports/c1_preflight_100k/
+  reports/c2_mixed_rw_100k_final/
+  reports/c2_mixed_rw_pilot/
+  reports/c3_preflight_scale/
+  reports/data_recovery/
+  scripts/memory/c1_benchmark/
+  scripts/memory/c2_benchmark/
+  scripts/memory/c3_benchmark/

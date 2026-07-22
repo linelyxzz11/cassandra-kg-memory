@@ -1,0 +1,6 @@
+﻿metric,expected,actual,pass
+MRR,0.5462,0.5462,True
+R@10,0.807,0.807,True
+rF1,0.3675,0.3675,True
+rEM,0.2113,0.2113,True
+WrongAbst,0.4383,0.4383,True

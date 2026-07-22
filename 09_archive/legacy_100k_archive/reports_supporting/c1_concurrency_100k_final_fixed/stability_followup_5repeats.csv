@@ -1,0 +1,4 @@
+﻿system,clients,additional_repeats,median_QPS,min_QPS,max_QPS,iqr_QPS,median_mean_ms,median_p95_ms,median_p99_ms,avg_CPU_pct,peak_CPU_pct,notes
+cassandra_parallel,32,5,686.052,684.909,699.101,11.016,46.705,79.769,97.153,291.0,472.0,Original 3: QPS 240-641 (IQR=401); New 5: IQR=11 (97% IQR reduction)
+neo4j,32,5,431.501,424.691,434.062,4.842,74.354,170.948,523.84,417.0,831.0,Original 3: QPS 199-345 (IQR=146); New 5: IQR=5 (96% IQR reduction)
+neo4j,64,5,442.968,419.616,448.089,7.036,145.136,313.688,996.773,417.0,941.0,Original 3: QPS 213-270 (IQR=57); New 5: IQR=7 (87% IQR reduction)

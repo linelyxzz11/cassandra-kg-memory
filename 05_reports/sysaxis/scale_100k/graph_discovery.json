@@ -1,0 +1,58 @@
+{
+  "cassandra_candidates": [
+    {
+      "graph_id": "synth_100000_1781447372",
+      "raw_count": 0,
+      "distinct_count": "estimated ~100000",
+      "duplicates": "unknown",
+      "in_100k_range": false,
+      "neo4j_nodes": 6013,
+      "neo4j_edges": 101120,
+      "note": "Legacy synthetic graph from B1 experiment. Not scale-controlled."
+    }
+  ],
+  "neo4j_candidates": [
+    {
+      "graph_id": "synth_100000_1781447372",
+      "node_count": 6013,
+      "edge_count": 101120,
+      "in_100k_range": true
+    },
+    {
+      "graph_id": "c3_scale_100K_seed42",
+      "node_count": 0,
+      "edge_count": 0,
+      "in_100k_range": false
+    },
+    {
+      "graph_id": "c1_100K",
+      "node_count": 0,
+      "edge_count": 0,
+      "in_100k_range": false
+    },
+    {
+      "graph_id": "sysaxis_scale_100K_seed42",
+      "node_count": 0,
+      "edge_count": 0,
+      "in_100k_range": false
+    }
+  ],
+  "archived_sources": [
+    {
+      "file": "c1_source_100k.csv",
+      "size": 7421418,
+      "path": "_archive_20260709\\results_legacy\\c1_source_100k.csv"
+    },
+    {
+      "file": "c1_manifest_100k_h2.jsonl",
+      "size": 70731,
+      "path": "_archive_20260709\\results_legacy\\c1_manifest_100k_h2.jsonl"
+    },
+    {
+      "file": "c3_manifest_100k_h2.jsonl",
+      "size": 56011,
+      "path": "_archive_20260709\\results_legacy\\c3_manifest_100k_h2.jsonl"
+    }
+  ],
+  "recommendation": "synth_100000_1781447372 is the only available 100K graph. Marked as legacy. Cass=~{total} edges, Neo4j=101120 edges, 6013 nodes."
+}

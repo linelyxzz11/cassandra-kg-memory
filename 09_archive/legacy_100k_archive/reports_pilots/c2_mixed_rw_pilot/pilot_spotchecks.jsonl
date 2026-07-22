@@ -1,0 +1,4 @@
+{"system": "cassandra_parallel", "write_ratio": 10, "read_hash_spotcheck_passed": true, "write_validation_passed": true}
+{"system": "neo4j", "write_ratio": 10, "read_hash_spotcheck_passed": true, "write_validation_passed": true}
+{"system": "cassandra_parallel", "write_ratio": 30, "read_hash_spotcheck_passed": true, "write_validation_passed": true}
+{"system": "neo4j", "write_ratio": 30, "read_hash_spotcheck_passed": true, "write_validation_passed": true}

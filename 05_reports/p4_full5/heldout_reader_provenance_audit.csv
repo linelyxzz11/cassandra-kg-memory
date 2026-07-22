@@ -1,0 +1,1151 @@
+﻿qa_id,P3_prediction,P4_prediction,same_prediction,P3_rF1,P4_rF1,same_rF1,P3_rEM,P4_rEM,P3_WrongAbst,P4_WrongAbst
+conv-26_qa_0,Cannot answer,"1:56 pm on 8 May, 2023",False,0.0,0.4,False,0.0,0.0,1.0,0
+conv-26_qa_1,Last year,last year,False,0.0,0.0,True,0.0,0.0,0.0,0
+conv-26_qa_10,4 years,4 years,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-26_qa_100,A safe and loving home.,A safe and loving home.,True,0.3333333333,0.333333,True,0.0,0.0,0.0,0
+conv-26_qa_101,Yes,Yes,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-26_qa_102,"Kids' books- classics, stories from different cultures, educational books","Kids' books- classics, stories from different cultures, educational books",True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-26_qa_103,Charlotte's Web,Charlotte's Web,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-26_qa_104,"""Becoming Nicole"" by Amy Ellis Nutt",Cannot answer,False,0.5,0.0,False,0.0,0.0,0.0,1
+conv-26_qa_105,Cannot answer,Self-acceptance and finding support.,False,0.0,0.833333,False,0.0,0.0,1.0,0
+conv-26_qa_106,Running,Running,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-26_qa_107,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_108,her headspace,her headspace,True,0.4,0.4,True,0.0,0.0,0.0,0
+conv-26_qa_109,pots,pots,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-26_qa_11,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_110,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_111,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_112,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_113,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_114,warmth and happiness,warmth and happiness,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-26_qa_115,They remind her of her wedding day.,They remind her of her wedding day.,True,0.5714285714,0.571429,True,0.0,0.0,0.0,0
+conv-26_qa_116,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_117,once or twice a year,once or twice a year,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-26_qa_118,Perseid meteor shower,Perseid meteor shower,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-26_qa_119,tiny and in awe of the universe,Tiny and in awe of the universe.,False,0.8,0.8,True,0.0,0.0,0.0,0
+conv-26_qa_12,10 years ago,10 years ago,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-26_qa_120,Melanie's daughter's birthday,Her daughter's,False,0.75,0.666667,False,0.0,0.0,0.0,0
+conv-26_qa_121,Matt Patterson,Matt Patterson,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-26_qa_122,To catch the eye and make people smile.,To catch the eye and make people smile.,True,0.875,0.875,True,0.0,0.0,0.0,0
+conv-26_qa_123,"Oscar, my guinea pig.","Oscar, my guinea pig",False,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-26_qa_124,Luna and Oliver,Luna and Oliver,True,0.2857142857,0.285714,True,0.0,0.0,0.0,0
+conv-26_qa_125,In my slipper,In my slipper,True,0.5714285714,0.571429,True,0.0,0.0,0.0,0
+conv-26_qa_126,horseback riding,horseback riding,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-26_qa_127,A stained glass window,a stained glass window,False,1.0,1.0,True,1.0,1.0,0.0,0
+conv-26_qa_128,a cool rainbow sidewalk for Pride Month,a cool rainbow sidewalk for Pride Month,True,0.5,0.5,True,0.0,0.0,0.0,0
+conv-26_qa_129,Brave,Brave,True,0.4,0.4,True,0.0,0.0,0.0,0
+conv-26_qa_13,Counseling and mental health.,Cannot answer,False,0.5454545455,0.0,False,0.0,0.0,0.0,1
+conv-26_qa_130,Bach and Mozart,Bach and Mozart,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-26_qa_131,Ed Sheeran,Ed Sheeran,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-26_qa_132,Seven years now.,Cannot answer,False,0.8,0.0,False,0.0,0.0,0.0,1
+conv-26_qa_133,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_134,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_135,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_136,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_137,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_138,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_139,transgender poetry reading,transgender poetry reading,True,0.4285714286,0.428571,True,0.0,0.0,0.0,0
+conv-26_qa_14,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_140,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_141,freedom and being real,freedom and being real,True,0.6,0.6,True,0.0,0.0,0.0,0
+conv-26_qa_142,"They describe it as a shared journey of learning, exploring, and helping each ot",Life's about learning and exploring.,False,0.3157894737,0.333333,False,0.0,0.0,0.0,0
+conv-26_qa_143,He got into an accident.,He got into an accident.,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-26_qa_144,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_145,She thought about how much she needs them and felt thankful.,She thought about how much she needs them and they mean the world to her.,False,0.1052631579,0.545455,False,0.0,0.0,0.0,0
+conv-26_qa_146,They were scared but we reassured them and explained their brother would be OK.,They were scared but we reassured them and explained their brother would be OK. ,False,0.4210526316,0.347826,False,0.0,0.0,0.0,0
+conv-26_qa_147,She was scared.,scared,False,0.0,0.0,True,0.0,0.0,0.0,0
+conv-26_qa_148,"Thankfully, they enjoyed the Grand Canyon a lot!","Thankfully, they enjoyed the Grand Canyon a lot!",True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-26_qa_149,love and support,love and support,True,0.3333333333,0.333333,True,0.0,0.0,0.0,0
+conv-26_qa_15,"Running, reading, playing violin, hiking, pottery, painting, family camping.","Running, reading, playing violin, hiking, pottery, painting, family camping.",True,0.4615384615,0.461538,True,0.0,0.0,0.0,0
+conv-26_qa_150,Great,Great,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-26_qa_151,camping,camping,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-26_qa_16,yesterday,yesterday,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-26_qa_17,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_18,"mountains, forest","mountains, forest",True,0.8,0.8,True,0.0,0.0,0.0,0
+conv-26_qa_19,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_2,Counseling or mental health.,counseling or mental health,False,0.2857142857,0.285714,True,0.0,0.0,0.0,0
+conv-26_qa_20,Cannot answer,"6 July, 2023",False,0.0,0.666667,False,0.0,0.0,1.0,0
+conv-26_qa_21,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_22,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_23,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_24,Running.,Running,False,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-26_qa_25,Cannot answer,"12 July, 2023",False,0.0,0.666667,False,0.0,0.0,1.0,0
+conv-26_qa_26,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_27,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_28,Last Friday,Last Friday,True,0.2857142857,0.285714,True,0.0,0.0,0.0,0
+conv-26_qa_29,Last Fri,"Last Fri (15 July, 2023)",False,0.0,0.6,False,0.0,0.0,0.0,0
+conv-26_qa_3,adoption agencies,adoption agencies,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-26_qa_30,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_31,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_32,"LGBTQ+ pride parade, LGBTQ support group, mentorship program for LGBTQ youth, LG","LGBTQ+ pride parade, LGBTQ support group, mentorship program for LGBTQ youth, LG",True,0.347826087,0.347826,True,0.0,0.0,0.0,0
+conv-26_qa_33,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_34,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_35,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_36,Last weekend,Last weekend,True,0.2857142857,0.285714,True,0.0,0.0,0.0,0
+conv-26_qa_37,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_38,"Played games, ate good food, hung out, camping trip, roasted marshmallows, told ","Played games, ate good food, hung out, camping trip, roasted marshmallows, told ",False,0.0952380952,0.095238,True,0.0,0.0,0.0,0
+conv-26_qa_39,"Joining a mentorship program, attending a pride parade, joining an activist grou","Joining a mentorship program, attending a pride parade, joining an activist grou",True,0.5,0.5,True,0.0,0.0,0.0,0
+conv-26_qa_4,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_40,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_41,last Tues,last Tues,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-26_qa_42,national park,Cannot answer,False,0.5714285714,0.0,False,0.0,0.0,0.0,1
+conv-26_qa_43,Cannot answer,Paintings,False,0.0,0.0,True,0.0,0.0,1.0,0
+conv-26_qa_44,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_45,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_46,Yes,Yes,True,0.4,0.4,True,0.0,0.0,0.0,0
+conv-26_qa_47,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_48,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_49,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_5,"25 May, 2023",last Saturday,False,0.75,0.0,False,0.0,0.0,0.0,0
+conv-26_qa_50,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_51,lake sunrise,lake sunrise,True,0.4,0.4,True,0.0,0.0,0.0,0
+conv-26_qa_52,Luna and Oliver,"Luna, Oliver, and Bailey",False,0.6666666667,0.857143,False,0.0,0.0,0.0,0
+conv-26_qa_53,"23 August, 2023","23 August, 2023",True,0.75,0.75,True,0.0,0.0,0.0,0
+conv-26_qa_54,last week,Last week.,False,0.2857142857,0.285714,True,0.0,0.0,0.0,0
+conv-26_qa_55,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_56,The rainbow flag mural and the eagle.,"Necklace, rainbow flag mural, eagle, painting.",False,0.4444444444,0.4,False,0.0,0.0,0.0,0
+conv-26_qa_57,"17 August, 2023","17 August, 2023",True,0.5,0.5,True,0.0,0.0,0.0,0
+conv-26_qa_58,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_59,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_6,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_60,clarinet and violin,"clarinet, violin",False,1.0,0.8,False,1.0,0.0,0.0,0
+conv-26_qa_61,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_62,"28 August, 2023","28 August, 2023",True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-26_qa_63,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_64,Yes,Yes,True,0.3333333333,0.333333,True,0.0,0.0,0.0,0
+conv-26_qa_65,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_66,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_67,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_68,Seven years now,Seven years now,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-26_qa_69,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_7,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_70,"Transgender poetry reading, transgender conference, LGBTQ conference, LGBTQ+ cou","Transgender poetry reading, transgender conference, LGBTQ conference, LGBTQ+ cou",True,0.4615384615,0.461538,True,0.0,0.0,0.0,0
+conv-26_qa_71,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_72,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_73,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_74,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_75,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_76,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_77,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_78,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_79,Cannot answer,"22 October, 2023",False,0.0,0.75,False,0.0,0.0,1.0,0
+conv-26_qa_8,"9 June, 2023",Cannot answer,False,0.75,0.0,False,0.0,0.0,0.0,1
+conv-26_qa_80,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_81,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_82,mental health,mental health,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-26_qa_83,Self-care is really important.,Self-care is really important.,True,0.8888888889,0.888889,True,0.0,0.0,0.0,0
+conv-26_qa_84,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_85,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_86,LGBTQ+ folks,LGBTQ+ folks,True,0.5,0.5,True,0.0,0.0,0.0,0
+conv-26_qa_87,They help LGBTQ+ folks with adoption.,They help LGBTQ+ folks with adoption.,True,0.1333333333,0.133333,True,0.0,0.0,0.0,0
+conv-26_qa_88,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_89,Cannot answer,Amazing.,False,0.0,0.153846,False,0.0,0.0,1.0,0
+conv-26_qa_9,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_90,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_91,"love, faith and strength","love, faith and strength",True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-26_qa_92,Sweden,Sweden,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-26_qa_93,necklace,A necklace,False,1.0,1.0,True,1.0,1.0,0.0,0
+conv-26_qa_94,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_95,"Roasted marshmallows, told stories around the campfire, explored nature, and wen","roasted marshmallows, told stories around the campfire, explored nature, went on",False,0.8,0.736842,False,0.0,0.0,0.0,0
+conv-26_qa_96,working with trans people,Working with trans people.,False,0.4705882353,0.470588,True,0.0,0.0,0.0,0
+conv-26_qa_97,LGBTQ+ counseling workshop,LGBTQ+ counseling workshop,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-26_qa_98,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-26_qa_99,Her own journey and the support she got.,Her own journey and the support she got.,True,0.6,0.6,True,0.0,0.0,0.0,0
+conv-30_qa_0,"20 January, 2023","20 January, 2023",True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-30_qa_1,Cannot answer,"20 January, 2023",False,0.0,0.8,False,0.0,0.0,1.0,0
+conv-30_qa_10,Cannot answer,"9:32 am on 8 February, 2023",False,0.0,0.444444,False,0.0,0.0,1.0,0
+conv-30_qa_11,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_12,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_13,Cannot answer,"16 March, 2023",False,0.0,1.0,False,0.0,1.0,1.0,0
+conv-30_qa_14,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_15,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_16,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_17,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_18,Yes,Yes,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-30_qa_19,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_2,Dance,Dance,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-30_qa_20,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_21,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_22,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_23,"Working with fashion bloggers and influencers, and doing more ads.","Working with fashion bloggers and influencers, and doing more ads.",True,0.15,0.15,True,0.0,0.0,0.0,0
+conv-30_qa_24,"networking events, a fair, an event","networking events, a fair, an event",True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-30_qa_25,"Dance classes, workshops, and one-on-one mentoring and training.","Dance classes, workshops, and one-on-one mentoring and training.",True,0.6153846154,0.615385,True,0.0,0.0,0.0,0
+conv-30_qa_26,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_27,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_28,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_29,"Paris, Rome","Paris, Rome",True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-30_qa_3,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_30,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_31,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_32,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_33,Cannot answer,"21 June, 2023",False,0.0,0.666667,False,0.0,0.0,1.0,0
+conv-30_qa_34,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_35,"9 July, 2023","9 July, 2023",True,0.8,0.8,True,0.0,0.0,0.0,0
+conv-30_qa_36,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_37,"6:46 pm on 23 July, 2023","6:46 pm on 23 July, 2023",True,0.6,0.6,True,0.0,0.0,0.0,0
+conv-30_qa_38,Last Friday,Last Friday,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-30_qa_39,Contemporary dance,Contemporary dance,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-30_qa_4,He is passionate about dancing and wants to share it with others.,He is passionate about dancing and wants to share it with others.,True,0.2962962963,0.296296,True,0.0,0.0,0.0,0
+conv-30_qa_40,contemporary,Contemporary,False,1.0,1.0,True,1.0,1.0,0.0,0
+conv-30_qa_41,When my team won first place at a regionals at age fifteen.,When her team won first place at a regionals at age fifteen.,False,0.4444444444,0.444444,True,0.0,0.0,0.0,0
+conv-30_qa_42,"contemporary piece called ""Finding Freedom""","contemporary piece called ""Finding Freedom""",True,0.5714285714,0.571429,True,0.0,0.0,0.0,0
+conv-30_qa_43,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_44,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_45,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_46,Marley flooring,Marley flooring,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-30_qa_47,A wholesaler who replied yes.,Cannot answer,False,0.0,0.0,True,0.0,0.0,0.0,1
+conv-30_qa_48,a cozy and inviting space,a space,False,0.5,0.4,False,0.0,0.0,0.0,0
+conv-30_qa_49,Like they're in a cool oasis.,cool oasis,False,0.0,0.0,True,0.0,0.0,0.0,0
+conv-30_qa_5,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_50,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_51,She wanted the place to look like her own style and make customers feel cozy.,She wanted to make the place look like her own style and make customers feel coz,False,0.2105263158,0.2,False,0.0,0.0,0.0,0
+conv-30_qa_52,That's a great goal! Creating a special experience for customers is the key to m,That's a great goal! Creating a special experience for customers is the key to m,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-30_qa_53,Creating an experience that'll make 'em wanna come back.,Making my spot comfortable and inviting for my customers is key. I want 'em to f,False,0.2666666667,0.263158,False,0.0,0.0,0.0,0
+conv-30_qa_54,Great.,Going good.,False,0.4,0.0,False,0.0,0.0,0.0,0
+conv-30_qa_55,freedom - dancing without worrying what people think,freedom - dancing without worrying what people think,True,0.1538461538,0.153846,True,0.0,0.0,0.0,0
+conv-30_qa_56,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_57,Stay motivated by reminding yourself of successes and progress; have a good supp,"Stay motivated by reminding yourself of successes and progress, have a good supp",False,0.0714285714,0.060606,False,0.0,0.0,0.0,0
+conv-30_qa_58,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_59,She is passionate about dance and fashion.,She is passionate about dance and fashion.,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-30_qa_6,Cannot answer,next month,False,0.0,0.0,True,0.0,0.0,1.0,0
+conv-30_qa_60,Happy,happy,False,1.0,1.0,True,1.0,1.0,0.0,0
+conv-30_qa_61,a trophy,a trophy,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-30_qa_62,She reminds herself of her successes and progress and has a good support system.,She reminds herself of her successes and progress.,False,0.6666666667,0.56,False,0.0,0.0,0.0,0
+conv-30_qa_63,Cannot answer,fashion internship,False,0.0,1.0,False,0.0,1.0,1.0,0
+conv-30_qa_64,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_65,The Lean Startup,The Lean Startup,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-30_qa_66,one-on-one mentoring and training,one-on-one mentoring and training,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-30_qa_67,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_68,quit,quit,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-30_qa_69,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_7,"2:32 pm on 29 January, 2023","2:32 pm on 29 January, 2023",True,0.6,0.6,True,0.0,0.0,0.0,0
+conv-30_qa_70,a dance studio,a dance studio,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-30_qa_71,Cannot answer,amazing,False,0.0,1.0,False,0.0,1.0,1.0,0
+conv-30_qa_72,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_73,magical,magical,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-30_qa_74,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_75,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-30_qa_76,Positive,Positive,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-30_qa_77,Cannot answer,hoodie,False,0.0,0.0,True,0.0,0.0,1.0,0
+conv-30_qa_78,Loving what you do and bringing joy to others.,Loving what you do and bringing joy to others,False,0.1538461538,0.153846,True,0.0,0.0,0.0,0
+conv-30_qa_8,"29 January, 2023","29 January, 2023",True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-30_qa_80,"Sprucing up his biz plan, tweaking his pitch, and working on an online platform.","Sprucing up his biz plan, tweaking his pitch to investors, and working on an onl",False,0.8571428571,0.933333,False,0.0,0.0,0.0,0
+conv-30_qa_81,Let's create some cool content and manage your social media accounts.,Let's create some cool content and manage your social media accounts.,True,0.4545454545,0.454545,True,0.0,0.0,0.0,0
+conv-30_qa_9,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_0,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_1,yesterday,"22 December, 2022",False,0.0,0.666667,False,0.0,0.0,0.0,0
+conv-41_qa_10,"8:55 pm on 25 February, 2023","25 February, 2023",False,0.4,0.666667,False,0.0,0.0,0.0,0
+conv-41_qa_100,heartwarming,heartwarming,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_101,a fundraiser,a fundraiser,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_102,the chili cook-off,chili cook-off,False,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_103,Max,Max,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_104,10 years,10 years,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_105,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_106,responsibility and compassion,responsibility and compassion,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_107,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_108,I felt like I was in a fairy tale!,I felt like I was in a fairy tale!,True,0.6153846154,0.615385,True,0.0,0.0,0.0,0
+conv-41_qa_109,free and light,free and light,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_11,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_110,She joined a gym.,She joined a gym.,True,0.8,0.8,True,0.0,0.0,0.0,0
+conv-41_qa_111,kundalini yoga,kundalini yoga,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_112,assistant manager,assistant manager,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_113,self-doubt,self-doubt,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_114,Support from loved ones is vital.,Support from loved ones is vital.,True,0.1428571429,0.142857,True,0.0,0.0,0.0,0
+conv-41_qa_115,live music event,live music event,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_116,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_117,marching event for veterans' rights,marching event for veterans' rights,True,0.5714285714,0.571429,True,0.0,0.0,0.0,0
+conv-41_qa_118,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_119,at least once a week,At least once a week.,False,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_12,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_120,flood,flood,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_121,Lots of homes were ruined.,Lots of homes were ruined.,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_122,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_123,Have dinner with some friends from the gym.,Have dinner with some friends from the gym.,True,0.9230769231,0.923077,True,0.0,0.0,0.0,0
+conv-41_qa_124,charades and a scavenger hunt,Played games and ate yummy food.,False,0.7272727273,0.461538,False,0.0,0.0,0.0,0
+conv-41_qa_125,He heard cool stories from an elderly veteran named Samuel.,hearing cool stories from an elderly veteran named Samuel,False,0.125,0.133333,False,0.0,0.0,0.0,0
+conv-41_qa_126,It made him appreciate what we have and the need to give back.,He heard cool stories from an elderly veteran named Samuel and felt inspired by ,False,0.125,0.0,False,0.0,0.0,0.0,0
+conv-41_qa_127,He heard cool stories from an elderly veteran named Samuel.,He heard cool stories from an elderly veteran named Samuel.,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-41_qa_128,picnic,hiking,False,0.0,1.0,False,0.0,1.0,0.0,0
+conv-41_qa_129,Trying new stuff is a great way to push yourself and mix things up.,Cannot answer,False,0.5,0.0,False,0.0,0.0,0.0,1
+conv-41_qa_13,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_130,kickboxing and circuit training,"kickboxing, circuit training, and weight training",False,0.3333333333,0.5,False,0.0,0.0,0.0,0
+conv-41_qa_131,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_132,She reached out to the shelter and asked if they needed volunteers.,She reached out to the shelter and asked if they needed volunteers.,True,0.4761904762,0.47619,True,0.0,0.0,0.0,0
+conv-41_qa_133,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_134,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_135,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_136,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_137,He lost his job.,He lost his job.,True,0.5,0.5,True,0.0,0.0,0.0,0
+conv-41_qa_138,community work,community work,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_139,He helped renovate a rundown community center.,He helped renovate a rundown community center.,True,0.9090909091,0.909091,True,0.0,0.0,0.0,0
+conv-41_qa_14,Yes,Yes,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_140,veterans and their families,veterans and their families,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_141,a local organization,a local organization,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_142,a medal,a medal,True,0.5,0.5,True,0.0,0.0,0.0,0
+conv-41_qa_143,Coco,Coco,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_144,Camping trip,Camping trip,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-41_qa_145,a blast,Cannot answer,False,0.0,0.0,True,0.0,0.0,0.0,1
+conv-41_qa_146,He feels he isn't making much of an impact.,He feels he is not making much of an impact.,False,0.5,0.625,False,0.0,0.0,0.0,0
+conv-41_qa_147,Shadow,Shadow,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_148,The little one is doing great - learning commands and house training.,doing great,False,0.8235294118,0.444444,False,0.0,0.0,0.0,0
+conv-41_qa_149,mentor for a local school,mentor for a local school,True,0.4444444444,0.444444,True,0.0,0.0,0.0,0
+conv-41_qa_15,"creative writing class, poetry class","creative writing class, poetry class",True,0.75,0.75,True,0.0,0.0,0.0,0
+conv-41_qa_150,"Climbing, sliding, playing games, swinging, arts and crafts, walks, picnics, and","Climbing, sliding, playing games, swinging, arts and crafts, walks, picnics, vio",False,0.2142857143,0.222222,False,0.0,0.0,0.0,0
+conv-41_qa_151,a brand new fire truck,a brand new fire truck,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_16,Last week.,last week,False,0.2857142857,0.285714,True,0.0,0.0,0.0,0
+conv-41_qa_17,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_18,Cannot answer,a colleague,False,0.0,0.0,True,0.0,0.0,1.0,0
+conv-41_qa_19,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_2,"kickboxing, taekwondo",Cannot answer,False,1.0,0.0,False,1.0,0.0,0.0,1
+conv-41_qa_20,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_21,"East Coast, Pacific Northwest","East Coast, Pacific Northwest",True,1.0,1.0,True,0.0,0.0,0.0,0
+conv-41_qa_22,last month,Cannot answer,False,0.0,0.0,True,0.0,0.0,0.0,1
+conv-41_qa_23,Cannot answer,peach cobbler,False,0.0,0.571429,False,0.0,0.0,1.0,0
+conv-41_qa_24,last month,last month,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-41_qa_25,Cannot answer,"Spain, England",False,0.0,1.0,False,0.0,1.0,1.0,0
+conv-41_qa_26,Joined a nearby church and bought a cross necklace.,Joined a nearby church and bought a cross necklace.,True,0.4615384615,0.461538,True,0.0,0.0,0.0,0
+conv-41_qa_27,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_28,"veterans, education, and infrastructure",veterans,False,0.5714285714,0.5,False,0.0,0.0,0.0,0
+conv-41_qa_29,ring-toss tournament,Cannot answer,False,0.6666666667,0.0,False,0.0,0.0,0.0,1
+conv-41_qa_3,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_30,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_31,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_32,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_33,"aerial yoga, kundalini yoga","aerial yoga, kundalini yoga",True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-41_qa_34,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_35,Florida,Florida,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-41_qa_36,"violin concert, live music event","violin concert, live music event",True,1.0,1.0,True,0.0,0.0,0.0,0
+conv-41_qa_37,"Marching event, 5K charity run, small party.","Marching event, 5K charity run, small party.",True,0.5,0.5,True,0.0,0.0,0.0,0
+conv-41_qa_38,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_39,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_4,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_40,Kyle,Kyle,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-41_qa_41,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_42,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_43,last week,last week,True,0.2857142857,0.285714,True,0.0,0.0,0.0,0
+conv-41_qa_44,"picnic, hiking, camping, community work","Picnic, hiking, community work, camping.",False,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-41_qa_45,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_46,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_47,weight training,weight training,True,0.5,0.5,True,0.0,0.0,0.0,0
+conv-41_qa_48,Last Sunday,Last Sunday,True,0.2857142857,0.285714,True,0.0,0.0,0.0,0
+conv-41_qa_49,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_5,last month,Cannot answer,False,0.0,0.0,True,0.0,0.0,0.0,1
+conv-41_qa_50,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_51,About a year ago.,about a year ago,False,0.0,0.0,True,0.0,0.0,0.0,0
+conv-41_qa_52,Laura and Cindy,Laura and Cindy,True,0.8,0.8,True,0.0,0.0,0.0,0
+conv-41_qa_53,Last year,Last year,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-41_qa_54,Yesterday,Cannot answer,False,0.0,0.0,True,0.0,0.0,0.0,1
+conv-41_qa_55,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_56,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_57,"veterans and their families, victims of domestic abuse","veterans and their families, victims of domestic abuse",True,0.25,0.25,True,0.0,0.0,0.0,0
+conv-41_qa_58,Two weeks ago.,Two weeks ago.,True,0.4444444444,0.444444,True,0.0,0.0,0.0,0
+conv-41_qa_59,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_6,At a volunteer event and at church.,Cannot answer,False,0.2,0.0,False,0.0,0.0,0.0,1
+conv-41_qa_60,Shadow and Coco,Shadow and Coco,True,0.8,0.8,True,0.0,0.0,0.0,0
+conv-41_qa_61,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_62,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_63,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_64,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_65,Improving education and infrastructure in our community.,improving education and infrastructure in our community,False,0.7272727273,0.727273,True,0.0,0.0,0.0,0
+conv-41_qa_66,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_67,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_68,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_69,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_7,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_70,Pizza,Pizza,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_71,service-focused online group,A service-focused online group.,False,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_72,They went to a homeless shelter to give out food and supplies and organized a to,They went to a homeless shelter to give out food and supplies and organized a to,True,0.7647058824,0.764706,True,0.0,0.0,0.0,0
+conv-41_qa_73,Her aunt,Her aunt,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_74,The little girl seemed sad and was sitting alone.,The little girl seemed sad and was sitting alone.,True,0.5,0.5,True,0.0,0.0,0.0,0
+conv-41_qa_75,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_76,"After his last run, he saw the impact he could make in the community through pol","After his last run, he saw the impact he could make in the community through pol",True,0.7826086957,0.782609,True,0.0,0.0,0.0,0
+conv-41_qa_77,beginner's yoga class,beginner's yoga class,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_78,Kyle,Kyle,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_79,a few times a week,a few times a week,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_8,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_80,a painting,a painting,True,0.3333333333,0.333333,True,0.0,0.0,0.0,0
+conv-41_qa_81,London,London,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-41_qa_82,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_83,Improving education and infrastructure.,education and infrastructure,False,0.8571428571,1.0,False,0.0,1.0,0.0,0
+conv-41_qa_84,a 5K charity run for a homeless shelter,a 5K charity run for a homeless shelter,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-41_qa_85,career fair at a local school,career fair,False,1.0,0.571429,False,1.0,0.0,0.0,0
+conv-41_qa_86,His car broke down.,His car broke down.,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_87,Pacific Northwest,Pacific Northwest,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_88,politics and the government,politics and the government,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_89,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_9,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_90,politics and the government,politics and the government,True,0.25,0.25,True,0.0,0.0,0.0,0
+conv-41_qa_91,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_92,a few times a week,a few times a week,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-41_qa_93,"More energy, gains in strength and endurance.","More energy, gains in strength and endurance.",True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_94,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_95,Made some dinner together.,Made some dinner together.,True,0.8571428571,0.857143,True,0.0,0.0,0.0,0
+conv-41_qa_96,Joined a nearby church.,Joined a nearby church.,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-41_qa_97,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-41_qa_98,a small party,a small party,True,0.5,0.5,True,0.0,0.0,0.0,0
+conv-41_qa_99,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_0,"Winning a championship, improving shooting, being a consistent performer, helpin","Winning a championship, improving shooting, being a consistent performer, helpin",True,0.2666666667,0.266667,True,0.0,0.0,0.0,0
+conv-43_qa_1,"Making a difference through charity or inspiring people, and building his brand.",charity or inspiring people,False,0.3157894737,0.166667,False,0.0,0.0,0.0,0
+conv-43_qa_10,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_100,Four years.,Four years.,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_101,Amazing.,Amazing.,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_102,"Trust me, NYC is amazing!","Trust me, NYC is amazing!",True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-43_qa_103,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_104,sage,sage,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_105,Harry Potter stuff,Harry Potter stuff,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_106,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_107,Edinburgh,Edinburgh,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-43_qa_108,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_109,Make sure they align with your values and brand.,Make sure they align with your values and brand.,True,0.4848484848,0.484848,True,0.0,0.0,0.0,0
+conv-43_qa_11,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_110,a fantasy novel by Patrick Rothfuss,a fantasy novel by Patrick Rothfuss,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_111,greenhouse venue,greenhouse venue,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-43_qa_112,A cozy restaurant.,a cozy restaurant,False,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_113,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_114,fantasy stuff,fantasy stuff,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-43_qa_115,intense season with both tough losses and great wins,intense season with both tough losses and great wins,True,0.875,0.875,True,0.0,0.0,0.0,0
+conv-43_qa_116,We back each other up and won't quit.,We back each other up and won't quit.,True,0.4705882353,0.470588,True,0.0,0.0,0.0,0
+conv-43_qa_117,Facing tough opponents.,Facing tough opponents.,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_118,a trophy,a trophy,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_119,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_12,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_120,It feels great.,It feels great.,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_121,"Seeing their growth, improvement, and confidence.","Seeing their growth, improvement, and confidence.",True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_122,"Their growth, improvement, and confidence.","growth, improvement, and confidence",False,0.25,0.0,False,0.0,0.0,0.0,0
+conv-43_qa_123,fantasy,Cannot answer,False,1.0,0.0,False,1.0,0.0,0.0,1
+conv-43_qa_124,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_125,"""Turn on the light - happiness hides in the darkest of times.""","""Turn on the light - happiness hides in the darkest of times.""",True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_126,motivational quotes and strategies,motivational quotes and strategies,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_127,Cooking,cooking,False,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_128,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_129,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_13,Reads books.,Reads books.,True,0.4,0.4,True,0.0,0.0,0.0,0
+conv-43_qa_130,got stuck on a plot twist,got stuck on a plot twist,True,0.9090909091,0.909091,True,0.0,0.0,0.0,0
+conv-43_qa_131,a basketball signed by his favorite player,a basketball signed by his favorite player,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_132,Tim finds LeBron inspiring for his never-give-up attitude and epic block; John a,Tim finds LeBron inspiring because of his never-give-up attitude and a Finals bl,False,0.2352941176,0.307692,False,0.0,0.0,0.0,0
+conv-43_qa_133,spectacular,spectacular,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_134,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_135,Cannot answer,writing and reading,False,0.0,0.285714,False,0.0,0.0,1.0,0
+conv-43_qa_136,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_137,"He tried writing a story based on his experiences in the UK, but it didn't go th","He tried writing a story based on his experiences in the UK, but it didn't go th",True,0.6206896552,0.62069,True,0.0,0.0,0.0,0
+conv-43_qa_138,He stayed focused on his recovery and worked hard to strengthen his body.,He stayed focused on his recovery and worked hard to strengthen his body.,True,0.9166666667,0.916667,True,0.0,0.0,0.0,0
+conv-43_qa_139,Remembering why he loves what he does.,"When things get tough, it's so important to remember why we love what we do.",False,0.0,0.095238,False,0.0,0.0,0.0,0
+conv-43_qa_14,Tim writes articles about fantasy novels.,Articles about fantasy novels.,False,0.2142857143,0.230769,False,0.0,0.0,0.0,0
+conv-43_qa_140,He worked hard to get better.,He worked hard to get better.,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-43_qa_141,The Alchemist,The Alchemist,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_142,It made him think again about following dreams and searching for our own persona,It made him think again about following dreams and searching for his own persona,False,0.8888888889,0.814815,False,0.0,0.0,0.0,0
+conv-43_qa_143,yoga,yoga,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_144,30-60 seconds,30-60 seconds,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_145,near his hometown,a forest near my hometown,False,1.0,0.571429,False,1.0,0.0,0.0,0
+conv-43_qa_146,an instrument,an instrument,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_147,Violin,Violin,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_148,Cannot answer,About four months,False,0.0,1.0,False,0.0,1.0,1.0,0
+conv-43_qa_149,A Dance with Dragons,A Dance with Dragons,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_15,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_150,A Dance with Dragons,A Dance with Dragons,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_151,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_152,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_153,practicing basketball outside for hours,Practicing basketball outside for hours.,False,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_154,Electric,electric,False,0.5,0.5,True,0.0,0.0,0.0,0
+conv-43_qa_155,relief,It was a huge success.,False,0.0,1.0,False,0.0,1.0,0.0,0
+conv-43_qa_156,Cannot answer,amazing deal with a renowned outdoor gear company,False,0.0,0.923077,False,0.0,0.0,1.0,0
+conv-43_qa_157,A gorgeous forest.,A gorgeous forest,False,0.8,0.8,True,0.0,0.0,0.0,0
+conv-43_qa_158,communication and bonding,communication and bonding,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_159,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_16,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_160,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_161,youth sports,youth sports,True,0.4444444444,0.444444,True,0.0,0.0,0.0,0
+conv-43_qa_162,The Wheel of Time,The Wheel of Time,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_163,German,German,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_164,Cannot answer,French,False,0.0,0.0,True,0.0,0.0,1.0,0
+conv-43_qa_165,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_166,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_167,Aragorn,Aragorn,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_168,"Aragorn's brave, selfless, down-to-earth attitude inspired him.","Aragorn's brave, selfless, down-to-earth attitude inspired him.",True,0.75,0.75,True,0.0,0.0,0.0,0
+conv-43_qa_169,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_17,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_170,a leader,Cannot answer,False,0.6666666667,0.0,False,0.0,0.0,0.0,1
+conv-43_qa_171,A map of Middle-earth from LOTR,A map of Middle-earth from LOTR,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_172,Ireland,Ireland,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_173,Galway,Galway,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_174,Cannot answer,benefit basketball game,False,0.0,1.0,False,0.0,1.0,1.0,0
+conv-43_qa_175,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_176,It felt crazy.,It felt crazy.,True,0.25,0.25,True,0.0,0.0,0.0,0
+conv-43_qa_177,Barcelona,Barcelona,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_18,Patrick Rothfuss,Patrick Rothfuss,True,0.2352941176,0.235294,True,0.0,0.0,0.0,0
+conv-43_qa_19,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_2,jerseys,jerseys,True,0.3333333333,0.333333,True,0.0,0.0,0.0,0
+conv-43_qa_20,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_21,"New York City, Seattle, Chicago","New York City, Seattle, Chicago",True,0.8888888889,0.888889,True,0.0,0.0,0.0,0
+conv-43_qa_22,15th,15th,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-43_qa_23,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_24,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_25,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_26,The Wheel of Time,The Wheel of Time,True,0.8571428571,0.857143,True,0.0,0.0,0.0,0
+conv-43_qa_27,"25 minutes on, then 5 minutes off","25 minutes on, then 5 minutes off",True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-43_qa_28,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_29,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_3,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_30,"New York City, Seattle, Chicago","New York City, Seattle, Chicago",True,0.7272727273,0.727273,True,0.0,0.0,0.0,0
+conv-43_qa_31,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_32,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_33,Cannot answer,next month,False,0.0,0.0,True,0.0,0.0,1.0,0
+conv-43_qa_34,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_35,"Camping, hiking.","Camping, hiking.",True,0.5,0.5,True,0.0,0.0,0.0,0
+conv-43_qa_36,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_37,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_38,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_39,Cannot answer,2023,False,0.0,0.0,True,0.0,0.0,1.0,0
+conv-43_qa_4,The Name of the Wind,Cannot answer,False,0.3,0.0,False,0.0,0.0,0.0,1
+conv-43_qa_40,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_41,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_42,honey garlic chicken with roasted veg,honey garlic chicken with roasted veg,True,0.7058823529,0.705882,True,0.0,0.0,0.0,0
+conv-43_qa_43,"His work ethic, dedication, determination, and heart.","His work ethic, dedication, determination, heart, skills, and leadership.",False,0.6153846154,0.8,False,0.0,0.0,0.0,0
+conv-43_qa_44,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_45,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_46,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_47,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_48,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_49,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_5,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_50,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_51,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_52,Strength training.,Strength training,False,0.8,0.8,True,0.0,0.0,0.0,0
+conv-43_qa_53,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_54,Cannot answer,Last year,False,0.0,0.0,True,0.0,0.0,1.0,0
+conv-43_qa_55,Just under a year ago.,just under a year ago,False,0.0,0.0,True,0.0,0.0,0.0,0
+conv-43_qa_56,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_57,"piano, violin","piano, violin",True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_58,Last August,August 2023,False,0.5,1.0,False,0.0,1.0,0.0,0
+conv-43_qa_59,40 points and career-high in assists.,career-high in assists,False,0.0,0.0,True,0.0,0.0,0.0,0
+conv-43_qa_6,July,July,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-43_qa_60,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_61,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_62,He gives seminars.,He shares his knowledge by giving seminars.,False,0.5,0.166667,False,0.0,0.0,0.0,0
+conv-43_qa_63,last summer,last summer,True,0.5,0.5,True,0.0,0.0,0.0,0
+conv-43_qa_64,December,December,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-43_qa_65,"Star Wars, Lord of the Rings","Star Wars, Lord of the Rings",True,0.7692307692,0.769231,True,0.0,0.0,0.0,0
+conv-43_qa_66,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_67,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_68,Friday,Friday,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-43_qa_69,Next month,Next month,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-43_qa_7,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_70,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_71,The Minnesota Wolves,The Minnesota Wolves,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_72,shooting guard,shooting guard,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_73,Fitting into the new team's style of play.,Fitting into the new team's style of play,False,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_74,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_75,fantasy literature forum,fantasy literature forum,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_76,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_77,40,40,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-43_qa_78,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_79,basketball shoe and gear deal; potential sponsorship,"A basketball shoe and gear deal, and a potential sponsorship.",False,0.7368421053,0.7,False,0.0,0.0,0.0,0
+conv-43_qa_8,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_80,Seattle,Seattle,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_81,Five years ago,Five years.,False,0.8,1.0,False,0.0,1.0,0.0,0
+conv-43_qa_82,The feeling was unreal!,The feeling was unreal!,True,0.25,0.25,True,0.0,0.0,0.0,0
+conv-43_qa_83,"different fantasy novels, studying characters, themes, and making book recommend",fantasy novels,False,0.8888888889,0.4,False,0.0,0.0,0.0,0
+conv-43_qa_84,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_85,Harry Potter trivia,Harry Potter trivia,True,0.75,0.75,True,0.0,0.0,0.0,0
+conv-43_qa_86,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_87,awesome,awesome,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_88,He watched NBA games with his dad and was signed up for a local league at age te,He watched NBA games with his dad and was signed up for a local league at age te,True,0.5,0.5,True,0.0,0.0,0.0,0
+conv-43_qa_89,Winning a championship,Winning a championship,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_9,Nike and Gatorade,Nike and Gatorade,True,0.2857142857,0.285714,True,0.0,0.0,0.0,0
+conv-43_qa_90,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_91,15th,15th,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-43_qa_92,A sign of their friendship.,A sign of their friendship.,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-43_qa_93,To show our friendship and appreciation.,To show their friendship and appreciation.,False,0.8333333333,1.0,False,0.0,1.0,0.0,0
+conv-43_qa_94,To learn more about literature and create a stronger bond to it.,To learn more about literature and create a stronger bond to it.,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_95,piano,piano,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-43_qa_96,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-43_qa_97,Watching it with his family.,Watching it with his family.,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_98,Home Alone,Home Alone,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-43_qa_99,Watching movies,Watching movies,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-44_qa_0,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_1,Cannot answer,"27 March, 2023",False,0.0,0.75,False,0.0,0.0,1.0,0
+conv-44_qa_10,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_100,knee injury,knee injury,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_101,jewelry out of recycled stuff,jewelry out of recycled stuff,True,0.4,0.4,True,0.0,0.0,0.0,0
+conv-44_qa_102,To show her love of creativity and sustainability.,To show her love of creativity and sustainability.,True,0.8,0.8,True,0.0,0.0,0.0,0
+conv-44_qa_103,animal shelter,animal shelter,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_104,She donates to an animal shelter.,She donates to an animal shelter.,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-44_qa_105,Fetch and Frisbee,Fetch and Frisbee,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_106,goodies,goodies,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_107,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_108,They hate snow.,They were confused.,False,0.1818181818,0.181818,True,0.0,0.0,0.0,0
+conv-44_qa_109,Exploring the great outdoors.,exploring the great outdoors,False,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_11,Last Sunday,Last Sunday,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-44_qa_110,Walks,Walks,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-44_qa_111,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_112,Sushi,Sushi,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_113,California or salmon roll,California or salmon roll,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_114,picnic date,picnic date,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_115,Cannot answer,Explore.,False,0.0,0.0,True,0.0,0.0,1.0,0
+conv-44_qa_116,autumn colors,autumn colors,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_117,Joined a dog owners group.,Joined a dog owners group.,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_118,Once a week,Once a week,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_119,A pic of how she entertains them in her house with toys and games.,A pic of how she entertains them in her house with toys and games.,True,0.1,0.1,True,0.0,0.0,0.0,0
+conv-44_qa_12,Cannot answer,"rock climbing, kayaking, bungee jumping",False,0.0,0.444444,False,0.0,0.0,1.0,0
+conv-44_qa_120,"puzzles, training, hide-and-seek","puzzles, training, hide-and-seek",True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_121,Take them to a nearby park.,Take them to a nearby park.,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_122,"a bed, toys, and some puppy pads","a bed, toys, and some puppy pads",True,0.7692307692,0.769231,True,0.0,0.0,0.0,0
+conv-44_qa_13,Cannot answer,"26 June, 2023",False,0.0,0.8,False,0.0,0.0,1.0,0
+conv-44_qa_14,Nature,nature,False,0.5,0.5,True,0.0,0.0,0.0,0
+conv-44_qa_15,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_16,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_17,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_18,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_19,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_2,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_20,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_21,Cannot answer,Agility classes and a dog training course.,False,0.0,0.470588,False,0.0,0.0,1.0,0
+conv-44_qa_22,camping,camping,True,0.5,0.5,True,0.0,0.0,0.0,0
+conv-44_qa_23,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_24,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_25,Cannot answer,Last weekend,False,0.0,0.285714,False,0.0,0.0,1.0,0
+conv-44_qa_26,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_27,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_28,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_29,"Pepper, Precious, Panda, Pixie","Pepper, Precious, Panda, Pixie",True,0.8888888889,0.888889,True,0.0,0.0,0.0,0
+conv-44_qa_3,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_30,next month,next month,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-44_qa_31,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_32,Tattoos of her four dogs.,Tattoos of her four dogs.,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_33,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_34,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_35,Toby,Toby and Scout,False,0.5,0.666667,False,0.0,0.0,0.0,0
+conv-44_qa_36,"Chicken Pot Pie, Roasted Chicken, sushi","Chicken Pot Pie, Roasted Chicken, sushi",True,0.7142857143,0.714286,True,0.0,0.0,0.0,0
+conv-44_qa_37,Cannot answer,last Friday,False,0.0,0.0,True,0.0,0.0,1.0,0
+conv-44_qa_38,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_39,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_4,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_40,Dog park,Dog park,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_41,"Jack Russell mixes, Chihuahua mixes, Lab mixes",Cannot answer,False,0.1739130435,0.0,False,0.0,0.0,0.0,1
+conv-44_qa_42,positive reinforcement,positive reinforcement,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_43,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_44,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_45,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_46,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_47,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_48,friends and confidantes,friends and confidantes,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-44_qa_49,family,family,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_5,Last week,Last week,True,0.2857142857,0.285714,True,0.0,0.0,0.0,0
+conv-44_qa_50,Dog grooming,Dog grooming,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-44_qa_51,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_52,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_53,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_54,socializing with the other pups and getting lots of exercise,socializing with other pups and getting lots of exercise,False,0.2857142857,0.285714,True,0.0,0.0,0.0,0
+conv-44_qa_55,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_56,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_57,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_58,Sushi,Sushi,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_59,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_6,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_60,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_61,Eagles,Eagles,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_62,the peaceful moments out in nature,peaceful moments,False,0.5714285714,1.0,False,0.0,1.0,0.0,0
+conv-44_qa_63,"croissants, muffins, and tarts","croissants, muffins, and tarts",True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_64,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_65,Chat with other dog owners.,Chat with people.,False,0.3076923077,0.545455,False,0.0,0.0,0.0,0
+conv-44_qa_66,Cannot answer,smaller dog,False,0.0,1.0,False,0.0,1.0,1.0,0
+conv-44_qa_67,near a park or woods,near a park or woods,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_68,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_69,She saw a flyer at her local pet store.,She saw a flyer at her local pet store.,True,0.8,0.8,True,0.0,0.0,0.0,0
+conv-44_qa_7,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_70,positive reinforcement training,Positive reinforcement training,False,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_71,friendly and playful,friendly and playful,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_72,It helps pets learn how to behave.,Because punishment is never the proper way for pets.,False,0.5882352941,0.222222,False,0.0,0.0,0.0,0
+conv-44_qa_73,Finding a pet-friendly place to live.,Finding a pet-friendly place to live.,True,0.5,0.5,True,0.0,0.0,0.0,0
+conv-44_qa_74,Discouraged but determined.,Discouraged but determined.,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_75,kayaking and maybe bungee jumping,kayaking and maybe bungee jumping,True,0.8888888889,0.888889,True,0.0,0.0,0.0,0
+conv-44_qa_76,About an hour.,About an hour.,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_77,a doggy play area with agility stuff and toys,a doggy play area with agility stuff and toys,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_78,a stunning lake,a stunning lake,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-44_qa_79,Chicken Pot Pie,Chicken Pot Pie,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_8,No,No,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_80,Roasted Chicken,Roasted Chicken,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_81,volunteered at a pet shelter,volunteered at a pet shelter,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_82,Max,Max,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_83,Long walks in the neighborhood.,Long walks in the neighborhood.,True,0.5333333333,0.533333,True,0.0,0.0,0.0,0
+conv-44_qa_84,"The oldest one is the most relaxed, the second one is always ready for a game, t","The oldest one is the most relaxed, the second one is always ready for a game, t",True,0.6274509804,0.627451,True,0.0,0.0,0.0,0
+conv-44_qa_85,agility classes,agility classes,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_86,Twice a week,twice a week,False,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_87,Two hours,Two hours,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_88,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_89,Regular grooming.,"Daily brushing, regular baths, nail trims, and lots of love",False,0.1666666667,1.0,False,0.0,1.0,0.0,0
+conv-44_qa_9,"dog owners group, agility classes, dog training course, dog grooming course","dog owners group, agility classes, dog training course, dog grooming course",True,0.6,0.6,True,0.0,0.0,0.0,0
+conv-44_qa_90,A doggy playdate.,A doggy playdate,False,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_91,Got some new beds for them.,Got some new beds for them.,True,0.9090909091,0.909091,True,0.0,0.0,0.0,0
+conv-44_qa_92,They curl up and snuggle like they're in a cloud - it's adorable!,They absolutely love it! They curl up and snuggle like they're in a cloud - it's,False,0.1176470588,0.095238,False,0.0,0.0,0.0,0
+conv-44_qa_93,"I petted and hugged her, spoke calmly, and slowly walked her to relax.","I petted and hugged her, spoke calmly, and slowly walked her to relax.",True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-44_qa_94,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-44_qa_95,Peruvian Lilies,Peruvian Lilies,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_96,"He learned a lot about animals, plants, and ecosystems.","He learned a lot about animals, plants, and ecosystems.",True,0.5555555556,0.555556,True,0.0,0.0,0.0,0
+conv-44_qa_97,biking or using public transport,biking or using public transport,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-44_qa_98,biking or using public transport,biking or using public transport,True,0.2857142857,0.285714,True,0.0,0.0,0.0,0
+conv-44_qa_99,took them to the beach,Took them to the beach.,False,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_0,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_1,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_10,Cannot answer,last week,False,0.0,0.285714,False,0.0,0.0,1.0,0
+conv-47_qa_100,"No, this is not necessary.","No, this is not necessary.",True,0.3333333333,0.333333,True,0.0,0.0,0.0,0
+conv-47_qa_101,Reading,Reading.,False,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_102,reading,Reading while snuggled under the covers.,False,0.3333333333,1.0,False,0.0,1.0,0.0,0
+conv-47_qa_103,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_104,Vancouver,Vancouver,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_105,July 20,July 20,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_106,chess,chess,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_107,He wanted something that made a difference.,Cannot answer,False,0.1176470588,0.0,False,0.0,0.0,0.0,1
+conv-47_qa_108,Fortnite,Fortnite,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-47_qa_109,A routine examination and vaccination.,Routine examination and vaccination.,False,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_11,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_110,strategy and RPG,strategy and RPG games,False,0.8571428571,1.0,False,0.0,1.0,0.0,0
+conv-47_qa_111,The Witcher 3,The Witcher 3,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_112,The story and atmosphere.,the story,False,0.0,0.0,True,0.0,0.0,0.0,0
+conv-47_qa_113,Cannot answer,Samantha,False,0.0,1.0,False,0.0,1.0,1.0,0
+conv-47_qa_114,Call her.,Call her.,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_115,a gaming night,a gaming night,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_116,dark beer,dark beer,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_117,A bug in the code messed up the game mechanics.,A bug in the code messed up the game mechanics.,True,0.1666666667,0.166667,True,0.0,0.0,0.0,0
+conv-47_qa_118,coding,coding,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_119,basic games and stories,basic games and stories,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_12,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_120,Sennheiser,Sennheiser,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_121,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_122,$10 per class,$10 per class,True,0.5,0.5,True,0.0,0.0,0.0,0
+conv-47_qa_123,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_124,He wanted to learn something new.,He wanted to learn something new.,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_125,omelette,omelette,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_126,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_127,"Various sources like books, movies, and even dreams.","books, movies, and even dreams",False,0.5454545455,0.75,False,0.0,0.0,0.0,0
+conv-47_qa_128,Cannot answer,crazy dream,False,0.0,0.181818,False,0.0,0.0,1.0,0
+conv-47_qa_129,electronic and rock music,electronic and rock music,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_13,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_130,guitar,guitar,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_131,drums,Drums,False,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_132,making his first mobile game,making his first mobile game,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_133,2D adventure game with puzzles and exploration,2D adventure game with puzzles and exploration,True,0.4444444444,0.444444,True,0.0,0.0,0.0,0
+conv-47_qa_134,He watches tutorials and keeps up with developer forums.,He watches tutorials and keeps up with developer forums.,True,0.7058823529,0.705882,True,0.0,0.0,0.0,0
+conv-47_qa_135,programming mentor for game developers,programming mentor for game developers,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_136,Excited,Really excited,False,0.5,0.4,False,0.0,0.0,0.0,0
+conv-47_qa_137,RPGs,RPGs,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_138,Playing video games and Witcher 3.,Witcher 3,False,0.5,1.0,False,0.0,1.0,0.0,0
+conv-47_qa_139,His first gaming system.,His first gaming system.,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-47_qa_14,Three days ago.,Cannot answer,False,0.0,0.0,True,0.0,0.0,0.0,1
+conv-47_qa_140,a game,a game,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_141,Fortnite and a few other games.,Fortnite and a few other games.,True,0.2222222222,0.222222,True,0.0,0.0,0.0,0
+conv-47_qa_142,For a children's hospital.,for a children's hospital,False,0.7272727273,0.727273,True,0.0,0.0,0.0,0
+conv-47_qa_143,They decided to move in together.,They decided to move in together.,True,0.8,0.8,True,0.0,0.0,0.0,0
+conv-47_qa_144,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_145,Cannot answer,They love the bar.,False,0.0,0.6,False,0.0,0.0,1.0,0
+conv-47_qa_146,FIFA 23,FIFA 23,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_147,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_148,an online board game,an online board game,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_149,Luna,Luna,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_15,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_16,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_17,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_18,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_19,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_2,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_20,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_21,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_22,children's hospital,children's hospital,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-47_qa_23,next month,next month,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-47_qa_24,strategy games,strategy games,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-47_qa_25,No,No,True,0.1666666667,0.166667,True,0.0,0.0,0.0,0
+conv-47_qa_26,"Italy, Turkey, Mexico, Nuuk","Italy, Turkey, Mexico, Nuuk",True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-47_qa_27,cooking class,cooking class,True,0.2857142857,0.285714,True,0.0,0.0,0.0,0
+conv-47_qa_28,"19 June, 2022","19 June, 2022",True,0.4,0.4,True,0.0,0.0,0.0,0
+conv-47_qa_29,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_3,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_30,Toronto,Canada,False,0.0,1.0,False,0.0,1.0,0.0,0
+conv-47_qa_31,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_32,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_33,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_34,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_35,Nuuk,Nuuk,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-47_qa_36,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_37,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_38,He got his dream job and later left his IT job after 3 years for a new job he lo,John got his dream job and later left his IT job for a new job he loves.,False,0.3636363636,0.4,False,0.0,0.0,0.0,0
+conv-47_qa_39,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_4,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_40,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_41,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_42,Yesterday,"10 August, 2022",False,0.0,0.666667,False,0.0,0.0,0.0,0
+conv-47_qa_43,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_44,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_45,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_46,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_47,Yesterday,Yesterday,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-47_qa_48,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_49,"new headphones, new devices, refurbished gaming desk","new headphones, new devices, refurbished gaming desk",True,0.4615384615,0.461538,True,0.0,0.0,0.0,0
+conv-47_qa_5,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_50,Two days ago.,Two days ago,False,0.3333333333,0.333333,True,0.0,0.0,0.0,0
+conv-47_qa_51,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_52,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_53,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_54,programming seminar,programming seminar,True,0.5714285714,0.571429,True,0.0,0.0,0.0,0
+conv-47_qa_55,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_56,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_57,Cannot answer,Two days ago.,False,0.0,0.0,True,0.0,0.0,1.0,0
+conv-47_qa_58,yesterday,yesterday,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-47_qa_59,Cannot answer,"12:37 am on 31 October, 2022",False,0.0,0.533333,False,0.0,0.0,1.0,0
+conv-47_qa_6,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_60,"CS:GO, Overwatch, Apex Legends, Fortnite","Fortnite, Overwatch, Apex Legends",False,0.9230769231,0.727273,False,0.0,0.0,0.0,0
+conv-47_qa_61,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_62,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_63,Cannot answer,"5 November, 2022",False,0.0,0.666667,False,0.0,0.0,1.0,0
+conv-47_qa_64,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_65,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_66,"8:57 pm on 7 November, 2022","8:57 pm on 7 November, 2022",True,0.3636363636,0.363636,True,0.0,0.0,0.0,0
+conv-47_qa_67,Python and C++.,Python and C++,False,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_68,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_69,Users can add their pup's preferences/needs.,Users can add their pup's preferences/needs.,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-47_qa_7,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_70,bottle caps,bottle caps,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_71,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_72,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_73,Cannot answer,a month,False,0.0,0.666667,False,0.0,0.0,1.0,0
+conv-47_qa_74,Cannot answer,CS:GO,False,0.0,1.0,False,0.0,1.0,1.0,0
+conv-47_qa_75,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_76,voice chat,voice chat,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_77,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_78,a pup,a pup,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_79,Ned,Ned,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_8,Three dogs.,Three dogs,False,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_80,He fell in love at first sight.,He fell in love at first sight.,True,0.1428571429,0.142857,True,0.0,0.0,0.0,0
+conv-47_qa_81,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_82,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_83,"The megacities of this country impress me, everything there is so technologicall","The megacities of this country impress me, everything there is so technologicall",True,0.24,0.24,True,0.0,0.0,0.0,0
+conv-47_qa_84,coding,coding,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-47_qa_85,Labrador,Labrador,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_86,Pepperoni,Pepperoni,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_87,Hawaiian pizza,Hawaiian pizza,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-47_qa_88,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_89,bought groceries and cooked food for the homeless,bought groceries and cooked food for the homeless,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_9,"Max, Daisy and Ned","Max, Daisy and Ned",True,0.8571428571,0.857143,True,0.0,0.0,0.0,0
+conv-47_qa_90,Raise money for a dog shelter.,raise money for a dog shelter,False,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_91,"tracking inventory, resources, and donations and generating reports for analysis","tracking inventory, resources, and donations and generating reports for analysis",False,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-47_qa_92,a software tool,A software tool.,False,0.0,0.0,True,0.0,0.0,0.0,0
+conv-47_qa_93,money,money,True,0.5,0.5,True,0.0,0.0,0.0,0
+conv-47_qa_94,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-47_qa_95,Liverpool,Liverpool,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_96,Manchester City,Manchester City,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_97,Manchester City's form and transfer policy.,"James thinks Manchester City are in bad form and have a bad transfer policy, whi",False,0.0,0.076923,False,0.0,0.0,0.0,0
+conv-47_qa_98,Catching frisbees in mid-air.,catching frisbees in mid-air,False,1.0,1.0,True,1.0,1.0,0.0,0
+conv-47_qa_99,Cannot answer,providing necessary items to those who are less fortunate,False,0.0,1.0,False,0.0,1.0,1.0,0
+conv-49_qa_0,Prius,Prius,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-49_qa_1,"His son's ankle, his job, his Prius.",His son's ankle and his Prius.,False,0.4,0.571429,False,0.0,0.0,0.0,0
+conv-49_qa_10,Cannot answer,camping trip in the outdoors,False,0.0,1.0,False,0.0,1.0,1.0,0
+conv-49_qa_100,Cannot answer,his keys,False,0.0,1.0,False,0.0,1.0,1.0,0
+conv-49_qa_101,cooking class,cooking class,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-49_qa_102,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_103,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_104,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_105,watercolors,watercolors,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-49_qa_106,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_107,observing nature and painting what we see,observing nature and painting what we see,True,0.7142857143,0.714286,True,0.0,0.0,0.0,0
+conv-49_qa_108,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_109,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_11,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_110,Twisted my knee,Twisted my knee,True,0.8,0.8,True,0.0,0.0,0.0,0
+conv-49_qa_111,Swimming,Swimming,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-49_qa_112,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_113,painting,painting,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-49_qa_114,"Acrylic paints, brushes, a canvas/paper, and a palette.","Acrylic paints, brushes, a canvas/paper, and a palette.",True,0.9230769231,0.923077,True,0.0,0.0,0.0,0
+conv-49_qa_115,watercolor painting,watercolor painting,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-49_qa_116,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_117,journal and creative writing,Journal and creative writing,False,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-49_qa_118,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_119,lifting weights,lifting weights,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-49_qa_12,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_120,Find a trainer who can help you avoid injuries while you build your strength.,Find a trainer who can help you avoid injuries while you build your strength.,True,0.2666666667,0.266667,True,0.0,0.0,0.0,0
+conv-49_qa_121,Lake Tahoe,Lake Tahoe,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-49_qa_122,gastritis,gastritis,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-49_qa_123,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_124,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_125,"Changed his diet, started walking regularly.","Changed his diet, started walking regularly.",True,0.9230769231,0.923077,True,0.0,0.0,0.0,0
+conv-49_qa_126,A 1968 Kustom K-200A vintage guitar,A 1968 Kustom K-200A vintage guitar,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-49_qa_127,"The company downsized, and I was part of that.","The company downsized, and I was part of that.",True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-49_qa_128,His happy place.,His happy place.,True,0.8,0.8,True,0.0,0.0,0.0,0
+conv-49_qa_129,It relied on it for his active lifestyle and road trips.,He relied on it for his active lifestyle and road trips.,False,0.9090909091,1.0,False,0.0,1.0,0.0,0
+conv-49_qa_13,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_130,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_131,yoga,Yoga,False,1.0,1.0,True,1.0,1.0,0.0,0
+conv-49_qa_132,yoga tips,yoga tips,True,0.4,0.4,True,0.0,0.0,0.0,0
+conv-49_qa_133,His partner is pregnant.,His partner is pregnant.,True,0.8571428571,0.857143,True,0.0,0.0,0.0,0
+conv-49_qa_134,family reunion,family reunion,True,0.8,0.8,True,0.0,0.0,0.0,0
+conv-49_qa_135,'Bring it on Home','Bring it on Home',True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-49_qa_136,himself,himself,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-49_qa_137,A close friend of mine,A close friend of mine,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-49_qa_138,Running in the mornings.,Running in the mornings,False,1.0,1.0,True,1.0,1.0,0.0,0
+conv-49_qa_139,put a GPS sensor on your keys,put a GPS sensor on your keys,True,0.7272727273,0.727273,True,0.0,0.0,0.0,0
+conv-49_qa_14,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_140,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_141,Keep trying new things,Keep trying new things,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-49_qa_142,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_143,Cannot answer,getting married,False,0.0,1.0,False,0.0,1.0,1.0,0
+conv-49_qa_144,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_145,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_146,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_147,two ginger snaps a day,two ginger snaps a day,True,0.8888888889,0.888889,True,0.0,0.0,0.0,0
+conv-49_qa_148,Snowshoeing,snowshoeing,False,1.0,1.0,True,1.0,1.0,0.0,0
+conv-49_qa_149,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_15,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_150,"swimming, yoga, and walking","Swimming, yoga, and walking.",False,0.8571428571,0.857143,True,0.0,0.0,0.0,0
+conv-49_qa_151,The Godfather,The Godfather,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-49_qa_152,Yoga,Yoga,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-49_qa_153,a sunset,a sunset,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-49_qa_154,for that drunken night,for that drunken night,True,0.8571428571,0.857143,True,0.0,0.0,0.0,0
+conv-49_qa_155,peaceful,peaceful,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-49_qa_16,Self-checkout issues.,Self-checkout issues,False,0.5714285714,0.571429,True,0.0,0.0,0.0,0
+conv-49_qa_17,Cannot answer,last Friday,False,0.0,0.285714,False,0.0,0.0,1.0,0
+conv-49_qa_18,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_19,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_2,Jasper,Jasper,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-49_qa_20,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_21,"awesome Canadian woman, makes him feel alive","awesome Canadian woman, incredible, makes him feel alive",False,0.0909090909,0.133333,False,0.0,0.0,0.0,0
+conv-49_qa_22,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_23,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_24,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_25,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_26,His family.,His family.,True,0.1818181818,0.181818,True,0.0,0.0,0.0,0
+conv-49_qa_27,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_28,Cannot answer,Creative writing,False,0.0,0.8,False,0.0,0.0,1.0,0
+conv-49_qa_29,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_3,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_30,"13 August, 2023","13 August, 2023",True,1.0,1.0,True,0.0,0.0,0.0,0
+conv-49_qa_31,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_32,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_33,flying over skyscrapers,flying over skyscrapers,True,0.5,0.5,True,0.0,0.0,0.0,0
+conv-49_qa_34,Fell off his bike and hurt his ankle in a soccer accident.,Fell off his bike and soccer accident.,False,0.5263157895,0.666667,False,0.0,0.0,0.0,0
+conv-49_qa_35,"15 August, 2023","15 August, 2023",True,0.75,0.75,True,0.0,0.0,0.0,0
+conv-49_qa_36,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_37,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_38,Cannot answer,Nature is calming and helps them relax.,False,0.0,0.111111,False,0.0,0.0,1.0,0
+conv-49_qa_39,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_4,painting,Cannot answer,False,1.0,0.0,False,1.0,0.0,0.0,1
+conv-49_qa_40,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_41,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_42,A friend gave him a painting that inspired him.,A friend gave him a painting that inspired him.,True,0.4,0.4,True,0.0,0.0,0.0,0
+conv-49_qa_43,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_44,Landscapes,Landscapes,True,0.3333333333,0.333333,True,0.0,0.0,0.0,0
+conv-49_qa_45,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_46,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_47,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_48,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_49,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_5,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_50,"Skiing, snowboarding, ice skating, watercolor painting","Skiing, snowboarding, ice skating, watercolor painting, painting landscapes.",False,0.5555555556,0.5,False,0.0,0.0,0.0,0
+conv-49_qa_51,Cannot answer,"Sam struggles with weight, lack of motivation, cravings for sugary drinks and sn",False,0.0,0.296296,False,0.0,0.0,1.0,0
+conv-49_qa_52,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_53,next Saturday,next Saturday,True,0.2857142857,0.285714,True,0.0,0.0,0.0,0
+conv-49_qa_54,Cannot answer,"health scare, hospital visit, heart palpitation incident",False,0.0,0.153846,False,0.0,0.0,1.0,0
+conv-49_qa_55,Helping lost tourists.,Helping lost tourists.,True,0.5,0.5,True,0.0,0.0,0.0,0
+conv-49_qa_56,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_57,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_58,One year ago.,one year ago,False,0.0,0.0,True,0.0,0.0,0.0,0
+conv-49_qa_59,"4:07 pm on 14 October, 2023","4:07 pm on 14 October, 2023",True,0.6,0.6,True,0.0,0.0,0.0,0
+conv-49_qa_6,1,1,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-49_qa_60,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_61,work stress,work stress,True,0.8,0.8,True,0.0,0.0,0.0,0
+conv-49_qa_62,Sam had gastritis and a weight-related health risk; Evan had heart palpitations ,Sam had gastritis; Evan had a heart palpitation incident and a hospital visit fo,False,0.2571428571,0.208955,False,0.0,0.0,0.0,0
+conv-49_qa_63,"1:50 pm on 17 October, 2023","17 October, 2023",False,0.5,0.75,False,0.0,0.0,0.0,0
+conv-49_qa_64,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_65,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_66,last month,last month,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-49_qa_67,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_68,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_69,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_7,painting,painting,True,0.3333333333,0.333333,True,0.0,0.0,0.0,0
+conv-49_qa_70,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_71,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_72,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_73,next summer,next summer,True,0.5,0.5,True,0.0,0.0,0.0,0
+conv-49_qa_74,last Tuesday,"17 December, 2023",False,0.0,0.75,False,0.0,0.0,0.0,0
+conv-49_qa_75,Cannot answer,yesterday,False,0.0,0.0,True,0.0,0.0,1.0,0
+conv-49_qa_76,"17 December, 2023",Cannot answer,False,0.6666666667,0.0,False,0.0,0.0,0.0,1
+conv-49_qa_77,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_78,"Extended fam, work friends",extended fam,False,0.2105263158,0.0,False,0.0,0.0,0.0,0
+conv-49_qa_79,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_8,Drawing,Drawing,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-49_qa_80,Yesterday,"12:17 am on 10 January, 2024",False,0.0,0.2,False,0.0,0.0,0.0,0
+conv-49_qa_81,Painting,Painting,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-49_qa_82,Yoga,Yoga,True,0.2222222222,0.222222,True,0.0,0.0,0.0,0
+conv-49_qa_83,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_84,A friend gave him a painting that inspired him.,A friend gave him a painting that inspired him.,True,0.2,0.2,True,0.0,0.0,0.0,0
+conv-49_qa_85,painting,painting,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-49_qa_86,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_87,Jasper,Jasper,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-49_qa_88,"fresh air, peacefulness and a cozy cabin surrounded by mountains and forests","fresh air, peacefulness and a cozy cabin surrounded by mountains and forests",True,0.9523809524,0.952381,True,0.0,0.0,0.0,0
+conv-49_qa_89,Reducing soda and candy intake.,Reducing soda and candy intake.,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-49_qa_9,Last weekend,Last weekend,True,0.2857142857,0.285714,True,0.0,0.0,0.0,0
+conv-49_qa_90,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_91,flavored seltzer water and dark chocolate,flavored seltzer water and dark chocolate with high cocoa content,False,0.75,1.0,False,0.0,1.0,0.0,0
+conv-49_qa_92,The self-checkout machines were all broken.,The self-checkout machines were all broken.,True,0.8,0.8,True,0.0,0.0,0.0,0
+conv-49_qa_93,The Great Gatsby,Cannot answer,False,1.0,0.0,False,1.0,0.0,0.0,1
+conv-49_qa_94,flavored seltzer water,flavored seltzer water,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-49_qa_95,It tracks my progress really well and serves as a constant reminder to keep goin,It tracks my progress really well and serves as a constant reminder to keep goin,True,0.8333333333,0.833333,True,0.0,0.0,0.0,0
+conv-49_qa_96,Cannot answer,strength and resilience,False,0.0,1.0,False,0.0,1.0,1.0,0
+conv-49_qa_97,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-49_qa_98,progress,progress,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-49_qa_99,a dream interpretation book,a dream interpretation book,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-50_qa_0,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_1,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_10,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_100,at my mansion,at my mansion,True,0.4444444444,0.444444,True,0.0,0.0,0.0,0
+conv-50_qa_101,a podcast,a podcast,True,0.4,0.4,True,0.0,0.0,0.0,0
+conv-50_qa_102,Miami,Miami,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-50_qa_103,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_104,Because it gives it a unique look and goes with his style.,Because it gives it a unique look and goes with his style.,True,0.3076923077,0.307692,True,0.0,0.0,0.0,0
+conv-50_qa_105,purple,purple,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-50_qa_106,San Francisco,San Francisco,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-50_qa_107,Proud,Proud,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-50_qa_108,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_109,exploring and growing his brand,exploring and growing his brand,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-50_qa_11,flooded place and car accident,"flooded place, car accident",False,0.3636363636,0.4,False,0.0,0.0,0.0,0
+conv-50_qa_110,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_111,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_112,It's so satisfying.,makes all the hard work worth it,False,0.2222222222,0.545455,False,0.0,0.0,0.0,0
+conv-50_qa_113,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_114,California Love,California Love,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-50_qa_115,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_116,Ford Mustang,Ford Mustang,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-50_qa_117,Seeing the transformation and bringing them back to life.,Seeing the end result and knowing that they did it together.,False,0.1176470588,0.105263,False,0.0,0.0,0.0,0
+conv-50_qa_118,Cannot answer,hard work and determination,False,0.0,1.0,False,0.0,1.0,1.0,0
+conv-50_qa_119,Therapy,Therapy,True,0.2,0.2,True,0.0,0.0,0.0,0
+conv-50_qa_12,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_120,Open a shop and work on classic cars.,Open a shop and work on classic cars.,True,0.125,0.125,True,0.0,0.0,0.0,0
+conv-50_qa_121,A new Ferrari,A new Ferrari,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-50_qa_122,The Fireworks,The Fireworks,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-50_qa_123,"He reminds himself why he's passionate, relies on helpful people, and takes a br","He reminds himself why he's passionate about his goals, relies on helpful people",False,0.4375,0.514286,False,0.0,0.0,0.0,0
+conv-50_qa_124,fixing up things,fixing up things,True,0.8,0.8,True,0.0,0.0,0.0,0
+conv-50_qa_125,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_126,Shibuya Crossing,Shibuya Crossing,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-50_qa_127,Shinjuku,Shinjuku,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-50_qa_128,Cannot answer,ramen,False,0.0,1.0,False,0.0,1.0,1.0,0
+conv-50_qa_129,Performing and connecting with the crowd,Performing and connecting with the crowd,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-50_qa_13,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_130,He takes it one day at a time.,He takes it one day at a time.,True,0.9230769231,0.923077,True,0.0,0.0,0.0,0
+conv-50_qa_131,Some of the struggles that people go through.,Some of the struggles that people go through.,True,0.8333333333,0.833333,True,0.0,0.0,0.0,0
+conv-50_qa_132,He says it's a way to capture struggles and feelings.,He describes it as capturing feelings from struggles people go through.,False,0.1176470588,0.111111,False,0.0,0.0,0.0,0
+conv-50_qa_133,"Ever since I was ten, I've been fascinated with how machines work. I found an ol",He was fascinated with how machines work after finding an old car at age ten.,False,0.303030303,0.526316,False,0.0,0.0,0.0,0
+conv-50_qa_134,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_135,Paying attention to small details.,Paying attention to small details.,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-50_qa_136,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_137,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_138,It was unreal.,It was a dream come true.,False,0.25,0.6,False,0.0,0.0,0.0,0
+conv-50_qa_139,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_14,Cannot answer,"2:31 pm on 9 June, 2023",False,0.0,0.4,False,0.0,0.0,1.0,0
+conv-50_qa_140,They both find their pursuits fulfilling and motivating.,They both find fulfillment in their pursuits.,False,0.4615384615,0.0,False,0.0,0.0,0.0,0
+conv-50_qa_141,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_142,Threw a small party for his new album.,He threw a small party for his new album.,False,1.0,0.933333,False,1.0,0.0,0.0,0
+conv-50_qa_143,car mods,car mods,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-50_qa_144,blogging on car mods,blogging on car mods,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-50_qa_145,"music videos, concerts, and documentaries about artists and their creative proce","music videos, concerts, and documentaries",False,0.9523809524,0.666667,False,0.0,0.0,0.0,0
+conv-50_qa_146,classic rock,classic rock,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-50_qa_147,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_148,car mods,car mods,True,0.2,0.2,True,0.0,0.0,0.0,0
+conv-50_qa_149,It inspired others to start their own DIY projects.,It inspired others to start their own DIY projects.,True,0.8235294118,0.823529,True,0.0,0.0,0.0,0
+conv-50_qa_15,To relax and find peace.,To relax and recharge.,False,0.1818181818,0.2,False,0.0,0.0,0.0,0
+conv-50_qa_150,his old high school buddy,his old high school buddy,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-50_qa_151,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_152,vintage camera,vintage camera,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-50_qa_153,"nature - sunsets, beaches, waves","Nature - sunsets, beaches, waves.",False,1.0,1.0,True,1.0,1.0,0.0,0
+conv-50_qa_154,fancy gala,fancy gala,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-50_qa_155,"Their favorite artists, art, and how the power of music connects us all.","Their favorite artists, art, and how the power of music connects us all.",True,0.4,0.4,True,0.0,0.0,0.0,0
+conv-50_qa_156,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_157,Its beauty helps us appreciate life when it's tough.,Its beauty helps us appreciate life when it's tough.,True,0.5333333333,0.533333,True,0.0,0.0,0.0,0
+conv-50_qa_16,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_17,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_18,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_19,"concert, music thingy, show","concert, music thingy, similar streets, show",False,0.1818181818,0.153846,False,0.0,0.0,0.0,0
+conv-50_qa_2,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_20,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_21,Yes,Yes,True,0.2222222222,0.222222,True,0.0,0.0,0.0,0
+conv-50_qa_22,Yes,Yes,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-50_qa_23,Fixing up things / working on cars,Fixing up things / working on cars,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-50_qa_24,Yes,Yes,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-50_qa_25,Last Friday,Last Friday,True,0.25,0.25,True,0.0,0.0,0.0,0
+conv-50_qa_26,Cannot answer,"22 August, 2023",False,0.0,0.666667,False,0.0,0.0,1.0,0
+conv-50_qa_27,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_28,long drives in [this car],long drives in [this car],True,0.5333333333,0.533333,True,0.0,0.0,0.0,0
+conv-50_qa_29,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_3,Aerosmith,Aerosmith,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-50_qa_30,Classic rock,Classic rock,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-50_qa_31,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_32,San Francisco,San Francisco,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-50_qa_33,car workshop,going to a car workshop,False,0.6666666667,0.5,False,0.0,0.0,0.0,0
+conv-50_qa_34,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_35,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_36,11th,11th,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-50_qa_37,Yes,Yes,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-50_qa_38,Cannot answer,last night,False,0.0,0.0,True,0.0,0.0,1.0,0
+conv-50_qa_39,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_4,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_40,Tupac and Dr. Dre,Tupac and Dr. Dre,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-50_qa_41,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_42,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_43,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_44,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_45,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_46,fixing up things,fixing up things,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-50_qa_47,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_48,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_49,They restored an old car.,They restored an old car.,True,0.1666666667,0.166667,True,0.0,0.0,0.0,0
+conv-50_qa_5,Open a shop and work on classic cars.,To open a shop and work on classic cars; to learn auto engineering and build a c,False,0.6,0.62069,False,0.0,0.0,0.0,0
+conv-50_qa_50,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_51,August last year,August last year,True,0.4,0.4,True,0.0,0.0,0.0,0
+conv-50_qa_52,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_53,His friends and team.,Cannot answer,False,0.8571428571,0.0,False,0.0,0.0,0.0,1
+conv-50_qa_54,"Watching music videos, concerts, and documentaries about artists and their creat","Watching music videos, concerts, and documentaries about artists and their creat",True,0.4375,0.4375,True,0.0,0.0,0.0,0
+conv-50_qa_55,"25 October, 2023","25 October, 2023",True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-50_qa_56,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_57,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_58,Finding an old car in a neighbor's garage at age ten and going to his first car ,Finding an old car in a neighbor's garage at age ten and going to his first car ,True,0.4255319149,0.425532,True,0.0,0.0,0.0,0
+conv-50_qa_59,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_6,Classic cars,Classic cars,True,0.8,0.8,True,0.0,0.0,0.0,0
+conv-50_qa_60,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_61,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_62,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_63,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_64,"road trip, card-night, regular walks in the park","road trip, card-night, regular walks in the park",True,0.0769230769,0.076923,True,0.0,0.0,0.0,0
+conv-50_qa_65,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_66,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_67,Boston,Boston,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-50_qa_68,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_69,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_7,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_70,"17 November, 2023","17 November, 2023",True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-50_qa_71,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_72,Aerosmith,Aerosmith,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-50_qa_73,Tokyo,Tokyo,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-50_qa_74,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_75,opening his own car maintenance shop,car maintenance shop,False,0.6666666667,1.0,False,0.0,1.0,0.0,0
+conv-50_qa_76,All kinds of cars - from regular maintenance to full restorations of classic car,All kinds of cars.,False,1.0,0.470588,False,1.0,0.0,0.0,0
+conv-50_qa_77,Cannot answer,a guitar,False,0.0,0.0,True,0.0,0.0,1.0,0
+conv-50_qa_78,why I keep hustling as a musician,why he keeps hustling as a musician,False,0.6666666667,1.0,False,0.0,1.0,0.0,0
+conv-50_qa_79,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_8,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_80,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_81,his music gear and favorite microphone,his music gear and favorite microphone,True,0.9090909091,0.909091,True,0.0,0.0,0.0,0
+conv-50_qa_82,car maintenance shop,car maintenance shop,True,0.8,0.8,True,0.0,0.0,0.0,0
+conv-50_qa_83,Fixing up things.,Fixing up things.,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-50_qa_84,Performing live,Performing live,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-50_qa_85,exploring some parks,exploring some parks,True,0.8,0.8,True,0.0,0.0,0.0,0
+conv-50_qa_86,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_87,Cruise around.,Cruise around.,True,0.0,0.0,True,0.0,0.0,0.0,0
+conv-50_qa_88,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_89,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_9,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_90,Adding electronic elements to his songs gives them a fresh vibe.,Adding electronic elements to his songs gives them a fresh vibe.,True,0.5714285714,0.571429,True,0.0,0.0,0.0,0
+conv-50_qa_91,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_92,Expand my brand worldwide and grow my fanbase.,Cannot answer,False,0.75,0.0,False,0.0,0.0,0.0,1
+conv-50_qa_93,Keep at it and never forget your dreams!,Keep at it and never forget your dreams!,True,0.4615384615,0.461538,True,0.0,0.0,0.0,0
+conv-50_qa_94,car mod workshop,car mod workshop,True,1.0,1.0,True,1.0,1.0,0.0,0
+conv-50_qa_95,"Engine swaps, suspension modifications, and body modifications.",engine swaps and suspension modifications,False,1.0,0.833333,False,1.0,0.0,0.0,0
+conv-50_qa_96,Cannot answer,Cannot answer,True,0.0,0.0,True,0.0,0.0,1.0,1
+conv-50_qa_97,small details,small details,True,0.6666666667,0.666667,True,0.0,0.0,0.0,0
+conv-50_qa_98,Everyone was so into it when I played one of my songs and sang along.,Everyone was so into it when I played one of my songs and sang along.,True,0.6956521739,0.695652,True,0.0,0.0,0.0,0
+conv-50_qa_99,At a music festival in Tokyo.,Cannot answer,False,1.0,0.0,False,1.0,0.0,0.0,1

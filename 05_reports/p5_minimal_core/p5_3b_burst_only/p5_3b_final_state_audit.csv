@@ -1,0 +1,5 @@
+﻿check,value,status
+unique_events,42000,PASS
+stale_rawerk,0,PASS
+stale_bm25,0,PASS
+old_version_overwrite,0,PASS

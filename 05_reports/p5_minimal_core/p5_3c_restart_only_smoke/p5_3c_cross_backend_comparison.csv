@@ -1,0 +1,3 @@
+backend,gate,maximum_searchability_backlog,maximum_searchable_lag_ms,restart_to_first_searchable_ms,backlog_drain_ms_after_restart
+cassandra,PASS,229,11425.7579,1781.5453,30213.3347
+neo4j,PASS,222,11092.6931,1125.9058,29999.5833

@@ -1,0 +1,11 @@
+﻿experiment,mode,workload_type,hop,workers,cache_policy,index_enabled,cache_state,n_queries,mean_latency_ms,p50_latency_ms,p95_latency_ms,p99_latency_ms,qps,raw_edges_from_db,returned_edges,cache_hit_rate,effective_latency_ms,speedup_vs_naive,notes
+B1_parallel,Cassandra_naive,cold_path_frontier,2,1,none,False,cold,90,312.379,309.695,338.515,349.318,3.201,740,740,0.0,312.379,1.0,B1 hop=2 baseline; max_frontier=500; fanout_per_node=20
+B1_parallel,Cassandra_parallel_w4,cold_path_frontier,2,4,none,False,cold,90,52.166,50.936,76.971,89.822,19.169,740,740,0.0,52.166,5.99,B1 hop=2; max_frontier=500; fanout_per_node=20
+B1_parallel,Cassandra_parallel_w8,cold_path_frontier,2,8,none,False,cold,90,33.228,30.427,47.176,66.055,30.095,740,740,0.0,33.228,9.4,B1 hop=2; max_frontier=500; fanout_per_node=20
+B1_parallel,Cassandra_parallel_w16,cold_path_frontier,2,16,none,False,cold,90,30.193,28.854,39.462,55.809,33.12,740,740,0.0,30.193,10.35,B1 hop=2; max_frontier=500; fanout_per_node=20
+B1_parallel,Cassandra_parallel_w32,cold_path_frontier,2,32,none,False,cold,90,29.252,28.573,33.164,55.145,34.186,740,740,0.0,29.252,10.68,B1 hop=2; max_frontier=500; fanout_per_node=20
+B1_parallel,Cassandra_naive,cold_path_frontier,4,1,none,False,cold,90,11918.135,11877.488,12835.362,13010.049,0.084,19540,19540,0.0,11918.135,1.0,B1 hop=4 baseline; max_frontier=500; fanout_per_node=20
+B1_parallel,Cassandra_parallel_w4,cold_path_frontier,4,4,none,False,cold,90,1160.365,1147.671,1467.395,1879.916,0.862,19540,19540,0.0,1160.365,10.27,B1 hop=4; max_frontier=500; fanout_per_node=20
+B1_parallel,Cassandra_parallel_w8,cold_path_frontier,4,8,none,False,cold,90,502.611,469.735,727.696,941.266,1.99,19540,19540,0.0,502.611,23.71,B1 hop=4; max_frontier=500; fanout_per_node=20
+B1_parallel,Cassandra_parallel_w16,cold_path_frontier,4,16,none,False,cold,90,359.169,354.669,414.285,429.474,2.784,19540,19540,0.0,359.169,33.18,B1 hop=4; max_frontier=500; fanout_per_node=20
+B1_parallel,Cassandra_parallel_w32,cold_path_frontier,4,32,none,False,cold,90,314.799,312.419,344.853,405.427,3.177,19540,19540,0.0,314.799,37.86,B1 hop=4; max_frontier=500; fanout_per_node=20

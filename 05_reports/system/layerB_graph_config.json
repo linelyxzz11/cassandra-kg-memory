@@ -1,0 +1,37 @@
+{
+  "n_entities": 10000,
+  "n_edges": 1000000,
+  "n_actual": 110000,
+  "seed": 42,
+  "high_degree_frac": 0.02,
+  "high_degree_mult": 20,
+  "n_high_degree_entities": 20,
+  "n_relation_types": 13,
+  "relation_types": [
+    "likes",
+    "suitable_for",
+    "related_to",
+    "suggests",
+    "visited",
+    "talked_to",
+    "helped",
+    "works_at",
+    "bought",
+    "reviewed",
+    "attended",
+    "planned",
+    "remembered"
+  ],
+  "graph_id": "b3_cache_110000_1781629471",
+  "b3_config": {
+    "n_hubs": 20,
+    "hub_outdegree": 5000,
+    "n_normal": 500,
+    "normal_outdegree": 20,
+    "hub_repeat": 30,
+    "hub_query_ratio": 0.7,
+    "n_hub_queries": 600,
+    "n_normal_queries": 257,
+    "total_queries": 857
+  }
+}

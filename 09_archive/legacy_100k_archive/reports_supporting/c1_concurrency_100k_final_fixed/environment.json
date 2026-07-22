@@ -1,0 +1,20 @@
+{
+  "os": "Windows-10-10.0.26200-SP0",
+  "python": "3.11.7 | packaged by Anaconda, Inc. | (main, Dec 15 2023, 18:05:47) [MSC v.1916 64 bit (AMD64)]",
+  "cpu_logical": 32,
+  "cpu_model": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "ram_gb": 34.1,
+  "cassandra_driver": "3.30.0",
+  "neo4j_driver": "6.2.0",
+  "cassandra_version": "5.0.8",
+  "neo4j_version": "5.26.26",
+  "neo4j_connections": 1,
+  "cassandra_pool": "default (Cluster default)",
+  "neo4j_pool": "default (driver default, max_connection_lifetime=3600)",
+  "graph_id": "synth_100000_1781447372",
+  "frontier_workers": 16,
+  "frontier_executor_scope": "process_shared",
+  "application_cache": "disabled",
+  "backend_state": "warm",
+  "docker_containers": "cassandra (local Docker), neo4j-kg (local Docker)"
+}

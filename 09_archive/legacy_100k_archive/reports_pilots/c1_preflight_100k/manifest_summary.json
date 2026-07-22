@@ -1,0 +1,31 @@
+{
+  "manifest_path": "D:\\memorytable\\cassandra-kg-memory\\results\\c1_manifest_100k_h2.jsonl",
+  "query_count": 256,
+  "distinct_seeds": 256,
+  "relation_path_top5": [
+    [
+      "['reviewed', 'planned']",
+      134
+    ],
+    [
+      "['helped', 'bought']",
+      47
+    ],
+    [
+      "['planned', 'helped']",
+      20
+    ],
+    [
+      "['reviewed', 'suitable_for']",
+      19
+    ],
+    [
+      "['talked_to', 'reviewed']",
+      9
+    ]
+  ],
+  "result_path_count_min": 1,
+  "result_path_count_max": 41,
+  "result_path_count_p50": 2,
+  "result_path_count_p95": 14
+}

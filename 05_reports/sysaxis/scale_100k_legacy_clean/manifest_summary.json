@@ -1,0 +1,50 @@
+{
+  "query_count": 256,
+  "distinct_seeds": 256,
+  "hop": 2,
+  "fanout": 20,
+  "cycle_policy": "path",
+  "graph_id": "sysaxis_100K_legacy_clean_20260709",
+  "relation_path_distribution_top10": [
+    [
+      "reviewed->planned",
+      134
+    ],
+    [
+      "helped->bought",
+      47
+    ],
+    [
+      "planned->helped",
+      20
+    ],
+    [
+      "reviewed->suitable_for",
+      19
+    ],
+    [
+      "talked_to->reviewed",
+      9
+    ],
+    [
+      "helped->suggests",
+      9
+    ],
+    [
+      "attended->bought",
+      6
+    ],
+    [
+      "attended->likes",
+      5
+    ],
+    [
+      "related_to->related_to",
+      2
+    ],
+    [
+      "visited->bought",
+      2
+    ]
+  ]
+}

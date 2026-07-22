@@ -1,0 +1,6 @@
+{
+  "cassandra": 1000000,
+  "neo4j": 1000000,
+  "mismatches": 0,
+  "all_consistent": true
+}

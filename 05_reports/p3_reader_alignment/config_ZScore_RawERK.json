@@ -1,0 +1,61 @@
+{
+  "strict_alignment": true,
+  "queries": "D:\\memorytable\\cassandra-kg-memory\\scripts\\memory\\__pycache__\\heldout_1150_queries.csv",
+  "memories": "D:\\memorytable\\cassandra-kg-memory\\scripts\\memory\\__pycache__\\raw_memories_with_metadata.csv",
+  "gold_id_aliases": null,
+  "ranking_files": {
+    "ZScore_RawERK": "D:\\memorytable\\cassandra-kg-memory\\reports\\p3_reader_alignment\\ZScore_RawERK_test_rankings.csv"
+  },
+  "columns": {
+    "query_id": "query_id",
+    "question": "question",
+    "answer": "answer",
+    "category": "category",
+    "conversation_id": "conversation_id",
+    "gold_memory_ids": "gold_memory_ids",
+    "memory_id": "memory_id",
+    "memory_text": "reader_memory_text",
+    "rank": "rank",
+    "score": "score"
+  },
+  "expected_query_count": 1150,
+  "expected_retrieval": {
+    "ZScore_RawERK": {
+      "MRR": 0.5462,
+      "R@10": 0.807
+    }
+  },
+  "gate_tolerance": 0.0001,
+  "reader": {
+    "prompt_file": "D:\\memorytable\\cassandra-kg-memory\\scripts\\memory\\__pycache__\\exact_legacy_reader_prompt.txt",
+    "base_url_env": "DEEPSEEK_BASE_URL",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "model_env": "DEEPSEEK_MODEL",
+    "endpoint": "/chat/completions",
+    "temperature": 0,
+    "max_tokens": 128,
+    "timeout_seconds": 120,
+    "max_retries": 6,
+    "workers": 4,
+    "top_k_context": 10,
+    "memory_item_template": "{text}",
+    "system_prompt": "",
+    "extra_body": {}
+  },
+  "evaluation": {
+    "adapter_module": "D:\\memorytable\\cassandra-kg-memory\\scripts\\memory\\__pycache__\\legacy_evaluator_adapter.py"
+  },
+  "bootstrap_samples": 10000,
+  "seed": 20260717,
+  "comparisons": [
+    [
+      "ZScore_RawERK",
+      "ZScore_RawERK"
+    ]
+  ],
+  "decision": {
+    "candidate_method": "ZScore_RawERK",
+    "baseline_method": "ZScore_RawERK"
+  },
+  "output_dir": "D:\\memorytable\\cassandra-kg-memory\\reports\\p3_reader_alignment"
+}

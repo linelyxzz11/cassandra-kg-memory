@@ -1,0 +1,2 @@
+﻿scope,n,CorrectAbstention,NonAbstentionRate,AdversarialAnswerLeakage,HallucinationRate
+cat5,446,0.9619,0.0381,0.0381,0.0

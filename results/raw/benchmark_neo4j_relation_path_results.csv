@@ -1,7 +1,0 @@
-graph_id,start,relations,repeat,warmup,query_name,avg_ms,p95_ms,min_ms,max_ms,count
-test_v3_100,user_000001,"likes,suitable_for,related_to,suggests",10,2,neo4j_relation_one_hop,3.601,4.756,2.722,4.756,2
-test_v3_100,user_000001,"likes,suitable_for,related_to,suggests",10,2,neo4j_relation_sequence_4hop,4.645,9.714,3.53,9.714,2
-synthetic_path_index_noise_v1,user_path_mix,"likes,suitable_for,related_to,suggests",10,2,neo4j_relation_one_hop,4.79,5.55,4.118,5.55,20
-synthetic_path_index_noise_v1,user_path_mix,"likes,suitable_for,related_to,suggests",10,2,neo4j_relation_sequence_4hop,13.217,16.704,11.759,16.704,20
-synthetic_path_index_noise_v2,user_path_mix,"likes,suitable_for,related_to,suggests",10,2,neo4j_relation_one_hop,6.807,9.749,4.996,9.749,20
-synthetic_path_index_noise_v2,user_path_mix,"likes,suitable_for,related_to,suggests",10,2,neo4j_relation_sequence_4hop,67.293,79.744,59.797,79.744,20

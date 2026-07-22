@@ -1,0 +1,9 @@
+{
+  "graph_id": "synth_100000_1781447372",
+  "total_edges": 100000,
+  "distinct_sources": 3518,
+  "min_outdegree": 20,
+  "max_outdegree": 400,
+  "p50_outdegree": 20,
+  "high_degree_nodes": 78
+}

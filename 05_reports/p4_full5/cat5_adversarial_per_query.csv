@@ -1,0 +1,447 @@
+﻿qa_id,question,adversarial_answer,prediction,is_abstain,correct_abst
+conv-26_qa_152,What did Caroline realize after her charity race?,,Cannot answer,True,1
+conv-26_qa_153,What are Melanie's plans for the summer with respect to adoption?,,Cannot answer,True,1
+conv-26_qa_154,What type of individuals does the adoption agency Melanie is considering support?,,Cannot answer,True,1
+conv-26_qa_155,Why did Melanie choose the adoption agency?,,Cannot answer,True,1
+conv-26_qa_156,What is Melanie excited about in her adoption process?,,Cannot answer,True,1
+conv-26_qa_157,What does Melanie's necklace symbolize?,,Cannot answer,True,1
+conv-26_qa_158,What country is Melanie's grandma from?,,Cannot answer,True,1
+conv-26_qa_159,What was grandma's gift to Melanie?,,Cannot answer,True,1
+conv-26_qa_160,What was grandpa's gift to Caroline?,,Cannot answer,True,1
+conv-26_qa_161,What is Caroline's hand-painted bowl a reminder of?,,art and self-expression,False,0
+conv-26_qa_162,What did Caroline and her family do while camping?,,Cannot answer,True,1
+conv-26_qa_163,What kind of counseling and mental health services is Melanie interested in pursuing?,,Cannot answer,True,1
+conv-26_qa_164,What kind of counseling workshop did Melanie attend recently?,,Cannot answer,True,1
+conv-26_qa_165,What motivated Melanie to pursue counseling?,,Cannot answer,True,1
+conv-26_qa_166,What kind of place does Melanie want to create for people?,,Cannot answer,True,1
+conv-26_qa_167,Did Caroline make the black and white bowl in the photo?,,No,False,0
+conv-26_qa_168,What are the new shoes that Caroline got used for?,,Cannot answer,True,1
+conv-26_qa_169,What is Caroline's reason for getting into running?,,Cannot answer,True,1
+conv-26_qa_170,What does Caroline say running has been great for?,,Cannot answer,True,1
+conv-26_qa_171,What did Melanie see at the council meeting for adoption?,,Cannot answer,True,1
+conv-26_qa_172,What inspired Melanie's painting for the art show?,,Cannot answer,True,1
+conv-26_qa_173,What inspired Caroline's sculpture for the art show?,,Cannot answer,True,1
+conv-26_qa_174,How often does Caroline go to the beach with her kids?,,Cannot answer,True,1
+conv-26_qa_175,What did Caroline and her family see during their camping trip last year?,,Cannot answer,True,1
+conv-26_qa_176,How did Caroline feel while watching the meteor shower?,,Cannot answer,True,1
+conv-26_qa_177,Why did Caroline choose to use colors and patterns in her pottery project?,,Cannot answer,True,1
+conv-26_qa_178,Is Oscar Melanie's pet?,,Cannot answer,True,1
+conv-26_qa_179,Where did Oscar hide his bone once?,,Cannot answer,True,1
+conv-26_qa_180,What activity did Melanie used to do with her dad?,,Cannot answer,True,1
+conv-26_qa_181,What did Melanie make for a local church?,,Cannot answer,True,1
+conv-26_qa_182,What did Melanie find in her neighborhood during her walk?,,Cannot answer,True,1
+conv-26_qa_183,Which song motivates Melanie to be courageous?,,Cannot answer,True,1
+conv-26_qa_184,What type of instrument does Caroline play?,,Guitar,False,0
+conv-26_qa_185,Which classical musicians does Caroline enjoy listening to?,,Cannot answer,True,1
+conv-26_qa_186,Who is Caroline a fan of in terms of modern music?,,Cannot answer,True,1
+conv-26_qa_187,What precautionary sign did Caroline see at the café?,,Cannot answer,True,1
+conv-26_qa_188,What setback did Caroline face recently?,,Cannot answer,True,1
+conv-26_qa_189,What does Caroline do to keep herself busy during her pottery break?,,Cannot answer,True,1
+conv-26_qa_190,What was the poetry reading that Melanie attended about?,,Cannot answer,True,1
+conv-26_qa_191,What happened to Caroline's son on their road trip?,,Cannot answer,True,1
+conv-26_qa_192,How did Caroline's son handle the accident?,,Cannot answer,True,1
+conv-26_qa_193,How did Caroline feel about her family after the accident?,,Cannot answer,True,1
+conv-26_qa_194,How did Caroline's children handle the accident?,,Cannot answer,True,1
+conv-26_qa_195,How did Caroline feel after the accident?,,Cannot answer,True,1
+conv-26_qa_196,What was Caroline's reaction to her children enjoying the Grand Canyon?,,Cannot answer,True,1
+conv-26_qa_197,What did Caroline do after the road trip to relax?,,Cannot answer,True,1
+conv-26_qa_198,What does Caroline love most about camping with her family?,,Cannot answer,True,1
+conv-30_qa_100,How does Gina use the clipboard with a notepad attached to it?,,Cannot answer,True,1
+conv-30_qa_101,What did Jon take a trip to Barcelona for?,,Cannot answer,True,1
+conv-30_qa_102,What did Jon make a limited edition line of?,,Cannot answer,True,1
+conv-30_qa_103,What temporary job did Gina take to cover expenses?,,Cannot answer,True,1
+conv-30_qa_104,What plans does Gina have after receiving advice at the networking event?,,Cannot answer,True,1
+conv-30_qa_79,What temporary job did Jon take to cover expenses?,,Cannot answer,True,1
+conv-30_qa_82,What is Jon's favorite style of painting?,,Cannot answer,True,1
+conv-30_qa_83,What was Jon's favorite dancing memory?,,Cannot answer,True,1
+conv-30_qa_84,What kind of dance piece did Jon's team perform to win first place?,,Cannot answer,True,1
+conv-30_qa_85,What is Gina's attitude towards participating in the dance festival?,,Cannot answer,True,1
+conv-30_qa_86,What kind of flooring is Gina looking for in her dance studio?,,Cannot answer,True,1
+conv-30_qa_87,"What did Jon find for his clothing store on 1 February, 2023?",,Cannot answer,True,1
+conv-30_qa_88,What did Jon design for his store?,,Cannot answer,True,1
+conv-30_qa_89,What did Jon want his customers to feel in her store?,,Cannot answer,True,1
+conv-30_qa_90,What made Jon choose the furniture and decor for his store?,,Cannot answer,True,1
+conv-30_qa_91,How is Jon's store doing?,,Cannot answer,True,1
+conv-30_qa_92,What does Jon's tattoo symbolize?,,Cannot answer,True,1
+conv-30_qa_93,Why did Gina shut down her bank account?,,Cannot answer,True,1
+conv-30_qa_94,Why did Jon combine his clothing business with dance?,,Cannot answer,True,1
+conv-30_qa_95,What did Gina receive from a dance contest?,,a trophy,False,0
+conv-30_qa_96,"What kind of professional experience did Jon get accepted for on May 23, 2023?",,Cannot answer,True,1
+conv-30_qa_97,Where is Gina's HR internship?,,Cannot answer,True,1
+conv-30_qa_98,Where is Jon's fashion internship?,,Cannot answer,True,1
+conv-30_qa_99,What book is Gina currently reading?,,Cannot answer,True,1
+conv-41_qa_152,What is John's main focus in international politics?,,Cannot answer,True,1
+conv-41_qa_153,What did Maria donate to a luxury store in December 2023?,,Cannot answer,True,1
+conv-41_qa_154,Who inspired John to start volunteering?,,Cannot answer,True,1
+conv-41_qa_155,Why did Maria decide to run for office again?,,Cannot answer,True,1
+conv-41_qa_156,"What activity did Maria's colleague, Rob, invite her to?",,Cannot answer,True,1
+conv-41_qa_157,What is the name of Maria's one-year-old child?,,Cannot answer,True,1
+conv-41_qa_158,How often does John take his kids to the library?,,Cannot answer,True,1
+conv-41_qa_159,What did Maria make for her home to remind her of a trip to France?,,Cannot answer,True,1
+conv-41_qa_160,Where did John get the idea for the castle shadow box in his home?,,Cannot answer,True,1
+conv-41_qa_161,What did Maria receive a certificate for?,,Cannot answer,True,1
+conv-41_qa_162,What areas is John particularly interested in for art appreciation?,,Cannot answer,True,1
+conv-41_qa_163,Why did Maria start blogging about politics and policies?,,Cannot answer,True,1
+conv-41_qa_164,What was the focus of John's recent travel and photography blog?,,Cannot answer,True,1
+conv-41_qa_165,How often does Maria work out with her family?,,Cannot answer,True,1
+conv-41_qa_166,How has John's artistic skills improved since starting boot camps with his family?,,Cannot answer,True,1
+conv-41_qa_167,What kind of food did Maria have on her dinner spread with her father?,,Cannot answer,True,1
+conv-41_qa_168,What did John do to feel closer to a community and his faith?,,Cannot answer,True,1
+conv-41_qa_169,Why did John join a nearby church recently?,,Cannot answer,True,1
+conv-41_qa_170,How long was Max a part of Maria's family?,,Cannot answer,True,1
+conv-41_qa_171,How does Maria plan to honor the memories of her beloved pet?,,Cannot answer,True,1
+conv-41_qa_172,What important values does Maria want to teach her kids through adopting a rescue dog?,,Cannot answer,True,1
+conv-41_qa_173,What did Maria say it was like being at the desert in Oregon?,,Cannot answer,True,1
+conv-41_qa_174,What does John say she feels when doing upside-down yoga poses?,,Cannot answer,True,1
+conv-41_qa_175,What did Maria recently get promoted to?,,Cannot answer,True,1
+conv-41_qa_176,What was one of the biggest challenges Maria faced in her journey to becoming assistant manager?,,Cannot answer,True,1
+conv-41_qa_177,Why did John need to help his cousin find a new place to live?,,Cannot answer,True,1
+conv-41_qa_178,What event did Maria participate in to show support for veterans' rights?,,Cannot answer,True,1
+conv-41_qa_179,How did the drought impact the homes in John's old area?,,Cannot answer,True,1
+conv-41_qa_180,What does John criticize about the veteran's hospital visit?,,Cannot answer,True,1
+conv-41_qa_181,What did John take away from visiting the orphanage?,,Cannot answer,True,1
+conv-41_qa_182,Why did Maria feel inspired to join the military after the visit to the hospital?,,Cannot answer,True,1
+conv-41_qa_183,How did Maria describe her kids' reaction at the military memorial?,,Cannot answer,True,1
+conv-41_qa_184,Why does Maria think it's important for younger generations to visit art galleries?,,Cannot answer,True,1
+conv-41_qa_185,What happened to Maria's job in August 2023?,,Cannot answer,True,1
+conv-41_qa_186,What cause did the 5K charity run organized by Maria support?,,Cannot answer,True,1
+conv-41_qa_187,Who did John work with to raise awareness and funds for animal welfare?,,Cannot answer,True,1
+conv-41_qa_188,What recognition did John receive at the homeless shelter in August 2023?,,Cannot answer,True,1
+conv-41_qa_189,"What is the name of John's puppy he got two weeks before August 11, 2023?",,Cannot answer,True,1
+conv-41_qa_190,How does Maria describe the camping trip with Max?,,Cannot answer,True,1
+conv-41_qa_191,What is the name of Maria's second kitten?,,Cannot answer,True,1
+conv-41_qa_192,How is John's new puppy adjusting to its new home?,,Cannot answer,True,1
+conv-42_qa_199,What color did Joanna choose for her hair?,,Cannot answer,True,1
+conv-42_qa_200,What is Joanna's favorite movie trilogy?,,Cannot answer,True,1
+conv-42_qa_201,What is Joanna's favorite book series about?,,Cannot answer,True,1
+conv-42_qa_202,What kind of lighting does Joanna's gaming room have?,,Cannot answer,True,1
+conv-42_qa_203,What game was the second tournament that Joanna won based on?,,Cannot answer,True,1
+conv-42_qa_204,What is Nate's third screenplay about?,,Cannot answer,True,1
+conv-42_qa_205,What type of movies does Nate hate watching the most?,,Cannot answer,True,1
+conv-42_qa_206,What genre is Joanna's first novella?,,Cannot answer,True,1
+conv-42_qa_207,What are Nate's plans for his finished screenplay in January 2022?,,Cannot answer,True,1
+conv-42_qa_208,For how long has Nate had his snakes?,,Cannot answer,True,1
+conv-42_qa_209,What did Nate think of the caramel ice cream he made?,,Cannot answer,True,1
+conv-42_qa_210,"What flavor of cake did Nate make for his friend on 25 February, 2022?",,Cannot answer,True,1
+conv-42_qa_211,What was Nate's audition for?,,Cannot answer,True,1
+conv-42_qa_212,Why did Joanna choose the hair color she did?,,Cannot answer,True,1
+conv-42_qa_213,What are the main ingredients of the ice cream recipe shared by Joanna?,,Cannot answer,True,1
+conv-42_qa_214,What is Nate's project called in the writers group?,,Cannot answer,True,1
+conv-42_qa_215,Which activity helps Nate escape and numbs his mind?,,Playing video games and watching movies.,False,0
+conv-42_qa_216,What filling did Nate use in the cake he made recently in May 2022?,,Cannot answer,True,1
+conv-42_qa_217,Who did Joanna plan to invite to her gaming party in June 2022?,,Cannot answer,True,1
+conv-42_qa_218,What special items did Joanna get for everyone at her gaming party?,,Cannot answer,True,1
+conv-42_qa_219,What supervillain is Joanna a fan of?,,Cannot answer,True,1
+conv-42_qa_220,Which superhero toy figure does Joanna share a photo of?,,Cannot answer,True,1
+conv-42_qa_221,What did Joanna make and share with her vegan diet group?,,Cannot answer,True,1
+conv-42_qa_222,How many people attended the gaming party hosted by Joanna in June 2022?,,Cannot answer,True,1
+conv-42_qa_223,Where did Nate go for a road trip for research?,,Cannot answer,True,1
+conv-42_qa_224,What did Joanna discover at the museum in Woodhaven?,,Cannot answer,True,1
+conv-42_qa_225,What specific themes are explored in Nate's new book?,,Cannot answer,True,1
+conv-42_qa_226,How did Nate feel when someone wrote him a letter after reading his blog post?,,Cannot answer,True,1
+conv-42_qa_227,What kind of impact does Joanna hope to have with her painting?,,Cannot answer,True,1
+conv-42_qa_228,What did Nate share with his writers group in August 2022?,,Cannot answer,True,1
+conv-42_qa_229,How did Nate celebrate after sharing his book with a writers group?,,Cannot answer,True,1
+conv-42_qa_230,How did Joanna celebrate winning the international tournament?,,Cannot answer,True,1
+conv-42_qa_231,What substitution does Nate suggest for sugar in dairy-free baking?,,Cannot answer,True,1
+conv-42_qa_232,What type of show did Joanna host where she taught vegan ice cream recipes?,,Cannot answer,True,1
+conv-42_qa_233,What is Joanna's favorite dish from the cooking show she hosted?,,Cannot answer,True,1
+conv-42_qa_234,"What dessert did Nate share a photo of that has an almond flour crust, chocolate ganache, and fresh raspberries?",,Cannot answer,True,1
+conv-42_qa_235,"What two main ingredients are part of the dessert Nate shared a photo of with blueberries, coconut milk, and a gluten-free crust?",,Cannot answer,True,1
+conv-42_qa_236,"What movie did Joanna recently watch and enjoy on October 6, 2022?",,Cannot answer,True,1
+conv-42_qa_237,What did Nate make for one of the ladies at his writing club?,,Cannot answer,True,1
+conv-42_qa_238,"What game has Joanna been playing nonstop with a futuristic setting and gameplay on October 9, 2022?",,Cannot answer,True,1
+conv-42_qa_239,How did Nate describe the classic movie he watched?,,Cannot answer,True,1
+conv-42_qa_240,What does Nate recommend to make a living room comfy like his?,,Cannot answer,True,1
+conv-42_qa_241,What helps Joanna stay distracted and brings her sadness?,,Cannot answer,True,1
+conv-42_qa_242,What does Nate do while he writes?,,Cannot answer,True,1
+conv-42_qa_243,What does Nate do after receiving a rejection from a production company?,,Cannot answer,True,1
+conv-42_qa_244,What does Joanna rely on for cheer and joy?,,Tilly,False,0
+conv-42_qa_245,What does Nate use to remember his dog from Michigan?,,Cannot answer,True,1
+conv-42_qa_246,What inspires Joanna to create music for her characters?,,Cannot answer,True,1
+conv-42_qa_247,What type of diet do Joanna's turtles have?,,Cannot answer,True,1
+conv-42_qa_248,What did Nate find in old notebooks last week that prompted him to reflect on her progress as a writer?,,Cannot answer,True,1
+conv-42_qa_249,"What game is Joanna currently playing and recommends to others on November 7, 2022?",,Cannot answer,True,1
+conv-42_qa_250,What did Nate receive from his brother that brought back childhood memories?,,Cannot answer,True,1
+conv-42_qa_251,"What is the type of game ""Xenoblade Chronicles"" that Joanna is playing?",,Cannot answer,True,1
+conv-42_qa_252,"What project is Nate working on in his notebook on November 9, 2022?",,Cannot answer,True,1
+conv-42_qa_253,"What is Joanna creating for YouTube on 9 November, 2022?",,Cannot answer,True,1
+conv-42_qa_254,What inspired Joanna to start making gaming videos?,,Cannot answer,True,1
+conv-42_qa_255,What new content is Nate creating for television?,,Cannot answer,True,1
+conv-42_qa_256,What did Nate take a picture of near Fort Wayne last summer?,,Cannot answer,True,1
+conv-42_qa_257,Why did Joanna get a third turtle?,,Cannot answer,True,1
+conv-42_qa_258,What did Joanna take to the beach in Tampa?,,Cannot answer,True,1
+conv-42_qa_259,What does Joanna love most about having turtles?,,Cannot answer,True,1
+conv-43_qa_178,"Which team did Tim sign with on 21 May, 2023?",,Cannot answer,True,1
+conv-43_qa_179,What is Tim's position on the team he signed with?,,Cannot answer,True,1
+conv-43_qa_180,What challenge did Tim encounter during pre-season training?,,Cannot answer,True,1
+conv-43_qa_181,What cult did Tim join recently?,,Cannot answer,True,1
+conv-43_qa_182,What was the highest number of points Tim scored in a game recently?,,Cannot answer,True,1
+conv-43_qa_183,What did Tim celebrate at a restaurant with teammates?,,Cannot answer,True,1
+conv-43_qa_184,What kind of deals did Tim sign with Nike and Gatorade?,,Cannot answer,True,1
+conv-43_qa_185,How does Tim feel while surfing?,,Cannot answer,True,1
+conv-43_qa_186,What kind of articles has John been writing about for the online magazine?,,Cannot answer,True,1
+conv-43_qa_187,Which two mystery novels does Tim particularly enjoy writing about?,,Cannot answer,True,1
+conv-43_qa_188,What did Anthony and Tim end up playing during the charity event?,,Cannot answer,True,1
+conv-43_qa_189,How did Tim get introduced to basketball?,,Cannot answer,True,1
+conv-43_qa_190,What is Tim's number one goal in his basketball career?,,Cannot answer,True,1
+conv-43_qa_191,What organization is Tim teaming up with for his charity work?,,Cannot answer,True,1
+conv-43_qa_192,What did Tim's teammates give him when they met on Aug 15th?,,Cannot answer,True,1
+conv-43_qa_193,Why did John's teammates sign the football they gave him?,,To show their friendship and appreciation.,False,0
+conv-43_qa_194,What is the main intention behind John wanting to attend the book conference?,,Cannot answer,True,1
+conv-43_qa_195,What new activity has John started learning in August 2023?,,Cannot answer,True,1
+conv-43_qa_196,"What special memory does ""Fifty Shades of Grey"" bring to Tim?",,Cannot answer,True,1
+conv-43_qa_197,Which movie does John mention they enjoy watching during Thanksgiving?,,Cannot answer,True,1
+conv-43_qa_198,What tradition does Tim mention they love during Halloween?,,Cannot answer,True,1
+conv-43_qa_199,How long did Tim and his high school basketball teammates play together?,,Cannot answer,True,1
+conv-43_qa_200,How was Tim's experience in New York City?,,Cannot answer,True,1
+conv-43_qa_201,What spice did Tim add to the soup for flavor?,,Cannot answer,True,1
+conv-43_qa_202,What is Tim excited to see at Disneyland?,,Cannot answer,True,1
+conv-43_qa_203,Where are John and his teammates planning to avoid on a team trip?,,Cannot answer,True,1
+conv-43_qa_204,What does Tim want to do after his basketball career?,,Cannot answer,True,1
+conv-43_qa_205,What type of venue did John and his girlfriend choose for their breakup?,,Cannot answer,True,1
+conv-43_qa_206,What passion does John mention connects him with people from all over the world?,,Cannot answer,True,1
+conv-43_qa_207,How does Tim say his team handles tough opponents?,,Cannot answer,True,1
+conv-43_qa_208,Where did Tim capture the painting of the sunset over the mountain range?,,Cannot answer,True,1
+conv-43_qa_209,What does Tim find rewarding about mentoring the younger players?,,Cannot answer,True,1
+conv-43_qa_210,What has Tim been able to help the younger players achieve?,,Cannot answer,True,1
+conv-43_qa_211,What genre is the novel that John is writing?,,Cannot answer,True,1
+conv-43_qa_212,Who is one of Tim's sources of inspiration for painting?,,Cannot answer,True,1
+conv-43_qa_213,What does Tim write on the whiteboard to help him stay motivated?,,Cannot answer,True,1
+conv-43_qa_214,What hobby is a therapy for Tim when away from the court?,,Cannot answer,True,1
+conv-43_qa_215,What type of meal does Tim often cook using a slow cooker?,,Cannot answer,True,1
+conv-43_qa_216,How will Tim share the honey garlic chicken recipe with the other person?,,Cannot answer,True,1
+conv-43_qa_217,"What is one of Tim's favorite crime TV shows, as mentioned on November 11, 2023?",,Cannot answer,True,1
+conv-43_qa_218,"What was the setback Tim faced in his coding project on 21 November, 2023?",,Cannot answer,True,1
+conv-43_qa_219,How did Tim overcome his ankle injury from last season?,,Cannot answer,True,1
+conv-43_qa_220,What motivated John to keep pushing himself to get better in writing and reading?,,Cannot answer,True,1
+conv-43_qa_221,How did Tim overcome a mistake he made during a big game in basketball?,,Cannot answer,True,1
+conv-43_qa_222,What is Tim trying out to improve his strength and flexibility after recovery from ankle injury?,,Cannot answer,True,1
+conv-43_qa_223,What did John recently start learning in addition to being part of a travel club and working on studies?,,Cannot answer,True,1
+conv-43_qa_224,What instrument is John learning to play in December 2023?,,Cannot answer,True,1
+conv-43_qa_225,"How long has John been playing the piano for, as of December 2023?",,Cannot answer,True,1
+conv-43_qa_226,"What movie did Tim just finish watching on 8th December, 2023?",,A Dance with Dragons,False,0
+conv-43_qa_227,What kind of game did Tim have a career-high in assists in?,,Cannot answer,True,1
+conv-43_qa_228,What was Tim's way of dealing with doubts and stress when he was younger?,,Cannot answer,True,1
+conv-43_qa_229,Where was the photoshoot done for John's fragrance deal?,,Cannot answer,True,1
+conv-43_qa_230,In which area has Tim's team seen the most growth during training?,,communication and bonding,False,0
+conv-43_qa_231,What type of seminars is Tim conducting?,,Cannot answer,True,1
+conv-43_qa_232,What is one cause that John opposes with his influence and resources?,,Cannot answer,True,1
+conv-43_qa_233,What new fantasy TV series is John excited about?,,Cannot answer,True,1
+conv-43_qa_234,Which language is John learning?,,Spanish,False,0
+conv-43_qa_235,"According to John, who is his least favorite character from Lord of the Rings?",,Cannot answer,True,1
+conv-43_qa_236,Why does Tim like Aragorn from Lord of the Rings?,,Cannot answer,True,1
+conv-43_qa_237,What kind of painting does Tim have in his room as a reminder?,,Cannot answer,True,1
+conv-43_qa_238,What is the sculpture of Aragorn a reminder for John to be in everything he does?,,Cannot answer,True,1
+conv-43_qa_239,Which city in Ireland will John be staying in during his semester abroad?,,Cannot answer,True,1
+conv-43_qa_240,What charity event did Tim organize recently in 2024?,,Cannot answer,True,1
+conv-43_qa_241,What was Tims's reaction to sealing the deal with the beverage company?,,Cannot answer,True,1
+conv-44_qa_123,Which specific type of bird mesmerizes Audrey?,,hummingbird,False,0
+conv-44_qa_124,What kind of flowers does Andrew have a tattoo of?,,Cannot answer,True,1
+conv-44_qa_125,What type of dog was Audrey looking to adopt based on her living space?,,Cannot answer,True,1
+conv-44_qa_126,Why did Audrey sign up for a workshop about car maintenance?,,Cannot answer,True,1
+conv-44_qa_127,How did Andrew hear about the workshop on bonding with pets?,,Cannot answer,True,1
+conv-44_qa_128,What type of training was the workshop Andrew signed up for in May 2023?,,Cannot answer,True,1
+conv-44_qa_129,How did Andrew describe the dog he met at the pet store?,,Cannot answer,True,1
+conv-44_qa_130,What challenge is Audrey facing in their search for a pet?,,Cannot answer,True,1
+conv-44_qa_131,What indoor activities does Andrew plan on trying after the rock climbing class?,,Cannot answer,True,1
+conv-44_qa_132,"What did Andrew set up in the backyard for their dogs on June 26, 2023?",,Cannot answer,True,1
+conv-44_qa_133,"What did Audrey and her GF do on the Monday before July 24, 2023?",,Cannot answer,True,1
+conv-44_qa_134,What is the name of Andrew's childhood dog?,,Cannot answer,True,1
+conv-44_qa_135,"What special memories does Andrew have with his childhood dog, Max?",,Cannot answer,True,1
+conv-44_qa_136,What are some of the personalities of Andrew's four fur babies?,,Cannot answer,True,1
+conv-44_qa_137,"What type of classes did Andrew start with his pups recently on 4 August, 2023?",,Cannot answer,True,1
+conv-44_qa_138,What is essential to keep the dogs looking good according to Andrew?,,Cannot answer,True,1
+conv-44_qa_139,What did Audrey organize with the neighbors' cats?,,Cannot answer,True,1
+conv-44_qa_140,What did Andrew do to give his dogs extra comfort as the weather cooled down?,,Cannot answer,True,1
+conv-44_qa_141,How does Andrew describe the new beds for his dogs?,,Cannot answer,True,1
+conv-44_qa_142,How did Andrew calm down his dog after the leash incident?,,Cannot answer,True,1
+conv-44_qa_143,How often does Andrew take his dogs for walks?,,Cannot answer,True,1
+conv-44_qa_144,What kind of vegetables does Audrey take care of?,,Cannot answer,True,1
+conv-44_qa_145,What did Andrew learn from reading books about economic systems?,,Cannot answer,True,1
+conv-44_qa_146,What was the reason Andrew couldn't walk his dogs for a period of time?,,Cannot answer,True,1
+conv-44_qa_147,What type of jewelry does Andrew make?,,Cannot answer,True,1
+conv-44_qa_148,Why does Andrew make jewelry out of recycled objects?,,Cannot answer,True,1
+conv-44_qa_149,What type of games do Andrew's dogs like to play at the park?,,Cannot answer,True,1
+conv-44_qa_150,What did Andrew make to thank his neighbors?,,Cannot answer,True,1
+conv-44_qa_151,How do Andrew's dogs react to snow?,,Cannot answer,True,1
+conv-44_qa_152,How does Andrew describe his dogs' response to snow?,,Cannot answer,True,1
+conv-44_qa_153,What kind of experiences are Audrey's cats the best companions for?,,Cannot answer,True,1
+conv-44_qa_154,What activity do Audrey and Buddy enjoy doing together?,,Cannot answer,True,1
+conv-44_qa_155,What type of drink did Andrew recently try at a new spot in town?,,Cannot answer,True,1
+conv-44_qa_156,Which type of pizza did Audrey suggest trying first to someone new to Italian cuisine?,,Cannot answer,True,1
+conv-44_qa_157,How often does Andrew meet up with other dog owners for tips and playdates?,,Cannot answer,True,1
+conv-47_qa_150,What did John adopt in April 2022?,,Cannot answer,True,1
+conv-47_qa_151,What is the name of the kitten that was adopted by James?,,Cannot answer,True,1
+conv-47_qa_152,What inspired John to create the game character in the virtual world?,,Cannot answer,True,1
+conv-47_qa_153,Which country did John visit in 2021?,,Cannot answer,True,1
+conv-47_qa_154,What kind of assignment was giving James a hard time at work?,,Cannot answer,True,1
+conv-47_qa_155,What did James and his friends do with the remaining money after helping the dog shelter?,,Cannot answer,True,1
+conv-47_qa_156,What was the main goal of the money raised from the political campaign organized by John and his friends in May 2022?,,Cannot answer,True,1
+conv-47_qa_157,What did the system John created help the illegal organization with?,,Cannot answer,True,1
+conv-47_qa_158,What did James create for the charitable foundation that helped generate reports for analysis?,,Cannot answer,True,1
+conv-47_qa_159,Who does James support in cricket matches?,,Cannot answer,True,1
+conv-47_qa_160,What is Max good at doing according to John?,,Cannot answer,True,1
+conv-47_qa_161,Will there be a background check required to volunteer with the organization James volunteered for?,,Cannot answer,True,1
+conv-47_qa_162,"How did James relax in his free time on 9 July, 2022?",,surfing,False,0
+conv-47_qa_163,"What new hobby did John become interested in on 9 July, 2022?",,Cannot answer,True,1
+conv-47_qa_164,When did John plan to return from his trip to Toronto and Vancouver?,,Cannot answer,True,1
+conv-47_qa_165,What made James leave his IT job?,,Cannot answer,True,1
+conv-47_qa_166,Which game tournaments does James plan to organize besides CS:GO?,,Cannot answer,True,1
+conv-47_qa_167,What happened to James's kitten during the recent visit to the clinic?,,Cannot answer,True,1
+conv-47_qa_168,"What aspect of ""The Witcher 3"" does John find boring?",,Cannot answer,True,1
+conv-47_qa_169,What is John planning to do after receiving Samantha's phone number?,,Cannot answer,True,1
+conv-47_qa_170,What has James been teaching his siblings?,,Cannot answer,True,1
+conv-47_qa_171,How much does James pay per dance class?,,Cannot answer,True,1
+conv-47_qa_172,What did James learn to make in the chemistry class besides omelette and meringue?,,Cannot answer,True,1
+conv-47_qa_173,Why did James sign up for a ballet class?,,Cannot answer,True,1
+conv-47_qa_174,What did John prepare for the first time in the cooking class?,,Cannot answer,True,1
+conv-47_qa_175,What is the name of the board game James tried in September 2022?,,Cannot answer,True,1
+conv-47_qa_176,Where does John get his ideas from?,,Cannot answer,True,1
+conv-47_qa_177,What did James use to play when he was younger to let off steam?,,Cannot answer,True,1
+conv-47_qa_178,What does James do to stay informed and constantly learn about game design?,,Cannot answer,True,1
+conv-47_qa_179,What kind of gig was James offered at the game dev non-profit organization?,,Cannot answer,True,1
+conv-47_qa_180,What does James feel about starting the journey as a programming mentor for game developers?,,Cannot answer,True,1
+conv-47_qa_181,What inspired James to create his painting?,,Cannot answer,True,1
+conv-47_qa_182,"What games were played at the gaming tournament organized by James on 31 October, 2022?",,Cannot answer,True,1
+conv-47_qa_183,"What was the purpose of the gaming tournament organized by James on 31 October, 2022?",,Cannot answer,True,1
+conv-47_qa_184,"What decision did John and Samantha make on 31 October, 2022?",,Cannot answer,True,1
+conv-47_qa_185,"Where did John and Samantha decide to live together on 31 October, 2022?",,Cannot answer,True,1
+conv-47_qa_186,Why did John and Samantha choose an apartment near McGee's bar?,,Cannot answer,True,1
+conv-47_qa_187,"What game is James hooked on playing on 5 November, 2022?",,Cannot answer,True,1
+conv-47_qa_188,"What project did James work on with a game developer by 7 November, 2022?",,Cannot answer,True,1
+conv-47_qa_189,What is the name of James's cousin's dog?,,Cannot answer,True,1
+conv-48_qa_191,What are the names of Deborah's snakes?,,Cannot answer,True,1
+conv-48_qa_192,What are Deborah's favorite books?,,Cannot answer,True,1
+conv-48_qa_193,Where did Deborah get her dogs?,,Cannot answer,True,1
+conv-48_qa_194,How old are Jolene's cats?,,Cannot answer,True,1
+conv-48_qa_195,When did Deborah's parents give her first console?,,Cannot answer,True,1
+conv-48_qa_196,When did Jolene release her pet snake?,,Cannot answer,True,1
+conv-48_qa_197,Where did Jolene meet her new friend Anna?,,Cannot answer,True,1
+conv-48_qa_198,"What is Deborah's favorite book which she mentioned on 4 February, 2023?",,Cannot answer,True,1
+conv-48_qa_199,"What cool stuff did Deborah accomplish at the retreat on 9 February, 2023?",,Cannot answer,True,1
+conv-48_qa_200,How does Deborah plan to involve local engineers in her idea of teaching STEM to underprivileged kids?,,Cannot answer,True,1
+conv-48_qa_201,What gave Deborah anxiety in the garden she visited?,,Cannot answer,True,1
+conv-48_qa_202,Why did Jolene spend time in the garden?,,Cannot answer,True,1
+conv-48_qa_203,How did Jolene and her rival initially meet?,,Cannot answer,True,1
+conv-48_qa_204,What activity does Jolene incorporate into her daily routine after going for a morning jog in the park?,,Cannot answer,True,1
+conv-48_qa_205,What method does Jolene suggest Deborah to try for organizing tasks based on importance and urgency?,,Cannot answer,True,1
+conv-48_qa_206,How does Jolene plan to pursue her dream of climbing mountains?,,Cannot answer,True,1
+conv-48_qa_207,Who are the authors mentioned by Jolene that she enjoys reading during her yoga practice?,,Cannot answer,True,1
+conv-48_qa_208,"Which show did Jolene go to with a friend on 9 April, 2023?",,Cannot answer,True,1
+conv-48_qa_209,What does Deborah find comforting about going to horror movie screenings?,,Cannot answer,True,1
+conv-48_qa_210,How does Deborah describe the time spent with her snakes and partner?,,Cannot answer,True,1
+conv-48_qa_211,For how long has Jolene had Lucifer as a pet?,,Cannot answer,True,1
+conv-48_qa_212,How does Deborah feel when spending time with Seraphim?,,Cannot answer,True,1
+conv-48_qa_213,What made being part of the running group easy for Jolene to stay motivated?,,Cannot answer,True,1
+conv-48_qa_214,Why did Jolene decide to get a tarantula as a pet?,,Cannot answer,True,1
+conv-48_qa_215,"How did Deborah come to have her pet, Susie?",,Cannot answer,True,1
+conv-48_qa_216,What did Deborah design inspired by their love for space and engines?,,Cannot answer,True,1
+conv-48_qa_217,What journal has Deborah been using to help track tasks and stay organized?,,Cannot answer,True,1
+conv-48_qa_218,What game did Jolene recommend to Deborah for being thrilling and intense?,,Cannot answer,True,1
+conv-48_qa_219,What game did Deborah suggest as an awesome open-world game for the Nintendo Switch?,,Cannot answer,True,1
+conv-48_qa_220,What is special about the bench at the park near Jolene's house?,,Cannot answer,True,1
+conv-48_qa_221,What did Jolene and her mom chat about at their special bench in the park?,,Cannot answer,True,1
+conv-48_qa_222,How did Deborah feel after receiving positive feedback at the virtual conference?,,Cannot answer,True,1
+conv-48_qa_223,What kind of event did Deborah present at recently?,,Cannot answer,True,1
+conv-48_qa_224,"What did Deborah's mom stress the value of, which she wants to keep in mind for her engineering projects?",,Cannot answer,True,1
+conv-48_qa_225,What type of projects is Deborah interested in getting involved in the future?,,Cannot answer,True,1
+conv-48_qa_226,"How did Jolene get Luna, one of her cats?",,Cannot answer,True,1
+conv-48_qa_227,"What type of classes did Deborah and her partner check out during their trip to Rio de Janeiro on 30 August, 2023?",,Cannot answer,True,1
+conv-48_qa_228,"Why did Deborah get the new plant on 30 August, 2023?",,Cannot answer,True,1
+conv-48_qa_229,How did Jolene's mom support her yoga practice when she first started?,,Cannot answer,True,1
+conv-48_qa_230,What was the video game console that Deborah's parents got her at age 10?,,Cannot answer,True,1
+conv-48_qa_231,What was one of Deborah's favorite games to play with her mom on the PlayStation game system?,,Cannot answer,True,1
+conv-48_qa_232,Where did Deborah and her partner travel for a few weeks in September 2023?,,Cannot answer,True,1
+conv-48_qa_233,What did Jolene do with their mom's old friends?,,Cannot answer,True,1
+conv-48_qa_234,Where did Jolene get married?,,Cannot answer,True,1
+conv-48_qa_235,"What new activity did Jolene and her neighbor organize for the community on 16 September, 2023?",,Cannot answer,True,1
+conv-48_qa_236,What food did Jolene's mom make for her on holidays?,,Cannot answer,True,1
+conv-48_qa_237,What kind of cookies did Deborah used to bake with someone close to her?,,Cannot answer,True,1
+conv-48_qa_238,"What activity did Jolene enjoy at the music festival with their pals on September 20, 2023?",,Cannot answer,True,1
+conv-49_qa_156,What type of car did Sam get after his old Prius broke down?,,Cannot answer,True,1
+conv-49_qa_157,How did Sam get into watercolor painting?,,Cannot answer,True,1
+conv-49_qa_158,What did Sam start doing a few years back as a stress-buster?,,Cannot answer,True,1
+conv-49_qa_159,"Where did Sam take his family for a road trip on 24 May, 2023?",,Cannot answer,True,1
+conv-49_qa_160,What did Sam find relaxing about his road trip to Jasper?,,Cannot answer,True,1
+conv-49_qa_161,What habit is Evan trying to change in terms of diet?,,Eating less processed food and sugary snacks.,False,0
+conv-49_qa_162,What frustrating issue did Evan face at the supermarket?,,Cannot answer,True,1
+conv-49_qa_163,What novel is Sam reading that he finds gripping?,,Cannot answer,True,1
+conv-49_qa_164,What does the smartwatch help Sam with?,,Cannot answer,True,1
+conv-49_qa_165,Why did Sam decide to get the bonsai tree?,,Cannot answer,True,1
+conv-49_qa_166,What did Sam mention he had been searching for fruitlessly for half an hour?,,Cannot answer,True,1
+conv-49_qa_167,What class is Evan taking to learn how to make healthier meals?,,Cannot answer,True,1
+conv-49_qa_168,"What dish did Sam make on 18 August, 2023 that turned out bland?",,Cannot answer,True,1
+conv-49_qa_169,"What food did Evan share a photo of on 19 August, 2023?",,Cannot answer,True,1
+conv-49_qa_170,What did Evan start sculpting years ago due to being inspired by a friend's gift?,,Cannot answer,True,1
+conv-49_qa_171,What nature concept do watercolor painting classes emphasize according to Sam?,,Cannot answer,True,1
+conv-49_qa_172,What type of landscapes does Sam love painting the most?,,Cannot answer,True,1
+conv-49_qa_173,What sports activity has Sam been doing to stay active while dealing with the knee injury?,,Cannot answer,True,1
+conv-49_qa_174,What activity does Sam do to keep himself busy while healing his knee?,,Cannot answer,True,1
+conv-49_qa_175,What kind of writing does Evan enjoy as a form of expression?,,Cannot answer,True,1
+conv-49_qa_176,What electronics issue has been frustrating Evan lately?,,Cannot answer,True,1
+conv-49_qa_177,What activity did Evan quit one year ago?,,Cannot answer,True,1
+conv-49_qa_178,Where did Sam and his mate plan to try skydiving?,,Cannot answer,True,1
+conv-49_qa_179,What digestive issue did Evan experience lately?,,Cannot answer,True,1
+conv-49_qa_180,How did Sam start his transformation journey two years ago?,,Cannot answer,True,1
+conv-49_qa_181,What gift did Sam receive from a close friend?,,Cannot answer,True,1
+conv-49_qa_182,How does Sam describe the island he grew up on?,,Cannot answer,True,1
+conv-49_qa_183,What was the main reason for Evan's frustration with his new Prius getting stolen?,,Cannot answer,True,1
+conv-49_qa_184,What family event is Sam planning for next summer?,,Cannot answer,True,1
+conv-49_qa_185,What is the motto of Sam's family?,,Cannot answer,True,1
+conv-49_qa_186,Who helped Sam get the painting published in the exhibition?,,Cannot answer,True,1
+conv-49_qa_187,How did Sam feel when he painted the piece with the bird flying over it?,,Cannot answer,True,1
+conv-49_qa_188,How did Sam describe the process of creating the painting with the bird flying over it?,,Cannot answer,True,1
+conv-49_qa_189,"What did Evan and his partner keep from their extended family on January 5, 2024?",,Cannot answer,True,1
+conv-49_qa_190,What was Sam limiting himself to on his new diet?,,Cannot answer,True,1
+conv-49_qa_191,What dance activity did Evan and his partner try in a recent weekend?,,Cannot answer,True,1
+conv-49_qa_192,What suggestions did Evan give for high-impact exercises?,,Cannot answer,True,1
+conv-49_qa_193,What movie did Evan watch that motivated him to keep up with his routine?,,Cannot answer,True,1
+conv-49_qa_194,What activity hindered Evan's stress and flexibility?,,Cannot answer,True,1
+conv-49_qa_195,What did Sam share a photo of that was taken on a camping trip?,,Cannot answer,True,1
+conv-50_qa_158,Which DJ was Dave's favorite at the music festival in April 2023?,,Cannot answer,True,1
+conv-50_qa_159,What advice did Calvin receive from the chef at the music festival?,,Cannot answer,True,1
+conv-50_qa_160,"What is Calvin's new business venture as of 1 May, 2023?",,Cannot answer,True,1
+conv-50_qa_161,What type of cars does Calvin work on at his shop?,,Cannot answer,True,1
+conv-50_qa_162,What did Dave receive as a gift from another artist?,,Cannot answer,True,1
+conv-50_qa_163,What was the necklace Dave received meant to remind him of?,,Cannot answer,True,1
+conv-50_qa_164,What did Calvin open in May 2023?,,Cannot answer,True,1
+conv-50_qa_165,What gives Calvin a sense of achievement and purpose?,,Fixing cars,False,0
+conv-50_qa_166,What sports activity is Dave planning to try after the tour with Frank Ocean?,,Cannot answer,True,1
+conv-50_qa_167,How does Calvin describe his process of adding acoustic elements to his songs?,,Cannot answer,True,1
+conv-50_qa_168,What clothing brand does Calvin own that he is proud of?,,Cannot answer,True,1
+conv-50_qa_169,"What workshop did Calvin get picked for on 11 August, 2023?",,Cannot answer,True,1
+conv-50_qa_170,What kind of modifications has Calvin been working on in the car mod workshop?,,Cannot answer,True,1
+conv-50_qa_171,What type of car did Calvin work on during the workshop?,,Cannot answer,True,1
+conv-50_qa_172,What did Dave and his friends record in August 2023?,,Cannot answer,True,1
+conv-50_qa_173,Where did Dave start shooting a video for his new album?,,Cannot answer,True,1
+conv-50_qa_174,What design is featured on Dave's guitar?,,Cannot answer,True,1
+conv-50_qa_175,Why did Dave get his guitar customized with a shiny finish?,,Cannot answer,True,1
+conv-50_qa_176,What color glow did Dave customize his guitar with?,,purple,False,0
+conv-50_qa_177,Where did Calvin come back from with insights on car modification on 1st September 2023?,,Cannot answer,True,1
+conv-50_qa_178,What emotion does Calvin mention feeling when he sees the relief of someone whose car he fixed?,,Cannot answer,True,1
+conv-50_qa_179,What did Dave book a flight ticket for on 1st September 2023?,,Cannot answer,True,1
+conv-50_qa_180,Which horror movie did Dave mention as one of his favorites?,,Cannot answer,True,1
+conv-50_qa_181,Which song from the childhood of Dave brings back memories of a road trip with his dad?,,Cannot answer,True,1
+conv-50_qa_182,What car did Calvin work on in the junkyard?,,Cannot answer,True,1
+conv-50_qa_183,What does Dave find satisfying about destroying old cars?,,Cannot answer,True,1
+conv-50_qa_184,What does working on boats represent for Dave?,,Cannot answer,True,1
+conv-50_qa_185,What does Dave aim to do with his passion for cooking?,,Cannot answer,True,1
+conv-50_qa_186,"What did Calvin recently get that is a ""masterpiece on canvas""?",,Cannot answer,True,1
+conv-50_qa_187,Who headlined the music festival that Calvin attended in October?,,Cannot answer,True,1
+conv-50_qa_188,Which part of Tokyo is described as Tokyo's Times Square by Dave?,,Cannot answer,True,1
+conv-50_qa_189,What specific location in Tokyo does Calvin mention being excited to avoid?,,Cannot answer,True,1
+conv-50_qa_190,When did Calvin sell the car he restored last year?,,Cannot answer,True,1
+conv-50_qa_191,When did Calvin first get interested in motorcycles?,,Cannot answer,True,1
+conv-50_qa_192,What realization did the nightclub experience bring to Dave?,,Cannot answer,True,1
+conv-50_qa_193,What did Dave do recently at his Japanese house?,,Cannot answer,True,1
+conv-50_qa_194,What did Calvin recently start a blog about?,,Cannot answer,True,1
+conv-50_qa_195,What type of videos does Dave usually watch on his television?,,Cannot answer,True,1
+conv-50_qa_196,What type of art has Dave been getting into lately?,,photography,False,0
+conv-50_qa_197,What type of content does Dave post on his blog that inspired others to start their own cooking projects?,,Cannot answer,True,1
+conv-50_qa_198,What kind of impact does Dave's blog on vegan recipes have on people?,,Cannot answer,True,1
+conv-50_qa_199,"Who did Dave invite to see him perform in Boston on 13 November, 2023?",,Cannot answer,True,1
+conv-50_qa_200,What new item did Calvin buy recently?,,new car,False,0
+conv-50_qa_201,What type of photos does Calvin like to capture with his new camera?,,Cannot answer,True,1
+conv-50_qa_202,What did Dave discuss with the cool artist he met at the gala?,,Cannot answer,True,1
+conv-50_qa_203,Where did Calvin take a stunning photo of a waterfall?,,Cannot answer,True,1

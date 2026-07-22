@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "Docker containers": true,
+    "Cassandra real CQL": true,
+    "Neo4j real Bolt": true,
+    "1M scale guard": true,
+    "Event artifact valid": true
+  },
+  "all_pass": true,
+  "c_edges": 3875,
+  "n_edges": 0
+}

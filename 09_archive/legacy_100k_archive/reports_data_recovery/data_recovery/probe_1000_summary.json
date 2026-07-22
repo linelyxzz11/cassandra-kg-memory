@@ -1,0 +1,18 @@
+{
+  "label": "probe_1000",
+  "graph_id": "restore_probe_1783495782",
+  "expected_logical_edges": 1000,
+  "by_src_raw_rows": 1000,
+  "by_src_distinct_logical_edges": 1000,
+  "duplicate_logical_edges": 0,
+  "duplicate_physical_rows_extra": 0,
+  "missing_logical_edges": 0,
+  "extra_logical_edges": 0,
+  "validated_at": "2026-07-08T07:29:56.161253+00:00",
+  "import": {
+    "attempted_success_count_including_retries": 1000,
+    "input_rows": 1000,
+    "elapsed_s": 1.9362566471099854,
+    "rows_per_s": 516.4604607000721
+  }
+}

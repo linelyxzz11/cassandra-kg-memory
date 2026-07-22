@@ -1,0 +1,12 @@
+{
+  "clients": 8,
+  "write_ratios": [
+    10,
+    30
+  ],
+  "warmup_s": 10,
+  "measurement_s": 20,
+  "hop": 2,
+  "fanout": 20,
+  "cycle_policy": "path"
+}

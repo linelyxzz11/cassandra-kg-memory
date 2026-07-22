@@ -1,0 +1,5 @@
+comparison,metric,mean_delta,ci_low,ci_high
+ZScore_RawERK - ZScore_RawERK,MRR,0.0,0.0,0.0
+ZScore_RawERK - ZScore_RawERK,rF1,0.0,0.0,0.0
+ZScore_RawERK - ZScore_RawERK,rEM,0.0,0.0,0.0
+ZScore_RawERK - ZScore_RawERK,WrongAbst,0.0,0.0,0.0

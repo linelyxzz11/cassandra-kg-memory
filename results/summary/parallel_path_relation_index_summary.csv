@@ -1,4 +1,0 @@
-graph_id,start_node,relations,branching,start_noise,noise_per_node,total_edges,baseline_raw,index_raw,raw_reduction,baseline_latency_ms,index_latency_ms,index_speedup
-synthetic_path_index_noise_v1,user_path_mix,"likes,suitable_for,related_to,suggests",20,500,200,12580,12580,80,12500,104.506,67.518,1.55
-synthetic_path_index_noise_v15,user_path_mix,"likes,suitable_for,related_to,suggests",20,2000,1000,62080,62080,80,62000,156.834,71.503,2.19
-synthetic_path_index_noise_v2,user_path_mix,"likes,suitable_for,related_to,suggests",20,5000,2000,125080,125080,80,125000,263.788,67.626,3.90

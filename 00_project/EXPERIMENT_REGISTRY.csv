@@ -1,0 +1,9 @@
+experiment,status,description
+P3,DONE,"Reader alignment, representation comparison"
+P4,DONE,Canonical cat1-4 + full-5 + held-out benchmark
+P5-1,OFFICIAL_FROZEN,"Concurrent update-to-searchable, c=8/32/64"
+P5-2,OFFICIAL_FROZEN,"Hot-entity workload, uniform vs skewed"
+P5-3A,OFFICIAL_FROZEN,Recovery infrastructure smoke
+P5-3B,OFFICIAL_FROZEN,Burst-only isolation
+P5-3C,COMPLETED,Materializer restart-only (formal)
+P5-3D,PLANNED,Combined burst + restart pilot

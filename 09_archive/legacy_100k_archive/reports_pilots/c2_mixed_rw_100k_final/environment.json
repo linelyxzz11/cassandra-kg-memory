@@ -1,0 +1,7 @@
+{
+  "os": "Windows-10-10.0.26200-SP0",
+  "python": "3.11.7 | packaged by Anaconda, Inc. | (main, Dec 15 2023, 18:05:47) [MSC v.1916 64 bit (AMD64)]",
+  "cpu_logical": 32,
+  "frontier_workers": 16,
+  "graph_id": "synth_100000_1781447372"
+}

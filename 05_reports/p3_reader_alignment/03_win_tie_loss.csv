@@ -1,0 +1,3 @@
+comparison,metric,better,tie,worse
+ZScore_RawERK - ZScore_RawERK,rF1,0,1150,0
+ZScore_RawERK - ZScore_RawERK,rEM,0,1150,0

@@ -1,0 +1,11 @@
+{
+  "path": "D:\\memorytable\\cassandra-kg-memory\\artifacts\\p5\\p5_3c_restart_events.jsonl",
+  "sha256": "c5401b851eb247f8374eb07e2396d36082c931fbbfc72f66469a64435d436f61",
+  "event_count": 18000,
+  "graph_id": "p5_3c_restart_only_1m",
+  "operation_counts": {
+    "insert_memory": 10800,
+    "update_relation": 5400,
+    "replace_relation": 1800
+  }
+}

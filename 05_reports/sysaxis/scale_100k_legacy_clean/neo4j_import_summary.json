@@ -1,0 +1,8 @@
+{
+  "graph_id": "sysaxis_100K_legacy_clean_20260709",
+  "input_csv_rows": 100000,
+  "input_unique_edges": 99875,
+  "batch_size": 500,
+  "deterministic_edge_id": true,
+  "elapsed_seconds": 5.159
+}

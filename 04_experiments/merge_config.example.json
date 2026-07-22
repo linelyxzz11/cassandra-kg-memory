@@ -1,0 +1,26 @@
+{
+  "raw": {
+    "path": "PATH/TO/raw_memories.csv",
+    "memory_id": "memory_id",
+    "conversation_id": "conversation_id",
+    "raw_text": "raw_text"
+  },
+  "summary": {
+    "path": "PATH/TO/memory_summaries.csv",
+    "memory_id": "memory_id",
+    "summary": "summary"
+  },
+  "erk": {
+    "path": "PATH/TO/erk_fields.csv",
+    "memory_id": "memory_id",
+    "entities": "entities",
+    "relations": "relations",
+    "keywords": "keywords"
+  },
+  "triples": {
+    "path": "PATH/TO/kg_triples_by_memory.csv",
+    "memory_id": "memory_id",
+    "triples": "triples"
+  },
+  "output": "artifacts/p3_memory_features.csv"
+}

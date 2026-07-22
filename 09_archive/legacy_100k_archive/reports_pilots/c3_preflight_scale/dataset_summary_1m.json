@@ -1,0 +1,9 @@
+{
+  "graph_id": "c3_synth_1M_seed42",
+  "total_edges": 1000000,
+  "distinct_sources": 3518,
+  "min_outdegree": 200,
+  "max_outdegree": 4000,
+  "p50_outdegree": 200,
+  "high_degree_nodes": 3518
+}

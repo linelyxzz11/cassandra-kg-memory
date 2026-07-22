@@ -1,0 +1,18 @@
+{
+  "query_count": 256,
+  "distinct_seeds": 256,
+  "relation_path_top5": [
+    [
+      "('attended', 'bought')",
+      236
+    ],
+    [
+      "('attended', 'helped')",
+      20
+    ]
+  ],
+  "result_path_min": 36,
+  "result_path_max": 314,
+  "result_path_p50": 164,
+  "result_path_p95": 247
+}

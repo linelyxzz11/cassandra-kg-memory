@@ -1,0 +1,8 @@
+{"write_graph_id": "c2_write_sink_neo4j_w30_r1", "target": 60000, "actual": 60000, "batches": 120, "elapsed_s": 2.17, "success": true, "measurement_excludes_precreate": true}
+{"write_graph_id": "c2_write_sink_neo4j_w30_r1", "target": 60000, "actual": 60000, "batches": 120, "elapsed_s": 1.311, "success": true, "measurement_excludes_precreate": true}
+{"write_graph_id": "c2_write_sink_neo4j_w10_r1", "target": 60000, "actual": 60000, "batches": 120, "elapsed_s": 1.975, "success": true, "measurement_excludes_precreate": true}
+{"write_graph_id": "c2_write_sink_neo4j_w10_r2", "target": 60000, "actual": 60000, "batches": 120, "elapsed_s": 2.136, "success": true, "measurement_excludes_precreate": true}
+{"write_graph_id": "c2_write_sink_neo4j_w10_r3", "target": 60000, "actual": 60000, "batches": 120, "elapsed_s": 2.657, "success": true, "measurement_excludes_precreate": true}
+{"write_graph_id": "c2_write_sink_neo4j_w30_r1", "target": 60000, "actual": 60000, "batches": 120, "elapsed_s": 1.343, "success": true, "measurement_excludes_precreate": true}
+{"write_graph_id": "c2_write_sink_neo4j_w30_r2", "target": 60000, "actual": 60000, "batches": 120, "elapsed_s": 2.408, "success": true, "measurement_excludes_precreate": true}
+{"write_graph_id": "c2_write_sink_neo4j_w30_r3", "target": 60000, "actual": 60000, "batches": 120, "elapsed_s": 2.725, "success": true, "measurement_excludes_precreate": true}

@@ -1,0 +1,12 @@
+{
+  "backend": "neo4j",
+  "produced_events": 1200,
+  "searchable_events": 1200,
+  "checkpoint_before_stop": 399,
+  "final_checkpoint": 1200,
+  "maximum_searchability_backlog": 222,
+  "maximum_searchable_lag_ms": 11092.6931,
+  "restart_to_first_replay_ms": 1102.106,
+  "restart_to_first_searchable_ms": 1125.9058,
+  "backlog_drain_ms_after_restart": 29999.5833
+}

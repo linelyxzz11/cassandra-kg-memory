@@ -1,0 +1,30 @@
+{
+  "query_count": 256,
+  "distinct_seeds": 256,
+  "relation_path_top5": [
+    [
+      "('likes', 'reviewed')",
+      143
+    ],
+    [
+      "('helped', 'talked_to')",
+      54
+    ],
+    [
+      "('planned', 'reviewed')",
+      32
+    ],
+    [
+      "('suitable_for', 'visited')",
+      12
+    ],
+    [
+      "('attended', 'suitable_for')",
+      5
+    ]
+  ],
+  "result_path_min": 1,
+  "result_path_max": 52,
+  "result_path_p50": 2,
+  "result_path_p95": 9
+}

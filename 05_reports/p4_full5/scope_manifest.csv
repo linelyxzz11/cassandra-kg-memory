@@ -1,0 +1,4 @@
+﻿scope_name,query_count,included_categories,retrieval_evaluated,reader_evaluated,adversarial_evaluated
+canonical_cat1_4,1540,"1,2,3,4",True,True,False
+full5,1986,"1,2,3,4,5",True,True,True
+heldout_grouped_test,1150,"1,2,3,4",True,True,False
