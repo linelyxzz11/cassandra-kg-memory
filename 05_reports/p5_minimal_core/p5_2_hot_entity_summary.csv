@@ -1,0 +1,5 @@
+﻿backend,workload,n,timeouts,p50,p95,p99,mean,throughput
+cassandra,uniform,250000,0,56.9,184.7,561.4,81.1,124164
+cassandra,hot,250000,0,59.2,457.6,581.3,87.1,124763
+neo4j,uniform,250000,0,127.4,267.8,529.4,145.7,162198
+neo4j,hot,250000,0,118.8,480.1,768.6,157.2,104263

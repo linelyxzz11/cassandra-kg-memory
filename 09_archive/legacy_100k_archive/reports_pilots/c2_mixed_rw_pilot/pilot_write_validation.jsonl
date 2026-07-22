@@ -1,0 +1,4 @@
+{"system": "cassandra_parallel", "write_ratio": 10, "logical_writes_validated": "20/20", "physical_writes_per_logical_write": 4}
+{"system": "neo4j", "write_ratio": 10, "logical_writes_validated": "20/20", "physical_writes_per_logical_write": 1}
+{"system": "cassandra_parallel", "write_ratio": 30, "logical_writes_validated": "20/20", "physical_writes_per_logical_write": 4}
+{"system": "neo4j", "write_ratio": 30, "logical_writes_validated": "20/20", "physical_writes_per_logical_write": 1}

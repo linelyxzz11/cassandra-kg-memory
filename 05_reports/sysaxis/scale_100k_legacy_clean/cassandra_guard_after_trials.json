@@ -1,0 +1,12 @@
+{
+  "graph_id": "sysaxis_100K_legacy_clean_20260709",
+  "actual_raw_rows": 99875,
+  "actual_distinct_logical_edges": 99875,
+  "duplicates": 0,
+  "missing_vs_csv": 0,
+  "extra_vs_csv": 0,
+  "partition_count_checked": 3518,
+  "empty_partitions": 0,
+  "elapsed_seconds": 4.45,
+  "all_pass": true
+}

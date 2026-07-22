@@ -1,0 +1,7 @@
+{
+  "file": "D:\\memorytable\\cassandra-kg-memory\\reports\\p5_minimal_core\\artifacts\\frozen_update_events.jsonl",
+  "sha256": "829974fea87dd97147cd661f59d667f95957e0f5a18dcd613346f455fe720a20",
+  "events": 55000,
+  "warmup": 5000,
+  "formal": 50000
+}

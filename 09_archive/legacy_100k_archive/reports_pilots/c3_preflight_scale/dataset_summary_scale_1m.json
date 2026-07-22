@@ -1,0 +1,9 @@
+{
+  "graph_id": "c3_scale_1M_seed42",
+  "total_edges": 1000000,
+  "distinct_sources": 36282,
+  "min_outdegree": 20,
+  "max_outdegree": 400,
+  "p50_outdegree": 20,
+  "high_degree_nodes": 722
+}

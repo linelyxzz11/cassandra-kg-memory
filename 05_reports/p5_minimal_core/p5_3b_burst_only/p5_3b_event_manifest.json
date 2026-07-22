@@ -1,0 +1,12 @@
+{
+  "path": "D:\\memorytable\\cassandra-kg-memory\\reports\\p5_minimal_core\\artifacts\\p5_3b_burst_events.jsonl",
+  "sha256": "f772c1a8126cc6691c04d1064dabce27a77f0be818d36ad64a07eebd9ab8ef3c",
+  "total": 21000,
+  "baseline_dur": 60,
+  "baseline_rate": 100,
+  "burst_dur": 30,
+  "burst_rate": 500,
+  "drain_max": 300,
+  "graph_id": "c3_scale_1M_seed42",
+  "scale": "1M"
+}

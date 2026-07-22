@@ -1,0 +1,6 @@
+﻿method,expected_MRR,actual_MRR,expected_R@10,actual_R@10,mrr_pass,r10_pass,overall,n_queries,unresolved_ids
+ZScore_Raw,0.5073,0.5073,0.7817,0.7817,True,True,PASS,1150,0
+ZScore_RawSummary,0.528,0.528,0.7948,0.7948,True,True,PASS,1150,0
+ZScore_RawTriples,0.5404,0.5404,0.8026,0.8026,True,True,PASS,1150,0
+ZScore_RawERK,0.5462,0.5462,0.807,0.807,True,True,PASS,1150,0
+ZScore_ERKOnly,0.5555,0.5555,0.8009,0.8009,True,True,PASS,1150,0

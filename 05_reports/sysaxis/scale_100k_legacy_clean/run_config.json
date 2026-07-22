@@ -1,0 +1,30 @@
+{
+  "scale_label": "100K_legacy_clean",
+  "graph_id": "sysaxis_100K_legacy_clean_20260709",
+  "graph_type": "legacy_synthetic_rebuilt_from_c1_source_100k",
+  "not_scale_controlled": true,
+  "source_csv": "D:\\memorytable\\cassandra-kg-memory\\results\\c1_source_100k.csv",
+  "manifest_src": "D:\\memorytable\\cassandra-kg-memory\\results\\c1_manifest_100k_h2.jsonl",
+  "manifest_dst": "D:\\memorytable\\cassandra-kg-memory\\results\\sysaxis_scale_100k_legacy_clean_manifest_h2.jsonl",
+  "systems": [
+    "cassandra_opt",
+    "neo4j"
+  ],
+  "clients": 32,
+  "hop": 2,
+  "fanout": 20,
+  "write_ratio": 0.1,
+  "modes": [
+    "cold",
+    "warm"
+  ],
+  "repeats": 5,
+  "cold_mode": "process_cold",
+  "cache_enabled": false,
+  "relation_index_enabled": false,
+  "frontier_workers": 16,
+  "write_graph_base": "sysaxis_100K_legacy_clean_write_20260709",
+  "created_at": "2026-07-09T00:00:00+00:00",
+  "run_formal": true,
+  "skip_import": false
+}

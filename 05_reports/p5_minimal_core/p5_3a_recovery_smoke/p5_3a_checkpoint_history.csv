@@ -1,0 +1,6 @@
+﻿sequence,last_checkpoint_seq,materializer_running,timestamp
+0,0,True,0.144
+200,200,True,12.604
+400,400,True,24.755
+600,600,True,36.966
+800,800,True,53.62

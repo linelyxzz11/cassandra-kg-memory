@@ -1,4 +1,0 @@
-selectivity,graph_id,src_id,total_out_edges,target_edges,baseline_latency_ms,index_latency_ms,index_speedup,raw_edge_reduction
-1%,synthetic_index_1pct,user_mix_1pct,10000,100,111.040,15.121,7.34,9900
-10%,synthetic_index_10k,user_mix,10000,1000,112.608,15.720,7.16,9000
-50%,synthetic_index_50pct_clean,user_mix_50pct_clean,10000,5000,91.281,52.838,1.73,5000

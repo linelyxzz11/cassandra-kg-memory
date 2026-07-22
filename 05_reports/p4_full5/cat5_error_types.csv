@@ -1,0 +1,18 @@
+﻿qa_id,error_type,adversarial_answer,prediction
+conv-26_qa_161,1_direct_adversarial,,art and self-expression
+conv-26_qa_167,1_direct_adversarial,,No
+conv-26_qa_184,1_direct_adversarial,,Guitar
+conv-30_qa_95,1_direct_adversarial,,a trophy
+conv-42_qa_215,1_direct_adversarial,,Playing video games and watching movies.
+conv-42_qa_244,1_direct_adversarial,,Tilly
+conv-43_qa_193,1_direct_adversarial,,To show their friendship and appreciation.
+conv-43_qa_226,1_direct_adversarial,,A Dance with Dragons
+conv-43_qa_230,1_direct_adversarial,,communication and bonding
+conv-43_qa_234,1_direct_adversarial,,Spanish
+conv-44_qa_123,1_direct_adversarial,,hummingbird
+conv-47_qa_162,1_direct_adversarial,,surfing
+conv-49_qa_161,1_direct_adversarial,,Eating less processed food and sugary snacks.
+conv-50_qa_165,1_direct_adversarial,,Fixing cars
+conv-50_qa_176,1_direct_adversarial,,purple
+conv-50_qa_196,1_direct_adversarial,,photography
+conv-50_qa_200,1_direct_adversarial,,new car

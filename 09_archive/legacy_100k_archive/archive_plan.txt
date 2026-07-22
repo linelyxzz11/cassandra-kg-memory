@@ -1,0 +1,35 @@
+Archive Plan - _archive_20260709
+Generated: 2026-07-09 17:47 GMT+8
+Mode: Dry-run only. No files moved.
+
+=== results_legacy/ ===
+  results/c1_manifest_100k_h2.jsonl  [72K]
+  results/c1_manifest_100k_h2.summary.json  [1.0K]
+  results/c1_source_100k.csv  [7.1M]
+  results/c3_manifest_100k_h2.jsonl  [56K]
+  results/c3_manifest_1m_h2.jsonl  [56K]
+  results/c3_source_dense_1M.csv  [67M]
+
+=== BLOCKED by reference check (NOT archived) ===
+  results/c3_manifest_scale_1m_h2.jsonl  [68K]
+  → Referenced by: scripts/memory/sysaxis_1m_concurrency/ (KEEP)
+
+=== reports_supporting/ ===
+  reports/c1_concurrency_100k_final_fixed/  [97K]
+
+=== reports_pilots/ ===
+  reports/c1_preflight_100k/  [12K]
+  reports/c2_mixed_rw_pilot/  [16K]
+  reports/c3_preflight_scale/  [13K]
+  reports/c2_mixed_rw_100k_final/  [35K]
+
+=== reports_data_recovery/ ===
+  reports/data_recovery/  [339M]
+
+=== scripts_legacy/ ===
+  scripts/memory/c1_benchmark/  [84K]
+  scripts/memory/c2_benchmark/  [64K]
+  scripts/memory/c3_benchmark/  [36K]
+
+=== TOTAL ESTIMATED ===
+  ~413MB across 16 items (1 blocked by reference check)

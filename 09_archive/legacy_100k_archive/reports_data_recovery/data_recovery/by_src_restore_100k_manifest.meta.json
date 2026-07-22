@@ -1,0 +1,10 @@
+{
+  "graph_id": "synth_100000_1781447372",
+  "source_csv": "D:\\memorytable\\cassandra-kg-memory\\results\\c1_source_100k.csv",
+  "source_sha256": "e7409ce8a5bf21c33043439a7c09c04cccb8b2c170bc0ff1c7272bcfe0cda89e",
+  "manifest_rows": 100000,
+  "logical_distinct": 100000,
+  "edge_id_distinct": 100000,
+  "created_at": "2026-07-08T07:47:00.627351+00:00",
+  "generated_at": "2026-07-08T07:47:01.449492+00:00"
+}

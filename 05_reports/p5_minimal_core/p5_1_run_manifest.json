@@ -1,0 +1,26 @@
+{
+  "experiment": "P5-1",
+  "scale_name": "scale_controlled_1M",
+  "source_artifact_path": "D:\\memorytable\\cassandra-kg-memory\\results\\c3_source_scale_1M.csv",
+  "source_artifact_sha256": "e28b1e82766819469936646a408102555d0a24f950b6be659889f5948521e5ea",
+  "source_row_count": 1000000,
+  "graph_id": "c3_scale_1M_seed42",
+  "protocol_amendment": "reduced from 50K to 20K formal events per run, 5 to 3 runs",
+  "n_runs": 30,
+  "n_events_per_run": 50000,
+  "concurrencies": [
+    8,
+    32,
+    64
+  ],
+  "backends": [
+    "cassandra",
+    "neo4j"
+  ],
+  "neo4j_password": "password123",
+  "python": "3.12 (.venv-onnx)",
+  "drivers": {
+    "cassandra": "cassandra-driver 3.x",
+    "neo4j": "neo4j 5.x synchronous"
+  }
+}

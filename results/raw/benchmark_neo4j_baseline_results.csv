@@ -1,7 +1,0 @@
-graph_id,start,relation,repeat,warmup,query_name,avg_ms,p95_ms,min_ms,max_ms,count
-test_v3_100,user_000001,likes,10,2,neo4j_one_hop,3.514,7.16,2.779,7.16,4
-test_v3_100,user_000001,likes,10,2,neo4j_relation_one_hop,3.753,7.703,2.73,7.703,2
-test_v3_100,user_000001,likes,10,2,neo4j_path_1_to_4,7.249,11.033,5.418,11.033,16
-test_v3_100,user_000001,likes,10,2,neo4j_one_hop,3.031,3.568,2.712,3.568,4
-test_v3_100,user_000001,likes,10,2,neo4j_relation_one_hop,3.61,5.358,2.414,5.358,2
-test_v3_100,user_000001,likes,10,2,neo4j_path_1_to_4,5.984,7.488,5.188,7.488,16

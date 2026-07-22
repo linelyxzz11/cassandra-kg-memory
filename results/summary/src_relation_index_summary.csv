@@ -1,5 +1,0 @@
-graph_id,src_id,relation,total_out_edges,target_edges,baseline_latency_ms,index_latency_ms,index_speedup,raw_edge_reduction
-synthetic_10k,user_000001,likes,40,20,15.335,14.264,1.08,20
-synthetic_10k,user_000001,studies,40,20,15.262,20.798,0.73,20
-synthetic_high_degree_21k,user_big,mentions,5000,5000,69.820,62.117,1.12,0
-synthetic_index_10k,user_mix,likes,10000,1000,112.608,15.720,7.16,9000

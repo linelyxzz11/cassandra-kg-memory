@@ -1,0 +1,14 @@
+{
+  "backend": "neo4j",
+  "scale_guard": "PASS",
+  "materializer_stopped": true,
+  "materializer_restarted": true,
+  "checkpoint_fixed_during_outage": true,
+  "backlog_formed": true,
+  "final_backlog_zero": true,
+  "backend_commit_failures": 0,
+  "missed_updates": 0,
+  "searchability_timeouts": 0,
+  "final_state_failures": 0,
+  "status": "PASS"
+}

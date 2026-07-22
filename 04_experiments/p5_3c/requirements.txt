@@ -1,0 +1,2 @@
+neo4j>=5.20
+cassandra-driver>=3.29

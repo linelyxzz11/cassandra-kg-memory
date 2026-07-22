@@ -1,0 +1,45 @@
+{
+  "files": {
+    "events": "../../../artifacts/p5/p5_3c_restart_events.jsonl"
+  },
+  "output_dir": "../../../reports/p5_minimal_core/p5_3c_restart_only",
+  "scale_guard": {
+    "source_artifact": "../../../results/c3_source_scale_1M.csv",
+    "expected_rows": 1000000,
+    "has_header": true,
+    "expected_sha256": "e28b1e82766819469936646a408102555d0a24f950b6be659889f5948521e5ea",
+    "validated_manifest": "../../../reports/p5_minimal_core/p5_1_run_manifest.json"
+  },
+  "experiment": {
+    "graph_id": "p5_3c_restart_only_1m",
+    "seed": 20260722,
+    "event_count": 18000,
+    "overwrite_events": false,
+    "input_rate_per_second": 100,
+    "producer_duration_seconds": 180,
+    "materializer_stop_at_seconds": 60,
+    "materializer_outage_seconds": 30,
+    "stable_verify_seconds": 60,
+    "drain_timeout_seconds": 180,
+    "concurrency": 32,
+    "probe_interval_seconds": 0.05,
+    "probe_timeout_seconds": 30,
+    "reset_runtime": true
+  },
+  "cassandra": {
+    "contact_points": ["127.0.0.1"],
+    "port": 9042,
+    "keyspace": "ai_memory"
+  },
+  "neo4j": {
+    "uri": "bolt://127.0.0.1:7687",
+    "user": "neo4j",
+    "password": "password123",
+    "database": "neo4j",
+    "uri_env": "NEO4J_URI",
+    "user_env": "NEO4J_USER",
+    "password_env": "NEO4J_PASSWORD",
+    "database_env": "NEO4J_DATABASE",
+    "max_connection_pool_size": 128
+  }
+}

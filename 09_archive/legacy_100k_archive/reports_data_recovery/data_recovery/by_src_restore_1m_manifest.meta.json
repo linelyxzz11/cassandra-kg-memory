@@ -1,0 +1,10 @@
+{
+  "graph_id": "c3_scale_1M_seed42",
+  "source_csv": "D:\\memorytable\\cassandra-kg-memory\\results\\c3_source_scale_1M.csv",
+  "source_sha256": "e28b1e82766819469936646a408102555d0a24f950b6be659889f5948521e5ea",
+  "manifest_rows": 1000000,
+  "logical_distinct": 1000000,
+  "edge_id_distinct": 1000000,
+  "created_at": "2026-07-08T07:57:42.592889+00:00",
+  "generated_at": "2026-07-08T07:57:51.485829+00:00"
+}

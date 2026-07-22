@@ -1,0 +1,12 @@
+{
+  "backend": "cassandra",
+  "produced_events": 18000,
+  "searchable_events": 18000,
+  "checkpoint_before_stop": 3768,
+  "final_checkpoint": 18000,
+  "maximum_searchability_backlog": 8445,
+  "maximum_searchable_lag_ms": 84458.0864,
+  "restart_to_first_replay_ms": 1670.5085,
+  "restart_to_first_searchable_ms": 1689.0445,
+  "backlog_drain_ms_after_restart": 215918.7997
+}

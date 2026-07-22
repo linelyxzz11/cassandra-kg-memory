@@ -1,0 +1,11 @@
+{
+  "csv_rows": 100000,
+  "csv_distinct_logical_edges": 99875,
+  "distinct_src_ids": 3518,
+  "distinct_dst_ids": 5000,
+  "duplicate_logical_edges": 125,
+  "nominal_scale": "100K",
+  "actual_csv_distinct_edges": 99875,
+  "scale_label": "100K_legacy_clean",
+  "graph_id": "sysaxis_100K_legacy_clean_20260709"
+}

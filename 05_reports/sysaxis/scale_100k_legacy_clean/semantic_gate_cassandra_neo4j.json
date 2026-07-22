@@ -1,0 +1,16 @@
+{
+  "cass_hg": {
+    "checked": 256,
+    "empty": 0,
+    "mismatch": 0,
+    "all_pass": true
+  },
+  "neo_hg": {
+    "checked": 256,
+    "empty": 0,
+    "mismatch": 0,
+    "all_pass": true
+  },
+  "mismatch_examples": [],
+  "all_pass": true
+}

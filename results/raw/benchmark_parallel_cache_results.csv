@@ -1,4 +1,0 @@
-graph_id,start_node,depth,fanout,workers,cache_policy,cache_capacity,degree_threshold,avg_total_paths,avg_total_wall_latency_ms,p95_total_wall_latency_ms,avg_total_cassandra_queries,avg_total_raw_edges_from_cassandra,cache_hit_rate,cache_size,high_degree_cache_size
-synthetic_high_degree_21k,user_big,4,20,16,none,0,100,89,120.282,133.173,67,5069,0.0,0,0
-synthetic_high_degree_21k,user_big,4,20,16,lru,20,100,89,120.222,136.036,67,5069,0.0,20,0
-synthetic_high_degree_21k,user_big,4,20,16,high_degree,20,100,89,57.295,77.698,66,69,0.01493,20,1

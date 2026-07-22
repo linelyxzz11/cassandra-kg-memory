@@ -1,0 +1,21 @@
+{
+  "input": "PATH/TO/raw_memories.csv",
+  "output": "artifacts/memory_level_summaries.csv",
+  "cache": "artifacts/memory_summary_cache.jsonl",
+  "columns": {
+    "memory_id": "memory_id",
+    "raw_text": "raw_text",
+    "speaker": "speaker",
+    "timestamp": "timestamp"
+  },
+  "api": {
+    "base_url_env": "LLM_BASE_URL",
+    "api_key_env": "LLM_API_KEY",
+    "model_env": "LLM_MODEL",
+    "endpoint": "/chat/completions",
+    "max_tokens": 80,
+    "timeout_seconds": 120,
+    "max_retries": 6
+  },
+  "prompt_template": "Summarize this single conversational memory in at most 40 tokens. Preserve people, actions, objects and explicit time. Add no new facts.\n\nSpeaker: {speaker}\nTimestamp: {timestamp}\nMemory: {text}\n\nSummary:"
+}

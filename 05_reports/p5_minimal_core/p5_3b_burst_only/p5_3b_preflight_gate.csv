@@ -1,0 +1,6 @@
+﻿check,value,status
+scale_rows,1000000,PASS
+sha256,e28b1e82766819469936646a40810255,PASS
+graph_id,c3_scale_1M_seed42,PASS
+scale,1M,PASS
+materializer,always_running,PASS

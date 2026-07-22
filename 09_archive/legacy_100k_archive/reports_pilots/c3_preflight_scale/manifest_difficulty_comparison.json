@@ -1,0 +1,19 @@
+{
+  "100K": {
+    "queries": 256,
+    "seeds": 256,
+    "path_min": 1,
+    "path_p50": 2,
+    "path_p95": 9,
+    "path_max": 52
+  },
+  "1M": {
+    "queries": 256,
+    "seeds": 256,
+    "path_min": 36,
+    "path_p50": 164,
+    "path_p95": 247,
+    "path_max": 314
+  },
+  "notes": "1M outdegree=200/source vs 100K outdegree=20/source"
+}

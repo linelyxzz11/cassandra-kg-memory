@@ -1,0 +1,7 @@
+﻿system,write_ratio,repeats,median_read_QPS,median_write_QPS,median_total_ops_QPS,median_read_mean_ms,median_read_p95_ms,median_read_p99_ms,median_write_mean_ms,median_write_p95_ms,median_write_p99_ms,min_total_ops_QPS,max_total_ops_QPS,median_actual_write_ratio,median_error_rate
+cassandra_parallel,0,3,703.947,0.0,703.947,45.51,78.691,99.479,,,,703.6,710.1,0.0,0.0
+cassandra_parallel,10,3,587.797,65.263,653.038,51.127,88.402,112.181,30.182,53.947,74.229,652.8,700.8,10.0,0.0
+cassandra_parallel,30,3,539.794,231.264,771.059,45.427,80.423,104.69,32.785,58.702,79.592,761.1,771.5,30.0,0.0
+neo4j,0,3,530.332,0.0,530.332,60.471,136.098,427.177,,,,473.5,535.1,0.0,0.0
+neo4j,10,3,460.452,51.154,511.606,68.369,166.699,478.253,11.162,18.891,26.57,484.3,551.8,10.0,0.0
+neo4j,30,3,458.233,195.973,654.206,65.335,155.057,462.914,10.689,18.425,25.592,648.8,654.7,30.0,0.0

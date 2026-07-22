@@ -1,0 +1,11 @@
+{
+  "uniform_path": "D:\\memorytable\\cassandra-kg-memory\\reports\\p5_minimal_core\\artifacts\\p5_2_uniform_events.jsonl",
+  "hot_path": "D:\\memorytable\\cassandra-kg-memory\\reports\\p5_minimal_core\\artifacts\\p5_2_hot_events.jsonl",
+  "hot_sha256": "3376f20be318d28dc1f5f3c183ba2ff3fb519a9ed64598b44fe887a908fbf645",
+  "warmup": 5000,
+  "formal": 50000,
+  "runs": 5,
+  "concurrency": 64,
+  "graph_id": "c3_scale_1M_seed42",
+  "scale": "1M"
+}

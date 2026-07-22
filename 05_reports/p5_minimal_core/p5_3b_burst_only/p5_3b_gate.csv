@@ -1,0 +1,5 @@
+﻿check,value,status
+cassandra_searchable,21000/21000,PASS
+neo4j_searchable,21000/21000,PASS
+total_timeouts,0,PASS
+scale_guard,1M,PASS

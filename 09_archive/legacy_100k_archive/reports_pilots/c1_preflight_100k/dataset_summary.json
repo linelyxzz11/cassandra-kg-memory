@@ -1,0 +1,11 @@
+{
+  "graph_id": "synth_100000_1781447372",
+  "source": "Cassandra export from existing table",
+  "n_edges_total": 100000,
+  "n_edges_distinct": 100000,
+  "distinct_sources": 3518,
+  "min_outdegree": 20,
+  "max_outdegree": 400,
+  "p50_outdegree": 20,
+  "n_high_degree": 78
+}

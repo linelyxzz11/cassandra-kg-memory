@@ -1,0 +1,3 @@
+﻿scale_label,graph_id,system,mode,n,median_read_QPS,median_write_QPS,median_read_mean_ms,median_read_p50_ms,median_read_p95_ms,median_read_p99_ms,median_write_mean_ms,median_write_p50_ms,median_write_p95_ms,median_write_p99_ms,min_read_QPS,max_read_QPS,IQR_read_QPS,min_write_QPS,max_write_QPS,median_cache_hit_rate,median_effective_latency_ms,median_error_rate
+100K_legacy_clean,sysaxis_100K_legacy_clean_20260709,cassandra_opt,warm,5,598.514,66.84,50.086,44.115,92.264,113.814,30.665,26.597,64.603,80.85,594.392,604.662,3.903,64.71,67.331,0,50.086,0.0
+100K_legacy_clean,sysaxis_100K_legacy_clean_20260709,neo4j,warm,5,490.053,54.554,64.208,47.745,154.232,453.188,10.746,9.939,18.193,31.805,453.704,491.529,6.205,50.244,56.177,0,64.208,0.0

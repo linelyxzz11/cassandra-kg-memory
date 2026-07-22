@@ -1,0 +1,17 @@
+{
+  "clients": [
+    1,
+    8,
+    32,
+    64
+  ],
+  "repeats": 3,
+  "warmup_s": 15,
+  "measurement_s": 45,
+  "hop": 2,
+  "fanout": 20,
+  "cycle_policy": "path",
+  "manifest": "D:\\memorytable\\cassandra-kg-memory\\results\\c1_manifest_100k_h2.jsonl",
+  "graph_id": "synth_100000_1781447372",
+  "manifest_sha256": "d8137070cfd5ddd6a93fb39034a95936871442310af6a1cdf5f2115692380df3"
+}

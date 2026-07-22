@@ -1,0 +1,21 @@
+{
+  "backend": "neo4j",
+  "events_sha256": "5b50e1e2ca8c8ddbc128f13a1113e07595137057505cfc0c9d0213ecca56f010",
+  "event_count": 1200,
+  "graph_id": "p5_3c_restart_only_smoke_1m",
+  "rate": 20.0,
+  "duration": 60.0,
+  "stop_at": 20.0,
+  "outage": 10.0,
+  "concurrency": 8,
+  "scale_guard": {
+    "source_artifact": "D:\\memorytable\\cassandra-kg-memory\\results\\c3_source_scale_1M.csv",
+    "status": "PASS",
+    "actual_rows": 1000000,
+    "actual_sha256": "e28b1e82766819469936646a408102555d0a24f950b6be659889f5948521e5ea",
+    "expected_rows": 1000000,
+    "expected_sha256": "e28b1e82766819469936646a408102555d0a24f950b6be659889f5948521e5ea",
+    "validated_manifest": "D:\\memorytable\\cassandra-kg-memory\\reports\\p5_minimal_core\\p5_1_run_manifest.json"
+  },
+  "config_sha256": "415f040b633b7b46496af9c1b5d60f13f2597f301f79adf7b381f7899bed4245"
+}

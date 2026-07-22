@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-07-18T23:43:04",
+  "ZScore_Raw": {
+    "path": "D:\\memorytable\\cassandra-kg-memory\\reports\\p3_reader_alignment\\ZScore_Raw_test_rankings.csv",
+    "sha256": "0622d2493ef0b30b053e8a0e528803624b5eed1239211be726e37926a28cff59"
+  },
+  "ZScore_RawSummary": {
+    "path": "D:\\memorytable\\cassandra-kg-memory\\reports\\p3_reader_alignment\\ZScore_RawSummary_test_rankings.csv",
+    "sha256": "25c5f2444a7314cbafa9c4adca9974ebfab50534c94d72f328cd27de66c0dd6b"
+  },
+  "ZScore_RawTriples": {
+    "path": "D:\\memorytable\\cassandra-kg-memory\\reports\\p3_reader_alignment\\ZScore_RawTriples_test_rankings.csv",
+    "sha256": "af0e1b51acd83575ed2376cc48c686683783474de511883697782859b4142d5e"
+  },
+  "ZScore_RawERK": {
+    "path": "D:\\memorytable\\cassandra-kg-memory\\reports\\p3_reader_alignment\\ZScore_RawERK_test_rankings.csv",
+    "sha256": "88f3a77cf856dd1c00bd6534909bef7e01499b7c992a65d37ce75fbb25c4cd44"
+  },
+  "ZScore_ERKOnly": {
+    "path": "D:\\memorytable\\cassandra-kg-memory\\reports\\p3_reader_alignment\\ZScore_ERKOnly_test_rankings.csv",
+    "sha256": "589399ebbc757d6cc0fe98aeccd71bcadbbcf9171f684d7cc596c7996ecc8638"
+  },
+  "locomo_memory_records.csv": {
+    "path": "D:\\memorytable\\cassandra-kg-memory\\results\\locomo_memory_records.csv",
+    "sha256": "d489945b10699718b1cb023fbd02f11ba92899050c3cdd41ff5566d0ae797af3"
+  },
+  "locomo_qa_records.csv": {
+    "path": "D:\\memorytable\\cassandra-kg-memory\\results\\locomo_qa_records.csv",
+    "sha256": "048b9bfc779a5f033223b9c0a764a1ef95ba2900c473dad753b59b5f8323fdc3"
+  },
+  "locomo_evidence_map.csv": {
+    "path": "D:\\memorytable\\cassandra-kg-memory\\results\\locomo_evidence_map.csv",
+    "sha256": "0adf3917279e37f1d8e4048c63f4d94a757f9902703c05e19fa5bbe8d34256a9"
+  },
+  "p3_features": {
+    "path": "D:\\memorytable\\cassandra-kg-memory\\scripts\\experiments\\artifacts\\p3_memory_features.csv",
+    "sha256": "7ce04f8015e60b22125b1e3589aa37a77c8af843f9b1c639be30f18ef8488144"
+  }
+}

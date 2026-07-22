@@ -1,0 +1,68 @@
+{
+  "files": {
+    "queries": "PATH/TO/queries_with_split.csv",
+    "memory_features": "artifacts/p3_memory_features.csv",
+    "dense_scores": "PATH/TO/frozen_dense_scores_long.csv"
+  },
+  "columns": {
+    "queries": {
+      "query_id": "query_id",
+      "question": "question",
+      "category": "category",
+      "conversation_id": "conversation_id",
+      "gold_memory_ids": "gold_memory_ids",
+      "split": "split"
+    },
+    "memories": {
+      "memory_id": "memory_id",
+      "conversation_id": "conversation_id",
+      "raw_text": "raw_text",
+      "summary": "summary",
+      "entities": "entities",
+      "relations": "relations",
+      "keywords": "keywords",
+      "triples": "triples"
+    },
+    "dense": {
+      "query_id": "query_id",
+      "memory_id": "memory_id",
+      "score": "score"
+    }
+  },
+  "split": {
+    "dev_conversations": [],
+    "test_conversations": []
+  },
+  "expected_counts": {
+    "dev": null,
+    "test": 1150
+  },
+  "retrieval": {
+    "scope": "per_conversation",
+    "bm25_k1": 1.5,
+    "bm25_b": 0.75,
+    "dense_top_n": 50,
+    "bm25_top_n": 50,
+    "alpha_dense": 0.6,
+    "missing_score_policy": "minimum"
+  },
+  "expected_anchor": {
+    "ZScore_RawERK": {
+      "MRR": 0.5462,
+      "R@10": 0.8070
+    }
+  },
+  "gate_tolerance": 0.0001,
+  "bootstrap_samples": 10000,
+  "seed": 20260718,
+  "bootstrap_comparisons": [
+    ["ZScore_RawERK", "ZScore_Raw"],
+    ["ZScore_RawERK", "ZScore_RawSummary"],
+    ["ZScore_RawERK", "ZScore_RawTriples"],
+    ["ZScore_RawERK", "ZScore_ERKOnly"],
+    ["BM25_RawERK", "BM25_Raw"],
+    ["BM25_RawERK", "BM25_RawSummary"],
+    ["BM25_RawERK", "BM25_RawTriples"]
+  ],
+  "output_dir": "reports/p3_memory_representation_comparison"
+}

@@ -1,0 +1,6 @@
+{
+  "manifest_path": "D:\\memorytable\\cassandra-kg-memory\\results\\c1_manifest_100k_h2.jsonl",
+  "query_count": 256,
+  "nonempty_hashes": 256,
+  "manifest_sha256": "d8137070cfd5ddd6a93fb39034a95936871442310af6a1cdf5f2115692380df3"
+}

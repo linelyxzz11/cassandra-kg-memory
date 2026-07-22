@@ -1,0 +1,510 @@
+{"query_id": "c1-read-000106", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000187", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000108", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000139", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000001", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000141", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000230", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000056", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000000", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000020", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000103", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000114", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000068", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000084", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000238", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000100", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000074", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000003", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000043", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000232", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000007", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000139", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000197", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000095", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000094", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000247", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000202", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000071", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000150", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000219", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000247", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000182", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000229", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000237", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000031", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000054", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000106", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000041", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000145", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000084", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000189", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000188", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000147", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000034", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000090", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000074", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000016", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000109", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000219", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000026", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000250", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000219", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000082", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000001", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000255", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000032", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000230", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000202", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000110", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000222", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000153", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000181", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000142", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000150", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000082", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000089", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000049", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000177", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000185", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000134", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000217", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000195", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000166", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000177", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000236", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000096", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000252", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000137", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000112", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000135", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000241", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000211", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000097", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000173", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000110", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000111", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000014", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000175", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000235", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000033", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000020", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000211", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000094", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000085", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000163", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000022", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000092", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000052", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000113", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000177", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000174", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000078", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000180", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000064", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000253", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000061", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000178", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000187", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000185", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000129", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000221", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000226", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000087", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000230", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000195", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000242", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000103", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000159", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000241", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000255", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000194", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000201", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000219", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000243", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000102", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000003", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000231", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000246", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000056", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000107", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000119", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000255", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000053", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000148", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000058", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000200", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000146", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000208", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000114", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000121", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000083", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000171", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000134", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000076", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000147", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000087", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000221", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000015", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000204", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000133", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000147", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000200", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000030", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000140", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000077", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000063", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000131", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000062", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000234", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000222", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000249", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000076", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000030", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000129", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000073", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000181", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000190", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000173", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000204", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000063", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000119", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000018", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000133", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000095", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000178", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000206", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000230", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000113", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000077", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000147", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000236", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000001", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000022", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000240", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000131", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000004", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000148", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000203", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000156", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000091", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000148", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000043", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000176", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000061", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000096", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000003", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000101", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000036", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000056", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000248", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000022", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000198", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000014", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000247", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000180", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000046", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000083", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000099", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000170", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000094", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000015", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000106", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000100", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000107", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000196", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000046", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000214", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000009", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000242", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000037", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000170", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000032", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000117", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000074", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000202", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000181", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000038", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000021", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000172", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000020", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000154", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000227", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000052", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000168", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000049", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000239", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000083", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000113", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000161", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000008", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000091", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000163", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000022", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000149", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000146", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000059", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000237", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000093", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000100", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000252", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000139", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000048", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000110", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000172", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000091", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000234", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000182", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000050", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000232", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000231", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000010", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000202", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000195", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000179", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000142", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000026", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000110", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000097", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000056", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000111", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000103", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000031", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000132", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000076", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000098", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000051", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000225", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000202", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000127", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000095", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000179", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000192", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000150", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000181", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000143", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000188", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000137", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000052", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000054", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000118", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000046", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000238", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000184", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000014", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000050", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000059", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000196", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000079", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000001", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000053", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000217", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000041", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000201", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000031", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000075", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000094", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000156", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000122", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000249", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000024", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000088", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000038", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000228", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000251", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000039", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000170", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000166", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000007", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000078", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000172", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000074", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000155", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000247", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000117", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000206", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000163", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000175", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000216", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000002", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000095", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000175", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000111", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000198", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000196", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000254", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000248", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000062", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000046", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000073", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000230", "system": "neo4j", "match": true}
+{"query_id": "c1-read-000200", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000047", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000197", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000060", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000033", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000081", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000056", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000071", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000078", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000001", "system": "cassandra_parallel", "match": true}
+{"query_id": "c1-read-000006", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000084", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000097", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000060", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000100", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000240", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000034", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000253", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000032", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000155", "system": "cassandra_naive", "match": true}
+{"query_id": "c1-read-000242", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000225", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000240", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000065", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000246", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000181", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000203", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000054", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000107", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000153", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000207", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000067", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000020", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000165", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000199", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000023", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000009", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000013", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000050", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000182", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000047", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000012", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000157", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000091", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000190", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000238", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000164", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000188", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000221", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000187", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000107", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000226", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000033", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000013", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000178", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000147", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000093", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000003", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000165", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000213", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000045", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000220", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000157", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000155", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000169", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000046", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000154", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000042", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000012", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000047", "system": "cassandra_parallel", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000066", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000043", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000007", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000229", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000060", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000001", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000154", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000147", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000038", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000048", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000120", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000143", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000082", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000249", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000198", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000181", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000101", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000017", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000168", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000129", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000252", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000148", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000044", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000062", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000149", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000179", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000232", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000119", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000205", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000094", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000116", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000068", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000040", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000202", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000045", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000006", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000010", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000085", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000128", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000171", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000114", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000081", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000186", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000068", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000188", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000228", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000106", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000155", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000047", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000157", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000228", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000167", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000033", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000144", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000156", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000214", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000128", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000093", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000200", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000020", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000182", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000166", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000121", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000014", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000074", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000251", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000180", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000194", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000212", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000159", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000009", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000241", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000101", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000023", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000208", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000199", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000164", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000010", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000210", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000112", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000152", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000171", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000157", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000124", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000219", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000107", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000230", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000130", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000023", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000044", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000143", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000211", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000180", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000161", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000236", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000167", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000249", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000021", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000165", "system": "neo4j", "match": true, "trial": "stability_followup"}
+{"query_id": "c1-read-000251", "system": "neo4j", "match": true, "trial": "stability_followup"}

@@ -1,0 +1,18 @@
+{
+  "label": "by_src_restore_100k",
+  "graph_id": "synth_100000_1781447372",
+  "expected_logical_edges": 100000,
+  "by_src_raw_rows": 100000,
+  "by_src_distinct_logical_edges": 100000,
+  "duplicate_logical_edges": 0,
+  "duplicate_physical_rows_extra": 0,
+  "missing_logical_edges": 0,
+  "extra_logical_edges": 0,
+  "validated_at": "2026-07-08T07:48:04.385901+00:00",
+  "source_csv": "D:\\memorytable\\cassandra-kg-memory\\results\\c1_source_100k.csv",
+  "manifest": "D:\\memorytable\\cassandra-kg-memory\\reports\\data_recovery\\by_src_restore_100k_manifest.csv",
+  "import_elapsed_s": 14.542,
+  "import_rows_per_s": 6876.6,
+  "concurrency": 64,
+  "max_retries": 3
+}

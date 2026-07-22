@@ -1,0 +1,12 @@
+{
+  "actual_raw_rows": 0,
+  "actual_distinct_logical_edges": 0,
+  "duplicates": 0,
+  "missing_vs_csv": 99875,
+  "extra_vs_csv": 0,
+  "partition_count_checked": 3518,
+  "empty_partitions": 3517,
+  "errors": 1,
+  "elapsed_seconds": 189.6,
+  "rows_per_second": 0
+}

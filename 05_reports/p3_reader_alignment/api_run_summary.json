@@ -1,0 +1,10 @@
+{
+  "expected_tasks": 1150,
+  "actual_api_calls": 1150,
+  "cache_hits": 0,
+  "failures": 0,
+  "retries": 99,
+  "runtime_seconds": 559.7842938899994,
+  "prompt_sha256": "62f4dc83c67655fb12a589592482919f1b0fe212b7da9e4f56cf98bf82be0100",
+  "evaluator_sha256": "caefd31bad23758a7e28584ea7825110b70b1ecbe1c83a7f09f928da312dda07"
+}

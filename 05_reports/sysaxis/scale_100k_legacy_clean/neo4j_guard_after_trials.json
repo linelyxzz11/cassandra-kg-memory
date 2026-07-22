@@ -1,0 +1,10 @@
+{
+  "graph_id": "sysaxis_100K_legacy_clean_20260709",
+  "node_count": 5000,
+  "edge_count": 99875,
+  "distinct_logical_edges": 99875,
+  "duplicate_logical_edges": 0,
+  "missing_vs_csv": 0,
+  "extra_vs_csv": 0,
+  "all_pass": true
+}

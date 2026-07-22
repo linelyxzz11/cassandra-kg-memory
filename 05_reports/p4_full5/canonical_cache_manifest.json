@@ -1,0 +1,8 @@
+{
+  "frozen_predictions": 1150,
+  "canonical_total": 1540,
+  "reused_p3": 1150,
+  "new_api_calls": 390,
+  "heldout_rF1": 0.3675,
+  "cat1_4_rF1": 0.3579
+}
