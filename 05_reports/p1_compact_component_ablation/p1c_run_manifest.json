@@ -1,0 +1,146 @@
+{
+  "experiment": "P1-C Compact Component Ablation",
+  "script": {
+    "path": "D:\\memorytable\\cassandra-kg-memory\\04_experiments\\retrieval\\p1_compact_component_ablation\\run_p1c_ablation_v5.py",
+    "sha256": "5a8e870c17a732ef322eb29d3e8e47acce2a7a905ac782d4db17644eea8c1101"
+  },
+  "created_at": "2026-07-23T19:31:35",
+  "retrieval_only": true,
+  "reader_api_called": false,
+  "variants": {
+    "Raw": [],
+    "RawE": [
+      "E"
+    ],
+    "RawR": [
+      "R"
+    ],
+    "RawK": [
+      "K"
+    ],
+    "RawER": [
+      "E",
+      "R"
+    ],
+    "RawEK": [
+      "E",
+      "K"
+    ],
+    "RawRK": [
+      "R",
+      "K"
+    ],
+    "RawERK": [
+      "E",
+      "R",
+      "K"
+    ],
+    "RawERKT": [
+      "E",
+      "R",
+      "K",
+      "T"
+    ]
+  },
+  "bm25": {
+    "k1": 1.5,
+    "b": 0.75,
+    "lowercase": true,
+    "stop_words": "english",
+    "ngram_range": [
+      1,
+      2
+    ],
+    "max_features": 50000
+  },
+  "renderer": {
+    "raw_text_source": "memory_records.text",
+    "separator": "\n",
+    "labels": {
+      "E": "E:",
+      "R": "R:",
+      "K": "K:",
+      "T": "T:"
+    }
+  },
+  "fusion": {
+    "alpha_dense": 0.6,
+    "candidate_depth": 50,
+    "normalization": "query-wise-zscore",
+    "missing_candidate_rule": "branch_min"
+  },
+  "scopes": {
+    "heldout": {
+      "name": "heldout1150",
+      "split": "test",
+      "categories": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "expected_query_count": 1150
+    },
+    "canonical_cat1_4": {
+      "name": "cat1_4_1540",
+      "split": "",
+      "categories": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "expected_query_count": 1540
+    }
+  },
+  "bootstrap": {
+    "repetitions": 10000,
+    "seed": 20260723,
+    "cluster_field": "conversation_id",
+    "confidence_level": 0.95
+  },
+  "input_files": {
+    "memory_records": {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\01_data\\locomo_memory_records.csv",
+      "size_bytes": 1291177,
+      "sha256": "9cf57c37cf9185cc53840e0e30232db1d305c8a50d292e5284f977a0b05aa689"
+    },
+    "memory_features": {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\02_artifacts\\p3_memory_features.csv",
+      "size_bytes": 2073473,
+      "sha256": "b211c99df6f778b02d2c89670e6db90e12aedef3a313d0ab102708b24795c0cc"
+    },
+    "queries": {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\scripts\\experiments\\artifacts\\p3_queries.csv",
+      "size_bytes": 191627,
+      "sha256": "312db7263dc0c6fba1f81eaa7f38dc0da51467a405284dfffb380fa79040b349"
+    },
+    "dense_scores": {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\scripts\\experiments\\artifacts\\frozen_dense_scores_long.csv",
+      "size_bytes": 45506195,
+      "sha256": "92db4eb7bc659457fef92e4c339072e92e247baf7468ff8f57c9b960d0fc8478"
+    },
+    "official_rankings": {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\02_artifacts\\p3_official\\ZScore_RawERK_test_rankings.csv",
+      "size_bytes": 586670,
+      "sha256": "88f3a77cf856dd1c00bd6534909bef7e01499b7c992a65d37ce75fbb25c4cd44"
+    }
+  },
+  "renderer_config_sha256": "c82a590b3142292fce75399d850b92e8f7b36e459cc709a8096b3c118189dd2f",
+  "bm25_config_sha256": "13227279d268da636e8ac18886a2ecc82f695468855934180858062265aaf7f6",
+  "fusion_config_sha256": "2f4e5ddcde7382652ef53743c15d0ff8720b868f9af08827b4e6bbf7b22f4ba5",
+  "status": "OFFICIAL_FROZEN",
+  "parity_gate": "PASS",
+  "heldout_query_count": 1150,
+  "canonical_query_count": 1540,
+  "ranking_mismatch": "0/1150 (3 minor position swaps, metrics identical)",
+  "official_method_changed": false,
+  "rawerk_t_12": "POST_HOC_SENSITIVITY",
+  "conclusions": {
+    "compact_vs_raw": "RawERK MRR +0.0389, R@10 +0.0253, cluster-bootstrap supported",
+    "entity": "largest factorial main effect, significant leave-one-out contribution",
+    "relation": "positive main effect, significant leave-one-out contribution",
+    "keyword": "positive factorial main effect, leave-one-out marginal not statistically supported",
+    "time": "positive post-hoc sensitivity, not promoted to official method"
+  }
+}

@@ -1,4 +1,5 @@
-experiment,status,description
+﻿experiment,status,description
+P1-C,OFFICIAL_FROZEN,"Compact Component Ablation: RawERK E+R+K validation, time sensitivity [POST_HOC]"
 P3,DONE,"Reader alignment, representation comparison"
 P4,DONE,Canonical cat1-4 + full-5 + held-out benchmark
 P5-1,OFFICIAL_FROZEN,"Concurrent update-to-searchable, c=8/32/64"
