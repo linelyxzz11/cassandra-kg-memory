@@ -5,5 +5,5 @@ P5-1,OFFICIAL_FROZEN,"Concurrent update-to-searchable, c=8/32/64"
 P5-2,OFFICIAL_FROZEN,"Hot-entity workload, uniform vs skewed"
 P5-3A,OFFICIAL_FROZEN,Recovery infrastructure smoke
 P5-3B,OFFICIAL_FROZEN,Burst-only isolation
-P5-3C,COMPLETED,Materializer restart-only (formal)
-P5-3D,PLANNED,Combined burst + restart pilot
+P5-3C,OFFICIAL_FROZEN,"Materializer restart-only isolation, 18K events, 100/s"
+P5-3D,OPTIONAL_NOT_RUN,Burst+restart combined - not required after P5-3B/P5-3C isolation
