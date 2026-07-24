@@ -5,7 +5,9 @@ from collections import Counter, defaultdict
 from pathlib import Path
 from openai import OpenAI
 
-API_KEY = "sk-3e6a71389e43485592637949caa8c57e"
+API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
+if not API_KEY:
+    raise ValueError("Set DEEPSEEK_API_KEY environment variable")
 BASE = Path("D:/memorytable/cassandra-kg-memory/results")
 OUT = Path("D:/memorytable/cassandra-kg-memory/reports/locomo_reader_evidence_packaging")
 OUT.mkdir(parents=True, exist_ok=True)
