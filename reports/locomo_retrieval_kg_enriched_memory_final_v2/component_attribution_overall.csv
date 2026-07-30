@@ -1,0 +1,5 @@
+﻿component,delta_MRR,delta_R@1,delta_R@10
+Delta_KG_rep_in_lexical (BM25_compact - BM25_raw),0.1019,0.1058,0.0818
+Delta_KG_rep_in_hybrid (RRF_cpt - Dense_raw),0.0488,0.0389,0.0695
+Delta_KG_rep_in_dense (Dense_enriched),NEEDS_BGE_API,NEEDS_BGE_API,NEEDS_BGE_API
+Delta_GlobalKG_prior (Dense+KG - Dense_raw),0.0028,0.0,0.0

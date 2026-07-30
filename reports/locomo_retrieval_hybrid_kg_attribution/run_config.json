@@ -1,0 +1,22 @@
+{
+  "scope": "sample-scoped cat1-4",
+  "methods": 7,
+  "rrf_k": [
+    10,
+    30,
+    60
+  ],
+  "kg_lambdas": [
+    0.01,
+    0.02,
+    0.05,
+    0.1
+  ],
+  "t_lambdas": [
+    0.02,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "temporal_queries": 432
+}

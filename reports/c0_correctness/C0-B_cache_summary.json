@@ -1,0 +1,35 @@
+{
+  "experiment": "C0-B Cassandra naive vs parallel+cache semantic gate",
+  "graph_id": "synth_100000_1781447372",
+  "seed": "entity_0",
+  "hop": 4,
+  "fanout": 20,
+  "naive_workers": 1,
+  "parallel_workers": 16,
+  "cache_policy": "high_degree",
+  "cache_capacity": 200,
+  "degree_threshold": 100,
+  "relation_index": "disabled",
+  "naive": {
+    "paths": 50026,
+    "latency_ms": 42203.075,
+    "raw_edges": 58660
+  },
+  "optimized_cold": {
+    "paths": 50026,
+    "latency_ms": 1126.881,
+    "raw_edges": 57060,
+    "cache_hits": 4,
+    "cache_misses": 2758
+  },
+  "optimized_warm": {
+    "paths": 50026,
+    "latency_ms": 1160.591,
+    "raw_edges": 37860,
+    "cache_hits": 56,
+    "cache_misses": 5468
+  },
+  "naive_vs_cold_disagreements": 0,
+  "naive_vs_warm_disagreements": 0,
+  "all_pass": true
+}

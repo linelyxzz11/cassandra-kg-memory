@@ -1,0 +1,5 @@
+﻿component,delta_MRR,delta_R@1,delta_R@10
+generic_hybrid (RRF_raw - Dense_raw),0.0142,0.0034,0.0383
+KG_rep_lexical (BM25_cpt - BM25_raw),0.1046,0.1113,0.08
+KG_rep_in_hybrid (RRF_cpt - RRF_raw),0.0333,0.0331,0.0313
+total_final_gain (RRF_cpt - Dense_raw),0.0475,0.0365,0.0696

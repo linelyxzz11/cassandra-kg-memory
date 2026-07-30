@@ -1,0 +1,4 @@
+﻿metric,point_estimate,query_ci_lo,query_ci_hi,cluster_ci_lo,cluster_ci_hi
+rF1,0.0075,-0.0006,0.0158,-0.0026,0.0168
+rEM,0.0052,-0.0017,0.0122,0.0,0.0134
+WrongAbst,-0.0026,-0.0139,0.0087,-0.0136,0.0084

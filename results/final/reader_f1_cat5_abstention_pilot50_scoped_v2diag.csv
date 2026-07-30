@@ -1,0 +1,4 @@
+﻿Method,n,abstention_accuracy,non_abstention_rate
+Dense-bge,11,1.0,0.0
+Dense-bge+GlobalKG,11,1.0,0.0
+Dense-bge+QueryKG,11,1.0,0.0

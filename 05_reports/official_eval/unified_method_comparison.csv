@@ -1,0 +1,7 @@
+﻿method,retrieval_scope,n,MRR,R@1,R@5,R@10,rF1,rEM,WrongAbst
+BM25,sample-scoped,1540,0.3508,0.2578,0.4674,0.5501,0.1037,0.0679,0.8571
+Dense-bge,sample-scoped,1540,0.4872,0.375,0.6439,0.7318,0.1461,0.0971,0.7695
+Dense+GlobalKG,global corpus (CAUTION),1540,0.5137,0.4147,0.6491,0.7357,0.1302,0.0889,0.7974
+ZScore-Raw,sample-scoped,1540,0.5049,0.3776,0.6803,0.7689,0.1719,0.117,0.7448
+RRF_compact,sample-scoped,1540,0.5196,0.3978,0.6862,0.7845,0.1705,0.1158,0.7429
+ZScore-RawERK (OFFICIAL),sample-scoped,1540,0.5455,0.4238,0.7109,0.7962,0.3768,0.2378,0.4292

@@ -1,0 +1,2 @@
+﻿method,scope,n,category_counts,official_score,rF1_cat14,rEM_cat14_project,WrongAbstention_cat14_project,cat5_official_abstention,cat5_broad_abstention,cat5_leakage_official
+Dense-bge,canonical_cat1_4,1540,"{""1"": 282, ""2"": 321, ""3"": 96, ""4"": 841}",0.248324,0.248324,0.152059,0.566883,,,

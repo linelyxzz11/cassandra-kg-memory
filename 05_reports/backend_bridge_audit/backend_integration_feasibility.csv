@@ -1,0 +1,7 @@
+﻿method,current_level,L2_possible,L3_possible,missing_for_L2,missing_for_L3
+BM25,L1,Yes,No,Persist BM25 index from CSV→DB; skip runtime CountVectorizer rebuild,Push tokenization+inverted_index_math into DB layer
+Dense-bge,L1,Yes,No,Load memory text from DB→recompute frozen embed→cosine score; or pre-store scores in DB,Dense model too large for DB; cosine likely stays client-side
+Dense+GlobalKG,L1,Yes,Possible via Neo4j,Store KG triples in DB_for_graph_expansion+client does re-ranking,Push graph adjacency traversal into DB; client only does score fusion
+RRF_compact,L0-L1,Yes,No,Same as Dense+BM25 above; WRRF fusion stays client,Push rank fusion to DB layer; requires both score sources in DB
+ZScore-Raw,L0-L1,Yes,No,Same as Dense+BM25 above; ZScore fusion stays client,Push ZScore normalization to DB layer
+ZScore-RawERK,L0-L1,Yes,No,Same as Dense+BM25(RawERK)above; fusion stays client,Push ZScore normalization+RawERK text prep to DB layer

@@ -1,0 +1,6 @@
+graph_id,src_id,relation,dst_id,source,logical_edge_id
+locomo_kg,user_001,likes,quiet_hotel,session_001,Lf93351490ae5dabded5bcf34
+locomo_kg,user_001,likes,slow_music,session_001,L53b530ec3d4f7fc0e1369daa
+locomo_kg,quiet_hotel,suitable_for,rest,session_002,L7b8fed499a8d8ea3301dd360
+locomo_kg,slow_music,suitable_for,rest,session_002,Ld8b705b2fa08fd0f228cf4d9
+locomo_kg,rest,related_to,good_sleep,session_003,Ld63a4b89e7edc9729d3bd56d

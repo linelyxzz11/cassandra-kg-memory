@@ -1,0 +1,7 @@
+﻿method,question_source,question_count,candidate_scope,memory_view,memory_count,uses_kg_triples,computes_scores_online,uses_precomputed_scores,uses_precomputed_ranking,tie_break_rule,top_k,backend_level_max,backend_level_missing
+BM25,selected_full5_questions.csv,1986,conversation-scoped,Raw text,5882,No,Semi-builds BM25 index at runtime,No,No,score descending,10,L1,No persisted BM25 index; index rebuilt per run
+Dense-bge,selected_full5_questions.csv,1986,conversation-scoped,Dense embedding of raw text,5882,No,No,Yes-frozen_dense_scores_long.csv,Yes,score descending,10,L1,Frozen scores only cover Cat1-4; missing Cat5 requires fallback
+Dense+GlobalKG,selected_full5_questions.csv,1986,conversation-scoped Dense + global graph KG triples,5882,Yes,No (KG adjacency precomp),Yes-frozen_dense_scores+KG_triples,Yes,fused score descending,10,L1,KG graph expansion computed globally not per-conversation
+RRF_compact,selected_full5_questions.csv,1986,conversation-scoped,Dense(Raw)+BM25(RawERK) hybrid,5882,Indirect via BM25 RawERK,No,Yes-both precomputed,Yes,WRRF descending,10,L1,Both score sources precomputed; no online computation
+ZScore-Raw,selected_full5_questions.csv,1986,conversation-scoped,Dense(Raw)+BM25(Raw) hybrid,5882,No,No,Yes-both precomputed,Yes,ZScore descending,10,L1,Both score sources precomputed; no online computation
+ZScore-RawERK,selected_full5_questions.csv,1986,conversation-scoped,Dense(Raw)+BM25(RawERK) hybrid,5882,Indirect via BM25 RawERK,No,Yes-both precomputed,Yes,ZScore descending,10,L1,Both score sources precomputed; no online computation

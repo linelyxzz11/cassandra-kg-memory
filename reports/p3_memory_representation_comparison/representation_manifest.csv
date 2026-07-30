@@ -1,0 +1,8 @@
+representation,path,sha256,memory_count,empty_count,avg_tokens,p50_tokens,p95_tokens,total_tokens
+Raw,D:\memorytable\cassandra-kg-memory\reports\p3_memory_representation_comparison\representations\raw.csv,be27afe7a63defe06712547b6d2ef3e7a7456407c86ecd6464762207b26ff757,5882,0,23.732403944236655,21.0,49.0,139594
+Summary,D:\memorytable\cassandra-kg-memory\reports\p3_memory_representation_comparison\representations\summary.csv,52906711ed5ff124da4d23e8e94517345983369510170b4378ea5b3cef301ae0,5882,0,2.0,2.0,2.0,11764
+RawSummary,D:\memorytable\cassandra-kg-memory\reports\p3_memory_representation_comparison\representations\rawsummary.csv,dc22e034b93e1f64c9c14564b2e524f333bc10dca5cde8d8907555fd752e449f,5882,0,25.732403944236655,23.0,51.0,151358
+Triples,D:\memorytable\cassandra-kg-memory\reports\p3_memory_representation_comparison\representations\triples.csv,32962d686dd4cd369300237e687a79408913ed812819b1071b95dd581019c2af,5882,3529,1.7284937096225774,0.0,5.0,10167
+RawTriples,D:\memorytable\cassandra-kg-memory\reports\p3_memory_representation_comparison\representations\rawtriples.csv,6ab23ee812b288d43448ec369791617f78b03b84dd6330c13aa42f670e18c879,5882,0,25.46089765385923,22.0,53.0,149761
+ERKOnly,D:\memorytable\cassandra-kg-memory\reports\p3_memory_representation_comparison\representations\erkonly.csv,f5861b070c90128bc0029c9c8628a0a61092845e3c6d03d59479b91a55aab02a,5882,3529,8.988099285957157,0.0,28.0,52868
+RawERK,D:\memorytable\cassandra-kg-memory\reports\p3_memory_representation_comparison\representations\rawerk.csv,fe84926d68abd6ec3664b90ae24c210ff9128468329a0bbad5a2e02d0b08fb78,5882,0,32.72050323019381,26.0,76.0,192462

@@ -1,0 +1,11 @@
+{
+  "method": "ZScore-Raw",
+  "setting": "a_unified",
+  "setting_label": "Cat.x",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "max_tokens": 64,
+  "total": 1986,
+  "new_api_calls": 1986,
+  "total_completed": 1986
+}

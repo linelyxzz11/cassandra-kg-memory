@@ -1,0 +1,4 @@
+﻿Method,cat1_F1,cat2_F1,cat3_F1,cat4_F1
+Dense-bge,0,0.163,0.0,0.2538
+Dense-bge+GlobalKG,0,0.163,0.0,0.2538
+Dense-bge+QueryKG,0,0.163,0.0,0.2846

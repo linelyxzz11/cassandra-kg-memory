@@ -1,0 +1,51 @@
+{
+  "audit": "BM25 canonical Cat1-4 Cat3 + Cat2 audit",
+  "method": "BM25",
+  "scope": "canonical_cat1_4",
+
+  "Cat3": {
+    "total": 96,
+    "all_query_ids": ["conv-26_qa_14","conv-26_qa_2","conv-26_qa_22","conv-26_qa_27","conv-26_qa_30","conv-26_qa_42","conv-26_qa_46","conv-26_qa_50","conv-26_qa_59","conv-26_qa_64","conv-26_qa_69","conv-26_qa_77","conv-26_qa_81","conv-41_qa_14","conv-41_qa_17","conv-41_qa_39","conv-41_qa_41","conv-41_qa_45","conv-41_qa_50","conv-41_qa_64","conv-41_qa_8","conv-42_qa_0","conv-42_qa_12","conv-42_qa_14","conv-42_qa_4","conv-42_qa_60","conv-42_qa_66","conv-42_qa_68","conv-42_qa_73","conv-42_qa_84","conv-42_qa_85","conv-42_qa_87","conv-43_qa_15","conv-43_qa_19","conv-43_qa_27","conv-43_qa_28","conv-43_qa_3","conv-43_qa_32","conv-43_qa_34","conv-43_qa_5","conv-43_qa_51","conv-43_qa_53","conv-43_qa_66","conv-43_qa_67","conv-43_qa_70","conv-43_qa_8","conv-44_qa_19","conv-44_qa_20","conv-44_qa_33","conv-44_qa_43","conv-44_qa_44","conv-44_qa_52","conv-44_qa_53","conv-47_qa_0","conv-47_qa_12","conv-47_qa_16","conv-47_qa_17","conv-47_qa_19","conv-47_qa_25","conv-47_qa_30","conv-47_qa_33","conv-47_qa_35","conv-47_qa_36","conv-47_qa_44","conv-47_qa_6","conv-47_qa_7","conv-48_qa_11","conv-48_qa_18","conv-48_qa_23","conv-48_qa_28","conv-48_qa_36","conv-48_qa_40","conv-48_qa_48","conv-48_qa_5","conv-48_qa_70","conv-48_qa_75","conv-49_qa_10","conv-49_qa_19","conv-49_qa_20","conv-49_qa_27","conv-49_qa_31","conv-49_qa_38","conv-49_qa_43","conv-49_qa_46","conv-49_qa_5","conv-49_qa_51","conv-49_qa_57","conv-49_qa_65","conv-49_qa_71","conv-50_qa_13","conv-50_qa_21","conv-50_qa_37","conv-50_qa_39","conv-50_qa_4","conv-50_qa_42","conv-50_qa_7"],
+    "in_ranking": "96/96",
+    "empty_evidence_queries": "0/96",
+    "rF1": 0.0,
+    "rEM": 0.0,
+    "WrongAbstention": 0.9896,
+    "random_sample": [
+      {"query_id":"conv-47_qa_25","question":"Are John and James fans of the same football team?","gold":"No, James is a Liverpool fan and John is a Manchester City fan.","prediction":"Cannot answer","top1_text":"No worries, James! We make a good team."},
+      {"query_id":"conv-48_qa_36","question":"How old is Jolene?","gold":"likely no more than 30; since she's in school","prediction":"Cannot answer","top1_text":"How old is Luna?"},
+      {"query_id":"conv-26_qa_22","question":"Would Caroline likely have Dr. Seuss books on her bookshelf?","gold":"Yes, since she collects classic children's books","prediction":"Cannot answer","top1_text":"Wow, Caroline! Books have such an awesome power! Which one has been your favorite guide?"},
+      {"query_id":"conv-49_qa_51","question":"What challenges does Sam face in his quest for a healthier lifestyle, and how does he address them?","gold":"Sam faces challenges like maintaining motivation and making dietary changes. He addresses them by enrolling in cooking classes and seeking support from friends like Evan.","prediction":"Cannot answer","top1_text":"That must have been a challenging experience, Sam..."},
+      {"query_id":"conv-44_qa_33","question":"What can Andrew potentially do to improve his stress and accomodate his living situation with his dogs?","gold":"Change to a hybrid or remote job so he can move away from the city to the suburbs...","prediction":"Cannot answer","top1_text":"Thanks Audrey! That's so nice of you. I think I've managed to make it work with dogs while still living in the city."},
+      {"query_id":"conv-47_qa_16","question":"What is the game with different colored cards that was John talking about with James?","gold":"UNO","prediction":"Cannot answer","top1_text":"Yes, we played one game, but I forgot its name. Perhaps you know this game. There were multi-colored cards with numbers. You can only place a card wit..."},
+      {"query_id":"conv-42_qa_14","question":"What nickname does Nate use for Joanna?","gold":"Jo","prediction":"Cannot answer","top1_text":"Thanks Nate! I absolutley love DIYs, and I know she does too."},
+      {"query_id":"conv-50_qa_7","question":"Does Dave's shop employ a lot of people?","gold":"Yes","prediction":"Cannot answer","top1_text":"Haven't tried it before, but it does look like a lot of fun!..."},
+      {"query_id":"conv-47_qa_30","question":"Which country did James book tickets for in July 2022?","gold":"Canada","prediction":"Cannot answer","top1_text":"I plan to return on July 20, I'll definitely bring you some kind of souvenir!"},
+      {"query_id":"conv-42_qa_73","question":"What state did Joanna visit in summer 2021?","gold":"Indiana","prediction":"Cannot answer","top1_text":"That cake looks amazing, Joanna! How did you make it?"}
+    ],
+    "verdict": "No pipeline bug. BM25 raw-text retrieval cannot supply Cat3 commonsense/open-domain evidence. 96/96 ranked with non-empty text, but evidence is conversational, not directly answer-bearing. DeepSeek correctly abstains."
+  },
+
+  "Cat2": {
+    "total": 321,
+    "Cannot_answer": 293,
+    "Cannot_answer_pct": 91.3,
+    "rF1": 0.0154,
+    "rEM": 0.0,
+    "WrongAbstention": 0.9128,
+    "answered_5_samples": [
+      {"query_id":"conv-26_qa_25","gold":"10 July 2023","prediction":"Two days ago."},
+      {"query_id":"conv-26_qa_53","gold":"The week of 23 August 2023","prediction":"this week"},
+      {"query_id":"conv-26_qa_54","gold":"The week before 23 August 2023","prediction":"last week"},
+      {"query_id":"conv-26_qa_58","gold":"24 August 2023","prediction":"yesterday"},
+      {"query_id":"conv-30_qa_0","gold":"19 January, 2023","prediction":"yesterday"}
+    ],
+    "verdict": "BM25 raw-text retrieval cannot supply temporally precise evidence. 91.3% Cannot answer reflects genuine ranking weakness."
+  },
+
+  "summary": {
+    "pipeline_bug": false,
+    "wrong_evidence_probability": 0,
+    "root_cause": "BM25 raw-text evidence is conversational, temporally imprecise, and lacks named entities. Cat3 (commonsense) and Cat2 (temporal) are particularly vulnerable. The pipeline is correct; the low rF1 is genuine."
+  }
+}

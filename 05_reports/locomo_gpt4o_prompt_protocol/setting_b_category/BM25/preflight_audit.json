@@ -1,0 +1,24 @@
+{
+  "method": "BM25",
+  "total_questions": 1986,
+  "category_counts": {
+    "1": 282,
+    "2": 321,
+    "3": 96,
+    "4": 841,
+    "5": 446
+  },
+  "cat_dist_ok": true,
+  "memory_records": 5882,
+  "memory_with_timestamp": 5882,
+  "all_timestamps_ok": true,
+  "ranking_coverage": 1986,
+  "ranking_missing": [],
+  "ranking_coverage_ok": true,
+  "rank_lengths": {
+    "10": 1986
+  },
+  "unresolvable_memory_ids": 0,
+  "unresolvable_examples": [],
+  "preflight_pass": true
+}

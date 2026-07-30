@@ -1,0 +1,54 @@
+{
+    "graph_id":  "locomo_kg",
+    "semantic":  {
+                     "cycle_policy":  "path"
+                 },
+    "cassandra":  {
+                      "hosts":  [
+                                    "127.0.0.1"
+                                ],
+                      "port":  9042,
+                      "keyspace":  "ai_memory",
+                      "username":  null,
+                      "password":  null,
+                      "tables":  {
+                                     "by_src":  "kg_edges_by_src",
+                                     "by_dst":  "kg_edges_by_dst",
+                                     "by_relation_bucket":  "kg_edges_by_relation_bucket",
+                                     "by_src_relation":  "kg_edges_by_src_relation"
+                                 },
+                      "columns":  {
+                                      "graph_id":  "graph_id",
+                                      "src_id":  "src_id",
+                                      "relation":  "relation",
+                                      "dst_id":  "dst_id",
+                                      "source":  "source"
+                                  },
+                      "relation_index":  {
+                                             "enabled":  false
+                                         },
+                      "write_policy":  {
+                                           "bucket_count":  64,
+                                           "bucket_by":  "dst"
+                                       },
+                      "opt":  {
+                                  "workers":  16,
+                                  "cache_policy":  "high_degree",
+                                  "cache_capacity":  200,
+                                  "degree_threshold":  100
+                              }
+                  },
+    "neo4j":  {
+                  "uri":  "bolt://127.0.0.1:7687",
+                  "username":  "neo4j",
+                  "password":  "CHANGE_ME",
+                  "database":  "neo4j",
+                  "node_label":  "KGNode",
+                  "relationship_type":  "KG_EDGE",
+                  "node_graph_property":  "graph_id",
+                  "node_id_property":  "node_id",
+                  "rel_graph_property":  "graph_id",
+                  "rel_relation_property":  "relation",
+                  "rel_source_property":  "source"
+              }
+}

@@ -1,0 +1,5 @@
+﻿method,category,scope,n,category_counts,official_score,rF1_cat14,rEM_cat14_project,WrongAbstention_cat14_project,cat5_official_abstention,cat5_broad_abstention,cat5_leakage_official
+ZScore-RawERK,1,cat1,282,"{""1"": 282}",0.163686,0.163686,0.096293,0.648936,,,
+ZScore-RawERK,2,cat2,321,"{""2"": 321}",0.052853,0.052853,0.009346,0.707165,,,
+ZScore-RawERK,3,cat3,96,"{""3"": 96}",0.034446,0.034446,0.020833,0.875,,,
+ZScore-RawERK,4,cat4,841,"{""4"": 841}",0.397973,0.397973,0.271106,0.438763,,,

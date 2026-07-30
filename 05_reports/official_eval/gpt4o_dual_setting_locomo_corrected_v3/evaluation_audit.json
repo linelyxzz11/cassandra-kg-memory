@@ -1,0 +1,11 @@
+{
+  "description": "LoCoMo GPT-4o Dual Setting Corrected Evaluation v3",
+  "total": 11916,
+  "0_api_calls": true,
+  "nltk": true,
+  "cat1": "asymmetric multi-answer F1 (comma-split)",
+  "cat3": "gold_answer split by ; first segment",
+  "cat5": "phrase: not mentioned / no information available",
+  "cat5_mapping": "Setting B only, via deterministic_swap, regex parser",
+  "weighting": "per-query mean (natural by category n)"
+}

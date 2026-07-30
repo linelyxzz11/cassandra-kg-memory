@@ -1,0 +1,5 @@
+﻿method,category,scope,n,category_counts,official_score,rF1_cat14,rEM_cat14_project,WrongAbstention_cat14_project,cat5_official_abstention,cat5_broad_abstention,cat5_leakage_official
+BM25,1,cat1,282,"{""1"": 282}",0.079719,0.079719,0.048463,0.804965,,,
+BM25,2,cat2,321,"{""2"": 321}",0.045475,0.045475,0.015576,0.781931,,,
+BM25,3,cat3,96,"{""3"": 96}",0.016219,0.016219,0.010417,0.947917,,,
+BM25,4,cat4,841,"{""4"": 841}",0.310603,0.310603,0.214031,0.565993,,,

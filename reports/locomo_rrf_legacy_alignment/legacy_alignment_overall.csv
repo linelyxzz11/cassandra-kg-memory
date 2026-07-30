@@ -1,0 +1,8 @@
+﻿method,R@1,R@10,MRR,n
+BM25_raw_legacy,0.2649,0.5619,0.36,
+Dense_raw_legacy,0.3419,0.7009,0.4534,
+BM25_compact_legacy,0.4273,0.6734,0.5083,1540
+RRF_raw_legacy,0.3539,0.7409,0.4763,1540
+RRF_compact_legacy,0.4279,0.7857,0.5432,1540
+Dense+GlobalKG_legacy,0.3872,0.7095,0.4851,1540
+Dense+QueryKG_legacy,0.3585,0.7185,0.4724,1540

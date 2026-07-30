@@ -1,0 +1,4 @@
+﻿comparison,rescue@1,hurt@1,net@1
+KG-Native vs Dense-bge,113,434,-321
+BM25 vs Dense-bge,17,522,-505
+GlobalKG-Prior vs Dense-bge,13,8,5

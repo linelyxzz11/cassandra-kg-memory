@@ -1,0 +1,5 @@
+﻿method,category,R@1,R@10,MRR,n
+Dense-bge_canonical,cat4,0.3669,0.711,0.4738,1540
+Dense-bge_canonical,overall,0.3669,0.711,0.4738,1540
+BM25_canonical,cat4,0.2032,0.4552,0.2828,1540
+BM25_canonical,overall,0.2032,0.4552,0.2828,1540

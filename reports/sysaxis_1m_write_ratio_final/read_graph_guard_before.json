@@ -1,0 +1,8 @@
+{
+  "csv": 1000000,
+  "raw": 1000000,
+  "distinct": 1000000,
+  "duplicates": 0,
+  "missing": 0,
+  "extra": 0
+}

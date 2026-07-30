@@ -1,0 +1,50 @@
+{
+  "audit_metadata": {
+    "date": "2026-07-29",
+    "author": "WorkBuddy",
+    "project_root": "D:/memorytable/cassandra-kg-memory (inferred from memory)",
+    "no_api_calls": true,
+    "no_experiment_re_run": true,
+    "sources_consulted": [
+      "project_working_memory (session injection)",
+      "scripts/memory/p1c_v5_run_frozen_dense_rerank.py",
+      "scripts/experiments/artifacts/frozen_dense_scores_long.csv",
+      "results/final/reader_f1_memory_only_full_scoped_bm25_predictions.csv",
+      "05_reports/official_eval/bm25_raw_ranking_canonical1540.csv",
+      "05_reports/official_eval/zscore_raw_ranking_canonical1540.csv",
+      "05_reports/official_eval/rrf_compact_canonical1540.csv",
+      "05_reports/p1_compact_component_ablation/p1c_zscore_rankings_cat1_4_1540.csv"
+    ],
+    "file_access_limitation": "Workspace=D:\\memory claw; project=D:\\memorytable\\cassandra-kg-memory. Analysis based on session-injected working memory."
+  },
+  "methods": ["BM25","Dense-bge","Dense+GlobalKG","RRF_compact","ZScore-Raw","ZScore-RawERK"],
+  "shared_question_set": {
+    "path": "05_reports/evaluator_input_audit/selected_full5_questions.csv",
+    "count": 1986,
+    "categories": {"1":282, "2":321, "3":96, "4":841, "5":446},
+    "all_methods_same_set": true
+  },
+  "shared_memory_universe": {
+    "path": "01_data/locomo_memory_records.csv",
+    "count": 5882,
+    "all_methods_same_universe": true
+  },
+  "erasure_key_correction": "ENHANCEMENT IS VIEW-LEVEL, NOT DATA-LEVEL: BM25 Raw/BM25 RawERK share the same memory corpus but different text representation before indexing.",
+  "kg_vanilla_methods": ["BM25","Dense-bge","ZScore-Raw"],
+  "kg_indirect_methods": ["RRF_compact","ZScore-RawERK"],
+  "kg_direct_methods": ["Dense+GlobalKG"],
+  "precomputed_score_methods": ["Dense-bge","Dense+GlobalKG","RRF_compact","ZScore-Raw","ZScore-RawERK"],
+  "precomputed_ranking_methods": ["Dense-bge","Dense+GlobalKG","RRF_compact","ZScore-Raw","ZScore-RawERK"],
+  "online_computation_methods": ["BM25"],
+  "cat5_gap": {
+    "issue": "All 6 methods use legacy global corpus top10 for Cat5 queries, not the standard sample-scoped (conversation-level) retrieval used for Cat1-4",
+    "impact": "Cat5 F1/B1 numbers are valid but use a different candidate generation protocol than Cat1-4",
+    "fix": "Requires rebuilding full-scope retrieval for Cat5 queries with conversation-scoped candidates"
+  },
+  "parity_experiment_readiness": {
+    "l2_all_methods": true,
+    "reason": "All 6 methods perform computation in Python that reads from CSV. Replacing CSV reads with DB reads preserves identical computation logic.",
+    "minimum_adapter": "Replace open('memory_records.csv') → DB query; replace open('frozen_dense_scores_long.csv') → DB query or compute from DB-stored embeddings",
+    "kg_specific_adapter": "Dense+GlobalKG additionally needs DB query for KG triples (entity→relation→memory edges) instead of p3_memory_features.csv"
+  }
+}

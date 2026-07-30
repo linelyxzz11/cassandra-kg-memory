@@ -1,0 +1,23 @@
+{
+  "cassandra": {
+    "version": "5.0.8",
+    "keyspace": "kg_memory",
+    "tables": {
+      "kg_memory_table": 5882,
+      "kg_triples": 2353
+    },
+    "host": "127.0.0.1:9042"
+  },
+  "neo4j": {
+    "version": "5.26.26",
+    "nodes": {
+      "LocoMoMemory": 5882,
+      "LocoMoEntity": 3581
+    },
+    "edges": {
+      "LOCORELATES": 2096,
+      "HAS_ENTITY": 2353
+    },
+    "host": "bolt://localhost:7687"
+  }
+}

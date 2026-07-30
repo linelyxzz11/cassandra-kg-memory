@@ -1,0 +1,12 @@
+{
+  "source_csv_edges": 1000000,
+  "source_csv_distinct_logical_edges": 1000000,
+  "neo4j_nodes": 50000,
+  "neo4j_edges": 1000000,
+  "duplicate_relationships": 0,
+  "missing_edges": 0,
+  "extra_edges": 0,
+  "import_elapsed_s": 50.7,
+  "batch_size": 5000,
+  "all_consistent": true
+}

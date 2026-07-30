@@ -1,0 +1,52 @@
+{
+  "hop": 2,
+  "query_count": 256,
+  "distinct_seeds": 256,
+  "empty_queries": 0,
+  "result_path_min": 1,
+  "result_path_max": 46,
+  "result_path_p50": 3,
+  "result_path_p95": 20,
+  "relation_path_distribution_top10": [
+    [
+      "['attended', 'attended']",
+      137
+    ],
+    [
+      "['bought', 'attended']",
+      48
+    ],
+    [
+      "['attended', 'bought']",
+      32
+    ],
+    [
+      "['bought', 'bought']",
+      10
+    ],
+    [
+      "['helped', 'attended']",
+      7
+    ],
+    [
+      "['likes', 'attended']",
+      5
+    ],
+    [
+      "['helped', 'bought']",
+      5
+    ],
+    [
+      "['attended', 'helped']",
+      5
+    ],
+    [
+      "['bought', 'helped']",
+      2
+    ],
+    [
+      "['likes', 'bought']",
+      2
+    ]
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "protocol": "per_sample_scoped",
+  "rrf_alpha": 0.5,
+  "rrf_k": 10,
+  "baselines": "from_summary_csv",
+  "n": 1540
+}

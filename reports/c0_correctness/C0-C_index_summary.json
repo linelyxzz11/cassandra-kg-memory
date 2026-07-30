@@ -1,0 +1,39 @@
+{
+  "experiment": "C0-C naive vs parallel+index semantic gate",
+  "graph_id": "synth_100000_1781447372",
+  "seed": "entity_0",
+  "hop": 4,
+  "fanout": 20,
+  "relation_path": [
+    "attended",
+    "attended",
+    "attended",
+    "bought"
+  ],
+  "index_preflight_mismatches": 0,
+  "naive": {
+    "mode": "workers=1, by_src+filter",
+    "paths": 39,
+    "latency_ms": 363.482,
+    "raw_edges_from_cassandra": 1120,
+    "one_hop_queries": 24
+  },
+  "parallel_baseline": {
+    "mode": "workers=16, by_src+filter",
+    "paths": 39,
+    "latency_ms": 67.181,
+    "raw_edges_from_cassandra": 1120,
+    "one_hop_queries": 24
+  },
+  "parallel_index": {
+    "mode": "workers=16, by_src_relation",
+    "paths": 39,
+    "latency_ms": 56.092,
+    "raw_edges_from_cassandra": 88,
+    "one_hop_queries": 24
+  },
+  "naive_vs_parallel_disagreements": 0,
+  "naive_vs_index_disagreements": 0,
+  "index_raw_edge_reduction_pct": 92.1,
+  "all_pass": true
+}

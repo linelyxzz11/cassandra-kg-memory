@@ -1,0 +1,5 @@
+﻿method,R@1,R@10,MRR,n
+BM25_raw,0.2877,0.5883,0.383,1540
+BM25_enriched,0.4065,0.6747,0.4939,1540
+Dense_raw_canonical,0.3669,0.711,0.4738,1540
+Dense+GlobalKG_canonical,0.3669,0.711,0.4766,1540

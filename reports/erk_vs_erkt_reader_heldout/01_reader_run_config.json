@@ -1,0 +1,6 @@
+{
+  "model": "deepseek-chat",
+  "temperature": 0,
+  "max_tokens": 128,
+  "prompt_format": "legacy_v2"
+}

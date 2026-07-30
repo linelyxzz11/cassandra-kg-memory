@@ -1,0 +1,7 @@
+﻿component,R@10,MRR,delta_MRR,delta_R@10
+Dense-bge,0.6565,0.3776,—,—
+BM25,0.1039,0.0578,—,—
+RRF (best k=10),0.6513,0.3179,-0.0597,-0.0052
+RRF+GlobalKG (best),0.6532,0.3952,0.0773,0.0019
+RRF+TemporalKG (best),0.6532,0.3952,0.0773,0.0019
+RRF+GlobalKG+TemporalKG (best),0.6539,0.3948,-0.0004,0.0007

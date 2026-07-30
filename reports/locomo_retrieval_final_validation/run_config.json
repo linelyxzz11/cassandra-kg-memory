@@ -1,0 +1,33 @@
+{
+  "conversation_split": {
+    "dev": [
+      "conv-42",
+      "conv-48"
+    ],
+    "test": [
+      "conv-26",
+      "conv-30",
+      "conv-41",
+      "conv-43",
+      "conv-44",
+      "conv-47",
+      "conv-49",
+      "conv-50"
+    ]
+  },
+  "dev_queries": 390,
+  "test_queries": 1150,
+  "best_rrf_raw": {
+    "alpha": 0.5,
+    "k": 10,
+    "dev_MRR": 0.487
+  },
+  "best_rrf_cpt": {
+    "alpha": 0.5,
+    "k": 10,
+    "dev_MRR": 0.5228
+  },
+  "bootstrap_reps": 1000,
+  "seed": 42,
+  "dense_enriched": "pending_bge_api"
+}

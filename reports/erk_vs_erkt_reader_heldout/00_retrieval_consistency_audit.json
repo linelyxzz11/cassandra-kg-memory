@@ -1,0 +1,25 @@
+{
+  "query_count": 1150,
+  "expected_1150": true,
+  "split_match": true,
+  "RRF_Raw_MRR": {
+    "expected": 0.4774,
+    "actual": 0.4774,
+    "pass": true
+  },
+  "RRF_ERK_MRR": {
+    "expected": 0.5189,
+    "actual": 0.5189,
+    "pass": true
+  },
+  "RRF_ERKT_MRR": {
+    "expected": 0.521,
+    "actual": 0.521,
+    "pass": true
+  },
+  "delta_MRR": {
+    "expected": 0.0021,
+    "actual": 0.0021,
+    "pass": true
+  }
+}

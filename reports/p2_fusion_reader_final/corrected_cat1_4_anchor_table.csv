@@ -1,0 +1,4 @@
+﻿Method,Scope,Queries,R@1,note
+RRF_raw,cat1-4,1540,0.3416,canonical cat1-4
+RRF_raw,full5,1986,0.3278,full 1986 queries
+RRF_raw,legacy summary CSV,1986,0.3539,QUARANTINED - unreproducible

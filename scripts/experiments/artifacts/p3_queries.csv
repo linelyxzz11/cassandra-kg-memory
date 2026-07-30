@@ -1,0 +1,1541 @@
+﻿query_id,question,category,conversation_id,gold_memory_ids,split
+conv-26_qa_0,When did Caroline go to the LGBTQ support group?,2,conv-26,conv-26_session_1_D1:3,test
+conv-26_qa_1,When did Melanie paint a sunrise?,2,conv-26,conv-26_session_1_D1:12,test
+conv-26_qa_2,What fields would Caroline be likely to pursue in her educaton?,3,conv-26,conv-26_session_1_D1:9;conv-26_session_1_D1:11,test
+conv-26_qa_3,What did Caroline research?,1,conv-26,conv-26_session_2_D2:8,test
+conv-26_qa_4,What is Caroline's identity?,1,conv-26,conv-26_session_1_D1:5,test
+conv-26_qa_5,When did Melanie run a charity race?,2,conv-26,conv-26_session_2_D2:1,test
+conv-26_qa_6,When is Melanie planning on going camping?,2,conv-26,conv-26_session_2_D2:7,test
+conv-26_qa_7,What is Caroline's relationship status?,1,conv-26,conv-26_session_3_D3:13;conv-26_session_2_D2:14,test
+conv-26_qa_8,When did Caroline give a speech at a school?,2,conv-26,conv-26_session_3_D3:1,test
+conv-26_qa_9,"When did Caroline meet up with her friends, family, and mentors?",2,conv-26,conv-26_session_3_D3:11,test
+conv-26_qa_10,How long has Caroline had her current group of friends for?,2,conv-26,conv-26_session_3_D3:13,test
+conv-26_qa_11,Where did Caroline move from 4 years ago?,1,conv-26,conv-26_session_3_D3:13;conv-26_session_4_D4:3,test
+conv-26_qa_12,How long ago was Caroline's 18th birthday?,2,conv-26,conv-26_session_4_D4:5,test
+conv-26_qa_13,What career path has Caroline decided to persue?,1,conv-26,conv-26_session_4_D4:13;conv-26_session_1_D1:11,test
+conv-26_qa_14,Would Caroline still want to pursue counseling as a career if she hadn't received support growing up?,3,conv-26,conv-26_session_4_D4:15;conv-26_session_3_D3:5,test
+conv-26_qa_15,What activities does Melanie partake in?,1,conv-26,conv-26_session_5_D5:4;conv-26_session_9_D9:1;conv-26_session_1_D1:12;conv-26_session_1_D1:18,test
+conv-26_qa_16,When did Melanie sign up for a pottery class?,2,conv-26,conv-26_session_5_D5:4,test
+conv-26_qa_17,When is Caroline going to the transgender conference?,2,conv-26,conv-26_session_5_D5:13,test
+conv-26_qa_18,Where has Melanie camped?,1,conv-26,conv-26_session_6_D6:16;conv-26_session_4_D4:6;conv-26_session_8_D8:32,test
+conv-26_qa_19,What do Melanie's kids like?,1,conv-26,conv-26_session_6_D6:6;conv-26_session_4_D4:8,test
+conv-26_qa_20,When did Melanie go to the museum?,2,conv-26,conv-26_session_6_D6:4,test
+conv-26_qa_21,When did Caroline have a picnic?,2,conv-26,conv-26_session_6_D6:11,test
+conv-26_qa_22,Would Caroline likely have Dr. Seuss books on her bookshelf?,3,conv-26,conv-26_session_6_D6:9,test
+conv-26_qa_23,What books has Melanie read?,1,conv-26,conv-26_session_7_D7:8;conv-26_session_6_D6:10,test
+conv-26_qa_24,What does Melanie do to destress?,1,conv-26,conv-26_session_7_D7:22;conv-26_session_5_D5:4,test
+conv-26_qa_25,When did Caroline go to the LGBTQ conference?,2,conv-26,conv-26_session_7_D7:1,test
+conv-26_qa_26,"When did Melanie read the book ""nothing is impossible""?",2,conv-26,conv-26_session_7_D7:8,test
+conv-26_qa_27,Would Caroline pursue writing as a career option?,3,conv-26,conv-26_session_7_D7:5;conv-26_session_7_D7:9,test
+conv-26_qa_28,When did Caroline go to the adoption meeting?,2,conv-26,conv-26_session_8_D8:9,test
+conv-26_qa_29,When did Melanie go to the pottery workshop?,2,conv-26,conv-26_session_8_D8:2,test
+conv-26_qa_30,Would Melanie be considered a member of the LGBTQ community?,3,conv-26,,test
+conv-26_qa_31,When did Melanie go camping in June?,2,conv-26,conv-26_session_4_D4:8,test
+conv-26_qa_32,What LGBTQ+ events has Caroline participated in?,1,conv-26,conv-26_session_5_D5:1;conv-26_session_8_D8:17;conv-26_session_3_D3:1;conv-26_session_1_D1:3,test
+conv-26_qa_33,When did Caroline go to a pride parade during the summer?,2,conv-26,conv-26_session_5_D5:1,test
+conv-26_qa_34,What events has Caroline participated in to help children?,1,conv-26,conv-26_session_9_D9:2;conv-26_session_3_D3:3,test
+conv-26_qa_35,When did Melanie go camping in July?,2,conv-26,conv-26_session_9_D9:1,test
+conv-26_qa_36,When did Caroline join a mentorship program?,2,conv-26,conv-26_session_9_D9:2,test
+conv-26_qa_37,What did Melanie paint recently?,1,conv-26,conv-26_unknown_D8:6; D9:17,test
+conv-26_qa_38,What activities has Melanie done with her family?,1,conv-26,conv-26_session_8_D8:4;conv-26_session_8_D8:6;conv-26_session_9_D9:1;conv-26_session_6_D6:4;conv-26_session_1_D1:18;conv-26_session_3_D3:14,test
+conv-26_qa_39,In what ways is Caroline participating in the LGBTQ community?,1,conv-26,conv-26_session_10_D10:3;conv-26_session_5_D5:1;conv-26_session_9_D9:12;conv-26_session_9_D9:2,test
+conv-26_qa_40,How many times has Melanie gone to the beach in 2023?,1,conv-26,conv-26_session_10_D10:8;conv-26_session_6_D6:16,test
+conv-26_qa_41,When did Caroline join a new activist group?,2,conv-26,conv-26_session_10_D10:3,test
+conv-26_qa_42,Would Melanie be more interested in going to a national park or a theme park?,3,conv-26,conv-26_session_10_D10:12;conv-26_session_10_D10:14,test
+conv-26_qa_43,What kind of art does Caroline make?,1,conv-26,conv-26_session_11_D11:12;conv-26_session_11_D11:8;conv-26_session_9_D9:14,test
+conv-26_qa_44,When is Melanie's daughter's birthday?,2,conv-26,conv-26_session_11_D11:1,test
+conv-26_qa_45,When did Caroline attend a pride parade in August?,2,conv-26,conv-26_session_11_D11:4,test
+conv-26_qa_46,Would Melanie be considered an ally to the transgender community?,3,conv-26,,test
+conv-26_qa_47,Who supports Caroline when she has a negative experience?,1,conv-26,conv-26_session_12_D12:1;conv-26_session_3_D3:11,test
+conv-26_qa_48,What types of pottery have Melanie and her kids made?,1,conv-26,conv-26_session_12_D12:14;conv-26_session_8_D8:4;conv-26_session_5_D5:6,test
+conv-26_qa_49,When did Caroline and Melanie go to a pride fesetival together?,2,conv-26,conv-26_session_12_D12:15,test
+conv-26_qa_50,What would Caroline's political leaning likely be?,3,conv-26,conv-26_session_12_D12:1,test
+conv-26_qa_51,What has Melanie painted?,1,conv-26,conv-26_session_13_D13:8;conv-26_session_8_D8:6;conv-26_session_1_D1:12,test
+conv-26_qa_52,What are Melanie's pets' names?,1,conv-26,conv-26_session_13_D13:4;conv-26_session_7_D7:18,test
+conv-26_qa_53,When did Caroline apply to adoption agencies?,2,conv-26,conv-26_session_13_D13:1,test
+conv-26_qa_54,When did Caroline draw a self-portrait?,2,conv-26,conv-26_session_13_D13:11,test
+conv-26_qa_55,What subject have Caroline and Melanie both painted?,1,conv-26,conv-26_session_14_D14:5;conv-26_session_8_D8:6,test
+conv-26_qa_56,What symbols are important to Caroline?,1,conv-26,conv-26_session_14_D14:15;conv-26_session_4_D4:1,test
+conv-26_qa_57,When did Caroline encounter people on a hike and have a negative experience?,2,conv-26,conv-26_session_14_D14:1,test
+conv-26_qa_58,When did Melanie make a plate in pottery class?,2,conv-26,conv-26_session_14_D14:4,test
+conv-26_qa_59,Would Caroline be considered religious?,3,conv-26,conv-26_session_14_D14:19;conv-26_session_12_D12:1,test
+conv-26_qa_60,What instruments does Melanie play?,1,conv-26,conv-26_session_15_D15:26;conv-26_session_2_D2:5,test
+conv-26_qa_61,What musical artists/bands has Melanie seen?,1,conv-26,conv-26_session_15_D15:16;conv-26_session_11_D11:3,test
+conv-26_qa_62,When did Melanie go to the park?,2,conv-26,conv-26_session_15_D15:2,test
+conv-26_qa_63,When is Caroline's youth center putting on a talent show?,2,conv-26,conv-26_session_15_D15:11,test
+conv-26_qa_64,"Would Melanie likely enjoy the song ""The Four Seasons"" by Vivaldi?",3,conv-26,conv-26_session_15_D15:28,test
+conv-26_qa_65,What are some changes Caroline has faced during her transition journey?,1,conv-26,conv-26_session_16_D16:15;conv-26_session_11_D11:14,test
+conv-26_qa_66,What does Melanie do with her family on hikes?,1,conv-26,conv-26_session_16_D16:4;conv-26_session_10_D10:12,test
+conv-26_qa_67,When did Caroline go biking with friends?,2,conv-26,conv-26_session_16_D16:1,test
+conv-26_qa_68,How long has Melanie been practicing art?,2,conv-26,conv-26_session_16_D16:8,test
+conv-26_qa_69,What personality traits might Melanie say Caroline has?,3,conv-26,conv-26_session_16_D16:18;conv-26_session_13_D13:16;conv-26_session_7_D7:4,test
+conv-26_qa_70,What transgender-specific events has Caroline attended?,1,conv-26,conv-26_session_17_D17:19;conv-26_session_15_D15:13,test
+conv-26_qa_71,What book did Melanie read from Caroline's suggestion?,1,conv-26,conv-26_session_7_D7:11;conv-26_session_17_D17:10,test
+conv-26_qa_72,When did Melanie's friend adopt a child?,2,conv-26,conv-26_session_17_D17:3,test
+conv-26_qa_73,When did Melanie get hurt?,2,conv-26,conv-26_session_17_D17:8,test
+conv-26_qa_74,When did Melanie's family go on a roadtrip?,2,conv-26,conv-26_session_18_D18:1,test
+conv-26_qa_75,How many children does Melanie have?,1,conv-26,conv-26_session_18_D18:1;conv-26_session_18_D18:7,test
+conv-26_qa_76,When did Melanie go on a hike after the roadtrip?,1,conv-26,conv-26_session_18_D18:17,test
+conv-26_qa_77,Would Melanie go on another roadtrip soon?,3,conv-26,conv-26_session_18_D18:3;conv-26_session_18_D18:1,test
+conv-26_qa_78,What items has Melanie bought?,1,conv-26,conv-26_session_19_D19:2;conv-26_session_7_D7:18,test
+conv-26_qa_79,When did Caroline pass the adoption interview?,2,conv-26,conv-26_session_19_D19:1,test
+conv-26_qa_80,When did Melanie buy the figurines?,2,conv-26,conv-26_session_19_D19:2,test
+conv-26_qa_81,Would Caroline want to move back to her home country soon?,3,conv-26,conv-26_session_19_D19:1;conv-26_session_19_D19:3,test
+conv-26_qa_82,What did the charity race raise awareness for?,4,conv-26,conv-26_session_2_D2:2,test
+conv-26_qa_83,What did Melanie realize after the charity race?,4,conv-26,conv-26_session_2_D2:3,test
+conv-26_qa_84,How does Melanie prioritize self-care?,4,conv-26,conv-26_session_2_D2:5,test
+conv-26_qa_85,What are Caroline's plans for the summer?,4,conv-26,conv-26_session_2_D2:8,test
+conv-26_qa_86,What type of individuals does the adoption agency Caroline is considering support?,4,conv-26,conv-26_session_2_D2:12,test
+conv-26_qa_87,Why did Caroline choose the adoption agency?,4,conv-26,conv-26_session_2_D2:12,test
+conv-26_qa_88,What is Caroline excited about in the adoption process?,4,conv-26,conv-26_session_2_D2:14,test
+conv-26_qa_89,What does Melanie think about Caroline's decision to adopt?,4,conv-26,conv-26_session_2_D2:15,test
+conv-26_qa_90,How long have Mel and her husband been married?,4,conv-26,conv-26_session_3_D3:16,test
+conv-26_qa_91,What does Caroline's necklace symbolize?,4,conv-26,conv-26_session_4_D4:3,test
+conv-26_qa_92,What country is Caroline's grandma from?,4,conv-26,conv-26_session_4_D4:3,test
+conv-26_qa_93,What was grandma's gift to Caroline?,4,conv-26,conv-26_session_4_D4:3,test
+conv-26_qa_94,What is Melanie's hand-painted bowl a reminder of?,4,conv-26,conv-26_session_4_D4:5,test
+conv-26_qa_95,What did Melanie and her family do while camping?,4,conv-26,conv-26_session_4_D4:8,test
+conv-26_qa_96,What kind of counseling and mental health services is Caroline interested in pursuing?,4,conv-26,conv-26_session_4_D4:13,test
+conv-26_qa_97,What workshop did Caroline attend recently?,4,conv-26,conv-26_session_4_D4:13,test
+conv-26_qa_98,What was discussed in the LGBTQ+ counseling workshop?,4,conv-26,conv-26_session_4_D4:13,test
+conv-26_qa_99,What motivated Caroline to pursue counseling?,4,conv-26,conv-26_session_4_D4:15,test
+conv-26_qa_100,What kind of place does Caroline want to create for people?,4,conv-26,conv-26_session_4_D4:15,test
+conv-26_qa_101,Did Melanie make the black and white bowl in the photo?,4,conv-26,conv-26_session_5_D5:8,test
+conv-26_qa_102,What kind of books does Caroline have in her library?,4,conv-26,conv-26_session_6_D6:9,test
+conv-26_qa_103,What was Melanie's favorite book from her childhood?,4,conv-26,conv-26_session_6_D6:10,test
+conv-26_qa_104,What book did Caroline recommend to Melanie?,4,conv-26,conv-26_session_7_D7:11,test
+conv-26_qa_105,"What did Caroline take away from the book ""Becoming Nicole""?",4,conv-26,conv-26_session_7_D7:13,test
+conv-26_qa_106,What are the new shoes that Melanie got used for?,4,conv-26,conv-26_session_7_D7:19,test
+conv-26_qa_107,What is Melanie's reason for getting into running?,4,conv-26,conv-26_session_7_D7:21,test
+conv-26_qa_108,What does Melanie say running has been great for?,4,conv-26,conv-26_session_7_D7:24,test
+conv-26_qa_109,What did Mel and her kids make during the pottery workshop?,4,conv-26,conv-26_session_8_D8:2,test
+conv-26_qa_110,What kind of pot did Mel and her kids make with clay?,4,conv-26,conv-26_session_8_D8:4,test
+conv-26_qa_111,What creative project do Mel and her kids do together besides pottery?,4,conv-26,conv-26_session_8_D8:5,test
+conv-26_qa_112,What did Mel and her kids paint in their latest project in July 2023?,4,conv-26,conv-26_session_8_D8:6,test
+conv-26_qa_113,What did Caroline see at the council meeting for adoption?,4,conv-26,conv-26_session_8_D8:9,test
+conv-26_qa_114,What do sunflowers represent according to Caroline?,4,conv-26,conv-26_session_8_D8:11,test
+conv-26_qa_115,Why are flowers important to Melanie?,4,conv-26,conv-26_session_8_D8:12,test
+conv-26_qa_116,What inspired Caroline's painting for the art show?,4,conv-26,conv-26_session_9_D9:16,test
+conv-26_qa_117,How often does Melanie go to the beach with her kids?,4,conv-26,conv-26_session_10_D10:10,test
+conv-26_qa_118,What did Melanie and her family see during their camping trip last year?,4,conv-26,conv-26_session_10_D10:14,test
+conv-26_qa_119,How did Melanie feel while watching the meteor shower?,4,conv-26,conv-26_session_10_D10:18,test
+conv-26_qa_120,Whose birthday did Melanie celebrate recently?,4,conv-26,conv-26_session_11_D11:1,test
+conv-26_qa_121,Who performed at the concert at Melanie's daughter's birthday?,4,conv-26,conv-26_session_11_D11:3,test
+conv-26_qa_122,Why did Melanie choose to use colors and patterns in her pottery project?,4,conv-26,conv-26_session_12_D12:6,test
+conv-26_qa_123,What pet does Caroline have?,4,conv-26,conv-26_session_13_D13:3,test
+conv-26_qa_124,What pets does Melanie have?,4,conv-26,conv-26_session_13_D13:4,test
+conv-26_qa_125,Where did Oliver hide his bone once?,4,conv-26,conv-26_session_13_D13:6,test
+conv-26_qa_126,What activity did Caroline used to do with her dad?,4,conv-26,conv-26_session_13_D13:7,test
+conv-26_qa_127,What did Caroline make for a local church?,4,conv-26,conv-26_session_14_D14:17,test
+conv-26_qa_128,What did Caroline find in her neighborhood during her walk?,4,conv-26,conv-26_session_14_D14:23,test
+conv-26_qa_129,Which song motivates Caroline to be courageous?,4,conv-26,conv-26_session_15_D15:23,test
+conv-26_qa_130,Which  classical musicians does Melanie enjoy listening to?,4,conv-26,conv-26_session_15_D15:28,test
+conv-26_qa_131,Who is Melanie a fan of in terms of modern music?,4,conv-26,conv-26_session_15_D15:28,test
+conv-26_qa_132,How long has Melanie been creating art?,4,conv-26,conv-26_session_16_D16:7,test
+conv-26_qa_133,What precautionary sign did Melanie see at the café?,4,conv-26,conv-26_session_16_D16:16,test
+conv-26_qa_134,What advice does Caroline give for getting started with adoption?,4,conv-26,conv-26_session_17_D17:7,test
+conv-26_qa_135,What setback did Melanie face in October 2023?,4,conv-26,conv-26_session_17_D17:8,test
+conv-26_qa_136,What does Melanie do to keep herself busy during her pottery break?,4,conv-26,conv-26_session_17_D17:10,test
+conv-26_qa_137,"What painting did Melanie show to Caroline on October 13, 2023?",4,conv-26,conv-26_session_17_D17:12,test
+conv-26_qa_138,"What kind of painting did Caroline share with Melanie on October 13, 2023?",4,conv-26,conv-26_session_17_D17:14,test
+conv-26_qa_139,What was the poetry reading that Caroline attended about?,4,conv-26,conv-26_session_17_D17:18,test
+conv-26_qa_140,What did the posters at the poetry reading say?,4,conv-26,conv-26_session_17_D17:19,test
+conv-26_qa_141,What does Caroline's drawing symbolize for her?,4,conv-26,conv-26_session_17_D17:23,test
+conv-26_qa_142,How do Melanie and Caroline describe their journey through life together?,4,conv-26,conv-26_session_17_D17:25,test
+conv-26_qa_143,What happened to Melanie's son on their road trip?,4,conv-26,conv-26_session_18_D18:1,test
+conv-26_qa_144,How did Melanie's son handle the accident?,4,conv-26,conv-26_session_18_D18:6;conv-26_session_18_D18:7,test
+conv-26_qa_145,How did Melanie feel about her family after the accident?,4,conv-26,conv-26_session_18_D18:5,test
+conv-26_qa_146,How did Melanie's children handle the accident?,4,conv-26,conv-26_session_18_D18:7,test
+conv-26_qa_147,How did Melanie feel after the accident?,4,conv-26,conv-26_session_18_D18:5,test
+conv-26_qa_148,What was Melanie's reaction to her children enjoying the Grand Canyon?,4,conv-26,conv-26_session_18_D18:5,test
+conv-26_qa_149,What do Melanie's family give her?,4,conv-26,conv-26_session_18_D18:9,test
+conv-26_qa_150,How did Melanie feel about her family supporting her?,4,conv-26,conv-26_session_18_D18:13,test
+conv-26_qa_151,What did Melanie do after the road trip to relax?,4,conv-26,conv-26_session_18_D18:17,test
+conv-30_qa_0,When Jon has lost his job as a banker?,2,conv-30,conv-30_session_1_D1:2,test
+conv-30_qa_1,When Gina has lost her job at Door Dash?,2,conv-30,conv-30_session_1_D1:3,test
+conv-30_qa_2,How do Jon and Gina both like to destress?,4,conv-30,conv-30_session_1_D1:7;conv-30_session_1_D1:6,test
+conv-30_qa_3,What do Jon and Gina both have in common?,1,conv-30,conv-30_session_1_D1:2;conv-30_session_1_D1:3;conv-30_session_1_D1:4;conv-30_session_2_D2:1,test
+conv-30_qa_4,Why did Jon decide to start his dance studio?,4,conv-30,conv-30_session_1_D1:2;conv-30_session_1_D1:4,test
+conv-30_qa_5,What Jon thinks the ideal dance studio should look like?,1,conv-30,conv-30_session_1_D1:20;conv-30_session_2_D2:4;conv-30_session_2_D2:8,test
+conv-30_qa_6,When is Jon's group performing at a festival?,2,conv-30,conv-30_session_1_D1:24,test
+conv-30_qa_7,When did Gina launch an ad campaign for her store?,2,conv-30,conv-30_session_2_D2:1,test
+conv-30_qa_8,When was Jon in Paris?,2,conv-30,conv-30_session_2_D2:4,test
+conv-30_qa_9,Which city have both Jean and John visited?,1,conv-30,conv-30_session_2_D2:5;conv-30_session_15_D15:1,test
+conv-30_qa_10,When did Gina team up with a local artist for some cool designs?,2,conv-30,conv-30_session_5_D5:5,test
+conv-30_qa_11,When did Gina get her tattoo?,2,conv-30,conv-30_session_5_D5:15,test
+conv-30_qa_12,When did Jon start to go to the gym?,2,conv-30,conv-30_session_6_D6:1,test
+conv-30_qa_13,When did Gina open her online clothing store?,2,conv-30,conv-30_session_6_D6:6,test
+conv-30_qa_14,When did Jon start expanding his studio's social media presence?,2,conv-30,conv-30_session_8_D8:13,test
+conv-30_qa_15,When did Jon host a dance competition?,2,conv-30,conv-30_session_8_D8:13,test
+conv-30_qa_16,When did Jon go to a fair to get more exposure for his dance studio?,2,conv-30,conv-30_session_10_D10:1,test
+conv-30_qa_17,Why did Gina decide to start her own clothing store?,1,conv-30,conv-30_session_6_D6:8;conv-30_session_1_D1:3,test
+conv-30_qa_18,Do Jon and Gina start businesses out of what they love?,1,conv-30,conv-30_session_1_D1:4;conv-30_session_6_D6:8,test
+conv-30_qa_19,When did Gina interview for a design internship?,2,conv-30,conv-30_session_11_D11:14,test
+conv-30_qa_20,When did Gina get accepted for the design internship?,2,conv-30,conv-30_session_12_D12:1,test
+conv-30_qa_21,"When did Jon start reading ""The Lean Startup""?",2,conv-30,conv-30_session_12_D12:6,test
+conv-30_qa_22,When did Gina develop a video presentation to teach how to style her fashion pieces? ,2,conv-30,conv-30_session_13_D13:4,test
+conv-30_qa_23,How did Gina promote her clothes store?,1,conv-30,conv-30_session_5_D5:5;conv-30_session_16_D16:3;conv-30_session_8_D8:4;conv-30_session_13_D13:4,test
+conv-30_qa_24,Which events has Jon participated in to promote his business venture?,1,conv-30,conv-30_session_10_D10:1;conv-30_session_16_D16:6;conv-30_session_8_D8:4,test
+conv-30_qa_25,What does Jon's dance studio offer?,1,conv-30,conv-30_session_13_D13:7;conv-30_session_8_D8:13,test
+conv-30_qa_26,When did Jon receive mentorship to promote his venture?,2,conv-30,conv-30_session_14_D14:1,test
+conv-30_qa_27,Did Jon and Gina both participate in dance competitions?,1,conv-30,conv-30_session_1_D1:14;conv-30_session_14_D14:14;conv-30_session_1_D1:16;conv-30_session_1_D1:17;conv-30_session_9_D9:10,test
+conv-30_qa_28,When was Jon in Rome?,2,conv-30,conv-30_session_15_D15:1,test
+conv-30_qa_29,Which cities has Jon visited?,1,conv-30,conv-30_session_2_D2:4;conv-30_session_15_D15:1,test
+conv-30_qa_30,When Jon is planning to open his dance studio?,2,conv-30,conv-30_session_15_D15:5,test
+conv-30_qa_31,How long did it take for Jon to open his studio?,1,conv-30,conv-30_session_1_D1:2;conv-30_session_15_D15:13,test
+conv-30_qa_32,When did Gina design a limited collection of hoodies?,2,conv-30,conv-30_session_16_D16:3,test
+conv-30_qa_33,When did Jon visit networking events for his store?,2,conv-30,conv-30_session_16_D16:6,test
+conv-30_qa_34,When did Gina start being recognized by fashion editors?,2,conv-30,conv-30_session_17_D17:1,test
+conv-30_qa_35,When did Jon start learning marketing and analytics tools?,2,conv-30,conv-30_session_17_D17:4,test
+conv-30_qa_36,When did Jon and Gina decide to collaborate to create dance content?,2,conv-30,conv-30_session_18_D18:18,test
+conv-30_qa_37,When did Gina mention Shia Labeouf?,2,conv-30,conv-30_session_19_D19:4,test
+conv-30_qa_38,When did Gina go to a dance class with a group of friends?,2,conv-30,conv-30_session_19_D19:6,test
+conv-30_qa_39,What is Gina's favorite style of dance?,4,conv-30,conv-30_session_1_D1:9,test
+conv-30_qa_40,What is Jon's favorite style of dance?,4,conv-30,conv-30_session_1_D1:8,test
+conv-30_qa_41,What was Gina's favorite dancing memory?,4,conv-30,conv-30_session_1_D1:17,test
+conv-30_qa_42,What kind of dance piece did Gina's team perform to win first place?,4,conv-30,conv-30_session_1_D1:19,test
+conv-30_qa_43,What do the dancers in the photo represent?,4,conv-30,conv-30_session_1_D1:25,test
+conv-30_qa_44,What does Gina say about the dancers in the photo?,4,conv-30,conv-30_session_1_D1:26,test
+conv-30_qa_45,What is Jon's attitude towards being part of the dance festival?,4,conv-30,conv-30_session_1_D1:28,test
+conv-30_qa_46,What kind of flooring is Jon looking for in his dance studio?,4,conv-30,conv-30_session_2_D2:8,test
+conv-30_qa_47,"What did Gina find for her clothing store on 1 February, 2023?",4,conv-30,conv-30_session_3_D3:2,test
+conv-30_qa_48,What did Gina design for her store?,4,conv-30,conv-30_session_3_D3:4,test
+conv-30_qa_49,What did Gina want her customers to feel in her store?,4,conv-30,conv-30_session_3_D3:6;conv-30_session_3_D3:8,test
+conv-30_qa_50,What did Jon say about Gina's progress with her store?,4,conv-30,conv-30_session_3_D3:3,test
+conv-30_qa_51,What made Gina choose the furniture and decor for her store?,4,conv-30,conv-30_session_3_D3:6,test
+conv-30_qa_52,What did Jon say about creating a special experience for customers?,4,conv-30,conv-30_session_3_D3:9,test
+conv-30_qa_53,What did Gina say about creating an experience for her customers?,4,conv-30,conv-30_session_3_D3:8,test
+conv-30_qa_54,How is Gina's store doing?,4,conv-30,conv-30_session_4_D4:2,test
+conv-30_qa_55,What does Gina's tattoo symbolize?,4,conv-30,conv-30_session_5_D5:15,test
+conv-30_qa_56,What did Jon and Gina compare their entrepreneurial journeys to?,4,conv-30,conv-30_session_6_D6:15;conv-30_session_6_D6:16,test
+conv-30_qa_57,What advice does Gina give to Jon about running a successful business?,4,conv-30,conv-30_session_7_D7:5,test
+conv-30_qa_58,Why did Jon shut down his bank account?,4,conv-30,conv-30_session_8_D8:1,test
+conv-30_qa_59,Why did Gina combine her clothing business with dance?,4,conv-30,conv-30_session_8_D8:8,test
+conv-30_qa_60,What does Jon's dance make him?,4,conv-30,conv-30_session_9_D9:5,test
+conv-30_qa_61,What did Gina receive from a dance contest?,4,conv-30,conv-30_session_9_D9:10,test
+conv-30_qa_62,How does Gina stay confident in her business?,4,conv-30,conv-30_session_10_D10:8,test
+conv-30_qa_63,"What kind of professional experience did Gina get accepted for on May 23, 2023?",4,conv-30,conv-30_session_12_D12:1,test
+conv-30_qa_64,Where is Gina's fashion internship?,4,conv-30,conv-30_session_12_D12:3,test
+conv-30_qa_65,What book is Jon currently reading?,4,conv-30,conv-30_session_12_D12:6,test
+conv-30_qa_66,What is Jon offering to the dancers at his dance studio?,4,conv-30,conv-30_session_13_D13:7,test
+conv-30_qa_67,How does Jon use the clipboard with a notepad attached to it?,4,conv-30,conv-30_session_13_D13:11,test
+conv-30_qa_68,What does Jon tell Gina he won't do?,4,conv-30,conv-30_session_14_D14:17,test
+conv-30_qa_69,What did Jon take a trip to Rome for?,4,conv-30,conv-30_session_15_D15:1,test
+conv-30_qa_70,What is Jon working on opening?,4,conv-30,conv-30_session_15_D15:3,test
+conv-30_qa_71,How does Gina describe the studio that Jon has opened?,4,conv-30,conv-30_session_15_D15:6,test
+conv-30_qa_72,How does Jon feel about the opening night of his dance studio?,4,conv-30,conv-30_session_15_D15:7,test
+conv-30_qa_73,How does Gina describe the feeling that dance brings?,4,conv-30,conv-30_session_15_D15:8,test
+conv-30_qa_74,What does Jon plan to do at the grand opening of his dance studio?,4,conv-30,conv-30_session_15_D15:9,test
+conv-30_qa_75,What does Gina say to Jon about the grand opening?,4,conv-30,conv-30_session_15_D15:12,test
+conv-30_qa_76,What is the general sentiment about the upcoming grand opening?,4,conv-30,conv-30_session_15_D15:18;conv-30_session_15_D15:19,test
+conv-30_qa_77,What did Gina make a limited edition line of?,4,conv-30,conv-30_session_16_D16:3,test
+conv-30_qa_78,"According to Gina, what makes Jon a perfect mentor and guide?",4,conv-30,conv-30_session_17_D17:7,test
+conv-30_qa_80,What plans does Jon have after receiving advice at the networking event?,4,conv-30,conv-30_session_18_D18:10,test
+conv-30_qa_81,What offer does Gina make to Jon regarding social media?,4,conv-30,conv-30_session_18_D18:13,test
+conv-41_qa_0,"Who did Maria have dinner with on May 3, 2023?",2,conv-41,conv-41_session_13_D13:16,test
+conv-41_qa_1,When did Maria donate her car?,2,conv-41,conv-41_session_2_D2:1,test
+conv-41_qa_2,What martial arts has John done?,1,conv-41,conv-41_session_2_D2:28;conv-41_session_1_D1:4,test
+conv-41_qa_3,What type of volunteering have John and Maria both done?,1,conv-41,conv-41_session_3_D3:5;conv-41_session_2_D2:1,test
+conv-41_qa_4,When did John join the online support group?,2,conv-41,conv-41_session_3_D3:1,test
+conv-41_qa_5,When did Maria go to the beach?,2,conv-41,conv-41_session_3_D3:15,test
+conv-41_qa_6,Where has Maria made friends?,1,conv-41,conv-41_session_4_D4:1;conv-41_session_2_D2:1;conv-41_session_19_D19:1;conv-41_session_14_D14:10,test
+conv-41_qa_7,What items des John mention having as a child?,1,conv-41,conv-41_session_5_D5:13;conv-41_session_3_D3:15,test
+conv-41_qa_8,What might John's financial status be?,3,conv-41,conv-41_session_5_D5:5,test
+conv-41_qa_9,Who gave Maria's family money when she was younger and her family was going through tough times?,1,conv-41,conv-41_session_6_D6:9;conv-41_session_5_D5:8,test
+conv-41_qa_10,When did Maria meet Jean?,2,conv-41,conv-41_session_7_D7:1,test
+conv-41_qa_11,What people has Maria met and helped while volunteering?,1,conv-41,conv-41_session_7_D7:5;conv-41_session_6_D6:5;conv-41_session_27_D27:8;conv-41_session_21_D21:19,test
+conv-41_qa_12,What test has John taken multiple times?,1,conv-41,conv-41_session_8_D8:18;conv-41_session_3_D3:11,test
+conv-41_qa_13,When did Maria's grandmother pass away?,2,conv-41,conv-41_session_8_D8:1,test
+conv-41_qa_14,Would John be considered a patriotic person?,3,conv-41,conv-41_session_8_D8:18;conv-41_session_8_D8:20,test
+conv-41_qa_15,What writing classes has Maria taken?,1,conv-41,conv-41_session_9_D9:1;conv-41_session_7_D7:1,test
+conv-41_qa_16,When did John get his degree?,2,conv-41,conv-41_session_9_D9:2,test
+conv-41_qa_17,What might John's degree be in?,3,conv-41,conv-41_session_9_D9:6,test
+conv-41_qa_18,Who did John go to yoga with?,1,conv-41,conv-41_session_7_D7:16;conv-41_session_10_D10:1,test
+conv-41_qa_19,What damages have happened to John's car?,1,conv-41,conv-41_session_11_D11:1;conv-41_session_4_D4:2,test
+conv-41_qa_20,When did John take a road trip to the Pacific Northwest?,2,conv-41,conv-41_session_11_D11:3;conv-41_session_11_D11:5,test
+conv-41_qa_21,What areas of the U.S. has John been to or is planning to go to?,1,conv-41,conv-41_session_11_D11:5;conv-41_session_12_D12:17,test
+conv-41_qa_22,When did John go to a convention with colleagues?,2,conv-41,conv-41_session_12_D12:9,test
+conv-41_qa_23,What desserts has Maria made?,1,conv-41,conv-41_session_2_D2:25;conv-41_session_13_D13:18,test
+conv-41_qa_24,When did John start boot camp with his family?,2,conv-41,conv-41_session_13_D13:3,test
+conv-41_qa_25,What European countries has Maria been to?,1,conv-41,conv-41_session_13_D13:24;conv-41_session_8_D8:15,test
+conv-41_qa_26,What has Maria done to feel closer to her faith?,1,conv-41,conv-41_session_14_D14:10;conv-41_session_11_D11:10,test
+conv-41_qa_27,When did John have a party with veterans?,2,conv-41,conv-41_session_15_D15:11,test
+conv-41_qa_28,What causes does John feel passionate about supporting?,1,conv-41,conv-41_session_15_D15:3;conv-41_session_12_D12:5;conv-41_session_9_D9:8;conv-41_session_1_D1:8,test
+conv-41_qa_29,What events is Maria planning for the homeless shelter funraiser?,1,conv-41,conv-41_session_16_D16:4;conv-41_session_15_D15:18,test
+conv-41_qa_30,What shelters does Maria volunteer at?,1,conv-41,conv-41_session_2_D2:1;conv-41_session_11_D11:10;conv-41_session_17_D17:12,test
+conv-41_qa_31,When did John get his dog Max?,2,conv-41,conv-41_session_17_D17:1,test
+conv-41_qa_32,What outdoor activities has John done with his colleagues?,1,conv-41,conv-41_session_18_D18:2;conv-41_session_16_D16:2,test
+conv-41_qa_33,What types of yoga has Maria practiced?,1,conv-41,conv-41_session_1_D1:3;conv-41_session_18_D18:15;conv-41_session_19_D19:3,test
+conv-41_qa_34,When did Maria join a gym?,2,conv-41,conv-41_session_19_D19:1,test
+conv-41_qa_35,What states has Maria vacationed at?,1,conv-41,conv-41_session_19_D19:23;conv-41_session_18_D18:3,test
+conv-41_qa_36,What music events has John attended?,1,conv-41,conv-41_session_20_D20:4;conv-41_session_8_D8:12,test
+conv-41_qa_37,What events for veterans has John participated in?,1,conv-41,conv-41_session_15_D15:1;conv-41_session_15_D15:11;conv-41_session_21_D21:22;conv-41_session_24_D24:1;conv-41_session_29_D29:4,test
+conv-41_qa_38,When did Maria get in a car accident?,2,conv-41,conv-41_session_21_D21:3,test
+conv-41_qa_39,Around which US holiday did Maria get into a car accident?,3,conv-41,conv-41_session_21_D21:3,test
+conv-41_qa_40,What are the names of John's children?,1,conv-41,conv-41_session_8_D8:4;conv-41_session_22_D22:7,test
+conv-41_qa_41,Does John live close to a beach or the mountains?,3,conv-41,conv-41_session_22_D22:15,test
+conv-41_qa_42,What area was hit by a flood?,1,conv-41,conv-41_session_14_D14:21;conv-41_session_23_D23:1,test
+conv-41_qa_43,When was John's old area hit with a flood?,2,conv-41,conv-41_session_23_D23:1,test
+conv-41_qa_44,What activities has Maria done with her church friends?,1,conv-41,conv-41_session_25_D25:2;conv-41_session_24_D24:6;conv-41_session_28_D28:5,test
+conv-41_qa_45,Would John be open to moving to another country?,3,conv-41,conv-41_session_24_D24:3;conv-41_session_7_D7:2,test
+conv-41_qa_46,When did Maria go hiking with her church friends?,2,conv-41,conv-41_session_25_D25:2,test
+conv-41_qa_47,What exercises has John done?,1,conv-41,conv-41_session_25_D25:17;conv-41_session_25_D25:13;conv-41_session_10_D10:1;conv-41_session_1_D1:4,test
+conv-41_qa_48,When did John have his first firefighter call-out?,2,conv-41,conv-41_session_26_D26:4,test
+conv-41_qa_49,What food item did Maria drop off at the homeless shelter?,1,conv-41,conv-41_session_26_D26:1;conv-41_session_25_D25:19,test
+conv-41_qa_50,What attributes describe John?,3,conv-41,conv-41_session_26_D26:6;conv-41_session_2_D2:14;conv-41_session_3_D3:5;conv-41_session_4_D4:6,test
+conv-41_qa_51,When did Maria start volunteering at the homeless shelter?,2,conv-41,conv-41_session_27_D27:4,test
+conv-41_qa_52,Who have written notes of gratitude to Maria?,1,conv-41,conv-41_session_27_D27:8;conv-41_session_21_D21:19,test
+conv-41_qa_53,When did John help renovate his hometown community center?,2,conv-41,conv-41_session_28_D28:11,test
+conv-41_qa_54,When did Maria take up community work with her church friends?,2,conv-41,conv-41_session_28_D28:8,test
+conv-41_qa_55,When did Maria receive a medal from the homeless shelter?,2,conv-41,conv-41_session_29_D29:1,test
+conv-41_qa_56,When did John participate in a 5K charity run?,2,conv-41,conv-41_session_29_D29:2;conv-41_session_29_D29:4,test
+conv-41_qa_57,What causes has John done events for?,1,conv-41,conv-41_session_3_D3:5;conv-41_session_6_D6:12;conv-41_session_29_D29:4;conv-41_session_29_D29:10,test
+conv-41_qa_58,When did Maria get Coco?,2,conv-41,conv-41_session_30_D30:1,test
+conv-41_qa_59,When did John go on a camping trip with Max?,2,conv-41,conv-41_session_30_D30:6,test
+conv-41_qa_60,What are Maria's dogs' names?,1,conv-41,conv-41_session_30_D30:1;conv-41_session_31_D31:4,test
+conv-41_qa_61,When did Maria adopt Shadow?,2,conv-41,conv-41_session_31_D31:2,test
+conv-41_qa_62,How many dogs has Maria adopted from the dog shelter she volunteers at?,1,conv-41,conv-41_session_30_D30:1;conv-41_session_31_D31:2,test
+conv-41_qa_63,How many weeks passed between Maria adopting Coco and Shadow?,2,conv-41,conv-41_session_30_D30:1;conv-41_session_31_D31:2,test
+conv-41_qa_64,What job might Maria pursue in the future?,3,conv-41,conv-41_session_32_D32:14;conv-41_session_5_D5:8;conv-41_session_11_D11:10;conv-41_session_27_D27:4,test
+conv-41_qa_65,What is John's main focus in local politics?,4,conv-41,conv-41_session_1_D1:8,test
+conv-41_qa_66,What sparked John's interest in improving education and infrastructure in the community?,4,conv-41,conv-41_session_1_D1:10,test
+conv-41_qa_67,How did the extra funding help the school shown in the photo shared by John?,4,conv-41,conv-41_session_1_D1:12,test
+conv-41_qa_68,What type of workout class did Maria start doing in December 2023?,4,conv-41,conv-41_session_1_D1:3,test
+conv-41_qa_69,What did Maria donate to a homeless shelter in December 2023?,4,conv-41,conv-41_session_2_D2:1,test
+conv-41_qa_70,What kind of meal did John and his family make together in the photo shared by John?,4,conv-41,conv-41_session_2_D2:24,test
+conv-41_qa_71,What kind of online group did John join?,4,conv-41,conv-41_session_3_D3:1,test
+conv-41_qa_72,What kind of activities did John and his mates from the online group do as part of their service efforts?,4,conv-41,conv-41_session_3_D3:5,test
+conv-41_qa_73,Who inspired Maria to start volunteering?,4,conv-41,conv-41_session_5_D5:8,test
+conv-41_qa_74,Why did Maria sit with the little girl at the shelter event in February 2023?,4,conv-41,conv-41_session_5_D5:10,test
+conv-41_qa_75,What did Jean go through before meeting Maria?,4,conv-41,conv-41_session_7_D7:7,test
+conv-41_qa_76,Why did John decide to run for office again?,4,conv-41,conv-41_session_7_D7:4,test
+conv-41_qa_77,"What activity did John's colleague, Rob, invite him to?",4,conv-41,conv-41_session_7_D7:16,test
+conv-41_qa_78,What is the name of John's one-year-old child?,4,conv-41,conv-41_session_8_D8:4,test
+conv-41_qa_79,How often does John take his kids to the park?,4,conv-41,conv-41_session_8_D8:8,test
+conv-41_qa_80,What did Maria make for her home to remind her of a trip to England?,4,conv-41,conv-41_session_8_D8:15,test
+conv-41_qa_81,Where did Maria get the idea for the castle shadow box in her home?,4,conv-41,conv-41_session_8_D8:15,test
+conv-41_qa_82,What did John receive a certificate for?,4,conv-41,conv-41_session_9_D9:2,test
+conv-41_qa_83,What areas is John particularly interested in for policymaking?,4,conv-41,conv-41_session_9_D9:8,test
+conv-41_qa_84,"What did Maria participate in last weekend before April 10, 2023?",4,conv-41,conv-41_session_10_D10:10,test
+conv-41_qa_85,What event did John volunteer at last weekend?,4,conv-41,conv-41_session_10_D10:13,test
+conv-41_qa_86,What did John do that put a strain on his wallet?,4,conv-41,conv-41_session_11_D11:1,test
+conv-41_qa_87,Where did John explore on a road trip last year?,4,conv-41,conv-41_session_11_D11:5,test
+conv-41_qa_88,What topic has John been blogging about recently?,4,conv-41,conv-41_session_12_D12:1,test
+conv-41_qa_89,Why did John start blogging about politics and policies?,4,conv-41,conv-41_session_12_D12:3,test
+conv-41_qa_90,What was the focus of John's recent research and writing on his blog?,4,conv-41,conv-41_session_12_D12:5,test
+conv-41_qa_91,What did John attend with his colleagues in March 2023?,2,conv-41,conv-41_session_12_D12:9,test
+conv-41_qa_92,How often does John work out with his family?,4,conv-41,conv-41_session_13_D13:7,test
+conv-41_qa_93,How has John's fitness improved since starting boot camps with his family?,4,conv-41,conv-41_session_13_D13:5,test
+conv-41_qa_94,What kind of food did Maria have on her dinner spread iwth her mother?,4,conv-41,conv-41_session_13_D13:18,test
+conv-41_qa_95,What activity did Maria and her mom do together in May 2023?,4,conv-41,conv-41_session_13_D13:16,test
+conv-41_qa_96,What did Maria do to feel closer to a community and her faith?,4,conv-41,conv-41_session_14_D14:10,test
+conv-41_qa_97,Why did Maria join a nearby church recently?,4,conv-41,conv-41_session_14_D14:10,test
+conv-41_qa_98,What did John host for the veterans in May 2023 as part of the project?,4,conv-41,conv-41_session_15_D15:13,test
+conv-41_qa_99,What did John and the veterans do during the small party?,4,conv-41,conv-41_session_15_D15:13,test
+conv-41_qa_100,What emotions did John feel during the small party with the veterans?,4,conv-41,conv-41_session_15_D15:13,test
+conv-41_qa_101,"What event is Maria getting ready for at the shelter on May 25, 2023?",4,conv-41,conv-41_session_16_D16:2,test
+conv-41_qa_102,What does Maria need to spread the word about for the fundraiser for the volunteer shelter?,4,conv-41,conv-41_session_16_D16:4,test
+conv-41_qa_103,"What was the name of the pet that John had to say goodbye to on 3 June, 2023?",4,conv-41,conv-41_session_17_D17:1,test
+conv-41_qa_104,How long was Max a part of John's family?,4,conv-41,conv-41_session_17_D17:1,test
+conv-41_qa_105,How does John plan to honor the memories of his beloved pet?,4,conv-41,conv-41_session_17_D17:11,test
+conv-41_qa_106,What important values does John want to teach his kids through adopting a rescue dog?,4,conv-41,conv-41_session_17_D17:11,test
+conv-41_qa_107,"What new activity did Maria start recently, as mentioned on 3 June, 2023?",4,conv-41,conv-41_session_17_D17:12,test
+conv-41_qa_108,What did Maria say it was like being at the waterfall in Oregon?,4,conv-41,conv-41_session_18_D18:7,test
+conv-41_qa_109,What does Maria say she feels when doing upside-down yoga poses?,4,conv-41,conv-41_session_18_D18:17,test
+conv-41_qa_110,"What exciting news did Maria share on 16 June, 2023?",4,conv-41,conv-41_session_19_D19:1,test
+conv-41_qa_111,What yoga activity has Maria been trying to improve her strength and endurance?,4,conv-41,conv-41_session_19_D19:3,test
+conv-41_qa_112,What did John recently get promoted to?,4,conv-41,conv-41_session_19_D19:8,test
+conv-41_qa_113,What was one of the biggest challenges John faced in his journey to becoming assistant manager?,4,conv-41,conv-41_session_19_D19:12,test
+conv-41_qa_114,How does John describe the support he received during his journey to becoming assistant manager?,4,conv-41,conv-41_session_19_D19:12,test
+conv-41_qa_115,What kind of event did John and his family attend in June 2023?,4,conv-41,conv-41_session_20_D20:4,test
+conv-41_qa_116,Why did Maria need to help her cousin find a new place to live?,4,conv-41,conv-41_session_21_D21:5,test
+conv-41_qa_117,What event did John participate in to show support for veterans' rights?,4,conv-41,conv-41_session_21_D21:22,test
+conv-41_qa_118,What inspired John to join the marching event for veterans' rights?,4,conv-41,conv-41_session_21_D21:24,test
+conv-41_qa_119,How often does John get to see sunsets like the one he shared with Maria?,4,conv-41,conv-41_session_22_D22:17,test
+conv-41_qa_120,"What natural disaster affected John's old area on 7 July, 2023?",4,conv-41,conv-41_session_23_D23:1,test
+conv-41_qa_121,How did the flood impact the homes in John's old area?,4,conv-41,conv-41_session_23_D23:1,test
+conv-41_qa_122,"What motivated Maria and John to discuss potential solutions for their community on 7 July, 2023?",4,conv-41,conv-41_session_23_D23:1,test
+conv-41_qa_123,"What did Maria plan to do later on the evening of 7 July, 2023?",4,conv-41,conv-41_session_23_D23:14,test
+conv-41_qa_124,What kind of activities did Maria do at the picnic with her church friends?,4,conv-41,conv-41_session_24_D24:8,test
+conv-41_qa_125,What does John appreciate about the veteran's hospital visit?,4,conv-41,conv-41_session_24_D24:3,test
+conv-41_qa_126,What did John take away from visiting the veteran's hospital?,4,conv-41,conv-41_session_24_D24:1,test
+conv-41_qa_127,Why did John feel inspired to join the military after the visit to the hospital?,4,conv-41,conv-41_session_24_D24:3,test
+conv-41_qa_128,In what activity did Maria and her church friends participate in July 2023?,4,conv-41,conv-41_session_25_D25:2,test
+conv-41_qa_129,What does John think about trying new classes at the yoga studio?,4,conv-41,conv-41_session_25_D25:14,test
+conv-41_qa_130,Which activity has John done apart from yoga at the studio?,4,conv-41,conv-41_session_25_D25:17,test
+conv-41_qa_131,"What community service did Maria mention that she was involved in on 31 July, 2023?",4,conv-41,conv-41_session_26_D26:1,test
+conv-41_qa_132,How did Maria start volunteering at the homeless shelter?,4,conv-41,conv-41_session_27_D27:4,test
+conv-41_qa_133,"What did John do the week before August 3, 2023 involving his kids?",4,conv-41,conv-41_session_27_D27:9,test
+conv-41_qa_134,How did John describe his kids' reaction at the military memorial?,4,conv-41,conv-41_session_27_D27:11,test
+conv-41_qa_135,Why does Maria think it's important for younger generations to visit military memorials?,4,conv-41,conv-41_session_27_D27:12,test
+conv-41_qa_136,What does John believe is important for children regarding veterans?,4,conv-41,conv-41_session_27_D27:13,test
+conv-41_qa_137,What happened to John's job in August 2023?,4,conv-41,conv-41_session_28_D28:1,test
+conv-41_qa_138,What activity did Maria take up with her friends from church in August 2023?,4,conv-41,conv-41_session_28_D28:8,test
+conv-41_qa_139,What did John do to help his community last year in his hometown?,4,conv-41,conv-41_session_28_D28:11,test
+conv-41_qa_140,What cause did the 5K charity run organized by John support?,4,conv-41,conv-41_session_29_D29:4,test
+conv-41_qa_141,Who did John work with to raise awareness and funds for victims of domestic abuse?,4,conv-41,conv-41_session_29_D29:10,test
+conv-41_qa_142,What recognition did Maria receive at the homeless shelter in August 2023?,4,conv-41,conv-41_session_29_D29:1,test
+conv-41_qa_143,"What is the name of Maria's puppy she got two weeks before August 11, 2023?",4,conv-41,conv-41_session_30_D30:1,test
+conv-41_qa_144,What activity did John and Max enjoy together last summer?,4,conv-41,conv-41_session_30_D30:6,test
+conv-41_qa_145,How does John describe the camping trip with Max?,4,conv-41,conv-41_session_30_D30:6,test
+conv-41_qa_146,Why does John say he feels stuck and questioning his decisions and goals?,4,conv-41,conv-41_session_30_D30:14,test
+conv-41_qa_147,What is the name of Maria's second puppy?,4,conv-41,conv-41_session_31_D31:4,test
+conv-41_qa_148,How is Maria's new puppy adjusting to its new home?,4,conv-41,conv-41_session_31_D31:10,test
+conv-41_qa_149,What is John currently doing as a volunteer in August 2023?,4,conv-41,conv-41_session_31_D31:1,test
+conv-41_qa_150,What activities does John's family enjoy doing together?,4,conv-41,conv-41_session_31_D31:19,test
+conv-41_qa_151,"What did the donations help John's community acquire on 16 August, 2023?",4,conv-41,conv-41_session_32_D32:11,test
+conv-42_qa_0,Is it likely that Nate has friends besides Joanna?,3,conv-42,conv-42_session_1_D1:7,dev
+conv-42_qa_1,What kind of interests do Joanna and Nate share?,1,conv-42,conv-42_session_1_D1:10;conv-42_session_1_D1:11;conv-42_session_1_D1:12;conv-42_session_3_D3:4;conv-42_session_4_D4:9;conv-42_session_10_D10:9;conv-42_session_20_D20:2,dev
+conv-42_qa_2,"When did Joanna first watch ""Eternal Sunshine of the Spotless Mind?",2,conv-42,conv-42_session_1_D1:18,dev
+conv-42_qa_3,When did Nate win his first video game tournament?,2,conv-42,conv-42_session_1_D1:3,dev
+conv-42_qa_4,What pets wouldn't cause any discomfort to Joanna?,3,conv-42,conv-42_session_2_D2:23,dev
+conv-42_qa_5,What are Joanna's hobbies?,1,conv-42,conv-42_session_1_D1:10;conv-42_session_2_D2:25,dev
+conv-42_qa_6,How long has Nate had his first two turtles?,2,conv-42,conv-42_session_2_D2:12,dev
+conv-42_qa_7,When did Joanna finish her first screenplay?,2,conv-42,conv-42_session_2_D2:3,dev
+conv-42_qa_8,When did Nate get his first two turtles?,2,conv-42,conv-42_session_2_D2:12,dev
+conv-42_qa_9,What major achievement did Joanna accomplish in January 2022?,2,conv-42,conv-42_session_2_D2:3,dev
+conv-42_qa_10,What emotions is Joanna feeling about  the screenplay she submitted?,1,conv-42,conv-42_session_2_D2:7;conv-42_session_3_D3:1,dev
+conv-42_qa_11,What is Joanna allergic to?,1,conv-42,conv-42_session_4_D4:4;conv-42_session_5_D5:11;conv-42_session_2_D2:23,dev
+conv-42_qa_12,What underlying condition might Joanna have based on her allergies?,3,conv-42,conv-42_session_5_D5:11;conv-42_session_2_D2:23,dev
+conv-42_qa_13,When did Joanna have an audition for a writing gig?,2,conv-42,conv-42_session_6_D6:2,dev
+conv-42_qa_14,What nickname does Nate use for Joanna?,3,conv-42,conv-42_session_7_D7:1,dev
+conv-42_qa_15,When did Nate get purple hair?,2,conv-42,conv-42_session_7_D7:1,dev
+conv-42_qa_16,What physical transformation did Nate undergo in April 2022?,2,conv-42,conv-42_session_7_D7:1;conv-42_session_7_D7:3,dev
+conv-42_qa_17,"What movie did Joanna watch on 1 May, 2022?",2,conv-42,conv-42_session_10_D10:1,dev
+conv-42_qa_18,Which outdoor spot did Joanna visit in May?,2,conv-42,conv-42_session_11_D11:7,dev
+conv-42_qa_19,How many times has Joanna found new hiking trails?,1,conv-42,conv-42_session_8_D8:4;conv-42_session_11_D11:3,dev
+conv-42_qa_20,When did Nate adopt Max?,2,conv-42,conv-42_session_12_D12:3,dev
+conv-42_qa_21,Who was the new addition to Nate's family in May 2022?,2,conv-42,conv-42_session_12_D12:3,dev
+conv-42_qa_22,When did Joanna start writing her third screenplay?,2,conv-42,conv-42_session_12_D12:13;conv-42_session_12_D12:14,dev
+conv-42_qa_23,Which of Joanna's screenplay were rejected from production companies?,1,conv-42,conv-42_session_14_D14:1;conv-42_session_3_D3:1;conv-42_session_2_D2:7;conv-42_session_24_D24:12;conv-42_session_24_D24:13,dev
+conv-42_qa_24,When is Nate hosting a gaming party?,2,conv-42,conv-42_session_14_D14:20,dev
+conv-42_qa_25,When did Joanna hike with her buddies?,2,conv-42,conv-42_session_14_D14:19,dev
+conv-42_qa_26,When did Nate win his third tourney?,2,conv-42,conv-42_session_14_D14:8,dev
+conv-42_qa_27,What places has Joanna submitted her work to?,1,conv-42,conv-42_session_2_D2:7;conv-42_session_16_D16:1,dev
+conv-42_qa_28,When did Nate make vegan icecream and share it with a vegan diet group?,2,conv-42,conv-42_session_16_D16:8,dev
+conv-42_qa_29,When is Joanna going to make Nate's ice cream for her family?,2,conv-42,conv-42_session_16_D16:11,dev
+conv-42_qa_30,What kind of writings does Joanna do?,1,conv-42,conv-42_session_2_D2:3;conv-42_session_17_D17:14;conv-42_session_18_D18:1;conv-42_session_18_D18:5,dev
+conv-42_qa_31,When did Nate win his fourth video game tournament?,2,conv-42,conv-42_session_17_D17:1,dev
+conv-42_qa_32,Where did Joanna travel to in July 2022?,2,conv-42,conv-42_session_17_D17:4,dev
+conv-42_qa_33,When did someone write Joanna a touching letter?,2,conv-42,conv-42_session_18_D18:5,dev
+conv-42_qa_34,What book recommendations has Joanna given to Nate?,1,conv-42,conv-42_session_3_D3:17;conv-42_session_19_D19:14;conv-42_session_19_D19:16,dev
+conv-42_qa_35,When did Nate take time off to chill with his pets?,2,conv-42,conv-42_session_19_D19:9,dev
+conv-42_qa_36,When did Joanna share her book with her writers group?,2,conv-42,conv-42_session_19_D19:6,dev
+conv-42_qa_37,When did Nate win an international tournament?,2,conv-42,conv-42_session_19_D19:1,dev
+conv-42_qa_38,When did Joanna make a desert with almond milk?,2,conv-42,conv-42_session_21_D21:9,dev
+conv-42_qa_39,When did Nate attend a cooking show?,2,conv-42,conv-42_session_21_D21:4,dev
+conv-42_qa_40,When did Joanna's laptop crash?,2,conv-42,conv-42_session_21_D21:1,dev
+conv-42_qa_41,When did Joanna make a chocolate tart with raspberries?,2,conv-42,conv-42_session_22_D22:1,dev
+conv-42_qa_42,What movies have both Joanna and Nate seen?,1,conv-42,conv-42_session_3_D3:17;conv-42_session_10_D10:1;conv-42_session_22_D22:8,dev
+conv-42_qa_43,How long did it take for Joanna to finish writing her book?,2,conv-42,conv-42_session_17_D17:14;conv-42_session_22_D22:9,dev
+conv-42_qa_44,When did Nate win a lot of money in a video game tournament?,2,conv-42,conv-42_session_22_D22:2,dev
+conv-42_qa_45,When did Joanna finish up the writing for her book?,2,conv-42,conv-42_session_22_D22:9,dev
+conv-42_qa_46,What board games has Nate played?,1,conv-42,conv-42_session_16_D16:2;conv-42_session_23_D23:7,dev
+conv-42_qa_47,What places has Nate met new people?,1,conv-42,conv-42_session_14_D14:8;conv-42_session_23_D23:1,dev
+conv-42_qa_48,When did Nate go to a convention and meet new people?,2,conv-42,conv-42_session_23_D23:1,dev
+conv-42_qa_49,How many times has Joanna's scripts been rejected?,1,conv-42,conv-42_session_14_D14:1;conv-42_session_24_D24:12,dev
+conv-42_qa_50,What is something Nate gave to Joanna that brings her a lot of joy?,1,conv-42,conv-42_session_13_D13:9;conv-42_session_24_D24:2,dev
+conv-42_qa_51,When did Nate get Tilly for Joanna?,1,conv-42,conv-42_session_13_D13:9;conv-42_session_24_D24:2,dev
+conv-42_qa_52,How many of Joanna's writing have made it to the big screen?,1,conv-42,conv-42_session_15_D15:1;conv-42_session_25_D25:2,dev
+conv-42_qa_53,How many times has Nate taken his turtles on a walk?,1,conv-42,conv-42_session_5_D5:4;conv-42_session_25_D25:15,dev
+conv-42_qa_54,When was Joanna's second movie script shown on the big screens?,2,conv-42,conv-42_session_25_D25:1,dev
+conv-42_qa_55,What is Joanna inspired by?,1,conv-42,conv-42_session_4_D4:6;conv-42_session_7_D7:6;conv-42_session_11_D11:11;conv-42_session_26_D26:3;conv-42_session_26_D26:7;conv-42_session_25_D25:10,dev
+conv-42_qa_56,What animal do both Nate and Joanna like?,1,conv-42,conv-42_session_5_D5:6;conv-42_session_26_D26:9,dev
+conv-42_qa_57,When did Joanna plan to go over to Nate's and share recipes?,2,conv-42,conv-42_session_26_D26:19,dev
+conv-42_qa_58,What things has Nate reccomended to Joanna?,1,conv-42,conv-42_session_2_D2:14;conv-42_session_9_D9:12;conv-42_session_9_D9:14;conv-42_session_10_D10:11;conv-42_session_19_D19:17;conv-42_session_27_D27:23;conv-42_session_10_D10:19,dev
+conv-42_qa_59,What does Joanna do to remember happy memories?,1,conv-42,conv-42_session_15_D15:9;conv-42_session_27_D27:34,dev
+conv-42_qa_60,What Console does Nate own?,3,conv-42,conv-42_session_27_D27:23,dev
+conv-42_qa_61,What mediums does Nate use to play games?,1,conv-42,conv-42_session_22_D22:2;conv-42_session_27_D27:21;conv-42_session_27_D27:15,dev
+conv-42_qa_62,How many letters has Joanna recieved?,1,conv-42,conv-42_session_14_D14:1;conv-42_session_18_D18:5,dev
+conv-42_qa_63,What video games does Nate play?,1,conv-42,conv-42_session_10_D10:6;conv-42_session_27_D27:1;conv-42_session_27_D27:23;conv-42_session_1_D1:7;conv-42_session_23_D23:17,dev
+conv-42_qa_64,When did Nate win a big Valorant tourney?,2,conv-42,conv-42_session_27_D27:1,dev
+conv-42_qa_65,Which torunament did Nate win in the beginning of November 2022?,2,conv-42,conv-42_session_27_D27:1,dev
+conv-42_qa_66,What alternative career might Nate consider after gaming?,3,conv-42,conv-42_session_5_D5:8;conv-42_session_19_D19:3;conv-42_session_25_D25:19;conv-42_session_28_D28:25,dev
+conv-42_qa_67,What pets does Nate have?,1,conv-42,conv-42_session_8_D8:3;conv-42_session_12_D12:3;conv-42_session_28_D28:23,dev
+conv-42_qa_68,How many hikes has Joanna been on?,3,conv-42,conv-42_session_7_D7:6;conv-42_session_11_D11:5;conv-42_session_14_D14:21;conv-42_session_28_D28:22,dev
+conv-42_qa_69,How many turtles does Nate have?,1,conv-42,conv-42_session_8_D8:3;conv-42_session_28_D28:23,dev
+conv-42_qa_70,What activities does Nate do with his turtles?,1,conv-42,conv-42_session_25_D25:21;conv-42_session_25_D25:23;conv-42_session_28_D28:31,dev
+conv-42_qa_71,What do both Joanna and Nate appreciate the beauty of?,1,conv-42,conv-42_session_11_D11:9;conv-42_session_28_D28:23,dev
+conv-42_qa_72,When did Joanna plan on going to Nate's to watch him play with his turtles?,2,conv-42,conv-42_session_28_D28:32,dev
+conv-42_qa_73,What state did Joanna visit in summer 2021?,3,conv-42,conv-42_session_28_D28:22,dev
+conv-42_qa_74,What recommendations has Nate received from Joanna?,1,conv-42,conv-42_session_1_D1:16;conv-42_session_3_D3:17;conv-42_session_15_D15:14;conv-42_session_15_D15:15;conv-42_session_19_D19:15;conv-42_session_19_D19:16;conv-42_session_23_D23:26,dev
+conv-42_qa_75,What are Nate's favorite desserts?,1,conv-42,conv-42_session_3_D3:4;conv-42_session_3_D3:10;conv-42_session_21_D21:10;conv-42_session_3_D3:12,dev
+conv-42_qa_76,How has Nate tried to disburse his vegan ice-cream recipes?,1,conv-42,conv-42_session_18_D18:8;conv-42_session_21_D21:4,dev
+conv-42_qa_77,When did Nate win his second tournament?,2,conv-42,conv-42_session_10_D10:4,dev
+conv-42_qa_78,How many video game tournaments has Nate participated in?,1,conv-42,conv-42_session_1_D1:3;conv-42_session_6_D6:7;conv-42_session_10_D10:4;conv-42_session_14_D14:8;conv-42_session_17_D17:1;conv-42_session_19_D19:1;conv-42_session_20_D20:1;conv-42_session_22_D22:2;conv-42_session_27_D27:1,dev
+conv-42_qa_79,How many screenplays has Joanna written?,1,conv-42,conv-42_session_2_D2:3;conv-42_session_4_D4:10;conv-42_session_5_D5:1;conv-42_session_12_D12:13;conv-42_session_12_D12:14,dev
+conv-42_qa_80,How many tournaments has Nate won?,1,conv-42,conv-42_session_1_D1:3;conv-42_session_10_D10:4;conv-42_session_14_D14:8;conv-42_session_17_D17:1;conv-42_session_19_D19:1;conv-42_session_22_D22:2;conv-42_session_27_D27:1,dev
+conv-42_qa_81,What recipes has Joanna made?,1,conv-42,conv-42_session_10_D10:9;conv-42_session_10_D10:11;conv-42_session_19_D19:8;conv-42_session_20_D20:2;conv-42_session_20_D20:10;conv-42_session_21_D21:11;conv-42_session_22_D22:1;conv-42_session_21_D21:3;conv-42_session_21_D21:17,dev
+conv-42_qa_82,What recipes has Nate made?,1,conv-42,conv-42_session_3_D3:4;conv-42_session_4_D4:3,dev
+conv-42_qa_83,What are the skills that Nate has helped others learn?,1,conv-42,conv-42_session_18_D18:8;conv-42_session_26_D26:12;conv-42_session_14_D14:16,dev
+conv-42_qa_84,Was the first half of September 2022 a good month career-wise for Nate and Joanna? Answer yes or no.,3,conv-42,conv-42_session_20_D20:1;conv-42_session_21_D21:1,dev
+conv-42_qa_85,What kind of job is Joanna beginning to preform the duties of because of her movie scripts?,3,conv-42,conv-42_session_29_D29:1,dev
+conv-42_qa_86,When did Nate take his turtles to the beach?,2,conv-42,conv-42_session_29_D29:6,dev
+conv-42_qa_87,What state did Nate visit?,3,conv-42,conv-42_session_29_D29:6,dev
+conv-42_qa_88,What is one of Joanna's favorite movies?,4,conv-42,conv-42_session_1_D1:18;conv-42_unknown_D;conv-42_session_1_D1:20,dev
+conv-42_qa_89,What color did Nate choose for his hair?,4,conv-42,conv-42_session_7_D7:1;conv-42_session_7_D7:3,dev
+conv-42_qa_90,What is Nate's favorite movie trilogy?,4,conv-42,conv-42_session_9_D9:12,dev
+conv-42_qa_91,What is Nate's favorite book series about?,4,conv-42,conv-42_session_9_D9:14,dev
+conv-42_qa_92,What kind of lighting does Nate's gaming room have?,4,conv-42,conv-42_session_10_D10:2,dev
+conv-42_qa_93,What game was the second tournament that Nate won based on?,4,conv-42,conv-42_session_10_D10:4;conv-42_session_10_D10:6,dev
+conv-42_qa_94,What is Joanna's third screenplay about?,4,conv-42,conv-42_session_12_D12:13;conv-42_session_12_D12:14,dev
+conv-42_qa_95,What is Nate's favorite video game?,4,conv-42,conv-42_session_27_D27:22;conv-42_session_27_D27:23,dev
+conv-42_qa_96,What type of movies does Nate enjoy watching the most?,4,conv-42,conv-42_session_1_D1:13,dev
+conv-42_qa_97,"What did Joanna just finish last Friday on 23 January, 2022?",4,conv-42,conv-42_session_2_D2:3,dev
+conv-42_qa_98,What genre is Joanna's first screenplay?,4,conv-42,conv-42_session_2_D2:5,dev
+conv-42_qa_99,What are Joanna's plans for her finished screenplay in January 2022?,4,conv-42,conv-42_session_2_D2:7,dev
+conv-42_qa_100,For how long has Nate had his turtles?,4,conv-42,conv-42_session_2_D2:12,dev
+conv-42_qa_101,What did Nate think of the coconut milk ice cream he made?,4,conv-42,conv-42_session_3_D3:6,dev
+conv-42_qa_102,Which dairy-free dessert flavors does Nate enjoy?,4,conv-42,conv-42_session_3_D3:10,dev
+conv-42_qa_103,"What did Joanna recently watch and recommend to Nate on February 7, 2022?",4,conv-42,conv-42_session_3_D3:17,dev
+conv-42_qa_104,"What is ""Little Women"" about according to Joanna?",4,conv-42,conv-42_session_3_D3:17,dev
+conv-42_qa_105,"What flavor of ice cream did Nate make for his friend on 25 February, 2022?",4,conv-42,conv-42_session_4_D4:3,dev
+conv-42_qa_106,"What inspired Joanna's new screenplay on 25 February, 2022?",4,conv-42,conv-42_session_4_D4:16,dev
+conv-42_qa_107,Why does Nate like turtles as pets?,4,conv-42,conv-42_session_5_D5:6,dev
+conv-42_qa_108,How does Nate describe the process of taking care of turtles?,4,conv-42,conv-42_session_5_D5:8,dev
+conv-42_qa_109,What was Joanna's audition for?,4,conv-42,conv-42_session_6_D6:2,dev
+conv-42_qa_110,Why did Nate choose the hair color he did?,4,conv-42,conv-42_session_7_D7:5,dev
+conv-42_qa_111,What are the main ingredients of the ice cream recipe shared by Nate?,4,conv-42,conv-42_session_8_D8:19,dev
+conv-42_qa_112,What is Joanna's project called in the writers group?,4,conv-42,conv-42_session_9_D9:3,dev
+conv-42_qa_113,What is Nate's favorite genre of movies?,4,conv-42,conv-42_session_9_D9:10,dev
+conv-42_qa_114,What kind of books does Nate enjoy?,4,conv-42,conv-42_session_9_D9:14,dev
+conv-42_qa_115,What kind of films does Joanna enjoy?,4,conv-42,conv-42_session_9_D9:9,dev
+conv-42_qa_116,Which activity helps Nate escape and stimulates his imagination?,4,conv-42,conv-42_session_9_D9:10,dev
+conv-42_qa_117,What filling did Joanna use in the cake she made recently in May 2022?,4,conv-42,conv-42_session_10_D10:11,dev
+conv-42_qa_118,What kind of frosting did Joanna use on the cake she made recently in May 2022?,4,conv-42,conv-42_session_10_D10:11,dev
+conv-42_qa_119,What does Nate feel he could do when out in cool places like Whispering Falls?,4,conv-42,conv-42_session_11_D11:13,dev
+conv-42_qa_120,What creative activity does Nate joke about pursuing after being inspired by their hikes with Jo?,4,conv-42,conv-42_session_11_D11:16,dev
+conv-42_qa_121,Who invited Nate to join her on the trails sometime?,4,conv-42,conv-42_session_11_D11:17,dev
+conv-42_qa_122,"What did Nate do for Joanna on 25 May, 2022?",4,conv-42,conv-42_session_13_D13:9,dev
+conv-42_qa_123,How does Nate describe the stuffed animal he got for Joanna?,4,conv-42,conv-42_session_13_D13:11,dev
+conv-42_qa_124,What event is Nate organizing in June 2022?,4,conv-42,conv-42_session_14_D14:20,dev
+conv-42_qa_125,Who did Nate plan to invite to his gaming party in June 2022?,4,conv-42,conv-42_session_14_D14:22,dev
+conv-42_qa_126,What special items did Nate get for everyone at his gaming party?,4,conv-42,conv-42_session_14_D14:24,dev
+conv-42_qa_127,What did Joanna write yesterday that appeared on the big screen?,4,conv-42,conv-42_session_15_D15:1,dev
+conv-42_qa_128,What superhero is Joanna a fan of?,4,conv-42,conv-42_session_15_D15:3,dev
+conv-42_qa_129,Which superhero toy figure does Nate share a photo of?,4,conv-42,conv-42_session_15_D15:4,dev
+conv-42_qa_130,What is displayed on Joanna's cork board for motivation and creativity?,4,conv-42,conv-42_session_15_D15:7,dev
+conv-42_qa_131,What does the photo on Joanna's cork board remind her of?,4,conv-42,conv-42_session_15_D15:11,dev
+conv-42_qa_132,What did Nate make and share with his vegan diet group?,4,conv-42,conv-42_session_16_D16:8,dev
+conv-42_qa_133,How many people attended the gaming party hosted by Nate in June 2022?,4,conv-42,conv-42_session_16_D16:6,dev
+conv-42_qa_134,What recipe Nate offer to share with Joanna?,4,conv-42,conv-42_session_16_D16:10,dev
+conv-42_qa_135,What did Joanna plan to do with the recipe Nate promised to share?,4,conv-42,conv-42_session_16_D16:11,dev
+conv-42_qa_136,"How many video game tournaments has Nate won by July 10, 2022?",4,conv-42,conv-42_session_17_D17:1,dev
+conv-42_qa_137,Where did Joanna go for a road trip for research?,4,conv-42,conv-42_session_17_D17:4,dev
+conv-42_qa_138,What did Joanna discover at the library in Woodhaven?,4,conv-42,conv-42_session_17_D17:4,dev
+conv-42_qa_139,What specific themes are explored in Joanna's new book?,4,conv-42,conv-42_session_17_D17:16,dev
+conv-42_qa_140,What inspired Joanna's new script in July 2022?,4,conv-42,conv-42_session_17_D17:8,dev
+conv-42_qa_141,What did Nate do while Joanna was on her road trip?,4,conv-42,conv-42_session_17_D17:2,dev
+conv-42_qa_142,What does Nate do that he loves and can make money from?,4,conv-42,conv-42_session_17_D17:1,dev
+conv-42_qa_143,How did Joanna feel when someone wrote her a letter after reading her blog post?,4,conv-42,conv-42_session_18_D18:5,dev
+conv-42_qa_144,What kind of impact does Joanna hope to have with her writing?,4,conv-42,conv-42_session_18_D18:7,dev
+conv-42_qa_145,What kind of content did Joanna share that someone wrote her a letter about?,4,conv-42,conv-42_session_18_D18:5,dev
+conv-42_qa_146,What motivates Joanna to keep writing even on tough days?,4,conv-42,conv-42_session_18_D18:7,dev
+conv-42_qa_147,What type of ice cream does Joanna mention that Nate makes and is delicious?,4,conv-42,conv-42_session_18_D18:9,dev
+conv-42_qa_148,How did Nate feel about sharing his love for dairy-free desserts with Joanna?,4,conv-42,conv-42_session_18_D18:12,dev
+conv-42_qa_149,What did Joanna share with her writers group in August 2022?,4,conv-42,conv-42_session_19_D19:6,dev
+conv-42_qa_150,How did Joanna celebrate after sharing her book with her writers group?,4,conv-42,conv-42_session_19_D19:8,dev
+conv-42_qa_151,How did Nate celebrate winning the international tournament?,4,conv-42,conv-42_session_19_D19:9,dev
+conv-42_qa_152,Why is Joanna experimenting with dairy-free options in her dessert recipes?,4,conv-42,conv-42_session_20_D20:10,dev
+conv-42_qa_153,What substitution does Nate suggest for butter in dairy-free baking?,4,conv-42,conv-42_session_20_D20:15,dev
+conv-42_qa_154,What type of show did Nate host where he taught vegan ice cream recipes?,4,conv-42,conv-42_session_21_D21:4,dev
+conv-42_qa_155,What is Nate's favorite dish from the cooking show he hosted?,4,conv-42,conv-42_session_21_D21:6,dev
+conv-42_qa_156,What is one of Nate's favorite dairy-free treats besides coconut milk ice cream?,4,conv-42,conv-42_session_21_D21:10,dev
+conv-42_qa_157,"What dessert did Joanna share a photo of that has an almond flour crust, chocolate ganache, and fresh raspberries?",4,conv-42,conv-42_session_21_D21:11,dev
+conv-42_qa_158,What kind of cake did Joanna share a photo of that she likes making for birthdays and special days?,4,conv-42,conv-42_session_21_D21:13,dev
+conv-42_qa_159,"What two main ingredients are part of the dessert Joanna shared a photo of with blueberries, coconut milk, and a gluten-free crust?",4,conv-42,conv-42_session_21_D21:17,dev
+conv-42_qa_160,"What movie did Nate recently watch and enjoy on October 6, 2022?",4,conv-42,conv-42_session_22_D22:8,dev
+conv-42_qa_161,What did Joanna make for one of the ladies at her writing club?,4,conv-42,conv-42_session_22_D22:19,dev
+conv-42_qa_162,"What game did Nate play at the game convention he attended on 9 October, 2022?",4,conv-42,conv-42_session_23_D23:7,dev
+conv-42_qa_163,What movie has Nate recently seen that blew his mind?,4,conv-42,conv-42_session_23_D23:17,dev
+conv-42_qa_164,"What game has Nate been playing nonstop with a futuristic setting and gameplay on October 9, 2022?",4,conv-42,conv-42_session_23_D23:17,dev
+conv-42_qa_165,What did Nate share a photo of when mentioning unwinding at home?,4,conv-42,conv-42_session_23_D23:15,dev
+conv-42_qa_166,How did Joanna describe the classic movie he watched?,4,conv-42,conv-42_session_23_D23:18,dev
+conv-42_qa_167,What does Joanna recommend to make a living room comfy like hers?,4,conv-42,conv-42_session_23_D23:26,dev
+conv-42_qa_168,What helps Joanna stay focused and brings her joy?,4,conv-42,conv-42_session_24_D24:8,dev
+conv-42_qa_169,What does Joanna do while she writes?,4,conv-42,conv-42_session_24_D24:4,dev
+conv-42_qa_170,Why did Joanna name the stuffed animal dog Tilly?,4,conv-42,conv-42_session_24_D24:6,dev
+conv-42_qa_171,What does Joanna do after receiving a rejection from a production company?,4,conv-42,conv-42_session_24_D24:14,dev
+conv-42_qa_172,How does Nate feel about Joanna's ability to bounce back from setbacks?,4,conv-42,conv-42_session_24_D24:15,dev
+conv-42_qa_173,What encouragement does Nate give to Joanna after her setback?,4,conv-42,conv-42_session_24_D24:13,dev
+conv-42_qa_174,What does Nate rely on for cheer and joy?,4,conv-42,conv-42_session_24_D24:3,dev
+conv-42_qa_175,What does Joanna use to remember her dog from Michigan?,4,conv-42,conv-42_session_24_D24:6,dev
+conv-42_qa_176,"What did Joanna contribute to that was shown on the big screen on the Sunday before October 25, 2022?",4,conv-42,conv-42_session_25_D25:2,dev
+conv-42_qa_177,What inspires Joanna to create drawings of her characters?,4,conv-42,conv-42_session_25_D25:8,dev
+conv-42_qa_178,Where does Joanna get her ideas for the characters from?,4,conv-42,conv-42_session_25_D25:10,dev
+conv-42_qa_179,"How did Joanna feel on October 25, 2022 about seeing her characters come alive on the big screen?",4,conv-42,conv-42_session_25_D25:6,dev
+conv-42_qa_180,What type of diet do Nate's turtles have?,4,conv-42,conv-42_session_25_D25:19,dev
+conv-42_qa_181,What ingredient did Nate use to make the ice cream lactose-free?,4,conv-42,conv-42_session_26_D26:18,dev
+conv-42_qa_182,What did Joanna find in old notebooks last week that prompted her to reflect on her progress as a writer?,4,conv-42,conv-42_session_26_D26:5,dev
+conv-42_qa_183,"What game is Nate currently playing and recommends to others on November 7, 2022?",4,conv-42,conv-42_session_27_D27:23,dev
+conv-42_qa_184,What did Joanna receive from her brother that brought back childhood memories?,4,conv-42,conv-42_session_27_D27:29,dev
+conv-42_qa_185,"What is the type of game ""Xenoblade Chronicles"" that Nate is playing?",4,conv-42,conv-42_session_27_D27:23,dev
+conv-42_qa_186,"What dish did Nate make on 9 November, 2022?",4,conv-42,conv-42_session_28_D28:1,dev
+conv-42_qa_187,"What project is Joanna working on in her notebook on November 9, 2022?",4,conv-42,conv-42_session_28_D28:12,dev
+conv-42_qa_188,"What is Nate creating for YouTube on 9 November, 2022?",4,conv-42,conv-42_session_28_D28:13,dev
+conv-42_qa_189,What inspired Nate to start making gaming videos?,4,conv-42,conv-42_session_28_D28:15,dev
+conv-42_qa_190,What new content is Nate creating for YouTube?,4,conv-42,conv-42_session_28_D28:13,dev
+conv-42_qa_191,What advice does Joanna give to Nate about making YouTube videos?,4,conv-42,conv-42_session_28_D28:18,dev
+conv-42_qa_192,What did Joanna take a picture of near Fort Wayne last summer?,4,conv-42,conv-42_session_28_D28:22,dev
+conv-42_qa_193,What inspired Joanna to take a picture of the sunset in the field near Fort Wayne?,4,conv-42,conv-42_session_28_D28:22,dev
+conv-42_qa_194,Why did Nate get a third turtle?,4,conv-42,conv-42_session_28_D28:25,dev
+conv-42_qa_195,What does Nate want to do when he goes over to Joanna's place?,4,conv-42,conv-42_session_28_D28:29,dev
+conv-42_qa_196,What did Nate take to the beach in Tampa?,4,conv-42,conv-42_session_29_D29:6,dev
+conv-42_qa_197,What does Nate love most about having turtles?,4,conv-42,conv-42_session_29_D29:8,dev
+conv-42_qa_198,What did Nate share a photo of as a part of his experimentation in November 2022?,4,conv-42,conv-42_session_29_D29:10,dev
+conv-43_qa_0,what are John's goals with regards to his basketball career?,1,conv-43,conv-43_session_1_D1:9;conv-43_session_6_D6:15;conv-43_session_11_D11:17,test
+conv-43_qa_1,What are John's goals for his career that are not related to his basketball skills?,1,conv-43,conv-43_session_6_D6:15;conv-43_session_11_D11:17,test
+conv-43_qa_2,What items does John collect?,1,conv-43,conv-43_session_1_D1:15;conv-43_session_12_D12:18;conv-43_session_27_D27:20,test
+conv-43_qa_3,Would Tim enjoy reading books by C. S. Lewis or John Greene?,3,conv-43,conv-43_session_1_D1:14;conv-43_session_1_D1:16;conv-43_session_1_D1:18,test
+conv-43_qa_4,What books has Tim read?,1,conv-43,conv-43_session_1_D1:14;conv-43_session_2_D2:7;conv-43_session_6_D6:8;conv-43_session_11_D11:26;conv-43_session_20_D20:21;conv-43_session_26_D26:36;conv-43_session_22_D22:13,test
+conv-43_qa_5,"Based on Tim's collections, what is a shop that he would enjoy visiting in New York city?",3,conv-43,conv-43_session_2_D2:9,test
+conv-43_qa_6,In which month's game did John achieve a career-high score in points?,2,conv-43,conv-43_session_3_D3:1,test
+conv-43_qa_7,Which geographical locations has Tim been to?,1,conv-43,conv-43_session_1_D1:18;conv-43_session_3_D3:2;conv-43_session_14_D14:16,test
+conv-43_qa_8,Which outdoor gear company likely signed up John for an endorsement deal?,3,conv-43,conv-43_session_3_D3:15;conv-43_session_25_D25:2,test
+conv-43_qa_9,Which endorsement deals has John been offered?,1,conv-43,conv-43_session_3_D3:13;conv-43_session_3_D3:15;conv-43_session_25_D25:2;conv-43_session_29_D29:4,test
+conv-43_qa_10,When was John in Seattle for a game?,2,conv-43,conv-43_session_3_D3:19;conv-43_session_5_D5:2,test
+conv-43_qa_11,What sports does John like besides basketball?,1,conv-43,conv-43_session_1_D1:7;conv-43_session_2_D2:14;conv-43_session_3_D3:1;conv-43_session_3_D3:25,test
+conv-43_qa_12,What year did John start surfing?,2,conv-43,conv-43_session_3_D3:27,test
+conv-43_qa_13,What does Tim do to escape reality?,1,conv-43,conv-43_session_2_D2:11;conv-43_session_3_D3:30,test
+conv-43_qa_14,What kind of writing does Tim do?,1,conv-43,conv-43_session_2_D2:1;conv-43_session_4_D4:3;conv-43_session_4_D4:5;conv-43_session_15_D15:3,test
+conv-43_qa_15,Who is Anthony?,3,conv-43,conv-43_session_4_D4:8,test
+conv-43_qa_16,After how many weeks did Tim reconnect with the fellow Harry Potter fan from California?,2,conv-43,conv-43_session_3_D3:2;conv-43_session_5_D5:1,test
+conv-43_qa_17,How many games has John mentioned winning?,1,conv-43,conv-43_session_3_D3:3;conv-43_session_5_D5:2;conv-43_session_22_D22:4;conv-43_session_23_D23:7;conv-43_session_24_D24:2,test
+conv-43_qa_18,What authors has Tim read books from?,1,conv-43,conv-43_session_1_D1:14;conv-43_session_2_D2:7;conv-43_session_4_D4:7;conv-43_session_5_D5:15;conv-43_unknown_D:11:26;conv-43_session_20_D20:21;conv-43_session_26_D26:36,test
+conv-43_qa_19,What is a prominent charity organization that John might want to work with and why?,3,conv-43,conv-43_session_3_D3:13;conv-43_session_3_D3:15;conv-43_session_6_D6:15,test
+conv-43_qa_20,Which city was John in before traveling to Chicago?,2,conv-43,conv-43_session_3_D3:19;conv-43_session_5_D5:2;conv-43_session_6_D6:1;conv-43_session_6_D6:3,test
+conv-43_qa_21,Which US cities does John mention visiting to Tim?,1,conv-43,conv-43_session_3_D3:19;conv-43_session_6_D6:3;conv-43_session_9_D9:6,test
+conv-43_qa_22,When did John meet with his teammates after returning from Chicago?,2,conv-43,conv-43_session_7_D7:1,test
+conv-43_qa_23,When is Tim attending a book conference?,2,conv-43,conv-43_session_7_D7:6,test
+conv-43_qa_24,Where was John between August 11 and August 15 2023?,2,conv-43,conv-43_session_6_D6:1;conv-43_session_6_D6:3;conv-43_session_7_D7:1,test
+conv-43_qa_25,What similar sports collectible do Tim and John own?,1,conv-43,conv-43_session_7_D7:7;conv-43_session_7_D7:9;conv-43_session_16_D16:7;conv-43_session_16_D16:9,test
+conv-43_qa_26,Which TV series does Tim mention watching?,1,conv-43,conv-43_session_17_D17:1;conv-43_session_17_D17:11;conv-43_session_26_D26:36,test
+conv-43_qa_27,Which popular time management technique does Tim use to prepare for exams?,3,conv-43,conv-43_session_18_D18:3;conv-43_session_18_D18:7,test
+conv-43_qa_28,Which popular music composer's tunes does Tim enjoy playing on the piano?,3,conv-43,conv-43_session_8_D8:14;conv-43_session_8_D8:16,test
+conv-43_qa_29,What schools did John play basketball in and how many years was he with his team during high school?,1,conv-43,conv-43_session_6_D6:13;conv-43_session_9_D9:4,test
+conv-43_qa_30,Which cities has John been to?,1,conv-43,conv-43_session_3_D3:19;conv-43_session_6_D6:3;conv-43_session_9_D9:6;conv-43_session_27_D27:36,test
+conv-43_qa_31,What month did Tim plan on going to Universal Studios?,2,conv-43,conv-43_session_10_D10:9,test
+conv-43_qa_32,Which US states might Tim be in during September 2023 based on his plans of visiting Universal Studios?,3,conv-43,conv-43_session_10_D10:9,test
+conv-43_qa_33,When does John plan on traveling with his team on a team trip?,2,conv-43,conv-43_session_11_D11:7,test
+conv-43_qa_34,What could John do after his basketball career?,3,conv-43,conv-43_session_11_D11:19;conv-43_session_26_D26:1;conv-43_session_27_D27:26,test
+conv-43_qa_35,What outdoor activities does John enjoy?,1,conv-43,conv-43_session_3_D3:27;conv-43_session_12_D12:6,test
+conv-43_qa_36,Who is Tim and John's favorite basketball player?,1,conv-43,conv-43_session_12_D12:20;conv-43_session_12_D12:22;conv-43_session_16_D16:9,test
+conv-43_qa_37,Which week did Tim visit the UK for the Harry Potter Conference?,2,conv-43,conv-43_session_13_D13:1,test
+conv-43_qa_38,which country has Tim visited most frequently in his travels?,1,conv-43,conv-43_session_1_D1:18;conv-43_session_13_D13:1;conv-43_session_18_D18:1,test
+conv-43_qa_39,What year did Tim go to the Smoky Mountains?,2,conv-43,conv-43_session_14_D14:16,test
+conv-43_qa_40,Has Tim been to North Carolina and/or Tennesee states in the US?,2,conv-43,conv-43_session_14_D14:16,test
+conv-43_qa_41,What kind of fiction stories does Tim write?,1,conv-43,conv-43_session_15_D15:3;conv-43_session_16_D16:1,test
+conv-43_qa_42,What has John cooked?,1,conv-43,conv-43_session_10_D10:4;conv-43_session_15_D15:30;conv-43_session_15_D15:31;conv-43_session_15_D15:32,test
+conv-43_qa_43,What does John like about Lebron James?,1,conv-43,conv-43_session_12_D12:20;conv-43_session_16_D16:12,test
+conv-43_qa_44,When did John and his wife go on a European vacation?,2,conv-43,conv-43_session_16_D16:14,test
+conv-43_qa_45,Which country was Tim visiting in the second week of November?,2,conv-43,conv-43_session_18_D18:1,test
+conv-43_qa_46,Where was Tim in the week before 16 November 2023?,2,conv-43,conv-43_session_18_D18:1,test
+conv-43_qa_47,When did John get married at a greenhouse?,2,conv-43,conv-43_session_12_D12:2,test
+conv-43_qa_48,When did John get an ankle injury in 2023?,1,conv-43,conv-43_session_18_D18:2,test
+conv-43_qa_49,How many times has John injured his ankle?,1,conv-43,conv-43_session_18_D18:2;conv-43_session_19_D19:6,test
+conv-43_qa_50,Which book was John reading during his recovery from an ankle injury?,1,conv-43,conv-43_session_19_D19:20;conv-43_session_18_D18:2,test
+conv-43_qa_51,What kind of yoga for building core strength might John benefit from?,3,conv-43,conv-43_session_20_D20:2,test
+conv-43_qa_52,What does John do to supplement his basketball training?,1,conv-43,conv-43_session_8_D8:5;conv-43_session_20_D20:2,test
+conv-43_qa_53,What other exercises can help John with his basketball performance?,3,conv-43,conv-43_session_8_D8:5;conv-43_session_20_D20:2,test
+conv-43_qa_54,When did John take a trip to the Rocky Mountains?,2,conv-43,conv-43_session_20_D20:40,test
+conv-43_qa_55,When did John start playing professionally?,2,conv-43,conv-43_session_1_D1:3;conv-43_session_21_D21:4,test
+conv-43_qa_56,When did Tim start playing the violin?,2,conv-43,conv-43_session_21_D21:13,test
+conv-43_qa_57,What instruments does Tim play?,1,conv-43,conv-43_session_8_D8:12;conv-43_session_21_D21:11,test
+conv-43_qa_58,When did John attend the Harry Potter trivia?,2,conv-43,conv-43_session_4_D4:8;conv-43_session_22_D22:2,test
+conv-43_qa_59,Which career-high performances did John achieve in 2023?,1,conv-43,conv-43_session_3_D3:1;conv-43_session_23_D23:2,test
+conv-43_qa_60,When did John achieve a career-high assist performance?,2,conv-43,conv-43_session_23_D23:2,test
+conv-43_qa_61,What books has John read?,1,conv-43,conv-43_session_4_D4:10;conv-43_session_11_D11:26;conv-43_session_17_D17:9;conv-43_session_19_D19:16;conv-43_session_19_D19:20;conv-43_session_22_D22:12,test
+conv-43_qa_62,What does John do to share his knowledge?,1,conv-43,conv-43_session_14_D14:3;conv-43_session_26_D26:1,test
+conv-43_qa_63,When did John organize a basketball camp for kids?,2,conv-43,conv-43_session_26_D26:23,test
+conv-43_qa_64,Which month was John in Italy?,2,conv-43,conv-43_session_27_D27:2,test
+conv-43_qa_65,What fantasy movies does Tim like?,1,conv-43,conv-43_session_8_D8:16;conv-43_session_8_D8:18;conv-43_session_26_D26:28;conv-43_session_26_D26:32;conv-43_session_27_D27:21,test
+conv-43_qa_66,What is a Star Wars book that Tim might enjoy?,3,conv-43,conv-43_session_27_D27:19;conv-43_session_27_D27:21,test
+conv-43_qa_67,What would be a good hobby related to his travel dreams for Tim to pick up?,3,conv-43,conv-43_session_4_D4:1;conv-43_session_6_D6:6;conv-43_session_15_D15:3;conv-43_session_27_D27:37,test
+conv-43_qa_68,What day did Tim get into his study abroad program?,2,conv-43,conv-43_session_28_D28:1,test
+conv-43_qa_69,When will Tim leave for Ireland?,2,conv-43,conv-43_session_28_D28:1,test
+conv-43_qa_70,Which Star Wars-related locations would Tim enjoy during his visit to Ireland?,3,conv-43,conv-43_session_1_D1:18;conv-43_session_27_D27:21;conv-43_session_28_D28:1,test
+conv-43_qa_71,"Which team did John sign with on 21 May, 2023?",4,conv-43,conv-43_session_1_D1:5,test
+conv-43_qa_72,What is John's position on the team he signed with?,4,conv-43,conv-43_session_1_D1:7,test
+conv-43_qa_73,What challenge did John encounter during pre-season training?,4,conv-43,conv-43_session_1_D1:11,test
+conv-43_qa_74,What aspects of the Harry Potter universe will be discussed in John's fan project collaborations?,4,conv-43,conv-43_session_1_D1:16,test
+conv-43_qa_75,What forum did Tim join recently?,4,conv-43,conv-43_session_2_D2:1,test
+conv-43_qa_76,What kind of picture did Tim share as part of their Harry Potter book collection?,4,conv-43,conv-43_session_2_D2:9,test
+conv-43_qa_77,What was the highest number of points John scored in a game recently?,4,conv-43,conv-43_session_3_D3:1,test
+conv-43_qa_78,What did John celebrate at a restaurant with teammates?,4,conv-43,conv-43_session_3_D3:5,test
+conv-43_qa_79,What kind of deals did John sign with Nike and Gatorade?,4,conv-43,conv-43_session_3_D3:13,test
+conv-43_qa_80,Which city is John excited to have a game at?,4,conv-43,conv-43_session_3_D3:19,test
+conv-43_qa_81,How long has John been surfing?,4,conv-43,conv-43_session_3_D3:27,test
+conv-43_qa_82,How does John feel while surfing?,4,conv-43,conv-43_session_3_D3:29,test
+conv-43_qa_83,What kind of articles has Tim been writing about for the online magazine?,4,conv-43,conv-43_session_4_D4:5,test
+conv-43_qa_84,Which two fantasy novels does Tim particularly enjoy writing about?,4,conv-43,conv-43_session_4_D4:7,test
+conv-43_qa_85,What did Anthony and John end up playing during the charity event?,4,conv-43,conv-43_session_4_D4:8,test
+conv-43_qa_86,What did John share with the person he skyped about?,4,conv-43,conv-43_session_5_D5:1,test
+conv-43_qa_87,How did John describe the team bond?,4,conv-43,conv-43_session_5_D5:6,test
+conv-43_qa_88,How did John get introduced to basketball?,4,conv-43,conv-43_session_6_D6:13,test
+conv-43_qa_89,What is John's number one goal in his basketball career?,4,conv-43,conv-43_session_6_D6:15,test
+conv-43_qa_90,What organization is John teaming up with for his charity work?,4,conv-43,conv-43_session_6_D6:17,test
+conv-43_qa_91,When did John meet back up with his teammates after his trip in August 2023?,4,conv-43,conv-43_session_7_D7:1,test
+conv-43_qa_92,What did John's teammates give him when they met on Aug 15th?,4,conv-43,conv-43_session_7_D7:7,test
+conv-43_qa_93,Why did John's teammates sign the basketball they gave him?,4,conv-43,conv-43_session_7_D7:9,test
+conv-43_qa_94,What is the main intention behind Tim wanting to attend the book conference?,4,conv-43,conv-43_session_7_D7:6,test
+conv-43_qa_95,What new activity has Tim started learning in August 2023?,4,conv-43,conv-43_session_8_D8:12,test
+conv-43_qa_96,Which movie's theme is Tim's favorite to play on the piano?,4,conv-43,conv-43_session_8_D8:14;conv-43_session_8_D8:16,test
+conv-43_qa_97,"What special memory does ""Harry Potter and the Philosopher's Stone"" bring to Tim?",4,conv-43,conv-43_session_8_D8:16,test
+conv-43_qa_98,Which movie does Tim mention they enjoy watching during Thanksgiving?,4,conv-43,conv-43_session_8_D8:24,test
+conv-43_qa_99,What tradition does Tim mention they love during Thanksgiving?,4,conv-43,conv-43_session_8_D8:22,test
+conv-43_qa_100,How long did John and his high school basketball teammates play together?,4,conv-43,conv-43_session_9_D9:4,test
+conv-43_qa_101,How was John's experience in New York City?,4,conv-43,conv-43_session_9_D9:8,test
+conv-43_qa_102,"What did John say about NYC, enticing Tim to visit?",4,conv-43,conv-43_session_9_D9:10,test
+conv-43_qa_103,What kind of soup did John make recently?,4,conv-43,conv-43_session_10_D10:4;conv-43_session_10_D10:8,test
+conv-43_qa_104,What spice did John add to the soup for flavor?,4,conv-43,conv-43_session_10_D10:8,test
+conv-43_qa_105,What is Tim excited to see at Universal Studios?,4,conv-43,conv-43_session_10_D10:11,test
+conv-43_qa_106,Where are John and his teammates planning to explore on a team trip?,4,conv-43,conv-43_session_11_D11:7,test
+conv-43_qa_107,What city did Tim suggest to John for the team trip next month?,4,conv-43,conv-43_session_11_D11:10,test
+conv-43_qa_108,What does John want to do after his basketball career?,4,conv-43,conv-43_session_11_D11:19,test
+conv-43_qa_109,What advice did Tim give John about picking endorsements?,4,conv-43,conv-43_session_11_D11:22,test
+conv-43_qa_110,What book recommendation did Tim give to John for the trip?,4,conv-43,conv-43_session_11_D11:24,test
+conv-43_qa_111,What type of venue did John and his girlfriend choose for their wedding ceremony?,4,conv-43,conv-43_session_12_D12:4,test
+conv-43_qa_112,What was the setting for John and his wife's first dance?,4,conv-43,conv-43_session_12_D12:10,test
+conv-43_qa_113,Which basketball team does Tim support?,4,conv-43,conv-43_session_12_D12:21,test
+conv-43_qa_114,What passion does Tim mention connects him with people from all over the world?,4,conv-43,conv-43_session_13_D13:1,test
+conv-43_qa_115,How does John describe the game season for his team?,4,conv-43,conv-43_session_13_D13:4,test
+conv-43_qa_116,How does John say his team handles tough opponents?,4,conv-43,conv-43_session_13_D13:6,test
+conv-43_qa_117,"What motivates John's team to get better, according to John?",4,conv-43,conv-43_session_13_D13:6,test
+conv-43_qa_118,What did John's team win at the end of the season?,4,conv-43,conv-43_session_13_D13:8,test
+conv-43_qa_119,Where did Tim capture the photography of the sunset over the mountain range?,4,conv-43,conv-43_session_14_D14:16,test
+conv-43_qa_120,How does John feel about being seen as a mentor by some of the younger players?,4,conv-43,conv-43_session_14_D14:11,test
+conv-43_qa_121,What does John find rewarding about mentoring the younger players?,4,conv-43,conv-43_session_14_D14:7,test
+conv-43_qa_122,What has John been able to help the younger players achieve?,4,conv-43,conv-43_session_14_D14:5,test
+conv-43_qa_123,What genre is the novel that Tim is writing?,4,conv-43,conv-43_session_15_D15:3,test
+conv-43_qa_124,Who is one of Tim's sources of inspiration for writing?,4,conv-43,conv-43_session_15_D15:7,test
+conv-43_qa_125,What J.K. Rowling quote does Tim resonate with?,4,conv-43,conv-43_session_15_D15:11,test
+conv-43_qa_126,What does John write on the whiteboard to help him stay motivated?,4,conv-43,conv-43_session_15_D15:14,test
+conv-43_qa_127,What hobby is a therapy for John when away from the court?,4,conv-43,conv-43_session_15_D15:30,test
+conv-43_qa_128,What type of meal does John often cook using a slow cooker?,4,conv-43,conv-43_session_15_D15:32;conv-43_session_15_D15:33,test
+conv-43_qa_129,How will John share the honey garlic chicken recipe with the other person?,4,conv-43,conv-43_session_15_D15:34,test
+conv-43_qa_130,"What was Tim's huge writing issue last week,as mentioned on November 6, 2023?",4,conv-43,conv-43_session_16_D16:1,test
+conv-43_qa_131,What does Tim have that serves as a reminder of hard work and is his prized possession?,4,conv-43,conv-43_session_16_D16:7,test
+conv-43_qa_132,Why do Tim and John find LeBron inspiring?,4,conv-43,conv-43_session_16_D16:9;conv-43_session_16_D16:10,test
+conv-43_qa_133,How did John describe the views during their road trip out on the European coastline?,4,conv-43,conv-43_session_17_D17:3,test
+conv-43_qa_134,"What is one of Tim's favorite fantasy TV shows, as mentioned on November 11, 2023?",4,conv-43,conv-43_session_17_D17:10,test
+conv-43_qa_135,How does Tim stay motivated during difficult study sessions?,4,conv-43,conv-43_session_18_D18:6,test
+conv-43_qa_136,"What did Tim say about his injury on 16 November, 2023?",4,conv-43,conv-43_session_18_D18:10,test
+conv-43_qa_137,"What was the setback Tim faced in his writing project on 21 November, 2023?",4,conv-43,conv-43_session_19_D19:3,test
+conv-43_qa_138,How did John overcome his ankle injury from last season?,4,conv-43,conv-43_session_19_D19:6,test
+conv-43_qa_139,What motivated Tim to keep pushing himself to get better in writing and reading?,4,conv-43,conv-43_session_19_D19:9,test
+conv-43_qa_140,How did John overcome a mistake he made during a big game in basketball?,4,conv-43,conv-43_session_19_D19:10,test
+conv-43_qa_141,What book did John recently finish rereading that left him feeling inspired and hopeful about following dreams?,4,conv-43,conv-43_session_19_D19:20,test
+conv-43_qa_142,"How did ""The Alchemist"" impact John's perspective on following dreams?",4,conv-43,conv-43_session_19_D19:20,test
+conv-43_qa_143,What is John trying out to improve his strength and flexibility after recovery from ankle injury?,4,conv-43,conv-43_session_20_D20:2,test
+conv-43_qa_144,How long does John usually hold the yoga pose he shared with Tim?,4,conv-43,conv-43_session_20_D20:10,test
+conv-43_qa_145,"Where was the forest picture shared by John on December 1,2023 taken?",4,conv-43,conv-43_session_20_D20:28,test
+conv-43_qa_146,What did Tim recently start learning in addition to being part of a travel club and working on studies?,4,conv-43,conv-43_session_21_D21:9,test
+conv-43_qa_147,What instrument is Tim learning to play in December 2023?,4,conv-43,conv-43_session_21_D21:11,test
+conv-43_qa_148,"How long has Tim been playing the piano for, as of December 2023?",4,conv-43,conv-43_session_21_D21:13,test
+conv-43_qa_149,"What book did Tim just finish reading on 8th December, 2023?",4,conv-43,conv-43_session_22_D22:13,test
+conv-43_qa_150,"Which book did Tim recommend to John as a good story on 8th December, 2023?",4,conv-43,conv-43_session_22_D22:13,test
+conv-43_qa_151,"What is the topic of discussion between John and Tim on 11 December, 2023?",4,conv-43,conv-43_session_23_D23:1;conv-43_session_23_D23:2;conv-43_session_23_D23:3,test
+conv-43_qa_152,What kind of game did John have a career-high in assists in?,4,conv-43,conv-43_session_23_D23:3,test
+conv-43_qa_153,What was John's way of dealing with doubts and stress when he was younger?,4,conv-43,conv-43_session_23_D23:9,test
+conv-43_qa_154,How did John feel about the atmosphere during the big game against the rival team?,4,conv-43,conv-43_session_23_D23:5,test
+conv-43_qa_155,How did John feel after being able to jog without pain?,4,conv-43,conv-43_session_24_D24:16,test
+conv-43_qa_156,What kind of deal did John get in December?,4,conv-43,conv-43_session_25_D25:2,test
+conv-43_qa_157,Where was the photoshoot done for John's gear deal?,4,conv-43,conv-43_session_25_D25:4,test
+conv-43_qa_158,In which area has John's team seen the most growth during training?,4,conv-43,conv-43_session_25_D25:14,test
+conv-43_qa_159,What type of seminars is John conducting?,4,conv-43,conv-43_session_26_D26:1,test
+conv-43_qa_160,What activity did Tim do after reading the stories about the Himalayan trek?,4,conv-43,conv-43_session_26_D26:12,test
+conv-43_qa_161,What is one cause that John supports with his influence and resources?,4,conv-43,conv-43_session_26_D26:21,test
+conv-43_qa_162,What new fantasy TV series is Tim excited about?,4,conv-43,conv-43_session_26_D26:36,test
+conv-43_qa_163,Which language is Tim learning?,4,conv-43,conv-43_session_27_D27:5,test
+conv-43_qa_164,What language does Tim know besides German?,4,conv-43,conv-43_session_27_D27:6,test
+conv-43_qa_165,What book did Tim get in Italy that inspired him to cook?,4,conv-43,conv-43_session_27_D27:4,test
+conv-43_qa_166,What is John's favorite book series?,4,conv-43,conv-43_session_27_D27:19,test
+conv-43_qa_167,"According to John, who is his favorite character from Lord of the Rings?",4,conv-43,conv-43_session_27_D27:24,test
+conv-43_qa_168,Why does John like Aragorn from Lord of the Rings?,4,conv-43,conv-43_session_27_D27:30,test
+conv-43_qa_169,What kind of painting does John have in his room as a reminder?,4,conv-43,conv-43_session_27_D27:28,test
+conv-43_qa_170,What is the painting of Aragorn a reminder for John to be in everything he does?,4,conv-43,conv-43_session_27_D27:28,test
+conv-43_qa_171,What map does Tim show to his friend John?,4,conv-43,conv-43_session_27_D27:33,test
+conv-43_qa_172,Where will Tim be going for a semester abroad?,4,conv-43,conv-43_session_28_D28:1,test
+conv-43_qa_173,Which city in Ireland will Tim be staying in during his semester abroad?,4,conv-43,conv-43_session_28_D28:3,test
+conv-43_qa_174,What charity event did John organize recently in 2024?,4,conv-43,conv-43_session_28_D28:10,test
+conv-43_qa_175,What achievement did John share with Tim in January 2024?,4,conv-43,conv-43_session_29_D29:4,test
+conv-43_qa_176,What was Johns's reaction to sealing the deal with the beverage company?,4,conv-43,conv-43_session_29_D29:6,test
+conv-43_qa_177,Which city did John recommend to Tim in January 2024?,4,conv-43,conv-43_session_29_D29:12,test
+conv-44_qa_0,Which year did Audrey adopt the first three of her dogs?,2,conv-44,conv-44_session_1_D1:7,test
+conv-44_qa_1,When did Andrew start his new job as a financial analyst?,2,conv-44,conv-44_session_1_D1:2,test
+conv-44_qa_2,What kind of indoor activities has Andrew pursued with his girlfriend?,1,conv-44,conv-44_session_13_D13:1;conv-44_session_23_D23:1;conv-44_session_25_D25:1;conv-44_session_19_D19:15,test
+conv-44_qa_3,What kind of places have Andrew and his girlfriend checked out around the city?,1,conv-44,conv-44_session_3_D3:1;conv-44_session_3_D3:11;conv-44_session_4_D4:2;conv-44_session_6_D6:1;conv-44_session_13_D13:1;conv-44_session_23_D23:3;conv-44_session_25_D25:1;conv-44_session_27_D27:1,test
+conv-44_qa_4,When did Audrey make muffins for herself?,2,conv-44,conv-44_session_3_D3:18,test
+conv-44_qa_5,When did Audrey see a hummingbird?,2,conv-44,conv-44_session_4_D4:1,test
+conv-44_qa_6,When did Audrey adopt Pixie?,2,conv-44,conv-44_session_2_D2:1,test
+conv-44_qa_7,How many years passed between Audrey adopting Pixie and her other three dogs?,2,conv-44,conv-44_session_2_D2:1;conv-44_session_1_D1:7,test
+conv-44_qa_8,Did Andrew have a pet dog during March 2023?,2,conv-44,conv-44_session_2_D2:8,test
+conv-44_qa_9,What kind of classes or groups has Audrey joined to take better care of her dogs?,1,conv-44,conv-44_session_6_D6:2;conv-44_session_10_D10:1;conv-44_session_14_D14:2;conv-44_session_16_D16:6;conv-44_session_27_D27:2,test
+conv-44_qa_10,When did Audrey's positive reinforcement training course for dogs take place?,2,conv-44,conv-44_session_6_D6:2,test
+conv-44_qa_11,When did Andrew go rock climbing?,2,conv-44,conv-44_session_8_D8:1,test
+conv-44_qa_12,What outdoor activities has Andrew done other than hiking in nature?,1,conv-44,conv-44_session_8_D8:1;conv-44_session_17_D17:1;conv-44_session_14_D14:1,test
+conv-44_qa_13,When did Audrey move to a new place?,2,conv-44,conv-44_session_9_D9:1,test
+conv-44_qa_14,What is something that Andrew really misses while working in the city?,1,conv-44,conv-44_session_3_D3:7;conv-44_session_9_D9:20,test
+conv-44_qa_15,What is a shared frustration regarding dog ownership for Audrey and Andrew?,1,conv-44,conv-44_session_7_D7:8;conv-44_session_10_D10:5,test
+conv-44_qa_16,When is Andrew going to go hiking with Audrey?,2,conv-44,conv-44_session_11_D11:7,test
+conv-44_qa_17,How many times did Audrey and Andew plan to hike together?,1,conv-44,conv-44_session_11_D11:7;conv-44_session_24_D24:13;conv-44_session_26_D26:20,test
+conv-44_qa_18,Where did Audrey get Pixie from?,1,conv-44,conv-44_session_11_D11:4;conv-44_session_2_D2:1,test
+conv-44_qa_19,What is an indoor activity that Andrew would enjoy doing while make his dog happy?,3,conv-44,conv-44_session_10_D10:12;conv-44_session_12_D12:1,test
+conv-44_qa_20,Which meat does Audrey prefer eating more than others?,3,conv-44,conv-44_session_10_D10:13;conv-44_session_10_D10:23,test
+conv-44_qa_21,What are the classes that Audrey took for her dogs to?,1,conv-44,conv-44_session_6_D6:4;conv-44_session_10_D10:1;conv-44_session_14_D14:2,test
+conv-44_qa_22,Where did Andrew go during the first weekend of August 2023?,2,conv-44,conv-44_session_14_D14:1,test
+conv-44_qa_23,What are some problems that Andrew faces before he adopted Toby?,1,conv-44,conv-44_session_2_D2:12;conv-44_session_5_D5:3;conv-44_session_5_D5:5;conv-44_session_5_D5:7,test
+conv-44_qa_24,Did Audrey and Andrew grow up with a pet dog?,1,conv-44,conv-44_session_2_D2:16;conv-44_session_13_D13:10,test
+conv-44_qa_25,When did Andrew and his girlfriend go fishing?,2,conv-44,conv-44_session_17_D17:1,test
+conv-44_qa_26,What is the biggest stressor in Andrew's life besides not being able to hike frequently?,1,conv-44,conv-44_session_12_D12:3;conv-44_session_16_D16:1;conv-44_session_18_D18:1;conv-44_session_10_D10:16,test
+conv-44_qa_27,How does Andrew feel about his current work?,1,conv-44,conv-44_session_12_D12:3;conv-44_session_16_D16:1;conv-44_session_18_D18:1;conv-44_session_10_D10:16,test
+conv-44_qa_28,What is something that Audrey often dresses up her dogs with?,1,conv-44,conv-44_session_4_D4:23;conv-44_session_4_D4:25;conv-44_session_19_D19:6,test
+conv-44_qa_29,What are the names of Audrey's dogs?,1,conv-44,conv-44_session_1_D1:7;conv-44_session_2_D2:1;conv-44_session_19_D19:12,test
+conv-44_qa_30,When is Andrew planning to go to the beach with his girlfriend?,2,conv-44,conv-44_session_20_D20:1,test
+conv-44_qa_31,What has Andrew done with his dogs?,1,conv-44,conv-44_session_14_D14:27;conv-44_session_24_D24:8,test
+conv-44_qa_32,What kind of tattoo does Audrey have on her arm?,1,conv-44,conv-44_session_3_D3:26;conv-44_session_15_D15:1;conv-44_session_23_D23:20,test
+conv-44_qa_33,What can Andrew potentially do to improve his stress and accomodate his living situation with his dogs?,3,conv-44,conv-44_session_12_D12:3;conv-44_session_18_D18:1;conv-44_session_21_D21:5,test
+conv-44_qa_34,How many months passed between Andrew adopting Toby and Buddy?,2,conv-44,conv-44_session_12_D12:1;conv-44_session_24_D24:2,test
+conv-44_qa_35,What are the names of Andrew's dogs?,1,conv-44,conv-44_session_12_D12:1;conv-44_session_24_D24:6;conv-44_session_28_D28:8,test
+conv-44_qa_36,What are some foods that Audrey likes eating?,1,conv-44,conv-44_session_3_D3:18;conv-44_session_10_D10:13;conv-44_session_10_D10:23;conv-44_session_25_D25:6,test
+conv-44_qa_37,When did Audrey get into an accident in the park?,2,conv-44,conv-44_session_25_D25:2,test
+conv-44_qa_38,When did Andrew and his girlfriend go on a wine tasting trip?,2,conv-44,conv-44_session_25_D25:1,test
+conv-44_qa_39,What did Audrey get wtih having so many dogs?,1,conv-44,conv-44_session_2_D2:15;conv-44_session_23_D23:18,test
+conv-44_qa_40,What is a good place for dogs to run around freely and meet new friends?,1,conv-44,conv-44_session_4_D4:25;conv-44_session_14_D14:2;conv-44_session_23_D23:10,test
+conv-44_qa_41,What are the breeds of Audrey's dogs?,1,conv-44,conv-44_session_19_D19:12;conv-44_session_26_D26:13,test
+conv-44_qa_42,What technique is Audrey using to discipline her dogs?,1,conv-44,conv-44_session_6_D6:4;conv-44_session_26_D26:5,test
+conv-44_qa_43,Which US state do Audrey and Andrew potentially live in?,3,conv-44,conv-44_session_11_D11:9,test
+conv-44_qa_44,Which national park could Audrey and Andrew be referring to in their conversations?,3,conv-44,conv-44_session_5_D5:8;conv-44_session_11_D11:9,test
+conv-44_qa_45,"How many pets will Andrew have, as of December 2023?",2,conv-44,conv-44_session_12_D12:1;conv-44_session_24_D24:2;conv-44_session_28_D28:6,test
+conv-44_qa_46,"How many pets did Andrew have, as of September 2023?",2,conv-44,conv-44_session_12_D12:1;conv-44_session_24_D24:2,test
+conv-44_qa_47,How many months passed between Andrew adopting Buddy and Scout,2,conv-44,conv-44_session_24_D24:2;conv-44_session_28_D28:6,test
+conv-44_qa_48,What does Andrew view his pets as?,1,conv-44,conv-44_session_15_D15:14;conv-44_session_28_D28:18,test
+conv-44_qa_49,What does Audrey view her pets as?,1,conv-44,conv-44_session_15_D15:15;conv-44_session_23_D23:18,test
+conv-44_qa_50,What is a skill that Audrey learned to take care of her dogs?,1,conv-44,conv-44_session_16_D16:2;conv-44_session_17_D17:4,test
+conv-44_qa_51,What items has Audrey bought or made for her dogs?,1,conv-44,conv-44_session_1_D1:2;conv-44_session_9_D9:5;conv-44_session_18_D18:10;conv-44_session_24_D24:1,test
+conv-44_qa_52,What is something that Andrew could do to make birdwatching hobby to fit in his city schedule?,3,conv-44,conv-44_session_20_D20:5;conv-44_session_20_D20:21;conv-44_session_23_D23:1;conv-44_session_1_D1:14,test
+conv-44_qa_53,What is a career that Andrew could potentially pursue with his love for animals and nature?,3,conv-44,conv-44_session_2_D2:18;conv-44_session_3_D3:1;conv-44_session_5_D5:7;conv-44_session_8_D8:27,test
+conv-44_qa_54,What activity do Audrey's dogs like to do in the dog park?,1,conv-44,conv-44_session_4_D4:21;conv-44_session_10_D10:7;conv-44_session_13_D13:8;conv-44_session_23_D23:14;conv-44_session_27_D27:12,test
+conv-44_qa_55,When did Andrew make his dogs a fun indoor area?,2,conv-44,conv-44_session_28_D28:12,test
+conv-44_qa_56,Has Andrew moved into a new apartment for his dogs?,1,conv-44,conv-44_session_5_D5:5;conv-44_session_28_D28:12,test
+conv-44_qa_57,When did Andrew adopt Scout?,2,conv-44,conv-44_session_28_D28:6,test
+conv-44_qa_58,"What did Audrey eat for dinner on October 24, 2023?",2,conv-44,conv-44_session_25_D25:14,test
+conv-44_qa_59,"How long has it been since Andrew adopted his first pet, as of November 2023?",2,conv-44,conv-44_session_12_D12:1,test
+conv-44_qa_60,How many dogs does Andrew have?,1,conv-44,conv-44_session_12_D12:1;conv-44_session_24_D24:2;conv-44_session_28_D28:6,test
+conv-44_qa_61,Which specific type of bird mesmerizes Andrew?,4,conv-44,conv-44_session_1_D1:16,test
+conv-44_qa_62,What did Andrew express missing about exploring nature trails with his family's dog?,4,conv-44,conv-44_session_2_D2:18,test
+conv-44_qa_63,What kind of pastries did Andrew and his girlfriend have at the cafe?,4,conv-44,conv-44_session_3_D3:17,test
+conv-44_qa_64,What kind of flowers does Audrey have a tattoo of?,4,conv-44,conv-44_session_3_D3:26,test
+conv-44_qa_65,What does Audrey do during dog playdates in the park?,4,conv-44,conv-44_session_4_D4:21,test
+conv-44_qa_66,What type of dog was Andrew looking to adopt based on his living space?,4,conv-44,conv-44_session_5_D5:3,test
+conv-44_qa_67,"Where does Andrew want to live to give their dog a large, open space to run around?",4,conv-44,conv-44_session_5_D5:7,test
+conv-44_qa_68,Why did Audrey sign up for a workshop about bonding with pets?,4,conv-44,conv-44_session_6_D6:2,test
+conv-44_qa_69,How did Audrey hear about the workshop on bonding with pets?,4,conv-44,conv-44_session_6_D6:4,test
+conv-44_qa_70,What type of training was the workshop Audrey signed up for in May 2023?,4,conv-44,conv-44_session_6_D6:4,test
+conv-44_qa_71,How did Audrey describe she dog he met at the pet store?,4,conv-44,conv-44_session_6_D6:4,test
+conv-44_qa_72,Why did Audrey think positive reinforcement training is important for pets?,4,conv-44,conv-44_session_6_D6:12,test
+conv-44_qa_73,What challenge is Andrew facing in their search for a pet?,4,conv-44,conv-44_session_7_D7:8,test
+conv-44_qa_74,How does Andrew feel about their search for a pet-friendly place?,4,conv-44,conv-44_session_7_D7:8,test
+conv-44_qa_75,What outdoor activities does Andrew plan on trying after the rock climbing class?,4,conv-44,conv-44_session_8_D8:7,test
+conv-44_qa_76,How long does Audrey typically walk her dogs for?,4,conv-44,conv-44_session_8_D8:14,test
+conv-44_qa_77,"What did Audrey set up in the backyard for their dogs on June 26, 2023?",4,conv-44,conv-44_session_9_D9:5,test
+conv-44_qa_78,"What did Audrey and her friends stumble across during a hike a few years back, as mentioned on June 26, 2023?",4,conv-44,conv-44_session_9_D9:23,test
+conv-44_qa_79,"What is Audrey's favorite recipe that she shares with Andrew on 3 July, 2023?",4,conv-44,conv-44_session_10_D10:13,test
+conv-44_qa_80,"What dish is one of Audrey's favorite dishes that includes garlic and is shared with Andrew on 3 July, 2023?",4,conv-44,conv-44_session_10_D10:23,test
+conv-44_qa_81,"What did Andrew and his GF do on the Monday before July 24, 2023?",4,conv-44,conv-44_session_13_D13:1,test
+conv-44_qa_82,What is the name of Audrey's childhood dog?,4,conv-44,conv-44_session_13_D13:8,test
+conv-44_qa_83,"What special memories does Audrey have with her childhood dog, Max?",4,conv-44,conv-44_session_13_D13:10,test
+conv-44_qa_84,What are some of the personalities of Audrey's four fur babies?,4,conv-44,conv-44_session_13_D13:6,test
+conv-44_qa_85,"What type of classes did Audrey start with her pups recently on 4 August, 2023?",4,conv-44,conv-44_session_14_D14:2,test
+conv-44_qa_86,How often does Audrey take her pups to the park for practice?,4,conv-44,conv-44_session_14_D14:4,test
+conv-44_qa_87,How long did the trail hike that Audrey went on with her pups take?,4,conv-44,conv-44_session_14_D14:8,test
+conv-44_qa_88,What advice did Audrey give to Andrew regarding grooming Toby?,4,conv-44,conv-44_session_16_D16:8,test
+conv-44_qa_89,What is essential to keep the dogs looking good according to Audrey?,4,conv-44,conv-44_session_17_D17:4,test
+conv-44_qa_90,What did Audrey organize with the neighbors' dogs?,4,conv-44,conv-44_session_18_D18:6,test
+conv-44_qa_91,What did Audrey do to give her dogs extra comfort as the weather cooled down?,4,conv-44,conv-44_session_18_D18:10,test
+conv-44_qa_92,How does Audrey describe the new beds for her dogs?,4,conv-44,conv-44_session_18_D18:12,test
+conv-44_qa_93,How did Audrey calm down her dog after the leash incident?,4,conv-44,conv-44_session_19_D19:4,test
+conv-44_qa_94,How often does Audrey take her dogs for walks?,4,conv-44,conv-44_session_19_D19:10,test
+conv-44_qa_95,What kind of flowers does Audrey take care of?,4,conv-44,conv-44_session_19_D19:20,test
+conv-44_qa_96,What did Andrew learn from reading books about ecological systems?,4,conv-44,conv-44_session_20_D20:25,test
+conv-44_qa_97,What did Andrew suggest as a way to reduce carbon footprint?,4,conv-44,conv-44_session_20_D20:33,test
+conv-44_qa_98,How does Andrew suggest helping the planet while also training the body?,4,conv-44,conv-44_session_20_D20:35,test
+conv-44_qa_99,"What did Audrey do with her pups over the weekend before 4th October, 2023?",4,conv-44,conv-44_session_21_D21:2,test
+conv-44_qa_100,What was the reason Audrey couldn't walk her dogs for a period of time?,4,conv-44,conv-44_session_22_D22:1,test
+conv-44_qa_101,What type of jewelry does Audrey make?,4,conv-44,conv-44_session_22_D22:5,test
+conv-44_qa_102,Why does Audrey make jewelry out of recycled objects?,4,conv-44,conv-44_session_22_D22:5,test
+conv-44_qa_103,What organization does Audrey donate a portion of his profits to?,4,conv-44,conv-44_session_22_D22:7,test
+conv-44_qa_104,How does Audrey help out the animal shelter?,4,conv-44,conv-44_session_22_D22:9,test
+conv-44_qa_105,What type of games do Audrey's dogs like to play at the park?,4,conv-44,conv-44_session_23_D23:14,test
+conv-44_qa_106,What did Audrey make to thank her neighbors?,4,conv-44,conv-44_session_23_D23:2,test
+conv-44_qa_107,How do Audrey's dogs react to snow?,4,conv-44,conv-44_session_23_D23:12,test
+conv-44_qa_108,How does Audrey describe her dogs' response to snow?,4,conv-44,conv-44_session_23_D23:12,test
+conv-44_qa_109,What kind of experiences are Audrey's dogs the best companions for?,4,conv-44,conv-44_session_23_D23:24,test
+conv-44_qa_110,What activity do Andrew and Buddy enjoy doing together?,4,conv-44,conv-44_session_24_D24:8,test
+conv-44_qa_111,What do Andrew and Buddy like doing on walks?,4,conv-44,conv-44_session_24_D24:10,test
+conv-44_qa_112,What cuisine did Andrew recently try at a new spot in town?,4,conv-44,conv-44_session_25_D25:3,test
+conv-44_qa_113,Which type of sushi did Audrey suggest trying first to someone new to sushi?,4,conv-44,conv-44_session_25_D25:8,test
+conv-44_qa_114,What type of date is Andrew going on Sunday?,4,conv-44,conv-44_session_26_D26:20,test
+conv-44_qa_115,"What did Andrew and Audrey plan to do on the Saturday after October 28, 2023?",4,conv-44,conv-44_session_26_D26:20,test
+conv-44_qa_116,What aspect of autumn does Andrew find beautiful?,4,conv-44,conv-44_session_26_D26:36,test
+conv-44_qa_117,What did Audrey do in November 2023 to better take care of her dogs?,4,conv-44,conv-44_session_27_D27:2,test
+conv-44_qa_118,How often does Audrey meet up with other dog owners for tips and playdates?,4,conv-44,conv-44_session_27_D27:4,test
+conv-44_qa_119,What did Audrey share to show ways to keep dogs active in the city?,4,conv-44,conv-44_session_27_D27:10,test
+conv-44_qa_120,What type of activities does Audrey suggest for mental stimulation of the dogs?,4,conv-44,conv-44_session_27_D27:14,test
+conv-44_qa_121,"What is Andrew planning to do with Scout, Toby, and Buddy?",4,conv-44,conv-44_session_28_D28:10,test
+conv-44_qa_122,What did Andrew get for Scout to create a safe and fun space for them?,4,conv-44,conv-44_session_28_D28:12,test
+conv-47_qa_0,What are John's suspected health problems?,3,conv-47,conv-47_session_1_D1:27,test
+conv-47_qa_1,"Which recreational activity was James pursuing on March 16, 2022?",2,conv-47,conv-47_session_1_D1:26,test
+conv-47_qa_2,Which places or events have John and James planned to meet at?,1,conv-47,conv-47_session_1_D1:36;conv-47_session_21_D21:15;conv-47_session_23_D23:5;conv-47_session_23_D23:6,test
+conv-47_qa_3,Do both James and John have pets?,1,conv-47,conv-47_session_1_D1:12;conv-47_session_2_D2:18,test
+conv-47_qa_4,When did John resume playing drums in his adulthood?,2,conv-47,conv-47_session_3_D3:5,test
+conv-47_qa_5,What are John and James' favorite games?,1,conv-47,conv-47_session_3_D3:11;conv-47_session_4_D4:16,test
+conv-47_qa_6,Does James live in Connecticut?,3,conv-47,conv-47_session_5_D5:1,test
+conv-47_qa_7,In which state is the shelter from which James adopted the puppy?,3,conv-47,conv-47_session_5_D5:1,test
+conv-47_qa_8,How many pets does James have?,1,conv-47,conv-47_session_1_D1:12;conv-47_session_1_D1:14;conv-47_session_5_D5:1,test
+conv-47_qa_9,What are the names of James's dogs?,1,conv-47,conv-47_session_1_D1:14;conv-47_session_5_D5:1,test
+conv-47_qa_10,When did James adopt Ned?,2,conv-47,conv-47_session_5_D5:1,test
+conv-47_qa_11,"How was John feeling on April 10, 2022?",2,conv-47,conv-47_session_6_D6:7,test
+conv-47_qa_12,Did James have a girlfriend during April 2022?,3,conv-47,conv-47_session_6_D6:6,test
+conv-47_qa_13,When did James visit Italy?,2,conv-47,conv-47_session_6_D6:12,test
+conv-47_qa_14,When did James buy himself a new adventure book?,2,conv-47,conv-47_session_8_D8:11,test
+conv-47_qa_15,When did James start playing Civilization VI?,2,conv-47,conv-47_session_8_D8:29,test
+conv-47_qa_16,What is the game with different colored cards that was John talking about with James?,3,conv-47,conv-47_session_8_D8:34,test
+conv-47_qa_17,What is the board game where you have to find the imposter that John mentions to James?,3,conv-47,conv-47_session_8_D8:36,test
+conv-47_qa_18,Which books has John recommended to James?,1,conv-47,conv-47_session_8_D8:14;conv-47_session_14_D14:10,test
+conv-47_qa_19,Was James feeling lonely before meeting Samantha?,3,conv-47,conv-47_session_9_D9:16,test
+conv-47_qa_20,How many charity tournaments has John organized till date?,1,conv-47,conv-47_session_10_D10:2;conv-47_session_29_D29:1,test
+conv-47_qa_21,When did John first organize a charity tournament with his friends?,2,conv-47,conv-47_session_10_D10:2,test
+conv-47_qa_22,Who or which organizations have been the beneficiaries of John's charity tournaments?,1,conv-47,conv-47_session_10_D10:10;conv-47_session_10_D10:12;conv-47_session_29_D29:1,test
+conv-47_qa_23,When will John start his new job?,2,conv-47,conv-47_session_13_D13:5,test
+conv-47_qa_24,What kind of games has James tried to develop?,1,conv-47,conv-47_session_13_D13:7;conv-47_session_1_D1:4;conv-47_session_27_D27:2,test
+conv-47_qa_25,Are John and James fans of the same football team?,3,conv-47,conv-47_session_13_D13:12;conv-47_session_13_D13:15,test
+conv-47_qa_26,Which countries has James visited?,1,conv-47,conv-47_session_6_D6:12;conv-47_session_6_D6:14;conv-47_session_16_D16:9;conv-47_session_17_D17:22,test
+conv-47_qa_27,What kind of classes has James joined?,1,conv-47,conv-47_session_13_D13:6;conv-47_session_23_D23:13,test
+conv-47_qa_28,When did James volunteer at an organization?,2,conv-47,conv-47_session_15_D15:9,test
+conv-47_qa_29,When did James depart for his trip to Canada?,2,conv-47,conv-47_session_16_D16:9,test
+conv-47_qa_30,Which country did James book tickets for in July 2022?,3,conv-47,conv-47_session_16_D16:9;conv-47_session_16_D16:11,test
+conv-47_qa_31,How many days did James plan to spend on his trip in Canada?,2,conv-47,conv-47_session_16_D16:9;conv-47_session_16_D16:13,test
+conv-47_qa_32,"Where was James at on July 12, 2022?",2,conv-47,conv-47_session_16_D16:9,test
+conv-47_qa_33,Did John and James study together?,3,conv-47,conv-47_session_17_D17:13,test
+conv-47_qa_34,Which countries did James visit in July 2022?,1,conv-47,conv-47_session_16_D16:9;conv-47_session_17_D17:22,test
+conv-47_qa_35,What additional country did James visit during his trip to Canada?,3,conv-47,conv-47_session_17_D17:22,test
+conv-47_qa_36,Who is Jill?,3,conv-47,conv-47_session_17_D17:24,test
+conv-47_qa_37,When did John spend time with his sister and dogs?,2,conv-47,conv-47_session_17_D17:28,test
+conv-47_qa_38,What happened to John's job situation in 2022?,1,conv-47,conv-47_session_4_D4:36;conv-47_session_18_D18:1;conv-47_session_18_D18:7,test
+conv-47_qa_39,When did John start his job in IT?,2,conv-47,conv-47_session_18_D18:1,test
+conv-47_qa_40,What kind of tricks do James's pets know?,1,conv-47,conv-47_session_2_D2:17;conv-47_session_14_D14:17;conv-47_session_14_D14:23;conv-47_session_17_D17:16,test
+conv-47_qa_41,When did James meet Samantha?,2,conv-47,conv-47_session_19_D19:12,test
+conv-47_qa_42,When did James take his 3 dogs to the beach?,2,conv-47,conv-47_session_19_D19:12,test
+conv-47_qa_43,When did John plan his next meeting with his siblings?,2,conv-47,conv-47_session_20_D20:17,test
+conv-47_qa_44,Why didn't John want to go to Starbucks?,3,conv-47,conv-47_session_21_D21:12;conv-47_session_21_D21:14,test
+conv-47_qa_45,What kind of beer does McGee's bar serve?,1,conv-47,conv-47_session_21_D21:15;conv-47_session_21_D21:17;conv-47_session_23_D23:3,test
+conv-47_qa_46,When did John and James meet at McGee's bar?,2,conv-47,conv-47_session_21_D21:18,test
+conv-47_qa_47,When did James ask Samantha to be his girlfriend?,2,conv-47,conv-47_session_23_D23:1,test
+conv-47_qa_48,"When did James, Samantha and John go to the baseball game together?",2,conv-47,conv-47_session_23_D23:5;conv-47_session_23_D23:6,test
+conv-47_qa_49,What gaming equipments did John buy or refurbish?,1,conv-47,conv-47_session_23_D23:8;conv-47_session_23_D23:10;conv-47_session_20_D20:9,test
+conv-47_qa_50,When did James start taking cooking classes?,2,conv-47,conv-47_session_23_D23:13,test
+conv-47_qa_51,Which new games did John start play during the course of the conversation with James?,1,conv-47,conv-47_session_5_D5:4;conv-47_session_19_D19:7;conv-47_session_30_D30:14;conv-47_session_24_D24:1;conv-47_session_24_D24:3;conv-47_session_8_D8:20,test
+conv-47_qa_52,When did John start working on his 2D Adventure mobile game?,2,conv-47,conv-47_session_25_D25:9,test
+conv-47_qa_53,How long did it take for James to complete his Witcher-inspired game?,2,conv-47,conv-47_session_6_D6:1;conv-47_session_27_D27:2,test
+conv-47_qa_54,What kind of programming-related events has John hosted?,1,conv-47,conv-47_session_27_D27:1;conv-47_session_28_D28:6,test
+conv-47_qa_55,When did John and his programming friends host an online programming competition?,2,conv-47,conv-47_session_27_D27:1,test
+conv-47_qa_56,Which of James's family members have visited him in the last year?,1,conv-47,conv-47_session_17_D17:28;conv-47_session_28_D28:19,test
+conv-47_qa_57,When did James' mother and her friend visit him?,2,conv-47,conv-47_session_28_D28:19,test
+conv-47_qa_58,When did James try Cyberpunk 2077 game?,2,conv-47,conv-47_session_28_D28:27,test
+conv-47_qa_59,When did John and his gaming friends organize the charity tournament?,2,conv-47,conv-47_session_29_D29:1,test
+conv-47_qa_60,What games has John played with his friends at charity tournaments?,1,conv-47,conv-47_session_10_D10:4;conv-47_session_29_D29:1;conv-47_session_29_D29:3,test
+conv-47_qa_61,What was James' big moment with Samantha in October 2023?,2,conv-47,conv-47_session_29_D29:8;conv-47_session_29_D29:10,test
+conv-47_qa_62,How long did James and Samantha date for before deciding to move in together?,2,conv-47,conv-47_session_19_D19:14;conv-47_session_29_D29:8;conv-47_session_29_D29:10,test
+conv-47_qa_63,"When did James, his family and his dogs start on a road trip together?",2,conv-47,conv-47_session_30_D30:1,test
+conv-47_qa_64,How long did John practice chess for before winning the chess tournament?,2,conv-47,conv-47_session_17_D17:1;conv-47_session_30_D30:2;conv-47_session_30_D30:4,test
+conv-47_qa_65,When did James and his family visit Mark and Josh?,2,conv-47,conv-47_session_31_D31:1,test
+conv-47_qa_66,When did John work with a game developer on a project?,2,conv-47,conv-47_session_31_D31:2,test
+conv-47_qa_67,What programming languages has James worked with?,4,conv-47,conv-47_session_1_D1:8,test
+conv-47_qa_68,What type of mobile application does James plan to build with John?,4,conv-47,conv-47_session_1_D1:14,test
+conv-47_qa_69,How does James plan to make his dog-sitting app unique?,4,conv-47,conv-47_session_1_D1:16,test
+conv-47_qa_70,What has John mostly found with the metal detector so far?,4,conv-47,conv-47_session_2_D2:12,test
+conv-47_qa_71,What did James offer to do for John regarding pets?,4,conv-47,conv-47_session_2_D2:19,test
+conv-47_qa_72,"What instrument is John learning to play as of 27 March, 2022?",4,conv-47,conv-47_session_3_D3:2;conv-47_session_3_D3:3,test
+conv-47_qa_73,"How long has John been playing the drums as of 27 March, 2022?",4,conv-47,conv-47_session_3_D3:5,test
+conv-47_qa_74,What game did John play in an intense tournament at the gaming convention in March 2022?,4,conv-47,conv-47_session_3_D3:11,test
+conv-47_qa_75,What game was James playing in the online gaming tournament in April 2022?,4,conv-47,conv-47_session_4_D4:16,test
+conv-47_qa_76,How does James communicate with his gaming team?,4,conv-47,conv-47_session_4_D4:14,test
+conv-47_qa_77,What advice did James receive from the famous players he met at the tournament?,4,conv-47,conv-47_session_4_D4:12,test
+conv-47_qa_78,What did James adopt in April 2022?,4,conv-47,conv-47_session_5_D5:1,test
+conv-47_qa_79,What is the name of the pup that was adopted by James?,4,conv-47,conv-47_session_5_D5:1,test
+conv-47_qa_80,Why did James embody the appearance of the game character from the woman he saw during a walk?,4,conv-47,conv-47_session_6_D6:6,test
+conv-47_qa_81,What inspired James to create the game character in the virtual world?,4,conv-47,conv-47_session_6_D6:6,test
+conv-47_qa_82,Which country did James visit in 2021?,4,conv-47,conv-47_session_6_D6:12,test
+conv-47_qa_83,What impresses John about Japan?,4,conv-47,conv-47_session_6_D6:15,test
+conv-47_qa_84,What kind of assignment was giving John a hard time at work?,4,conv-47,conv-47_session_7_D7:13,test
+conv-47_qa_85,"What breed is Daisy, one of James' dogs?",4,conv-47,conv-47_session_9_D9:12,test
+conv-47_qa_86,What type of pizza is James' favorite?,4,conv-47,conv-47_session_9_D9:18,test
+conv-47_qa_87,What type of pizza is John's favorite?,4,conv-47,conv-47_session_9_D9:19,test
+conv-47_qa_88,"What did John organize with his friends on May 8, 2022?",4,conv-47,conv-47_session_10_D10:4,test
+conv-47_qa_89,What did John and his friends do with the remaining money after helping the dog shelter?,4,conv-47,conv-47_session_10_D10:12,test
+conv-47_qa_90,What was the main goal of the money raised from the charity tournament organized by John and his friends in May 2022?,4,conv-47,conv-47_session_10_D10:10,test
+conv-47_qa_91,What did the system John created help the charitable foundation with?,4,conv-47,conv-47_session_11_D11:5,test
+conv-47_qa_92,What did John create for the charitable foundation that helped generate reports for analysis?,4,conv-47,conv-47_session_11_D11:3,test
+conv-47_qa_93,What did John receive for achieving second place in the tournament?,4,conv-47,conv-47_session_12_D12:5;conv-47_session_12_D12:6,test
+conv-47_qa_94,What project is James working on in his game design course?,4,conv-47,conv-47_session_13_D13:8,test
+conv-47_qa_95,Who does James support in football matches?,4,conv-47,conv-47_session_13_D13:12,test
+conv-47_qa_96,Which football club does John support?,4,conv-47,conv-47_session_13_D13:15,test
+conv-47_qa_97,What disagreement do James and John have about their football teams?,4,conv-47,conv-47_session_13_D13:15,test
+conv-47_qa_98,What is Max good at doing according to James?,4,conv-47,conv-47_session_14_D14:23,test
+conv-47_qa_99,What is the main focus of the organization that James volunteered with?,4,conv-47,conv-47_session_15_D15:11,test
+conv-47_qa_100,Will there be an interview required to volunteer with the organization James volunteered for?,4,conv-47,conv-47_session_15_D15:15,test
+conv-47_qa_101,"How did John relax in his free time on 9 July, 2022?",4,conv-47,conv-47_session_16_D16:8,test
+conv-47_qa_102,What did James enjoy doing on cold winter days?,4,conv-47,conv-47_session_16_D16:9,test
+conv-47_qa_103,"What new hobby did James become interested in on 9 July, 2022?",4,conv-47,conv-47_session_16_D16:5,test
+conv-47_qa_104,Where did James plan to visit after Toronto?,4,conv-47,conv-47_session_16_D16:11,test
+conv-47_qa_105,When did James plan to return from his trip to Toronto and Vancouver?,4,conv-47,conv-47_session_16_D16:13,test
+conv-47_qa_106,What online game did John start playing recently for improving strategy?,4,conv-47,conv-47_session_17_D17:1,test
+conv-47_qa_107,What made John leave his IT job?,4,conv-47,conv-47_session_18_D18:3,test
+conv-47_qa_108,Which game tournaments does John plan to organize besides CS:GO?,4,conv-47,conv-47_session_18_D18:9,test
+conv-47_qa_109,What happened to James's puppy during the recent visit to the clinic?,4,conv-47,conv-47_session_18_D18:16,test
+conv-47_qa_110,What game genre did John start exploring instead of shooters?,4,conv-47,conv-47_session_19_D19:3,test
+conv-47_qa_111,"Which RPG game is John playing and enjoying on 10 August, 2022?",4,conv-47,conv-47_session_19_D19:7,test
+conv-47_qa_112,"What aspect of ""The Witcher 3"" does John find immersive?",4,conv-47,conv-47_session_19_D19:7,test
+conv-47_qa_113,Whose phone number did James receive during the beach outing?,4,conv-47,conv-47_session_19_D19:14,test
+conv-47_qa_114,What is James planning to do after receiving Samantha's phone number?,4,conv-47,conv-47_session_19_D19:14,test
+conv-47_qa_115,What is John organizing with his siblings?,4,conv-47,conv-47_session_20_D20:17,test
+conv-47_qa_116,What type of beer does John not like?,4,conv-47,conv-47_session_21_D21:16,test
+conv-47_qa_117,What were some difficulties James faced during the development of his game?,4,conv-47,conv-47_session_22_D22:7,test
+conv-47_qa_118,What has John been teaching his siblings?,4,conv-47,conv-47_session_22_D22:10,test
+conv-47_qa_119,What kind of programs are John's siblings making?,4,conv-47,conv-47_session_22_D22:12,test
+conv-47_qa_120,Which company's headphones did John choose for gaming?,4,conv-47,conv-47_session_23_D23:10,test
+conv-47_qa_121,What did James and Samantha discover they both enjoy at McGee's bar?,4,conv-47,conv-47_session_23_D23:3,test
+conv-47_qa_122,How much does James pay per cooking class?,4,conv-47,conv-47_session_23_D23:15,test
+conv-47_qa_123,What did James learn to make in the cooking class besides omelette and meringue?,4,conv-47,conv-47_session_23_D23:15,test
+conv-47_qa_124,Why did James sign up for a cooking class?,4,conv-47,conv-47_session_23_D23:13,test
+conv-47_qa_125,What did James prepare for the first time in the cooking class?,4,conv-47,conv-47_session_23_D23:13,test
+conv-47_qa_126,What is the name of the board game John tried in September 2022?,4,conv-47,conv-47_session_24_D24:3,test
+conv-47_qa_127,Where does James get his ideas from?,4,conv-47,conv-47_session_24_D24:4,test
+conv-47_qa_128,What kind of dream did James have recently?,4,conv-47,conv-47_session_24_D24:8,test
+conv-47_qa_129,What kind of music does John like?,4,conv-47,conv-47_session_24_D24:13,test
+conv-47_qa_130,What instrument did James used to play when he was younger?,4,conv-47,conv-47_session_24_D24:14,test
+conv-47_qa_131,What did John use to play when he was younger to let off steam?,4,conv-47,conv-47_session_24_D24:15,test
+conv-47_qa_132,What career milestone did John achieve recently in September 2022?,4,conv-47,conv-47_session_25_D25:7,test
+conv-47_qa_133,What type of game is John's upcoming mobile game?,4,conv-47,conv-47_session_25_D25:9,test
+conv-47_qa_134,What does John do to stay informed and constantly learn about game design?,4,conv-47,conv-47_session_25_D25:13,test
+conv-47_qa_135,What kind of gig was John offered at the game dev non-profit organization?,4,conv-47,conv-47_session_26_D26:3,test
+conv-47_qa_136,What does John feel about starting the journey as a programming mentor for game developers?,4,conv-47,conv-47_session_26_D26:5,test
+conv-47_qa_137,What kind of games is James excited to play with his new video card?,4,conv-47,conv-47_session_26_D26:10,test
+conv-47_qa_138,What inspired James to create his game?,4,conv-47,conv-47_session_27_D27:6,test
+conv-47_qa_139,What sparked James' passion for gaming when he was a kid?,4,conv-47,conv-47_session_28_D28:25,test
+conv-47_qa_140,What did James lose progress on due to a power outage?,4,conv-47,conv-47_session_28_D28:3,test
+conv-47_qa_141,"What games were played at the gaming tournament organized by John on 31 October, 2022?",4,conv-47,conv-47_session_29_D29:1;conv-47_session_29_D29:3,test
+conv-47_qa_142,"What was the purpose of the gaming tournament organized by John on 31 October, 2022?",4,conv-47,conv-47_session_29_D29:1;conv-47_session_29_D29:3,test
+conv-47_qa_143,"What decision did James and Samantha make on 31 October, 2022?",4,conv-47,conv-47_session_29_D29:8;conv-47_session_29_D29:10,test
+conv-47_qa_144,"Where did James and Samantha decide to live together on 31 October, 2022?",4,conv-47,conv-47_session_29_D29:10,test
+conv-47_qa_145,Why did James and Samantha choose an apartment near McGee's bar?,4,conv-47,conv-47_session_29_D29:12,test
+conv-47_qa_146,"What game is John hooked on playing on 5 November, 2022?",4,conv-47,conv-47_session_30_D30:14,test
+conv-47_qa_147,What did John suggest James practice before playing FIFA 23 together?,4,conv-47,conv-47_session_30_D30:18,test
+conv-47_qa_148,"What project did John work on with a game developer by 7 November, 2022?",4,conv-47,conv-47_session_31_D31:4,test
+conv-47_qa_149,What is the name of John's cousin's dog?,4,conv-47,conv-47_session_31_D31:22,test
+conv-48_qa_0,What kind of project was Jolene working on in the beginning of January 2023?,2,conv-48,conv-48_session_1_D1:2,dev
+conv-48_qa_1,Which of Deborah`s family and friends have passed away?,1,conv-48,conv-48_session_1_D1:5;conv-48_session_2_D2:1;conv-48_session_6_D6:4,dev
+conv-48_qa_2,When did Deborah`s mother pass away?,2,conv-48,conv-48_session_1_D1:5,dev
+conv-48_qa_3,When did Jolene`s mother pass away?,2,conv-48,conv-48_session_1_D1:6,dev
+conv-48_qa_4,When did Jolene's mom gift her a pendant?,2,conv-48,conv-48_session_1_D1:8,dev
+conv-48_qa_5,In what country did Jolene's mother buy her the pendant?,3,conv-48,conv-48_session_1_D1:8,dev
+conv-48_qa_6,What symbolic gifts do Deborah and Jolene have from their mothers?,1,conv-48,conv-48_session_1_D1:8;conv-48_session_1_D1:9,dev
+conv-48_qa_7,Which country were Jolene and her mother visiting in 2010?,2,conv-48,conv-48_session_1_D1:8,dev
+conv-48_qa_8,What helped Deborah find peace when grieving deaths of her loved ones?,1,conv-48,conv-48_session_1_D1:15;conv-48_session_2_D2:3;conv-48_session_6_D6:4;conv-48_session_15_D15:29,dev
+conv-48_qa_9,When did Deborah's father pass away?,2,conv-48,conv-48_session_2_D2:1,dev
+conv-48_qa_10,When was Deborah's parents' wedding?,2,conv-48,conv-48_session_2_D2:3,dev
+conv-48_qa_11,Is Deborah married?,3,conv-48,conv-48_session_2_D2:5;conv-48_session_19_D19:11;conv-48_session_23_D23:4;conv-48_session_28_D28:11,dev
+conv-48_qa_12,When did Deborah receive an appreciation letter from her community?,2,conv-48,conv-48_session_2_D2:7,dev
+conv-48_qa_13,What places give Deborah peace?,1,conv-48,conv-48_session_2_D2:13;conv-48_session_4_D4:34;conv-48_session_6_D6:10;conv-48_session_19_D19:17,dev
+conv-48_qa_14,What were Deborah's mother's hobbies?,1,conv-48,conv-48_session_2_D2:17;conv-48_session_2_D2:19;conv-48_session_12_D12:3;conv-48_session_29_D29:7,dev
+conv-48_qa_15,What pets does Jolene have?,4,conv-48,conv-48_session_2_D2:20;conv-48_session_2_D2:22;conv-48_session_2_D2:24,dev
+conv-48_qa_16,What are the names of Jolene's snakes?,4,conv-48,conv-48_session_2_D2:20;conv-48_session_2_D2:22,dev
+conv-48_qa_17,When did Jolene buy her pet Seraphim?,2,conv-48,conv-48_session_2_D2:24,dev
+conv-48_qa_18,In what country did Jolene buy snake Seraphim?,3,conv-48,conv-48_session_2_D2:24,dev
+conv-48_qa_19,How many times has Jolene been to France?,1,conv-48,conv-48_session_2_D2:24;conv-48_session_1_D1:8,dev
+conv-48_qa_20,Which games have Jolene and her partner played together?,1,conv-48,conv-48_session_2_D2:26;conv-48_session_2_D2:30;conv-48_session_20_D20:1;conv-48_session_15_D15:10;conv-48_session_19_D19:10,dev
+conv-48_qa_21,"When do Jolene and her partner plan to complete the game ""Walking Dead""?",2,conv-48,conv-48_session_2_D2:30,dev
+conv-48_qa_22,When did Deborah meet Anna?,2,conv-48,conv-48_session_3_D3:4,dev
+conv-48_qa_23,Why did Jolene sometimes put off doing yoga?,3,conv-48,conv-48_session_3_D3:11;conv-48_session_2_D2:30,dev
+conv-48_qa_24,What new yoga poses did Deborah try?,1,conv-48,conv-48_session_4_D4:14;conv-48_session_14_D14:3;conv-48_session_14_D14:15,dev
+conv-48_qa_25,What are Jolene's favorite books?,4,conv-48,conv-48_session_4_D4:21;conv-48_session_4_D4:23,dev
+conv-48_qa_26,Which book did Jolene read in January 2023?,2,conv-48,conv-48_session_4_D4:23,dev
+conv-48_qa_27,When was Jolene in Bogota?,2,conv-48,conv-48_session_4_D4:33,dev
+conv-48_qa_28,In what country was Jolene during summer 2022?,3,conv-48,conv-48_session_4_D4:33,dev
+conv-48_qa_29,When did Jolene have a mini-retreat to reflect on her career?,2,conv-48,conv-48_session_5_D5:1,dev
+conv-48_qa_30,When did Jolene have a dinner and drinks with her friends?,2,conv-48,conv-48_session_6_D6:1,dev
+conv-48_qa_31,When was the last photo of Deborah and Karlie taken?,2,conv-48,conv-48_session_6_D6:8,dev
+conv-48_qa_32,When was Deborah in Bali?,2,conv-48,conv-48_session_6_D6:10,dev
+conv-48_qa_33,How long have Jolene and her partner been together?,4,conv-48,conv-48_session_7_D7:7,dev
+conv-48_qa_34,Which year did Jolene and her partner start dating?,2,conv-48,conv-48_session_7_D7:7,dev
+conv-48_qa_35,When did Deborah go for her first morning jog in a nearby park?,2,conv-48,conv-48_session_7_D7:18,dev
+conv-48_qa_36,How old is Jolene?,3,conv-48,conv-48_session_8_D8:2;conv-48_session_13_D13:5;conv-48_session_21_D21:6;conv-48_session_21_D21:8;conv-48_session_22_D22:6;conv-48_session_22_D22:14;conv-48_session_24_D24:2;conv-48_session_24_D24:14;conv-48_session_25_D25:5;conv-48_session_26_D26:6,dev
+conv-48_qa_37,When did Jolene take Seraphim to the park?,2,conv-48,conv-48_session_8_D8:8,dev
+conv-48_qa_38,When did Deborah start the yoga class in the neighborhood?,2,conv-48,conv-48_session_9_D9:5,dev
+conv-48_qa_39,What time management techniques do Deborah and Jolene use?,1,conv-48,conv-48_session_10_D10:4;conv-48_session_10_D10:5;conv-48_session_10_D10:6;conv-48_session_10_D10:13;conv-48_session_18_D18:3,dev
+conv-48_qa_40,Does Deborah live close to the beach or the mountains?,3,conv-48,conv-48_session_10_D10:17,dev
+conv-48_qa_41,What ways do Deborah and Jolene use to enhance their yoga practice?,1,conv-48,conv-48_session_11_D11:4;conv-48_session_11_D11:7;conv-48_session_28_D28:16;conv-48_session_28_D28:18,dev
+conv-48_qa_42,What music pieces does Deborah listen to during her yoga practice?,4,conv-48,conv-48_session_11_D11:8;conv-48_session_11_D11:10,dev
+conv-48_qa_43,When did Deborah go for a bicycle ride with Anna?,2,conv-48,conv-48_session_12_D12:1,dev
+conv-48_qa_44,When did Deborah go to an art show with Anna?,2,conv-48,conv-48_session_12_D12:1,dev
+conv-48_qa_45,When did Jolene finish her robotics project?,2,conv-48,conv-48_session_13_D13:1,dev
+conv-48_qa_46,How long did Jolene work on the robotics project given to her by her Professor?,2,conv-48,conv-48_session_3_D3:1;conv-48_session_12_D12:10;conv-48_session_13_D13:1,dev
+conv-48_qa_47,When did Jolene do yoga at Talkeetna?,2,conv-48,conv-48_session_13_D13:15,dev
+conv-48_qa_48,Which US state did Jolene visit during her internship?,3,conv-48,conv-48_session_13_D13:15,dev
+conv-48_qa_49,How long has Jolene been doing yoga and meditation?,4,conv-48,conv-48_session_13_D13:17,dev
+conv-48_qa_50,Which year did Jolene start practicing yoga?,2,conv-48,conv-48_session_13_D13:17,dev
+conv-48_qa_51,When did Jolene buy a new aquarium for Seraphim?,2,conv-48,conv-48_session_14_D14:4,dev
+conv-48_qa_52,When did Jolene lose a lot of progress in her work?,2,conv-48,conv-48_session_16_D16:2,dev
+conv-48_qa_53,When did Jolene adopt her snake Susie?,2,conv-48,conv-48_session_16_D16:6;conv-48_session_28_D28:26,dev
+conv-48_qa_54,Which pet did Jolene adopt first - Susie or Seraphim?,2,conv-48,conv-48_session_2_D2:24;conv-48_session_2_D2:28;conv-48_session_16_D16:6,dev
+conv-48_qa_55,Which pet did Jolene adopt more recently - Susie or Seraphim?,2,conv-48,conv-48_session_2_D2:24;conv-48_session_2_D2:28;conv-48_session_16_D16:6,dev
+conv-48_qa_56,When did Deborah lead a meditation session during the sunset?,2,conv-48,conv-48_session_18_D18:8,dev
+conv-48_qa_57,When did Jolene gift her partner a new console?,2,conv-48,conv-48_session_19_D19:2,dev
+conv-48_qa_58,What games does Jolene recommend for Deborah?,4,conv-48,conv-48_session_19_D19:8;conv-48_session_19_D19:10,dev
+conv-48_qa_59,What do Deborah and her husband do together?,4,conv-48,conv-48_session_19_D19:13;conv-48_session_19_D19:15,dev
+conv-48_qa_60,When did Deborah go to a yoga retreat near her mom's place?,2,conv-48,conv-48_session_21_D21:1,dev
+conv-48_qa_61,What projects is Jolene planning for next year?,4,conv-48,conv-48_session_22_D22:10;conv-48_session_22_D22:12,dev
+conv-48_qa_62,Where did Deborah get her cats?,4,conv-48,conv-48_session_22_D22:23;conv-48_session_22_D22:25,dev
+conv-48_qa_63,How old are Deborah's cats?,4,conv-48,conv-48_session_22_D22:27;conv-48_session_22_D22:29,dev
+conv-48_qa_64,Does Deborah like cats?,4,conv-48,conv-48_session_22_D22:27;conv-48_session_15_D15:25,dev
+conv-48_qa_65,Which country was Jolene located in during the last week of August 2023?,2,conv-48,conv-48_session_23_D23:1,dev
+conv-48_qa_66,When did Jolene and her partner return home from Rio de Janeiro?,2,conv-48,conv-48_session_23_D23:1,dev
+conv-48_qa_67,What was Jolene doing with her partner in Rio de Janeiro?,4,conv-48,conv-48_session_23_D23:15;conv-48_session_23_D23:1;conv-48_session_23_D23:3;conv-48_session_23_D23:17,dev
+conv-48_qa_68,When did Deborah visit Brazil?,2,conv-48,conv-48_session_23_D23:18,dev
+conv-48_qa_69,Have Deborah and Jolene been to Rio de Janeiro?,4,conv-48,conv-48_session_23_D23:1;conv-48_session_23_D23:3;conv-48_session_23_D23:18,dev
+conv-48_qa_70,Is the friend who wrote Deborah the motivational quote no longer alive?,3,conv-48,conv-48_session_23_D23:22,dev
+conv-48_qa_71,When did Deborah go to a community meetup?,2,conv-48,conv-48_session_24_D24:1,dev
+conv-48_qa_72,When did Jolene's parents give her first console?,4,conv-48,conv-48_session_24_D24:6,dev
+conv-48_qa_73,Did Jolene teach herself how to play the console?,1,conv-48,conv-48_session_2_D2:28;conv-48_session_24_D24:8,dev
+conv-48_qa_74,What do Deborah and Jolene plan to try when they meet in a new cafe?,4,conv-48,conv-48_session_26_D26:10;conv-48_session_26_D26:12,dev
+conv-48_qa_75,What card game is Deborah talking about?,3,conv-48,conv-48_session_27_D27:12,dev
+conv-48_qa_76,When did Jolene and her partner try scuba diving lessons?,2,conv-48,conv-48_session_29_D29:4,dev
+conv-48_qa_77,Where did Jolene and her partner find a cool diving spot?,1,conv-48,conv-48_session_27_D27:1;conv-48_session_29_D29:4,dev
+conv-48_qa_78,Where did Jolene and her partner spend most of September 2023?,2,conv-48,conv-48_session_2_D2:1,dev
+conv-48_qa_79,Has Deborah tried surfing?,1,conv-48,conv-48_session_28_D28:11;conv-48_session_29_D29:25,dev
+conv-48_qa_80,Has Jolene tried surfing?,1,conv-48,conv-48_session_10_D10:20;conv-48_session_29_D29:26;conv-48_session_29_D29:30,dev
+conv-48_qa_81,When did the Deboran and Jolene agree to go surfing?,2,conv-48,conv-48_session_29_D29:34,dev
+conv-48_qa_82,Which locations does Deborah practice her yoga at?,1,conv-48,conv-48_session_2_D2:11;conv-48_session_2_D2:13;conv-48_session_3_D3:6;conv-48_session_4_D4:12;conv-48_session_6_D6:10,dev
+conv-48_qa_83,What kind of professional activities does Jolene participate in to gain more experience in her field?,1,conv-48,conv-48_session_21_D21:6;conv-48_session_13_D13:5,dev
+conv-48_qa_84,What kind of engineering projects has Jolene worked on?,1,conv-48,conv-48_session_1_D1:2;conv-48_session_3_D3:1;conv-48_session_4_D4:5;conv-48_session_17_D17:10;conv-48_session_17_D17:12,dev
+conv-48_qa_85,Which community activities have Deborah and Anna participated in?,1,conv-48,conv-48_session_4_D4:12;conv-48_session_4_D4:16;conv-48_session_15_D15:1,dev
+conv-48_qa_86,What gifts has Deborah received?,1,conv-48,conv-48_session_2_D2:7;conv-48_session_2_D2:9;conv-48_session_4_D4:26;conv-48_session_23_D23:20;conv-48_session_23_D23:22,dev
+conv-48_qa_87,Which countries has Deborah traveled to?,1,conv-48,conv-48_session_6_D6:10;conv-48_session_23_D23:18,dev
+conv-48_qa_88,What activities does Deborah pursue besides practicing and teaching yoga?,1,conv-48,conv-48_session_12_D12:1;conv-48_session_15_D15:1;conv-48_session_15_D15:11;conv-48_session_28_D28:11;conv-48_session_29_D29:1,dev
+conv-48_qa_89,What are the names of Jolene's snakes?,4,conv-48,conv-48_session_2_D2:20;conv-48_session_2_D2:22,dev
+conv-48_qa_90,What are Jolene's favorite books?,4,conv-48,conv-48_session_4_D4:21;conv-48_session_4_D4:23,dev
+conv-48_qa_91,What music pieces does Deborah listen to during her yoga practice?,4,conv-48,conv-48_session_11_D11:8;conv-48_session_11_D11:10,dev
+conv-48_qa_92,What games does Jolene recommend for Deborah?,4,conv-48,conv-48_session_19_D19:8;conv-48_session_19_D19:10,dev
+conv-48_qa_93,What projects is Jolene planning for next year?,4,conv-48,conv-48_session_22_D22:10;conv-48_session_22_D22:12,dev
+conv-48_qa_94,Where did Deborah get her cats?,4,conv-48,conv-48_session_22_D22:23;conv-48_session_22_D22:25,dev
+conv-48_qa_95,How old are Deborah's cats?,4,conv-48,conv-48_session_22_D22:27;conv-48_session_22_D22:29,dev
+conv-48_qa_96,What was Jolene doing with her partner in Rio de Janeiro?,4,conv-48,conv-48_session_23_D23:15;conv-48_session_23_D23:1;conv-48_session_23_D23:3;conv-48_session_23_D23:17,dev
+conv-48_qa_97,Have Deborah and Jolene been to Rio de Janeiro?,4,conv-48,conv-48_session_23_D23:1;conv-48_session_23_D23:3;conv-48_session_23_D23:18,dev
+conv-48_qa_98,When did Jolene's parents give her first console?,4,conv-48,conv-48_session_24_D24:6,dev
+conv-48_qa_99,What do Deborah and Jolene plan to try when they meet in a new cafe?,4,conv-48,conv-48_session_26_D26:10;conv-48_session_26_D26:12,dev
+conv-48_qa_100,"What project did Jolene finish last week before 23 January, 2023?",4,conv-48,conv-48_session_1_D1:2,dev
+conv-48_qa_101,When did Jolene buy her pet snake?,4,conv-48,conv-48_session_2_D2:24,dev
+conv-48_qa_102,"What project was Jolene working on as of 1 February, 2023?",4,conv-48,conv-48_session_3_D3:1,dev
+conv-48_qa_103,Where did Deborah meet her new neighbor Anna?,4,conv-48,conv-48_session_3_D3:6,dev
+conv-48_qa_104,What activity did Jolene and her partner plan to do together instead of resuming yoga?,4,conv-48,conv-48_session_3_D3:11,dev
+conv-48_qa_105,"What milestone did Jolene achieve recently on 4 February, 2023?",4,conv-48,conv-48_session_4_D4:3,dev
+conv-48_qa_106,"What is Jolene's favorite book which she mentioned on 4 February, 2023?",4,conv-48,conv-48_session_4_D4:21,dev
+conv-48_qa_107,What does Deborah bring with her whenever she comes to reflect on her mom?,4,conv-48,conv-48_session_4_D4:36,dev
+conv-48_qa_108,"What new outlook did Jolene gain after her mini retreat on 9 February, 2023?",4,conv-48,conv-48_session_5_D5:3,dev
+conv-48_qa_109,"What cool stuff did Jolene accomplish at the retreat on 9 February, 2023?",4,conv-48,conv-48_session_5_D5:5,dev
+conv-48_qa_110,"What idea did Jolene have to help underprivileged kids learn about STEM subjects on 9 February, 2023?",4,conv-48,conv-48_session_5_D5:7,dev
+conv-48_qa_111,How does Jolene plan to involve local engineers in her idea of teaching STEM to underprivileged kids?,4,conv-48,conv-48_session_5_D5:9,dev
+conv-48_qa_112,What gave Deborah peace in the garden she visited?,4,conv-48,conv-48_session_6_D6:4,dev
+conv-48_qa_113,Why did Deborah spend time in the garden?,4,conv-48,conv-48_session_6_D6:4,dev
+conv-48_qa_114,How did Jolene and her partner initially meet?,4,conv-48,conv-48_session_7_D7:9,dev
+conv-48_qa_115,What activity does Deborah incorporate into her daily routine after going for a morning jog in the park?,4,conv-48,conv-48_session_7_D7:18,dev
+conv-48_qa_116,"According to Jolene, what does exercise help her to feel?",4,conv-48,conv-48_session_7_D7:20,dev
+conv-48_qa_117,"What did Deb share a photo of, which brought a smile to Jolene's face?",4,conv-48,conv-48_session_8_D8:22,dev
+conv-48_qa_118,What is one of Jolene's favorite dishes?,4,conv-48,conv-48_session_8_D8:2,dev
+conv-48_qa_119,What picture did Jolene share related to feeling overwhelmed?,4,conv-48,conv-48_session_8_D8:16,dev
+conv-48_qa_120,What did Jolene and Deb discuss as a helpful strategy for studying and time management?,4,conv-48,conv-48_session_8_D8:19,dev
+conv-48_qa_121,"What did Jolene ask Deb to help with on 13 March, 2023?",4,conv-48,conv-48_session_9_D9:14,dev
+conv-48_qa_122,What method does Deb suggest Jolene to try for organizing tasks based on importance and urgency?,4,conv-48,conv-48_session_10_D10:13,dev
+conv-48_qa_123,What did Jolene and Anna discuss while watching the sunset by the sea?,4,conv-48,conv-48_session_10_D10:17,dev
+conv-48_qa_124,How does Jolene plan to pursue her dream of learning to surf?,4,conv-48,conv-48_session_10_D10:20,dev
+conv-48_qa_125,What did Deborah buy to enhance her yoga practice besides the props?,4,conv-48,conv-48_session_11_D11:4,dev
+conv-48_qa_126,What type of music does Deborah find helpful during her yoga practice?,4,conv-48,conv-48_session_11_D11:8,dev
+conv-48_qa_127,Who are the musicians mentioned by Jolene that she enjoys listening to during her yoga practice?,4,conv-48,conv-48_session_11_D11:9,dev
+conv-48_qa_128,What album does Deborah recommend for meditation and deep relaxation?,4,conv-48,conv-48_session_11_D11:10,dev
+conv-48_qa_129,"Which show did Deborah go to with a friend on 9 April, 2023?",4,conv-48,conv-48_session_12_D12:1,dev
+conv-48_qa_130,What does Deborah find comforting about going to art shows?,4,conv-48,conv-48_session_12_D12:3,dev
+conv-48_qa_131,How does Jolene describe the time spent with her snakes and partner?,4,conv-48,conv-48_session_12_D12:6,dev
+conv-48_qa_132,What does Jolene enjoy doing with her partner after a long day?,4,conv-48,conv-48_session_12_D12:6,dev
+conv-48_qa_133,What is Jolene currently doing in June 2023?,4,conv-48,conv-48_session_13_D13:5,dev
+conv-48_qa_134,For how long has Jolene had Seraphim as a pet?,4,conv-48,conv-48_session_14_D14:6,dev
+conv-48_qa_135,How does Jolene feel when spending time with Seraphim?,4,conv-48,conv-48_session_14_D14:6,dev
+conv-48_qa_136,Which new yoga pose did Deborah share a photo of?,4,conv-48,conv-48_session_14_D14:15,dev
+conv-48_qa_137,What group activity did Deborah start with Anna?,4,conv-48,conv-48_session_15_D15:1,dev
+conv-48_qa_138,What made being part of the running group easy for Deborah to stay motivated?,4,conv-48,conv-48_session_15_D15:3,dev
+conv-48_qa_139,Why did Jolene decide to get a snake as a pet?,4,conv-48,conv-48_session_15_D15:18,dev
+conv-48_qa_140,What is the favorite game Jolene plays with her partner?,4,conv-48,conv-48_session_15_D15:10,dev
+conv-48_qa_141,What activity does Deborah do with her cats?,4,conv-48,conv-48_session_15_D15:27,dev
+conv-48_qa_142,How does Jolene describe the feeling of finding her snake snuggled under the bed after it got out?,4,conv-48,conv-48_session_15_D15:20,dev
+conv-48_qa_143,Why does Deborah take her cats out for a run in the park every day?,4,conv-48,conv-48_session_15_D15:27,dev
+conv-48_qa_144,"How did Jolene come to have her pet, Susie?",4,conv-48,conv-48_session_16_D16:6,dev
+conv-48_qa_145,What activities have been helping Jolene stay distracted during tough times?,4,conv-48,conv-48_session_16_D16:4,dev
+conv-48_qa_146,What kind of yoga routine does Deborah recommend to Jolene?,4,conv-48,conv-48_session_16_D16:15,dev
+conv-48_qa_147,What did Jolene design inspired by their love for space and engines?,4,conv-48,conv-48_session_17_D17:6,dev
+conv-48_qa_148,What journal has Jolene been using to help track tasks and stay organized?,4,conv-48,conv-48_session_18_D18:3,dev
+conv-48_qa_149,What game did Jolene recommend for being calming and cute?,4,conv-48,conv-48_session_19_D19:8,dev
+conv-48_qa_150,What game did Jolene suggest as an awesome open-world game for the Nintendo Switch?,4,conv-48,conv-48_session_19_D19:8,dev
+conv-48_qa_151,What did Deborah and her husband use to play to bond and make memories?,4,conv-48,conv-48_session_19_D19:11,dev
+conv-48_qa_152,What is special about the bench at the park near Deborah's house?,4,conv-48,conv-48_session_19_D19:18,dev
+conv-48_qa_153,What did Deborah and her mom chat about at their special bench in the park?,4,conv-48,conv-48_session_19_D19:19,dev
+conv-48_qa_154,What feeling does Deborah get when she thinks about the time spent with her mom at their special spot?,4,conv-48,conv-48_session_19_D19:21,dev
+conv-48_qa_155,What habits does Jolene practice to feel balanced?,4,conv-48,conv-48_session_20_D20:12,dev
+conv-48_qa_156,Which yoga pose is Jolene a fan of for rest and calmness?,4,conv-48,conv-48_session_20_D20:19,dev
+conv-48_qa_157,How long has Jolene been doing yoga?,4,conv-48,conv-48_session_20_D20:21,dev
+conv-48_qa_158,What did Jolene participate in recently that provided her with a rewarding experience?,4,conv-48,conv-48_session_21_D21:6,dev
+conv-48_qa_159,How did Jolene feel after receiving positive feedback at the virtual conference?,4,conv-48,conv-48_session_21_D21:8,dev
+conv-48_qa_160,What kind of event did Jolene present at recently?,4,conv-48,conv-48_session_21_D21:6,dev
+conv-48_qa_161,"What did Jolene's mom stress the value of, which she wants to keep in mind for her engineering projects?",4,conv-48,conv-48_session_22_D22:6,dev
+conv-48_qa_162,What type of projects is Jolene interested in getting involved in the future?,4,conv-48,conv-48_session_22_D22:8,dev
+conv-48_qa_163,"How did Deborah get Luna, one of her cats?",4,conv-48,conv-48_session_22_D22:25,dev
+conv-48_qa_164,How old is Max?,4,conv-48,conv-48_session_22_D22:27,dev
+conv-48_qa_165,"What type of classes did Jolene and her partner check out during their trip to Rio de Janeiro on 30 August, 2023?",4,conv-48,conv-48_session_23_D23:1,dev
+conv-48_qa_166,What type of place does Jolene visit to meditate?,4,conv-48,conv-48_session_23_D23:9,dev
+conv-48_qa_167,"What was the new plant Jolene got used as a reminder for on 30 August, 2023?",4,conv-48,conv-48_session_23_D23:29,dev
+conv-48_qa_168,"Why did Jolene get the new plant on 30 August, 2023?",4,conv-48,conv-48_session_23_D23:29,dev
+conv-48_qa_169,What has Jolene been focusing on lately besides studying?,4,conv-48,conv-48_session_24_D24:2,dev
+conv-48_qa_170,How did Deborah's mom support her yoga practice when she first started?,4,conv-48,conv-48_session_24_D24:5,dev
+conv-48_qa_171,What was the video game console that Jolene's parents got her at age 10?,4,conv-48,conv-48_session_24_D24:6,dev
+conv-48_qa_172,What was one of Jolene's favorite games to play with her mom on the nintendo wii game system?,4,conv-48,conv-48_session_24_D24:10,dev
+conv-48_qa_173,What course did Jolene sign up for on 6 September 2023?,4,conv-48,conv-48_session_25_D25:1,dev
+conv-48_qa_174,"Why did Jolene have to reschedule their meeting with Deborah on September 8, 2023?",4,conv-48,conv-48_session_26_D26:15,dev
+conv-48_qa_175,Where did Jolene and her partner travel for a few weeks in September 2023?,4,conv-48,conv-48_session_27_D27:1,dev
+conv-48_qa_176,What was the main focus of the session that stood out to Jolene during the retreat?,4,conv-48,conv-48_session_27_D27:5,dev
+conv-48_qa_177,How did Jolene feel about her progress in practicing mindfulness and gratitude?,4,conv-48,conv-48_session_27_D27:9,dev
+conv-48_qa_178,What positive change did Jolene experience during the retreat?,4,conv-48,conv-48_session_27_D27:1,dev
+conv-48_qa_179,What did Jolene recently play that she described to Deb?,4,conv-48,conv-48_session_27_D27:12,dev
+conv-48_qa_180,What did Deborah do with their mom's old friends?,4,conv-48,conv-48_session_28_D28:7,dev
+conv-48_qa_181,Where did Deborah get married?,4,conv-48,conv-48_session_28_D28:11,dev
+conv-48_qa_182,What does yoga on the beach provide for Deborah?,4,conv-48,conv-48_session_28_D28:15,dev
+conv-48_qa_183,How does Jolene describe their home room?,4,conv-48,conv-48_session_28_D28:22,dev
+conv-48_qa_184,"What new activity did Deborah and her neighbor organize for the community on 16 September, 2023?",4,conv-48,conv-48_session_29_D29:1,dev
+conv-48_qa_185,What was Deborah's mom passionate about?,4,conv-48,conv-48_session_29_D29:7,dev
+conv-48_qa_186,What food did Deborah's mom make for her on birthdays?,4,conv-48,conv-48_session_29_D29:9,dev
+conv-48_qa_187,What kind of cookies did Jolene used to bake with someone close to her?,4,conv-48,conv-48_session_29_D29:12,dev
+conv-48_qa_188,What outdoor activity did Jolene suggest doing together with Deborah?,4,conv-48,conv-48_session_29_D29:27,dev
+conv-48_qa_189,"What activity did Deborah enjoy at the music festival with their pals on September 20, 2023?",4,conv-48,conv-48_session_30_D30:1,dev
+conv-48_qa_190,What did Deborah find freeing at the music festival?,4,conv-48,conv-48_session_30_D30:1,dev
+conv-49_qa_0,What kind of car does Evan drive?,1,conv-49,conv-49_session_1_D1:2;conv-49_session_1_D1:4;conv-49_session_18_D18:1;conv-49_session_18_D18:3;conv-49_session_22_D22:2,test
+conv-49_qa_1,What kinds of things did Evan have broken?,1,conv-49,conv-49_session_18_D18:1;conv-49_session_18_D18:2;conv-49_session_18_D18:3;conv-49_session_1_D1:2;conv-49_session_1_D1:4,test
+conv-49_qa_2,Where has Evan been on roadtrips with his family?,1,conv-49,conv-49_session_1_D1:2;conv-49_session_1_D1:4;conv-49_session_2_D2:1,test
+conv-49_qa_3,How many Prius has Evan owned?,1,conv-49,conv-49_session_1_D1:2;conv-49_session_1_D1:4,test
+conv-49_qa_4,Which hobby did Sam take up in May 2023?,2,conv-49,conv-49_session_1_D1:11,test
+conv-49_qa_5,Which country was Evan visiting in May 2023?,3,conv-49,conv-49_session_2_D2:1,test
+conv-49_qa_6,How many roadtrips did Evan take in May 2023?,1,conv-49,conv-49_session_1_D1:4;conv-49_session_2_D2:1,test
+conv-49_qa_7,What new hobbies did Sam consider trying?,1,conv-49,conv-49_session_1_D1:11;conv-49_session_2_D2:10;conv-49_session_10_D10:8;conv-49_session_13_D13:6;conv-49_session_13_D13:8;conv-49_session_20_D20:6;conv-49_session_7_D7:2;conv-49_session_7_D7:4;conv-49_session_7_D7:6;conv-49_session_21_D21:19,test
+conv-49_qa_8,What hobby did Evan start practicing a few years ago that he enjoys?,1,conv-49,conv-49_session_1_D1:14;conv-49_session_1_D1:16;conv-49_session_8_D8:13;conv-49_session_8_D8:14,test
+conv-49_qa_9,When did Evan go to Jasper with his family?,2,conv-49,conv-49_session_2_D2:1,test
+conv-49_qa_10,"Which type of vacation would Evan prefer with his family, walking tours in metropolitan cities or camping trip in the outdoors?",3,conv-49,conv-49_session_2_D2:1;conv-49_session_2_D2:3;conv-49_session_19_D19:1;conv-49_session_19_D19:3,test
+conv-49_qa_11,What health issue did Sam face that motivated him to change his lifestyle?,1,conv-49,conv-49_session_2_D2:6;conv-49_session_3_D3:4;conv-49_session_24_D24:12;conv-49_session_24_D24:14;conv-49_session_5_D5:5;conv-49_session_6_D6:2;conv-49_session_7_D7:2;conv-49_session_7_D7:12;conv-49_session_8_D8:1;conv-49_session_10_D10:6;conv-49_session_12_D12:1;conv-49_session_13_D13:2;conv-49_session_14_D14:1;conv-49_session_15_D15:1;conv-49_session_16_D16:3;conv-49_session_17_D17:3;conv-49_session_24_D24:20;conv-49_session_25_D25:1;conv-49_session_25_D25:3,test
+conv-49_qa_12,When did Sam first go to the doctor and find out he had a weight problem?,2,conv-49,conv-49_session_2_D2:6,test
+conv-49_qa_13,When did Evan have his sudden heart palpitation incident that really shocked him up?,2,conv-49,conv-49_session_3_D3:1,test
+conv-49_qa_14,What is Evan's favorite food?,1,conv-49,conv-49_session_3_D3:3;conv-49_session_5_D5:5;conv-49_session_23_D23:15;conv-49_session_22_D22:12,test
+conv-49_qa_15,What kind of unhealthy snacks does Sam enjoy eating?,1,conv-49,conv-49_session_3_D3:4,test
+conv-49_qa_16,What recurring issue frustrates Sam at the grocery store?,1,conv-49,conv-49_session_3_D3:16;conv-49_session_22_D22:19,test
+conv-49_qa_17,When did Sam's friends mock him for being overweight?,2,conv-49,conv-49_session_4_D4:1,test
+conv-49_qa_18,What kind of healthy food suggestions has Evan given to Sam?,1,conv-49,conv-49_session_3_D3:5;conv-49_session_4_D4:10;conv-49_session_22_D22:10;conv-49_session_22_D22:14;conv-49_session_24_D24:15,test
+conv-49_qa_19,"Considering their conversations and personal growth, what advice might Evan and Sam give to someone facing a major life transition or challenge?",3,conv-49,conv-49_session_3_D3:10;conv-49_session_3_D3:15;conv-49_session_22_D22:1;conv-49_session_8_D8:17;conv-49_session_8_D8:22;conv-49_session_9_D9:8;conv-49_session_9_D9:11;conv-49_session_14_D14:7;conv-49_session_14_D14:12;conv-49_session_12_D12:7;conv-49_session_12_D12:11,test
+conv-49_qa_20,"In light of the health and dietary changes discussed, what would be an appropriate gift for both Evan and Sam to encourage their healthy lifestyles?",3,conv-49,conv-49_session_2_D2:9;conv-49_session_3_D3:1;conv-49_session_3_D3:3;conv-49_session_3_D3:5;conv-49_session_4_D4:10;conv-49_session_14_D14:12;conv-49_session_5_D5:9;conv-49_session_7_D7:3;conv-49_session_7_D7:2;conv-49_session_7_D7:5;conv-49_session_7_D7:12;conv-49_session_8_D8:1;conv-49_session_8_D8:5;conv-49_session_8_D8:7;conv-49_session_8_D8:8;conv-49_session_8_D8:12;conv-49_session_9_D9:1,test
+conv-49_qa_21,How does Evan describe the woman and his feelings for her that he met in Canada?,1,conv-49,conv-49_session_5_D5:1;conv-49_session_5_D5:3;conv-49_session_23_D23:3,test
+conv-49_qa_22,When Evan did meet his future wife?,2,conv-49,conv-49_session_5_D5:1,test
+conv-49_qa_23,When did Sam start working out at the gym?,2,conv-49,conv-49_session_4_D4:15,test
+conv-49_qa_24,What significant event happened in Sam's life towards the end of summer 2023?,2,conv-49,conv-49_session_5_D5:1,test
+conv-49_qa_25,Which year did Evan start taking care of his health seriously?,2,conv-49,conv-49_session_5_D5:6;conv-49_session_5_D5:7,test
+conv-49_qa_26,What motivates Evan to take care of his health?,1,conv-49,conv-49_session_5_D5:9;conv-49_session_5_D5:11;conv-49_session_5_D5:13,test
+conv-49_qa_27,What electronic device could Evan gift Sam to help him keep up with his fitness goals?,3,conv-49,conv-49_session_5_D5:7,test
+conv-49_qa_28,What kind of writing does Sam do to relax and cope with his health issues?,1,conv-49,conv-49_session_6_D6:4;conv-49_session_11_D11:7,test
+conv-49_qa_29,"Who did Evan meet on his trip to Canada, and who did he come back from Canada with?",1,conv-49,conv-49_session_5_D5:1;conv-49_session_6_D6:1,test
+conv-49_qa_30,When Evan get back from a vacation with his SO?,2,conv-49,conv-49_session_6_D6:1,test
+conv-49_qa_31,How might Evan and Sam's experiences with health and lifestyle changes influence their approach to stress and challenges?,3,conv-49,conv-49_unknown_D9:1 D4:4 D4:6,test
+conv-49_qa_32,What recurring frustration does Evan experience?,1,conv-49,conv-49_session_6_D6:13;conv-49_session_21_D21:20,test
+conv-49_qa_33,What is the recurring dream that Sam keeps having?,1,conv-49,conv-49_session_6_D6:14;conv-49_session_24_D24:22,test
+conv-49_qa_34,What accidents has Evan's son faced lately?,1,conv-49,conv-49_session_7_D7:1;conv-49_session_20_D20:3,test
+conv-49_qa_35,When was Evan's son injured at soccer?,2,conv-49,conv-49_session_7_D7:1,test
+conv-49_qa_36,What kind of foods or recipes has Sam recommended to Evan?,1,conv-49,conv-49_session_7_D7:8;conv-49_session_8_D8:7;conv-49_session_23_D23:26,test
+conv-49_qa_37,What kind of healthy meals did Sam start eating after getting a health scare?,1,conv-49,conv-49_session_3_D3:2;conv-49_session_8_D8:1;conv-49_session_7_D7:4;conv-49_session_8_D8:7;conv-49_session_10_D10:2;conv-49_session_11_D11:1;conv-49_session_18_D18:6,test
+conv-49_qa_38,What role does nature and the outdoors play in Evan and Sam's mental well-being?,3,conv-49,conv-49_unknown_D22:1 D22:2 D9:10 D9:11,test
+conv-49_qa_39,How many months lapsed between Sam's first and second doctor's appointment?,2,conv-49,conv-49_session_2_D2:6;conv-49_session_7_D7:2,test
+conv-49_qa_40,When did Evan start taking painting classes?,2,conv-49,conv-49_session_8_D8:12,test
+conv-49_qa_41,Which classes did Evan join in mid-August 2023?,2,conv-49,conv-49_session_8_D8:12,test
+conv-49_qa_42,How did Evan get into painting?,1,conv-49,conv-49_session_1_D1:14;conv-49_session_1_D1:15;conv-49_session_1_D1:16;conv-49_session_8_D8:14,test
+conv-49_qa_43,How often does Sam get health checkups?,3,conv-49,conv-49_session_2_D2:6;conv-49_session_7_D7:2;conv-49_session_12_D12:1,test
+conv-49_qa_44,What kind of subjects does Evan enjoy painting?,1,conv-49,conv-49_session_8_D8:20;conv-49_session_20_D20:13;conv-49_session_20_D20:15;conv-49_session_21_D21:10;conv-49_session_21_D21:14,test
+conv-49_qa_45,Which places in Canada was Evan visiting in July 2023?,2,conv-49,conv-49_session_8_D8:27;conv-49_session_9_D9:8;conv-49_session_9_D9:10,test
+conv-49_qa_46,How do Evan and Sam use creative outlets to cope with life's challenges?,3,conv-49,conv-49_unknown_D21:18 D21:22 D11:15 D11:19,test
+conv-49_qa_47,When did Evan go skiing in Banff?,2,conv-49,conv-49_session_8_D8:26;conv-49_session_8_D8:27;conv-49_session_8_D8:28,test
+conv-49_qa_48,What new diet and lifestyle change did Sam adopt over time?,1,conv-49,conv-49_session_8_D8:1;conv-49_session_9_D9:1;conv-49_session_21_D21:9;conv-49_session_22_D22:1,test
+conv-49_qa_49,Who was injured in Evan's family?,1,conv-49,conv-49_session_7_D7:1;conv-49_session_7_D7:9;conv-49_session_7_D7:10;conv-49_session_9_D9:2;conv-49_session_11_D11:2;conv-49_session_11_D11:3,test
+conv-49_qa_50,What kind of hobbies does Evan pursue?,1,conv-49,conv-49_session_1_D1:14;conv-49_session_1_D1:6;conv-49_session_4_D4:8;conv-49_session_6_D6:1;conv-49_session_8_D8:30;conv-49_session_9_D9:6;conv-49_session_25_D25:8;conv-49_session_25_D25:10,test
+conv-49_qa_51,"What challenges does Sam face in his quest for a healthier lifestyle, and how does he address them?",3,conv-49,conv-49_session_4_D4:2;conv-49_session_4_D4:6;conv-49_session_14_D14:1;conv-49_session_14_D14:2,test
+conv-49_qa_52,Which activity do Evan and Sam plan on doing together during September 2023?,2,conv-49,conv-49_session_10_D10:12;conv-49_session_10_D10:13;conv-49_session_10_D10:14,test
+conv-49_qa_53,When did Evan and Sam decide to paint together?,2,conv-49,conv-49_session_10_D10:12;conv-49_session_10_D10:13;conv-49_session_10_D10:14,test
+conv-49_qa_54,What personal health incidents does Evan face in 2023?,1,conv-49,conv-49_session_3_D3:1;conv-49_session_9_D9:2;conv-49_session_11_D11:2,test
+conv-49_qa_55,What recurring adventure does Evan have with strangers?,1,conv-49,conv-49_session_11_D11:6;conv-49_session_14_D14:2,test
+conv-49_qa_56,What is Sam's persistent problem with his phone?,1,conv-49,conv-49_session_11_D11:15;conv-49_session_14_D14:1,test
+conv-49_qa_57,Which US state was Sam travelling in during October 2023?,3,conv-49,conv-49_session_13_D13:14,test
+conv-49_qa_58,When did Evan start lifting weights?,2,conv-49,conv-49_session_12_D12:2,test
+conv-49_qa_59,When did Sam and his friend decide to try kayaking?,2,conv-49,conv-49_session_13_D13:10,test
+conv-49_qa_60,Which new activity does Sam take up in October 2023?,2,conv-49,conv-49_session_13_D13:8,test
+conv-49_qa_61,What kind of stress was Sam dealing with in October 2023?,2,conv-49,conv-49_session_13_D13:4,test
+conv-49_qa_62,What health scares did Sam and Evan experience?,1,conv-49,conv-49_session_3_D3:1;conv-49_session_14_D14:1;conv-49_session_14_D14:2;conv-49_session_17_D17:2,test
+conv-49_qa_63,When was Sam in the ER?,2,conv-49,conv-49_session_14_D14:1,test
+conv-49_qa_64,Which ailment does Sam have to face due to his weight?,1,conv-49,conv-49_session_2_D2:6;conv-49_session_7_D7:2;conv-49_session_12_D12:1;conv-49_session_14_D14:1,test
+conv-49_qa_65,Does Evan live close to a beach or mountains?,3,conv-49,conv-49_session_16_D16:16;conv-49_session_16_D16:18;conv-49_session_16_D16:20,test
+conv-49_qa_66,When did Evan lose his job?,2,conv-49,conv-49_session_16_D16:10,test
+conv-49_qa_67,When did Evan and Sam planned a trip to the beach together?,2,conv-49,conv-49_session_16_D16:24,test
+conv-49_qa_68,"What was Sam doing on December 4, 2023?",2,conv-49,conv-49_session_18_D18:6,test
+conv-49_qa_69,Which two significant life events occur in Evan's life in December 2023 with his partner?,1,conv-49,conv-49_session_19_D19:1;conv-49_session_21_D21:2,test
+conv-49_qa_70,How long did Evan and his partner date before getting married?,2,conv-49,conv-49_session_5_D5:1;conv-49_session_21_D21:1,test
+conv-49_qa_71,Which major holiday season conincides with Evan's wedding?,3,conv-49,conv-49_session_21_D21:2,test
+conv-49_qa_72,Which activity did Sam resume in December 2023 after a long time?,1,conv-49,conv-49_session_20_D20:6;conv-49_session_22_D22:1,test
+conv-49_qa_73,When is Evan planning a big family reunion?,2,conv-49,conv-49_session_19_D19:11,test
+conv-49_qa_74,When did Evan's son fall off his bike?,2,conv-49,conv-49_session_20_D20:3,test
+conv-49_qa_75,When did Evan announce his marriage to his extended family?,2,conv-49,conv-49_session_23_D23:1,test
+conv-49_qa_76,When did Evan finish the painting that's hanging in the exhibit?,2,conv-49,conv-49_session_20_D20:13;conv-49_session_20_D20:15,test
+conv-49_qa_77,How does Evan spend his time with his bride after the wedding?,1,conv-49,conv-49_session_23_D23:15;conv-49_session_23_D23:23;conv-49_session_23_D23:25;conv-49_session_24_D24:9,test
+conv-49_qa_78,Who did Evan tell about his marriage?,1,conv-49,conv-49_session_21_D21:2;conv-49_session_22_D22:4;conv-49_session_22_D22:5;conv-49_session_23_D23:1;conv-49_session_23_D23:5,test
+conv-49_qa_79,When will Evan and his partner have their honeymoon in Canada?,2,conv-49,conv-49_session_23_D23:23,test
+conv-49_qa_80,When did Evan have a drunken night with his friends?,2,conv-49,conv-49_session_24_D24:3,test
+conv-49_qa_81,What is a stress reliever for Evan?,1,conv-49,conv-49_session_1_D1:14;conv-49_session_2_D2:10;conv-49_session_2_D2:11;conv-49_session_2_D2:14;conv-49_session_8_D8:18;conv-49_session_10_D10:8;conv-49_session_11_D11:8;conv-49_session_16_D16:23;conv-49_session_18_D18:7;conv-49_session_24_D24:19;conv-49_session_24_D24:21,test
+conv-49_qa_82,What is a stress reliever for Sam?,1,conv-49,conv-49_session_10_D10:6;conv-49_session_13_D13:2;conv-49_session_13_D13:4;conv-49_session_16_D16:17;conv-49_session_16_D16:23;conv-49_session_18_D18:8,test
+conv-49_qa_83,What type of car did Evan get after his old Prius broke down?,4,conv-49,conv-49_session_1_D1:2,test
+conv-49_qa_84,How did Evan get into watercolor painting?,4,conv-49,conv-49_session_1_D1:16,test
+conv-49_qa_85,What did Evan start doing a few years back as a stress-buster?,4,conv-49,conv-49_session_1_D1:14,test
+conv-49_qa_86,What advice did Evan give Sam about finding a passion?,4,conv-49,conv-49_session_1_D1:18,test
+conv-49_qa_87,"Where did Evan take his family for a road trip on 24 May, 2023?",4,conv-49,conv-49_session_2_D2:1,test
+conv-49_qa_88,What did Evan find relaxing about his road trip to Jasper?,4,conv-49,conv-49_session_2_D2:3,test
+conv-49_qa_89,What habit is Sam trying to change in terms of diet?,4,conv-49,conv-49_session_3_D3:4,test
+conv-49_qa_90,What new suggestion did Evan give to Sam regarding his soda and candy consumption?,4,conv-49,conv-49_session_3_D3:5,test
+conv-49_qa_91,What did Sam agree to try instead of soda and candy?,4,conv-49,conv-49_session_3_D3:6,test
+conv-49_qa_92,What frustrating issue did Sam face at the supermarket?,4,conv-49,conv-49_session_3_D3:16,test
+conv-49_qa_93,What novel is Evan reading that he finds gripping?,4,conv-49,conv-49_session_4_D4:10,test
+conv-49_qa_94,What kind of water does Evan suggest Sam try as an alternative to soda?,4,conv-49,conv-49_session_4_D4:8,test
+conv-49_qa_95,What does the smartwatch help Evan with?,4,conv-49,conv-49_session_5_D5:9,test
+conv-49_qa_96,What does the bonsai tree symbolize for Evan?,4,conv-49,conv-49_session_5_D5:17,test
+conv-49_qa_97,Why did Evan decide to get the bonsai tree?,4,conv-49,conv-49_session_5_D5:17,test
+conv-49_qa_98,"According to Sam, what is more important than perfection?",4,conv-49,conv-49_session_6_D6:6,test
+conv-49_qa_99,What did Evan suggest Sam to check out for insights into his dream?,4,conv-49,conv-49_session_6_D6:15,test
+conv-49_qa_100,What did Evan mention he had been searching for fruitlessly for half an hour?,4,conv-49,conv-49_session_6_D6:13,test
+conv-49_qa_101,What class is Sam taking to learn how to make healthier meals?,4,conv-49,conv-49_session_7_D7:2,test
+conv-49_qa_102,"What dish did Sam make on 18 August, 2023 that turned out flavorful?",4,conv-49,conv-49_session_7_D7:4,test
+conv-49_qa_103,"What kind of recipe did Evan request from Sam on 19 August, 2023?",4,conv-49,conv-49_session_7_D7:7,test
+conv-49_qa_104,"What food did Sam share a photo of on 19 August, 2023?",4,conv-49,conv-49_session_8_D8:1,test
+conv-49_qa_105,What type of painting classes did Evan start taking in 2023?,4,conv-49,conv-49_session_8_D8:12,test
+conv-49_qa_106,What did Evan start painting years ago due to being inspired by a friend's gift?,4,conv-49,conv-49_session_8_D8:14,test
+conv-49_qa_107,What nature concept do watercolor painting classes emphasize according to Evan?,4,conv-49,conv-49_session_8_D8:18,test
+conv-49_qa_108,What type of landscapes does Evan love painting the most?,4,conv-49,conv-49_session_8_D8:20,test
+conv-49_qa_109,What fun activity did Evan mention doing in July 2023?,4,conv-49,conv-49_session_8_D8:26,test
+conv-49_qa_110,What injury did Evan suffer from in August 2023?,4,conv-49,conv-49_session_9_D9:2,test
+conv-49_qa_111,What sports activity has Evan been doing to stay active while dealing with the knee injury?,4,conv-49,conv-49_session_9_D9:6,test
+conv-49_qa_112,What suggestion did Sam give to Evan to help with his knee issue?,4,conv-49,conv-49_session_9_D9:5,test
+conv-49_qa_113,What did Evan suggest Sam try as a calming hobby?,4,conv-49,conv-49_session_10_D10:8,test
+conv-49_qa_114,What did Evan recommend Sam acquire to get started with painting?,4,conv-49,conv-49_session_10_D10:11,test
+conv-49_qa_115,What activity does Evan do to keep himself busy while healing his knee?,4,conv-49,conv-49_session_11_D11:6,test
+conv-49_qa_116,What painting did Evan share with Sam in October?,4,conv-49,conv-49_session_11_D11:8,test
+conv-49_qa_117,What kind of writing does Sam enjoy as a form of expression?,4,conv-49,conv-49_session_11_D11:17,test
+conv-49_qa_118,What electronics issue has been frustrating Sam lately?,4,conv-49,conv-49_session_11_D11:15,test
+conv-49_qa_119,What activity did Evan start one year ago?,4,conv-49,conv-49_session_12_D12:2,test
+conv-49_qa_120,What advice did Evan give to Sam to avoid injuries while starting weightlifting?,4,conv-49,conv-49_session_12_D12:4,test
+conv-49_qa_121,Where did Sam and his mate plan to try kayaking?,4,conv-49,conv-49_session_13_D13:14,test
+conv-49_qa_122,What digestive issue did Sam experience lately?,4,conv-49,conv-49_session_14_D14:1,test
+conv-49_qa_123,What adventurous theme is emerging in Evan's life as mentioned by Sam?,4,conv-49,conv-49_session_14_D14:2,test
+conv-49_qa_124,What does Evan mention about his progress at the gym to Sam?,4,conv-49,conv-49_session_14_D14:8,test
+conv-49_qa_125,How did Evan start his transformation journey two years ago?,4,conv-49,conv-49_session_15_D15:8,test
+conv-49_qa_126,What gift did Evan receive from a close friend?,4,conv-49,conv-49_session_16_D16:10,test
+conv-49_qa_127,Why had Evan been going through a tough time lately?,4,conv-49,conv-49_session_16_D16:10,test
+conv-49_qa_128,How does Evan describe the island he grew up on?,4,conv-49,conv-49_session_17_D17:18,test
+conv-49_qa_129,What was the main reason for Evan's frustration with his new Prius breaking down?,4,conv-49,conv-49_session_18_D18:1,test
+conv-49_qa_130,How did Sam suggest Evan view the setback with his broken Prius?,4,conv-49,conv-49_session_18_D18:5,test
+conv-49_qa_131,What did Sam suggest Evan try for stress relief and flexibility?,4,conv-49,conv-49_session_18_D18:8,test
+conv-49_qa_132,What did Sam offer Evan regarding yoga?,4,conv-49,conv-49_session_18_D18:10,test
+conv-49_qa_133,What news did Evan share with Sam on 9th December 2023?,4,conv-49,conv-49_session_19_D19:1,test
+conv-49_qa_134,What family event is Evan planning for next summer?,4,conv-49,conv-49_session_19_D19:11,test
+conv-49_qa_135,What is the motto of Evan's family?,4,conv-49,conv-49_session_19_D19:7,test
+conv-49_qa_136,"According to Evan, what is important for Sam to believe in concerning his weight?",4,conv-49,conv-49_session_20_D20:9,test
+conv-49_qa_137,Who helped Evan get the painting published in the exhibition?,4,conv-49,conv-49_session_20_D20:17,test
+conv-49_qa_138,What did Sam recently start enjoying to clear his head?,4,conv-49,conv-49_session_21_D21:9,test
+conv-49_qa_139,What did Sam suggest Evan should do with his keys?,4,conv-49,conv-49_session_21_D21:21,test
+conv-49_qa_140,How did Evan feel when he painted the piece with the bird flying over it?,4,conv-49,conv-49_session_21_D21:16,test
+conv-49_qa_141,What did Evan suggest Sam should keep doing to find his own version of love?,4,conv-49,conv-49_session_21_D21:10,test
+conv-49_qa_142,How did Evan describe the process of creating the painting with the bird flying over it?,4,conv-49,conv-49_session_21_D21:16,test
+conv-49_qa_143,What did Evan want to share with his work friends?,4,conv-49,conv-49_session_22_D22:4,test
+conv-49_qa_144,What did Evan share with Sam after their hiking trip?,4,conv-49,conv-49_session_22_D22:1,test
+conv-49_qa_145,What did Evan offer to share with Sam after talking about healthy snacks?,4,conv-49,conv-49_session_22_D22:12,test
+conv-49_qa_146,"What did Evan and his partner share with their extended family on January 5, 2024?",4,conv-49,conv-49_session_23_D23:1,test
+conv-49_qa_147,What was Evan limiting himself to on his new diet?,4,conv-49,conv-49_session_23_D23:15,test
+conv-49_qa_148,What sports activity did Evan and his partner try in a recent weekend?,4,conv-49,conv-49_session_24_D24:9,test
+conv-49_qa_149,What advice did Evan suggest Sam seek from a doctor?,4,conv-49,conv-49_session_24_D24:11;conv-49_session_24_D24:14,test
+conv-49_qa_150,What suggestions did Evan give for low-impact exercises?,4,conv-49,conv-49_session_24_D24:17,test
+conv-49_qa_151,What movie did Sam watch that motivated him to keep up with his routine?,4,conv-49,conv-49_session_24_D24:18,test
+conv-49_qa_152,What activity helped Evan with stress and flexibility?,4,conv-49,conv-49_session_24_D24:19,test
+conv-49_qa_153,What did Evan share a photo of that was taken on a camping trip?,4,conv-49,conv-49_session_25_D25:8,test
+conv-49_qa_154,Why did Evan apologize to his partner?,4,conv-49,conv-49_session_25_D25:2,test
+conv-49_qa_155,How does Evan describe being out on the water while kayaking and watching the sunset?,4,conv-49,conv-49_session_25_D25:10,test
+conv-50_qa_0,When did Calvin first travel to Tokyo?,2,conv-50,conv-50_session_3_D3:1,test
+conv-50_qa_1,What items did Calvin buy in March 2023?,1,conv-50,conv-50_session_1_D1:3;conv-50_session_2_D2:1,test
+conv-50_qa_2,When did Dave see Aerosmith perform live?,2,conv-50,conv-50_session_2_D2:10,test
+conv-50_qa_3,Which bands has Dave enjoyed listening to?,1,conv-50,conv-50_session_2_D2:10;conv-50_session_23_D23:9,test
+conv-50_qa_4,Which country do Calvin and Dave want to meet in?,3,conv-50,conv-50_session_3_D3:9;conv-50_session_3_D3:10,test
+conv-50_qa_5,What are Dave's dreams?,1,conv-50,conv-50_session_4_D4:5;conv-50_session_4_D4:5;conv-50_session_5_D5:5,test
+conv-50_qa_6,Which types of cars does Dave like the most?,1,conv-50,conv-50_session_4_D4:5;conv-50_session_1_D1:2;conv-50_session_3_D3:12;conv-50_session_4_D4:7,test
+conv-50_qa_7,Does Dave's shop employ a lot of people?,3,conv-50,conv-50_session_4_D4:17,test
+conv-50_qa_8,When did Dave start his car maintenance shop?,2,conv-50,conv-50_session_4_D4:1,test
+conv-50_qa_9,When did a mishap occur with Calvin's musical gear and favorite mic?,2,conv-50,conv-50_session_6_D6:3,test
+conv-50_qa_10,When did Calvin's place get flooded in Tokyo?,2,conv-50,conv-50_session_6_D6:3,test
+conv-50_qa_11,What mishaps has Calvin run into?,1,conv-50,conv-50_session_6_D6:1;conv-50_session_9_D9:1,test
+conv-50_qa_12,When was Calvin's concert in Tokyo?,2,conv-50,conv-50_session_6_D6:11;conv-50_session_7_D7:1,test
+conv-50_qa_13,Would Calvin enjoy performing at the Hollywood Bowl?,3,conv-50,conv-50_session_7_D7:11,test
+conv-50_qa_14,When did Calvin meet with the creative team for his new album?,2,conv-50,conv-50_session_8_D8:1,test
+conv-50_qa_15,Why does Dave regularly visit parks?,1,conv-50,conv-50_session_8_D8:4;conv-50_session_1_D1:16,test
+conv-50_qa_16,When did Dave take a trip to mountainous regions?,2,conv-50,conv-50_session_8_D8:10,test
+conv-50_qa_17,When did Calvin have a car incident?,2,conv-50,conv-50_session_9_D9:1,test
+conv-50_qa_18,How many times has Calvin had to deal with insurance paperwork?,1,conv-50,conv-50_session_6_D6:5;conv-50_session_9_D9:1,test
+conv-50_qa_19,Which places or events has Calvin visited in Tokyo?,1,conv-50,conv-50_session_3_D3:1;conv-50_session_12_D12:7;conv-50_session_24_D24:19,test
+conv-50_qa_20,Who inspired Dave's passion for car engineering?,1,conv-50,conv-50_session_12_D12:2;conv-50_session_12_D12:4;conv-50_session_26_D26:6,test
+conv-50_qa_21,Does Calvin wish to become more popular?,3,conv-50,conv-50_session_12_D12:11;conv-50_session_27_D27:1,test
+conv-50_qa_22,Does Calvin want to expand his brand?,1,conv-50,conv-50_session_12_D12:11;conv-50_session_18_D18:7,test
+conv-50_qa_23,What is Dave's main passion?,1,conv-50,conv-50_session_13_D13:3;conv-50_session_5_D5:5;conv-50_session_4_D4:5;conv-50_session_3_D3:12,test
+conv-50_qa_24,Can Dave work with engines?,1,conv-50,conv-50_session_13_D13:7;conv-50_session_22_D22:5;conv-50_session_20_D20:1,test
+conv-50_qa_25,When did Dave host a card-playing night with his friends?,2,conv-50,conv-50_session_15_D15:1,test
+conv-50_qa_26,When did Calvin record a podcast with his friends?,2,conv-50,conv-50_session_15_D15:12,test
+conv-50_qa_27,Which city was Calvin visiting in August 2023?,2,conv-50,conv-50_session_16_D16:6,test
+conv-50_qa_28,What does Calvin do to relax?,1,conv-50,conv-50_session_5_D5:8;conv-50_session_5_D5:10;conv-50_session_7_D7:5,test
+conv-50_qa_29,What are Dave's hobbies other than fixing cars?,1,conv-50,conv-50_session_5_D5:9;conv-50_session_5_D5:11;conv-50_session_8_D8:8;conv-50_session_27_D27:2,test
+conv-50_qa_30,What kind of music does Dave listen to?,1,conv-50,conv-50_session_2_D2:10;conv-50_session_28_D28:40;conv-50_session_10_D10:11,test
+conv-50_qa_31,Where was Dave in the last two weeks of August 2023?,2,conv-50,conv-50_session_14_D14:1;conv-50_session_17_D17:1,test
+conv-50_qa_32,Where did Dave return from with new knowledge of different techniques of car restoration?,1,conv-50,conv-50_session_17_D17:1;conv-50_session_14_D14:1,test
+conv-50_qa_33,What was Dave doing in San Francisco?,1,conv-50,conv-50_session_17_D17:1;conv-50_session_14_D14:1,test
+conv-50_qa_34,When did Dave return from San Francisco?,2,conv-50,conv-50_session_17_D17:1,test
+conv-50_qa_35,When did Calvin book flight tickets to Boston?,2,conv-50,conv-50_session_17_D17:6,test
+conv-50_qa_36,When was Calvin's album released?,2,conv-50,conv-50_session_18_D18:1,test
+conv-50_qa_37,Does Calvin love music tours?,3,conv-50,conv-50_session_18_D18:7;conv-50_session_16_D16:2;conv-50_session_7_D7:1,test
+conv-50_qa_38,When did Dave have a great jam session with his band?,2,conv-50,conv-50_session_19_D19:1,test
+conv-50_qa_39,Would Dave prefer working on a Dodge Charger or a Subaru Forester?,3,conv-50,,test
+conv-50_qa_40,What was the artists Calvin used to listen to when he was a kid?,1,conv-50,conv-50_session_20_D20:8;conv-50_session_20_D20:6,test
+conv-50_qa_41,Which of their family member do Calvin and Dave have nostalgic memories about?,1,conv-50,conv-50_session_12_D12:2;conv-50_session_20_D20:6,test
+conv-50_qa_42,"Based on the conversation, did Calvin and Dave have a meeting in Boston between August and November 2023? Answer in yes or no.",3,conv-50,,test
+conv-50_qa_43,"Which city was Calvin at on October 3, 2023?",2,conv-50,conv-50_session_21_D21:1,test
+conv-50_qa_44,When did Calvin met with local artists in Boston?,2,conv-50,conv-50_session_21_D21:1,test
+conv-50_qa_45,What shared activities do Dave and Calvin have?,1,conv-50,conv-50_session_21_D21:3;conv-50_session_21_D21:4,test
+conv-50_qa_46,What is Dave's favorite activity?,1,conv-50,conv-50_session_21_D21:4;conv-50_session_22_D22:7;conv-50_session_19_D19:7,test
+conv-50_qa_47,How many car shows has Dave attended?,1,conv-50,conv-50_session_3_D3:12;conv-50_session_22_D22:1,test
+conv-50_qa_48,What was Dave doing in the first weekend of October 2023?,2,conv-50,conv-50_session_22_D22:1,test
+conv-50_qa_49,"When Dave was a child, what did he and his father do in the garage?",1,conv-50,conv-50_session_12_D12:2;conv-50_session_12_D12:4;conv-50_session_22_D22:5,test
+conv-50_qa_50,When did Calvin buy his second Ferrari?,2,conv-50,conv-50_session_23_D23:16,test
+conv-50_qa_51,When did Calvin and Frank Ocean start collaborating?,2,conv-50,conv-50_session_24_D24:5;conv-50_session_15_D15:2,test
+conv-50_qa_52,When did Calvin plan on travelling to Tokyo the second time?,2,conv-50,conv-50_session_24_D24:17,test
+conv-50_qa_53,Who supports Calvin in tough times?,1,conv-50,conv-50_session_25_D25:6;conv-50_session_29_D29:7,test
+conv-50_qa_54,What does help Calvin stay connected to the creative process?,1,conv-50,conv-50_session_25_D25:8;conv-50_session_28_D28:31,test
+conv-50_qa_55,When did Calvin visit some of the sights in Boston with a former high school friend?,2,conv-50,conv-50_session_26_D26:1,test
+conv-50_qa_56,Which cities did Dave travel to in 2023?,1,conv-50,conv-50_session_14_D14:1;conv-50_session_26_D26:2,test
+conv-50_qa_57,Which hobby did Dave pick up in October 2023?,2,conv-50,conv-50_session_27_D27:2,test
+conv-50_qa_58,Which events in Dave's life inspired him to take up auto engineering?,1,conv-50,conv-50_session_26_D26:6;conv-50_session_25_D25:12;conv-50_session_12_D12:2;conv-50_session_12_D12:4,test
+conv-50_qa_59,How many Ferraris does Calvin own?,1,conv-50,conv-50_session_2_D2:1;conv-50_session_23_D23:16,test
+conv-50_qa_60,What gifts has Calvin received from his artist friends?,1,conv-50,conv-50_session_4_D4:24;conv-50_session_4_D4:26;conv-50_session_16_D16:14,test
+conv-50_qa_61,How long did Dave's work on the Ford Mustang take?,2,conv-50,conv-50_session_14_D14:11;conv-50_session_20_D20:1;conv-50_session_21_D21:4,test
+conv-50_qa_62,How long was the car modification workshop in San Francisco?,2,conv-50,conv-50_session_14_D14:1;conv-50_session_17_D17:1,test
+conv-50_qa_63,What style of guitars does Calvin own?,1,conv-50,conv-50_session_16_D16:13;conv-50_session_16_D16:4;conv-50_session_16_D16:18;conv-50_session_16_D16:19,test
+conv-50_qa_64,What activities has Dave participated in with his friends?,1,conv-50,conv-50_session_10_D10:3;conv-50_session_11_D11:1;conv-50_session_6_D6:8;conv-50_session_15_D15:1,test
+conv-50_qa_65,When did Dave take a photo of a Boston clock tower?,2,conv-50,conv-50_session_27_D27:6,test
+conv-50_qa_66,Do all of Dave's car restoration projects go smoothly?,1,conv-50,conv-50_session_27_D27:10;conv-50_session_13_D13:7;conv-50_session_25_D25:17;conv-50_session_20_D20:1,test
+conv-50_qa_67,Where was Calvin located in the last week of October 2023?,2,conv-50,conv-50_session_28_D28:1,test
+conv-50_qa_68,When did Dave find the car he repaired and started sharing in his blog?,2,conv-50,conv-50_session_28_D28:20,test
+conv-50_qa_69,When did Dave buy a vintage camera?,2,conv-50,conv-50_session_30_D30:05,test
+conv-50_qa_70,When did Calvin attend a gala in Boston?,2,conv-50,conv-50_session_30_D30:1,test
+conv-50_qa_71,How long did Calvin plan to stay in Japan?,4,conv-50,conv-50_session_1_D1:15,test
+conv-50_qa_72,Which band was Dave's favorite at the music festival in April 2023?,4,conv-50,conv-50_session_2_D2:10,test
+conv-50_qa_73,Where did Calvin attend a music festival in April 2023?,4,conv-50,conv-50_session_3_D3:1,test
+conv-50_qa_74,What advice did Calvin receive from the producer at the music festival?,4,conv-50,conv-50_session_3_D3:7,test
+conv-50_qa_75,"What is Dave's new business venture as of 1 May, 2023?",4,conv-50,conv-50_session_4_D4:1,test
+conv-50_qa_76,What type of cars does Dave work on at his shop?,4,conv-50,conv-50_session_4_D4:19,test
+conv-50_qa_77,What did Calvin receive as a gift from another artist?,4,conv-50,conv-50_session_4_D4:26,test
+conv-50_qa_78,What was the necklace Calvin received meant to remind him of?,4,conv-50,conv-50_session_4_D4:26,test
+conv-50_qa_79,What does Dave do when he feels his creativity is frozen?,4,conv-50,conv-50_session_5_D5:11,test
+conv-50_qa_80,How does Calvin plan to jumpstart his inspiration?,4,conv-50,conv-50_session_5_D5:11,test
+conv-50_qa_81,What did Calvin manage to save during the flood incident?,4,conv-50,conv-50_session_6_D6:3,test
+conv-50_qa_82,What did Dave open in May 2023?,4,conv-50,conv-50_session_6_D6:8,test
+conv-50_qa_83,What gives Dave a sense of achievement and purpose?,4,conv-50,conv-50_session_7_D7:6,test
+conv-50_qa_84,What fuels Calvin's soul?,4,conv-50,conv-50_session_7_D7:11,test
+conv-50_qa_85,What is Dave doing to relax on weekends?,4,conv-50,conv-50_session_8_D8:4,test
+conv-50_qa_86,What sports activity is Calvin planning to try after the tour with Frank Ocean?,4,conv-50,conv-50_session_9_D9:15,test
+conv-50_qa_87,"What was Calvin excited to do after getting his car fixed on 7 July, 2023?",4,conv-50,conv-50_session_10_D10:1,test
+conv-50_qa_88,What did Calvin and his friends arrange for in the park?,4,conv-50,conv-50_session_10_D10:3,test
+conv-50_qa_89,What kind of music has Calvin been creating lately?,4,conv-50,conv-50_session_11_D11:6,test
+conv-50_qa_90,How does Calvin describe his process of adding electronic elements to his songs?,4,conv-50,conv-50_session_11_D11:6,test
+conv-50_qa_91,What car brand does Calvin own that he is proud of?,4,conv-50,conv-50_session_12_D12:7,test
+conv-50_qa_92,What is Calvin's biggest current goal?,4,conv-50,conv-50_session_12_D12:11,test
+conv-50_qa_93,What is Dave's advice to Calvin regarding his dreams?,4,conv-50,conv-50_session_12_D12:14,test
+conv-50_qa_94,"What workshop did Dave get picked for on 11 August, 2023?",4,conv-50,conv-50_session_13_D13:1,test
+conv-50_qa_95,What kind of modifications has Dave been working on in the car mod workshop?,4,conv-50,conv-50_session_13_D13:7,test
+conv-50_qa_96,What type of car did Dave work on during the workshop?,4,conv-50,conv-50_session_13_D13:7,test
+conv-50_qa_97,What does Dave say is important for making his custom cars unique?,4,conv-50,conv-50_session_13_D13:11,test
+conv-50_qa_98,How did the audience in Tokyo react when Calvin sang one of his songs?,4,conv-50,conv-50_session_14_D14:6,test
+conv-50_qa_99,How did Calvin meet Frank Ocean?,4,conv-50,conv-50_session_15_D15:4,test
+conv-50_qa_100,Where did Calvin and Frank Ocean record a song together?,4,conv-50,conv-50_session_15_D15:4,test
+conv-50_qa_101,What did Calvin and his friends record in August 2023?,4,conv-50,conv-50_session_15_D15:12,test
+conv-50_qa_102,Where did Calvin start shooting a video for his new album?,4,conv-50,conv-50_session_16_D16:8,test
+conv-50_qa_103,What design is featured on Calvin's guitar?,4,conv-50,conv-50_session_16_D16:14,test
+conv-50_qa_104,Why did Calvin get his guitar customized with a shiny finish?,4,conv-50,conv-50_session_16_D16:20,test
+conv-50_qa_105,What color glow did Calvin customize his guitar with?,4,conv-50,conv-50_session_16_D16:20,test
+conv-50_qa_106,Where did Dave come back from with insights on car modification on 1st September 2023?,4,conv-50,conv-50_session_17_D17:1,test
+conv-50_qa_107,What emotion does Dave mention feeling when he sees the relief of someone whose car he fixed?,4,conv-50,conv-50_session_17_D17:5,test
+conv-50_qa_108,What did Calvin book a flight ticket for on 1st September 2023?,4,conv-50,conv-50_session_17_D17:6,test
+conv-50_qa_109,What is Calvin excited about after the tour?,4,conv-50,conv-50_session_18_D18:7,test
+conv-50_qa_110,What plans do Calvin and Dave have for when Calvin visits Boston?,4,conv-50,conv-50_session_18_D18:11,test
+conv-50_qa_111,Which Disney movie did Dave mention as one of his favorites?,4,conv-50,conv-50_session_19_D19:6,test
+conv-50_qa_112,How does Dave feel about the reactions of people when they see the finished restoration project?,4,conv-50,conv-50_session_19_D19:9,test
+conv-50_qa_113,What activity did Calvin enjoy during his summer drives?,4,conv-50,conv-50_session_20_D20:4,test
+conv-50_qa_114,Which song from the childhood of Calvin brings back memories of a road trip with his dad?,4,conv-50,conv-50_session_20_D20:6;conv-50_session_20_D20:8,test
+conv-50_qa_115,What project did Calvin work on to chill out?,4,conv-50,conv-50_session_21_D21:3,test
+conv-50_qa_116,What car did Dave work on in the junkyard?,4,conv-50,conv-50_session_21_D21:4,test
+conv-50_qa_117,What does Dave find satisfying about restoring old cars?,4,conv-50,conv-50_session_21_D21:10,test
+conv-50_qa_118,What do Calvin and Dave use to reach their goals?,4,conv-50,conv-50_session_21_D21:15,test
+conv-50_qa_119,What does working on cars represent for Dave?,4,conv-50,conv-50_session_22_D22:5,test
+conv-50_qa_120,What does Dave aim to do with his passion for cars?,4,conv-50,conv-50_session_22_D22:5,test
+conv-50_qa_121,"What did Calvin recently get that is a ""masterpiece on wheels""?",4,conv-50,conv-50_session_23_D23:16,test
+conv-50_qa_122,Who headlined the music festival that Dave attended in October?,4,conv-50,conv-50_session_23_D23:9,test
+conv-50_qa_123,How does Calvin stay motivated when faced with setbacks?,4,conv-50,conv-50_session_23_D23:4,test
+conv-50_qa_124,"What activity does Dave find fulfilling, similar to Calvin's passion for music festivals?",4,conv-50,conv-50_session_23_D23:11,test
+conv-50_qa_125,Where did Calvin and Dave meet Frank Ocean to start collaborating?,4,conv-50,conv-50_session_24_D24:5,test
+conv-50_qa_126,Which part of Tokyo is described as Tokyo's Times Square by Calvin?,4,conv-50,conv-50_session_24_D24:19,test
+conv-50_qa_127,What specific location in Tokyo does Calvin mention being excited to explore?,4,conv-50,conv-50_session_24_D24:19,test
+conv-50_qa_128,What dish does Dave recommend Calvin to try in Tokyo?,4,conv-50,conv-50_session_24_D24:20,test
+conv-50_qa_129,What does Calvin find energizing during the tour?,4,conv-50,conv-50_session_25_D25:2,test
+conv-50_qa_130,How does Calvin balance his job and personal life?,4,conv-50,conv-50_session_25_D25:4,test
+conv-50_qa_131,What inspired Calvin's recent music?,4,conv-50,conv-50_session_25_D25:10,test
+conv-50_qa_132,How does Calvin describe his music in relation to capturing feelings?,4,conv-50,conv-50_session_25_D25:12,test
+conv-50_qa_133,Why did Dave start working on cars?,4,conv-50,conv-50_session_25_D25:15,test
+conv-50_qa_134,What is the toughest part of car restoration according to Dave?,4,conv-50,conv-50_session_25_D25:19,test
+conv-50_qa_135,What does Calvin believe makes an artist create something extraordinary?,4,conv-50,conv-50_session_25_D25:22,test
+conv-50_qa_136,When did Dave sell the car he restored last year?,4,conv-50,conv-50_session_25_D25:17,test
+conv-50_qa_137,When did Calvin first get interested in cars?,4,conv-50,conv-50_session_26_D26:6,test
+conv-50_qa_138,How did Calvin feel about performing with someone he admires?,4,conv-50,conv-50_session_26_D26:9,test
+conv-50_qa_139,What realization did the nightclub experience bring to Calvin?,4,conv-50,conv-50_session_26_D26:9,test
+conv-50_qa_140,What do Dave and Calvin agree on regarding their pursuits?,4,conv-50,conv-50_session_26_D26:11,test
+conv-50_qa_141,Which city is featured in the photograph Dave showed Calvin?,4,conv-50,conv-50_session_27_D27:6,test
+conv-50_qa_142,What did Calvin do recently at his Japanese house?,4,conv-50,conv-50_session_28_D28:1,test
+conv-50_qa_143,What did Dave recently start a blog about?,4,conv-50,conv-50_session_28_D28:8,test
+conv-50_qa_144,What is Dave's way to share his passion with others?,4,conv-50,conv-50_session_28_D28:8,test
+conv-50_qa_145,What type of videos does Calvin usually watch on his television?,4,conv-50,conv-50_session_28_D28:31,test
+conv-50_qa_146,What type of music has Dave been getting into lately?,4,conv-50,conv-50_session_28_D28:40,test
+conv-50_qa_147,What tools does Calvin use to boost his motivation for music?,4,conv-50,conv-50_session_28_D28:34,test
+conv-50_qa_148,What type of content does Dave post on his blog that inspired others to start their own DIY projects?,4,conv-50,conv-50_session_28_D28:10,test
+conv-50_qa_149,What kind of impact does Dave's blog on car mods have on people?,4,conv-50,conv-50_session_28_D28:10,test
+conv-50_qa_150,"Who did Calvin invite to see him perform in Boston on 13 November, 2023?",4,conv-50,conv-50_session_29_D29:1,test
+conv-50_qa_151,What hobby did Calvin take up recently?,4,conv-50,conv-50_session_30_D30:1,test
+conv-50_qa_152,What new item did Dave buy recently?,4,conv-50,conv-50_session_30_D30:5,test
+conv-50_qa_153,What type of photos does Dave like to capture with his new camera?,4,conv-50,conv-50_session_30_D30:9,test
+conv-50_qa_154,What event did Calvin attend in Boston?,4,conv-50,conv-50_session_30_D30:2,test
+conv-50_qa_155,What did Calvin discuss with the cool artist he met at the gala?,4,conv-50,conv-50_session_30_D30:4,test
+conv-50_qa_156,Where did Dave take a stunning photo of a waterfall?,4,conv-50,conv-50_session_30_D30:15,test
+conv-50_qa_157,What positive impact does Calvin mention nature has on tough times?,4,conv-50,conv-50_session_30_D30:12,test

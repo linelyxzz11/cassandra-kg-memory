@@ -1,0 +1,49 @@
+{
+  "created_at": "2026-07-09T13:12:36.214007",
+  "input_directories": [
+    "reports/sysaxis_1m_write_ratio_final/",
+    "reports/sysaxis_1m_concurrency_final/",
+    "reports/sysaxis_1m_hop_depth_final/",
+    "reports/sysaxis_scale_sweep_final/"
+  ],
+  "input_files": [
+    "final_write_ratio_summary_cold_warm.csv",
+    "final_concurrency_summary_cold_warm.csv",
+    "final_hop_depth_summary_cold_warm.csv",
+    "scale_sweep_supporting_100K_to_1M_cold_warm.csv"
+  ],
+  "output_files": [
+    "sysaxis_master_index.md",
+    "sysaxis_master_summary.csv",
+    "sysaxis_master_summary.json",
+    "sysaxis_key_findings.md",
+    "sysaxis_caveats.md",
+    "sysaxis_artifact_manifest.json"
+  ],
+  "axis_status": {
+    "write_ratio": "PASS",
+    "concurrency": "PASS",
+    "hop_depth": "PASS",
+    "scale_supporting": "PASS_WITH_CAVEAT"
+  },
+  "trial_counts": {
+    "write_ratio": 60,
+    "concurrency": 108,
+    "hop_depth": 80,
+    "scale_supporting_100K": 20,
+    "total": 268
+  },
+  "correctness_gates": {
+    "graph_guards": "PASS (1M 1M/1M, 100K 99875/99875)",
+    "hash_gates": "PASS (all 256/256, 0 mismatch, 0 empty)",
+    "semantic_gates": "PASS",
+    "spotchecks": "PASS (all trials 10/10)",
+    "failures": "empty (all axes)"
+  },
+  "known_caveats": [
+    "100K is legacy synthetic, not scale-controlled",
+    "Scale comparison qualitative only, not same generator",
+    "Cache disabled, cold is process-cold",
+    "Hop-depth uses 8 clients, others use 32"
+  ]
+}

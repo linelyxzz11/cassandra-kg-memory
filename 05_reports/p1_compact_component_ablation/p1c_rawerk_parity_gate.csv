@@ -1,0 +1,2 @@
+﻿status,heldout_query_count,expected_query_count,official_query_count,missing_official_query_count,extra_official_query_count,ranking_mismatch_query_count,score_mismatch_query_count,score_parity_required,official_MRR_at_10,official_R10,rebuilt_MRR_at_10,rebuilt_R10,expected_MRR_rounded,expected_R10_rounded,expected_metric_check
+PASS,1150,1150,1150,0,0,3,1150,False,0.5461997929606626,0.8069565217391305,0.5461708074534162,0.8069565217391305,0.5462,0.807,PASS

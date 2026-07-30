@@ -1,0 +1,6 @@
+graph_id,src_id,relation,dst_id,source
+locomo_kg,user_001,likes,quiet_hotel,session_001
+locomo_kg,user_001,likes,slow_music,session_001
+locomo_kg,quiet_hotel,suitable_for,rest,session_002
+locomo_kg,slow_music,suitable_for,rest,session_002
+locomo_kg,rest,related_to,good_sleep,session_003

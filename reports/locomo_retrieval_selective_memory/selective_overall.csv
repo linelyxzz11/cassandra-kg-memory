@@ -1,0 +1,7 @@
+﻿method,R@1,R@10,MRR,pool_size,truth_retained
+Dense_all_canonical,0.3669,0.711,0.4738,full,1.0
+BM25_all_canonical,0.0344,0.0669,0.0445,full,1.0
+Dense_selective_top50pct,0.3883,0.711,0.4878,10,0.5467
+Dense_selective_top70pct,0.3883,0.711,0.4871,10,0.5467
+BM25_selective_top50pct,0.0383,0.0669,0.0465,10,0.0459
+BM25_selective_top70pct,0.0383,0.0669,0.0465,10,0.0459

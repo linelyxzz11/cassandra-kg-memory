@@ -1,0 +1,9 @@
+﻿variant,category,n,mean_f1,abstain_rate
+text_only,cat1,20,0.1762,0.5
+text_only,cat2,20,0.0814,0.65
+text_only,cat3,20,0.1483,0.55
+text_only,cat4,20,0.2881,0.3
+text_plus_triples,cat1,20,0.1739,0.55
+text_plus_triples,cat2,20,0.0725,0.7
+text_plus_triples,cat3,20,0.1357,0.6
+text_plus_triples,cat4,20,0.2678,0.3

@@ -1,0 +1,7 @@
+comparison,metric,better,tie,worse
+ZScore_Linear - Weighted_RRF_dev,rF1,85,978,87
+ZScore_Linear - Weighted_RRF_dev,rEM,23,1108,19
+ZScore_Linear - MinMax_Linear,rF1,54,1035,61
+ZScore_Linear - MinMax_Linear,rEM,12,1119,19
+MinMax_Linear - Weighted_RRF_dev,rF1,101,953,96
+MinMax_Linear - Weighted_RRF_dev,rEM,31,1099,20

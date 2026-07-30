@@ -1,0 +1,4 @@
+﻿Method,cat1_n,cat1_rF1,cat1_wrong_abstention,cat1_hit1,cat1_hit5,cat1_hit10,cat2_n,cat2_rF1,cat2_wrong_abstention,cat2_hit1,cat2_hit5,cat2_hit10,cat3_n,cat3_rF1,cat3_wrong_abstention,cat3_hit1,cat3_hit5,cat3_hit10,cat4_n,cat4_rF1,cat4_wrong_abstention,cat4_hit1,cat4_hit5,cat4_hit10
+Dense-bge,2,0.0,1.0,0.0,1.0,1.0,13,0.169,0.6923,0.3846,0.6923,0.8462,3,0.5556,0.3333,0.6667,0.6667,0.6667,21,0.3224,0.4762,0.2381,0.5238,0.619
+Dense-bge+GlobalKG,2,0.0,1.0,0.0,1.0,1.0,13,0.169,0.6923,0.3846,0.6923,0.8462,3,0.5556,0.3333,0.6667,0.6667,0.6667,21,0.3224,0.4762,0.1905,0.5238,0.619
+Dense-bge+QueryKG,2,0.0,1.0,0.0,1.0,1.0,13,0.169,0.6923,0.4615,0.7692,0.8462,3,0.5556,0.3333,0.6667,0.6667,0.6667,21,0.3415,0.4762,0.2381,0.5238,0.619
