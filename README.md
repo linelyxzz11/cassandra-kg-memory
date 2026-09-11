@@ -8,6 +8,20 @@ long-term conversational memory in LLM-based assistants. It evaluates along
 three orthogonal axes: **retrieval effectiveness**, **reader answer quality**,
 and **system serving performance**.
 
+> **Current evidence notice (2026-09-11).** The detailed narrative below
+> contains historical tables from earlier protocol versions. For paper numbers
+> and completion status, use `00_project/CLAIMS_AND_EVIDENCE.md`,
+> `00_project/EXPERIMENT_REGISTRY.csv`, and the manifests under:
+> `05_reports/retrieval_main_table/`, `05_reports/reader_main_hingemem_style/`,
+> `05_reports/backend_equivalence_v2/`,
+> `05_reports/locomo_workload_graph_v2_100k/`, and
+> `05_reports/experiment11_online_freshness_v2/`. In particular, the six-method
+> bridge, corrected Dense+GlobalKG Reader, graph-aware four-cell 100K system
+> matrices, actual Time-to-Top10, and controlled application-worker recovery
+> are complete. The recovery result does not test database restart or
+> multi-node failover. Older P7-B and legacy P5
+> tables are not citation-ready replacements for these v2 artifacts.
+
 ---
 
 ## Table of Contents
@@ -140,6 +154,31 @@ LoCoMo official evaluation (F1 / EM / BLEU-1 / abstention)
 ---
 
 ## Axis 3: System Serving
+
+> **Canonical status update (2026-08-03):** P5-1 v3.1 is the current
+> citation-ready update-to-final-TopK experiment. Legacy P5-1 is superseded,
+> and P7-B remains diagnostic/not citation-ready even if older text below calls
+> it done. Use `00_project/EXPERIMENT_REGISTRY.csv` as the status authority.
+
+### P5-1 v3.1: fixed-work update-to-final-TopK
+
+The v3.1 protocol defines one common logical event (one memory, two entities
+and one directed edge), reads exactly the same 32 baseline memories plus the
+current target on both backends, and stops only when the target enters the
+shared RawERK BM25 Top-10.
+
+| Backend | c=8 p50/p95/p99 ms | c=32 p50/p95/p99 ms | c=64 p50/p95/p99 ms |
+|---|---:|---:|---:|
+| Cassandra | 29.26 / 55.61 / 124.38 | 85.62 / 201.38 / 252.95 | 173.05 / 355.53 / 385.89 |
+| Neo4j | 47.32 / 66.31 / 84.45 | 195.32 / 284.79 / 331.09 | 402.92 / 561.86 / 637.33 |
+
+The formal run contains 36,000 events, zero timeouts, exactly 33 candidates per
+event, every target at rank 1, and zero logical-state/candidate/Top-10 parity
+mismatches. Evidence:
+`05_reports/p5_1_retrieval_visibility_v3/formal_fixed_20260803/`.
+
+This claim is limited to the controlled RawERK BM25 reference retriever; online
+dense embedding and full CassMem fusion are not included.
 
 ### Layer framework
 

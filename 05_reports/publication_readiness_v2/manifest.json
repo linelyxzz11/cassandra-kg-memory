@@ -1,0 +1,18 @@
+{
+  "status": "PASS_WITH_EXTERNAL_LIMITS",
+  "generated_at_utc": "2026-09-11T12:59:34.317177+00:00",
+  "matrix_rows": 28,
+  "completed_items": 21,
+  "core_local_blockers": 0,
+  "human_adjudication_rows": 9,
+  "outputs": [
+    {
+      "path": "05_reports\\publication_readiness_v2\\experiment_gap_matrix.csv",
+      "sha256": "1fcaf8c3daad352d4bb38a2b2c56e46ea1150f56853f11e0d91ee693a53bf1c0"
+    },
+    {
+      "path": "05_reports\\publication_readiness_v2\\DEEP_EXPERIMENT_AUDIT.md",
+      "sha256": "fe2e84c2abc85c2cd53c3885737378fc44d09fd2cc6283f61eb443174639f035"
+    }
+  ]
+}

@@ -1,10 +1,35 @@
-﻿experiment,status,description
-P1-C,OFFICIAL_FROZEN,"Compact Component Ablation: RawERK E+R+K validation, time sensitivity [POST_HOC]"
-P3,DONE,"Reader alignment, representation comparison"
-P4,DONE,Canonical cat1-4 + full-5 + held-out benchmark
-P5-1,OFFICIAL_FROZEN,"Concurrent update-to-searchable, c=8/32/64"
-P5-2,OFFICIAL_FROZEN,"Hot-entity workload, uniform vs skewed"
-P5-3A,OFFICIAL_FROZEN,Recovery infrastructure smoke
-P5-3B,OFFICIAL_FROZEN,Burst-only isolation
-P5-3C,OFFICIAL_FROZEN,"Materializer restart-only isolation, 18K events, 100/s"
-P5-3D,OPTIONAL_NOT_RUN,Burst+restart combined - not required after P5-3B/P5-3C isolation
+experiment,status,layer,description,canonical_evidence
+P1-C,OFFICIAL_FROZEN,retrieval,"Compact component ablation: RawERK E+R+K validation; time sensitivity is post-hoc",05_reports/p1_compact_component_ablation
+P3,DONE,reader,"Reader alignment and representation comparison",05_reports/p3_reader_alignment
+P4,DONE,reader,"Canonical Cat1-4 + Full5 dual-setting reader benchmark",05_reports/official_eval/gpt4o_dual_setting_locomo_corrected_v3
+READER-J1-GPT4O,DONE,reader,"HingeMem-compatible GPT-4o binary judge; corrected Cat5 complete; Overall is the micro mean over all 1986 Full5 questions; all 8495 responses returned gpt-4o-2024-08-06",05_reports/llm_judge_gpt4o_mem0_protocol_v2_cat5_corrected
+READER-J1-INDEPENDENT,OPTIONAL_ROBUSTNESS,reader,"An independent cross-judge is reserved for robustness analysis and does not replace the HingeMem-compatible GPT-4o main-table J",05_reports/reader_judge_protocol_v3
+P5-1-LEGACY,SUPERSEDED_NOT_CITATION_READY,system,"Legacy edge-visible benchmark; unequal logical work and manifest/run-size mismatch; cannot support final retrieval visibility",05_reports/p5_minimal_core/P5_1_INVALID_FOR_FINAL_RETRIEVAL.md
+P5-1-V3.1,CITATION_READY,system,"Fixed-cohort logical event to shared RawERK BM25 Top-K visibility; 36K events; exact 33 candidates/event; zero timeout; cross-backend state/candidate/Top-K parity PASS",05_reports/p5_1_retrieval_visibility_v3/formal_fixed_20260803
+P5-2,OFFICIAL_FROZEN,system,"Hot-entity workload, uniform vs skewed",05_reports/p5_minimal_core/p5_2_hot_entity_summary.csv
+P5-3A,OFFICIAL_FROZEN,system,"Recovery infrastructure smoke",05_reports/p5_minimal_core/p5_3a_recovery_smoke
+P5-3B,OFFICIAL_FROZEN,system,"Burst-only isolation",05_reports/p5_minimal_core/p5_3b_burst_only
+P5-3C,OFFICIAL_FROZEN,system,"Materializer restart-only isolation, 18K events, 100/s",05_reports/p5_minimal_core/p5_3c_restart_only
+P5-3D,OPTIONAL_NOT_RUN,system,"Burst+restart combined; optional after isolation experiments",
+P7-A,DONE,system,"Six-method CSV/Cassandra/Neo4j canonical retrieval equivalence; exact Top-10 and metric parity",05_reports/backend_equivalence_v2
+P7-B,NOT_CITATION_READY,system,"Backend latency/throughput/update/recovery; visibility and recovery contain failed sentinels",05_reports/backend_system_eval/STATUS.md
+GOLD-V2,DONE,retrieval,"Canonical Cat1-4 gold-memory mapping from LoCoMo evidence",02_artifacts/retrieval_gold_v2
+DENSEKG-RERUN,DONE,retrieval,"Dense+GlobalKG rerun with dev-selected lambda and held-out test",05_reports/dense_global_kg_rerun
+RETRIEVAL-MAIN,DONE,retrieval,"MRR/Hit/Recall/nDCG main table plus Holm-corrected paired bootstrap",05_reports/retrieval_main_table
+READER-BLEU,DONE,reader,"Reproducible Cat1-4 BLEU-1 and explicitly labeled Full5 hybrid",05_reports/official_eval/gpt4o_dual_setting_locomo_corrected_v3/bleu1_protocol.json
+READER-MAIN-HINGEMEM,DONE,reader,"HingeMem-style F1/J/B1 main table with selected quoted classic memory systems",05_reports/reader_main_hingemem_style
+READER-DENSEKG-CORRECTED,DONE,reader,"Corrected ranking has 1986/1986 reader predictions in both settings plus corrected F1/B1/Judge",05_reports/locomo_gpt4o_prompt_protocol_corrected_densekg_v2
+PUBLICATION-AUDIT,DONE,all,"Automated data/ranking/evidence/repository readiness audit",05_reports/publication_readiness_v2
+LOCOMO-WORKLOAD-PROFILE,DONE,system,"Canonical LoCoMo empirical profile and deterministic 100K lazy trace manifest",05_reports/locomo_workload_profile
+LOCOMO-INDEX-PREFLIGHT,DIAGNOSTIC_ONLY,system,"Real RawERK BM25 plus frozen BGE query-wise ZScore scoped-index sizing; excludes backend",05_reports/locomo_workload_preflight
+LOCOMO-WORKLOAD-2X2,DONE,system,"Graph-aware Cassandra/Neo4j base-vs-materialized 100K workload and actual Time-to-Top10",05_reports/locomo_workload_graph_v2_100k
+LOCOMO-CANONICAL-LIVE-GATE,DONE,system,"Four-cell 5,882-memory projection parity and 1,533-QA isolated freshness gate",05_reports/locomo_workload_canonical_gate
+LOCOMO-100K-95R5U-V2,DONE,system,"Graph-aware 100K four-cell 95:5 workload at c=1/8/16/32/64 with three repetitions",05_reports/locomo_workload_graph_v2_100k/main_95_5_v2
+LOCOMO-QUERY-TYPES-V2,DONE,system,"Graph-aware four-cell scope/relation/candidate/Top10 query-type matrix at c=32",05_reports/locomo_workload_graph_v2_100k/query_types_v2
+LOCOMO-STORAGE-WORK-V2,DONE,system,"Four-cell 100K physical-record and logical-write-amplification table under semantic parity",05_reports/locomo_workload_graph_v2_100k/storage_work_v2
+EXPERIMENT11-FRESHNESS,DONE,system,"Four-stage online freshness through actual ZScore-RawERK Top-10 under 95:5 open-loop serving",05_reports/experiment11_online_freshness_v2
+LOCOMO-RECOVERY-V2,DONE,system,"Controlled update/materializer-worker recovery under the same 100K graph-aware four-cell 95:5 protocol; databases remain online",05_reports/locomo_workload_graph_v2_100k/recovery_v2
+CANDIDATE-STAGE-V1,DONE,retrieval,"Actual frozen candidate-pool recall and ranking-loss decomposition for all six methods",05_reports/candidate_stage_analysis_v1
+QUESTION-TYPE-V1,DONE,analysis,"Retrieval and Reader category breakdown with correct LoCoMo category mapping",05_reports/question_type_breakdown_v1
+ERROR-ANALYSIS-V1,PARTIAL_HUMAN_REVIEW,analysis,"100-case evidence-based review; 91 resolved and 9 retained for independent adjudication",05_reports/error_analysis_v1
+UNIFIED-PROTOCOL-V1,DONE,all,"Frozen dataset/query/reader/embedding/metric/cache contract",05_reports/unified_evaluation_protocol_v1
