@@ -1,11 +1,13 @@
 """P2 Final Reader: DEV-SELECTED params, held-out test, 4 methods. DeepSeek API."""
-import csv, json, random, re, statistics, time, sys, hashlib
+import csv, json, os, random, re, statistics, time, sys, hashlib
 from collections import Counter, defaultdict
 from pathlib import Path
 import numpy as np
 from openai import OpenAI
 
-API_KEY = "REDACTED_API_KEY"
+API_KEY = os.environ.get("DEEPSEEK_API_KEY", "").strip()
+if not API_KEY:
+    raise RuntimeError("DEEPSEEK_API_KEY is required")
 client = OpenAI(api_key=API_KEY, base_url="https://api.deepseek.com")
 SCRIPT_DIR = Path("D:/memorytable/cassandra-kg-memory/scripts/memory/locomo_pipeline/retrieval")
 sys.path.insert(0, str(SCRIPT_DIR))

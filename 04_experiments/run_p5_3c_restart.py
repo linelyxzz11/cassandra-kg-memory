@@ -1,5 +1,5 @@
 """P5-3C: Materializer Restart-Only. Checkpoint recovery, no burst, no DB restart."""
-import csv, json, hashlib, random, time, threading, statistics
+import csv, json, hashlib, os, random, time, threading, statistics
 from collections import defaultdict
 from pathlib import Path
 
@@ -12,7 +12,9 @@ GRAPH_ID = "c3_scale_1M_seed42"
 INPUT_RATE = 100
 CONCURRENCY = 32
 SEED = 20260721
-PASSWORD = "REDACTED_NEO4J_PASSWORD"
+PASSWORD = os.environ.get("NEO4J_PASSWORD", "")
+if not PASSWORD:
+    raise RuntimeError("NEO4J_PASSWORD is required")
 
 STABLE1_DUR = 60; OUTAGE_DUR = 30; STABLE2_DUR = 150; STABLE3_DUR = 60
 TOTAL_DUR = STABLE1_DUR + OUTAGE_DUR + STABLE2_DUR + STABLE3_DUR  # 300s = 30K events max

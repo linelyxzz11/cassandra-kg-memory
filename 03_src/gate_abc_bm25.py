@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """P7-A Gate A/B/C — BM25 validation across CSV/Cassandra/Neo4j."""
-import csv, hashlib, json, time
+import csv, hashlib, json, os, time
 from collections import defaultdict
 from pathlib import Path
 from sklearn.feature_extraction.text import CountVectorizer
@@ -77,7 +77,7 @@ def cassandra_raw_records(conv_id):
 
 def neo4j_raw_records(conv_id):
     from neo4j import GraphDatabase
-    d = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", "REDACTED_NEO4J_PASSWORD"))
+    d = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", os.environ.get("NEO4J_PASSWORD", "")))
     with d.session() as s:
         rows = s.run("MATCH (m:LocoMoMemory {scope_id: $sid}) RETURN m.memory_id AS memory_id, m.raw_text AS raw_text", sid=conv_id)
         result = {r["memory_id"]: r["raw_text"] for r in rows if r["raw_text"]}

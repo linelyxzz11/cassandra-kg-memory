@@ -1,5 +1,5 @@
 """100K legacy clean scale sweep: C→R. Import + guard + semantic gate + smoke + 20 trials + after guards + summary."""
-import csv, hashlib, json, random, statistics, time, threading, uuid
+import csv, hashlib, json, os, random, statistics, time, threading, uuid
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
@@ -122,7 +122,7 @@ if not ok: print("STOP: Cassandra guard failed"); exit(1)
 # === G+H. Neo4j import + guard ===
 print("\n=== Neo4j import ===")
 t0 = time.time()
-nd = GraphDatabase.driver("bolt://127.0.0.1:7687", auth=("neo4j", "REDACTED_NEO4J_PASSWORD"))
+nd = GraphDatabase.driver("bolt://127.0.0.1:7687", auth=("neo4j", os.environ.get("NEO4J_PASSWORD", "")))
 with nd.session() as ns:
     batch_sz = 500
     for bi in range(0, csv_raw, batch_sz):
@@ -178,7 +178,7 @@ def init_conn():
     c = Cluster(["127.0.0.1"], port=9042)
     _cass_s = c.connect("ai_memory")
     _cass_ex = ThreadPoolExecutor(max_workers=FW)
-    _neo_d = GraphDatabase.driver("bolt://127.0.0.1:7687", auth=("neo4j", "REDACTED_NEO4J_PASSWORD"))
+    _neo_d = GraphDatabase.driver("bolt://127.0.0.1:7687", auth=("neo4j", os.environ.get("NEO4J_PASSWORD", "")))
 
 def shutdown_conn():
     _cass_ex.shutdown(wait=True); _cass_s.cluster.shutdown(); _neo_d.close()
@@ -439,7 +439,7 @@ cass_a={"raw":cass_raw_a,"distinct":len(cass_set_a),"duplicates":cass_raw_a-len(
 with (OUT/"cassandra_guard_after_trials.json").open("w") as f: json.dump(cass_a,f,indent=2)
 print(f"  Cass: raw={cass_a['raw']} dist={cass_a['distinct']} dup={cass_a['duplicates']} miss={cass_a['missing']} extra={cass_a['extra']}")
 
-nd=GraphDatabase.driver("bolt://127.0.0.1:7687",auth=("neo4j","REDACTED_NEO4J_PASSWORD"))
+nd=GraphDatabase.driver("bolt://127.0.0.1:7687",auth=("neo4j",os.environ.get("NEO4J_PASSWORD", "")))
 with nd.session() as ns:
     nca=ns.run("MATCH (n:C3KGNode {graph_id:$g}) RETURN count(n) as c",g=GR).single()["c"]
     eca=ns.run("MATCH ()-[r:C3KG_EDGE {graph_id:$g}]->() RETURN count(r) as c",g=GR).single()["c"]

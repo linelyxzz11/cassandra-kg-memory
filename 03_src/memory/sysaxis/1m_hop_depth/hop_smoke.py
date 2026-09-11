@@ -1,5 +1,5 @@
 """Hop-depth smoke: 4 trials (cassandra+neo4j × hop=1,4 × cold × 20s). Read-only."""
-import csv, hashlib, json, random, statistics, time, threading
+import csv, hashlib, json, os, random, statistics, time, threading
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
@@ -19,7 +19,7 @@ def init(fw=FW):
     c = Cluster(["127.0.0.1"], port=9042)
     _cass_session = c.connect("ai_memory")
     _cass_executor = ThreadPoolExecutor(max_workers=fw)
-    _neo_driver = GraphDatabase.driver("bolt://127.0.0.1:7687", auth=("neo4j", "REDACTED_NEO4J_PASSWORD"))
+    _neo_driver = GraphDatabase.driver("bolt://127.0.0.1:7687", auth=("neo4j", os.environ.get("NEO4J_PASSWORD", "")))
 
 def shutdown():
     _cass_executor.shutdown(wait=True); _cass_session.cluster.shutdown(); _neo_driver.close()

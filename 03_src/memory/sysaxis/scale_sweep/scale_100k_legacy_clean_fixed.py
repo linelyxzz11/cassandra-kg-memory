@@ -17,7 +17,7 @@ Run formal trials only after smoke passes:
 
 Assumptions:
   - Cassandra at 127.0.0.1:9042, keyspace ai_memory
-  - Neo4j at bolt://127.0.0.1:7687, auth neo4j/REDACTED_NEO4J_PASSWORD
+  - Neo4j at bolt://127.0.0.1:7687, password from NEO4J_PASSWORD
   - Project root: D:/memorytable/cassandra-kg-memory unless overridden
 """
 
@@ -74,7 +74,7 @@ CASSANDRA_HOSTS = ["127.0.0.1"]
 CASSANDRA_PORT = 9042
 CASSANDRA_KEYSPACE = "ai_memory"
 NEO4J_URI = "bolt://127.0.0.1:7687"
-NEO4J_AUTH = ("neo4j", "REDACTED_NEO4J_PASSWORD")
+NEO4J_AUTH = ("neo4j", os.environ.get("NEO4J_PASSWORD", ""))
 
 # UUID v1 timestamp is 100ns intervals since 1582-10-15.
 _UUID_EPOCH_100NS = 0x01B21DD213814000

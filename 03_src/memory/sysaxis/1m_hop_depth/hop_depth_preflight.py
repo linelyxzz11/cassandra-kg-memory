@@ -1,5 +1,5 @@
 """Hop-depth preflight: guard + manifests + semantic gates. Read-only."""
-import csv, json, hashlib, random, time, shutil
+import csv, json, hashlib, os, random, time, shutil
 from collections import defaultdict, Counter
 from pathlib import Path
 from cassandra.cluster import Cluster
@@ -12,7 +12,7 @@ FAN  = 20; NQ = 256; SC = 64
 MANIFEST_DIR = PROJ / "results"
 
 OUT.mkdir(parents=True, exist_ok=True)
-d = GraphDatabase.driver("bolt://127.0.0.1:7687", auth=("neo4j", "REDACTED_NEO4J_PASSWORD"))
+d = GraphDatabase.driver("bolt://127.0.0.1:7687", auth=("neo4j", os.environ.get("NEO4J_PASSWORD", "")))
 c = Cluster(["127.0.0.1"], port=9042)
 s = c.connect("ai_memory")
 

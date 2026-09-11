@@ -17,7 +17,7 @@
     "cassandra",
     "neo4j"
   ],
-  "neo4j_password": "REDACTED_NEO4J_PASSWORD",
+  "neo4j_password": "<redacted; use NEO4J_PASSWORD>",
   "python": "3.12 (.venv-onnx)",
   "drivers": {
     "cassandra": "cassandra-driver 3.x",

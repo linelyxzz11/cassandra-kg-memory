@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Neo4j Import — LocoMoMemory / LocoMoEntity labels (don't touch old benchmark data)."""
-import csv, re
+import csv, os, re
 from pathlib import Path
 from neo4j import GraphDatabase
 
-driver = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", "REDACTED_NEO4J_PASSWORD"))
+driver = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", os.environ.get("NEO4J_PASSWORD", "")))
 BASE = Path("D:/memorytable/cassandra-kg-memory")
 TRIPLE_RE = re.compile(r"\(([^,]+),\s*([^,]+),\s*([^)]+)\)")
 

@@ -1,5 +1,6 @@
 import argparse
 import csv
+import os
 import re
 from collections import defaultdict
 from pathlib import Path
@@ -75,7 +76,7 @@ def main():
     parser.add_argument("--output", default="results/locomo_neo4j_results.csv")
     parser.add_argument("--uri", default="bolt://localhost:7687")
     parser.add_argument("--user", default="neo4j")
-    parser.add_argument("--password", default="REDACTED_NEO4J_PASSWORD")
+    parser.add_argument("--password", default=os.environ.get("NEO4J_PASSWORD", ""))
     parser.add_argument("--edges", default="results/locomo_kg_edges_spacy.csv",
                         help="KG edge CSV (same file as Cassandra-KG for backend-fair)")
     parser.add_argument("--top-k", type=int, default=10)

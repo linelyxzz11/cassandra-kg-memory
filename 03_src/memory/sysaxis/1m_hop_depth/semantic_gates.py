@@ -1,5 +1,5 @@
 """Semantic gates: hop 1-4, Cassandra vs Neo4j, 64 queries each."""
-import json, hashlib, random
+import json, hashlib, os, random
 from pathlib import Path
 from cassandra.cluster import Cluster
 from neo4j import GraphDatabase
@@ -11,7 +11,7 @@ FAN  = 20; SC = 64
 
 c = Cluster(["127.0.0.1"], port=9042)
 s = c.connect("ai_memory")
-d = GraphDatabase.driver("bolt://127.0.0.1:7687", auth=("neo4j", "REDACTED_NEO4J_PASSWORD"))
+d = GraphDatabase.driver("bolt://127.0.0.1:7687", auth=("neo4j", os.environ.get("NEO4J_PASSWORD", "")))
 
 def cass_fetch(src):
     rows = s.execute("SELECT src_id,relation,dst_id,source FROM kg_edges_by_src WHERE graph_id=%s AND src_id=%s", (GR, src))

@@ -3,12 +3,16 @@
 Neo4j Backend Adapter — uses LocoMoMemory / LocoMoEntity labels.
 Existing benchmark data (C0KGNode, C1KGNode, etc.) untouched.
 """
+import os
+
 from neo4j import GraphDatabase
 from collections import defaultdict
 
 NEO4J_URI = "bolt://localhost:7687"
 NEO4J_USER = "neo4j"
-NEO4J_PASSWORD = "REDACTED_NEO4J_PASSWORD"
+NEO4J_PASSWORD = os.environ.get("NEO4J_PASSWORD", "")
+if not NEO4J_PASSWORD:
+    raise RuntimeError("NEO4J_PASSWORD is required")
 NEO4J_DATABASE = "neo4j"
 
 driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))

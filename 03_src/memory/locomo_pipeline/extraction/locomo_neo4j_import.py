@@ -1,5 +1,6 @@
 import argparse
 import csv
+import os
 from pathlib import Path
 
 from neo4j import GraphDatabase
@@ -72,7 +73,7 @@ def main():
     parser.add_argument("--file", default="results/locomo_kg_edges_spacy.csv")
     parser.add_argument("--uri", default="bolt://localhost:7687")
     parser.add_argument("--user", default="neo4j")
-    parser.add_argument("--password", default="REDACTED_NEO4J_PASSWORD")
+    parser.add_argument("--password", default=os.environ.get("NEO4J_PASSWORD", ""))
     parser.add_argument("--clear", action="store_true")
     parser.add_argument("--batch-size", type=int, default=200)
     args = parser.parse_args()

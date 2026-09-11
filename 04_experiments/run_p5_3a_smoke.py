@@ -1,5 +1,5 @@
 """P5-3A: Recovery Infrastructure Smoke. Event log + checkpoint + restart + duplicate delivery."""
-import csv, json, hashlib, random, time, threading
+import csv, json, hashlib, os, random, time, threading
 from collections import defaultdict
 from pathlib import Path
 
@@ -17,7 +17,9 @@ DUP_COUNT = 50
 INPUT_RATE = 50
 CONCURRENCY = 16
 SEED = 20260721
-PASSWORD = "REDACTED_NEO4J_PASSWORD"
+PASSWORD = os.environ.get("NEO4J_PASSWORD", "")
+if not PASSWORD:
+    raise RuntimeError("NEO4J_PASSWORD is required")
 
 # ===================== SCALE GUARD =====================
 CSV_1M = BASE / "results/c3_source_scale_1M.csv"

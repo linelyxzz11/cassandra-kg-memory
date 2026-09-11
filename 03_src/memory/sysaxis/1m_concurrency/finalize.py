@@ -1,5 +1,5 @@
 """After-guard + Neo4j hash gate + final aggregation"""
-import csv, json, hashlib
+import csv, json, hashlib, os
 from collections import defaultdict
 from pathlib import Path
 from cassandra.cluster import Cluster
@@ -30,7 +30,7 @@ with (OUT / "read_graph_guard_after_warm.json").open("w") as f:
 print(f"Guard: csv={len(csv_set)} raw={cass_raw} dup={dup} miss={miss} {'PASS' if dup==0 else 'FAIL'}")
 
 # Neo4j hash gate only (Cassandra already done)
-d = GraphDatabase.driver("bolt://127.0.0.1:7687", auth=("neo4j", "REDACTED_NEO4J_PASSWORD"))
+d = GraphDatabase.driver("bolt://127.0.0.1:7687", auth=("neo4j", os.environ.get("NEO4J_PASSWORD", "")))
 queries = [json.loads(line) for line in open(MANIFEST)]
 empty = 0; mm = 0
 for i, q in enumerate(queries):

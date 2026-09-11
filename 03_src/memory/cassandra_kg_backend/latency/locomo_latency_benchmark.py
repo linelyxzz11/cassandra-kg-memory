@@ -1,5 +1,6 @@
 import argparse
 import csv
+import os
 import re
 import time
 from collections import defaultdict
@@ -41,7 +42,7 @@ def build_kg_set(edge_file):
 
 def build_neo4j_kg_set():
     from neo4j import GraphDatabase
-    driver = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", "REDACTED_NEO4J_PASSWORD"))
+    driver = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", os.environ.get("NEO4J_PASSWORD", "")))
     kg_set = set()
     with driver.session() as session:
         result = session.run("MATCH ()-[r:KG_EDGE]->() RETURN r.graph_id AS graph_id, r.source AS source")

@@ -1,5 +1,5 @@
 """100K legacy graph integrity check: CSV stats + Neo4j stats + Cassandra parallel guard"""
-import csv, json, time, hashlib, uuid
+import csv, json, os, time, hashlib, uuid
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
@@ -38,7 +38,7 @@ print(f"  rows={csv_raw} distinct={len(csv_set)} dup={csv_dup} src={len(src_ids)
 
 # === C. Neo4j stats ===
 print("\n=== Neo4j ===")
-nd = GraphDatabase.driver("bolt://127.0.0.1:7687", auth=("neo4j", "REDACTED_NEO4J_PASSWORD"))
+nd = GraphDatabase.driver("bolt://127.0.0.1:7687", auth=("neo4j", os.environ.get("NEO4J_PASSWORD", "")))
 with nd.session() as ns:
     nc = ns.run("MATCH (n:C3KGNode {graph_id:$g}) RETURN count(n) as c", g=GR).single()["c"]
     ec = ns.run("MATCH ()-[r:C3KG_EDGE {graph_id:$g}]->() RETURN count(r) as c", g=GR).single()["c"]

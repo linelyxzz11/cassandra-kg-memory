@@ -1,5 +1,5 @@
 """P5-3B: Burst-Only Isolation. No restart, no fault injection. Rate-limited burst."""
-import csv, json, hashlib, random, time, threading, statistics
+import csv, json, hashlib, os, random, time, threading, statistics
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
@@ -15,7 +15,9 @@ BURST_DUR = 30; BURST_RATE = 500        # 15000 events
 DRAIN_MAX = 300
 TOTAL_EVENTS = BASELINE_DUR * BASELINE_RATE + BURST_DUR * BURST_RATE  # 21000
 CONCURRENCY = 64; SEED = 20260721
-PASSWORD = "REDACTED_NEO4J_PASSWORD"
+PASSWORD = os.environ.get("NEO4J_PASSWORD", "")
+if not PASSWORD:
+    raise RuntimeError("NEO4J_PASSWORD is required")
 
 # ===================== SCALE GUARD =====================
 CSV_1M = BASE / "results/c3_source_scale_1M.csv"

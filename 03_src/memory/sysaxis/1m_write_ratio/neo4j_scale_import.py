@@ -1,6 +1,6 @@
 """Neo4j import: c3_source_scale_1M.csv -> C3KGNode/C3KG_EDGE with graph_id=c3_scale_1M_seed42.
 Does NOT delete old dense graph (c3_synth_1M_seed42)."""
-import csv, json, hashlib, time
+import csv, json, hashlib, os, time
 from pathlib import Path
 from collections import defaultdict
 from neo4j import GraphDatabase
@@ -11,7 +11,7 @@ CSV_PATH = PROJ / "results/c3_source_scale_1M.csv"
 MANIFEST = PROJ / "results/c3_manifest_scale_1m_h2.jsonl"
 GR_SCALE = "c3_scale_1M_seed42"
 
-d = GraphDatabase.driver("bolt://127.0.0.1:7687", auth=("neo4j", "REDACTED_NEO4J_PASSWORD"))
+d = GraphDatabase.driver("bolt://127.0.0.1:7687", auth=("neo4j", os.environ.get("NEO4J_PASSWORD", "")))
 
 # ── A: Pre-check ──
 print("[A] Pre-check Neo4j state", flush=True)

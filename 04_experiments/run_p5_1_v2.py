@@ -1,5 +1,5 @@
 """P5-1: Concurrent Update-to-Searchable. Thread-pool based, sync drivers."""
-import csv, json, hashlib, random, time, threading
+import csv, json, hashlib, os, random, time, threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
@@ -13,7 +13,9 @@ N_WARMUP = 2000
 N_RUNS = 3  # reduced
 CONCURRENCIES = [8, 32, 64]
 SEED = 20260720
-PASSWORD = "REDACTED_NEO4J_PASSWORD"
+PASSWORD = os.environ.get("NEO4J_PASSWORD", "")
+if not PASSWORD:
+    raise RuntimeError("NEO4J_PASSWORD is required")
 
 # ===================== DATA =====================
 print("Loading 1M graph...", flush=True)

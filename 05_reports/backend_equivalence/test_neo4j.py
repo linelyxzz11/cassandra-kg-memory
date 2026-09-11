@@ -2,9 +2,11 @@
 """
 Test Neo4j connection and verify imported data.
 """
+import os
+
 from neo4j import GraphDatabase
 
-driver = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", "REDACTED_NEO4J_PASSWORD"))
+driver = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", os.environ.get("NEO4J_PASSWORD", "")))
 
 with driver.session() as s:
     r = s.run("RETURN 1 AS ok").single()

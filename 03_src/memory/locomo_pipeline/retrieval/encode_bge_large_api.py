@@ -1,11 +1,14 @@
 import csv
 import json
+import os
 import time
 import numpy as np
 from pathlib import Path
 import requests
 
-API_KEY = "REDACTED_API_KEY"
+API_KEY = os.environ.get("SILICONFLOW_API_KEY", "").strip()
+if not API_KEY:
+    raise RuntimeError("SILICONFLOW_API_KEY is required")
 API_URL = "https://api.siliconflow.cn/v1/embeddings"
 MODEL = "BAAI/bge-large-en-v1.5"
 BATCH_SIZE = 12

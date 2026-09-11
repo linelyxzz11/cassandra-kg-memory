@@ -1,5 +1,5 @@
 """P5-2: Hot-Entity workload. ThreadPool + sync drivers. Uniform vs Hot, 1M graph, c=64."""
-import csv, json, hashlib, random, time, statistics
+import csv, json, hashlib, os, random, time, statistics
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
@@ -15,7 +15,9 @@ N_FORMAL = 50000
 N_RUNS = 5
 CONCURRENCY = 64
 SEED = 20260720
-PASSWORD = "REDACTED_NEO4J_PASSWORD"
+PASSWORD = os.environ.get("NEO4J_PASSWORD", "")
+if not PASSWORD:
+    raise RuntimeError("NEO4J_PASSWORD is required")
 
 # ===================== SCALE GUARD =====================
 CSV_1M = BASE / "results/c3_source_scale_1M.csv"

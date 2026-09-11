@@ -1,5 +1,6 @@
 import argparse
 import csv
+import os
 import time
 from pathlib import Path
 from statistics import mean
@@ -135,7 +136,7 @@ def main():
     parser.add_argument("--warmup", type=int, default=2)
     parser.add_argument("--uri", default="bolt://localhost:7687")
     parser.add_argument("--user", default="neo4j")
-    parser.add_argument("--password", default="REDACTED_NEO4J_PASSWORD")
+    parser.add_argument("--password", default=os.environ.get("NEO4J_PASSWORD", ""))
     parser.add_argument(
         "--output",
         default="results/benchmark_neo4j_relation_path_results.csv",

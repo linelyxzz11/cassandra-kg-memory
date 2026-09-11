@@ -1,5 +1,5 @@
 """Quick dual hash gate (64 queries)"""
-import json, hashlib, random
+import json, hashlib, os, random
 from pathlib import Path
 from cassandra.cluster import Cluster
 from neo4j import GraphDatabase
@@ -10,7 +10,7 @@ GR   = "c3_scale_1M_seed42"
 
 c = Cluster(["127.0.0.1"], port=9042)
 s = c.connect("ai_memory")
-d = GraphDatabase.driver("bolt://127.0.0.1:7687", auth=("neo4j", "REDACTED_NEO4J_PASSWORD"))
+d = GraphDatabase.driver("bolt://127.0.0.1:7687", auth=("neo4j", os.environ.get("NEO4J_PASSWORD", "")))
 
 queries = [json.loads(line) for line in open(PROJ / "results/c3_manifest_scale_1m_h2.jsonl")]
 rng = random.Random(42)

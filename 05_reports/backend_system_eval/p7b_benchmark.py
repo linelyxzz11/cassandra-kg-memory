@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """P7-B Backend Performance — streamlined, shared connections."""
 from __future__ import annotations
-import csv, json, random, statistics, time, re
+import csv, json, os, random, statistics, time, re
 from collections import defaultdict
 from pathlib import Path
 
@@ -21,7 +21,7 @@ c_ps_ent = c_s.prepare("SELECT src_entity, relation, tgt_memory_id FROM kg_tripl
 c_ps_rel = c_s.prepare("SELECT src_entity, relation, tgt_memory_id FROM kg_triples WHERE src_entity = ? AND relation = ? ALLOW FILTERING")
 
 # Neo4j
-n_d = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", "REDACTED_NEO4J_PASSWORD"))
+n_d = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", os.environ.get("NEO4J_PASSWORD", "")))
 n_s = n_d.session()
 
 # ── Load data ────────────────────────────────────────────
