@@ -1,3 +1,18 @@
-cassandra-driver
-pandas
-matplotlib
+# Core retrieval and analysis
+numpy>=1.24,<3
+pandas>=2.0,<3
+scipy>=1.10,<2
+scikit-learn>=1.3,<2
+
+# Reader evaluation and model clients
+nltk>=3.8,<4
+openai>=1.30,<3
+requests>=2.31,<3
+
+# Backends
+cassandra-driver>=3.29,<4
+neo4j>=5.20,<7
+
+# Reporting
+matplotlib>=3.7,<4
+openpyxl>=3.1,<4
