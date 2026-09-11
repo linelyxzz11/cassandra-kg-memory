@@ -1,0 +1,44 @@
+{
+  "metric": "BLEU-1",
+  "protocol": {
+    "case": "lowercase",
+    "tokenizer": "nltk.word_tokenize",
+    "aggregation": "mean sentence_bleu across questions",
+    "weights": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "smoothing": "nltk SmoothingFunction.method1",
+    "cat1_4": "categories 1-4 only",
+    "full5_lexical_audit": "lexical BLEU-1 on categories 1-5; not aligned with official Cat5",
+    "full5_hybrid": "Cat1-4 sentence BLEU-1 plus official binary Cat5 accuracy, micro-averaged over all 1986 questions; do not label this BLEU-1"
+  },
+  "inputs": [
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\official_eval\\gpt4o_dual_setting_locomo_corrected_v3\\settingA_scored_predictions.jsonl",
+      "sha256": "9ad6c2d8434cdac19642047c5517755b095a3ee26fc9a78ccd9e142285017252"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\official_eval\\gpt4o_dual_setting_locomo_corrected_v3\\settingB_scored_predictions.jsonl",
+      "sha256": "6b96b14babf87638fdbc2d29dfb2462cedacb2e843dce5e27195b7624cbd0799"
+    }
+  ],
+  "input_row_counts": {
+    "Cat.✗": 11916,
+    "Cat.✓": 11916
+  },
+  "output": {
+    "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\official_eval\\gpt4o_dual_setting_locomo_corrected_v3\\bleu1_offline_summary.csv",
+    "sha256": "8dea52cbc3bea672c46751219fb550f430c1338100749fef1acf6070caab6f4e",
+    "rows": 12
+  },
+  "significance_output": {
+    "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\official_eval\\gpt4o_dual_setting_locomo_corrected_v3\\reader_main_significance.csv",
+    "sha256": "eae19bc4f9c297cf4707e673eaa386093d64f655e2adddb12d50dbb443c42fa2",
+    "rows": 8,
+    "comparisons": "CassMem vs RRF_compact and ZScore-Raw, Setting B",
+    "multiple_testing": "Holm correction across 8 comparisons"
+  }
+}

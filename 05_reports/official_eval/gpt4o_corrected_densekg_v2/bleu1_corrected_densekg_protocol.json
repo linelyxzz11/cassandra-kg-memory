@@ -1,0 +1,30 @@
+{
+  "case": "lowercase",
+  "tokenizer": "nltk.word_tokenize",
+  "sentence_metric": "sentence_bleu weights=(1,0,0,0), method1 smoothing",
+  "overall_b1": "Cat1-4 BLEU-1 plus official binary Cat5 accuracy, micro-average n=1986",
+  "rows": [
+    {
+      "method": "Dense+GlobalKG",
+      "setting": "Cat.x",
+      "cat1_4_bleu1": 0.36732670240305243,
+      "full5_lexical_bleu1_audit": 0.33879944051911476,
+      "overall_b1_hybrid_cat5_accuracy": 0.3044728709469792,
+      "cat1_4_n": 1540,
+      "full5_n": 1986,
+      "predictions_sha256": "043b52dcda9133ca3fe2407266e9c5232912a82823753a6987dc0d51e1f7a99e",
+      "official_scores_sha256": "6d70d6b1fb754d80e38a55bbc92f4c1b70c915fe11b69cf3216d36578486dd90"
+    },
+    {
+      "method": "Dense+GlobalKG",
+      "setting": "Cat.v",
+      "cat1_4_bleu1": 0.38814763048972617,
+      "full5_lexical_bleu1_audit": 0.30548369707880474,
+      "overall_b1_hybrid_cat5_accuracy": 0.3045052119608149,
+      "cat1_4_n": 1540,
+      "full5_n": 1986,
+      "predictions_sha256": "a0a2e9bc0e92f347daf76ac6bd32aa83468a5bd534c5645bd4a9c636d6fd5bca",
+      "official_scores_sha256": "559630f0013b6822fc9c7060855d3307882997920199c3c3e10e3272216f2655"
+    }
+  ]
+}

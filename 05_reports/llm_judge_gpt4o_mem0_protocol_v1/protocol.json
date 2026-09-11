@@ -1,0 +1,35 @@
+{
+  "name": "Mem0/HingeMem-compatible binary LLM-as-a-Judge",
+  "judge_model_requested": "gpt-4o-2024-08-06",
+  "base_url": "https://api.uiuihao.com/v1",
+  "temperature": 0,
+  "max_tokens": 80,
+  "response_format": {
+    "type": "json_object"
+  },
+  "labels": [
+    "CORRECT",
+    "WRONG"
+  ],
+  "score": "mean(CORRECT); reported as percentage",
+  "categories": {
+    "1": "Multi-Hop",
+    "2": "Temporal",
+    "3": "Open-Domain",
+    "4": "Single-Hop",
+    "5": "Adversarial"
+  },
+  "cat5_policy": "included",
+  "overall_policy": "all 1,986 LoCoMo questions, including Cat5",
+  "prompt": "Your task is to label an answer to a question as 'CORRECT' or 'WRONG'. You will be given the following data:\n(1) a question (posed by one user to another user),\n(2) a 'gold' (ground truth) answer,\n(3) a generated answer which you will score as CORRECT/WRONG.\n\nThe point of the question is to ask about something one user should know about the other user based on their prior conversations.\n\nThe gold answer will usually be a concise and short answer that includes the referenced topic, for example:\nQuestion: Do you remember what I got the last time I went to Hawaii?\nGold answer: A shell necklace\n\nThe generated answer might be much longer, but you should be generous with your grading - as long as it touches on the same topic as the gold answer, it should be counted as CORRECT.\n\nFor time related questions, the gold answer will be a specific date, month, year, etc. The generated answer might be much longer or use relative time references (like \"last Tuesday\" or \"next month\"), but you should be generous with your grading - as long as it refers to the same date or time period as the gold answer, it should be counted as CORRECT. Even if the format differs (e.g., \"May 7th\" vs \"7 May\"), consider it CORRECT if it's the same date.\n\nNow it's time for the real question:\nQuestion: {question}\nGold answer: {gold_answer}\nGenerated answer: {generated_answer}\n\nFirst, provide a short (one sentence) explanation of your reasoning, then finish with CORRECT or WRONG. Do NOT include both CORRECT and WRONG in your response, or it will break the evaluation script. Just return the label CORRECT or WRONG in a json format with the key as \"label\".",
+  "prompt_sha256": "19157f488d4bab878b0d761b1279c39b6e2699f33adb0fdd0462259340ff0255",
+  "prediction_rows": 23832,
+  "unique_judgments": 8517,
+  "deduplication": "exact normalized (question, gold_answer, generated_answer) SHA-256 cache",
+  "reference": {
+    "HingeMem": "High-mem.pdf, Sec. 4.1.2: same prompt template as Mem0",
+    "Mem0": "mem0ai/mem0 commit 2b58775, evaluation/metrics/llm_judge.py"
+  },
+  "secret_policy": "API key read only from OPENAI_API_KEY and never written",
+  "created_at_utc": "2026-08-01T18:20:56.089581+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "started_at_utc": "2026-08-10T02:21:13.902563+00:00",
+  "processes": [
+    {
+      "setting": "a_unified",
+      "pid": 88536
+    },
+    {
+      "setting": "b_category",
+      "pid": 113516
+    }
+  ],
+  "note": "API key inherited from transient parent environment; not persisted"
+}

@@ -1,0 +1,14 @@
+{
+  "setting": "a_unified",
+  "total": 1986,
+  "reused": 467,
+  "api_regeneration_required": 1519,
+  "reused_by_category": {
+    "1": 7,
+    "2": 2,
+    "3": 4,
+    "4": 8,
+    "5": 446
+  },
+  "reuse_rule": "old_prompt_sha256 == new_prompt_sha256 and nonempty prediction"
+}

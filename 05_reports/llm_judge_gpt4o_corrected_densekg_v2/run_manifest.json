@@ -1,0 +1,31 @@
+{
+  "status": "complete",
+  "completed_at_utc": "2026-08-10T02:35:21.483209+00:00",
+  "prediction_rows": 3972,
+  "unique_judgments": 3135,
+  "cache_reuse_rows": 837,
+  "compatible_seeded_judgments": 0,
+  "judge_model_requested": "gpt-4o-2024-08-06",
+  "models_returned": {
+    "gpt-4o-2024-08-06": 3135
+  },
+  "usage": {
+    "completion_tokens": 28719,
+    "prompt_tokens": 1239007,
+    "total_tokens": 1267726,
+    "input_tokens": 0,
+    "output_tokens": 0
+  },
+  "attempt_histogram": {
+    "1": 3118,
+    "2": 16,
+    "3": 1
+  },
+  "outputs": [
+    "protocol.json",
+    "judgments_unique.jsonl",
+    "scored_predictions.jsonl",
+    "j_scores_by_method_setting_category.csv",
+    "j_scores_reader_main_wide.csv"
+  ]
+}

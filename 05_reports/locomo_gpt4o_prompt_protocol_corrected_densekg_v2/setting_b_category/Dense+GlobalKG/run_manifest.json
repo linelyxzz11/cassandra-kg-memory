@@ -1,0 +1,12 @@
+{
+  "method": "Dense+GlobalKG",
+  "setting": "b_category",
+  "setting_label": "Cat.v",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "max_tokens": 64,
+  "workers": 6,
+  "total": 1986,
+  "new_api_calls": 1518,
+  "total_completed": 1986
+}

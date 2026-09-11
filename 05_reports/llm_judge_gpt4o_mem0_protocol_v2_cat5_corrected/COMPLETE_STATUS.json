@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE",
+  "judge_model_requested": "gpt-4o-2024-08-06",
+  "models_returned": {
+    "gpt-4o-2024-08-06": 8495
+  },
+  "prediction_rows": 23832,
+  "unique_judgments": 8495,
+  "cat5_policy": "gold is Not mentioned in the conversation; Cat-format option labels restored to text before judging",
+  "overall_policy": "micro mean over all 1986 Full5 questions per method and setting",
+  "completed_at_utc": "2026-08-02T04:48:48.313315+00:00"
+}

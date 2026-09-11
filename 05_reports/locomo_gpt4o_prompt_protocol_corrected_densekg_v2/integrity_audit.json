@@ -1,0 +1,53 @@
+{
+  "all_pass": true,
+  "settings": [
+    {
+      "setting": "a_unified",
+      "rows": 1986,
+      "unique_qids": 1986,
+      "duplicate_qids": 0,
+      "missing_qids": 0,
+      "category_counts": {
+        "1": 282,
+        "2": 321,
+        "3": 96,
+        "4": 841,
+        "5": 446
+      },
+      "prediction_sources": {
+        "api_generated": 1519,
+        "prompt_hash_reuse": 467
+      },
+      "api_returned_models": {
+        "gpt-4o-2024-08-06": 1519
+      },
+      "problems": 0,
+      "problem_examples": [],
+      "pass": true
+    },
+    {
+      "setting": "b_category",
+      "rows": 1986,
+      "unique_qids": 1986,
+      "duplicate_qids": 0,
+      "missing_qids": 0,
+      "category_counts": {
+        "1": 282,
+        "2": 321,
+        "3": 96,
+        "4": 841,
+        "5": 446
+      },
+      "prediction_sources": {
+        "api_generated": 1519,
+        "prompt_hash_reuse": 467
+      },
+      "api_returned_models": {
+        "gpt-4o-2024-08-06": 1519
+      },
+      "problems": 0,
+      "problem_examples": [],
+      "pass": true
+    }
+  ]
+}

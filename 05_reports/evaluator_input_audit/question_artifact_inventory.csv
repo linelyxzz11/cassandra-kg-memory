@@ -1,0 +1,4 @@
+﻿path,size_bytes,sha256,format,n_qa,has_query_id,has_category,has_gold_answer,has_adversarial_answer,has_question,has_gold_memory_ids,cat_counts,categories_found
+01_data\locomo_qa_records.csv,278562,048b9bfc779a5f033223b9c0a764a1ef95ba2900c473dad753b59b5f8323fdc3,CSV,1986,True,True,True,False,True,True,"{""1"": 282, ""2"": 321, ""3"": 96, ""4"": 841, ""5"": 446}",1|2|3|4|5
+scripts\experiments\artifacts\p3_queries.csv,191627,312db7263dc0c6fba1f81eaa7f38dc0da51467a405284dfffb380fa79040b349,CSV,1540,True,True,False,False,True,True,"{""1"": 282, ""2"": 321, ""3"": 96, ""4"": 841}",1|2|3|4
+external_data\locomo10.json,2805274,79fa87e90f04081343b8c8debecb80a9a6842b76a7aa537dc9fdf651ea698ff4,JSON (10 conversations),1986,False,True,True,True,True,True,"{""1"": 282, ""2"": 321, ""3"": 96, ""4"": 841, ""5"": 446}",1|2|3|4|5

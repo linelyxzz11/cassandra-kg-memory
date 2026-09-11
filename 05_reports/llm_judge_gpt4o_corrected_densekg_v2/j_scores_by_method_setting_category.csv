@@ -1,0 +1,13 @@
+﻿method,setting,setting_label,category,category_name,n,correct,j_score,j_percent
+Dense+GlobalKG,a_unified,Cat.✗,4,Single-Hop,841,640,0.760998810939358,76.09988109393579
+Dense+GlobalKG,a_unified,Cat.✗,1,Multi-Hop,282,146,0.5177304964539007,51.773049645390074
+Dense+GlobalKG,a_unified,Cat.✗,2,Temporal,321,172,0.5358255451713395,53.58255451713396
+Dense+GlobalKG,a_unified,Cat.✗,3,Open-Domain,96,40,0.4166666666666667,41.666666666666664
+Dense+GlobalKG,a_unified,Cat.✗,5,Adversarial,446,173,0.38789237668161436,38.789237668161434
+Dense+GlobalKG,a_unified,Cat.✗,Overall,Overall,1986,1171,0.5896273917421954,58.962739174219536
+Dense+GlobalKG,b_category,Cat.✓,4,Single-Hop,841,623,0.7407847800237812,74.07847800237812
+Dense+GlobalKG,b_category,Cat.✓,1,Multi-Hop,282,153,0.5425531914893617,54.255319148936174
+Dense+GlobalKG,b_category,Cat.✓,2,Temporal,321,196,0.6105919003115264,61.059190031152646
+Dense+GlobalKG,b_category,Cat.✓,3,Open-Domain,96,43,0.4479166666666667,44.791666666666664
+Dense+GlobalKG,b_category,Cat.✓,5,Adversarial,446,392,0.8789237668161435,87.89237668161435
+Dense+GlobalKG,b_category,Cat.✓,Overall,Overall,1986,1407,0.7084592145015106,70.84592145015105

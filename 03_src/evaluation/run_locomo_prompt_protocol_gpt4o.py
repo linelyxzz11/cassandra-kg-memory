@@ -6,16 +6,17 @@ Setting B (Cat.v): category-format per LoCoMo official spec
 Full 1986 queries, GPT-4o-2024-08-06, temperature=0, max_tokens=64
 """
 from __future__ import annotations
-import argparse, csv, hashlib, json, os, random, re, time
+import argparse, csv, hashlib, json, os, random, re, time, urllib.error, urllib.request
 from collections import defaultdict, Counter
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
-from openai import OpenAI
 
 EXPECTED_FULL5 = 1986
 CAT5_N = 446
 MODEL = "gpt-4o-2024-08-06"
 BASE_URL = "https://api.uiuihao.com/v1"
 MAX_TOKENS = 64
+ROOT = Path(__file__).resolve().parents[2]
 
 CATEGORY_DIST = {"1": 282, "2": 321, "3": 96, "4": 841, "5": 446}
 
@@ -121,42 +122,49 @@ def build_sample_scoped_dense(dense_path: Path, mem: dict, qids: set[str], top_k
 
 def build_full5_rankings(questions: dict[str, dict], mem: dict,
                          method: str) -> dict[str, list[str]]:
-    BASE = Path("D:/memorytable/cassandra-kg-memory")
     cat14_qids = {qid for qid, q in questions.items() if q["category"] != "5"}
     cat5_qids = {qid for qid, q in questions.items() if q["category"] == "5"}
     all_qids = set(questions)
 
     legacy = load_records(
-        BASE / "results/final/reader_f1_memory_only_full_scoped_bm25_predictions.csv"
+        ROOT / "results/final/reader_f1_memory_only_full_scoped_bm25_predictions.csv"
     )
 
     # Map method to legacy name and sample-scoped ranking file
     if method == "BM25":
         legacy_name = "BM25"
-        sample_path = BASE / "05_reports/official_eval/bm25_raw_ranking_canonical1540.csv"
+        sample_path = ROOT / "05_reports/official_eval/bm25_raw_ranking_canonical1540.csv"
         ranking = load_ranking(sample_path, 50)
     elif method == "Dense-bge":
         legacy_name = "Dense-bge"
-        ranking = build_sample_scoped_dense(
-            BASE / "scripts/experiments/artifacts/frozen_dense_scores_long.csv",
-            mem, cat14_qids, 50)
+        sample_path = ROOT / "05_reports/official_eval/dense_bge_ranking_canonical1540.csv"
+        ranking = load_ranking(sample_path, 50)
     elif method == "Dense+GlobalKG":
         legacy_name = "Dense-bge+GlobalKG"
-        ranking = build_sample_scoped_dense(
-            BASE / "scripts/experiments/artifacts/frozen_dense_scores_long.csv",
-            mem, cat14_qids, 50)
+        sample_path = ROOT / "05_reports/dense_global_kg_rerun/dense_global_kg_top10.csv"
+        ranking = load_ranking(sample_path, 50, prior_type="degree_centrality")
+        # The retrieval-effectiveness rerun correctly excludes four Cat3
+        # evidence-empty questions. Reader generation still needs context for
+        # all questions, so use the frozen Dense ranking only for those four.
+        dense_fallback = load_ranking(
+            ROOT / "05_reports/official_eval/dense_bge_ranking_canonical1540.csv",
+            50,
+        )
+        for qid in cat14_qids:
+            if qid not in ranking and qid in dense_fallback:
+                ranking[qid] = dense_fallback[qid]
     elif method == "ZScore-Raw":
         legacy_name = "Dense-bge"
-        sample_path = BASE / "05_reports/official_eval/zscore_raw_ranking_canonical1540.csv"
+        sample_path = ROOT / "05_reports/official_eval/zscore_raw_ranking_canonical1540.csv"
         ranking = load_ranking(sample_path, 50)
     elif method == "RRF_compact":
         legacy_name = "Dense-bge"
-        sample_path = BASE / "05_reports/official_eval/rrf_compact_canonical1540/rrf_compact_top10.csv"
+        sample_path = ROOT / "05_reports/official_eval/rrf_compact_canonical1540/rrf_compact_top10.csv"
         ranking = load_ranking(sample_path, 50)
     elif method == "ZScore-RawERK":
         legacy_name = "Dense-bge"
-        sample_path = BASE / "05_reports/p1_compact_component_ablation/p1c_zscore_rankings_cat1_4_1540.csv"
-        ranking = load_ranking(sample_path, 50, variant="RawERK")
+        sample_path = ROOT / "05_reports/official_eval/zscore_rawerk_ranking_canonical1540.csv"
+        ranking = load_ranking(sample_path, 50)
     else:
         raise ValueError(f"Unknown method: {method}")
 
@@ -259,6 +267,12 @@ def build_prompt(q: dict, context: str, use_category_fmt: bool) -> str:
             OPTION_A=option_a, OPTION_B=option_b)
     return UNIFIED_PROMPT.format(CONTEXT=context, QUESTION=q["question"])
 
+def sha256_text(value: str) -> str:
+    return hashlib.sha256(value.encode("utf-8")).hexdigest()
+
+def ranking_sha256(memory_ids: list[str]) -> str:
+    return sha256_text(json.dumps(memory_ids, ensure_ascii=False, separators=(",", ":")))
+
 # ============================================================
 # Pre-flight audit
 # ============================================================
@@ -311,18 +325,38 @@ def preflight(questions: dict, mem: dict, ranking: dict[str, list[str]],
 # API
 # ============================================================
 
-def call_api(client: OpenAI, prompt: str) -> str:
-    for wait in [1, 2, 4, 8, 16, 30, 45, 60]:
+def call_api(api_key: str, prompt: str) -> dict:
+    payload = {
+        "model": MODEL,
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": 0,
+        "max_tokens": MAX_TOKENS,
+    }
+    body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+    endpoint = BASE_URL.rstrip("/") + "/chat/completions"
+    for attempt, wait in enumerate([1, 2, 4, 8, 16, 30, 45, 60], 1):
         try:
-            r = client.chat.completions.create(
-                model=MODEL, messages=[{"role": "user", "content": prompt}],
-                temperature=0, max_tokens=MAX_TOKENS, timeout=120)
-            ans = r.choices[0].message.content
-            if ans is None:
-                raise RuntimeError("None answer")
-            ans = ans.strip()
+            request = urllib.request.Request(
+                endpoint,
+                data=body,
+                method="POST",
+                headers={
+                    "Authorization": f"Bearer {api_key}",
+                    "Content-Type": "application/json",
+                },
+            )
+            started = time.perf_counter()
+            with urllib.request.urlopen(request, timeout=120) as response:
+                response_body = json.loads(response.read().decode("utf-8"))
+            ans = str(response_body["choices"][0]["message"]["content"] or "").strip()
             if ans:
-                return ans
+                return {
+                    "prediction": ans,
+                    "model_returned": response_body.get("model"),
+                    "usage": response_body.get("usage") or {},
+                    "latency_seconds": round(time.perf_counter() - started, 4),
+                    "attempts": attempt,
+                }
             raise RuntimeError("Empty answer")
         except Exception as e:
             print(f"  API fail (wait={wait}s): {e}")
@@ -346,6 +380,7 @@ def main() -> None:
                     help="Run N smoke test queries")
     ap.add_argument("--sleep-min", type=float, default=0.1)
     ap.add_argument("--sleep-max", type=float, default=0.3)
+    ap.add_argument("--workers", type=int, default=1)
     args = ap.parse_args()
 
     use_category_fmt = args.setting == "b_category"
@@ -387,11 +422,26 @@ def main() -> None:
     # Resume
     pred_file = output_dir / "reader_predictions.jsonl"
     completed = set()
+    stale_resume_rows = []
     if pred_file.exists():
         for row in load_records(pred_file):
             qid = (row.get("query_id") or row.get("qa_id") or "").strip()
-            if qid and (row.get("prediction") or "").strip():
+            if not qid or qid not in questions or not (row.get("prediction") or "").strip():
+                continue
+            q = questions[qid]
+            ctx = render_context(ranking[qid], memory_data)
+            expected_prompt_hash = sha256_text(build_prompt(q, ctx, use_category_fmt))
+            if row.get("prompt_sha256") == expected_prompt_hash:
                 completed.add(qid)
+            else:
+                stale_resume_rows.append(qid)
+
+    if stale_resume_rows:
+        raise RuntimeError(
+            "Refusing qid-only resume: prediction rows have missing or stale "
+            f"prompt hashes (n={len(stale_resume_rows)}, examples={stale_resume_rows[:5]}). "
+            "Use a clean output directory or the audited reuse preparer."
+        )
 
     pending = sorted(q for q in questions if q not in completed)
     print(f"Completed: {len(completed)}, Pending: {len(pending)}")
@@ -409,33 +459,42 @@ def main() -> None:
     api_key = os.environ.get("OPENAI_API_KEY", "").strip()
     if not api_key:
         raise RuntimeError("OPENAI_API_KEY not set")
-    client = OpenAI(api_key=api_key, base_url=BASE_URL)
-
     max_calls = args.smoke if args.smoke > 0 else len(pending)
-    new_calls = 0
-    for qid in pending:
-        if new_calls >= max_calls:
-            break
+    selected_qids = pending[:max_calls]
 
+    def generate(qid: str) -> dict:
         q = questions[qid]
         ctx = render_context(ranking[qid], memory_data)
         prompt = build_prompt(q, ctx, use_category_fmt)
-        pred = call_api(client, prompt)
-
-        row = {
+        api_result = call_api(api_key, prompt)
+        pred = api_result["prediction"]
+        time.sleep(args.sleep_min + random.random() * (args.sleep_max - args.sleep_min))
+        return {
             "query_id": qid, "qa_id": qid, "category": q["category"],
             "method": args.method, "question": q["question"],
             "gold_answer": q["answer"], "prediction": pred,
             "top10_memory_ids": ";".join(ranking[qid]),
             "model": MODEL, "temperature": 0, "max_tokens": MAX_TOKENS,
             "setting": args.setting, "setting_label": setting_label,
+            "prompt_sha256": sha256_text(prompt),
+            "ranking_sha256": ranking_sha256(ranking[qid]),
+            "prediction_source": "api_generated",
+            "model_returned": api_result["model_returned"],
+            "usage": api_result["usage"],
+            "latency_seconds": api_result["latency_seconds"],
+            "attempts": api_result["attempts"],
         }
-        with pred_file.open("a", encoding="utf-8") as f:
-            f.write(json.dumps(row, ensure_ascii=False) + "\n")
-        new_calls += 1
-        if new_calls % 20 == 0:
-            print(f"  {len(completed) + new_calls}/{len(questions)}")
-        time.sleep(args.sleep_min + random.random() * (args.sleep_max - args.sleep_min))
+
+    new_calls = 0
+    with ThreadPoolExecutor(max_workers=max(1, args.workers)) as executor:
+        futures = {executor.submit(generate, qid): qid for qid in selected_qids}
+        for future in as_completed(futures):
+            row = future.result()
+            with pred_file.open("a", encoding="utf-8") as f:
+                f.write(json.dumps(row, ensure_ascii=False) + "\n")
+            new_calls += 1
+            if new_calls % 20 == 0:
+                print(f"  {len(completed) + new_calls}/{len(questions)}", flush=True)
 
     final_n = len(load_records(pred_file)) if pred_file.exists() else 0
     print(f"New calls: {new_calls}, Total: {final_n}/{len(questions)}")
@@ -443,6 +502,7 @@ def main() -> None:
     run_manifest = {"method": args.method, "setting": args.setting,
                     "setting_label": setting_label, "model": MODEL,
                     "temperature": 0, "max_tokens": MAX_TOKENS,
+                    "workers": args.workers,
                     "total": len(questions), "new_api_calls": new_calls,
                     "total_completed": final_n}
     (output_dir / "run_manifest.json").write_text(

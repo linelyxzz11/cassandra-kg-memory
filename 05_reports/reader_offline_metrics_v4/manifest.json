@@ -1,0 +1,106 @@
+{
+  "protocol_version": "reader-offline-v4",
+  "api_calls": 0,
+  "prediction_rows": 23832,
+  "methods": [
+    "BM25",
+    "Dense-bge",
+    "Dense+GlobalKG",
+    "RRF_compact",
+    "ZScore-Raw",
+    "ZScore-RawERK"
+  ],
+  "settings": [
+    "a_unified",
+    "b_category"
+  ],
+  "f1": "official LoCoMo category-aware per-query score, micro mean over 1,986",
+  "bleu1": {
+    "tokenizer": "NLTK word_tokenize, lowercase",
+    "weights": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "smoothing": "method1",
+    "cat5_reference": "Not mentioned in the conversation",
+    "cat5_prediction": "deterministic option label restored to option text before scoring"
+  },
+  "inputs": [
+    {
+      "path": "05_reports/locomo_gpt4o_prompt_protocol/setting_a_unified/BM25/reader_predictions.jsonl",
+      "sha256": "f6eaf2e930e5e68fc1b99166dc9db067ed79cbf64824ff589ccc4a4629a6d758",
+      "rows": 1986
+    },
+    {
+      "path": "05_reports/locomo_gpt4o_prompt_protocol/setting_a_unified/Dense-bge/reader_predictions.jsonl",
+      "sha256": "ffeabbf13e8357c14638a4ab9fe0ba3207e79c4ab863c1bbee7a566361a58d50",
+      "rows": 1986
+    },
+    {
+      "path": "05_reports/locomo_gpt4o_prompt_protocol_corrected_densekg_v2/setting_a_unified/Dense+GlobalKG/reader_predictions.jsonl",
+      "sha256": "043b52dcda9133ca3fe2407266e9c5232912a82823753a6987dc0d51e1f7a99e",
+      "rows": 1986
+    },
+    {
+      "path": "05_reports/locomo_gpt4o_prompt_protocol/setting_a_unified/RRF_compact/reader_predictions.jsonl",
+      "sha256": "d2c280a67a972bc33467f896ac6dfc644cd4e7cee06b3736116e96bec86f5345",
+      "rows": 1986
+    },
+    {
+      "path": "05_reports/locomo_gpt4o_prompt_protocol/setting_a_unified/ZScore-Raw/reader_predictions.jsonl",
+      "sha256": "2cfebe0d5eb168e92738941c9bc1221c534996b8e41c3629c2c679573ef8fc96",
+      "rows": 1986
+    },
+    {
+      "path": "05_reports/locomo_gpt4o_prompt_protocol/setting_a_unified/ZScore-RawERK/reader_predictions.jsonl",
+      "sha256": "9f0e52549f78cc9112bc842a6ccf068dcb5ceea32a53548c0991860f903bfe4c",
+      "rows": 1986
+    },
+    {
+      "path": "05_reports/locomo_gpt4o_prompt_protocol/setting_b_category/BM25/reader_predictions.jsonl",
+      "sha256": "22e9b95b46260fda787f195ed7260331e2d608df47fddb1fc23d8b5c02666266",
+      "rows": 1986
+    },
+    {
+      "path": "05_reports/locomo_gpt4o_prompt_protocol/setting_b_category/Dense-bge/reader_predictions.jsonl",
+      "sha256": "0868d744baefaae062b90c2a27469aaec77c546f86108e57eaf4868d143037be",
+      "rows": 1986
+    },
+    {
+      "path": "05_reports/locomo_gpt4o_prompt_protocol_corrected_densekg_v2/setting_b_category/Dense+GlobalKG/reader_predictions.jsonl",
+      "sha256": "a0a2e9bc0e92f347daf76ac6bd32aa83468a5bd534c5645bd4a9c636d6fd5bca",
+      "rows": 1986
+    },
+    {
+      "path": "05_reports/locomo_gpt4o_prompt_protocol/setting_b_category/RRF_compact/reader_predictions.jsonl",
+      "sha256": "4c2994c3209dfb4ea3f37a608d1673aca110b0934f2dfbd9e7d06d275d274564",
+      "rows": 1986
+    },
+    {
+      "path": "05_reports/locomo_gpt4o_prompt_protocol/setting_b_category/ZScore-Raw/reader_predictions.jsonl",
+      "sha256": "2ecc1192de088051cdd5f2ca272e34f307549d54a399cf78713c982f862d8482",
+      "rows": 1986
+    },
+    {
+      "path": "05_reports/locomo_gpt4o_prompt_protocol/setting_b_category/ZScore-RawERK/reader_predictions.jsonl",
+      "sha256": "d840870eca3e3e0708cea4f1f124307e9c4c5a7b82b4f2ff406ef531a2984a3f",
+      "rows": 1986
+    }
+  ],
+  "outputs": [
+    {
+      "path": "05_reports\\reader_offline_metrics_v4\\reader_metrics_per_query.jsonl",
+      "sha256": "8d9b69ec5697e757612001b8504670132173c0faa8a82a0a63b21694d8dd9338"
+    },
+    {
+      "path": "05_reports/reader_offline_metrics_v4/reader_metrics_summary.csv",
+      "sha256": "39c9acd7a37dd060231e8a1af1d71c5613dd37e5dbd612b6a5235ff71b81e647"
+    },
+    {
+      "path": "05_reports/reader_offline_metrics_v4/reader_metrics_by_category.csv",
+      "sha256": "6abc9316c5d13e25ba0dff33126147885dd06fed38bd525411e43394bc683f60"
+    }
+  ]
+}

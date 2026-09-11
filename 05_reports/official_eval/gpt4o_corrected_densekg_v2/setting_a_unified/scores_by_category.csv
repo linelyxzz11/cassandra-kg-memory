@@ -1,0 +1,6 @@
+﻿method,category,scope,n,category_counts,official_score,rF1_cat14,rEM_cat14_project,WrongAbstention_cat14_project,cat5_official_abstention,cat5_broad_abstention,cat5_leakage_official
+Dense+GlobalKG,1,cat1,282,"{""1"": 282}",0.364128,0.364128,0.191647,0.007092,,,
+Dense+GlobalKG,2,cat2,321,"{""2"": 321}",0.307232,0.307232,0.071651,0.031153,,,
+Dense+GlobalKG,3,cat3,96,"{""3"": 96}",0.215165,0.215165,0.135417,0.083333,,,
+Dense+GlobalKG,4,cat4,841,"{""4"": 841}",0.580487,0.580487,0.332937,0.010702,,,
+Dense+GlobalKG,5,cat5,446,"{""5"": 446}",0.087444,,,,0.087444,0.105381,0.912556

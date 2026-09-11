@@ -1,0 +1,37 @@
+{
+  "version": "question-type-breakdown-v1",
+  "api_calls": 0,
+  "bootstrap_samples": 10000,
+  "seed": 20260812,
+  "category_mapping": {
+    "1": "Multi-Hop",
+    "2": "Temporal",
+    "3": "Open-Domain",
+    "4": "Single-Hop",
+    "5": "Adversarial"
+  },
+  "inputs": [
+    {
+      "path": "05_reports\\retrieval_main_table\\retrieval_main_per_query.csv",
+      "sha256": "93b8489031a50f142e6ca79c029150e51b98c2e99e599b98a5a8e4007a461c28"
+    },
+    {
+      "path": "05_reports\\reader_offline_metrics_v4\\reader_metrics_per_query.jsonl",
+      "sha256": "8d9b69ec5697e757612001b8504670132173c0faa8a82a0a63b21694d8dd9338"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "05_reports\\question_type_breakdown_v1\\question_type_scores.csv",
+      "sha256": "6ea85b596126d6dd29a02efa00d5753a3ad27a121f22f583144adf591bc25150"
+    },
+    {
+      "path": "05_reports\\question_type_breakdown_v1\\question_type_deltas.csv",
+      "sha256": "8bc353b3e2f1b8abf8ab59edb3bd50783d5f37e075b7c1c657209b8d03e3277c"
+    },
+    {
+      "path": "05_reports\\question_type_breakdown_v1\\QUESTION_TYPE_BREAKDOWN_REPORT.md",
+      "sha256": "69d785dc147030e04aa09458b6fc44df0b96877abba3435100345f196e459381"
+    }
+  ]
+}

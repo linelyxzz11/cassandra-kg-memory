@@ -1,0 +1,13 @@
+{
+  "status": "SUPERSEDED_BY_COMPLETE_RUN",
+  "judge_model": "gpt-4o-2024-08-06",
+  "prediction_rows": 23832,
+  "current_unique_judgments": 8495,
+  "compatible_cat1_4_seeded": 6487,
+  "corrected_cat5_required": 2008,
+  "corrected_cat5_completed": 2008,
+  "corrected_cat5_remaining": 0,
+  "blocking_error_code": null,
+  "resume_safe": false,
+  "publication_policy": "Complete. Use run_manifest.json and the final score tables in this directory."
+}
