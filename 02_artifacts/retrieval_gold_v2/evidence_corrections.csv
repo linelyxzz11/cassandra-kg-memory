@@ -1,0 +1,6 @@
+﻿query_id,category,conversation_id,source_evidence_turn_id,corrected_evidence_turn_id,rationale
+conv-42_qa_58,1,conv-42,D10:19,D20:15,The cited turn does not exist; D20:15 contains the dairy-free margarine and coconut-oil recommendation named in the answer.
+conv-42_qa_88,4,conv-42,D,D1:16,The cited token is truncated; D1:16 introduces the movie via its image query and is the missing evidence between the other cited turns.
+conv-43_qa_18,1,conv-43,D:11:26,D11:26,Malformed session prefix; D11:26 explicitly mentions The Alchemist.
+conv-47_qa_38,1,conv-47,D4:36,D13:3,"The cited turn does not exist; D13:3 states that John secured his dream job, matching the missing clause of the annotated answer."
+conv-50_qa_69,2,conv-50,D30:05,D30:5,Normalized leading zero in released evidence ID.

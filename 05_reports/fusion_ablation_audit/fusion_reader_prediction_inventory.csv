@@ -1,0 +1,14 @@
+﻿method,path,rows,unique_query,has_prediction,scope,sha256,status,category_counts
+ZScore_Linear,reports/p2_fusion_reader_final/reader_predictions.jsonl,1150,1150,True,heldout1150,638f6e0202e431370085fe458c35e96c6c9f492f96c3635a40a436caaca4d595,PARTIAL_1150,"{'1': 224, '2': 239, '3': 75, '4': 612}"
+Weighted_RRF_dev,reports/p2_fusion_reader_final/reader_predictions.jsonl,1150,1150,True,heldout1150,638f6e0202e431370085fe458c35e96c6c9f492f96c3635a40a436caaca4d595,PARTIAL_1150,"{'1': 224, '2': 239, '3': 75, '4': 612}"
+MinMax_Linear,reports/p2_fusion_reader_final/reader_predictions.jsonl,1150,1150,True,heldout1150,638f6e0202e431370085fe458c35e96c6c9f492f96c3635a40a436caaca4d595,PARTIAL_1150,"{'1': 224, '2': 239, '3': 75, '4': 612}"
+ZScore_RawERK,05_reports/p3_reader_alignment/reader_predictions.jsonl,1150,1150,True,heldout1150,520c30f7b0be1077b8b767295df8f9d073e75b3946ba9036b347ddb3a850de56,PARTIAL_1150,"{'1': 224, '2': 239, '3': 75, '4': 612}"
+ZScore_RawERK,05_reports/p4_full5/reader_cache_all.jsonl,0,0,True,0_rows,69e95c8f473c93b609b9c989f67065b52a4c3f3fe173cf10d3e17961e138670f,NO_PREDICTION,{}
+RRF_ERK,reports/erk_vs_erkt_reader_heldout/05_prediction_change_cases.jsonl,1150,1150,True,heldout1150,205c2173314796f98d55d5acdb8332631044b5518f0cb8845f23bd31e03d3a47,PARTIAL_1150,"{'1': 224, '2': 239, '3': 75, '4': 612}"
+RRF_ERKT,reports/erk_vs_erkt_reader_heldout/05_prediction_change_cases.jsonl,1150,1150,True,heldout1150,205c2173314796f98d55d5acdb8332631044b5518f0cb8845f23bd31e03d3a47,PARTIAL_1150,"{'1': 224, '2': 239, '3': 75, '4': 612}"
+ZScore_Linear,reports/p2_fusion_reader_final/reader_cache.jsonl,1150,1150,True,heldout1150,594248e42018b1d65ed9c4185bad4bc8f8f0eaef61464cdcd93efd0ee2b6bdc1,PARTIAL_1150,{'': 1150}
+Weighted_RRF_dev,reports/p2_fusion_reader_final/reader_cache.jsonl,1150,1150,True,heldout1150,594248e42018b1d65ed9c4185bad4bc8f8f0eaef61464cdcd93efd0ee2b6bdc1,PARTIAL_1150,{'': 1150}
+MinMax_Linear,reports/p2_fusion_reader_final/reader_cache.jsonl,1150,1150,True,heldout1150,594248e42018b1d65ed9c4185bad4bc8f8f0eaef61464cdcd93efd0ee2b6bdc1,PARTIAL_1150,{'': 1150}
+ZScore_Raw (as ZScore_Linear in P2),reports/p2_fusion_reader_final/reader_predictions.jsonl,1150,1150,True,heldout1150,638f6e0202e431370085fe458c35e96c6c9f492f96c3635a40a436caaca4d595,PARTIAL_1150,"{'1': 224, '2': 239, '3': 75, '4': 612}"
+RRF_compact (as Weighted_RRF_dev in P2),reports/p2_fusion_reader_final/reader_predictions.jsonl,1150,1150,True,heldout1150,638f6e0202e431370085fe458c35e96c6c9f492f96c3635a40a436caaca4d595,PARTIAL_1150,"{'1': 224, '2': 239, '3': 75, '4': 612}"
+ZScore_Raw (standalone),,0,0,False,N/A,,MISSING_NO_ARTIFACT,

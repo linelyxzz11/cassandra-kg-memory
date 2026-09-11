@@ -1,0 +1,6 @@
+﻿scope,n,oracle_candidate_recall,queries_with_all_gold,avg_candidate_count,min_candidate_count,max_candidate_count,interpretation
+Overall,1536,1.0,1536,601.6822916666666,369,689,Sanity check for the full conversation-scoped pool; not a pruned KG-expansion candidate metric.
+Single-Hop,841,1.0,841,607.7657550535077,369,689,Sanity check for the full conversation-scoped pool; not a pruned KG-expansion candidate metric.
+Multi-Hop,282,1.0,282,594.7269503546099,369,689,Sanity check for the full conversation-scoped pool; not a pruned KG-expansion candidate metric.
+Temporal,321,1.0,321,588.9065420560747,369,689,Sanity check for the full conversation-scoped pool; not a pruned KG-expansion candidate metric.
+Open-Domain,92,1.0,92,611.9673913043479,419,689,Sanity check for the full conversation-scoped pool; not a pruned KG-expansion candidate metric.

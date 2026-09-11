@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "protocol_id": "candidate-stage-analysis-v1",
+  "created_at_utc": "2026-08-23T18:07:03.607611+00:00",
+  "api_calls": 0,
+  "query_universe": 1540,
+  "evaluable_queries": 1536,
+  "heldout_test_queries": 1146,
+  "methods": [
+    "BM25",
+    "Dense-bge",
+    "Dense+GlobalKG",
+    "RRF_compact",
+    "ZScore-Raw",
+    "ZScore-RawERK"
+  ],
+  "candidate_definition": "actual frozen Top-100 single-branch pool or union of frozen Top-50 fusion branches",
+  "inputs": [
+    {
+      "path": "02_artifacts\\retrieval_gold_v2\\locomo_cat1_4_gold_memory.csv",
+      "sha256": "8946fd8f208b8dbd37540a7a45314c758e10744a762190bae2825a56b544e7f7"
+    },
+    {
+      "path": "01_data\\locomo_memory_records.csv",
+      "sha256": "9cf57c37cf9185cc53840e0e30232db1d305c8a50d292e5284f977a0b05aa689"
+    },
+    {
+      "path": "05_reports\\backend_equivalence_v2\\runs\\csv\\diagnostic_pools.csv",
+      "sha256": "76cdb85beb41da78e16e6b3e0806d82092f503e43a7413b1f45f2401b04a21a9"
+    },
+    {
+      "path": "05_reports\\backend_equivalence_v2\\runs\\csv\\top10.csv",
+      "sha256": "73427b9e42d8901af8dbf6fe0d25766dfeb7b1b99209070daf905bfa5774fccc"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "05_reports\\candidate_stage_analysis_v1\\candidate_stage_per_query.csv",
+      "sha256": "fb33c92497898f97e35bdb1c8454a35804bbde44e1b524bb6036ce11258bd9f5"
+    },
+    {
+      "path": "05_reports\\candidate_stage_analysis_v1\\candidate_stage_summary.csv",
+      "sha256": "f881f835ab82ee7998e9a45e6704210a605aae95e4c2a569326172aaafe78c50"
+    },
+    {
+      "path": "05_reports\\candidate_stage_analysis_v1\\CANDIDATE_STAGE_REPORT.md",
+      "sha256": "37134a6ec9887716852b2e5c80dfeb811c1e31641d27834734cdd70efd42b0fa"
+    }
+  ]
+}

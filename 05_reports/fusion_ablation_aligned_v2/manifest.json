@@ -1,0 +1,17 @@
+{
+  "experiment": "Fusion ablation aligned to Retrieval Table 1",
+  "scope": "held-out test; Cat1-4; n=1,146 mapped-evidence queries",
+  "fixed_inputs": "same frozen Dense and RawERK BM25 top-50 branches for every method",
+  "parameter_policy": "fusion parameters frozen from the development sweep; no test tuning",
+  "table1_zscore_parity": "PASS on all six retrieval metrics",
+  "inputs": {
+    "04_experiments\\retrieval\\p1_compact_component_ablation\\p1c_config.json": "d5da081acde6cc38f8c89bc3d5f4c1b883a272f107ccf8e46b1760e91b62c97b",
+    "02_artifacts\\retrieval_gold_v2\\locomo_cat1_4_gold_memory.csv": "8946fd8f208b8dbd37540a7a45314c758e10744a762190bae2825a56b544e7f7",
+    "05_reports\\retrieval_main_table\\retrieval_main_overall.csv": "76b946927647a5da27e192c74a1a181b24a199471eb977a810f1e7eff2580948"
+  },
+  "outputs": {
+    "05_reports\\fusion_ablation_aligned_v2\\fusion_ablation_overall_heldout1146.csv": "46a01a6447871bc74d4da63cc200dd85d42145910784f7c3699bce97447ec0d3",
+    "05_reports\\fusion_ablation_aligned_v2\\fusion_ablation_per_query_heldout1146.csv": "5c7f5f458580db2064b1201b6033395279efb60989578bc8e1d977f1144cb134",
+    "05_reports\\fusion_ablation_aligned_v2\\TABLE3_FUSION_ABLATION_ALIGNED.md": "e88c050b94f9e9c51cce30108901fe343307586c338798dd97ced55ac861e8fb"
+  }
+}

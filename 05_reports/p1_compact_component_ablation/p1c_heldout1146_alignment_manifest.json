@@ -1,0 +1,21 @@
+{
+  "experiment": "P1-C representation ablation aligned to Retrieval Table 1",
+  "operation": "metric-only reaggregation; frozen rankings were not rerun",
+  "scope": "held-out test; Cat1-4; 1,146 mapped-evidence queries",
+  "excluded": "four historical heldout1150 questions with unmapped gold memories",
+  "metric_definitions": {
+    "MRR@10": "reciprocal rank of first relevant memory within Top-10",
+    "Hit@K": "at least one relevant memory in Top-K",
+    "Recall@10": "fraction of all gold memories retrieved in Top-10",
+    "nDCG@10": "binary-relevance nDCG at 10"
+  },
+  "inputs": {
+    "02_artifacts\\retrieval_gold_v2\\locomo_cat1_4_gold_memory.csv": "8946fd8f208b8dbd37540a7a45314c758e10744a762190bae2825a56b544e7f7",
+    "05_reports\\p1_compact_component_ablation\\p1c_zscore_rankings_heldout1150.csv": "5d96b982266f8aff7aef4c334560c09cf66c0a603a1c9984da425bd241f72b5e"
+  },
+  "outputs": {
+    "05_reports\\p1_compact_component_ablation\\p1c_zscore_overall_heldout1146_aligned.csv": "48f5f09b41186980e98008d6547cf023fabc6c12cffe09a6ab3919638189254e",
+    "05_reports\\p1_compact_component_ablation\\p1c_zscore_by_category_heldout1146_aligned.csv": "1e374d01d4d4a65a62a29c21079be284bd004d24847e347aae42a3e3eb8cdafb",
+    "05_reports\\p1_compact_component_ablation\\p1c_zscore_per_query_heldout1146_aligned.csv": "cd50da8a7085edefca15422ea8486935c72d86620a7c350222503f0771848814"
+  }
+}
