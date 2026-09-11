@@ -46,3 +46,15 @@ tables must reference exact hashes.
 
 Virtual environments, model caches, SQLite state, logs, `.env`, and credentials
 are local runtime state and must remain untracked.
+
+## Git Artifact Retention
+
+Git stores source code plus compact, citation-ready evidence: protocol/run
+manifests, hashes, aggregate CSV/JSON, publication tables, reports, and small
+review samples. Large reproducible per-event traces, backend run dumps, judge
+caches, and full prediction ledgers remain local and are ignored.
+
+When a large raw artifact is needed for public reproducibility, publish it as a
+versioned external release and record its URL, byte size, and SHA-256 in the
+corresponding manifest. Do not add it to normal Git history without an explicit
+Git LFS policy.
