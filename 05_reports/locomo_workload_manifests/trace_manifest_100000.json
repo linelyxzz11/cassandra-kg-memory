@@ -1,0 +1,71 @@
+{
+  "manifest_version": "locomo-shaped-trace-v1",
+  "workload_name": "LoCoMo-shaped multi-tenant online memory workload",
+  "terminology_guardrail": "Synthetic namespace replication preserving empirical LoCoMo distributions; not original scaled LoCoMo.",
+  "seed": 20260803,
+  "target_memory_count": 100000,
+  "source_memory_count": 5882,
+  "source_scope_count": 10,
+  "full_namespace_replicas": 17,
+  "partial_replica_memory_count": 6,
+  "namespace_count": 171,
+  "partial_replica_scope_count": 1,
+  "lazy_mapping": {
+    "source_row_index": "global_memory_ordinal % source_memory_count",
+    "replica_index": "global_memory_ordinal // source_memory_count",
+    "scope_id": "lr{replica_index:06d}::{source_sample_id}",
+    "memory_id": "lr{replica_index:06d}::{source_memory_id}",
+    "qa_id": "lr{replica_index:06d}::{source_qa_id}",
+    "order": "preserve canonical per-scope memory order; deterministically interleave namespaces with seed"
+  },
+  "preserved_empirical_dimensions": [
+    "conversation length",
+    "session structure",
+    "KG coverage",
+    "triples per memory",
+    "relation frequency",
+    "QA category",
+    "evidence count",
+    "within-scope update order"
+  ],
+  "operation_mix": {
+    "primary": {
+      "read_fraction": 0.95,
+      "update_fraction": 0.05
+    },
+    "supplemental": [
+      {
+        "read_fraction": 0.9,
+        "update_fraction": 0.1
+      },
+      {
+        "read_fraction": 0.99,
+        "update_fraction": 0.01
+      }
+    ]
+  },
+  "concurrency": [
+    1,
+    8,
+    16,
+    32,
+    64
+  ],
+  "freshness_deadlines_ms": [
+    50,
+    100,
+    250,
+    500,
+    1000
+  ],
+  "source_sha256": {
+    "memory_csv": "9cf57c37cf9185cc53840e0e30232db1d305c8a50d292e5284f977a0b05aa689",
+    "qa_csv": "048b9bfc779a5f033223b9c0a764a1ef95ba2900c473dad753b59b5f8323fdc3",
+    "feature_csv": "b211c99df6f778b02d2c89670e6db90e12aedef3a313d0ab102708b24795c0cc",
+    "memory_ids": "3f488f951a78dd3832577bbeb4114eca88ae3ad21cfd1ed70c4d5051926eb344",
+    "qa_ids": "d8734364ae41d24f407d7b3f888bf94ee4b89c368700b08cb5fade7c2c71c74f"
+  },
+  "estimated_replication_factor": 17.001020061203672,
+  "minimum_full_replicas_required": 18,
+  "manifest_sha256": "11ebd06e25208371ef7bd7de21cb43f617fba6e215d3e515235256ee78e2a4c7"
+}

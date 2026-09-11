@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "protocol_id": "graph-aware-logical-event-v2",
+  "full_canonical_run": false,
+  "memories": 10,
+  "scopes": 1,
+  "relations": 4,
+  "edges": 4,
+  "memory_counts": {
+    "cassandra-base": 10,
+    "cassandra-materialized": 10,
+    "neo4j-native": 10,
+    "neo4j-materialized": 10
+  },
+  "graph_digest_comparisons": 40,
+  "graph_digest_mismatches": 0,
+  "relation_candidate_comparisons": 16,
+  "relation_candidate_mismatches": 0,
+  "attempted_logical_mutations": {
+    "cassandra-base": {
+      "total": 56,
+      "mean": 5.6,
+      "p50": 2.0,
+      "p95": 13.099999999999998,
+      "max": 14
+    },
+    "cassandra-materialized": {
+      "total": 42,
+      "mean": 4.2,
+      "p50": 1.0,
+      "p95": 11.099999999999998,
+      "max": 12
+    },
+    "neo4j-native": {
+      "total": 58,
+      "mean": 5.8,
+      "p50": 3.0,
+      "p95": 12.099999999999998,
+      "max": 13
+    },
+    "neo4j-materialized": {
+      "total": 42,
+      "mean": 4.2,
+      "p50": 1.0,
+      "p95": 11.099999999999998,
+      "max": 12
+    }
+  },
+  "actual_storage_records": {
+    "cassandra-base": 54,
+    "cassandra-materialized": 40,
+    "neo4j-native": 56,
+    "neo4j-materialized": 40
+  },
+  "cassandra_table_counts": {
+    "g_base_memory_by_scope": 10,
+    "g_base_features_by_memory": 10,
+    "g_base_entities_by_scope": 11,
+    "g_base_mentions_by_memory": 11,
+    "g_base_edges_by_memory": 4,
+    "g_base_edges_by_src": 4,
+    "g_base_edges_by_scope": 4,
+    "g_mat_memory_by_scope": 10,
+    "g_mat_entities_by_scope": 11,
+    "g_mat_mentions_by_memory": 11,
+    "g_mat_edges_by_memory": 4,
+    "g_mat_by_scope_relation": 4
+  },
+  "neo4j_graph_counts": {
+    "LWV2NativeMemory": 10,
+    "LWV2NativeFeature": 10,
+    "LWV2NativeEntity": 11,
+    "LWV2MatMemory": 10,
+    "LWV2MatEntity": 11,
+    "LWV2MatCandidate": 4,
+    "LWV2_HAS_FEATURE": 10,
+    "LWV2_NATIVE_MENTIONS": 11,
+    "LWV2_MAT_MENTIONS": 11,
+    "LWV2_NATIVE_REL": 4,
+    "LWV2_MAT_REL": 4
+  },
+  "stage_times": [
+    {
+      "stage": "reset",
+      "seconds": 1.0689342021942139
+    },
+    {
+      "stage": "load:cassandra-base",
+      "seconds": 0.02131175994873047
+    },
+    {
+      "stage": "load:cassandra-materialized",
+      "seconds": 0.01518559455871582
+    },
+    {
+      "stage": "load:neo4j-native",
+      "seconds": 0.25763607025146484
+    },
+    {
+      "stage": "load:neo4j-materialized",
+      "seconds": 0.1442270278930664
+    }
+  ],
+  "elapsed_seconds": 2.6769120693206787
+}

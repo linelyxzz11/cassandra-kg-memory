@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "protocol_id": "graph-aware-logical-event-v2-100k-95r5u",
+  "cells": [
+    "cassandra-base",
+    "cassandra-materialized",
+    "neo4j-native",
+    "neo4j-materialized"
+  ],
+  "concurrency": [
+    1,
+    8,
+    16,
+    32,
+    64
+  ],
+  "repetitions": 3,
+  "formal_runs": 60,
+  "operations_per_run": 5000,
+  "read_update_mix": "95:5",
+  "aggregation": "median of three run-level statistics; min/max retained",
+  "outputs": {
+    "main_95_5_runs.csv": "4b38e5a9805826460979574feb12a5fbbcdfa67bb0fca392af866d24697693dd",
+    "main_95_5_summary.csv": "ff47b195ba3d1504c63c283944b26373d7a67d552781aa2211fcd164c38755af"
+  }
+}

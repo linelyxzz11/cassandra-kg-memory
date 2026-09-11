@@ -1,0 +1,68 @@
+{
+  "experiment": "P7-A Backend Retrieval Equivalence Validation",
+  "date": "2026-07-30",
+  "status": "FRAMEWORK_READY - awaiting keyspace/schema creation in Cassandra and node labels in Neo4j",
+  "connection_configs": {
+    "cassandra": {
+      "host": "127.0.0.1",
+      "port": 9042,
+      "keyspace": "kg_memory",
+      "auth": "default (no password)",
+      "container": "cassandra (Docker, ID: 5cfd82dfc88b)",
+      "image": "cassandra:latest"
+    },
+    "neo4j": {
+      "uri": "bolt://localhost:7687",
+      "http_port": 7474,
+      "user": "neo4j",
+      "password": "neo4j (default)",
+      "database": "neo4j (default)",
+      "container": "neo4j-kg (Docker, ID: cde54066782d)",
+      "image": "neo4j:5.26"
+    }
+  },
+  "canonical_reference": {
+    "csv_legacy_root": "D:/memorytable/cassandra-kg-memory/05_reports/official_eval",
+    "frozen_artifacts": {
+      "questions": "selected_full5_questions.csv",
+      "memories": "01_data/locomo_memory_records.csv",
+      "features": "scripts/experiments/artifacts/p3_memory_features.csv",
+      "embeddings": "scripts/experiments/artifacts/frozen_memory_embeddings.npy",
+      "dense_scores": "scripts/experiments/artifacts/frozen_dense_scores_long.csv",
+      "bm25_rankings": "p1_compact_component_ablation/p1c_bm25_rankings_cat1_4_1540.csv",
+      "zscore_rankings": "p1_compact_component_ablation/p1c_zscore_rankings_cat1_4_1540.csv"
+    },
+    "legacy_outputs": {
+      "bm25_raw": "bm25_raw_ranking_canonical1540.csv",
+      "zscore_raw": "zscore_raw_ranking_canonical1540.csv",
+      "rrf_compact": "rrf_compact_canonical1540/rrf_compact_top10.csv",
+      "dense_bge": "dense_bge_ranking_canonical1540.csv",
+      "dense_globalkg": "dense_globalkg_ranking_canonical1540.csv",
+      "zscore_rawerk": "p1c_zscore_rankings_cat1_4_1540.csv"
+    }
+  },
+  "expected_cassandra_schema": {
+    "kg_memory_table": {
+      "columns": ["conversation_id", "memory_id", "raw_text", "entities", "relations", "keywords", "embedding_id", "timestamp"],
+      "primary_key": "(conversation_id, memory_id)"
+    },
+    "kg_triples": {
+      "columns": ["scope_id", "src_memory_id", "src_entity", "relation", "tgt_memory_id"],
+      "primary_key": "(scope_id, src_memory_id, tgt_memory_id)"
+    }
+  },
+  "expected_neo4j_schema": {
+    "node_label": ":Memory",
+    "node_properties": ["memory_id", "raw_text", "entities", "relations", "keywords", "embedding_id", "scope_id (as property)", "timestamp"],
+    "relationship_label": ":RELATES",
+    "primary_key": "memory_id"
+  },
+  "methods": ["BM25","Dense-bge","Dense+GlobalKG","RRF_compact","ZScore-Raw","ZScore-RawERK"],
+  "backends": ["CSV","Cassandra","Neo4j"],
+  "scope": {"questions": 1986, "memories": 5882, "categories": {"1":282,"2":321,"3":96,"4":841,"5":446}},
+  "gates": {
+    "A_description": "New CSV adapter reproduces legacy CSV output exactly",
+    "B_description": "Cassandra backend reproduces CSV adapter per-query exactly",
+    "C_description": "Neo4j backend reproduces CSV adapter per-query exactly"
+  }
+}

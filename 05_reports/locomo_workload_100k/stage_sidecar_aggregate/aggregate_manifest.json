@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "source_directory": "05_reports/locomo_workload_100k/stage_sidecar",
+  "source_files": 60,
+  "source_updates_sha256": "983684550133f94c58a8e089d7986910fa17e6133a679f80594c06c18d8eada5",
+  "events": 15000,
+  "cells": [
+    "cassandra-base",
+    "cassandra-materialized",
+    "neo4j-native",
+    "neo4j-materialized"
+  ],
+  "concurrencies": [
+    1,
+    8,
+    16,
+    32,
+    64
+  ],
+  "repetitions": [
+    0,
+    1,
+    2
+  ],
+  "quantile_method": "numpy.percentile(method=linear), pooled event-level across three frozen repetitions",
+  "time_to_top10_scope": "hits_only; always pair with fresh_hit_at_10",
+  "outputs": [
+    "four_cell_by_concurrency.csv",
+    "four_cell_by_concurrency_repetition.csv",
+    "stage_bottlenecks.csv",
+    "backend_comparisons.csv",
+    "materialization_effects.csv",
+    "STAGE_TIMING_REPORT.md"
+  ]
+}

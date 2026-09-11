@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "questions": 1533,
+  "comparisons": 6132,
+  "full_candidate_parity_pass": 6132,
+  "full_top10_parity_pass": 6132,
+  "relation_probe_questions": 943,
+  "relation_candidate_parity_pass": 3772,
+  "relation_top10_parity_pass": 3772,
+  "relation_probe_policy": "first lexicographically sorted scope relation occurring as a phrase in the question; parity-only, not a retrieval-effectiveness claim"
+}

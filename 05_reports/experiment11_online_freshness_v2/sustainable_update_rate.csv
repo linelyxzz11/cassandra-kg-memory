@@ -1,0 +1,5 @@
+﻿Cell,Max tested sustainable update rate (/s),Corresponding total arrival rate (/s),SLO
+cassandra-base,10.0,200.0,p95 pipeline <= 2000 ms; drain <= 2000 ms; zero timeout/error/missed/duplicate
+cassandra-materialized,10.0,200.0,p95 pipeline <= 2000 ms; drain <= 2000 ms; zero timeout/error/missed/duplicate
+neo4j-native,1.0,20.0,p95 pipeline <= 2000 ms; drain <= 2000 ms; zero timeout/error/missed/duplicate
+neo4j-materialized,1.0,20.0,p95 pipeline <= 2000 ms; drain <= 2000 ms; zero timeout/error/missed/duplicate

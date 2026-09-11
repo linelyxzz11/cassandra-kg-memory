@@ -1,0 +1,5 @@
+cell,repetitions,run_status,worker_downtime_ms,update_backlog_peak,restart_to_first_replay_ms,restart_to_first_top10_ms,backlog_drain_ms,time_to_slo_recovery_ms,pre_failure_pipeline_p95_ms,post_restart_pipeline_p95_ms,final_hit_at_10,timeout_rate_5000ms,read_error_rate,update_error_rate,missed_update_rate,duplicate_update_rate,partial_commit_replays,post_recovery_top10_parity,overall_status
+cassandra-base,3,PASS,10000.3327,11.0,1.0713,136.4814,1336.8601,4105.0428,164.642645,8876.232379999998,0.7142857142857143,0.14285714285714285,0.0,0.0,0.0,0.0,3,PASS,PASS
+cassandra-materialized,3,PASS,10000.2224,11.0,0.4165,109.1119,1047.1805,3093.4814,107.362015,8805.491364999998,0.7142857142857143,0.14285714285714285,0.0,0.0,0.0,0.0,3,PASS,PASS
+neo4j-native,3,PASS,10000.6413,11.0,0.7012,98.4519,1015.8975,3123.5262,125.923595,8833.442484999998,0.7142857142857143,0.14285714285714285,0.0,0.0,0.0,0.0,3,PASS,PASS
+neo4j-materialized,3,PASS,10000.5565,11.0,0.9104,88.3656,873.7408,3080.7936,109.49747499999998,8756.188369999998,0.7142857142857143,0.14285714285714285,0.0,0.0,0.0,0.0,3,PASS,PASS

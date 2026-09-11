@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "protocol_id": "graph-aware-query-types-v2",
+  "cells": [
+    "cassandra-base",
+    "cassandra-materialized",
+    "neo4j-native",
+    "neo4j-materialized"
+  ],
+  "query_types": [
+    "scope_fetch",
+    "relation_filter",
+    "candidate_projection",
+    "top10_retrieval"
+  ],
+  "concurrency": 32,
+  "repetitions": 3,
+  "operations_per_type_per_rep": 5000,
+  "aggregation": "median of three run-level statistics; min/max retained",
+  "outputs": {
+    "query_type_runs.csv": "1814b5f8d32cf0ec4811be13339c75d9eb238366796271c0efe003e5510b4167",
+    "query_type_summary.csv": "67c42f75939fe56f21a1659cd9147e1647bd1a755989e94b8287c34e0b691746"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "protocol_id": "graph-aware-logical-event-v2",
+  "full_canonical_run": true,
+  "memories": 5882,
+  "scopes": 10,
+  "relations": 1111,
+  "edges": 2526,
+  "memory_counts": {
+    "cassandra-base": 5882,
+    "cassandra-materialized": 5882,
+    "neo4j-native": 5882,
+    "neo4j-materialized": 5882
+  },
+  "graph_digest_comparisons": 23528,
+  "graph_digest_mismatches": 0,
+  "relation_candidate_comparisons": 4444,
+  "relation_candidate_mismatches": 0,
+  "attempted_logical_mutations": {
+    "cassandra-base": {
+      "total": 36089,
+      "mean": 6.135498129887793,
+      "p50": 2.0,
+      "p95": 17.0,
+      "max": 43
+    },
+    "cassandra-materialized": {
+      "total": 27681,
+      "mean": 4.706052363141788,
+      "p50": 1.0,
+      "p95": 14.0,
+      "max": 39
+    },
+    "neo4j-native": {
+      "total": 36919,
+      "mean": 6.2766065963957836,
+      "p50": 3.0,
+      "p95": 15.0,
+      "max": 38
+    },
+    "neo4j-materialized": {
+      "total": 27668,
+      "mean": 4.703842230533832,
+      "p50": 1.0,
+      "p95": 14.0,
+      "max": 39
+    }
+  },
+  "actual_storage_records": {
+    "cassandra-base": 31437,
+    "cassandra-materialized": 23029,
+    "neo4j-native": 32267,
+    "neo4j-materialized": 23016
+  },
+  "cassandra_table_counts": {
+    "g_base_memory_by_scope": 5882,
+    "g_base_features_by_memory": 5882,
+    "g_base_entities_by_scope": 4498,
+    "g_base_mentions_by_memory": 7597,
+    "g_base_edges_by_memory": 2526,
+    "g_base_edges_by_src": 2526,
+    "g_base_edges_by_scope": 2526,
+    "g_mat_memory_by_scope": 5882,
+    "g_mat_entities_by_scope": 4498,
+    "g_mat_mentions_by_memory": 7597,
+    "g_mat_edges_by_memory": 2526,
+    "g_mat_by_scope_relation": 2526
+  },
+  "neo4j_graph_counts": {
+    "LWV2NativeMemory": 5882,
+    "LWV2NativeFeature": 5882,
+    "LWV2NativeEntity": 4498,
+    "LWV2MatMemory": 5882,
+    "LWV2MatEntity": 4498,
+    "LWV2MatCandidate": 2513,
+    "LWV2_HAS_FEATURE": 5882,
+    "LWV2_NATIVE_MENTIONS": 7597,
+    "LWV2_MAT_MENTIONS": 7597,
+    "LWV2_NATIVE_REL": 2526,
+    "LWV2_MAT_REL": 2526
+  },
+  "stage_times": [
+    {
+      "stage": "load:cassandra-base",
+      "seconds": 1.9440853595733643
+    },
+    {
+      "stage": "load:cassandra-materialized",
+      "seconds": 1.8842997550964355
+    },
+    {
+      "stage": "load:neo4j-native",
+      "seconds": 3.4630160331726074
+    },
+    {
+      "stage": "load:neo4j-materialized",
+      "seconds": 3.333125591278076
+    }
+  ],
+  "elapsed_seconds": 528.9041137695312
+}

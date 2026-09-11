@@ -1,0 +1,7 @@
+backend,concurrency,n_events,p50_update_to_topk_ms,p95_update_to_topk_ms,p99_update_to_topk_ms,p50_commit_ack_ms,mean_throughput_events_s,sd_throughput_events_s,candidate_count,timeouts,mean_target_rank
+cassandra,8,6000,29.264,55.607,124.384,4.729,237.019,14.838,33.0,0,1.0
+cassandra,32,6000,85.625,201.384,252.945,14.403,316.552,3.6,33.0,0,1.0
+cassandra,64,6000,173.045,355.526,385.893,28.653,308.735,7.052,33.0,0,1.0
+neo4j,8,6000,47.319,66.314,84.449,12.052,170.787,12.633,33.0,0,1.0
+neo4j,32,6000,195.321,284.786,331.095,31.266,163.38,2.155,33.0,0,1.0
+neo4j,64,6000,402.921,561.86,637.325,58.104,157.663,1.898,33.0,0,1.0

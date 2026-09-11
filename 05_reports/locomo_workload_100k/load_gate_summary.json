@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "target_memories": 100000,
+  "expected_namespaces": 171,
+  "counts": {
+    "cassandra-base": 100000,
+    "cassandra-materialized": 100000,
+    "neo4j-native": 100000,
+    "neo4j-materialized": 100000
+  },
+  "namespace_counts": {
+    "cassandra-base": 171,
+    "cassandra-materialized": 171,
+    "neo4j-native": 171,
+    "neo4j-materialized": 171
+  },
+  "digest_sample_memories": 1000,
+  "digest_comparisons": 4000,
+  "digest_mismatches": 0,
+  "stage_times": [
+    {
+      "stage": "reset",
+      "seconds": 0.6299257278442383
+    },
+    {
+      "stage": "load:cassandra-base",
+      "seconds": 26.263927698135376
+    },
+    {
+      "stage": "load:cassandra-materialized",
+      "seconds": 22.762152194976807
+    },
+    {
+      "stage": "load:neo4j-native",
+      "seconds": 4.199406862258911
+    },
+    {
+      "stage": "load:neo4j-materialized",
+      "seconds": 3.991619825363159
+    }
+  ],
+  "total_seconds": 116.221839427948
+}

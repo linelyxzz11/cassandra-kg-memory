@@ -1,0 +1,21 @@
+﻿Cell,Stage (cumulative from arrival),Update rate (/s),Read rate (/s),p50 ms,p95 ms,p99 ms
+cassandra-base,Raw backend commit,5.0,95.0,7.716,12.862,14.211
+cassandra-base,Structured view visible,5.0,95.0,62.696,124.351,134.264
+cassandra-base,Sparse+dense index visible,5.0,95.0,93.48,164.083,189.434
+cassandra-base,Pipeline complete,5.0,95.0,109.196,178.977,203.849
+cassandra-base,First inclusion in Top-10 (final hits),5.0,95.0,104.588,187.297,200.296
+cassandra-materialized,Raw backend commit,5.0,95.0,6.964,12.624,12.894
+cassandra-materialized,Structured view visible,5.0,95.0,47.693,69.815,107.464
+cassandra-materialized,Sparse+dense index visible,5.0,95.0,77.472,153.509,188.862
+cassandra-materialized,Pipeline complete,5.0,95.0,86.682,163.278,205.587
+cassandra-materialized,First inclusion in Top-10 (final hits),5.0,95.0,88.21,161.296,204.351
+neo4j-native,Raw backend commit,5.0,95.0,8134.968,15695.011,16439.624
+neo4j-native,Structured view visible,5.0,95.0,8203.85,15789.028,16517.064
+neo4j-native,Sparse+dense index visible,5.0,95.0,8498.87,15983.783,16751.792
+neo4j-native,Pipeline complete,5.0,95.0,9791.851,16574.197,17209.074
+neo4j-native,First inclusion in Top-10 (final hits),5.0,95.0,9991.408,16543.619,16856.62
+neo4j-materialized,Raw backend commit,5.0,95.0,8352.626,16642.193,17243.42
+neo4j-materialized,Structured view visible,5.0,95.0,8418.735,16716.849,17302.214
+neo4j-materialized,Sparse+dense index visible,5.0,95.0,8719.219,16928.515,17555.241
+neo4j-materialized,Pipeline complete,5.0,95.0,9829.912,17605.288,18071.973
+neo4j-materialized,First inclusion in Top-10 (final hits),5.0,95.0,11583.611,17827.498,18094.567

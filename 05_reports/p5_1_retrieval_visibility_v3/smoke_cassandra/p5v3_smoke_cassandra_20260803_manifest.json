@@ -1,0 +1,57 @@
+{
+  "protocol_version": "p5-1-logical-event-v3",
+  "retriever_id": "shared-rawerk-bm25-top10-v1",
+  "status": "PASS_PARTIAL",
+  "started_at_utc": "2026-08-02T18:30:05.047870+00:00",
+  "run_tag": "p5v3_smoke_cassandra_20260803",
+  "mode": "benchmark",
+  "source_events": "D:\\memorytable\\cassandra-kg-memory\\02_artifacts\\frozen_update_events.jsonl",
+  "source_events_sha256": "829974fea87dd97147cd661f59d667f95957e0f5a18dcd613346f455fe720a20",
+  "source_event_rows": 55000,
+  "logical_event_contract": {
+    "memory_documents": 1,
+    "entity_records": 2,
+    "directed_kg_edges": 1,
+    "terminal_condition": "complete logical view and memory_id present in shared RawERK BM25 Top-K from fresh backend candidate read"
+  },
+  "config": {
+    "backends": [
+      "cassandra"
+    ],
+    "concurrencies": [
+      8
+    ],
+    "runs_per_backend_concurrency": 1,
+    "formal_events_per_run": 100,
+    "warmup_events_per_run": 10,
+    "shards": 8,
+    "baseline_per_shard": 16,
+    "top_k": 10,
+    "timeout_s": 15.0,
+    "poll_s": 0.01
+  },
+  "expected_formal_rows": 100,
+  "environment": {
+    "python": "3.11.7 | packaged by Anaconda, Inc. | (main, Dec 15 2023, 18:05:47) [MSC v.1916 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0"
+  },
+  "citation_ready": false,
+  "completed_at_utc": "2026-08-02T18:30:07.816880+00:00",
+  "actual_formal_rows": 100,
+  "timeouts": 0,
+  "per_event_csv": "p5v3_smoke_cassandra_20260803_per_event.csv",
+  "per_event_sha256": "6e451d1421dafec0f2e9b7b0c9e936c9439b28308b14c584b5cebea45a972446",
+  "per_run_csv": "p5v3_smoke_cassandra_20260803_per_run.csv",
+  "per_run_sha256": "1563b10d9550f9d7d527ffafb86df8282bcadc6f7f95aeb7f8f71e1afd34938f",
+  "summary_csv": "p5v3_smoke_cassandra_20260803_summary.csv",
+  "summary_sha256": "3548e8e1646cd06047954128a052004f6cf9cd9440016e58dc01c7b64e64bcfa",
+  "gates": {
+    "manifest_count_exact": true,
+    "all_events_entered_topk": true,
+    "cross_backend_logical_event_digest_equal": null,
+    "cross_backend_state_and_topk_parity": {
+      "status": "NOT_RUN",
+      "reason": "requires Cassandra and Neo4j"
+    }
+  }
+}

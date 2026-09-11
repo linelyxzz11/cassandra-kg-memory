@@ -1,0 +1,16 @@
+metric,value
+conversation_scopes,10
+memories,5882
+questions,1986
+cat1_4_unambiguous_freshness_questions,1533
+scope_memories_min,369
+scope_memories_median,646.0
+scope_memories_max,689
+evidence_median,1.0
+evidence_p95,4.0
+evidence_max,19
+kg_coverage_fraction,0.4000340020401224
+triples_covered_median,1
+triples_covered_p95,2.0
+triples_covered_max,4
+unresolved_evidence,3

@@ -1,0 +1,13 @@
+﻿method,reference_backend,backend,csv_queries,backend_queries,shared_queries,exact_top10_queries,exact_top10_rate,rank_mismatches,missing_queries,extra_queries,status
+BM25,csv,cassandra,1540,1540,1540,1540,1.0,0,0,0,PASS
+BM25,csv,neo4j,1540,1540,1540,1540,1.0,0,0,0,PASS
+Dense-bge,csv,cassandra,1540,1540,1540,1540,1.0,0,0,0,PASS
+Dense-bge,csv,neo4j,1540,1540,1540,1540,1.0,0,0,0,PASS
+Dense+GlobalKG,csv,cassandra,1540,1540,1540,1540,1.0,0,0,0,PASS
+Dense+GlobalKG,csv,neo4j,1540,1540,1540,1540,1.0,0,0,0,PASS
+RRF_compact,csv,cassandra,1540,1540,1540,1540,1.0,0,0,0,PASS
+RRF_compact,csv,neo4j,1540,1540,1540,1540,1.0,0,0,0,PASS
+ZScore-Raw,csv,cassandra,1540,1540,1540,1540,1.0,0,0,0,PASS
+ZScore-Raw,csv,neo4j,1540,1540,1540,1540,1.0,0,0,0,PASS
+ZScore-RawERK,csv,cassandra,1540,1540,1540,1540,1.0,0,0,0,PASS
+ZScore-RawERK,csv,neo4j,1540,1540,1540,1540,1.0,0,0,0,PASS

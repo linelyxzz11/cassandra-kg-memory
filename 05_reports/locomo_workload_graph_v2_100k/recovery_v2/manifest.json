@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "protocol_id": "graph-aware-100k-controlled-recovery-v2",
+  "formal_runs": 12,
+  "cells": [
+    "cassandra-base",
+    "cassandra-materialized",
+    "neo4j-native",
+    "neo4j-materialized"
+  ],
+  "repetitions": 3,
+  "post_recovery_top10_mismatches": 0,
+  "outputs": {
+    "recovery_runs.csv": "185841f514a3f1263addca89f6789b568f0c155429c36172695d10c2eabf69df",
+    "recovery_publication_table.csv": "312b0f001e11a53c445e783bc47f8a32531fea5e6fe0d83850aef7bb88ee6cb3",
+    "post_recovery_top10_mismatches.csv": "7584b1a2550a7d38468854b872e907f799b05ed6080803e73a6521d9f1e67479",
+    "RECOVERY_V2_REPORT.md": "0b390b2414e962bab5e6a6e64fa9bdb9baedf7ee41c2ce96de4c97583957af73"
+  }
+}

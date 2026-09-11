@@ -1,0 +1,156 @@
+{
+  "profile_id": "locomo-shaped-workload-profile-v1",
+  "terminology_guardrail": "The scaled run is LoCoMo-shaped trace replay, not original 100K LoCoMo.",
+  "source": {
+    "memory_csv": "01_data/locomo_memory_records.csv",
+    "qa_csv": "01_data/locomo_qa_records.csv",
+    "feature_csv": "02_artifacts/p3_memory_features.csv",
+    "sha256": {
+      "memory_csv": "9cf57c37cf9185cc53840e0e30232db1d305c8a50d292e5284f977a0b05aa689",
+      "qa_csv": "048b9bfc779a5f033223b9c0a764a1ef95ba2900c473dad753b59b5f8323fdc3",
+      "feature_csv": "b211c99df6f778b02d2c89670e6db90e12aedef3a313d0ab102708b24795c0cc",
+      "memory_ids": "3f488f951a78dd3832577bbeb4114eca88ae3ad21cfd1ed70c4d5051926eb344",
+      "qa_ids": "d8734364ae41d24f407d7b3f888bf94ee4b89c368700b08cb5fade7c2c71c74f"
+    }
+  },
+  "counts": {
+    "conversation_scopes": 10,
+    "memories": 5882,
+    "questions": 1986,
+    "evidence_bearing_questions_after_normalization": 1982,
+    "cat1_4_unambiguous_freshness_questions": 1533
+  },
+  "conversation_scope_memory_count": {
+    "by_scope": {
+      "conv-26": 419,
+      "conv-30": 369,
+      "conv-41": 663,
+      "conv-42": 629,
+      "conv-43": 680,
+      "conv-44": 675,
+      "conv-47": 689,
+      "conv-48": 681,
+      "conv-49": 509,
+      "conv-50": 568
+    },
+    "source_row_order": [
+      "conv-26",
+      "conv-30",
+      "conv-41",
+      "conv-42",
+      "conv-43",
+      "conv-44",
+      "conv-47",
+      "conv-48",
+      "conv-49",
+      "conv-50"
+    ],
+    "min": 369,
+    "median": 646.0,
+    "max": 689
+  },
+  "sessions_per_scope": {
+    "conv-26": 19,
+    "conv-30": 19,
+    "conv-41": 32,
+    "conv-42": 29,
+    "conv-43": 29,
+    "conv-44": 28,
+    "conv-47": 31,
+    "conv-48": 30,
+    "conv-49": 25,
+    "conv-50": 30
+  },
+  "qa_category_count": {
+    "1": 282,
+    "2": 321,
+    "3": 96,
+    "4": 841,
+    "5": 446
+  },
+  "evidence_count": {
+    "histogram": {
+      "0": 4,
+      "1": 1555,
+      "2": 242,
+      "3": 82,
+      "4": 60,
+      "5": 20,
+      "6": 6,
+      "7": 7,
+      "8": 2,
+      "9": 2,
+      "10": 2,
+      "11": 2,
+      "17": 1,
+      "19": 1
+    },
+    "median": 1.0,
+    "p95": 4.0,
+    "max": 19,
+    "by_category_median": {
+      "1": 2.5,
+      "2": 1,
+      "3": 2.0,
+      "4": 1,
+      "5": 1.0
+    },
+    "unresolved_reference_count": 3,
+    "unresolved_references": [
+      {
+        "qa_id": "conv-42_qa_58",
+        "evidence": "D10:19"
+      },
+      {
+        "qa_id": "conv-42_qa_88",
+        "evidence": "D"
+      },
+      {
+        "qa_id": "conv-47_qa_38",
+        "evidence": "D4:36"
+      }
+    ]
+  },
+  "kg": {
+    "covered_memories": 2353,
+    "coverage_fraction": 0.4000340020401224,
+    "triples_per_all_memory_histogram": {
+      "0": 3529,
+      "1": 2194,
+      "2": 146,
+      "3": 12,
+      "4": 1
+    },
+    "triples_per_covered_memory_median": 1,
+    "triples_per_covered_memory_p95": 2.0,
+    "triples_per_covered_memory_max": 4,
+    "relation_frequency_top20": {
+      "enjoy": 118,
+      "express": 84,
+      "appreciate": 75,
+      "take": 73,
+      "work": 60,
+      "go": 56,
+      "start": 56,
+      "mention": 54,
+      "plan": 53,
+      "value": 44,
+      "try": 44,
+      "memory": 42,
+      "consider": 39,
+      "find": 39,
+      "share": 37,
+      "use": 37,
+      "play": 36,
+      "attend": 32,
+      "suggest": 31,
+      "offer": 31
+    }
+  },
+  "embedding": {
+    "memory_rows": 5882,
+    "qa_rows": 1986,
+    "dimension": 1024,
+    "frozen": true
+  }
+}

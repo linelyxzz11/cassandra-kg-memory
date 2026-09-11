@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "protocol_id": "graph-aware-storage-work-v2-100k",
+  "created_at_utc": "2026-08-23T18:09:07.617950+00:00",
+  "source": {
+    "path": "05_reports\\locomo_workload_graph_v2_100k\\graph_100k_load_gate_summary.json",
+    "sha256": "0e695f04f55c51f8231f516802124233fe393e740c00f67692a1bed1d3e1581a"
+  },
+  "semantic_parity": {
+    "memories": 100000,
+    "entities": 76475,
+    "mentions": 129156,
+    "edges": 42944
+  },
+  "outputs": [
+    {
+      "path": "05_reports\\locomo_workload_graph_v2_100k\\storage_work_v2\\table9a_storage_work.csv",
+      "sha256": "8eeada7c90fde7c1cee4810acb65d03aacdd7a8072a2f8a518c35da5b5d55f90"
+    },
+    {
+      "path": "05_reports\\locomo_workload_graph_v2_100k\\storage_work_v2\\TABLE9A_STORAGE_WORK.md",
+      "sha256": "9ae9ae2e9d3d43fc45f19dfc875e39660eb9ccdd8e0b52cfb04762c4f4374f60"
+    }
+  ]
+}

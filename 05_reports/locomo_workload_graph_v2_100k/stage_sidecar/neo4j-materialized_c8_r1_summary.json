@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "cell": "neo4j-materialized",
+  "concurrency": 8,
+  "repetition": 1,
+  "update_events": 250,
+  "fresh_hit_at_10": 0.764,
+  "graph_projection_pass": 250,
+  "relation_candidate_pass": 250
+}

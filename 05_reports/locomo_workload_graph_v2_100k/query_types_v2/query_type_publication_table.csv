@@ -1,0 +1,17 @@
+﻿Backend design,Query type,p50 (ms),p95 (ms),p99 (ms),Throughput (QPS),Error rate
+Cassandra-base,Scope fetch,24.75,116.89,191.29,871.14,0.000
+Cassandra-base,Relation filter,15.67,98.10,148.16,1356.83,0.000
+Cassandra-base,Candidate projection,15.40,30.24,109.42,1654.73,0.000
+Cassandra-base,End-to-end Top-10,74.12,189.09,274.05,367.29,0.000
+Cassandra-materialized,Scope fetch,27.71,116.41,182.27,822.92,0.000
+Cassandra-materialized,Relation filter,6.59,12.87,73.33,3587.46,0.000
+Cassandra-materialized,Candidate projection,6.98,11.98,98.36,3412.06,0.000
+Cassandra-materialized,End-to-end Top-10,77.20,192.89,271.36,355.64,0.000
+Neo4j-native,Scope fetch,877.11,1010.60,1070.06,39.37,0.000
+Neo4j-native,Relation filter,38.32,52.80,130.30,777.22,0.000
+Neo4j-native,Candidate projection,9.95,21.28,64.00,1942.77,0.000
+Neo4j-native,End-to-end Top-10,943.66,1080.10,1146.22,36.35,0.000
+Neo4j-materialized,Scope fetch,876.26,1015.16,1081.39,39.24,0.000
+Neo4j-materialized,Relation filter,33.44,62.59,108.77,842.35,0.000
+Neo4j-materialized,Candidate projection,13.81,20.94,62.67,2027.89,0.000
+Neo4j-materialized,End-to-end Top-10,948.17,1097.68,1168.94,36.24,0.000

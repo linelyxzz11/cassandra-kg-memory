@@ -1,0 +1,5 @@
+cell,memory_rows_or_nodes,feature_rows_or_nodes,entity_dictionary_records,mention_records,semantic_edges,physical_edge_records,materialized_candidate_records,actual_storage_records,logical_mutations_mean,logical_mutations_p95,load_seconds
+Cassandra-base,100000,100000,76475,129156,42944,128832,0,534463,6.13547,17.0,33.78061366081238
+Cassandra-materialized,100000,0,76475,129156,42944,42944,42944,391519,4.70603,14.0,31.075284004211426
+Neo4j-native,100000,100000,76475,129156,42944,42944,0,548575,6.27659,15.0,69.85373950004578
+Neo4j-materialized,100000,0,76475,129156,42944,42944,42723,391298,4.70382,14.0,69.15653800964355

@@ -1,0 +1,2 @@
+backend,concurrency,run_id,formal_events,successful_events,timeouts,elapsed_s,throughput_events_s,p50_update_to_topk_ms,p95_update_to_topk_ms,p99_update_to_topk_ms,mean_candidate_count,logical_event_sha256
+cassandra,8,1,100,100,0,0.31740459986031055,315.05529549354327,21.29950001835823,46.34699993766844,49.49910007417202,24.02,8a76ceaa033c69a90e83bd2a169321a8b2e75798fc2581db99a330d5be457100

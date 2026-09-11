@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "cell": "neo4j-native",
+  "concurrency": 32,
+  "repetition": 2,
+  "update_events": 250,
+  "fresh_hit_at_10": 0.772,
+  "graph_projection_pass": 250,
+  "relation_candidate_pass": 250
+}

@@ -1,0 +1,163 @@
+{
+  "experiment": "LoCoMo Backend Bridge v2 aggregation",
+  "created_at_utc": "2026-08-11T11:59:33.590145+00:00",
+  "status": "PASS",
+  "protocol": {
+    "backends": [
+      "csv",
+      "cassandra",
+      "neo4j"
+    ],
+    "methods": [
+      "BM25",
+      "Dense-bge",
+      "Dense+GlobalKG",
+      "RRF_compact",
+      "ZScore-Raw",
+      "ZScore-RawERK"
+    ],
+    "ranking_cutoff": 10,
+    "query_universe": 1540,
+    "evaluable_queries": 1536,
+    "evidence_empty_queries": 4,
+    "reference_backend": "csv",
+    "metric_definitions": {
+      "MRR@10": "reciprocal rank of first relevant memory in Top-10, else zero",
+      "Hit@K": "at least one relevant memory in Top-K",
+      "Recall@10": "macro mean of unique relevant memories retrieved divided by gold count",
+      "nDCG@10": "binary-relevance DCG normalized by min(gold count, 10) ideal ranks"
+    },
+    "dense_global_kg_caveat": "Corrected frozen reference covers 1536 evidence-bearing queries; the four empty-gold rankings are evaluated only for cross-backend ranking parity."
+  },
+  "inputs": [
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\02_artifacts\\retrieval_gold_v2\\locomo_cat1_4_gold_memory.csv",
+      "sha256": "8946fd8f208b8dbd37540a7a45314c758e10744a762190bae2825a56b544e7f7"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\official_eval\\bm25_raw_ranking_canonical1540.csv",
+      "sha256": "d4fcbf8d2449bd88e83900d543858e074322a04b00d1455bc5da297a8df5ba59"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\official_eval\\dense_bge_ranking_canonical1540.csv",
+      "sha256": "ce773bb2bee2c435d74fbd0a699c74c532f7f459d8e8c99a5628bdf072259640"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\dense_global_kg_rerun\\dense_global_kg_top10.csv",
+      "sha256": "cf11f72b925ef1a850565f65e97a836302e2e2c81e9cacb02b1927f40de130c4"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\official_eval\\rrf_compact_canonical1540\\rrf_compact_top10.csv",
+      "sha256": "8013d6783da90983514de075a0f4a0dcd64e225f50ea909bbb175d473b689cff"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\official_eval\\zscore_raw_ranking_canonical1540.csv",
+      "sha256": "22cb76e96c5fc9aafcbb749d55c4d3ea4f0071dc1f6364f717c95aec403d6412"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\official_eval\\zscore_rawerk_ranking_canonical1540.csv",
+      "sha256": "23e73e853da3c538fb6287b5f8d5b183a27b6d932f8852960c3060a78b50eb42"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\backend_equivalence_v2\\runs\\csv\\top10.csv",
+      "sha256": "73427b9e42d8901af8dbf6fe0d25766dfeb7b1b99209070daf905bfa5774fccc"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\backend_equivalence_v2\\runs\\csv\\per_query_metrics.csv",
+      "sha256": "815b57a84687f56484948a7275577b51febac3257e75fe5af7526b4b3cc87d6c"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\backend_equivalence_v2\\runs\\csv\\summary.csv",
+      "sha256": "ae3c77d7544d3271d2c561f40853d95a93140461e7bdae2fd53abdf3e9135b0e"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\backend_equivalence_v2\\runs\\csv\\input_scope_digests.csv",
+      "sha256": "58b6a7d53eb5fa15110ba02d8ccb4664c04cb85f089c2273e43b68783496ccde"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\backend_equivalence_v2\\runs\\csv\\manifest.json",
+      "sha256": "24c30ae866a94d3176126482d6a3853dacf210c320c1bd4ab8e324b26da93c00"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\backend_equivalence_v2\\runs\\cassandra\\top10.csv",
+      "sha256": "d671da6141c0342436aa3097f443176a093925018344d7131805a0dad5e0a3a4"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\backend_equivalence_v2\\runs\\cassandra\\per_query_metrics.csv",
+      "sha256": "b7df01fc856a002736af32204476febbf6b549391a0511c7600c969f35fe13df"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\backend_equivalence_v2\\runs\\cassandra\\summary.csv",
+      "sha256": "4f29ec7b7e059fe708e99eccf212b9c2d168b8f6feaa9e195eedf2fa74a095ac"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\backend_equivalence_v2\\runs\\cassandra\\input_scope_digests.csv",
+      "sha256": "04d32054de7fbcf5d907f99be2439aa3f0027c2a18e23d0dad68b969047615a4"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\backend_equivalence_v2\\runs\\cassandra\\manifest.json",
+      "sha256": "8af9b940bd0f52ee659c243b1e028ab57ffa7d05c56db300c0eabe0e3f0b36c0"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\backend_equivalence_v2\\runs\\neo4j\\top10.csv",
+      "sha256": "0c6c291963e66a637346ef85d5e77d1bceb610cc7fdd491fe8d512bd12f7bbf7"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\backend_equivalence_v2\\runs\\neo4j\\per_query_metrics.csv",
+      "sha256": "54513a2a6a39e4ff1bb0e25c780f1ecf996816004a97beb0cc358e50895f06a9"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\backend_equivalence_v2\\runs\\neo4j\\summary.csv",
+      "sha256": "2770252612814764f9d37ef7269a4a6c3d8d64669566e2aa145cab3da250de63"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\backend_equivalence_v2\\runs\\neo4j\\input_scope_digests.csv",
+      "sha256": "861e04b265eed01ecb6b37a832d7feccdd15b3d716599034d69333f20cee17aa"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\backend_equivalence_v2\\runs\\neo4j\\manifest.json",
+      "sha256": "7259b329a7476c9cbc603dd37085de6ebf0c7621c3a5c21bc5c1ed8de88d47a3"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\backend_equivalence_v2\\backend_parity_summary.csv",
+      "sha256": "067fcd9e4cfca3ac0dbde04fae8f3617697b4abba80dcb43d9eebe31629fc513"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\backend_equivalence_v2\\input_digest_parity_summary.csv",
+      "sha256": "86218ae63b244a91fa7390100822a908374543a5c39f6f7bb31bd3df8f6e9cdf"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\backend_equivalence_v2\\retrieval_metrics_by_backend.csv",
+      "sha256": "ebccd985ef37c1c9d427582a01a75d09be24d4f8f04cde4978266681e9e980de"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\backend_equivalence_v2\\retrieval_metric_differences.csv",
+      "sha256": "62d09b866be91c5da39f9ed3393e63e40fd2ff58c48c2941c3b3121e1a5f218c"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\backend_equivalence_v2\\csv_frozen_reference_summary.csv",
+      "sha256": "c0bc51ac4892e36a35733544aa7ad8af901c418c82f3ee2f98a6912999b4eb51"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\backend_equivalence_v2\\densekg_empty_gold_ranking_parity.csv",
+      "sha256": "5bbd6e27e90f95d118d5e5419bbb4f88092b16efd0cae486962e62002dd3cf71"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\backend_equivalence_v2\\mismatches.csv",
+      "sha256": "f97e69798e990afff0101a0e0eae0b6efade3de2ae1ca1b41f9178750b7b79f3"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\backend_equivalence_v2\\BACKEND_BRIDGE_V2_REPORT.md",
+      "sha256": "bca33d7c966f2bb1ec3314ca53026526582ef50e953a96f42a4c874327b8e0a5"
+    }
+  ],
+  "counts": {
+    "mismatch_rows": 0,
+    "backend_parity_gates": 12,
+    "digest_gates": 14,
+    "metric_difference_gates": 72,
+    "reference_gates": 6
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "status": "DIAGNOSTIC_NOT_CITATION_READY",
+  "event_count": 50,
+  "fresh_hit_at_10": 0.84,
+  "baseline_build": {
+    "p50_ms": 22.4853,
+    "p95_ms": 32.99252499999999,
+    "p99_ms": 37.96010099999998,
+    "mean_ms": 23.183476
+  },
+  "sparse_update": {
+    "p50_ms": 19.4274,
+    "p95_ms": 22.601115,
+    "p99_ms": 25.029334999999993,
+    "mean_ms": 18.91931
+  },
+  "dense_update": {
+    "p50_ms": 2.9915000000000003,
+    "p95_ms": 3.9210199999999995,
+    "p99_ms": 4.079941,
+    "mean_ms": 3.002976
+  },
+  "fusion_search": {
+    "p50_ms": 2.2857000000000003,
+    "p95_ms": 2.70722,
+    "p99_ms": 2.9127829999999997,
+    "mean_ms": 2.099044
+  },
+  "index_plus_search": {
+    "p50_ms": 24.4833,
+    "p95_ms": 28.306525,
+    "p99_ms": 31.41192999999999,
+    "mean_ms": 24.02133
+  },
+  "limitations": [
+    "No database/backend time is included.",
+    "Events are isolated and sequential.",
+    "Results size the formal runner; they are not paper evidence."
+  ]
+}

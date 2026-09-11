@@ -1,0 +1,15 @@
+﻿backend,field,comparable_scopes,matched_scopes,match_rate,missing_values,status
+cassandra,candidate_count,10,10,1.0,0,PASS
+cassandra,candidate_digest,10,10,1.0,0,PASS
+cassandra,projection_digest,10,10,1.0,0,PASS
+cassandra,corpus_order_digest,10,10,1.0,0,PASS
+cassandra,edge_row_count,10,10,1.0,0,PASS
+cassandra,edge_assignment_count,10,10,1.0,0,PASS
+cassandra,edge_digest,10,10,1.0,0,PASS
+neo4j,candidate_count,10,10,1.0,0,PASS
+neo4j,candidate_digest,10,10,1.0,0,PASS
+neo4j,projection_digest,10,10,1.0,0,PASS
+neo4j,corpus_order_digest,10,10,1.0,0,PASS
+neo4j,edge_row_count,10,10,1.0,0,PASS
+neo4j,edge_assignment_count,10,10,1.0,0,PASS
+neo4j,edge_digest,10,10,1.0,0,PASS

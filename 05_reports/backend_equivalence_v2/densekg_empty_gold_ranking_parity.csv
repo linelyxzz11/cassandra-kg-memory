@@ -1,0 +1,5 @@
+﻿method,query_id,category,csv_top10_present,frozen_reference_present,gold_status,cassandra_top10_exact_csv,neo4j_top10_exact_csv,backend_parity_status,interpretation
+Dense+GlobalKG,conv-26_qa_30,3,True,False,evidence-empty,True,True,PASS,Expected: corrected frozen Dense+GlobalKG artifact excludes empty-gold queries
+Dense+GlobalKG,conv-26_qa_46,3,True,False,evidence-empty,True,True,PASS,Expected: corrected frozen Dense+GlobalKG artifact excludes empty-gold queries
+Dense+GlobalKG,conv-50_qa_39,3,True,False,evidence-empty,True,True,PASS,Expected: corrected frozen Dense+GlobalKG artifact excludes empty-gold queries
+Dense+GlobalKG,conv-50_qa_42,3,True,False,evidence-empty,True,True,PASS,Expected: corrected frozen Dense+GlobalKG artifact excludes empty-gold queries
