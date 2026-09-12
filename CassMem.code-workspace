@@ -1,0 +1,154 @@
+{
+  "folders": [
+    {
+      "name": "CassMem Experiment System",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.analysis.extraPaths": [
+      "${workspaceFolder}/03_src",
+      "${workspaceFolder}/04_experiments"
+    ],
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestArgs": [
+      "04_experiments/p5_1_v3/test_p5_1_protocol.py",
+      "04_experiments/locomo_workload/test_trace_manifest.py",
+      "04_experiments/locomo_workload/test_online_retrieval.py",
+      "04_experiments/locomo_workload/test_graph_event_v2.py"
+    ],
+    "terminal.integrated.cwd": "${workspaceFolder}",
+    "git.autofetch": true,
+    "git.confirmSync": true,
+    "explorer.compactFolders": false,
+    "files.exclude": {
+      "**/__pycache__": true,
+      "**/.pytest_cache": true,
+      "**/.ipynb_checkpoints": true
+    },
+    "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.venv-*/**": true,
+      "**/external_data/models/**": true,
+      "**/models_cache/**": true,
+      "**/results/**": true,
+      "**/05_reports/**/runs/**": true,
+      "**/05_reports/**/traces/**": true
+    },
+    "search.exclude": {
+      "**/.venv-*/**": true,
+      "**/external_data/models/**": true,
+      "**/models_cache/**": true,
+      "**/results/**": true,
+      "**/05_reports/**/runs/**": true,
+      "**/05_reports/**/traces/**": true,
+      "**/*_per_event.csv": true,
+      "**/scored_predictions.jsonl": true,
+      "**/judgments_unique.jsonl": true
+    },
+    "editor.rulers": [
+      88,
+      120
+    ],
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-python.python",
+      "ms-python.vscode-pylance",
+      "ms-toolsai.jupyter",
+      "ms-azuretools.vscode-docker",
+      "eamodio.gitlens",
+      "yzhang.markdown-all-in-one"
+    ]
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "CassMem: protocol tests",
+        "type": "process",
+        "command": "${command:python.interpreterPath}",
+        "args": [
+          "-m",
+          "pytest",
+          "-q",
+          "04_experiments/p5_1_v3/test_p5_1_protocol.py",
+          "04_experiments/locomo_workload/test_trace_manifest.py",
+          "04_experiments/locomo_workload/test_online_retrieval.py",
+          "04_experiments/locomo_workload/test_graph_event_v2.py"
+        ],
+        "group": {
+          "kind": "test",
+          "isDefault": true
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "CassMem: check Cassandra connection",
+        "type": "process",
+        "command": "${command:python.interpreterPath}",
+        "args": [
+          "05_reports/backend_equivalence/test_cassandra.py"
+        ],
+        "problemMatcher": []
+      },
+      {
+        "label": "CassMem: check Neo4j connection",
+        "type": "process",
+        "command": "${command:python.interpreterPath}",
+        "args": [
+          "05_reports/backend_equivalence/test_neo4j.py"
+        ],
+        "problemMatcher": []
+      },
+      {
+        "label": "CassMem: rebuild publication audit",
+        "type": "process",
+        "command": "${command:python.interpreterPath}",
+        "args": [
+          "04_experiments/build_deep_experiment_audit_v2.py"
+        ],
+        "problemMatcher": []
+      },
+      {
+        "label": "CassMem: refresh artifact manifest",
+        "type": "process",
+        "command": "${command:python.interpreterPath}",
+        "args": [
+          "04_experiments/refresh_artifact_manifest.py"
+        ],
+        "problemMatcher": []
+      },
+      {
+        "label": "CassMem: Git status",
+        "type": "process",
+        "command": "git",
+        "args": [
+          "status",
+          "--short",
+          "--branch"
+        ],
+        "problemMatcher": []
+      }
+    ]
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "CassMem: debug current Python file",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${file}",
+        "console": "integratedTerminal",
+        "cwd": "${workspaceFolder}",
+        "envFile": "${workspaceFolder}/.env",
+        "justMyCode": true
+      }
+    ]
+  }
+}

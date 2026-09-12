@@ -8,6 +8,11 @@ long-term conversational memory in LLM-based assistants. It evaluates along
 three orthogonal axes: **retrieval effectiveness**, **reader answer quality**,
 and **system serving performance**.
 
+For local development, open [`CassMem.code-workspace`](CassMem.code-workspace)
+in VS Code. It provides the project Python paths, protocol tests, backend
+connection checks, publication audit, and artifact-manifest tasks. See
+[`docs/VSCODE_WORKSPACE.md`](docs/VSCODE_WORKSPACE.md) for the workspace map.
+
 > **Current evidence notice (2026-09-11).** The detailed narrative below
 > contains historical tables from earlier protocol versions. For paper numbers
 > and completion status, use `00_project/CLAIMS_AND_EVIDENCE.md`,
