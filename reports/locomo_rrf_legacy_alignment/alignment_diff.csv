@@ -1,7 +1,0 @@
-﻿method,metric,actual,expected,delta,status
-BM25,R@1,0.039,0.2649,0.2259,FAIL
-BM25,R@10,0.0669,0.5619,0.495,FAIL
-BM25,MRR,0.0485,0.36,0.3115,FAIL
-Dense-bge,R@1,0.3734,0.3419,0.0315,FAIL
-Dense-bge,R@10,0.711,0.7009,0.0101,FAIL
-Dense-bge,MRR,0.4823,0.4534,0.0289,FAIL

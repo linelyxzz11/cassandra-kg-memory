@@ -1,6 +1,0 @@
-﻿comparison,dR@1,dR@10,dMRR,drF1,drEM,dWrongAbst,dHit@10
-RRF_compact vs Dense-bge,0.086,0.0848,0.0898,0.0184,0.0234,-0.0195,0.0558
-RRF_compact vs Dense+GlobalKG,0.0407,0.0762,0.0581,0.0444,0.0364,-0.0533,0.0519
-RRF_compact vs Dense+QueryKG,0.0694,0.0672,0.0708,0.015,0.0188,-0.015,0.0363
-RRF_compact vs RRF_raw,0.074,0.0448,0.0669,0.0124,0.0097,-0.0208,0.0448
-BM25_compact vs BM25_raw,0.1624,0.1115,0.1483,0.0379,0.0182,-0.0643,0.1247

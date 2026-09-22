@@ -1,9 +1,0 @@
-{
-  "model": "deepseek-chat",
-  "temperature": 0,
-  "max_tokens": 128,
-  "prompt": "v2_format",
-  "n_methods": 3,
-  "n_queries": 1540,
-  "n_calls": 2436
-}

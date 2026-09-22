@@ -1,5 +1,0 @@
-﻿backend,burst_size,write_mean_ms,query_mean_ms,total_ms
-Cassandra,100,8.74,9.42,1816.0
-Neo4j,100,1.4,2.06,346.0
-Cassandra,500,9.55,10.56,10060.0
-Neo4j,500,1.04,1.56,1303.0

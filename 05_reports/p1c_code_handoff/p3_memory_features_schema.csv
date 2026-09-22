@@ -1,3 +1,0 @@
-memory_id,conversation_id,raw_text,summary,entities,relations,keywords,triples
-conv-26_session_1_D1:1,conv-26,Hey Mel! Good to see you! How have you been?,"Caroline greeted Mel warmly at 1:56 pm on May 8, 2023, asking how they have been.",,,,
-conv-26_session_1_D1:2,conv-26,Hey Caroline! Good to see you! I'm swamped with the kids & work. What's up with you? Anything new?,"Melanie, at 1:56 pm on May 8, 2023, greeted Caroline and mentioned being overwhelmed with kids and work, then asked what was new with her.","kids, melanie, work",manage,"anything, caroline, good, hey, kids, melanie, new, see, swamped, work","(melanie, manage, kids_and_work)"

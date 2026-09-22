@@ -1,9 +1,0 @@
-priority,layer,gap,status,why,completion
-P0,security,Rotate previously committed API keys,USER ACTION,Removing literals does not invalidate credentials already exposed in repository history.,Revoke old keys; create new keys; store only in environment variables.
-DONE,reader,Regenerate Dense+GlobalKG reader answers,COMPLETE,Corrected degree-centrality lambda=0.2 ranking is linked to audited per-query Reader outputs.,"Both settings complete at n=1986 with F1, B1, and GPT-4o J."
-P0,system,Replace invalid P7-B visibility/recovery files,NOT VALID,Current files contain -1 sentinels and final_searchable_ratio=0.,"Rerun with timestamp provenance, successful visibility probes, recovery gate, and run manifest."
-P1,system,End-to-end retrieval serving benchmark,MISSING,Backend microbenchmarks do not measure the deployed retrieval pipeline.,Report component and total p50/p95/p99 plus QPS at c=1/16/32/64.
-P1,retrieval,Explicit KG candidate expansion,MISSING,The current full conversation candidate pool has oracle recall 1.0 by construction.,Freeze pruned candidates and report Candidate Recall before reranking plus final Recall@10.
-P1,statistics,Reader uncertainty beyond current comparisons,PARTIAL,Paired bootstrap now covers CassMem vs RRF/ZScore-Raw; external published systems are not paired locally.,Add confidence intervals for the final claims and clearly separate rerun from quoted baselines.
-P2,reproducibility,Portable path cleanup and environment lock,PARTIAL,"Dependency ranges are documented, but numerous scripts retain machine-specific paths.",Refactor publication entrypoints first; capture Python/package/backend versions in each run manifest.
-P2,literature,Authoritative related-work evidence table,DONE,Peer-reviewed benchmark/memory papers and clearly labeled preprints are now separated.,Maintain 08_literature/metric_protocol_matrix.csv as protocols or cited baselines change.

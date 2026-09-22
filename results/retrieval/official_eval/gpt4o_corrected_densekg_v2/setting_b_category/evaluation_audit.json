@@ -1,0 +1,43 @@
+{
+  "api_called": false,
+  "evaluator": "official_locomo_category_score_plus_labeled_project_diagnostics",
+  "questions_path": "D:\\memorytable\\cassandra-kg-memory\\data\\locomo_qa_records.csv",
+  "questions_sha256": "048b9bfc779a5f033223b9c0a764a1ef95ba2900c473dad753b59b5f8323fdc3",
+  "predictions_path": "D:\\memorytable\\cassandra-kg-memory\\05_reports\\locomo_gpt4o_prompt_protocol_corrected_densekg_v2\\setting_b_category\\Dense+GlobalKG\\reader_predictions.jsonl",
+  "predictions_sha256": "a0a2e9bc0e92f347daf76ac6bd32aa83468a5bd534c5645bd4a9c636d6fd5bca",
+  "evaluator_sha256": "21325e3cdb1a69cdad07b8e000459584725a94f1043f71c99959cf31720f1bce",
+  "question_count": 1986,
+  "question_category_counts": {
+    "1": 282,
+    "2": 321,
+    "3": 96,
+    "4": 841,
+    "5": 446
+  },
+  "raw_prediction_rows": 1986,
+  "deduplicated_prediction_rows": 1986,
+  "exact_duplicate_rows_ignored": 0,
+  "methods": {
+    "Dense+GlobalKG": {
+      "n_predictions": 1986,
+      "category_counts": {
+        "1": 282,
+        "2": 321,
+        "3": 96,
+        "4": 841,
+        "5": 446
+      },
+      "missing_question_count": 0,
+      "missing_question_examples": [],
+      "unknown_prediction_id_count": 0,
+      "unknown_prediction_id_examples": []
+    }
+  },
+  "definitions": {
+    "official_score": "Cat1 multi-answer F1; Cat2-4 stemmed token F1; Cat5 strict binary refusal; micro-average per query",
+    "rF1_cat14": "Official LoCoMo answer F1 on Cat1-4 only",
+    "rEM_cat14_project": "Project diagnostic, not emitted by official LoCoMo eval_question_answering",
+    "WrongAbstention_cat14_project": "Broad abstention on Cat1-4 with official F1 == 0",
+    "cat5_official_abstention": "Strict official phrases only: no information available / not mentioned"
+  }
+}

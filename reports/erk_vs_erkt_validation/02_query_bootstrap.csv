@@ -1,3 +1,0 @@
-﻿comparison,metric,point_estimate,query_ci_lo,query_ci_hi,cluster_ci_lo,cluster_ci_hi
-BM25_ERKT_vs_ERK,MRR,0.0001,-0.0002,0.0004,-0.0002,0.0016
-RRF_ERKT_vs_ERK,MRR,0.0,-0.0002,0.0003,-0.0001,0.0008

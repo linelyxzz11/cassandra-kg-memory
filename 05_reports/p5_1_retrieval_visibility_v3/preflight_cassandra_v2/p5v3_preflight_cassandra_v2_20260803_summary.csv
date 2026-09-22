@@ -1,2 +1,0 @@
-protocol_version,retriever_id,backend,concurrency,formal_events,successful_events,timeouts,p50_update_to_topk_ms,p95_update_to_topk_ms,p99_update_to_topk_ms,p50_update_to_commit_ms,p95_update_to_commit_ms,p99_update_to_commit_ms,mean_candidate_count,mean_target_rank
-p5-1-logical-event-v3,shared-rawerk-bm25-top10-v1,cassandra,2,8,8,0,49.15850004181266,49.91509998217225,49.91509998217225,8.930600015446544,9.726899908855557,9.726899908855557,11.5,1.0

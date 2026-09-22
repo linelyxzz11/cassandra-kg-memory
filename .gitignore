@@ -4,6 +4,7 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+*.egg-info/
 
 # Local environments and package/model caches
 .venv/
@@ -60,15 +61,11 @@ docs/NEXT_GPT_HANDOFF.md
 # Local figure iterations. Move the selected publication asset to figures/.
 /docs/figures/
 
-# Legacy unnumbered result namespace. Canonical outputs belong in 05_reports/.
-/results/
-
 # Large reproducible experiment traces. Keep locally; version summaries,
 # manifests, publication tables, and reports instead.
-/05_reports/**/runs/
-/05_reports/**/traces/
-/05_reports/**/*_per_event.csv
-/05_reports/**/scored_predictions.jsonl
-/05_reports/**/judgments_unique.jsonl
-/05_reports/error_analysis_v1/error_ledger.csv
-/05_reports/reader_offline_metrics_v4/reader_metrics_per_query.jsonl
+/results/**/runs/
+/results/**/traces/
+/results/**/*_per_event.csv
+/results/**/scored_predictions.jsonl
+/results/**/judgments_unique.jsonl
+/results/reader/**/reader_metrics_per_query.jsonl

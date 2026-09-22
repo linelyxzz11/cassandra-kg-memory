@@ -1,5 +1,0 @@
-﻿Method,cat1_F1,cat2_F1,cat3_F1,cat4_F1
-BM25,0.5,0.2034,0.2222,0.3882
-Dense-bge,0.0,0.169,0.2222,0.3526
-Dense-bge+GlobalKG,0.0,0.1126,0.2222,0.3399
-Dense-bge+QueryKG,0.0,0.219,0.2222,0.3462

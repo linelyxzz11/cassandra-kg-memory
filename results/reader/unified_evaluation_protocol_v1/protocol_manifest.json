@@ -1,0 +1,168 @@
+{
+  "protocol_version": "cassmem-unified-eval-v1",
+  "dataset": {
+    "name": "LoCoMo canonical 10-conversation release",
+    "conversations": 10,
+    "memories": 5882,
+    "questions_full5": 1986,
+    "category_counts": {
+      "1_multi_hop": 282,
+      "2_temporal": 321,
+      "3_open_domain": 96,
+      "4_single_hop": 841,
+      "5_adversarial": 446
+    }
+  },
+  "query_scopes": {
+    "retrieval_all": "Cat1-4 n=1540; metrics on 1536 evidence-bearing queries",
+    "retrieval_heldout": "test split n=1146 evidence-bearing queries; primary effectiveness claim",
+    "reader_full5": "Cat1-5 n=1986; natural micro weighting",
+    "cat5": "n=446; answer-level abstention only, excluded from retrieval metrics"
+  },
+  "retrieval": {
+    "methods": [
+      "BM25",
+      "Dense-bge",
+      "Dense+GlobalKG",
+      "RRF_compact",
+      "ZScore-Raw",
+      "ZScore-RawERK"
+    ],
+    "candidate_scope": "all memories in the query conversation",
+    "top_k": 10,
+    "fusion_candidate_depth": 50,
+    "embedding": "project-frozen bge-large 1024d arrays; exact identity is the artifact SHA-256",
+    "metrics": [
+      "MRR@10",
+      "Hit@1",
+      "Hit@5",
+      "Hit@10",
+      "Recall@10",
+      "nDCG@10"
+    ],
+    "cat5_policy": "excluded because no positive retrieval target"
+  },
+  "reader": {
+    "model": "gpt-4o-2024-08-06",
+    "temperature": 0,
+    "max_tokens": 64,
+    "context_top_k": 10,
+    "setting_a": "single unified short-answer prompt for Cat1-5",
+    "setting_b": "ordinary prompt for Cat1/3/4, temporal date instruction for Cat2, deterministic binary option prompt for Cat5",
+    "cat5_reference": "Not mentioned in the conversation",
+    "cat5_normalization": "restore (a)/(b) to deterministic option text before every evaluator"
+  },
+  "answer_metrics": {
+    "F1": "official LoCoMo category-aware per-query score; micro mean over scope",
+    "B1": "lowercase NLTK word_tokenize sentence BLEU-1, weights=(1,0,0,0), method1; Cat5 uses abstention reference after option restoration",
+    "J": "Mem0/HingeMem binary correctness prompt, judge gpt-4o-2024-08-06, micro mean over 1986"
+  },
+  "backends": {
+    "effectiveness_reference": "CSV",
+    "bridge": [
+      "CSV",
+      "Cassandra",
+      "Neo4j"
+    ],
+    "semantic_gate": "candidate/projection/edge digest plus exact Top-10 and metric parity"
+  },
+  "cache_policy": {
+    "immutable_raw_predictions": true,
+    "cache_key_fields": [
+      "question",
+      "reference",
+      "candidate_answer",
+      "reader_or_judge_model",
+      "prompt_sha256",
+      "ranking_sha256",
+      "setting"
+    ],
+    "offline_repairs_allowed": [
+      "option-label restoration",
+      "deterministic scoring",
+      "aggregation",
+      "manifest regeneration"
+    ],
+    "api_rerun_required_only_if": "prompt or Top-10 context changed and no byte-identical prompt cache exists"
+  },
+  "artifacts": [
+    {
+      "role": "original_dataset",
+      "path": "external_data/locomo10.json",
+      "sha256": "79fa87e90f04081343b8c8debecb80a9a6842b76a7aa537dc9fdf651ea698ff4",
+      "bytes": 2805274
+    },
+    {
+      "role": "canonical_memory_corpus",
+      "path": "data/locomo_memory_records.csv",
+      "sha256": "9cf57c37cf9185cc53840e0e30232db1d305c8a50d292e5284f977a0b05aa689",
+      "bytes": 1291177
+    },
+    {
+      "role": "canonical_full5_questions",
+      "path": "data/locomo_qa_records.csv",
+      "sha256": "048b9bfc779a5f033223b9c0a764a1ef95ba2900c473dad753b59b5f8323fdc3",
+      "bytes": 278562
+    },
+    {
+      "role": "retrieval_gold",
+      "path": "data/retrieval_gold/locomo_cat1_4_gold_memory.csv",
+      "sha256": "8946fd8f208b8dbd37540a7a45314c758e10744a762190bae2825a56b544e7f7",
+      "bytes": 234352
+    },
+    {
+      "role": "structured_features",
+      "path": "data/frozen_retrieval/p3_memory_features.csv",
+      "sha256": "b211c99df6f778b02d2c89670e6db90e12aedef3a313d0ab102708b24795c0cc",
+      "bytes": 2073473
+    },
+    {
+      "role": "frozen_memory_embeddings",
+      "path": "data/locomo_memory_bge_large.npy",
+      "sha256": "9cb5a18de1cf63b4a8eb6dc7c4399718c0de7f0bfd0218be61b377ed4a19c118",
+      "bytes": 24092800
+    },
+    {
+      "role": "frozen_query_embeddings",
+      "path": "data/locomo_qa_bge_large.npy",
+      "sha256": "9d74a961cebdccecfecd473c41636bce135ad2e6a510fc1262c8db4f29ce1e9e",
+      "bytes": 8134784
+    },
+    {
+      "role": "frozen_dense_scores",
+      "path": "data/frozen_retrieval/frozen_dense_scores_long.csv",
+      "sha256": "92db4eb7bc659457fef92e4c339072e92e247baf7468ff8f57c9b960d0fc8478",
+      "bytes": 45506195
+    },
+    {
+      "role": "corrected_global_kg",
+      "path": "data/frozen_retrieval/locomo_kg_edges_spacy.csv",
+      "sha256": "1b96daad4b01656692569530690e67f739f404814f8a744691c5e68654359e1a",
+      "bytes": 229382
+    },
+    {
+      "role": "reader_prompt_implementation",
+      "path": "src/cassmem/evaluation/run_locomo_prompt_protocol_gpt4o.py",
+      "sha256": "69e8e1e8c01b856dffc6eb968839342326cd550fbfbe0031cbb50ac5fa29b98a",
+      "bytes": 20961
+    },
+    {
+      "role": "official_f1_evaluator",
+      "path": "src/cassmem/evaluation/locomo_official_eval_v1.py",
+      "sha256": "21325e3cdb1a69cdad07b8e000459584725a94f1043f71c99959cf31720f1bce",
+      "bytes": 18589
+    },
+    {
+      "role": "offline_reader_metrics_manifest",
+      "path": "results/reader/reader_offline_metrics_v4/manifest.json",
+      "sha256": "61a75488990d331d281ae2ac8f7fae76a7707189062bac874f546287b2c0ae5e",
+      "bytes": 4119
+    },
+    {
+      "role": "backend_bridge_manifest",
+      "path": "results/backend_equivalence/backend_equivalence_v2/manifest.json",
+      "sha256": "bd58de049d93a602e92bd4b9f1eff7c97711d7b45f4ec560658c6be00360c610",
+      "bytes": 7912
+    }
+  ]
+}

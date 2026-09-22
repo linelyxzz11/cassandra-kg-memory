@@ -1,3 +1,0 @@
-# Python 3.12+ compatible. The standard library is enough for canonicalisation/tests.
-cassandra-driver>=3.29.2
-neo4j>=5.20.0

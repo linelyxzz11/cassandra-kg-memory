@@ -1,0 +1,89 @@
+{
+  "title": "CassMem Retrieval Main Table",
+  "protocol_version": "retrieval-main-v1",
+  "query_universe": {
+    "cat1_4_total": 1540,
+    "evaluable": 1536,
+    "excluded_missing_gold": 4,
+    "category_order": [
+      "Single-Hop",
+      "Multi-Hop",
+      "Temporal",
+      "Open-Domain"
+    ],
+    "evaluable_by_category": {
+      "Temporal": 321,
+      "Open-Domain": 92,
+      "Multi-Hop": 282,
+      "Single-Hop": 841
+    },
+    "gold_memories_per_query": {
+      "1": 1123,
+      "2": 227,
+      "3": 83,
+      "4": 60,
+      "5": 20,
+      "6": 6,
+      "7": 7,
+      "8": 2,
+      "9": 2,
+      "10": 2,
+      "11": 2,
+      "17": 1,
+      "19": 1
+    }
+  },
+  "metric_definitions": {
+    "MRR@10": "Mean reciprocal rank of the first relevant memory within Top-10.",
+    "Hit@K": "Fraction of queries with at least one relevant memory in Top-K.",
+    "Recall@10": "Macro-average of |Top10 intersect gold| / |gold|; this is distinct from the project's historical R@10 label.",
+    "nDCG@10": "Binary-relevance normalized discounted cumulative gain at rank 10.",
+    "Candidate Recall": "Not reported: frozen methods do not expose a distinct pruned candidate-generation artifact before ranking."
+  },
+  "comparability": {
+    "primary_rows": "sample-scoped methods only",
+    "primary_split": "Held-out test split (n=1146 evidence-bearing queries). The all-query aggregate is diagnostic because method weights were selected on dev.",
+    "cat5": "Excluded from retrieval effectiveness because adversarial Cat5 has no gold-memory retrieval target in this protocol.",
+    "reader_global_kg_warning": "The existing GPT-4o reader Dense+GlobalKG row used the old ranking path and must be regenerated before it can represent this rerun."
+  },
+  "input_files": [
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\data\\retrieval_gold\\locomo_cat1_4_gold_memory.csv",
+      "sha256": "8946fd8f208b8dbd37540a7a45314c758e10744a762190bae2825a56b544e7f7"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\results\\retrieval\\official_eval\\bm25_raw_ranking_canonical1540.csv",
+      "sha256": "d4fcbf8d2449bd88e83900d543858e074322a04b00d1455bc5da297a8df5ba59"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\results\\retrieval\\official_eval\\dense_bge_ranking_canonical1540.csv",
+      "sha256": "ce773bb2bee2c435d74fbd0a699c74c532f7f459d8e8c99a5628bdf072259640"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\results\\retrieval\\dense_global_kg_rerun\\dense_global_kg_top10.csv",
+      "sha256": "cf11f72b925ef1a850565f65e97a836302e2e2c81e9cacb02b1927f40de130c4"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\results\\retrieval\\official_eval\\rrf_compact_canonical1540\\rrf_compact_top10.csv",
+      "sha256": "8013d6783da90983514de075a0f4a0dcd64e225f50ea909bbb175d473b689cff"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\results\\retrieval\\official_eval\\zscore_raw_ranking_canonical1540.csv",
+      "sha256": "22cb76e96c5fc9aafcbb749d55c4d3ea4f0071dc1f6364f717c95aec403d6412"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\results\\retrieval\\official_eval\\zscore_rawerk_ranking_canonical1540.csv",
+      "sha256": "23e73e853da3c538fb6287b5f8d5b183a27b6d932f8852960c3060a78b50eb42"
+    }
+  ],
+  "outputs": [
+    "retrieval_main_overall.csv",
+    "retrieval_main_by_category.csv",
+    "retrieval_main_per_query.csv",
+    "retrieval_exclusion_audit.csv",
+    "historical_metric_reconciliation.csv",
+    "candidate_pool_oracle_audit.csv",
+    "retrieval_main_significance.csv",
+    "retrieval_main_data.json"
+  ]
+}

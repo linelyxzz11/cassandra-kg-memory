@@ -1,0 +1,79 @@
+{
+  "experiment": "Dense+GlobalKG publication-safe rerun",
+  "method": {
+    "candidate_scope": "all memories from the query's LoCoMo conversation",
+    "dense_score": "query-wise z-score of cosine similarity",
+    "legacy_prior": "z-score of binary KG-edge coverage",
+    "corrected_prior": "z-score of query-independent memory degree centrality: log1p(edge count) plus mean log1p(endpoint degrees)",
+    "fusion": "dense_z + kg_lambda * kg_prior_z",
+    "lambda_grid": [
+      0.0,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.2,
+      0.4,
+      0.8
+    ],
+    "selection": "maximize dev MRR@10; tie-break by dev nDCG@10, dev Recall@10, then smaller lambda",
+    "final_reporting": "held-out test; all-query aggregate is diagnostic"
+  },
+  "query_counts": {
+    "cat1_4_total": 1540,
+    "evaluable": 1536,
+    "evidence_empty": 4,
+    "split": {
+      "test": 1146,
+      "dev": 390
+    }
+  },
+  "kg_mapping_audit": {
+    "memory_count": 5882,
+    "memory_with_edges": 2353,
+    "memory_edge_coverage": 0.4000340020401224,
+    "mapped_edge_assignments": 2526,
+    "unmapped_edge_rows": 15
+  },
+  "selected_lambdas": {
+    "binary_coverage": 0.2,
+    "degree_centrality": 0.2
+  },
+  "inputs": [
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\data\\locomo_memory_bge_large.npy",
+      "sha256": "9cb5a18de1cf63b4a8eb6dc7c4399718c0de7f0bfd0218be61b377ed4a19c118"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\data\\locomo_qa_bge_large.npy",
+      "sha256": "9d74a961cebdccecfecd473c41636bce135ad2e6a510fc1262c8db4f29ce1e9e"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\data\\locomo_memory_ids_bge.txt",
+      "sha256": "3f488f951a78dd3832577bbeb4114eca88ae3ad21cfd1ed70c4d5051926eb344"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\data\\locomo_qa_ids_bge.txt",
+      "sha256": "d8734364ae41d24f407d7b3f888bf94ee4b89c368700b08cb5fade7c2c71c74f"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\data\\locomo_memory_records.csv",
+      "sha256": "9cf57c37cf9185cc53840e0e30232db1d305c8a50d292e5284f977a0b05aa689"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\02_artifacts\\retrieval_gold_v2\\locomo_cat1_4_gold_memory.csv",
+      "sha256": "8946fd8f208b8dbd37540a7a45314c758e10744a762190bae2825a56b544e7f7"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\results\\locomo_kg_edges_spacy.csv",
+      "sha256": "1b96daad4b01656692569530690e67f739f404814f8a744691c5e68654359e1a"
+    }
+  ],
+  "outputs": [
+    "dense_global_kg_dev_grid.csv",
+    "dense_global_kg_summary.csv",
+    "dense_global_kg_top10.csv",
+    "dense_global_kg_significance.csv",
+    "evidence_empty_queries.csv"
+  ]
+}

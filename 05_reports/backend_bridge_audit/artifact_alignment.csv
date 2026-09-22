@@ -1,9 +1,0 @@
-﻿artifact,row_count,unique_memory_ids,scope,parent_artifact,missing_memory_ids,extra_memory_ids,duplicate_memory_ids,alignment_status
-memory_records.csv,5882,5882,Full10conversations,locomo10.json,0,0,0,REFERENCE
-p3_memory_features.csv,5882,5882,Full10conversations,memory_records.csv,0,0,0,ALIGNED
-frozen_dense_scores_long.csv,926158,5882 memories x 1540QIDs,Cat1-4 only(1540QIDs),frozen_query_embeddings.npy+frozen_memory_embeddings.npy,446 cat5 QIDs missing,0,0,PARTIAL-cat5QIDs not covered
-p1c_bm25_rankings_cat1_4_1540.csv,498960approx,5882 memories x 1540QIDs,Cat1-4 only(1540QIDs),bm25_raw_ranking_canonical1540.csv,446 cat5 QIDs missing,0,0,PARTIAL-cat5QIDs not covered
-bm25_raw_ranking_canonical1540.csv,15400,1540 memories x 1540QIDs,Cat1-4 only(1540QIDs),p1c_bm25_rankings,0,0,0,ALIGNED_within_cat14_scope
-zscore_raw_ranking_canonical1540.csv,15400,1540 memories x 1540QIDs,Cat1-4 only(1540QIDs),frozen_dense_scores+bm25_raw,0,0,0,ALIGNED_within_cat14_scope
-rrf_compact_top10.csv,1540,1540 memories x 10 per QID,Cat1-4 only(1540QIDs),frozen_dense_scores+p1c_bm25_RawERK,0,0,0,ALIGNED_within_cat14_scope
-reader_f1_memory_only_full_scoped_bm25_predictions.csv,1784permethodx4methods,All,Globalcorpus(includingCat5),frozen_dense_scores+kg_triples,0,0,0,ALIGNED_global_scope_differs_from_sample

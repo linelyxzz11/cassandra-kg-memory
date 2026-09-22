@@ -1,0 +1,45 @@
+{
+  "artifact": "LoCoMo Cat1-4 canonical gold-memory mapping v2",
+  "method": "Parse the original QA evidence field, split compound semicolon-delimited turn IDs, and map each (sample_id, dia_id) exactly to memory_id.",
+  "counts": {
+    "queries": 1540,
+    "status": {
+      "mapped": 1536,
+      "evidence_empty": 4
+    },
+    "changed_vs_legacy": 9,
+    "unmapped_evidence_turns": 0,
+    "documented_evidence_corrections": 5,
+    "by_category_and_status": {
+      "cat1:mapped": 282,
+      "cat2:mapped": 321,
+      "cat3:evidence_empty": 4,
+      "cat3:mapped": 92,
+      "cat4:mapped": 841
+    }
+  },
+  "policy": {
+    "evidence_empty": "Retained as official evidence-empty; excluded from positive-evidence retrieval metrics and reported separately.",
+    "manual_supplement": "Any future human-authored evidence must be versioned as an extended annotation and must not overwrite this official mapping."
+  },
+  "inputs": [
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\external_data\\locomo10.json",
+      "sha256": "79fa87e90f04081343b8c8debecb80a9a6842b76a7aa537dc9fdf651ea698ff4"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\data\\locomo_memory_records.csv",
+      "sha256": "9cf57c37cf9185cc53840e0e30232db1d305c8a50d292e5284f977a0b05aa689"
+    },
+    {
+      "path": "D:\\memorytable\\cassandra-kg-memory\\scripts\\experiments\\artifacts\\p3_queries.csv",
+      "sha256": "312db7263dc0c6fba1f81eaa7f38dc0da51467a405284dfffb380fa79040b349"
+    }
+  ],
+  "outputs": [
+    "locomo_cat1_4_gold_memory.csv",
+    "legacy_gold_mapping_audit.csv",
+    "unmapped_evidence_turns.csv",
+    "evidence_corrections.csv"
+  ]
+}

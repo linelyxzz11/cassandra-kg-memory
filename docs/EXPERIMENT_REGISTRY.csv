@@ -1,0 +1,12 @@
+experiment,status,layer,description,canonical_evidence
+GOLD-V2,FROZEN,retrieval,"Canonical Cat1-4 gold-memory mapping",data/retrieval_gold
+RETRIEVAL-MAIN,DONE,retrieval,"Six-method MRR/Hit/Recall/nDCG table",results/retrieval/retrieval_main_table
+ZSCORE-ALPHA-SWEEP,DONE,retrieval,"Development-set fusion-weight sweep",results/retrieval/zscore_alpha_sweep
+REPRESENTATION-ABLATION,DONE,retrieval,"RawERK component ablation",results/representation_ablation/p1_compact_component_ablation
+READER-MAIN,DONE,reader,"HingeMem-style F1/J/B1 main table",results/reader/reader_main_hingemem_style
+BACKEND-EQUIVALENCE,DONE,system,"CSV/Cassandra/Neo4j candidate and ranking parity",results/backend_equivalence/backend_equivalence_v2
+SERVING-100K,DONE,system,"Graph-aware four-cell 100K workload",results/serving_100k/locomo_workload_graph_v2_100k
+QUERY-TYPES,DONE,system,"Scope/relation/candidate/Top-10 query-type matrix",results/serving_100k/locomo_workload_graph_v2_100k/query_types_v2
+STORAGE-WORK,DONE,system,"Physical records and logical writes under semantic parity",results/serving_100k/locomo_workload_graph_v2_100k/storage_work_v2
+FRESHNESS,DONE,system,"Online update stages through observed Top-10",results/freshness/experiment11_online_freshness_v2
+RECOVERY,DONE,system,"Application materializer-worker recovery; databases remain online",results/serving_100k/locomo_workload_graph_v2_100k/recovery_v2

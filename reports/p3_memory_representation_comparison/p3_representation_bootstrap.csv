@@ -1,8 +1,0 @@
-﻿comparison,m1,m2,query_mrr_delta,query_ci_lo,query_ci_hi
-ERKOnly_vs_RawERK,erk_only,raw_erk,0.0093,-0.0038,0.0224
-ERKOnly_vs_Raw,erk_only,raw,0.0483,0.0323,0.0644
-ERKOnly_vs_RawTriples,erk_only,raw_triples,0.0151,0.0009,0.0296
-ERKOnly_vs_StrongestSummary,erk_only,raw_summary,0.0275,0.0116,0.0428
-RawERK_vs_Raw,raw_erk,raw,0.039,0.0297,0.0487
-RawERK_vs_RawTriples,raw_erk,raw_triples,0.0058,-0.0019,0.0137
-RawERK_vs_RawSummary,raw_erk,raw_summary,0.0182,0.0079,0.0287

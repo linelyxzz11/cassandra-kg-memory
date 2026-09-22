@@ -72,14 +72,14 @@ backend freshness failure.
 
 | Question | Canonical evidence |
 |---|---|
-| Retrieval effectiveness | [`05_reports/retrieval_main_table/`](05_reports/retrieval_main_table/) |
-| Reader answer quality | [`05_reports/reader_main_hingemem_style/`](05_reports/reader_main_hingemem_style/) |
-| Backend semantic preservation | [`05_reports/backend_equivalence_v2/`](05_reports/backend_equivalence_v2/) |
-| Four-cell 100K serving workload | [`05_reports/locomo_workload_graph_v2_100k/`](05_reports/locomo_workload_graph_v2_100k/) |
-| Online update stages and observed Top-10 visibility | [`05_reports/experiment11_online_freshness_v2/`](05_reports/experiment11_online_freshness_v2/) |
-| Supported claims and limitations | [`00_project/CLAIMS_AND_EVIDENCE.md`](00_project/CLAIMS_AND_EVIDENCE.md) |
-| Experiment status | [`00_project/EXPERIMENT_REGISTRY.csv`](00_project/EXPERIMENT_REGISTRY.csv) |
-| Artifact hashes | [`00_project/ARTIFACT_MANIFEST.csv`](00_project/ARTIFACT_MANIFEST.csv) |
+| Retrieval effectiveness | [`results/retrieval/retrieval_main_table/`](results/retrieval/retrieval_main_table/) |
+| Reader answer quality | [`results/reader/reader_main_hingemem_style/`](results/reader/reader_main_hingemem_style/) |
+| Backend semantic preservation | [`results/backend_equivalence/backend_equivalence_v2/`](results/backend_equivalence/backend_equivalence_v2/) |
+| Four-cell 100K serving workload | [`results/serving_100k/locomo_workload_graph_v2_100k/`](results/serving_100k/locomo_workload_graph_v2_100k/) |
+| Online update stages and observed Top-10 visibility | [`results/freshness/experiment11_online_freshness_v2/`](results/freshness/experiment11_online_freshness_v2/) |
+| Supported claims and limitations | [`docs/CLAIMS_AND_EVIDENCE.md`](docs/CLAIMS_AND_EVIDENCE.md) |
+| Experiment status | [`docs/EXPERIMENT_REGISTRY.csv`](docs/EXPERIMENT_REGISTRY.csv) |
+| Artifact hashes | [`results/ARTIFACT_MANIFEST.csv`](results/ARTIFACT_MANIFEST.csv) |
 
 The Chinese System Design draft is maintained in
 [`docs/SYSTEM_DESIGN_ZH.md`](docs/SYSTEM_DESIGN_ZH.md). Formula-to-code checks are
@@ -90,22 +90,11 @@ recorded separately in
 
 | Path | Purpose |
 |---|---|
-| `00_project/` | Claims, experiment registry, artifact manifest, and repository policy |
-| `01_data/` | Canonical LoCoMo records and frozen embeddings |
-| `02_artifacts/` | Reusable, versioned intermediate artifacts |
-| `03_src/` | Shared retrieval, storage, and evaluation implementation |
-| `04_experiments/` | Current experiment entry points and audits |
-| `05_reports/` | Citation-facing reports, compact evidence, and manifests |
-| `06_analysis/` | Exploratory analysis that is not formal evidence |
-| `07_runtime/` | Local runtime state; ignored by Git |
-| `08_literature/` | Evaluation protocols and literature evidence |
-| `09_archive/` | Superseded, failed, or historical material |
-| `docs/` | System description, workspace guide, and reproduction notes |
-
-Unnumbered `scripts/`, `reports/`, `results/`, and `schema/` directories are
-legacy namespaces retained for provenance. New work belongs in the numbered
-directories. See
-[`00_project/CANONICAL_LAYOUT.md`](00_project/CANONICAL_LAYOUT.md).
+| `src/cassmem/` | Shared representation, retrieval, backend, serving, and evaluation code |
+| `experiments/` | Reproducible entry points grouped by paper evaluation question |
+| `data/` | LoCoMo inputs, retrieval gold, and frozen retrieval artifacts |
+| `results/` | Canonical tables, reports, summaries, and manifests used by the paper |
+| `docs/` | System design, claims, experiment registry, and reproduction guide |
 
 ## Quick start
 
@@ -114,6 +103,7 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
+python -m pip install -e .
 Copy-Item .env.example .env
 ~~~
 
@@ -124,10 +114,9 @@ Run the service-independent protocol tests:
 
 ~~~powershell
 python -m pytest -q `
-  04_experiments/p5_1_v3/test_p5_1_protocol.py `
-  04_experiments/locomo_workload/test_trace_manifest.py `
-  04_experiments/locomo_workload/test_online_retrieval.py `
-  04_experiments/locomo_workload/test_graph_event_v2.py
+  experiments/serving_100k/test_trace_manifest.py `
+  experiments/serving_100k/test_online_retrieval.py `
+  experiments/serving_100k/test_graph_event_v2.py
 ~~~
 
 Detailed prerequisites and experiment commands are documented in
@@ -146,8 +135,8 @@ Detailed prerequisites and experiment commands are documented in
   disaster recovery.
 - Online Top-10 measurements use a post-update query. They do not estimate a
   continuously monitored first-hit time or Top-k convergence latency.
-- Superseded results remain under `09_archive/` or legacy namespaces for provenance
-  and must not replace the canonical evidence listed above.
+- Historical prototypes and superseded runs are intentionally excluded from this
+  public artifact; the evidence map above is the citation authority.
 
 ## Contributing and security
 

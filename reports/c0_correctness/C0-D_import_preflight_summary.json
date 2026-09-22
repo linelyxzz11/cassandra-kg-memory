@@ -1,8 +1,0 @@
-{
-  "cassandra_distinct_edges": 1120,
-  "neo4j_distinct_edges": 1120,
-  "mismatches": 0,
-  "all_consistent": true,
-  "missing_from_neo4j_count": 0,
-  "extra_in_neo4j_count": 0
-}

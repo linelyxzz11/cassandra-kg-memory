@@ -1,4 +1,0 @@
-﻿Method,n,rEM,rF1,sEM,sF1,wrong_abstention
-Dense-bge,23,0.087,0.2072,0.087,0.2072,0.6087
-Dense-bge+GlobalKG,23,0.087,0.2072,0.087,0.2072,0.6087
-Dense-bge+QueryKG,23,0.087,0.2246,0.087,0.2246,0.6087

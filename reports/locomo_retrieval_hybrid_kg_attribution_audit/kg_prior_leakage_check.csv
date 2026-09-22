@@ -1,5 +1,0 @@
-﻿category,truth_hasKG_rate,nontruth_hasKG_rate,odds_ratio,notes
-cat1,0.8618,0.6686,3.09,"KG edge evidence is from conversation text, NOT answer labels. KG extraction happened before retrieval experiments."
-cat2,0.8667,0.6632,3.3,
-cat3,0.84,0.657,2.74,
-cat4,0.8493,0.6627,2.87,

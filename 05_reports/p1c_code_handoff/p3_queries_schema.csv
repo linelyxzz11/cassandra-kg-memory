@@ -1,3 +1,0 @@
-﻿query_id,question,category,conversation_id,gold_memory_ids,split
-conv-26_qa_0,When did Caroline go to the LGBTQ support group?,2,conv-26,conv-26_session_1_D1:3,test
-conv-26_qa_1,When did Melanie paint a sunrise?,2,conv-26,conv-26_session_1_D1:12,test

@@ -1,8 +1,0 @@
-{
-  "status": "PASS",
-  "cell": "cassandra-base",
-  "concurrency": 8,
-  "repetition": 2,
-  "update_events": 250,
-  "fresh_hit_at_10": 0.772
-}

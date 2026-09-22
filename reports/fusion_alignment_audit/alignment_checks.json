@@ -1,7 +1,0 @@
-{
-  "all_pass": true,
-  "protocol": "identical_code",
-  "legacy_1540_R1": 0.3416,
-  "p2_1540_R1": 0.3416,
-  "gap_is_query_set_only": true
-}

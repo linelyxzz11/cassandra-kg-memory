@@ -1,7 +1,0 @@
-{
-  "query_count_dev": 390,
-  "query_count_test": 1150,
-  "memory_count": 5882,
-  "anchor_gate_pass": false,
-  "all_pass": false
-}

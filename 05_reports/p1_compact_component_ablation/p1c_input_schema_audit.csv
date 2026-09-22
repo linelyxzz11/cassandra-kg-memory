@@ -1,6 +1,0 @@
-﻿input,path,exists,size_bytes,sha256,header,missing_columns,status
-memory_records,D:\memorytable\cassandra-kg-memory\01_data\locomo_memory_records.csv,1,1291177,9cf57c37cf9185cc53840e0e30232db1d305c8a50d292e5284f977a0b05aa689,memory_id|user_id|sample_id|session_id|dia_id|speaker|text|timestamp,,PASS
-memory_features,D:\memorytable\cassandra-kg-memory\02_artifacts\p3_memory_features.csv,1,2073473,b211c99df6f778b02d2c89670e6db90e12aedef3a313d0ab102708b24795c0cc,memory_id|conversation_id|raw_text|summary|entities|relations|keywords|triples,,PASS
-queries,D:\memorytable\cassandra-kg-memory\scripts\experiments\artifacts\p3_queries.csv,1,191627,312db7263dc0c6fba1f81eaa7f38dc0da51467a405284dfffb380fa79040b349,query_id|question|category|conversation_id|gold_memory_ids|split,,PASS
-dense_scores,D:\memorytable\cassandra-kg-memory\scripts\experiments\artifacts\frozen_dense_scores_long.csv,1,45506195,92db4eb7bc659457fef92e4c339072e92e247baf7468ff8f57c9b960d0fc8478,query_id|memory_id|score,,PASS
-official_rankings,D:\memorytable\cassandra-kg-memory\02_artifacts\p3_official\ZScore_RawERK_test_rankings.csv,1,586670,88f3a77cf856dd1c00bd6534909bef7e01499b7c992a65d37ce75fbb25c4cd44,query_id|memory_id|rank|score,,PASS

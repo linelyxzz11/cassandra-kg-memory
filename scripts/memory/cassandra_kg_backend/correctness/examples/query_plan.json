@@ -1,7 +1,0 @@
-{
-  "graph_id": "locomo_kg",
-  "queries": [
-    {"seed_id": "user_001", "relation_path": ["likes"], "hop": 1, "fanout": 20, "weight": 1},
-    {"seed_id": "user_001", "relation_path": ["likes", "suitable_for"], "hop": 2, "fanout": 20, "weight": 2}
-  ]
-}

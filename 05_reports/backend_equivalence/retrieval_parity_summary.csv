@@ -1,3 +1,0 @@
-﻿method,backend,n_queries,candidate_exact_match_rate,top10_exact_match_rate
-BM25,Cassandra,1986,1.0000,1.0000
-BM25,Neo4j,1986,1.0000,1.0000

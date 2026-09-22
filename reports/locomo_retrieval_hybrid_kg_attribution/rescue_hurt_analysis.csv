@@ -1,4 +1,0 @@
-﻿comparison,rescue@1,hurt@1,net@1
-RRF vs Dense,38,341,-303
-RRF+GlobalKG vs RRF,55,-89,144
-RRF+GlobalKG+TemporalKG vs RRF+GlobalKG,-1,0,-1

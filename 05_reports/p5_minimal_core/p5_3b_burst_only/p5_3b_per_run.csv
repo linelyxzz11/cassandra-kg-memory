@@ -1,3 +1,0 @@
-﻿backend,total_events,searchable,timeouts,max_backlog,elapsed_s
-cassandra,21000,21000,0,3,90.0
-neo4j,21000,21000,0,55,104.0

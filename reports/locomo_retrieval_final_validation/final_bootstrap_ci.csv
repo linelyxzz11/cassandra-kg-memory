@@ -1,5 +1,0 @@
-﻿comparison,mean,ci_lo,ci_hi
-RRF_cpt vs Dense_raw: MRR,0.051,0.0372,0.0638
-RRF_cpt vs RRF_raw: MRR,0.0342,0.0263,0.0419
-RRF_cpt vs Dense_raw: R@1,0.0412,0.0214,0.0604
-RRF_cpt vs Dense_raw: R@10,0.0412,0.0214,0.0604

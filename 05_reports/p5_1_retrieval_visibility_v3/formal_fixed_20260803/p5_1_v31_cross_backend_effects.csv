@@ -1,4 +1,0 @@
-concurrency,cassandra_p50_ms,neo4j_p50_ms,cassandra_p50_reduction_pct,neo4j_over_cassandra_p50_ratio,cassandra_p95_ms,neo4j_p95_ms,cassandra_p99_ms,neo4j_p99_ms,cassandra_mean_throughput,neo4j_mean_throughput,cassandra_over_neo4j_throughput_ratio
-8,29.264,47.319,38.16,1.617,55.607,66.314,124.384,84.449,237.019,170.787,1.388
-32,85.625,195.321,56.16,2.281,201.384,284.786,252.945,331.095,316.552,163.38,1.938
-64,173.045,402.921,57.05,2.328,355.526,561.86,385.893,637.325,308.735,157.663,1.958

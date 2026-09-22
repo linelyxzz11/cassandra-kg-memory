@@ -1,0 +1,97 @@
+{
+  "experiment": "LoCoMo backend bridge V2 isolated view preparation",
+  "created_at_utc": "2026-08-11T11:47:48.469007+00:00",
+  "reset": false,
+  "isolation": {
+    "cassandra": "kg_memory.bridge_v2_memory_by_scope, kg_memory.bridge_v2_edges_by_scope",
+    "neo4j": "BridgeV2Memory, BridgeV2Entity, BRIDGE_V2_EDGE",
+    "existing_objects_modified": false
+  },
+  "canonical": {
+    "counts": {
+      "memories": 5882,
+      "features": 5882,
+      "embeddings": 5882,
+      "edges": 2541,
+      "mapped_edge_assignments": 2526,
+      "unmapped_edges": 15,
+      "scopes": 10
+    },
+    "inputs": [
+      {
+        "path": "D:\\memorytable\\cassandra-kg-memory\\data\\locomo_memory_records.csv",
+        "sha256": "9cf57c37cf9185cc53840e0e30232db1d305c8a50d292e5284f977a0b05aa689"
+      },
+      {
+        "path": "D:\\memorytable\\cassandra-kg-memory\\02_artifacts\\p3_memory_features.csv",
+        "sha256": "b211c99df6f778b02d2c89670e6db90e12aedef3a313d0ab102708b24795c0cc"
+      },
+      {
+        "path": "D:\\memorytable\\cassandra-kg-memory\\results\\locomo_kg_edges_spacy.csv",
+        "sha256": "1b96daad4b01656692569530690e67f739f404814f8a744691c5e68654359e1a"
+      },
+      {
+        "path": "D:\\memorytable\\cassandra-kg-memory\\data\\locomo_memory_bge_large.npy",
+        "sha256": "9cb5a18de1cf63b4a8eb6dc7c4399718c0de7f0bfd0218be61b377ed4a19c118"
+      },
+      {
+        "path": "D:\\memorytable\\cassandra-kg-memory\\data\\locomo_memory_ids_bge.txt",
+        "sha256": "3f488f951a78dd3832577bbeb4114eca88ae3ad21cfd1ed70c4d5051926eb344"
+      }
+    ],
+    "digests": {
+      "memory_view": "51ac869697a57c419c8f3be5d0ff0bc77dbf515b9c718c20a1878d95456b031e",
+      "edge_view": "e2f45b553e394674837e560f8e8b143ba195a6afb5b7400e59d83d137937ed41"
+    }
+  },
+  "backends": {
+    "neo4j": {
+      "backend": "neo4j",
+      "writes": {
+        "memories": 5882,
+        "edges": 2541
+      },
+      "counts": {
+        "memories": 5882,
+        "edges": 2541,
+        "mapped_edge_assignments": 2526,
+        "unmapped_edges": 15,
+        "scopes": 10
+      },
+      "digests": {
+        "memory_view": "51ac869697a57c419c8f3be5d0ff0bc77dbf515b9c718c20a1878d95456b031e",
+        "edge_view": "e2f45b553e394674837e560f8e8b143ba195a6afb5b7400e59d83d137937ed41"
+      },
+      "verification": {
+        "counts_match": true,
+        "digests_match": true,
+        "pass": true
+      }
+    },
+    "cassandra": {
+      "backend": "cassandra",
+      "verified_at_utc": "2026-08-11T11:48:19.722946+00:00",
+      "writes": {
+        "memories": 5882,
+        "edges": 2541
+      },
+      "counts": {
+        "memories": 5882,
+        "edges": 2541,
+        "mapped_edge_assignments": 2526,
+        "unmapped_edges": 15,
+        "scopes": 10
+      },
+      "digests": {
+        "memory_view": "51ac869697a57c419c8f3be5d0ff0bc77dbf515b9c718c20a1878d95456b031e",
+        "edge_view": "e2f45b553e394674837e560f8e8b143ba195a6afb5b7400e59d83d137937ed41"
+      },
+      "verification": {
+        "counts_match": true,
+        "digests_match": true,
+        "pass": true
+      }
+    }
+  },
+  "pass": true
+}

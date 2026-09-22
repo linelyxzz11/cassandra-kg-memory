@@ -12,16 +12,14 @@
     "markdown.math.enabled": true,
     "python.envFile": "${workspaceFolder}/.env",
     "python.analysis.extraPaths": [
-      "${workspaceFolder}/03_src",
-      "${workspaceFolder}/04_experiments"
+      "${workspaceFolder}/src"
     ],
     "python.testing.pytestEnabled": true,
     "python.testing.unittestEnabled": false,
     "python.testing.pytestArgs": [
-      "04_experiments/p5_1_v3/test_p5_1_protocol.py",
-      "04_experiments/locomo_workload/test_trace_manifest.py",
-      "04_experiments/locomo_workload/test_online_retrieval.py",
-      "04_experiments/locomo_workload/test_graph_event_v2.py"
+      "experiments/serving_100k/test_trace_manifest.py",
+      "experiments/serving_100k/test_online_retrieval.py",
+      "experiments/serving_100k/test_graph_event_v2.py"
     ],
     "terminal.integrated.cwd": "${workspaceFolder}",
     "git.autofetch": true,
@@ -35,19 +33,15 @@
     "files.watcherExclude": {
       "**/.git/objects/**": true,
       "**/.venv-*/**": true,
-      "**/external_data/models/**": true,
       "**/models_cache/**": true,
-      "**/results/**": true,
-      "**/05_reports/**/runs/**": true,
-      "**/05_reports/**/traces/**": true
+      "**/results/**/runs/**": true,
+      "**/results/**/traces/**": true
     },
     "search.exclude": {
       "**/.venv-*/**": true,
-      "**/external_data/models/**": true,
       "**/models_cache/**": true,
-      "**/results/**": true,
-      "**/05_reports/**/runs/**": true,
-      "**/05_reports/**/traces/**": true,
+      "**/results/**/runs/**": true,
+      "**/results/**/traces/**": true,
       "**/*_per_event.csv": true,
       "**/scored_predictions.jsonl": true,
       "**/judgments_unique.jsonl": true
@@ -80,51 +74,14 @@
           "-m",
           "pytest",
           "-q",
-          "04_experiments/p5_1_v3/test_p5_1_protocol.py",
-          "04_experiments/locomo_workload/test_trace_manifest.py",
-          "04_experiments/locomo_workload/test_online_retrieval.py",
-          "04_experiments/locomo_workload/test_graph_event_v2.py"
+          "experiments/serving_100k/test_trace_manifest.py",
+          "experiments/serving_100k/test_online_retrieval.py",
+          "experiments/serving_100k/test_graph_event_v2.py"
         ],
         "group": {
           "kind": "test",
           "isDefault": true
         },
-        "problemMatcher": []
-      },
-      {
-        "label": "CassMem: check Cassandra connection",
-        "type": "process",
-        "command": "${command:python.interpreterPath}",
-        "args": [
-          "05_reports/backend_equivalence/test_cassandra.py"
-        ],
-        "problemMatcher": []
-      },
-      {
-        "label": "CassMem: check Neo4j connection",
-        "type": "process",
-        "command": "${command:python.interpreterPath}",
-        "args": [
-          "05_reports/backend_equivalence/test_neo4j.py"
-        ],
-        "problemMatcher": []
-      },
-      {
-        "label": "CassMem: rebuild publication audit",
-        "type": "process",
-        "command": "${command:python.interpreterPath}",
-        "args": [
-          "04_experiments/build_deep_experiment_audit_v2.py"
-        ],
-        "problemMatcher": []
-      },
-      {
-        "label": "CassMem: refresh artifact manifest",
-        "type": "process",
-        "command": "${command:python.interpreterPath}",
-        "args": [
-          "04_experiments/refresh_artifact_manifest.py"
-        ],
         "problemMatcher": []
       },
       {

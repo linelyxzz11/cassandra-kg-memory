@@ -1,9 +1,0 @@
-﻿method,category,n,rF1,rEM,WrongAbst,retrieval_MRR,retrieval_R@10
-RRF_ERK,cat1_multi-hop,224,0.255,0.0446,0.4777,0.4195,0.7232
-RRF_ERK,cat2_temporal,239,0.1515,0.0167,0.6109,0.63,0.8117
-RRF_ERK,cat3_open-domain,75,0.0643,0.04,0.84,0.2549,0.44
-RRF_ERK,cat4_single-hop,612,0.5285,0.3644,0.2794,0.5443,0.8284
-RRF_ERKT,cat1_multi-hop,224,0.2699,0.067,0.4777,0.4262,0.7188
-RRF_ERKT,cat2_temporal,239,0.1527,0.0209,0.6067,0.6305,0.8117
-RRF_ERKT,cat3_open-domain,75,0.0638,0.04,0.84,0.253,0.44
-RRF_ERKT,cat4_single-hop,612,0.5368,0.3644,0.2761,0.5457,0.8317

@@ -1,5 +1,0 @@
-﻿Method,n,abstention_accuracy,non_abstention_rate
-BM25,446,0.9753,0.0247
-Dense-bge,446,0.9619,0.0381
-Dense-bge+GlobalKG,446,0.9709,0.0291
-Dense-bge+QueryKG,446,0.9709,0.0291

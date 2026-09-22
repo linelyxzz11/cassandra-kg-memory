@@ -1,3 +1,0 @@
-{"cycle_policy": "path", "fanout": 20, "graph_id": "locomo_kg", "hop": 2, "op_type": "read", "query_id": "read-00000001", "random_seed": 20260705, "relation_path": ["likes", "suitable_for"], "seed_id": "user_001"}
-{"cycle_policy": "path", "fanout": 20, "graph_id": "locomo_kg", "hop": 1, "op_type": "read", "query_id": "read-00000002", "random_seed": 20260705, "relation_path": ["likes"], "seed_id": "user_001"}
-{"cycle_policy": "path", "fanout": 20, "graph_id": "locomo_kg", "hop": 1, "op_type": "read", "query_id": "read-00000003", "random_seed": 20260705, "relation_path": ["likes"], "seed_id": "user_001"}

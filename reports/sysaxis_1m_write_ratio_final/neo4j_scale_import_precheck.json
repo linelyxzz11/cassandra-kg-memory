@@ -1,8 +1,0 @@
-{
-  "nodes_by_graph": {
-    "c3_synth_1M_seed42": 5000
-  },
-  "edges_by_graph": {
-    "c3_synth_1M_seed42": 1000000
-  }
-}

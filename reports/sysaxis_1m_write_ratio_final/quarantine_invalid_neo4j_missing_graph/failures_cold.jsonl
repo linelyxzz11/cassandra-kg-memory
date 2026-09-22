@@ -1,6 +1,0 @@
-{"trial": 1, "system": "neo4j", "wr": 0, "rep": 1, "reason": "hash_mismatch"}
-{"trial": 3, "system": "neo4j", "wr": 0, "rep": 2, "reason": "hash_mismatch"}
-{"trial": 6, "system": "neo4j", "wr": 0, "rep": 3, "reason": "hash_mismatch"}
-{"trial": 7, "system": "neo4j", "wr": 0, "rep": 4, "reason": "hash_mismatch"}
-{"trial": 9, "system": "neo4j", "wr": 0, "rep": 5, "reason": "hash_mismatch"}
-{"trial": 11, "system": "neo4j", "wr": 10, "rep": 1, "reason": "hash_mismatch"}

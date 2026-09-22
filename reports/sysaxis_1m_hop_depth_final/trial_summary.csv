@@ -1,5 +1,0 @@
-﻿system,hop,mode,clients,measurement_seconds,completed_reads,QPS,read_mean_ms,read_p50_ms,read_p95_ms,read_p99_ms,round_trips_mean,round_trips_p95,raw_rows_mean,raw_rows_p95,result_paths_mean,result_paths_p95,spotcheck_10_10,read_error_count
-cassandra_opt,1,cold,8,20.001,34659,1732.877,4.617,3.557,12.366,19.364,1,1,21.5,20,2,4,True,0
-neo4j,1,cold,8,20.0,36625,1831.217,4.368,4.101,6.498,8.583,1,1,2.0,2,2,4,True,0
-cassandra_opt,4,cold,8,20.0,3083,154.147,51.979,44.379,103.061,145.874,15.9,18,377.7,660,12.5,58,True,0
-neo4j,4,cold,8,20.001,2366,118.297,67.745,42.994,236.743,393.567,15.3,7,30.0,8,12.5,58,True,0

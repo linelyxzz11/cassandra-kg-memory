@@ -12,7 +12,7 @@ Eq.1 是已有字段及派生过程的数学记法；Eq.2 是经复算验证的�
 
 ## 3.5 就绪检查与观测时延核对
 
-依据：04_experiments/locomo_workload/run_experiment11_freshness_v2.py，SHA-256 为 1f5fc026e616eec82331401bc3c5112ff2cdfdaa85fcb8833a0d1e9cc20bba25。
+依据：`experiments/freshness/run_experiment11_freshness_v2.py` 与当前聚合结果。
 
 - execute() 顺序执行 raw commit、结构化写入及回读检查、稀疏/向量更新及版本检查，再执行一次 search_with_timings()。
 - structured_projection_ok、relation_candidate_ok、sparse_index_visible、dense_index_visible 分别记录检查结果；index_ns 记录检查完成时间，不能仅凭这一时间值断言检查成功。
@@ -22,7 +22,7 @@ Eq.1 是已有字段及派生过程的数学记法；Eq.2 是经复算验证的�
 
 已只读检查 Experiment 11 四格保存的全部 2,400 条事件：1,772 条命中均满足 time_to_top10_ms = pipeline_complete_ms，628 条未命中均为空值；公式映射不匹配为 0，索引完成时间晚于检索完成时间的记录为 0。本批记录四项状态检查全部通过。这是对这些观测记录的核验，不是任意并发执行都满足 invariant 的证明。
 
-数据位置：05_reports/experiment11_online_freshness_v2/runs/ 下四个 *_events.csv。旧实验报告及其聚合脚本仍使用 First inclusion / first inclusion 表述；后续修改 Experiment 文字时应同步改为更新后检索的观测命中时延。本次未改动冻结数据或重跑实验。
+论文工件保留聚合后的阶段时延、在线 freshness 表和运行清单；体积较大的逐事件运行日志不进入公开仓库。旧实验报告中的 First inclusion / first inclusion 应解释为更新后单次检索的观测命中时延。
 
 ## 3.4 后端设计核对
 
@@ -34,14 +34,14 @@ Eq.1 是已有字段及派生过程的数学记法；Eq.2 是经复算验证的�
 - insert() / write_structured()：由应用显式维护冗余与派生记录，并非 Cassandra 自动 materialized-view 或通用增量视图引擎。
 - online_retrieval.py：BM25、dense scoring 与 Z-score 在应用层执行，不声称 Cassandra 原生执行融合排序。
 
-源码：04_experiments/locomo_workload/live_cells_graph_v2.py，SHA-256 为 807aae92600de859f917c4f17ace63e64380d8c6d8f29087ca758cced1bcbe58。本次为静态实现核对，未重跑数据库性能或后端等价实验。正文删除不再引用的 Noria / DBSP 章节参考条目；它们不构成当前系统实现了自动 compiler 的依据。
+源码：`src/cassmem/backend/live_cells_graph.py`。本节记录静态实现核对边界，不将手写访问路径描述为自动 compiler。
 
 ## 依据与冻结状态
 
-- P1-C：`04_experiments/retrieval/p1_compact_component_ablation/run_p1c_ablation_v5.py`。当前 SHA-256 与 `05_reports/p1_compact_component_ablation/p1c_run_manifest.json` 完全一致。
-- Backend Bridge：`04_experiments/retrieval/backend_bridge_v2_run.py`，结合 `05_reports/backend_equivalence_v2/runs/csv/manifest.json` 及冻结 Top-10。
-- 在线四格共享核心：`04_experiments/locomo_workload/online_retrieval.py`；graph 100K workload、Experiment 11、recovery 的入口均调用该实现。本次记录当前代码哈希；未找到等同于 P1-C 的历史在线核心源码哈希证明，不能声称已认证其历史源码版本。
-- 逻辑字段：`04_experiments/locomo_workload/graph_event_v2.py` 的 `GraphRecord`、`memory_projection()` 和 `graph_projection()`。
+- P1-C：`experiments/retrieval/p1_compact_component_ablation/run_p1c_ablation_v5.py`。当前 SHA-256 与 `results/representation_ablation/p1_compact_component_ablation/p1c_run_manifest.json` 完全一致。
+- Backend Bridge：`experiments/backend_equivalence/backend_bridge_v2_run.py`，结合 `results/backend_equivalence/backend_equivalence_v2/` 的聚合 parity 结果。
+- 在线四格共享核心：`src/cassmem/retrieval/online.py`；graph 100K workload、Experiment 11、recovery 的入口均调用该实现。本次记录当前代码哈希；未找到等同于 P1-C 的历史在线核心源码哈希证明，不能声称已认证其历史源码版本。
+- 逻辑字段：`src/cassmem/representation/graph_event.py` 的 `GraphRecord`、`memory_projection()` 和 `graph_projection()`。
 
 | 项目 | 核对结果 | 代码依据 |
 | --- | --- | --- |
@@ -62,20 +62,16 @@ Eq.1 是已有字段及派生过程的数学记法；Eq.2 是经复算验证的�
 | 通道同分 | P1-C / Bridge：冻结语料 ordinal；online：memory_id 字典序 | P1-C stable mergesort / `top_dense_for_query()`；Bridge `top_indices()`；online 两个 search 函数 |
 | 最终输出 | Top-10；P1-C / Bridge 内部可先保留融合 Top-50，再截取 Top-10 | P1-C `query_metric_rows()`；Bridge 主循环；online `search()` |
 
-## 历史实现与数值差异
-
-`04_experiments/run_p3_raw_representations.py` 使用样本标准差 `statistics.stdev`、1e-9 下限及融合后 memory-ID tie-breaking，不能作为当前 Eq.2 的唯一依据。两路同为 50 条时，样本/总体标准差变化可能只共同缩放分数而不改变排名；排名相同并不足以证明公式完全相同。
-
-P1-C 冻结 BM25 CSV 仅保存 Top-10，不能直接用于 Top-50 Z-score。本次从哈希匹配的原 BM25 类恢复 Top-50，并先确认其 Top-10 与原导出文件相同。
+P1-C 冻结 BM25 CSV 仅保存 Top-10，公式核对使用哈希匹配的 P1-C 实现恢复 Top-50，并先确认其 Top-10 与冻结导出一致。
 
 P1-C 与 online 的 BM25 TF 分母含 1e-9，Bridge 的 BM25 类未加这一项。Dense 离线采用冻结分数，online 由 float32 向量重新计算，以 1e-12 保护 L2 归一化分母。因此正文将原始打分器记为 BM25 / cosine，未扩写一个声称各路径逐浮点数一致的底层打分公式。语义保持应固定具体 scorer、候选及 tie-breaking 协议。
 
 ## 可执行复核
 
-脚本：`04_experiments/retrieval/audit_system_design_fusion.py`。
+脚本：`experiments/retrieval/audit_system_design_fusion.py`。
 
 ~~~powershell
-& 'D:/memorytable/cassandra-kg-memory/.venv-onnx/Scripts/python.exe' 'D:/memorytable/cassandra-kg-memory/04_experiments/retrieval/audit_system_design_fusion.py'
+& 'D:/memorytable/cassandra-kg-memory/.venv-onnx/Scripts/python.exe' 'D:/memorytable/cassandra-kg-memory/experiments/retrieval/audit_system_design_fusion.py'
 ~~~
 
 - 5,882 条 memory：P1-C 与 online RawERK 渲染差异为 0。
@@ -95,4 +91,4 @@ P1-C 与 online 的 BM25 TF 分母含 1e-9，Bridge 的 BM25 类未加这一项�
 | online `online_retrieval.py` | `5162fa21c366e125c072908d47d0a5f1640e48a79446606b3b75dc50f7d4fc33` |
 | Bridge `backend_bridge_v2_run.py` | `51db875ae0d9734eb54ba36bd9900c414068ae70a5195a536a5c636be53169d8` |
 
-冻结参考：`05_reports/official_eval/zscore_rawerk_ranking_canonical1540.csv`，SHA-256 `23e73e853da3c538fb6287b5f8d5b183a27b6d932f8852960c3060a78b50eb42`。
+冻结参考：`results/retrieval/official_eval/zscore_rawerk_ranking_canonical1540.csv`，SHA-256 `23e73e853da3c538fb6287b5f8d5b183a27b6d932f8852960c3060a78b50eb42`。

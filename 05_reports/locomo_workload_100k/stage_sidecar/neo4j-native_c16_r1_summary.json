@@ -1,8 +1,0 @@
-{
-  "status": "PASS",
-  "cell": "neo4j-native",
-  "concurrency": 16,
-  "repetition": 1,
-  "update_events": 250,
-  "fresh_hit_at_10": 0.764
-}

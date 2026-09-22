@@ -1,8 +1,0 @@
-{
-  "hop": 2,
-  "checked": 64,
-  "empty": 0,
-  "cassandra_mismatch": 0,
-  "neo4j_disagreement": 0,
-  "all_pass": true
-}

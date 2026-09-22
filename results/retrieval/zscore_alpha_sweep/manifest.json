@@ -1,0 +1,55 @@
+{
+  "experiment": "canonical query-wise Z-score alpha sweep",
+  "alphas": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "selection_split": "dev",
+  "selection_metric": "MRR@10",
+  "selected_alpha_dense": 0.6,
+  "dev_queries": 390,
+  "heldout_queries": 1146,
+  "table1_parity_alpha_0_6": "PASS",
+  "dev_local_robustness": [
+    {
+      "comparison": "alpha=0.6 vs alpha=0.5",
+      "n_queries": 390,
+      "n_conversations": 2,
+      "delta_MRR@10": 0.00873015873015873,
+      "ci95_low": -0.008082077051926297,
+      "ci95_high": 0.026246571927200202,
+      "wins": 52,
+      "ties": 299,
+      "losses": 39,
+      "bootstrap_repetitions": 10000
+    },
+    {
+      "comparison": "alpha=0.6 vs alpha=0.7",
+      "n_queries": 390,
+      "n_conversations": 2,
+      "delta_MRR@10": 0.019720187220187223,
+      "ci95_low": 0.012006460875807612,
+      "ci95_high": 0.02775700157899111,
+      "wins": 52,
+      "ties": 312,
+      "losses": 26,
+      "bootstrap_repetitions": 10000
+    }
+  ],
+  "runtime_seconds": 7.6893106999923475,
+  "inputs": {
+    "experiments\\retrieval\\p1_compact_component_ablation\\run_p1c_ablation_v5.py": "5a8e870c17a732ef322eb29d3e8e47acce2a7a905ac782d4db17644eea8c1101",
+    "experiments\\retrieval\\p1_compact_component_ablation\\p1c_config.json": "4cde07809d953522aa41584ce63510f9cbf5e43b4cf5423ae889559ee12f5ab1",
+    "data\\retrieval_gold\\locomo_cat1_4_gold_memory.csv": "8946fd8f208b8dbd37540a7a45314c758e10744a762190bae2825a56b544e7f7",
+    "results\\retrieval\\retrieval_main_table\\retrieval_main_overall.csv": "2e6b9b5fc99202f4876353f4738e7dfbeb77b3592c281af13ac620ebde662ddd"
+  }
+}

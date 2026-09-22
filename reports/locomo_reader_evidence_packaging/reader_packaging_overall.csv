@@ -1,3 +1,0 @@
-﻿variant,n,mean_f1,mean_em,abstain_rate,avg_elapsed_sec,avg_triples
-text_only,80,0.1735,0.0125,0.5,0.92,3.1
-text_plus_triples,80,0.1625,0.0125,0.5375,1.14,3.1

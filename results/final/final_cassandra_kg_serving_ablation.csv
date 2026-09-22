@@ -1,6 +1,0 @@
-﻿mode,description,n_entities,workers,p50_ms,p95_ms,p99_ms,mean_ms,avg_raw_reads,avg_cache_hits,cache_hit_rate,cache_size,speedup
-baseline,No optimization (full src scan),200,1,2241.077,2281.551,2281.551,2239.482,0.0,0.0,0.0000,0,1.00x
-index,+ relation-aware source index,200,1,2300.727,2359.982,2359.982,2287.805,0.0,0.0,0.0000,0,0.98x
-parallel,+ parallel frontier (workers=16),200,16,68.247,72.577,72.577,67.033,0.0,0.0,0.0000,0,33.41x
-cache,+ high-degree cache (cap=200),200,1,0.196,0.201,0.201,0.195,0.0,200.0,1.0000,185,11503.40x
-all,All optimizations combined,200,16,0.241,0.247,0.247,0.242,0.0,200.0,1.0000,185,9259.42x

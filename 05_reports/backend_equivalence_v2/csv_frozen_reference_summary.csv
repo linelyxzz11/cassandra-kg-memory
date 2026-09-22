@@ -1,7 +1,0 @@
-﻿method,frozen_reference_queries,csv_queries,shared_queries,exact_top10_queries,exact_top10_rate,rank_mismatches,missing_csv_queries,unexpected_extra_csv_queries,expected_empty_gold_extra_queries,status,reference_path,reference_sha256
-BM25,1540,1540,1540,1540,1.0,0,0,0,0,PASS,D:\memorytable\cassandra-kg-memory\05_reports\official_eval\bm25_raw_ranking_canonical1540.csv,d4fcbf8d2449bd88e83900d543858e074322a04b00d1455bc5da297a8df5ba59
-Dense-bge,1540,1540,1540,1540,1.0,0,0,0,0,PASS,D:\memorytable\cassandra-kg-memory\05_reports\official_eval\dense_bge_ranking_canonical1540.csv,ce773bb2bee2c435d74fbd0a699c74c532f7f459d8e8c99a5628bdf072259640
-Dense+GlobalKG,1536,1540,1536,1536,1.0,0,0,0,4,PASS_WITH_EXPECTED_EMPTY_GOLD_CAVEAT,D:\memorytable\cassandra-kg-memory\05_reports\dense_global_kg_rerun\dense_global_kg_top10.csv,cf11f72b925ef1a850565f65e97a836302e2e2c81e9cacb02b1927f40de130c4
-RRF_compact,1540,1540,1540,1540,1.0,0,0,0,0,PASS,D:\memorytable\cassandra-kg-memory\05_reports\official_eval\rrf_compact_canonical1540\rrf_compact_top10.csv,8013d6783da90983514de075a0f4a0dcd64e225f50ea909bbb175d473b689cff
-ZScore-Raw,1540,1540,1540,1540,1.0,0,0,0,0,PASS,D:\memorytable\cassandra-kg-memory\05_reports\official_eval\zscore_raw_ranking_canonical1540.csv,22cb76e96c5fc9aafcbb749d55c4d3ea4f0071dc1f6364f717c95aec403d6412
-ZScore-RawERK,1540,1540,1540,1540,1.0,0,0,0,0,PASS,D:\memorytable\cassandra-kg-memory\05_reports\official_eval\zscore_rawerk_ranking_canonical1540.csv,23e73e853da3c538fb6287b5f8d5b183a27b6d932f8852960c3060a78b50eb42

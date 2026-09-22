@@ -1,6 +1,0 @@
-﻿method,category,scope,n,category_counts,official_score,rF1_cat14,rEM_cat14_project,WrongAbstention_cat14_project,cat5_official_abstention,cat5_broad_abstention,cat5_leakage_official
-RRF_compact,1,cat1,282,"{""1"": 282}",0.354744,0.354744,0.186516,0.021277,,,
-RRF_compact,2,cat2,321,"{""2"": 321}",0.28896,0.28896,0.065421,0.018692,,,
-RRF_compact,3,cat3,96,"{""3"": 96}",0.213457,0.213457,0.125,0.104167,,,
-RRF_compact,4,cat4,841,"{""4"": 841}",0.603345,0.603345,0.353151,0.003567,,,
-RRF_compact,5,cat5,446,"{""5"": 446}",0.100897,,,,0.100897,0.118834,0.899103
