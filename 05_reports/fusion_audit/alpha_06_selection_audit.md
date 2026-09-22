@@ -1,4 +1,10 @@
-# Alpha 0.6 Selection Audit
+# Alpha 0.6 Selection Audit (Superseded)
+
+This historical audit used the earlier P2 metric scope. The complete canonical
+rerun, including alpha=0.9 and alpha=1.0 and all six retrieval metrics, is now
+reported in `05_reports/zscore_alpha_sweep/ALPHA_SWEEP_REPORT.md`. That rerun
+uses the exact frozen P1-C fusion semantics and reproduces Retrieval Table 1 at
+alpha=0.6. The material below is retained only for provenance.
 
 ## Answer: YES_COMPLETE
 

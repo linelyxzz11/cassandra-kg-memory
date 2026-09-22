@@ -1,4 +1,8 @@
-# Fusion Experiment Artifact Audit — Summary
+# Fusion Experiment Artifact Audit — Historical Summary
+
+For the complete canonical alpha sweep and current metrics, use
+`05_reports/zscore_alpha_sweep/ALPHA_SWEEP_REPORT.md`. This file records the
+earlier P2/P3 audit and is retained for provenance.
 
 ## Question A: 未归一化线性融合是否正式运行？
 

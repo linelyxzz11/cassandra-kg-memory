@@ -10,6 +10,9 @@ Only claims with a citation-ready evidence path are listed as validated.
 - CassMem: MRR@10 `0.5498`, Hit@1 `0.4241`, Hit@5 `0.7138`,
   Hit@10 `0.8124`, Recall@10 `0.7396`, nDCG@10 `0.5755`.
 - Evidence: `05_reports/retrieval_main_table/retrieval_main_overall.csv`.
+- Fusion selection: the complete dev-only sweep over `alpha=0.0,...,1.0`
+  selects `alpha=0.6` by MRR@10; the frozen held-out row reproduces all six
+  Retrieval Table 1 metrics. Evidence: `05_reports/zscore_alpha_sweep/`.
 - Paired uncertainty: `05_reports/retrieval_main_table/retrieval_main_significance.csv`.
 - Guardrail: the all-query row is diagnostic because parameters were selected on dev.
 
