@@ -1,6 +1,6 @@
 # Error Analysis 100-Case Review
 
-This is a Codex-assisted evidence-based first pass, not an independent human annotation study.
+This is an internal evidence-based first pass, not an independent human annotation study.
 
 ## Completion
 

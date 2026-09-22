@@ -6,6 +6,10 @@
     }
   ],
   "settings": {
+    "workbench.editorAssociations": {
+      "*.md": "vscode.markdown.preview.editor"
+    },
+    "markdown.math.enabled": true,
     "python.envFile": "${workspaceFolder}/.env",
     "python.analysis.extraPaths": [
       "${workspaceFolder}/03_src",

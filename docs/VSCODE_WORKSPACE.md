@@ -39,7 +39,8 @@ responsive.
 - `00_project/CLAIMS_AND_EVIDENCE.md`
 - `00_project/EXPERIMENT_REGISTRY.csv`
 - `00_project/ARTIFACT_MANIFEST.csv`
-- `docs/CASSMEM_LATEST_RESEARCH_LOGIC.md`
+- `docs/SYSTEM_DESIGN_ZH.md`
+- `docs/REPRODUCIBILITY.md`
 
 Credentials stay outside Git. The local credential note at
 `D:\memorytable\LOCAL_SERVICE_CREDENTIALS.md` is intentionally not part of

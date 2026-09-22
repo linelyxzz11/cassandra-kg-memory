@@ -44,6 +44,14 @@ def sha(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def final_hit_conditioned_rate(rows: list[dict[str, str]], deadline_ms: int) -> float:
+    """Deadline success among updates included by the post-sync Top-10 query."""
+    eligible = [row for row in rows if int(row["final_hit_at_10"]) == 1]
+    if not eligible:
+        raise RuntimeError("FreshHit@10 is undefined because this scenario has no final Top-10 hits")
+    return sum(float(row["pipeline_complete_ms"]) <= deadline_ms for row in eligible) / len(eligible)
+
+
 def markdown_table(rows: list[dict]) -> str:
     fields = list(rows[0])
     lines = ["| " + " | ".join(fields) + " |", "| " + " | ".join("---" for _ in fields) + " |"]
@@ -101,22 +109,28 @@ def main() -> None:
     grouped = defaultdict(list)
     for row in all_scenarios:
         grouped[(row["cell"], float(row["update_rate_s"]))].append(row)
+    event_groups = defaultdict(list)
+    for row in all_events:
+        event_groups[(row["cell"], float(row["update_rate_s"]), int(row["repetition"]))].append(row)
     table11b = []
     for cell in CELLS:
         for rate in RATES:
             rows = grouped[(cell, rate)]
             if len(rows) != 3:
                 raise RuntimeError(f"Expected three scenarios for {cell}/{rate}")
+            repetitions = [event_groups[(cell, rate, repetition)] for repetition in (0, 1, 2)]
+            if any(not events for events in repetitions):
+                raise RuntimeError(f"Missing event rows for {cell}/{rate}")
             item = {
                 "Cell": cell,
                 "Update rate (/s)": rate,
                 "Total arrival rate (/s)": rate * 20,
                 "Pipeline p95 ms": round(med(float(row["pipeline_complete_p95_ms"]) for row in rows), 3),
-                "FreshHit@10 50ms": round(med(float(row["fresh_hit_at_10_50ms"]) for row in rows), 4),
-                "FreshHit@10 100ms": round(med(float(row["fresh_hit_at_10_100ms"]) for row in rows), 4),
-                "FreshHit@10 250ms": round(med(float(row["fresh_hit_at_10_250ms"]) for row in rows), 4),
-                "FreshHit@10 500ms": round(med(float(row["fresh_hit_at_10_500ms"]) for row in rows), 4),
-                "FreshHit@10 1s": round(med(float(row["fresh_hit_at_10_1000ms"]) for row in rows), 4),
+                "FreshHit@10 50ms (final-hit conditioned)": round(med(final_hit_conditioned_rate(events, 50) for events in repetitions), 4),
+                "FreshHit@10 100ms (final-hit conditioned)": round(med(final_hit_conditioned_rate(events, 100) for events in repetitions), 4),
+                "FreshHit@10 250ms (final-hit conditioned)": round(med(final_hit_conditioned_rate(events, 250) for events in repetitions), 4),
+                "FreshHit@10 500ms (final-hit conditioned)": round(med(final_hit_conditioned_rate(events, 500) for events in repetitions), 4),
+                "FreshHit@10 1s (final-hit conditioned)": round(med(final_hit_conditioned_rate(events, 1000) for events in repetitions), 4),
                 "Pipeline visible @1s": round(med(float(row["pipeline_visible_1000ms"]) for row in rows), 4),
                 "Final Hit@10": round(med(float(row["final_hit_at_10"]) for row in rows), 4),
                 "Update backlog peak": int(round(med(float(row["update_backlog_peak"]) for row in rows))),
@@ -126,7 +140,7 @@ def main() -> None:
                 "Missed update rate": round(med(float(row["missed_update_rate"]) for row in rows), 4),
                 "Duplicate update rate": round(med(float(row["duplicate_update_rate"]) for row in rows), 4),
             }
-            item["Stale-result rate @1s"] = round(1.0 - item["Pipeline visible @1s"], 4)
+            item["Pipeline not visible @1s"] = round(1.0 - item["Pipeline visible @1s"], 4)
             item["SLO pass"] = int(
                 item["Pipeline p95 ms"] <= SLO_P95_MS
                 and item["Backlog drain ms"] <= SLO_DRAIN_MS
@@ -157,7 +171,7 @@ def main() -> None:
     for name, rows in paths.items():
         write_csv(BASE / name, rows)
 
-    report = f"""# Experiment 11: Online Memory Freshness / Time-to-Top10
+    report = f"""# Experiment 11: Online Memory Freshness / Observed Time-to-Top10
 
 ## Frozen protocol
 
@@ -174,14 +188,16 @@ def main() -> None:
 - `t_commit`: arrival to acknowledged raw-memory row/node commit.
 - `t_structured_view_visible`: arrival to full graph digest, RawERK candidate projection, and relation-candidate visibility.
 - `t_index_visible`: arrival to both sparse and dense index version visibility.
-- `time_to_top10`: arrival to first inclusion in the real Dense + BM25-RawERK + query-wise ZScore Top-10; non-hits remain in the FreshHit denominator.
+- `time_to_top10`: arrival to inclusion in the single post-update Dense + BM25-RawERK + query-wise ZScore Top-10 query.
+- `FreshHit@10(T)`: among update-query pairs included in that post-sync Top-10, the fraction whose end-to-end completion is within deadline T. Final non-hits are excluded because their absence may reflect retrieval relevance rather than backend freshness.
+- `Final Hit@10`: fraction of all updates included by the post-sync Top-10 query; it is reported separately and is not interpreted as a backend freshness-failure rate.
 - `Pipeline complete`: arrival to completed Top-10 computation, including final non-hits.
 
 ## Table 11A. Stage latency at the main 100 ops/s point
 
 {markdown_table(table11a)}
 
-## Table 11B. Deadline freshness and overload behavior
+## Table 11B. Final-hit-conditioned deadline freshness and overload behavior
 
 {markdown_table(table11b)}
 
@@ -197,7 +213,7 @@ SLO: pipeline p95 <= 2,000 ms, backlog drain <= 2,000 ms, and zero timeout/error
 2. At the main 100 ops/s point, Cassandra-materialized reaches structured-view visibility at p95 69.815 ms and complete Top-10 at p95 163.278 ms. Neo4j-materialized is queue-saturated: the corresponding p95 values are 16,716.849 ms and 17,605.288 ms.
 3. Cassandra-materialized sustains the highest tested 10 updates/s (200 total ops/s) under the frozen SLO. Both Neo4j cells sustain 1 update/s (20 total ops/s); 2 updates/s already exceeds the drain and p95 limits.
 4. Materialization reduces Cassandra structured-view p95 at the 100 ops/s point (124.351 -> 69.815 ms), but it does not remove the shared sparse/dense reranking cost. Neo4j materialization does not prevent queue saturation at 40+ total ops/s in this implementation.
-5. Supported claim: under the tested 100K LoCoMo-shaped open-loop workload, Cassandra-materialized keeps newly committed structured evidence entering the real CassMem Top-10 within the serving SLO at substantially higher arrival rates. Do not claim that Cassandra is always faster at low load.
+5. Supported claim: under the tested 100K LoCoMo-shaped open-loop workload, Cassandra-materialized keeps final-hit-eligible structured evidence entering the observed CassMem Top-10 within the serving SLO at substantially higher arrival rates. Do not interpret final non-hits as stale backend results or claim that Cassandra is always faster at low load.
 """
     report_path = BASE / "EXPERIMENT11_REPORT.md"
     report_path.write_text(report, encoding="utf-8")

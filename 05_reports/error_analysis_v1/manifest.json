@@ -51,7 +51,7 @@
     }
   ],
   "manual_review": {
-    "reviewer": "Codex evidence-based first pass",
+    "reviewer": "internal evidence-based first pass",
     "independent_human_annotation": false,
     "reviewed_rows": 100,
     "resolved_rows": 91,

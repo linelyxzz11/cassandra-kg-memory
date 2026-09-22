@@ -1,355 +1,156 @@
-# CassMem: Cassandra-Backed Structured Conversational Memory
+# CassMem: Persistent Structured Memory for Agentic Services
 
-> **Paper target**: DAI 2026 (8th Int'l Conference on Distributed Artificial Intelligence, 中国香港)
-> **Deadline**: Abstract Jul 27, Full Paper Aug 3
+CassMem is a research prototype for the memory layer of persistent, continuously
+updated agentic services. It connects a structured logical memory representation
+to scope-local retrieval, Cassandra-native physical access paths, and an online
+update pipeline.
 
-CassMem is a research system that uses **Cassandra as the storage backend** for
-long-term conversational memory in LLM-based assistants. It evaluates along
-three orthogonal axes: **retrieval effectiveness**, **reader answer quality**,
-and **system serving performance**.
+The project is not an offline retrieval wrapper around a database. It studies how
+long-term memories can remain retrievable while user- or conversation-scoped state
+continues to grow, concurrent reads and updates share serving resources, and derived
+views must stay aligned with the retrieval semantics used by the agent.
 
-For local development, open [`CassMem.code-workspace`](CassMem.code-workspace)
-in VS Code. It provides the project Python paths, protocol tests, backend
-connection checks, publication audit, and artifact-manifest tasks. See
-[`docs/VSCODE_WORKSPACE.md`](docs/VSCODE_WORKSPACE.md) for the workspace map.
+## System overview
 
-> **Current evidence notice (2026-09-11).** The detailed narrative below
-> contains historical tables from earlier protocol versions. For paper numbers
-> and completion status, use `00_project/CLAIMS_AND_EVIDENCE.md`,
-> `00_project/EXPERIMENT_REGISTRY.csv`, and the manifests under:
-> `05_reports/retrieval_main_table/`, `05_reports/reader_main_hingemem_style/`,
-> `05_reports/backend_equivalence_v2/`,
-> `05_reports/locomo_workload_graph_v2_100k/`, and
-> `05_reports/experiment11_online_freshness_v2/`. In particular, the six-method
-> bridge, corrected Dense+GlobalKG Reader, graph-aware four-cell 100K system
-> matrices, actual Time-to-Top10, and controlled application-worker recovery
-> are complete. The recovery result does not test database restart or
-> multi-node failover. Older P7-B and legacy P5
-> tables are not citation-ready replacements for these v2 artifacts.
+~~~text
+cross-session interactions
+        |
+        v
+structured memory: raw text + ERK fields + local relations + version
+        |
+        +---- dense retrieval over raw text
+        +---- BM25 retrieval over the RawERK view
+        |
+        v
+query-wise Z-score fusion within a known scope
+        |
+        v
+Cassandra-native serving state
+  - scope-local memory access
+  - memory-local mentions and relations
+  - relation-conditioned candidates
+  - read-time reconstruction or update-time materialization
+        |
+        v
+update-to-retrieval path
+arrival -> backend commit -> structured view -> indexes -> observed Top-k
+~~~
 
----
+### Logical memory and retrieval
 
-## Table of Contents
+Each memory keeps a stable identity, scope, version, raw text, extracted entity,
+relation, and keyword fields, local relation facts, and an embedding-content
+fingerprint. RawERK is a derived lexical view that appends the structured fields to
+the original text without replacing the source memory.
 
-1. [Overview](#overview)
-2. [Axis 1: Retrieval Effectiveness](#axis-1-retrieval-effectiveness)
-3. [Axis 2: Reader Answer Quality (F1 / EM / BLEU-1)](#axis-2-reader-answer-quality)
-4. [Axis 3: System Serving (Cassandra vs Neo4j)](#axis-3-system-serving)
-5. [Six Retrieval Methods](#six-retrieval-methods)
-6. [Backend Equivalence (P7-A)](#backend-equivalence-p7-a)
-7. [Directory Layout](#directory-layout)
-8. [Reproduction](#reproduction)
+Retrieval is restricted to the known user or conversation scope. A dense channel
+matches the raw text, a BM25 channel matches RawERK, and query-wise Z-score
+normalization combines their relative evidence before stable Top-10 selection.
 
----
+### Cassandra-native serving
 
-## Overview
+The Cassandra layout follows the access patterns of the memory workload rather than
+treating Cassandra as a general graph engine. It separates scope-local memory rows,
+per-memory features, mentions, and relation records, and relation-conditioned
+candidate access. The base path reconstructs RawERK and filters relations at read
+time; the materialized path maintains RawERK and scope-relation candidates during
+updates.
 
-```
-LoCoMo conversations
-        │
-        ▼
-Memory Construction (ERK extraction: Entity / Relation / Keyword)
-        │
-        ├──► CSV (canonical reference / development)
-        ├──► Cassandra (proposed production backend)
-        └──► Neo4j (graph baseline)
-        │
-        ▼
-Retrieval Algorithms (shared client-side scorer, backend-agnostic)
-  BM25 │ Dense-bge │ Dense+GlobalKG │ RRF_compact │ ZScore-Raw │ ZScore-RawERK
-        │
-        ▼
-GPT-4o Reader (top-k memories → short answer)
-        │
-        ▼
-LoCoMo official evaluation (F1 / EM / BLEU-1 / abstention)
-```
+Both paths expose the same candidate identities and retrieval projections to the
+application-level scorer. Backend equivalence is evaluated against a canonical CSV
+reference before latency or throughput differences are interpreted.
 
-**Dataset**: LoCoMo, 10 long multi-session conversations
-- 5,882 memory records
-- 1,986 QA pairs: Cat1 multi-hop (282), Cat2 temporal (321), Cat3 commonsense (96), Cat4 single-hop (841), Cat5 adversarial (446)
+### Online updates
 
-**Two prompt settings (all six methods × both settings)**:
-- **Cat.✗ (Setting A)**: unified generic short-answer prompt for all categories
-- **Cat.✓ (Setting B)**: LoCoMo category-format prompt (Cat2 temporal-date instruction; Cat5 adversarial 2-option binarization with option-text mapping)
+A committed row is not yet retrieval-ready. The online pipeline distinguishes raw
+backend commit, structured-view visibility, sparse and dense index visibility, and
+the result of a post-update ranking. The current measurements report update-stage
+latency and observed Top-10 hits; a non-hit is not automatically classified as a
+backend freshness failure.
 
----
+## Evidence map
 
-## Axis 1: Retrieval Effectiveness
-
-### Sample-scoped retrieval (conversation-level candidates, R@K / MRR)
-
-| Method | R@1 | R@5 | R@10 | MRR |
-|---|:---:|:---:|:---:|:---:|
-| BM25 | 0.2649 | 0.4809 | 0.5619 | 0.3600 |
-| Dense-bge | 0.3419 | 0.6078 | 0.7009 | 0.4534 |
-| Dense+GlobalKG (w=0.1) | **0.3872** | 0.6198 | 0.7095 | **0.4851** |
-| Dense+QueryKG (config_B) | 0.3585 | **0.6234** | **0.7185** | 0.4724 |
-
-- **GlobalKG = precision-oriented** (best R@1 / MRR)
-- **QueryKG = recall-oriented** (best R@10)
-- All methods: cross_sample_rate = 0 (conversation-scoped)
-
-### KG Coverage Audit
-
-| View | KG coverage |
+| Question | Canonical evidence |
 |---|---|
-| All memories | 2353/5882 = 40.0% |
-| Gold evidence | 1060/1434 = 73.9% |
-| Non-gold | 1293/4457 = 29.0% |
-| Enrichment ratio | **2.55×** |
+| Retrieval effectiveness | [`05_reports/retrieval_main_table/`](05_reports/retrieval_main_table/) |
+| Reader answer quality | [`05_reports/reader_main_hingemem_style/`](05_reports/reader_main_hingemem_style/) |
+| Backend semantic preservation | [`05_reports/backend_equivalence_v2/`](05_reports/backend_equivalence_v2/) |
+| Four-cell 100K serving workload | [`05_reports/locomo_workload_graph_v2_100k/`](05_reports/locomo_workload_graph_v2_100k/) |
+| Online update stages and observed Top-10 visibility | [`05_reports/experiment11_online_freshness_v2/`](05_reports/experiment11_online_freshness_v2/) |
+| Supported claims and limitations | [`00_project/CLAIMS_AND_EVIDENCE.md`](00_project/CLAIMS_AND_EVIDENCE.md) |
+| Experiment status | [`00_project/EXPERIMENT_REGISTRY.csv`](00_project/EXPERIMENT_REGISTRY.csv) |
+| Artifact hashes | [`00_project/ARTIFACT_MANIFEST.csv`](00_project/ARTIFACT_MANIFEST.csv) |
 
-### Category-wise R@1
+The Chinese System Design draft is maintained in
+[`docs/SYSTEM_DESIGN_ZH.md`](docs/SYSTEM_DESIGN_ZH.md). Formula-to-code checks are
+recorded separately in
+[`docs/SYSTEM_DESIGN_IMPLEMENTATION_AUDIT.md`](docs/SYSTEM_DESIGN_IMPLEMENTATION_AUDIT.md).
 
-| Method | Cat1 multi | Cat2 temporal | Cat3 common | Cat4 single | Cat5 adv |
-|---|:---:|:---:|:---:|:---:|:---:|
-| BM25 | 0.1028 | 0.3209 | 0.0833 | 0.3008 | 0.2982 |
-| Dense-bge | 0.2801 | 0.4766 | 0.1875 | 0.3876 | 0.2309 |
-| GlobalKG | **0.3617** | 0.4953 | **0.2604** | **0.4174** | **0.2960** |
-| QueryKG | 0.2908 | **0.5140** | 0.2083 | 0.4043 | 0.2354 |
+## Repository layout
 
----
-
-## Axis 2: Reader Answer Quality
-
-### Main table (GPT-4o-2024-08-06, max_tokens=64, full 1986 QA, offline corrected v3)
-
-**Setting A (Cat.✗)** — unified prompt:
-
-| Method | Cat1 | Cat2 | Cat3 | Cat4 | Cat5 | **Cat1-4** | **Full5** |
-|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| BM25 | 0.1959 | 0.2618 | 0.1761 | 0.4572 | 0.0942 | 0.3511 | 0.2934 |
-| Dense-bge | 0.3328 | 0.3124 | 0.1941 | 0.5632 | 0.0785 | 0.4457 | 0.3633 |
-| Dense+GlobalKG | 0.3280 | 0.2951 | 0.2211 | 0.5720 | 0.0874 | 0.4477 | 0.3668 |
-| RRF_compact | 0.3547 | 0.2890 | 0.2135 | **0.6033** | 0.1009 | 0.4680 | 0.3855 |
-| ZScore-Raw | 0.3585 | 0.3041 | **0.2440** | 0.5875 | 0.0785 | 0.4651 | 0.3783 |
-| **CassMem (ZScore-RawERK)** | **0.3702** | 0.3057 | 0.2351 | 0.6009 | 0.0807 | **0.4743** | **0.3859** |
-
-**Setting B (Cat.✓)** — category-format prompt:
-
-| Method | Cat1 | Cat2 | Cat3 | Cat4 | Cat5 | **Cat1-4** | **Full5** |
-|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| BM25 | 0.2024 | 0.3654 | 0.1991 | 0.4573 | 0.8789 | 0.3753 | 0.4884 |
-| Dense-bge | 0.3327 | 0.4389 | 0.2097 | 0.5638 | 0.8722 | 0.4734 | 0.5629 |
-| Dense+GlobalKG | 0.3351 | 0.4520 | 0.2078 | 0.5675 | 0.8789 | 0.4784 | 0.5684 |
-| RRF_compact | 0.3498 | 0.4363 | 0.2242 | 0.6030 | 0.8677 | 0.4983 | 0.5812 |
-| ZScore-Raw | 0.3423 | 0.4299 | 0.2004 | 0.5851 | 0.8700 | 0.4843 | 0.5709 |
-| **CassMem (ZScore-RawERK)** | **0.3661** | **0.4526** | **0.2564** | 0.6028 | 0.8587 | **0.5065** | **0.5856** |
-
-### Key reader findings
-
-- **Setting B (category-format) boosts Temporal (+0.10~0.15)** and **Cat5 abstention (0.08→0.86)**
-- **Cat5 scoring fix**: Setting B (a)/(b) outputs must be mapped back to option text via per-query deterministic swap before scoring — old evaluator compared "(a)" against gold text and scored 0
-- **CassMem (ZScore-RawERK) ranks #1 in Cat1-4 and Full5** under both settings among all six internal methods
-- Full5 = weighted per-query mean (282/321/96/841/446), not simple category average
-
-### BLEU-1 (Mem0/A-MEM protocol: w=(1,0,0,0), method1 smoothing)
-
-| Method | Setting B Cat1-4 B1 | Setting B Full5 B1 |
-|---|:---:|:---:|
-| BM25 | 0.2982 | 0.4289 |
-| Dense-bge | 0.3827 | 0.4933 |
-| Dense+GlobalKG | 0.3829 | 0.4946 |
-| RRF_compact | 0.4012 | 0.5066 |
-| ZScore-Raw | 0.3842 | 0.4939 |
-| **CassMem** | **0.4074** | **0.5096** |
-
-> Note: Full5 B1 is inflated by Cat5 (canonical gold = fixed phrase "Not mentioned in the conversation", 22.5% weight). Report Cat1-4 B1 as headline; report Full5 B1 with the caveat.
-
----
-
-## Axis 3: System Serving
-
-> **Canonical status update (2026-08-03):** P5-1 v3.1 is the current
-> citation-ready update-to-final-TopK experiment. Legacy P5-1 is superseded,
-> and P7-B remains diagnostic/not citation-ready even if older text below calls
-> it done. Use `00_project/EXPERIMENT_REGISTRY.csv` as the status authority.
-
-### P5-1 v3.1: fixed-work update-to-final-TopK
-
-The v3.1 protocol defines one common logical event (one memory, two entities
-and one directed edge), reads exactly the same 32 baseline memories plus the
-current target on both backends, and stops only when the target enters the
-shared RawERK BM25 Top-10.
-
-| Backend | c=8 p50/p95/p99 ms | c=32 p50/p95/p99 ms | c=64 p50/p95/p99 ms |
-|---|---:|---:|---:|
-| Cassandra | 29.26 / 55.61 / 124.38 | 85.62 / 201.38 / 252.95 | 173.05 / 355.53 / 385.89 |
-| Neo4j | 47.32 / 66.31 / 84.45 | 195.32 / 284.79 / 331.09 | 402.92 / 561.86 / 637.33 |
-
-The formal run contains 36,000 events, zero timeouts, exactly 33 candidates per
-event, every target at rank 1, and zero logical-state/candidate/Top-10 parity
-mismatches. Evidence:
-`05_reports/p5_1_retrieval_visibility_v3/formal_fixed_20260803/`.
-
-This claim is limited to the controlled RawERK BM25 reference retriever; online
-dense embedding and full CassMem fusion are not included.
-
-### Layer framework
-
-| Layer | Status | Result |
-|---|---|---|
-| **Layer A** correctness equivalence | ✅ done | Cassandra vs Neo4j retrieval disagreement = **0** |
-| **Layer B1** parallel worker sweep | ✅ done | Hop=2 **10.68×**, Hop=4 **37.86×** |
-| **Layer B2** relation-index | ⏳ | needs relation-selective workload |
-| **Layer B3** cache effective-latency | ⏳ | warm upper bound ≠ realistic |
-| **Layer C** trade-off map | ⏳ | future work |
-| **P7-A** backend retrieval equivalence | ✅ done | CSV=Cassandra=Neo4j **100%** |
-| **P7-B** serving performance | ✅ done | see below |
-
-### B1: Parallel worker sweep (100K synthetic graph, graph_id=synth_100000_1781447372)
-
-| Mode | Workers | Hop=2 mean ms | Speedup | Hop=4 mean ms | Speedup |
-|---|:---:|:---:|:---:|:---:|:---:|
-| naive | 1 | 312.38 | 1.00× | 11918.14 | 1.00× |
-| w4 | 4 | 52.17 | 5.99× | 1160.37 | 10.27× |
-| w8 | 8 | 33.23 | 9.40× | 502.61 | 23.71× |
-| w16 | 16 | 30.19 | 10.35× | 359.17 | 33.18× |
-| w32 | 32 | 29.25 | 10.68× | 314.80 | 37.86× |
-
-All modes produce identical raw_edges — parallelism does not change semantics.
-
-### P7-A: Backend equivalence (CSV reference)
-
-| Check | Cassandra vs CSV | Neo4j vs CSV |
-|---|:---:|:---:|
-| 5882 memory_id set | 100% | 100% |
-| raw_text per-record | 100% | 100% |
-| ERK fields per-record | 100% | 100% |
-| 2096 KG triples | 100% (after paren fix) | 100% |
-| BM25 Top-10 exact match (1986 q) | **100%** | **100%** |
-
-Conclusion: all six methods are **storage-agnostic** — the backend only provides the logical memory view; the shared client-side scorer guarantees identical retrieval. Therefore QA F1/B1/J results carry over unchanged to Cassandra/Neo4j deployments.
-
-### P7-B: Serving performance (Cassandra vs Neo4j, same logical data)
-
-| Workload | Cassandra p50/p95 (ms) | Neo4j p50/p95 (ms) | Neo4j speedup |
-|---|:---:|:---:|:---:|
-| Point lookup | 10.3 / 19.5 | 1.3 / 1.8 | ~8× |
-| Entity neighbors | 9.8 / 18.1 | 0.9 / 2.0 | ~11× |
-| Relation filter | 9.4 / 13.5 | 0.8 / 1.2 | ~11× |
-| Multi-hop | 18.3 / 28.1 | 1.0 / 1.6 | ~19× |
-| Hybrid serving | 9.9 / 18.5 | 1.0 / 1.3 | ~10× |
-
-- Throughput: Cassandra ~104 QPS vs Neo4j ~1000-1190 QPS (sequential, single-node)
-- Burst (500 writes+reads): Cassandra 10.1s vs Neo4j 1.3s
-- Both backends preserve retrieval semantics; the difference is **serving trade-off**, not accuracy
-
-### Legacy system results (Layer A-D, 100K graph)
-
-| Experiment | Result |
+| Path | Purpose |
 |---|---|
-| C0-A parallel (16w, hop4) | 42,908 ms → 1,413 ms = **30.4×** |
-| C0-B parallel+cache | 42,203 ms → 1,161 ms = **36.3×** |
-| C0-C relation-index | raw edges **-92.1%** on relation-selective workload |
-| C0-D Neo4j vs Cassandra | 39 paths = 39 paths, **0 disagreements** |
+| `00_project/` | Claims, experiment registry, artifact manifest, and repository policy |
+| `01_data/` | Canonical LoCoMo records and frozen embeddings |
+| `02_artifacts/` | Reusable, versioned intermediate artifacts |
+| `03_src/` | Shared retrieval, storage, and evaluation implementation |
+| `04_experiments/` | Current experiment entry points and audits |
+| `05_reports/` | Citation-facing reports, compact evidence, and manifests |
+| `06_analysis/` | Exploratory analysis that is not formal evidence |
+| `07_runtime/` | Local runtime state; ignored by Git |
+| `08_literature/` | Evaluation protocols and literature evidence |
+| `09_archive/` | Superseded, failed, or historical material |
+| `docs/` | System description, workspace guide, and reproduction notes |
 
----
+Unnumbered `scripts/`, `reports/`, `results/`, and `schema/` directories are
+legacy namespaces retained for provenance. New work belongs in the numbered
+directories. See
+[`00_project/CANONICAL_LAYOUT.md`](00_project/CANONICAL_LAYOUT.md).
 
-## Six Retrieval Methods
+## Quick start
 
-All six share the same 5,882-record memory corpus, same 1,986 questions, same
-conversation scope, and the same underlying facts. They differ only in the
-**logical view** consumed:
+~~~powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+Copy-Item .env.example .env
+~~~
 
-| Method | Raw | ERK text | Dense vec | KG triples | Fusion |
-|---|:---:|:---:|:---:|:---:|---|
-| BM25 | ✅ | ❌ | ❌ | ❌ | — |
-| Dense-bge | ✅ | ❌ | ✅ | ❌ | — |
-| Dense+GlobalKG | ✅ | ~ | ✅ | ✅ | KG boost (w=0.1) |
-| RRF_compact | ✅ | ✅ | ✅ | ❌ | WRRF (α=0.6, k=10) |
-| ZScore-Raw | ✅ | ❌ | ✅ | ❌ | ZScore (α=0.6) |
-| **ZScore-RawERK (CassMem)** | ✅ | ✅ | ✅ | ❌ | ZScore (α=0.6) |
+Populate only the local services and API credentials required by the experiment you
+intend to run. The `.env` file is ignored and must never be committed.
 
-**Logical memory record**: `(memory_id, graph_id, raw_text, entities, relations, keywords, timestamp, version, embedding_id)`
-**Logical graph edge**: `(graph_id, src, relation, dst, memory_id, version)`
+Run the service-independent protocol tests:
 
----
+~~~powershell
+python -m pytest -q `
+  04_experiments/p5_1_v3/test_p5_1_protocol.py `
+  04_experiments/locomo_workload/test_trace_manifest.py `
+  04_experiments/locomo_workload/test_online_retrieval.py `
+  04_experiments/locomo_workload/test_graph_event_v2.py
+~~~
 
-## Backend Equivalence (P7-A)
+Detailed prerequisites and experiment commands are documented in
+[`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md). For VS Code users, open
+[`CassMem.code-workspace`](CassMem.code-workspace) and see
+[`docs/VSCODE_WORKSPACE.md`](docs/VSCODE_WORKSPACE.md).
 
-Unified `BackendAdapter` interface with three implementations (`CSVBackend`,
-`CassandraBackend`, `Neo4jBackend`). One shared `RetrievalScorer` performs all
-scoring/fusion/tie-breaking — backends only expose:
+## Scope and limitations
 
-```
-list_memories(scope_id)
-get_raw_records(scope_id)
-get_erk_records(scope_id)
-get_memory_ids(scope_id)
-get_embeddings(memory_ids)
-get_triples(scope_id)
-get_edges_by_src(scope_id, src)
-get_edges_by_src_relation(scope_id, src, relation)
-```
+- Formal serving results use a single machine with one Cassandra instance and one
+  Neo4j instance. They do not establish distributed scale-out superiority.
+- Multi-scope workloads model independent user or conversation namespaces; the
+  project does not claim tenant authentication or resource isolation.
+- Recovery experiments stop and replay the application update worker while both
+  databases remain online. They do not test database restart, cluster failover, or
+  disaster recovery.
+- Online Top-10 measurements use a post-update query. They do not estimate a
+  continuously monitored first-hit time or Top-k convergence latency.
+- Superseded results remain under `09_archive/` or legacy namespaces for provenance
+  and must not replace the canonical evidence listed above.
 
-Key files:
-- `03_src/p7a_unified_retrieval_framework.py`
-- `03_src/cassandra_adapter.py`, `03_src/neo4j_adapter.py`
-- `05_reports/backend_equivalence/` (results)
-- `05_reports/backend_system_eval/` (P7-B results)
+## Contributing and security
 
----
-
-## Directory Layout
-
-| Directory | Purpose |
-|---|---|
-| `00_project/` | Experiment registry, artifact hashes, claims and evidence |
-| `01_data/` | Canonical LoCoMo memory/QA records and frozen embeddings |
-| `02_artifacts/` | Reusable intermediate artifacts (p3_memory_features.csv, frozen events) |
-| `03_src/` | Evaluation, retrieval, memory, and backend implementations |
-| `04_experiments/` | Publication-facing experiment entrypoints and audits |
-| `05_reports/` | Formal results, manifests, audits, and tables |
-| `06_analysis/` | Exploratory analyses (not formal results) |
-| `07_runtime/` | Local runtime/cache state; ignored by Git |
-| `08_literature/` | Structured literature evidence |
-| `09_archive/` | Superseded or failed runs |
-
-Key subpaths:
-- `01_data/locomo_memory_records.csv` — 5,882 canonical memories
-- `01_data/locomo_qa_records.csv` — 1,986 QA
-- `02_artifacts/p3_memory_features.csv` — ERK features + triples
-- `05_reports/evaluator_input_audit/selected_full5_questions.csv` — 1,986 question set
-- `05_reports/official_eval/gpt4o_dual_setting_locomo_corrected_v3/` — offline corrected scores (main tables)
-- `05_reports/locomo_gpt4o_prompt_protocol/` — per-method per-setting reader predictions
-- `05_reports/backend_equivalence/` — P7-A parity results
-- `05_reports/backend_system_eval/` — P7-B latency/throughput/burst/recovery
-- `05_reports/p1_compact_component_ablation/` — 16-variant compact ablation
-- `reports/c0_correctness/` — Layer A-D system summaries
-- `reports/sysaxis_*` — 1M-scale system benchmarks
-
----
-
-## Reproduction
-
-```powershell
-# 1. Retrieval + reader (requires OpenAI API key)
-python 04_experiments/retrieval/build_locomo_gold_memory_v2.py
-python 04_experiments/retrieval/run_dense_global_kg_rerun.py
-python 04_experiments/retrieval/build_retrieval_main_table.py
-
-# 2. GPT-4o dual-setting prompt protocol (6 methods × 2 settings)
-python 03_src/evaluation/run_locomo_prompt_protocol_gpt4o.py \
-  --questions 05_reports/evaluator_input_audit/selected_full5_questions.csv \
-  --memories 01_data/locomo_memory_records.csv \
-  --method ZScore-RawERK \
-  --output-dir 05_reports/locomo_gpt4o_prompt_protocol/setting_b_category/ZScore-RawERK \
-  --setting b_category
-
-# 3. Offline corrected scoring (no API)
-python 03_src/evaluation/locomo_corrected_evaluator_v3.py
-
-# 4. Backend equivalence (P7-A, requires Cassandra + Neo4j running)
-python 03_src/p7a_unified_retrieval_framework.py
-
-# 5. System serving benchmark (P7-B)
-python 05_reports/backend_system_eval/p7b_benchmark.py
-```
-
-**Hard rules**:
-- Never mix 1150 / 1540 / 1986 scopes silently
-- Never mix global-corpus and sample-scoped retrieval in the same table
-- Never compare Cassandra vs Neo4j alone as "equivalence" — both must be
-  compared against the CSV reference
-- Report per-query means, not category averages, for Overall F1
+Repository conventions are described in [`CONTRIBUTING.md`](CONTRIBUTING.md).
+Report exposed credentials or other sensitive findings according to
+[`SECURITY.md`](SECURITY.md).

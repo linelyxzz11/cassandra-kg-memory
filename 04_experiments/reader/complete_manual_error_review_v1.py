@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Complete an evidence-based first-pass review of the 100 sampled errors.
 
-This is a deterministic Codex-assisted audit, not an independent human
+This is a deterministic internal evidence-based audit, not an independent human
 annotation study. It enriches each sampled row with branch ranks, frozen Judge
 labels, protocol checks, and an explicit review decision. Ambiguous causality is
 kept as `needs_secondary_review` rather than being forced into a root cause.
@@ -90,7 +90,7 @@ def main() -> None:
         judge = judges.get(key, {})
         review_type = row["review_type"]
 
-        status = "reviewed_by_codex_evidence_based"
+        status = "reviewed_by_internal_evidence_audit"
         confidence = "high"
         evidence_assessment = "not_applicable"
         cat5_check = "not_applicable"
@@ -201,10 +201,10 @@ def main() -> None:
     type4_counts = Counter(row["confirmed_error_type"] for row in reviewed if row["review_type"] == "Type4_Reader_failure")
     lines = [
         "# Error Analysis 100-Case Review", "",
-        "This is a Codex-assisted evidence-based first pass, not an independent human annotation study.", "",
+        "This is a internal evidence-based evidence-based first pass, not an independent human annotation study.", "",
         "## Completion", "",
         f"- Reviewed rows: {len(reviewed)}/100",
-        f"- Evidence-based resolved: {status_counts['reviewed_by_codex_evidence_based']}",
+        f"- Evidence-based resolved: {status_counts['reviewed_by_internal_evidence_audit']}",
         f"- Secondary expert review retained: {status_counts['needs_secondary_review']}",
         "- External API calls: 0", "",
         "## Type 4 correction", "",
@@ -228,10 +228,10 @@ def main() -> None:
         if artifact_path.exists():
             artifact["sha256"] = sha256(artifact_path)
     manifest["manual_review"] = {
-        "reviewer": "Codex evidence-based first pass",
+        "reviewer": "internal evidence-based first pass",
         "independent_human_annotation": False,
         "reviewed_rows": len(reviewed),
-        "resolved_rows": status_counts["reviewed_by_codex_evidence_based"],
+        "resolved_rows": status_counts["reviewed_by_internal_evidence_audit"],
         "secondary_review_rows": status_counts["needs_secondary_review"],
         "api_calls": 0,
         "outputs": [

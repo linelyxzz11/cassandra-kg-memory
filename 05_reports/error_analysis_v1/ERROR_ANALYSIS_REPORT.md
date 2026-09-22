@@ -28,7 +28,7 @@ The balanced `manual_review_sample_100.csv` contains 20 candidates per requested
 The evidence-based first pass is complete for all 100 sampled cases. It uses
 frozen Dense/BM25 diagnostic ranks, gold-memory text, the official Cat5
 protocol, and the already-frozen GPT-4o Judge labels; no external API was
-called. This is a Codex-assisted audit rather than an independent human
+called. This is an internal evidence-based audit rather than an independent human
 annotation study.
 
 - 91 cases received an evidence-based first-pass resolution.

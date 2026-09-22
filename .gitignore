@@ -57,6 +57,9 @@ docs/NEXT_GPT_HANDOFF.md
 /findings.md
 /progress.md
 
+# Local figure iterations. Move the selected publication asset to figures/.
+/docs/figures/
+
 # Legacy unnumbered result namespace. Canonical outputs belong in 05_reports/.
 /results/
 

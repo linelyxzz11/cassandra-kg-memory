@@ -1,6 +1,10 @@
 # P7-A — Backend Retrieval Equivalence Validation
 ## CSV / Cassandra / Neo4j Logical Memory View Parity
-### Status: FRAMEWORK_BUILT — awaiting Cassandra + Neo4j instance connection
+### Status: SUPERSEDED — retained for provenance
+
+The completed protocol and citation-ready evidence are maintained in
+`05_reports/backend_equivalence_v2/`. The initial placeholder framework was
+moved to `09_archive/legacy_backend_bridge/`.
 
 ---
 

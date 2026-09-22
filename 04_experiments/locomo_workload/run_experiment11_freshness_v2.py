@@ -255,6 +255,7 @@ def main() -> None:
                     "pipeline_complete_p95_ms": percentile(completions, 95),
                     "pipeline_complete_p99_ms": percentile(completions, 99),
                     "final_hit_at_10": len(hits) / max(len(update_rows), 1),
+                    "fresh_hit_at_10_denominator": len(hits),
                     "timeout_rate_5000ms": sum(int(row["timeout_5000ms"]) for row in update_rows) / max(len(update_rows), 1),
                     "error_rate": len(all_errors) / max(len(operations), 1),
                     "missed_update_rate": sum(
@@ -266,7 +267,10 @@ def main() -> None:
                     ) / max(len(update_rows), 1),
                 }
                 for deadline in DEADLINES_MS:
-                    summary[f"fresh_hit_at_10_{deadline}ms"] = sum(int(row[f"fresh_hit_at_10_{deadline}ms"]) for row in update_rows) / max(len(update_rows), 1)
+                    summary[f"fresh_hit_at_10_{deadline}ms"] = (
+                        sum(int(row[f"fresh_hit_at_10_{deadline}ms"]) for row in hits) / len(hits)
+                        if hits else ""
+                    )
                     summary[f"pipeline_visible_{deadline}ms"] = sum(int(row[f"pipeline_visible_{deadline}ms"]) for row in update_rows) / max(len(update_rows), 1)
                 scenario_rows.append(summary)
                 print(json.dumps(summary), flush=True)
