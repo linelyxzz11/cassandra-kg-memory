@@ -67,15 +67,24 @@ def main():
             ended = time.perf_counter_ns()
             return {"op_id": operation["op_id"], "phase": phase, "op_type": "read", "status": "ok", "latency_ms": (ended-started)/1e6, "backend_ms": (backend_end-backend_start)/1e6, **timings, "fresh_hit_at_10": "", "graph_projection_ok": "", "relation_candidate_ok": "", "candidate_count": len(candidate_ids)}
         record = by_id[operation["target_memory_id"]]
+        write_started = time.perf_counter_ns()
         backend.insert(args.cell, record); committed = time.perf_counter_ns()
         projection = backend.fetch_graph(args.cell, scope, record.memory_id); graph_visible = time.perf_counter_ns()
         relation_ok = all(record.memory_id in backend.ids_by_relation(args.cell, scope, relation) for relation in sorted({edge["relation"] for edge in record.edges}))
-        index.upsert_sparse(scope, record.memory_id, record.rawerk, 2)
-        index.upsert_dense(scope, record.memory_id, memory_vector[operation["source_memory_id"]], 2)
+        relation_checked = time.perf_counter_ns()
+        index.upsert_sparse(scope, record.memory_id, record.rawerk, 2); sparse_done = time.perf_counter_ns()
+        index.upsert_dense(scope, record.memory_id, memory_vector[operation["source_memory_id"]], 2); dense_done = time.perf_counter_ns()
         candidate_ids = backend.ids(args.cell, scope); backend_done = time.perf_counter_ns()
         result, timings = index.search_with_timings(scope, operation["question"], qa_vector[operation["source_qa_id"]], candidate_ids)
         ended = time.perf_counter_ns(); top10 = {memory_id for memory_id, _ in result.top10}
-        return {"op_id": operation["op_id"], "phase": phase, "op_type": "update", "status": "ok", "latency_ms": (ended-started)/1e6, "backend_ms": (backend_done-started)/1e6, **timings, "fresh_hit_at_10": int(record.memory_id in top10), "graph_projection_ok": int(bool(projection) and digest(projection)==digest(record.graph_projection())), "relation_candidate_ok": int(relation_ok), "candidate_count": len(candidate_ids), "commit_ms": (committed-started)/1e6, "graph_visible_ms": (graph_visible-started)/1e6}
+        return {"op_id": operation["op_id"], "phase": phase, "op_type": "update", "status": "ok", "latency_ms": (ended-started)/1e6, "backend_ms": (backend_done-started)/1e6, **timings, "fresh_hit_at_10": int(record.memory_id in top10), "graph_projection_ok": int(bool(projection) and digest(projection)==digest(record.graph_projection())), "relation_candidate_ok": int(relation_ok), "candidate_count": len(candidate_ids), "commit_ms": (committed-started)/1e6, "graph_visible_ms": (graph_visible-started)/1e6,
+                "full_write_ack_call_ms": (committed-write_started)/1e6,
+                "projection_fetch_ms": (graph_visible-committed)/1e6,
+                "relation_check_ms": (relation_checked-graph_visible)/1e6,
+                "sparse_upsert_ms": (sparse_done-relation_checked)/1e6,
+                "dense_upsert_ms": (dense_done-sparse_done)/1e6,
+                "candidate_fetch_ms": (backend_done-dense_done)/1e6,
+                "ranking_ms": (ended-backend_done)/1e6}
 
     def run_phase(operations, phase):
         started = time.perf_counter()

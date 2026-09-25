@@ -1,0 +1,107 @@
+{
+  "protocol_id": "resmatch_20260924_v3r2",
+  "container_cpus": "8",
+  "container_memory": "12g",
+  "swap_disabled": true,
+  "one_database_at_a_time": true,
+  "neo4j_heap": "5G",
+  "neo4j_page_cache": "3G",
+  "cassandra_heap": "5G",
+  "image_ids": {
+    "cassandra": "sha256:2c6576f9b8e0271d3d30a4142e3a79cd69d60fa1e5ecf32dc641a352d372e9ff",
+    "neo4j": "sha256:0b5d3ab6ec1b866890dbfb53bf4fe1cf039f9e03c96165599a403005b7e7bcc3"
+  },
+  "trace_manifest": {
+    "protocol_id": "locomo-100k-95r5u-v1",
+    "seed": 20260803,
+    "repetitions": [
+      {
+        "repetition": 0,
+        "files": [
+          {
+            "phase": "warmup",
+            "path": "results/serving_100k/locomo_workload_100k/traces/rep0_warmup.jsonl",
+            "rows": 500,
+            "sha256": "8766c05f088d76f0e7892e55b663a002c2697d2edc9883c525ac2c4d935c74c7",
+            "reads": 475,
+            "updates": 25,
+            "unique_update_targets": 25
+          },
+          {
+            "phase": "measured",
+            "path": "results/serving_100k/locomo_workload_100k/traces/rep0_measured.jsonl",
+            "rows": 5000,
+            "sha256": "650cd0bb37d3369d70b6998b7362f52045b30374799aa0c485ac85823e7e9911",
+            "reads": 4750,
+            "updates": 250,
+            "unique_update_targets": 250
+          }
+        ]
+      },
+      {
+        "repetition": 1,
+        "files": [
+          {
+            "phase": "warmup",
+            "path": "results/serving_100k/locomo_workload_100k/traces/rep1_warmup.jsonl",
+            "rows": 500,
+            "sha256": "1c6ee5baa6f80f43c37a62b36275931e0ad10047f7212f08b4db07a93d9d08c7",
+            "reads": 475,
+            "updates": 25,
+            "unique_update_targets": 25
+          },
+          {
+            "phase": "measured",
+            "path": "results/serving_100k/locomo_workload_100k/traces/rep1_measured.jsonl",
+            "rows": 5000,
+            "sha256": "3cd5051cac331b4831b85ed15b135d4a69ca64eee5ef11b3135763b28214c4ec",
+            "reads": 4750,
+            "updates": 250,
+            "unique_update_targets": 250
+          }
+        ]
+      },
+      {
+        "repetition": 2,
+        "files": [
+          {
+            "phase": "warmup",
+            "path": "results/serving_100k/locomo_workload_100k/traces/rep2_warmup.jsonl",
+            "rows": 500,
+            "sha256": "b1f0f462223944b35f9f2ec5a2f1812fef36019dbbb2da8e54f98cd68b26c988",
+            "reads": 475,
+            "updates": 25,
+            "unique_update_targets": 25
+          },
+          {
+            "phase": "measured",
+            "path": "results/serving_100k/locomo_workload_100k/traces/rep2_measured.jsonl",
+            "rows": 5000,
+            "sha256": "0ccb2b99a762883589341a12883998966b269001cc7387c0d1a0265226347fc4",
+            "reads": 4750,
+            "updates": 250,
+            "unique_update_targets": 250
+          }
+        ]
+      }
+    ]
+  },
+  "storage": {
+    "wsl_distro_dir": "D:\\docker\\DockerDesktopWSL",
+    "vhd_path": "D:\\docker\\DockerDesktopWSL\\disk\\docker_data.vhdx"
+  },
+  "trace_manifest_sha256": "10cb3bd39b9ae77e4a1b4b17cafe95eb2ca1d73c2e8b23ef86b3fe67ed60912e",
+  "launcher_sha256": "1554ef3d04e03eb20ade562f411b4a7ab5af9867c8fff0b620ea99c9971abf3a",
+  "adapter_sha256": "3646e44852fcb23a40d97be3259d8c53ca8770810a38d147dc1dd64c1ef34118",
+  "loader_sha256": "2bfe197ee41378fc6fc096af44d35ccc5e6178f502d5c138dc292b4a9b627d2d",
+  "main_workload_sha256": "7e24bb865496074c44bf26800502f6bc9afadc905266530704849c4e4da25593",
+  "freshness_workload_sha256": "8dcc23b652ae7a748388b5e5f270ccf6e5f7cf36accae389502d753d55f67bde",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "started_at_utc": "2026-09-24T11:48:00.748597+00:00",
+  "latency_boundaries": {
+    "main_latency_ms": "worker start to completed operation; excludes executor admission wait",
+    "freshness_queue_wait_ms": "submit to worker start",
+    "freshness_raw_write_call_ms": "client call begin to acknowledged return; includes driver, network, server",
+    "freshness_t_commit_ms": "submit to raw write acknowledged; queue-inclusive legacy field"
+  }
+}

@@ -65,6 +65,7 @@ def main() -> None:
     parser.add_argument("--duration", type=float, default=8.0)
     parser.add_argument("--min-updates-per-scenario", type=int, default=40)
     parser.add_argument("--repetitions", type=int, default=3)
+    parser.add_argument("--output-dir", type=Path, default=OUT, help="Separate output directory for a new run; never reuse frozen results")
     parser.add_argument("--smoke", action="store_true")
     args = parser.parse_args(); env()
     rates = [float(value) for value in args.rates.split(",")]
@@ -113,6 +114,7 @@ def main() -> None:
     target_cursor = 0
     read_cursor = 0
     output_rows: list[dict] = []
+    read_output_rows: list[dict] = []
     scenario_rows: list[dict] = []
 
     try:
@@ -144,11 +146,25 @@ def main() -> None:
                     try:
                         scope = operation["scope_id"]
                         if item["kind"] == "read":
+                            backend_read_started_ns = time.perf_counter_ns()
                             candidate_ids = backend.ids(args.cell, scope)
-                            index.search(scope, operation["question"], qa_vectors[operation["source_qa_id"]], candidate_ids)
-                            return None
+                            backend_read_done_ns = time.perf_counter_ns()
+                            _, read_timings = index.search_with_timings(
+                                scope, operation["question"], qa_vectors[operation["source_qa_id"]], candidate_ids
+                            )
+                            read_done_ns = time.perf_counter_ns()
+                            return {
+                                "kind": "read", "cell": args.cell, "repetition": repetition,
+                                "update_rate_s": rate, "op_id": operation["op_id"],
+                                "queue_wait_ms": (started_ns - enqueued_ns) / 1e6,
+                                "backend_read_call_ms": (backend_read_done_ns - backend_read_started_ns) / 1e6,
+                                "worker_read_ms": (read_done_ns - started_ns) / 1e6,
+                                "arrival_to_read_done_ms": (read_done_ns - enqueued_ns) / 1e6,
+                                "candidate_count": len(candidate_ids), **read_timings,
+                            }
 
                         record = by_id[operation["target_memory_id"]]
+                        raw_call_started_ns = time.perf_counter_ns()
                         backend.commit_raw(args.cell, record)
                         committed_ns = time.perf_counter_ns()
                         backend.write_structured(args.cell, record)
@@ -185,6 +201,11 @@ def main() -> None:
                             "scope_id": scope,
                             "target_memory_id": record.memory_id,
                             "queue_wait_ms": (started_ns - enqueued_ns) / 1e6,
+                            "worker_start_to_raw_commit_ms": (committed_ns - started_ns) / 1e6,
+                            "raw_write_call_ms": (committed_ns - raw_call_started_ns) / 1e6,
+                            "raw_ack_to_structured_ms": (structured_ns - committed_ns) / 1e6,
+                            "structured_to_index_ms": (index_ns - structured_ns) / 1e6,
+                            "index_to_ranking_ms": (completed_ns - index_ns) / 1e6,
                             "t_commit_ms": (committed_ns - enqueued_ns) / 1e6,
                             "t_structured_view_visible_ms": (structured_ns - enqueued_ns) / 1e6,
                             "t_index_visible_ms": (index_ns - enqueued_ns) / 1e6,
@@ -237,7 +258,9 @@ def main() -> None:
                 scenario_end = time.perf_counter()
 
                 update_rows = [row for row in scenario_results if row and "target_memory_id" in row]
+                read_rows = [row for row in scenario_results if row and row.get("kind") == "read"]
                 output_rows.extend(update_rows)
+                read_output_rows.extend(read_rows)
                 all_errors = [row for row in scenario_results if row and "error" in row]
                 completions = [float(row["pipeline_complete_ms"]) for row in update_rows]
                 hits = [row for row in update_rows if int(row["final_hit_at_10"]) == 1]
@@ -259,6 +282,13 @@ def main() -> None:
                     "pipeline_complete_p50_ms": percentile(completions, 50),
                     "pipeline_complete_p95_ms": percentile(completions, 95),
                     "pipeline_complete_p99_ms": percentile(completions, 99),
+                    "queue_wait_p50_ms": percentile([row["queue_wait_ms"] for row in update_rows], 50),
+                    "queue_wait_p95_ms": percentile([row["queue_wait_ms"] for row in update_rows], 95),
+                    "raw_write_call_p50_ms": percentile([row["raw_write_call_ms"] for row in update_rows], 50),
+                    "raw_write_call_p95_ms": percentile([row["raw_write_call_ms"] for row in update_rows], 95),
+                    "raw_write_call_p99_ms": percentile([row["raw_write_call_ms"] for row in update_rows], 99),
+                    "read_worker_p95_ms": percentile([row["worker_read_ms"] for row in read_rows], 95),
+                    "read_arrival_p95_ms": percentile([row["arrival_to_read_done_ms"] for row in read_rows], 95),
                     "final_hit_at_10": len(hits) / max(len(update_rows), 1),
                     "fresh_hit_at_10_denominator": len(hits),
                     "timeout_rate_5000ms": sum(int(row["timeout_5000ms"]) for row in update_rows) / max(len(update_rows), 1),
@@ -280,12 +310,15 @@ def main() -> None:
                 scenario_rows.append(summary)
                 print(json.dumps(summary), flush=True)
 
-        OUT.mkdir(parents=True, exist_ok=True)
+        args.output_dir.mkdir(parents=True, exist_ok=True)
         stem = f"{args.cell}_c{args.concurrency}"
-        with (OUT / f"{stem}_events.csv").open("w", encoding="utf-8", newline="") as handle:
+        with (args.output_dir / f"{stem}_events.csv").open("w", encoding="utf-8", newline="") as handle:
             writer = csv.DictWriter(handle, fieldnames=list(output_rows[0]))
             writer.writeheader(); writer.writerows(output_rows)
-        with (OUT / f"{stem}_scenarios.csv").open("w", encoding="utf-8", newline="") as handle:
+        with (args.output_dir / f"{stem}_reads.csv").open("w", encoding="utf-8", newline="") as handle:
+            writer = csv.DictWriter(handle, fieldnames=list(read_output_rows[0]))
+            writer.writeheader(); writer.writerows(read_output_rows)
+        with (args.output_dir / f"{stem}_scenarios.csv").open("w", encoding="utf-8", newline="") as handle:
             writer = csv.DictWriter(handle, fieldnames=list(scenario_rows[0]))
             writer.writeheader(); writer.writerows(scenario_rows)
         manifest = {
@@ -303,7 +336,7 @@ def main() -> None:
             "scenarios": len(scenario_rows),
             "errors": sum(row["error_rate"] > 0 for row in scenario_rows),
         }
-        (OUT / f"{stem}_manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+        (args.output_dir / f"{stem}_manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
         if manifest["status"] != "PASS":
             raise SystemExit(2)
     finally:

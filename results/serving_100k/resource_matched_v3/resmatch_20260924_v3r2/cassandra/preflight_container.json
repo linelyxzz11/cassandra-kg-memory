@@ -1,0 +1,39 @@
+{
+  "name": "/cassmem-resmatch-20260924-v3r2-cassandra",
+  "created": "2026-09-24T12:01:53.060769949Z",
+  "image_id": "sha256:2c6576f9b8e0271d3d30a4142e3a79cd69d60fa1e5ecf32dc641a352d372e9ff",
+  "cpu_quota": 0,
+  "nano_cpus": 8000000000,
+  "memory_bytes": 12884901888,
+  "memory_swap_bytes": 12884901888,
+  "mounts": [
+    {
+      "type": "volume",
+      "name": "cassmem_resmatch_20260924_v3r2_cassandra_data",
+      "destination": "/var/lib/cassandra"
+    }
+  ],
+  "ports": {
+    "9042/tcp": [
+      {
+        "HostIp": "0.0.0.0",
+        "HostPort": "19042"
+      },
+      {
+        "HostIp": "::",
+        "HostPort": "19042"
+      }
+    ]
+  },
+  "env_names": [
+    "CASSANDRA_CONF",
+    "CASSANDRA_HOME",
+    "CASSANDRA_SHA512",
+    "CASSANDRA_VERSION",
+    "GOSU_VERSION",
+    "GPG_KEYS",
+    "JAVA_HOME",
+    "MAX_HEAP_SIZE",
+    "PATH"
+  ]
+}

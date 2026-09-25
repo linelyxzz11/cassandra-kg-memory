@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "protocol_id": "experiment11-online-freshness-v2",
+  "cell": "neo4j-materialized",
+  "concurrency": 32,
+  "rates": [
+    1.0
+  ],
+  "duration_s": 2.0,
+  "min_updates_per_scenario": 2,
+  "repetitions": 1,
+  "read_update_ratio": "95:5",
+  "deadlines_ms": [
+    50,
+    100,
+    250,
+    500,
+    1000,
+    2000
+  ],
+  "updates": 2,
+  "scenarios": 1,
+  "errors": 0
+}

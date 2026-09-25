@@ -65,8 +65,23 @@ results, and retrieval metrics against the CSV reference.
 
 ## Four-cell serving workload
 
-The graph-aware workload compares Cassandra base/materialized paths and Neo4j
-native/materialized paths under the same logical event stream:
+The canonical resource-matched run compares Cassandra base/materialized and Neo4j
+native/materialized paths under 8-vCPU/12-GiB container budgets. Its frozen
+configuration, timing boundaries and audited outputs are in
+[`RESOURCE_MATCHED_SERVING_RERUN_PROTOCOL.md`](RESOURCE_MATCHED_SERVING_RERUN_PROTOCOL.md),
+[`RESOURCE_MATCHED_SERVING_RERUN_RESULTS.md`](RESOURCE_MATCHED_SERVING_RERUN_RESULTS.md), and
+`results/serving_100k/resource_matched_v3/resmatch_20260924_v3r2/`.
+Check the published record without starting a database:
+
+~~~powershell
+python experiments/serving_100k/audit_resource_matched_v3.py `
+  --base results/serving_100k/resource_matched_v3/resmatch_20260924_v3r2
+~~~
+
+To repeat the database experiment, first read the protocol's Docker storage,
+isolation and credential requirements. The older graph-aware matrix below remains
+for query-type, storage-work and application-worker recovery experiments; it is
+not the resource-matched main result:
 
 ~~~powershell
 python experiments/serving_100k/run_graph_100k_load_gate_v2.py
@@ -87,16 +102,19 @@ python experiments/freshness/run_experiment11_freshness_v2.py `
   --cell cassandra-materialized --smoke
 ~~~
 
-The full protocol runs each of the four cells with concurrency 32, update rates
-1/2/5/10 per second, and three repetitions. The script records raw commit,
-structured-view checks, sparse and dense index checks, completed ranking, and whether
+The full resource-matched protocol runs each of the four cells with concurrency 32,
+update rates 1/2/5/10 per second, and three repetitions. The script records queue
+wait and client-observed raw-write acknowledgement separately, then structured-view
+checks, sparse and dense index checks, completed ranking, and whether
 the target memory appears in the observed Top-10.
 
 ## Evidence policy
 
 - `docs/EXPERIMENT_REGISTRY.csv` is the status authority.
 - `docs/CLAIMS_AND_EVIDENCE.md` defines citation-ready claims and guardrails.
-- `results/ARTIFACT_MANIFEST.csv` records canonical hashes.
+- `results/ARTIFACT_MANIFEST.csv` records the earlier canonical hashes. The
+  resource-matched serving rerun freezes its source and trace hashes in its
+  `protocol.json` and aggregate output hashes in `main/manifest.json`.
 - `results/` contains the canonical paper-facing outputs.
 - Historical prototypes and superseded result trees are not part of this artifact.
 - Never replace a frozen artifact in place. Write a new version and document the

@@ -6,6 +6,8 @@ import csv
 import json
 import os
 import time
+from pathlib import Path
+from urllib.parse import urlparse
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 
@@ -45,26 +47,36 @@ def expected_relation_candidates(records):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--reset", action="store_true")
+    parser.add_argument("--backend", choices=("both", "cassandra", "neo4j"), default="both")
+    parser.add_argument("--output-dir", type=Path, default=OUT)
     parser.add_argument("--cassandra-workers", type=int, default=32)
     parser.add_argument("--neo4j-workers", type=int, default=12)
     args = parser.parse_args(); env()
     records = expand(build_graph_records())
     scopes = sorted({record.scope_id for record in records})
     expected_relations = expected_relation_candidates(records)
-    cass = CassandraGraphCells(os.getenv("CASSANDRA_HOST", "127.0.0.1"))
-    neo = Neo4jGraphCells(os.getenv("NEO4J_URI", "bolt://localhost:7687"), os.getenv("NEO4J_USER", "neo4j"), os.getenv("NEO4J_PASSWORD"), os.getenv("NEO4J_DATABASE", "neo4j"))
-    cells = cass.names + neo.names
+    if args.backend != "both" and args.reset:
+        port = os.getenv("CASSANDRA_PORT", "9042") if args.backend == "cassandra" else os.getenv("NEO4J_URI", "bolt://localhost:7687")
+        original_endpoint = port == "9042" if args.backend == "cassandra" else urlparse(port).port == 7687
+        if original_endpoint:
+            raise RuntimeError("Isolated backend reset requires a non-default database port")
+    cass = CassandraGraphCells(os.getenv("CASSANDRA_HOST", "127.0.0.1")) if args.backend in ("both", "cassandra") else None
+    neo = Neo4jGraphCells(os.getenv("NEO4J_URI", "bolt://localhost:7687"), os.getenv("NEO4J_USER", "neo4j"), os.getenv("NEO4J_PASSWORD"), os.getenv("NEO4J_DATABASE", "neo4j")) if args.backend in ("both", "neo4j") else None
+    cells = (cass.names if cass else ()) + (neo.names if neo else ())
     stages = []; started = time.time()
     try:
         if args.reset:
-            before = time.time(); cass.reset(); neo.reset(); stages.append({"stage": "reset", "seconds": time.time() - before})
-        for cell in cass.names:
+            before = time.time()
+            if cass: cass.reset()
+            if neo: neo.reset()
+            stages.append({"stage": "reset", "seconds": time.time() - before})
+        for cell in cass.names if cass else ():
             before = time.time()
             with ThreadPoolExecutor(max_workers=args.cassandra_workers) as executor:
                 for offset, _ in enumerate(executor.map(lambda record: cass.insert(cell, record), records), start=1):
                     if offset % 10_000 == 0: print(f"{cell}={offset}/{TARGET}", flush=True)
             stages.append({"stage": f"load:{cell}", "seconds": time.time() - before})
-        for cell in neo.names:
+        for cell in neo.names if neo else ():
             before = time.time(); neo.insert_many(cell, records, batch=100, workers=args.neo4j_workers)
             stages.append({"stage": f"load:{cell}", "seconds": time.time() - before}); print(f"{cell}={TARGET}/{TARGET}", flush=True)
 
@@ -96,13 +108,19 @@ def main():
                 if observed != expected:
                     candidate_diffs.append({"scope_id": scope, "relation": relation, "cell": cell, "expected_ids": json.dumps(expected), "observed_ids": json.dumps(observed)})
 
-        cass_counts = cass.table_counts(); neo_counts = neo.graph_counts()
-        actual_records = {
-            "cassandra-base": sum(value for key, value in cass_counts.items() if key.startswith("g_base_")),
-            "cassandra-materialized": sum(value for key, value in cass_counts.items() if key.startswith("g_mat_")),
-            "neo4j-native": sum(neo_counts[key] for key in ("LWV2NativeMemory", "LWV2NativeFeature", "LWV2NativeEntity", "LWV2_HAS_FEATURE", "LWV2_NATIVE_MENTIONS", "LWV2_NATIVE_REL")),
-            "neo4j-materialized": sum(neo_counts[key] for key in ("LWV2MatMemory", "LWV2MatEntity", "LWV2MatCandidate", "LWV2_MAT_MENTIONS", "LWV2_MAT_REL")),
-        }
+        cass_counts = cass.table_counts() if cass else {}
+        neo_counts = neo.graph_counts() if neo else {}
+        actual_records = {}
+        if cass:
+            actual_records.update({
+                "cassandra-base": sum(value for key, value in cass_counts.items() if key.startswith("g_base_")),
+                "cassandra-materialized": sum(value for key, value in cass_counts.items() if key.startswith("g_mat_")),
+            })
+        if neo:
+            actual_records.update({
+                "neo4j-native": sum(neo_counts[key] for key in ("LWV2NativeMemory", "LWV2NativeFeature", "LWV2NativeEntity", "LWV2_HAS_FEATURE", "LWV2_NATIVE_MENTIONS", "LWV2_NATIVE_REL")),
+                "neo4j-materialized": sum(neo_counts[key] for key in ("LWV2MatMemory", "LWV2MatEntity", "LWV2MatCandidate", "LWV2_MAT_MENTIONS", "LWV2_MAT_REL")),
+            })
         attempted = {cell: distribution([record.expected_mutations(cell) for record in records]) for cell in cells}
         status = "PASS" if (
             all(value == TARGET for value in memory_counts.values())
@@ -114,26 +132,29 @@ def main():
             "target_memories": TARGET, "expected_namespaces": 171,
             "edges": sum(len(record.edges) for record in records),
             "memory_counts": memory_counts, "namespace_counts": namespace_counts,
-            "graph_digest_sample_memories": len(sample), "graph_digest_comparisons": len(sample) * 4,
+            "graph_digest_sample_memories": len(sample), "graph_digest_comparisons": len(sample) * len(cells),
             "graph_digest_mismatches": len(digest_diffs),
-            "relation_candidate_sample_keys": len(relation_sample), "relation_candidate_comparisons": len(relation_sample) * 4,
+            "relation_candidate_sample_keys": len(relation_sample), "relation_candidate_comparisons": len(relation_sample) * len(cells),
             "relation_candidate_mismatches": len(candidate_diffs),
             "attempted_logical_mutations": attempted, "actual_storage_records": actual_records,
             "cassandra_table_counts": cass_counts, "neo4j_graph_counts": neo_counts,
             "stage_times": stages, "elapsed_seconds": time.time() - started,
         }
-        OUT.mkdir(parents=True, exist_ok=True)
-        (OUT / "graph_100k_load_gate_summary.json").write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
+        args.output_dir.mkdir(parents=True, exist_ok=True)
+        summary_name = "graph_100k_load_gate_summary.json" if args.backend == "both" else f"graph_100k_load_gate_{args.backend}_summary.json"
+        (args.output_dir / summary_name).write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
         for name, rows, fields in (
             ("graph_digest_diffs.csv", digest_diffs, ["memory_id", "cell", "expected", "observed"]),
             ("relation_candidate_diffs.csv", candidate_diffs, ["scope_id", "relation", "cell", "expected_ids", "observed_ids"]),
         ):
-            with (OUT / name).open("w", encoding="utf-8", newline="") as handle:
+            filename = name if args.backend == "both" else f"{args.backend}_{name}"
+            with (args.output_dir / filename).open("w", encoding="utf-8", newline="") as handle:
                 writer = csv.DictWriter(handle, fieldnames=fields); writer.writeheader(); writer.writerows(rows)
         print(json.dumps(summary, indent=2))
         if status != "PASS": raise SystemExit(2)
     finally:
-        cass.close(); neo.close()
+        if cass: cass.close()
+        if neo: neo.close()
 
 
 if __name__ == "__main__":

@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "protocol_id": "graph-aware-logical-event-v2-100k",
+  "target_memories": 100000,
+  "expected_namespaces": 171,
+  "edges": 42944,
+  "memory_counts": {
+    "cassandra-base": 100000,
+    "cassandra-materialized": 100000
+  },
+  "namespace_counts": {
+    "cassandra-base": 171,
+    "cassandra-materialized": 171
+  },
+  "graph_digest_sample_memories": 1000,
+  "graph_digest_comparisons": 2000,
+  "graph_digest_mismatches": 0,
+  "relation_candidate_sample_keys": 1000,
+  "relation_candidate_comparisons": 2000,
+  "relation_candidate_mismatches": 0,
+  "attempted_logical_mutations": {
+    "cassandra-base": {
+      "total": 613547,
+      "mean": 6.13547,
+      "p50": 2.0,
+      "p95": 17.0,
+      "max": 43
+    },
+    "cassandra-materialized": {
+      "total": 470603,
+      "mean": 4.70603,
+      "p50": 1.0,
+      "p95": 14.0,
+      "max": 39
+    }
+  },
+  "actual_storage_records": {
+    "cassandra-base": 534463,
+    "cassandra-materialized": 391519
+  },
+  "cassandra_table_counts": {
+    "g_base_memory_by_scope": 100000,
+    "g_base_features_by_memory": 100000,
+    "g_base_entities_by_scope": 76475,
+    "g_base_mentions_by_memory": 129156,
+    "g_base_edges_by_memory": 42944,
+    "g_base_edges_by_src": 42944,
+    "g_base_edges_by_scope": 42944,
+    "g_mat_memory_by_scope": 100000,
+    "g_mat_entities_by_scope": 76475,
+    "g_mat_mentions_by_memory": 129156,
+    "g_mat_edges_by_memory": 42944,
+    "g_mat_by_scope_relation": 42944
+  },
+  "neo4j_graph_counts": {},
+  "stage_times": [
+    {
+      "stage": "reset",
+      "seconds": 0.433380126953125
+    },
+    {
+      "stage": "load:cassandra-base",
+      "seconds": 28.808406829833984
+    },
+    {
+      "stage": "load:cassandra-materialized",
+      "seconds": 26.323100328445435
+    }
+  ],
+  "elapsed_seconds": 203.43274474143982
+}

@@ -5,8 +5,8 @@ ZSCORE-ALPHA-SWEEP,DONE,retrieval,"Development-set fusion-weight sweep",results/
 REPRESENTATION-ABLATION,DONE,retrieval,"RawERK component ablation",results/representation_ablation/p1_compact_component_ablation
 READER-MAIN,DONE,reader,"HingeMem-style F1/J/B1 main table",results/reader/reader_main_hingemem_style
 BACKEND-EQUIVALENCE,DONE,system,"CSV/Cassandra/Neo4j candidate and ranking parity",results/backend_equivalence/backend_equivalence_v2
-SERVING-100K,DONE,system,"Graph-aware four-cell 100K workload",results/serving_100k/locomo_workload_graph_v2_100k
+SERVING-100K,DONE,system,"Resource-matched four-cell 100K workload; strict audit PASS",results/serving_100k/resource_matched_v3/resmatch_20260924_v3r2
 QUERY-TYPES,DONE,system,"Scope/relation/candidate/Top-10 query-type matrix",results/serving_100k/locomo_workload_graph_v2_100k/query_types_v2
 STORAGE-WORK,DONE,system,"Physical records and logical writes under semantic parity",results/serving_100k/locomo_workload_graph_v2_100k/storage_work_v2
-FRESHNESS,DONE,system,"Online update stages through observed Top-10",results/freshness/experiment11_online_freshness_v2
+FRESHNESS,DONE,system,"Resource-matched online update stages with queue and raw-write timing separated",results/serving_100k/resource_matched_v3/resmatch_20260924_v3r2/freshness
 RECOVERY,DONE,system,"Application materializer-worker recovery; databases remain online",results/serving_100k/locomo_workload_graph_v2_100k/recovery_v2

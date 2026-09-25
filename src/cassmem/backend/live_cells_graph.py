@@ -11,7 +11,8 @@ class CassandraGraphCells:
 
     def __init__(self, host="127.0.0.1", keyspace="locomo_workload_v2_graph"):
         from cassandra.cluster import Cluster
-        self.cluster = Cluster([host], protocol_version=4)
+        import os
+        self.cluster = Cluster([host], port=int(os.getenv("CASSANDRA_PORT", "9042")), protocol_version=4)
         self.s = self.cluster.connect()
         self.s.execute(f"CREATE KEYSPACE IF NOT EXISTS {keyspace} WITH replication={{'class':'SimpleStrategy','replication_factor':1}}")
         self.s.set_keyspace(keyspace)

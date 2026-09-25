@@ -1,0 +1,8 @@
+{
+  "cpu.stat": "usage_usec 31911223\nuser_usec 15731769\nsystem_usec 16179453\nnr_periods 647\nnr_throttled 17\nthrottled_usec 38349599\nnr_bursts 0\nburst_usec 0",
+  "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+  "memory.current": "6482190336",
+  "memory.peak": "6600749056",
+  "memory.max": "12884901888",
+  "io.stat": "8:112 rbytes=17518592 wbytes=17600512 rios=376 wios=296 dbytes=0 dios=0"
+}

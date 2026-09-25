@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "protocol_id": "resmatch_20260924_v3r2",
+  "main_runs": 60,
+  "main_measured_events": 300000,
+  "freshness_scenarios": 48,
+  "freshness_updates": 2400,
+  "freshness_reads": 45600,
+  "backend_resources": {
+    "cassandra": {
+      "memory_budget_gib": 12,
+      "vcpus": 8,
+      "docker_stats_samples": 817,
+      "docker_stats_peak_memory_gib": 6.097,
+      "docker_stats_peak_cpu_percent": 99.97,
+      "cgroup_memory_peak_gib": 6.147,
+      "cgroup_oom_kill": 0,
+      "load_memory_count_per_cell": {
+        "cassandra-base": 100000,
+        "cassandra-materialized": 100000
+      },
+      "graph_digest_mismatches": 0,
+      "relation_candidate_mismatches": 0
+    },
+    "neo4j": {
+      "memory_budget_gib": 12,
+      "vcpus": 8,
+      "docker_stats_samples": 1816,
+      "docker_stats_peak_memory_gib": 6.069,
+      "docker_stats_peak_cpu_percent": 249.08,
+      "cgroup_memory_peak_gib": 6.295,
+      "cgroup_oom_kill": 0,
+      "load_memory_count_per_cell": {
+        "neo4j-native": 100000,
+        "neo4j-materialized": 100000
+      },
+      "graph_digest_mismatches": 0,
+      "relation_candidate_mismatches": 0
+    }
+  },
+  "freshness_by_rate_sha256": "c8281a99a1603df259b23105586a2d123c4c482e4a1d95dcc48be02236e576dd"
+}

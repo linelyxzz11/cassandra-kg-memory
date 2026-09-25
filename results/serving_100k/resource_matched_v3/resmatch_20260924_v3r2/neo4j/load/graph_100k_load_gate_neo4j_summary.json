@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "protocol_id": "graph-aware-logical-event-v2-100k",
+  "target_memories": 100000,
+  "expected_namespaces": 171,
+  "edges": 42944,
+  "memory_counts": {
+    "neo4j-native": 100000,
+    "neo4j-materialized": 100000
+  },
+  "namespace_counts": {
+    "neo4j-native": 171,
+    "neo4j-materialized": 171
+  },
+  "graph_digest_sample_memories": 1000,
+  "graph_digest_comparisons": 2000,
+  "graph_digest_mismatches": 0,
+  "relation_candidate_sample_keys": 1000,
+  "relation_candidate_comparisons": 2000,
+  "relation_candidate_mismatches": 0,
+  "attempted_logical_mutations": {
+    "neo4j-native": {
+      "total": 627659,
+      "mean": 6.27659,
+      "p50": 3.0,
+      "p95": 15.0,
+      "max": 38
+    },
+    "neo4j-materialized": {
+      "total": 470382,
+      "mean": 4.70382,
+      "p50": 1.0,
+      "p95": 14.0,
+      "max": 39
+    }
+  },
+  "actual_storage_records": {
+    "neo4j-native": 548575,
+    "neo4j-materialized": 391298
+  },
+  "cassandra_table_counts": {},
+  "neo4j_graph_counts": {
+    "LWV2NativeMemory": 100000,
+    "LWV2NativeFeature": 100000,
+    "LWV2NativeEntity": 76475,
+    "LWV2MatMemory": 100000,
+    "LWV2MatEntity": 76475,
+    "LWV2MatCandidate": 42723,
+    "LWV2_HAS_FEATURE": 100000,
+    "LWV2_NATIVE_MENTIONS": 129156,
+    "LWV2_MAT_MENTIONS": 129156,
+    "LWV2_NATIVE_REL": 42944,
+    "LWV2_MAT_REL": 42944
+  },
+  "stage_times": [
+    {
+      "stage": "reset",
+      "seconds": 0.23174524307250977
+    },
+    {
+      "stage": "load:neo4j-native",
+      "seconds": 301.03764843940735
+    },
+    {
+      "stage": "load:neo4j-materialized",
+      "seconds": 307.6398527622223
+    }
+  ],
+  "elapsed_seconds": 692.6552970409393
+}

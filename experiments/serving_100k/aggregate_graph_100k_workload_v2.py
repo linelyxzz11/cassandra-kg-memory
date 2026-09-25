@@ -5,6 +5,7 @@ import csv
 import hashlib
 import json
 import statistics
+import argparse
 from pathlib import Path
 
 from cassmem.serving.environment import ROOT
@@ -21,11 +22,16 @@ def sha(path): return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
 def main():
+    parser=argparse.ArgumentParser()
+    parser.add_argument("--base",type=Path,default=BASE,help="Matrix directory; use a new path for reruns")
+    args=parser.parse_args()
+    base=args.base
+    runs=base/"runs"
     raw = []; missing = []
     for cell in CELLS:
         for concurrency in CONCURRENCIES:
             for rep in REPS:
-                path = RUNS / f"{cell}_c{concurrency}_r{rep}_summary.json"
+                path = runs / f"{cell}_c{concurrency}_r{rep}_summary.json"
                 if not path.exists(): missing.append(str(path)); continue
                 row = json.loads(path.read_text(encoding="utf-8")); row["source_sha256"] = sha(path); raw.append(row)
     if missing: raise SystemExit("Missing formal summaries:\n" + "\n".join(missing))
@@ -38,12 +44,12 @@ def main():
             for metric in METRICS:
                 values=[float(row[metric]) for row in group]; out[f"{metric}_median"] = statistics.median(values); out[f"{metric}_min"] = min(values); out[f"{metric}_max"] = max(values)
             out["status"]="PASS"; aggregate.append(out)
-    BASE.mkdir(parents=True,exist_ok=True)
+    base.mkdir(parents=True,exist_ok=True)
     for name, rows in (("main_95_5_runs.csv",raw),("main_95_5_summary.csv",aggregate)):
-        with (BASE/name).open("w",encoding="utf-8",newline="") as handle:
+        with (base/name).open("w",encoding="utf-8",newline="") as handle:
             writer=csv.DictWriter(handle,fieldnames=list(rows[0]));writer.writeheader();writer.writerows(rows)
-    manifest={"status":"PASS","protocol_id":"graph-aware-logical-event-v2-100k-95r5u","cells":list(CELLS),"concurrency":list(CONCURRENCIES),"repetitions":3,"formal_runs":len(raw),"operations_per_run":5000,"read_update_mix":"95:5","aggregation":"median of three run-level statistics; min/max retained","outputs":{name:sha(BASE/name) for name in ("main_95_5_runs.csv","main_95_5_summary.csv")}}
-    (BASE/"manifest.json").write_text(json.dumps(manifest,indent=2)+"\n",encoding="utf-8")
+    manifest={"status":"PASS","protocol_id":"graph-aware-logical-event-v2-100k-95r5u","cells":list(CELLS),"concurrency":list(CONCURRENCIES),"repetitions":3,"formal_runs":len(raw),"operations_per_run":5000,"read_update_mix":"95:5","aggregation":"median of three run-level statistics; min/max retained","outputs":{name:sha(base/name) for name in ("main_95_5_runs.csv","main_95_5_summary.csv")}}
+    (base/"manifest.json").write_text(json.dumps(manifest,indent=2)+"\n",encoding="utf-8")
     print(json.dumps(manifest,indent=2))
 
 

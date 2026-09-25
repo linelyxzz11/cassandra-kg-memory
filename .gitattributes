@@ -26,3 +26,8 @@
 *.npz binary
 *.sqlite binary
 *.db binary
+
+# Frozen serving evidence is verified by byte-level SHA-256. Keep its original
+# line endings instead of applying the text rules above at checkout.
+results/serving_100k/resource_matched_v3/resmatch_20260924_v3r2/** -text !eol
+results/serving_100k/locomo_workload_100k/traces/** -text !eol

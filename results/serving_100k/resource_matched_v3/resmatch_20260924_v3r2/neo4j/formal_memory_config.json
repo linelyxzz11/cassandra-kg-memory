@@ -1,0 +1,3 @@
+{
+  "neo4j_memory_settings": "server.memory.pagecache.size=3G\nserver.memory.heap.max_size=5G\nserver.memory.heap.initial_size=5G\n"
+}

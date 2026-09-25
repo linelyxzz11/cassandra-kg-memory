@@ -1,0 +1,75 @@
+{
+  "protocol_id": "locomo-100k-95r5u-v1",
+  "seed": 20260803,
+  "repetitions": [
+    {
+      "repetition": 0,
+      "files": [
+        {
+          "phase": "warmup",
+          "path": "results/serving_100k/locomo_workload_100k/traces/rep0_warmup.jsonl",
+          "rows": 500,
+          "sha256": "8766c05f088d76f0e7892e55b663a002c2697d2edc9883c525ac2c4d935c74c7",
+          "reads": 475,
+          "updates": 25,
+          "unique_update_targets": 25
+        },
+        {
+          "phase": "measured",
+          "path": "results/serving_100k/locomo_workload_100k/traces/rep0_measured.jsonl",
+          "rows": 5000,
+          "sha256": "650cd0bb37d3369d70b6998b7362f52045b30374799aa0c485ac85823e7e9911",
+          "reads": 4750,
+          "updates": 250,
+          "unique_update_targets": 250
+        }
+      ]
+    },
+    {
+      "repetition": 1,
+      "files": [
+        {
+          "phase": "warmup",
+          "path": "results/serving_100k/locomo_workload_100k/traces/rep1_warmup.jsonl",
+          "rows": 500,
+          "sha256": "1c6ee5baa6f80f43c37a62b36275931e0ad10047f7212f08b4db07a93d9d08c7",
+          "reads": 475,
+          "updates": 25,
+          "unique_update_targets": 25
+        },
+        {
+          "phase": "measured",
+          "path": "results/serving_100k/locomo_workload_100k/traces/rep1_measured.jsonl",
+          "rows": 5000,
+          "sha256": "3cd5051cac331b4831b85ed15b135d4a69ca64eee5ef11b3135763b28214c4ec",
+          "reads": 4750,
+          "updates": 250,
+          "unique_update_targets": 250
+        }
+      ]
+    },
+    {
+      "repetition": 2,
+      "files": [
+        {
+          "phase": "warmup",
+          "path": "results/serving_100k/locomo_workload_100k/traces/rep2_warmup.jsonl",
+          "rows": 500,
+          "sha256": "b1f0f462223944b35f9f2ec5a2f1812fef36019dbbb2da8e54f98cd68b26c988",
+          "reads": 475,
+          "updates": 25,
+          "unique_update_targets": 25
+        },
+        {
+          "phase": "measured",
+          "path": "results/serving_100k/locomo_workload_100k/traces/rep2_measured.jsonl",
+          "rows": 5000,
+          "sha256": "0ccb2b99a762883589341a12883998966b269001cc7387c0d1a0265226347fc4",
+          "reads": 4750,
+          "updates": 250,
+          "unique_update_targets": 250
+        }
+      ]
+    }
+  ]
+}

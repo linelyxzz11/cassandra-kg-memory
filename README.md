@@ -33,7 +33,7 @@ Cassandra-native serving state
         |
         v
 update-to-retrieval path
-arrival -> backend commit -> structured view -> indexes -> observed Top-k
+arrival -> raw-write acknowledgement -> structured view -> indexes -> observed Top-k
 ~~~
 
 ### Logical memory and retrieval
@@ -62,8 +62,8 @@ reference before latency or throughput differences are interpreted.
 
 ### Online updates
 
-A committed row is not yet retrieval-ready. The online pipeline distinguishes raw
-backend commit, structured-view visibility, sparse and dense index visibility, and
+A raw-write acknowledgement is not yet retrieval-ready. The online pipeline distinguishes raw
+backend acknowledgement, structured-view visibility, sparse and dense index visibility, and
 the result of a post-update ranking. The current measurements report update-stage
 latency and observed Top-10 hits; a non-hit is not automatically classified as a
 backend freshness failure.
@@ -75,11 +75,11 @@ backend freshness failure.
 | Retrieval effectiveness | [`results/retrieval/retrieval_main_table/`](results/retrieval/retrieval_main_table/) |
 | Reader answer quality | [`results/reader/reader_main_hingemem_style/`](results/reader/reader_main_hingemem_style/) |
 | Backend semantic preservation | [`results/backend_equivalence/backend_equivalence_v2/`](results/backend_equivalence/backend_equivalence_v2/) |
-| Four-cell 100K serving workload | [`results/serving_100k/locomo_workload_graph_v2_100k/`](results/serving_100k/locomo_workload_graph_v2_100k/) |
-| Online update stages and observed Top-10 visibility | [`results/freshness/experiment11_online_freshness_v2/`](results/freshness/experiment11_online_freshness_v2/) |
+| Resource-matched four-cell 100K serving and online freshness | [`results/serving_100k/resource_matched_v3/`](results/serving_100k/resource_matched_v3/) and [results note](docs/RESOURCE_MATCHED_SERVING_RERUN_RESULTS.md) |
+| Earlier query-type, storage-work, and application-worker recovery experiments | [`results/serving_100k/locomo_workload_graph_v2_100k/`](results/serving_100k/locomo_workload_graph_v2_100k/) |
 | Supported claims and limitations | [`docs/CLAIMS_AND_EVIDENCE.md`](docs/CLAIMS_AND_EVIDENCE.md) |
 | Experiment status | [`docs/EXPERIMENT_REGISTRY.csv`](docs/EXPERIMENT_REGISTRY.csv) |
-| Artifact hashes | [`results/ARTIFACT_MANIFEST.csv`](results/ARTIFACT_MANIFEST.csv) |
+| Artifact hashes | [`results/ARTIFACT_MANIFEST.csv`](results/ARTIFACT_MANIFEST.csv) for earlier artifacts; the resource-matched run freezes source and trace hashes in [`protocol.json`](results/serving_100k/resource_matched_v3/resmatch_20260924_v3r2/protocol.json) |
 
 The Chinese System Design draft is maintained in
 [`docs/SYSTEM_DESIGN_ZH.md`](docs/SYSTEM_DESIGN_ZH.md). Formula-to-code checks are
@@ -135,6 +135,10 @@ Detailed prerequisites and experiment commands are documented in
   disaster recovery.
 - Online Top-10 measurements use a post-update query. They do not estimate a
   continuously monitored first-hit time or Top-k convergence latency.
+- Freshness `t_commit_ms` includes application worker queueing; it is not database
+  commit latency. The resource-matched rerun reports queue wait and client-observed
+  raw-write call time separately. These acknowledgements are not a durability-matched
+  comparison of the two engines.
 - Historical prototypes and superseded runs are intentionally excluded from this
   public artifact; the evidence map above is the citation authority.
 

@@ -1,0 +1,46 @@
+{
+  "name": "/cassmem-resmatch-20260924-v3r2-neo4j",
+  "created": "2026-09-24T11:48:18.497923844Z",
+  "image_id": "sha256:0b5d3ab6ec1b866890dbfb53bf4fe1cf039f9e03c96165599a403005b7e7bcc3",
+  "cpu_quota": 0,
+  "nano_cpus": 8000000000,
+  "memory_bytes": 12884901888,
+  "memory_swap_bytes": 12884901888,
+  "mounts": [
+    {
+      "type": "volume",
+      "name": "cassmem_resmatch_20260924_v3r2_neo4j_data",
+      "destination": "/data"
+    },
+    {
+      "type": "volume",
+      "name": "77aef0dc1ae5da069505fb4c3b44c6c284063c8efb118a27f05e36a168f6d02b",
+      "destination": "/logs"
+    }
+  ],
+  "ports": {
+    "7687/tcp": [
+      {
+        "HostIp": "0.0.0.0",
+        "HostPort": "17687"
+      },
+      {
+        "HostIp": "::",
+        "HostPort": "17687"
+      }
+    ]
+  },
+  "env_names": [
+    "JAVA_HOME",
+    "LANG",
+    "NEO4J_AUTH",
+    "NEO4J_EDITION",
+    "NEO4J_HOME",
+    "NEO4J_SHA256",
+    "NEO4J_TARBALL",
+    "NEO4J_server_memory_heap_initial__size",
+    "NEO4J_server_memory_heap_max__size",
+    "NEO4J_server_memory_pagecache_size",
+    "PATH"
+  ]
+}

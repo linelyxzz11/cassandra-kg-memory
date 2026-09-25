@@ -27,19 +27,30 @@ does not establish that arbitrary physical layouts are equivalent.
 
 ## Serving under a fixed 100K workload
 
-The graph-aware four-cell evaluation covers Cassandra base/materialized and Neo4j
-native/materialized paths under the same fixed 100K logical workload. Canonical
-tables, storage work, query-type results, and recovery summaries are in
-`results/serving_100k/locomo_workload_graph_v2_100k/`.
+The resource-matched four-cell evaluation covers Cassandra base/materialized and
+Neo4j native/materialized paths under the same fixed 100K logical workload. Its
+formal results, per-event records, frozen configuration, resource samples, and
+strict audit are in `results/serving_100k/resource_matched_v3/resmatch_20260924_v3r2/`.
+The [results note](RESOURCE_MATCHED_SERVING_RERUN_RESULTS.md) defines the matched
+container budget and timing boundaries. Earlier query-type, storage-work, and
+application-worker recovery results remain in
+`results/serving_100k/locomo_workload_graph_v2_100k/`; they are not substituted
+for the new resource-matched main workload.
 
 The supported wording is **concurrency scaling under a fixed 100K workload**. The
 single-machine, single-instance experiment does not support distributed scale-out,
-cluster failover, or disaster-recovery claims.
+an intrinsic database-engine speed ranking, equal crash durability, cluster failover,
+or disaster-recovery claims.
 
 ## Retrieval freshness
 
-`results/freshness/experiment11_online_freshness_v2/` separates backend commit,
-structured-view visibility, index visibility, and observed ranking visibility.
+The resource-matched freshness records in
+`results/serving_100k/resource_matched_v3/resmatch_20260924_v3r2/freshness/`
+separate application worker queue wait, client-observed raw-write acknowledgement,
+structured-view checks, index visibility, and completed post-update ranking.
+The legacy field `t_commit_ms` includes queueing and must not be labeled database
+commit latency. The older `results/freshness/experiment11_online_freshness_v2/`
+is retained only as historical evidence.
 An updated memory that does not enter Top-10 is not automatically a backend
 freshness failure. The current artifact does not claim continuously monitored
 first-hit latency or full Top-k convergence latency.
