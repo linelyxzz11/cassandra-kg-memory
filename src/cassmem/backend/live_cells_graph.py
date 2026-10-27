@@ -97,9 +97,15 @@ class CassandraGraphCells:
             self.s.execute(self.p["mmraw"], (r.scope_id, r.memory_id, r.version, r.raw_text, r.embedding_sha256))
 
     def write_structured(self, cell: str, r: GraphRecord):
-        """Complete the graph-aware logical event after the raw commit."""
+        """Replace per-memory structure after raw commit (same-ID writers serialized).
+
+        Remove obsolete keys before publishing the target rows in the same logged
+        batch. Shared entity dictionaries are retained: other memories may use them.
+        A logged batch is not an atomic snapshot across these partitions/indexes.
+        """
         from cassandra.query import BatchStatement, BatchType
         batch = BatchStatement(batch_type=BatchType.LOGGED)
+        self._remove_obsolete_structure(batch, cell, r)
         if cell == "cassandra-base":
             batch.add(self.p["bf"], (r.scope_id, r.memory_id, r.entities, r.relations, r.keywords, r.triples))
             for entity in r.graph_entities:
@@ -120,6 +126,41 @@ class CassandraGraphCells:
                 batch.add(self.p["medgem"], (r.scope_id, r.memory_id, edge["ordinal"], edge["src"], edge["relation"], edge["dst"]))
                 batch.add(self.p["mrel"], (r.scope_id, edge["relation"], r.memory_id, edge["ordinal"], edge["src"], edge["dst"]))
         self.s.execute(batch)
+
+    def _remove_obsolete_structure(self, batch, cell: str, r: GraphRecord):
+        prefix = "g_base" if cell == "cassandra-base" else "g_mat"
+        scope, mid = r.scope_id, r.memory_id
+        old_mentions = self.s.execute(
+            f"SELECT entity_id FROM {prefix}_mentions_by_memory WHERE scope_id=%s AND memory_id=%s",
+            (scope, mid))
+        wanted_mentions = set(r.mentions)
+        for row in old_mentions:
+            if row.entity_id not in wanted_mentions:
+                batch.add(f"DELETE FROM {prefix}_mentions_by_memory WHERE scope_id=%s AND memory_id=%s AND entity_id=%s",
+                          (scope, mid, row.entity_id))
+        old_edges = self.s.execute(
+            f"SELECT ordinal,src,relation,dst FROM {prefix}_edges_by_memory WHERE scope_id=%s AND memory_id=%s",
+            (scope, mid))
+        wanted_edges = {(e['ordinal'], e['src'], e['relation'], e['dst']) for e in r.edges}
+        wanted_ordinals = {e['ordinal'] for e in r.edges}
+        for edge in old_edges:
+            key = (int(edge.ordinal), edge.src, edge.relation, edge.dst)
+            if key in wanted_edges:
+                continue
+            # Do not delete keys also inserted in this batch: equal-timestamp
+            # Cassandra tombstones win over writes. Reused ordinals are overwritten.
+            if int(edge.ordinal) not in wanted_ordinals:
+                batch.add(f"DELETE FROM {prefix}_edges_by_memory WHERE scope_id=%s AND memory_id=%s AND ordinal=%s",
+                          (scope, mid, edge.ordinal))
+                if cell == "cassandra-base":
+                    batch.add("DELETE FROM g_base_edges_by_scope WHERE scope_id=%s AND memory_id=%s AND ordinal=%s",
+                              (scope, mid, edge.ordinal))
+            if cell == "cassandra-base":
+                batch.add("DELETE FROM g_base_edges_by_src WHERE scope_id=%s AND src=%s AND relation=%s AND dst=%s AND memory_id=%s AND ordinal=%s",
+                          (scope, edge.src, edge.relation, edge.dst, mid, edge.ordinal))
+            else:
+                batch.add("DELETE FROM g_mat_by_scope_relation WHERE scope_id=%s AND relation=%s AND memory_id=%s AND ordinal=%s AND src=%s AND dst=%s",
+                          (scope, edge.relation, mid, edge.ordinal, edge.src, edge.dst))
 
     def delete(self, cell: str, r: GraphRecord):
         if cell == "cassandra-base":
@@ -274,6 +315,12 @@ class Neo4jGraphCells:
         if cell == "neo4j-native":
             query = """
             MATCH (m:LWV2NativeMemory {scope_id:$p.scope_id,memory_id:$p.memory_id})
+            WITH m,$p AS p
+            CALL (m,p) { MATCH (m)-[obsolete:LWV2_NATIVE_MENTIONS]->(e)
+                WHERE NOT e.entity_id IN p.mentions DELETE obsolete RETURN count(*) AS removed_mentions }
+            CALL (p) { MATCH (src)-[obsolete:LWV2_NATIVE_REL {scope_id:p.scope_id,memory_id:p.memory_id}]->(dst)
+                WHERE NOT any(edge IN p.edges WHERE edge.ordinal=obsolete.ordinal AND edge.src=src.entity_id AND edge.dst=dst.entity_id AND edge.relation=obsolete.relation)
+                DELETE obsolete RETURN count(*) AS removed_edges }
             MERGE (f:LWV2NativeFeature {scope_id:$p.scope_id,memory_id:$p.memory_id})
             SET f.entities=$p.entities,f.relations=$p.relations,f.keywords=$p.keywords,f.triples=$p.triples
             MERGE (m)-[:LWV2_HAS_FEATURE]->(f)
@@ -286,6 +333,15 @@ class Neo4jGraphCells:
         else:
             query = """
             MATCH (m:LWV2MatMemory {scope_id:$p.scope_id,memory_id:$p.memory_id})
+            WITH m,$p AS p
+            CALL (m,p) { MATCH (m)-[obsolete:LWV2_MAT_MENTIONS]->(e)
+                WHERE NOT e.entity_id IN p.mentions DELETE obsolete RETURN count(*) AS removed_mentions }
+            CALL (p) { MATCH (src)-[obsolete:LWV2_MAT_REL {scope_id:p.scope_id,memory_id:p.memory_id}]->(dst)
+                WHERE NOT any(edge IN p.edges WHERE edge.ordinal=obsolete.ordinal AND edge.src=src.entity_id AND edge.dst=dst.entity_id AND edge.relation=obsolete.relation)
+                DELETE obsolete RETURN count(*) AS removed_edges }
+            CALL (p) { MATCH (obsolete:LWV2MatCandidate {scope_id:p.scope_id,memory_id:p.memory_id})
+                WHERE NOT any(edge IN p.edges WHERE edge.relation=obsolete.relation)
+                DELETE obsolete RETURN count(*) AS removed_candidates }
             SET m.entities=$p.entities,m.relations=$p.relations,m.keywords=$p.keywords,m.triples=$p.triples,m.rawerk=$p.rawerk
             WITH m,$p AS p
             CALL (p) { UNWIND p.graph_entities AS entity MERGE (:LWV2MatEntity {scope_id:p.scope_id,entity_id:entity}) RETURN count(*) AS n1 }

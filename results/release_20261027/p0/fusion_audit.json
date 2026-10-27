@@ -1,0 +1,8 @@
+{
+  "heldout_n": 1146,
+  "dev_n": 390,
+  "dev_mrr": 0.5380291005291008,
+  "heldout_mrr": 0.5498223635003742,
+  "ordered_top10_and_six_metrics_match": true,
+  "historical_05426": "retired historical summary; original matching per-query output not recovered; no guessed causal attribution"
+}

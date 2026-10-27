@@ -1,0 +1,8 @@
+{
+  "observations": 498,
+  "failed_scope_checks": 0,
+  "update_events": 120,
+  "external_update_mismatches": 0,
+  "overlapping_reads": 60,
+  "validation_pending": true
+}

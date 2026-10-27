@@ -1,0 +1,16 @@
+[
+  {
+    "method": "CassMem",
+    "setting": "a_unified",
+    "historical_j": 0.6042296072507553,
+    "new_shared_j": 0.6057401812688822,
+    "delta_new_minus_historical": 0.0015105740181269312
+  },
+  {
+    "method": "CassMem",
+    "setting": "b_category",
+    "historical_j": 0.7311178247734139,
+    "new_shared_j": 0.7346424974823766,
+    "delta_new_minus_historical": 0.0035246727089627283
+  }
+]

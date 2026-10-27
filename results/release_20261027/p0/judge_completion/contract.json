@@ -1,0 +1,15 @@
+{
+  "endpoint": "https://api.uiuihao.com/v1/chat/completions",
+  "model": "gpt-4o-2024-08-06",
+  "temperature": 0,
+  "max_tokens": 80,
+  "response_format": {
+    "type": "json_object"
+  },
+  "prompt_template_sha256": "19157f488d4bab878b0d761b1279c39b6e2699f33adb0fdd0462259340ff0255",
+  "inputs_sha256": {
+    "D:\\memorytable\\cassandra-kg-memory\\results\\p0_audit_20261012\\judge_completion_pending_prompts.json": "37f32042d75ddee92f5ffd3f2246842f051b81351bc1681d30c00eae565b43c0",
+    "D:\\memorytable\\cassandra-kg-memory\\results\\p0_audit_20261012\\judge_completion_row_map.json": "bdb07a18ff2fce1970ab819bc0b9d440371c142faa02de2d756f5479be925645",
+    "D:\\memorytable\\tmp\\hipporag2-reader-full5-eval\\judge_unique.jsonl": "05af5ef984b2aa9e49dee54c3eb13d9aab6bab6be6416a27b37cdd7756c7c0e1"
+  }
+}

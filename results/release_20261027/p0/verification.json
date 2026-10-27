@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "independent_cluster_ci_checks": [
+    "full1986/a_unified/F1",
+    "full1986/a_unified/B1",
+    "heldout1487/a_unified/F1",
+    "heldout1487/a_unified/B1",
+    "full1986/b_category/F1",
+    "full1986/b_category/B1",
+    "heldout1487/b_category/F1",
+    "heldout1487/b_category/B1"
+  ],
+  "invariant_checks": [
+    "zero_difference",
+    "constant_difference",
+    "sign_symmetry"
+  ],
+  "all_input_hashes_unchanged": true
+}

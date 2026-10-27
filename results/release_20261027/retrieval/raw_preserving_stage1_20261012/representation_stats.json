@@ -1,0 +1,83 @@
+[
+  {
+    "variant": "Raw",
+    "n": 5882,
+    "empty": 0,
+    "chars_mean": 123.51751105066305,
+    "chars_p95": 257.0,
+    "whitespace_tokens_mean": 22.742604556273378,
+    "dense_chars_over1500": 0
+  },
+  {
+    "variant": "RawE",
+    "n": 5882,
+    "empty": 0,
+    "chars_mean": 134.3600816048963,
+    "chars_p95": 285.0,
+    "whitespace_tokens_mean": 24.43420605236314,
+    "dense_chars_over1500": 0
+  },
+  {
+    "variant": "RawR",
+    "n": 5882,
+    "empty": 0,
+    "chars_mean": 127.46582794967698,
+    "chars_p95": 265.9499999999998,
+    "whitespace_tokens_mean": 23.55100306018361,
+    "dense_chars_over1500": 0
+  },
+  {
+    "variant": "RawK",
+    "n": 5882,
+    "empty": 0,
+    "chars_mean": 171.13889833390004,
+    "chars_p95": 407.9499999999998,
+    "whitespace_tokens_mean": 29.230703842230533,
+    "dense_chars_over1500": 0
+  },
+  {
+    "variant": "RawER",
+    "n": 5882,
+    "empty": 0,
+    "chars_mean": 138.30839850391024,
+    "chars_p95": 295.0,
+    "whitespace_tokens_mean": 25.242604556273378,
+    "dense_chars_over1500": 0
+  },
+  {
+    "variant": "RawEK",
+    "n": 5882,
+    "empty": 0,
+    "chars_mean": 181.9814688881333,
+    "chars_p95": 439.0,
+    "whitespace_tokens_mean": 30.9223053383203,
+    "dense_chars_over1500": 0
+  },
+  {
+    "variant": "RawRK",
+    "n": 5882,
+    "empty": 0,
+    "chars_mean": 175.08721523291396,
+    "chars_p95": 418.0,
+    "whitespace_tokens_mean": 30.03910234614077,
+    "dense_chars_over1500": 0
+  },
+  {
+    "variant": "RawERK",
+    "n": 5882,
+    "empty": 0,
+    "chars_mean": 185.92978578714724,
+    "chars_p95": 450.0,
+    "whitespace_tokens_mean": 31.730703842230533,
+    "dense_chars_over1500": 0
+  },
+  {
+    "variant": "ERK",
+    "n": 5882,
+    "empty": 3529,
+    "chars_mean": 62.01224073444406,
+    "chars_p95": 203.0,
+    "whitespace_tokens_mean": 8.988099285957157,
+    "dense_chars_over1500": 0
+  }
+]

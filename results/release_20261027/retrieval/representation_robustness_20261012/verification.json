@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "conditions_verified": 83,
+  "independent_metric_checks": 11473920,
+  "raw_invariance": true,
+  "endpoint_checks": "checked where present",
+  "complete": true
+}

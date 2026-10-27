@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "methods": 26,
+  "per_query_rows": 29796,
+  "independent_metric_checks": 178776,
+  "legacy_eight_variants_metric_checks": 55008,
+  "independent_full_10000_cluster_CIs": 24,
+  "all_source_hashes_unchanged": true
+}

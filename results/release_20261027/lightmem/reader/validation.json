@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "scopes": 10,
+  "questions": 1986,
+  "rows": 3972,
+  "supplemental_questions": 1487,
+  "reader_and_judge_cache_exact": true,
+  "f1_b1_recomputed": true,
+  "all_summary_cells_verified": true,
+  "new_api_calls": 0
+}

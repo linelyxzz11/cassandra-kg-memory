@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "conditions": 83,
+  "methods": 15,
+  "primary_queries": 1146,
+  "all_queries": 1536,
+  "reader_calls": 0,
+  "judge_calls": 0,
+  "verification": true
+}

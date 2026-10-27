@@ -1,0 +1,74 @@
+[
+  {
+    "population": "full1986",
+    "setting": "a_unified",
+    "method": "CassMem",
+    "n": 1986,
+    "f1": 0.3859051736265712,
+    "b1": 0.3126563193006561,
+    "j": 0.6057401812688822
+  },
+  {
+    "population": "full1986",
+    "setting": "a_unified",
+    "method": "HippoRAG2",
+    "n": 1986,
+    "f1": 0.35557008210873947,
+    "b1": 0.2920888475756918,
+    "j": 0.5825780463242699
+  },
+  {
+    "population": "heldout1487",
+    "setting": "a_unified",
+    "method": "CassMem",
+    "n": 1487,
+    "f1": 0.39248417869286484,
+    "b1": 0.3206371255740538,
+    "j": 0.6180228648285138
+  },
+  {
+    "population": "heldout1487",
+    "setting": "a_unified",
+    "method": "HippoRAG2",
+    "n": 1487,
+    "f1": 0.359816334901191,
+    "b1": 0.299350162595411,
+    "j": 0.5965030262273033
+  },
+  {
+    "population": "full1986",
+    "setting": "b_category",
+    "method": "CassMem",
+    "n": 1986,
+    "f1": 0.5856358775601368,
+    "b1": 0.5096158954703436,
+    "j": 0.7346424974823766
+  },
+  {
+    "population": "full1986",
+    "setting": "b_category",
+    "method": "HippoRAG2",
+    "n": 1986,
+    "f1": 0.5723874620005363,
+    "b1": 0.4957323526292253,
+    "j": 0.7260825780463243
+  },
+  {
+    "population": "heldout1487",
+    "setting": "b_category",
+    "method": "CassMem",
+    "n": 1487,
+    "f1": 0.5937962072046415,
+    "b1": 0.5179998357644405,
+    "j": 0.7464694014794889
+  },
+  {
+    "population": "heldout1487",
+    "setting": "b_category",
+    "method": "HippoRAG2",
+    "n": 1487,
+    "f1": 0.5814473452389542,
+    "b1": 0.5041266126608537,
+    "j": 0.7451244115669132
+  }
+]

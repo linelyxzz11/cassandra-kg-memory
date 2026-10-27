@@ -1,0 +1,12 @@
+{
+  "queries": 1146,
+  "observations": 5730,
+  "failed": 0,
+  "state_failures": 0,
+  "remaining": [
+    "S2",
+    "S3",
+    "S5",
+    "fault_control"
+  ]
+}

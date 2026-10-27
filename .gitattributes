@@ -31,3 +31,7 @@
 # line endings instead of applying the text rules above at checkout.
 results/serving_100k/resource_matched_v3/resmatch_20260924_v3r2/** -text !eol
 results/serving_100k/locomo_workload_100k/traces/** -text !eol
+
+# October source snapshots and compact exports retain their source SHA-256.
+experiments/snapshots/** -text !eol whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+results/release_20261027/** -text !eol whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

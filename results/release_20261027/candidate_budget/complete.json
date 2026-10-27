@@ -1,0 +1,10 @@
+{
+  "quality": true,
+  "bootstrap": true,
+  "cached_postprocessing_timing": true,
+  "online_scoring_timing": false,
+  "unique_queries": 1536,
+  "heldout": 1146,
+  "rows": 119808,
+  "parity": true
+}

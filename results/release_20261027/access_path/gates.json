@@ -1,0 +1,146 @@
+[
+  {
+    "trial": "cassandra-base_s20261015",
+    "gate": "load_gate.json",
+    "passed": true,
+    "overhead": null
+  },
+  {
+    "trial": "cassandra-base_s20261015",
+    "gate": "smoke/checks.json",
+    "passed": true,
+    "overhead": null
+  },
+  {
+    "trial": "cassandra-base_s20261015",
+    "gate": "overhead_projection.json",
+    "passed": true,
+    "overhead": 0.004828011029494705
+  },
+  {
+    "trial": "cassandra-base_s20261015",
+    "gate": "overhead_relation.json",
+    "passed": true,
+    "overhead": -0.03973123155788566
+  },
+  {
+    "trial": "cassandra-base_s20261016",
+    "gate": "load_gate.json",
+    "passed": true,
+    "overhead": null
+  },
+  {
+    "trial": "cassandra-base_s20261016",
+    "gate": "smoke/checks.json",
+    "passed": true,
+    "overhead": null
+  },
+  {
+    "trial": "cassandra-base_s20261016",
+    "gate": "overhead_projection.json",
+    "passed": true,
+    "overhead": 0.003114585950094395
+  },
+  {
+    "trial": "cassandra-base_s20261016",
+    "gate": "overhead_relation.json",
+    "passed": true,
+    "overhead": -0.03750861728867477
+  },
+  {
+    "trial": "cassandra-base_s20261017",
+    "gate": "load_gate.json",
+    "passed": true,
+    "overhead": null
+  },
+  {
+    "trial": "cassandra-base_s20261017",
+    "gate": "smoke/checks.json",
+    "passed": true,
+    "overhead": null
+  },
+  {
+    "trial": "cassandra-base_s20261017",
+    "gate": "overhead_projection.json",
+    "passed": true,
+    "overhead": 0.0026766666307259657
+  },
+  {
+    "trial": "cassandra-base_s20261017",
+    "gate": "overhead_relation.json",
+    "passed": true,
+    "overhead": -0.020943866710845138
+  },
+  {
+    "trial": "cassandra-materialized_s20261015",
+    "gate": "load_gate.json",
+    "passed": true,
+    "overhead": null
+  },
+  {
+    "trial": "cassandra-materialized_s20261015",
+    "gate": "smoke/checks.json",
+    "passed": true,
+    "overhead": null
+  },
+  {
+    "trial": "cassandra-materialized_s20261015",
+    "gate": "overhead_projection.json",
+    "passed": true,
+    "overhead": -0.0032101514984920754
+  },
+  {
+    "trial": "cassandra-materialized_s20261015",
+    "gate": "overhead_relation.json",
+    "passed": true,
+    "overhead": -0.008443581744981221
+  },
+  {
+    "trial": "cassandra-materialized_s20261016",
+    "gate": "load_gate.json",
+    "passed": true,
+    "overhead": null
+  },
+  {
+    "trial": "cassandra-materialized_s20261016",
+    "gate": "smoke/checks.json",
+    "passed": true,
+    "overhead": null
+  },
+  {
+    "trial": "cassandra-materialized_s20261016",
+    "gate": "overhead_projection.json",
+    "passed": true,
+    "overhead": -0.004347098838562546
+  },
+  {
+    "trial": "cassandra-materialized_s20261016",
+    "gate": "overhead_relation.json",
+    "passed": true,
+    "overhead": -0.009499702785644937
+  },
+  {
+    "trial": "cassandra-materialized_s20261017",
+    "gate": "load_gate.json",
+    "passed": true,
+    "overhead": null
+  },
+  {
+    "trial": "cassandra-materialized_s20261017",
+    "gate": "smoke/checks.json",
+    "passed": true,
+    "overhead": null
+  },
+  {
+    "trial": "cassandra-materialized_s20261017",
+    "gate": "overhead_projection.json",
+    "passed": true,
+    "overhead": 0.00406925503846034
+  },
+  {
+    "trial": "cassandra-materialized_s20261017",
+    "gate": "overhead_relation.json",
+    "passed": true,
+    "overhead": -0.00012359902049530191
+  }
+]

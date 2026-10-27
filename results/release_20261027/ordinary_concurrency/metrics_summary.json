@@ -1,0 +1,2487 @@
+[
+  {
+    "point_id": "01_disjoint_20261015_uncoordinated",
+    "arm": "uncoordinated",
+    "pattern": "disjoint",
+    "seed": 20261015,
+    "smoke": false,
+    "status": "PASS",
+    "errors": [],
+    "phases": {
+      "warmup": {
+        "receive_lag_p95_ms": 3.5970599999999964,
+        "offered_load_valid": true,
+        "operations": 1200,
+        "receiver_to_dispatch_p95_ms": 11.028754999999995,
+        "completed_by_deadline": 1200
+      },
+      "measured": {
+        "receive_lag_p95_ms": 3.4928099999999964,
+        "offered_load_valid": true,
+        "operations": 2400,
+        "receiver_to_dispatch_p95_ms": 12.108054999999968,
+        "completed_by_deadline": 2400
+      }
+    },
+    "updates": 120,
+    "reads": 2280,
+    "ready_updates": 120,
+    "ready_by_deadline": 120,
+    "outcomes": {
+      "applied": 120
+    },
+    "execution_errors": 0,
+    "final_keys": 180,
+    "final_mismatches": 0,
+    "final_failures": [],
+    "snapshot_content_mismatches": 0,
+    "mixed_target_snapshots": 181,
+    "requested_target_lag_snapshots": 350,
+    "target_post_ready_eligible": 1614,
+    "target_post_ready_stale": 0,
+    "returned_post_ready_eligible": 43,
+    "returned_post_ready_stale": 0,
+    "returned_cross_scope_leaks": 0,
+    "candidate_cross_scope_leaks": 0,
+    "service_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "mutation_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "latencies_ms": {
+      "arrival_to_ready": {
+        "n": 120,
+        "p50": 297.76869999999997,
+        "p95": 570.213765,
+        "p99": 647.486401
+      },
+      "planned_to_ready": {
+        "n": 120,
+        "p50": 299.17025,
+        "p95": 570.9476699999999,
+        "p99": 648.961554
+      },
+      "read_arrival_to_query": {
+        "n": 2280,
+        "p50": 24.28215,
+        "p95": 115.69223999999967,
+        "p99": 293.5192720000001
+      },
+      "read_arrival_to_response": {
+        "n": 2280,
+        "p50": 24.52335,
+        "p95": 117.20847999999997,
+        "p99": 293.6887410000001
+      },
+      "read_queue": {
+        "n": 2280,
+        "p50": 0.4084,
+        "p95": 17.02777499999993,
+        "p99": 189.32556300000005
+      },
+      "update_queue": {
+        "n": 120,
+        "p50": 0.44415000000000004,
+        "p95": 1.4543949999999983,
+        "p99": 103.50423800000013
+      },
+      "id_lock_wait": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null
+      },
+      "id_lock_hold": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null
+      },
+      "raw_write": {
+        "n": 120,
+        "p50": 11.3975,
+        "p95": 21.157894999999996,
+        "p99": 23.170227
+      },
+      "structured": {
+        "n": 120,
+        "p50": 45.65115,
+        "p95": 49.966405,
+        "p99": 53.189224
+      },
+      "sparse_update": {
+        "n": 120,
+        "p50": 92.62530000000001,
+        "p95": 142.40940499999942,
+        "p99": 399.5618630000001
+      },
+      "dense_update": {
+        "n": 120,
+        "p50": 19.79085,
+        "p95": 33.472514999999994,
+        "p99": 68.94769800000002
+      },
+      "ready_checks": {
+        "n": 120,
+        "p50": 74.52699999999999,
+        "p95": 96.01852,
+        "p99": 107.087643
+      }
+    },
+    "responses_during_injection_per_s": 20.0,
+    "responses_by_deadline": 2400,
+    "readiness_denominator_note": "Percentiles condition on a confirmed-ready target version; counts and all other outcomes retained. This is not saturation capacity."
+  },
+  {
+    "point_id": "02_disjoint_20261015_serialized",
+    "arm": "serialized",
+    "pattern": "disjoint",
+    "seed": 20261015,
+    "smoke": false,
+    "status": "PASS",
+    "errors": [],
+    "phases": {
+      "warmup": {
+        "receive_lag_p95_ms": 2.2388699999999995,
+        "offered_load_valid": true,
+        "operations": 1200,
+        "receiver_to_dispatch_p95_ms": 7.934454999999996,
+        "completed_by_deadline": 1200
+      },
+      "measured": {
+        "receive_lag_p95_ms": 3.3563249999999947,
+        "offered_load_valid": true,
+        "operations": 2400,
+        "receiver_to_dispatch_p95_ms": 11.498324999999996,
+        "completed_by_deadline": 2400
+      }
+    },
+    "updates": 120,
+    "reads": 2280,
+    "ready_updates": 120,
+    "ready_by_deadline": 120,
+    "outcomes": {
+      "applied": 120
+    },
+    "execution_errors": 0,
+    "final_keys": 180,
+    "final_mismatches": 0,
+    "final_failures": [],
+    "snapshot_content_mismatches": 0,
+    "mixed_target_snapshots": 150,
+    "requested_target_lag_snapshots": 314,
+    "target_post_ready_eligible": 1627,
+    "target_post_ready_stale": 0,
+    "returned_post_ready_eligible": 44,
+    "returned_post_ready_stale": 0,
+    "returned_cross_scope_leaks": 0,
+    "candidate_cross_scope_leaks": 0,
+    "service_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "mutation_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "latencies_ms": {
+      "arrival_to_ready": {
+        "n": 120,
+        "p50": 287.74,
+        "p95": 520.6705249999999,
+        "p99": 630.467274
+      },
+      "planned_to_ready": {
+        "n": 120,
+        "p50": 289.5132,
+        "p95": 521.045765,
+        "p99": 632.779743
+      },
+      "read_arrival_to_query": {
+        "n": 2280,
+        "p50": 24.0696,
+        "p95": 116.17871999999993,
+        "p99": 279.112521
+      },
+      "read_arrival_to_response": {
+        "n": 2280,
+        "p50": 24.27965,
+        "p95": 117.15643999999979,
+        "p99": 290.883591
+      },
+      "read_queue": {
+        "n": 2280,
+        "p50": 0.36939999999999995,
+        "p95": 15.643709999999972,
+        "p99": 170.015352
+      },
+      "update_queue": {
+        "n": 120,
+        "p50": 0.3546,
+        "p95": 2.2653749999999997,
+        "p99": 103.5819770000002
+      },
+      "id_lock_wait": {
+        "n": 120,
+        "p50": 0.0065,
+        "p95": 0.009105,
+        "p99": 0.011939000000000005
+      },
+      "id_lock_hold": {
+        "n": 120,
+        "p50": 285.87085,
+        "p95": 517.6821,
+        "p99": 629.5407120000001
+      },
+      "raw_write": {
+        "n": 120,
+        "p50": 11.99395,
+        "p95": 18.59469,
+        "p99": 20.331089000000002
+      },
+      "structured": {
+        "n": 120,
+        "p50": 45.9594,
+        "p95": 52.142984999999996,
+        "p99": 59.89010900000001
+      },
+      "sparse_update": {
+        "n": 120,
+        "p50": 90.4282,
+        "p95": 259.7870799999999,
+        "p99": 386.2984650000001
+      },
+      "dense_update": {
+        "n": 120,
+        "p50": 17.10185,
+        "p95": 28.483420000000002,
+        "p99": 65.49070200000006
+      },
+      "ready_checks": {
+        "n": 120,
+        "p50": 74.00305,
+        "p95": 96.52437499999999,
+        "p99": 110.85962200000002
+      }
+    },
+    "responses_during_injection_per_s": 20.0,
+    "responses_by_deadline": 2400,
+    "readiness_denominator_note": "Percentiles condition on a confirmed-ready target version; counts and all other outcomes retained. This is not saturation capacity."
+  },
+  {
+    "point_id": "03_repeated_20261015_serialized",
+    "arm": "serialized",
+    "pattern": "repeated",
+    "seed": 20261015,
+    "smoke": false,
+    "status": "PASS",
+    "errors": [],
+    "phases": {
+      "warmup": {
+        "receive_lag_p95_ms": 3.473104999999999,
+        "offered_load_valid": true,
+        "operations": 1200,
+        "receiver_to_dispatch_p95_ms": 8.003884999999999,
+        "completed_by_deadline": 1200
+      },
+      "measured": {
+        "receive_lag_p95_ms": 3.079419999999998,
+        "offered_load_valid": true,
+        "operations": 2400,
+        "receiver_to_dispatch_p95_ms": 7.211854999999799,
+        "completed_by_deadline": 2400
+      }
+    },
+    "updates": 120,
+    "reads": 2280,
+    "ready_updates": 120,
+    "ready_by_deadline": 120,
+    "outcomes": {
+      "applied": 120
+    },
+    "execution_errors": 0,
+    "final_keys": 16,
+    "final_mismatches": 0,
+    "final_failures": [],
+    "snapshot_content_mismatches": 0,
+    "mixed_target_snapshots": 123,
+    "requested_target_lag_snapshots": 294,
+    "target_post_ready_eligible": 2275,
+    "target_post_ready_stale": 0,
+    "returned_post_ready_eligible": 87,
+    "returned_post_ready_stale": 0,
+    "returned_cross_scope_leaks": 0,
+    "candidate_cross_scope_leaks": 0,
+    "service_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "mutation_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "latencies_ms": {
+      "arrival_to_ready": {
+        "n": 120,
+        "p50": 321.15205000000003,
+        "p95": 518.476785,
+        "p99": 584.78881
+      },
+      "planned_to_ready": {
+        "n": 120,
+        "p50": 322.329,
+        "p95": 520.2754,
+        "p99": 585.567601
+      },
+      "read_arrival_to_query": {
+        "n": 2280,
+        "p50": 22.7218,
+        "p95": 101.81442499999959,
+        "p99": 246.25438300000022
+      },
+      "read_arrival_to_response": {
+        "n": 2280,
+        "p50": 22.91785,
+        "p95": 102.75470999999982,
+        "p99": 250.14889800000006
+      },
+      "read_queue": {
+        "n": 2280,
+        "p50": 0.36219999999999997,
+        "p95": 11.042594999999846,
+        "p99": 140.18884700000012
+      },
+      "update_queue": {
+        "n": 120,
+        "p50": 0.4183,
+        "p95": 2.0892499999999994,
+        "p99": 206.17012000000005
+      },
+      "id_lock_wait": {
+        "n": 120,
+        "p50": 0.0067,
+        "p95": 0.008705,
+        "p99": 0.010467000000000002
+      },
+      "id_lock_hold": {
+        "n": 120,
+        "p50": 319.68600000000004,
+        "p95": 493.1513499999999,
+        "p99": 575.1099610000001
+      },
+      "raw_write": {
+        "n": 120,
+        "p50": 12.03055,
+        "p95": 18.399759999999997,
+        "p99": 21.992788000000004
+      },
+      "structured": {
+        "n": 120,
+        "p50": 46.39935,
+        "p95": 51.325465,
+        "p99": 57.890554
+      },
+      "sparse_update": {
+        "n": 120,
+        "p50": 85.90905000000001,
+        "p95": 116.94438499999961,
+        "p99": 316.071145
+      },
+      "dense_update": {
+        "n": 120,
+        "p50": 11.44305,
+        "p95": 26.095565,
+        "p99": 34.931396000000014
+      },
+      "ready_checks": {
+        "n": 120,
+        "p50": 118.69030000000001,
+        "p95": 173.24562,
+        "p99": 202.920999
+      }
+    },
+    "responses_during_injection_per_s": 20.0,
+    "responses_by_deadline": 2400,
+    "readiness_denominator_note": "Percentiles condition on a confirmed-ready target version; counts and all other outcomes retained. This is not saturation capacity."
+  },
+  {
+    "point_id": "04_repeated_20261015_uncoordinated",
+    "arm": "uncoordinated",
+    "pattern": "repeated",
+    "seed": 20261015,
+    "smoke": false,
+    "status": "PASS",
+    "errors": [],
+    "phases": {
+      "warmup": {
+        "receive_lag_p95_ms": 3.25453095,
+        "offered_load_valid": true,
+        "operations": 1200,
+        "receiver_to_dispatch_p95_ms": 12.299199999999994,
+        "completed_by_deadline": 1200
+      },
+      "measured": {
+        "receive_lag_p95_ms": 3.4344849999999933,
+        "offered_load_valid": true,
+        "operations": 2400,
+        "receiver_to_dispatch_p95_ms": 11.414879999999986,
+        "completed_by_deadline": 2400
+      }
+    },
+    "updates": 120,
+    "reads": 2280,
+    "ready_updates": 120,
+    "ready_by_deadline": 120,
+    "outcomes": {
+      "applied": 120
+    },
+    "execution_errors": 0,
+    "final_keys": 16,
+    "final_mismatches": 0,
+    "final_failures": [],
+    "snapshot_content_mismatches": 0,
+    "mixed_target_snapshots": 163,
+    "requested_target_lag_snapshots": 326,
+    "target_post_ready_eligible": 2275,
+    "target_post_ready_stale": 0,
+    "returned_post_ready_eligible": 80,
+    "returned_post_ready_stale": 0,
+    "returned_cross_scope_leaks": 0,
+    "candidate_cross_scope_leaks": 0,
+    "service_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "mutation_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "latencies_ms": {
+      "arrival_to_ready": {
+        "n": 120,
+        "p50": 334.0739,
+        "p95": 543.9255449999999,
+        "p99": 587.098104
+      },
+      "planned_to_ready": {
+        "n": 120,
+        "p50": 335.14594999999997,
+        "p95": 544.99914,
+        "p99": 587.7226750000001
+      },
+      "read_arrival_to_query": {
+        "n": 2280,
+        "p50": 23.3229,
+        "p95": 114.58489999999962,
+        "p99": 263.4808680000002
+      },
+      "read_arrival_to_response": {
+        "n": 2280,
+        "p50": 23.5839,
+        "p95": 115.00916999999964,
+        "p99": 268.73217100000005
+      },
+      "read_queue": {
+        "n": 2280,
+        "p50": 0.3777,
+        "p95": 18.488564999999937,
+        "p99": 160.09077700000014
+      },
+      "update_queue": {
+        "n": 120,
+        "p50": 0.40265,
+        "p95": 1.0386649999999997,
+        "p99": 42.15617800000011
+      },
+      "id_lock_wait": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null
+      },
+      "id_lock_hold": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null
+      },
+      "raw_write": {
+        "n": 120,
+        "p50": 12.35125,
+        "p95": 19.064235,
+        "p99": 20.386742
+      },
+      "structured": {
+        "n": 120,
+        "p50": 45.7455,
+        "p95": 49.8351,
+        "p99": 53.68028
+      },
+      "sparse_update": {
+        "n": 120,
+        "p50": 101.80655,
+        "p95": 162.56859499999956,
+        "p99": 341.794897
+      },
+      "dense_update": {
+        "n": 120,
+        "p50": 16.5825,
+        "p95": 33.86813,
+        "p99": 38.92931200000001
+      },
+      "ready_checks": {
+        "n": 120,
+        "p50": 107.0461,
+        "p95": 160.43159,
+        "p99": 260.8120630000002
+      }
+    },
+    "responses_during_injection_per_s": 20.0,
+    "responses_by_deadline": 2400,
+    "readiness_denominator_note": "Percentiles condition on a confirmed-ready target version; counts and all other outcomes retained. This is not saturation capacity."
+  },
+  {
+    "point_id": "05_hotspot_20261015_uncoordinated",
+    "arm": "uncoordinated",
+    "pattern": "hotspot",
+    "seed": 20261015,
+    "smoke": false,
+    "status": "PASS",
+    "errors": [],
+    "phases": {
+      "warmup": {
+        "receive_lag_p95_ms": 3.325669999999992,
+        "offered_load_valid": true,
+        "operations": 1200,
+        "receiver_to_dispatch_p95_ms": 12.799744999999989,
+        "completed_by_deadline": 1200
+      },
+      "measured": {
+        "receive_lag_p95_ms": 3.1952649999999996,
+        "offered_load_valid": true,
+        "operations": 2400,
+        "receiver_to_dispatch_p95_ms": 13.091834999999914,
+        "completed_by_deadline": 2400
+      }
+    },
+    "updates": 120,
+    "reads": 2280,
+    "ready_updates": 120,
+    "ready_by_deadline": 120,
+    "outcomes": {
+      "applied": 120
+    },
+    "execution_errors": 0,
+    "final_keys": 16,
+    "final_mismatches": 0,
+    "final_failures": [],
+    "snapshot_content_mismatches": 0,
+    "mixed_target_snapshots": 177,
+    "requested_target_lag_snapshots": 339,
+    "target_post_ready_eligible": 2266,
+    "target_post_ready_stale": 0,
+    "returned_post_ready_eligible": 6,
+    "returned_post_ready_stale": 0,
+    "returned_cross_scope_leaks": 0,
+    "candidate_cross_scope_leaks": 0,
+    "service_overlap": {
+      "updates_in_same_key_overlap": 6,
+      "same_key_pairs": 3,
+      "max_simultaneous_all_keys": 2
+    },
+    "mutation_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "latencies_ms": {
+      "arrival_to_ready": {
+        "n": 120,
+        "p50": 531.178,
+        "p95": 912.16853,
+        "p99": 1064.638525
+      },
+      "planned_to_ready": {
+        "n": 120,
+        "p50": 531.9156,
+        "p95": 912.688535,
+        "p99": 1065.283149
+      },
+      "read_arrival_to_query": {
+        "n": 2280,
+        "p50": 23.03215,
+        "p95": 124.30618999999975,
+        "p99": 295.0508200000001
+      },
+      "read_arrival_to_response": {
+        "n": 2280,
+        "p50": 23.2718,
+        "p95": 126.28285999999972,
+        "p99": 298.00632800000005
+      },
+      "read_queue": {
+        "n": 2280,
+        "p50": 0.3467,
+        "p95": 19.96751499999986,
+        "p99": 199.68595100000005
+      },
+      "update_queue": {
+        "n": 120,
+        "p50": 0.3447,
+        "p95": 1.723919999999999,
+        "p99": 2.5250630000000003
+      },
+      "id_lock_wait": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null
+      },
+      "id_lock_hold": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null
+      },
+      "raw_write": {
+        "n": 120,
+        "p50": 11.0829,
+        "p95": 18.372909999999997,
+        "p99": 20.841857
+      },
+      "structured": {
+        "n": 120,
+        "p50": 46.69865,
+        "p95": 51.930395,
+        "p99": 60.221413000000005
+      },
+      "sparse_update": {
+        "n": 120,
+        "p50": 99.233,
+        "p95": 338.079295,
+        "p99": 384.050221
+      },
+      "dense_update": {
+        "n": 120,
+        "p50": 21.7561,
+        "p95": 39.24358999999996,
+        "p99": 71.11435800000002
+      },
+      "ready_checks": {
+        "n": 120,
+        "p50": 302.17205,
+        "p95": 511.50730999999996,
+        "p99": 709.6698090000001
+      }
+    },
+    "responses_during_injection_per_s": 20.0,
+    "responses_by_deadline": 2400,
+    "readiness_denominator_note": "Percentiles condition on a confirmed-ready target version; counts and all other outcomes retained. This is not saturation capacity."
+  },
+  {
+    "point_id": "06_hotspot_20261015_serialized",
+    "arm": "serialized",
+    "pattern": "hotspot",
+    "seed": 20261015,
+    "smoke": false,
+    "status": "PASS",
+    "errors": [],
+    "phases": {
+      "warmup": {
+        "receive_lag_p95_ms": 3.336389999999999,
+        "offered_load_valid": true,
+        "operations": 1200,
+        "receiver_to_dispatch_p95_ms": 11.304504999999997,
+        "completed_by_deadline": 1200
+      },
+      "measured": {
+        "receive_lag_p95_ms": 3.3845199999999904,
+        "offered_load_valid": true,
+        "operations": 2400,
+        "receiver_to_dispatch_p95_ms": 12.589224999999939,
+        "completed_by_deadline": 2400
+      }
+    },
+    "updates": 120,
+    "reads": 2280,
+    "ready_updates": 120,
+    "ready_by_deadline": 120,
+    "outcomes": {
+      "applied": 120
+    },
+    "execution_errors": 0,
+    "final_keys": 16,
+    "final_mismatches": 0,
+    "final_failures": [],
+    "snapshot_content_mismatches": 0,
+    "mixed_target_snapshots": 165,
+    "requested_target_lag_snapshots": 341,
+    "target_post_ready_eligible": 2268,
+    "target_post_ready_stale": 0,
+    "returned_post_ready_eligible": 7,
+    "returned_post_ready_stale": 0,
+    "returned_cross_scope_leaks": 0,
+    "candidate_cross_scope_leaks": 0,
+    "service_overlap": {
+      "updates_in_same_key_overlap": 2,
+      "same_key_pairs": 1,
+      "max_simultaneous_all_keys": 2
+    },
+    "mutation_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "latencies_ms": {
+      "arrival_to_ready": {
+        "n": 120,
+        "p50": 536.1764000000001,
+        "p95": 777.1467149999999,
+        "p99": 1071.9852710000002
+      },
+      "planned_to_ready": {
+        "n": 120,
+        "p50": 537.1963000000001,
+        "p95": 777.6603299999998,
+        "p99": 1073.6344880000001
+      },
+      "read_arrival_to_query": {
+        "n": 2280,
+        "p50": 23.36975,
+        "p95": 124.96544999999992,
+        "p99": 287.48676600000016
+      },
+      "read_arrival_to_response": {
+        "n": 2280,
+        "p50": 23.57835,
+        "p95": 127.02336499999984,
+        "p99": 294.08427600000005
+      },
+      "read_queue": {
+        "n": 2280,
+        "p50": 0.34875,
+        "p95": 18.17524999999987,
+        "p99": 179.43644900000038
+      },
+      "update_queue": {
+        "n": 120,
+        "p50": 0.3578,
+        "p95": 0.8566449999999991,
+        "p99": 157.4237480000002
+      },
+      "id_lock_wait": {
+        "n": 120,
+        "p50": 0.0064,
+        "p95": 0.009044999999999997,
+        "p99": 0.049725000000000096
+      },
+      "id_lock_hold": {
+        "n": 120,
+        "p50": 529.5535,
+        "p95": 771.7853250000001,
+        "p99": 1071.249448
+      },
+      "raw_write": {
+        "n": 120,
+        "p50": 11.358,
+        "p95": 18.79621,
+        "p99": 22.120811000000003
+      },
+      "structured": {
+        "n": 120,
+        "p50": 45.99915,
+        "p95": 51.24079,
+        "p99": 57.50521400000001
+      },
+      "sparse_update": {
+        "n": 120,
+        "p50": 96.2359,
+        "p95": 318.27321,
+        "p99": 418.46220800000003
+      },
+      "dense_update": {
+        "n": 120,
+        "p50": 18.4271,
+        "p95": 36.08272499999999,
+        "p99": 73.81256200000001
+      },
+      "ready_checks": {
+        "n": 120,
+        "p50": 294.83950000000004,
+        "p95": 482.680865,
+        "p99": 515.548759
+      }
+    },
+    "responses_during_injection_per_s": 20.0,
+    "responses_by_deadline": 2400,
+    "readiness_denominator_note": "Percentiles condition on a confirmed-ready target version; counts and all other outcomes retained. This is not saturation capacity."
+  },
+  {
+    "point_id": "07_disjoint_20261016_serialized",
+    "arm": "serialized",
+    "pattern": "disjoint",
+    "seed": 20261016,
+    "smoke": false,
+    "status": "PASS",
+    "errors": [],
+    "phases": {
+      "warmup": {
+        "receive_lag_p95_ms": 4.93352,
+        "offered_load_valid": true,
+        "operations": 1200,
+        "receiver_to_dispatch_p95_ms": 7.698209999999979,
+        "completed_by_deadline": 1200
+      },
+      "measured": {
+        "receive_lag_p95_ms": 3.2235749999999914,
+        "offered_load_valid": true,
+        "operations": 2400,
+        "receiver_to_dispatch_p95_ms": 9.606284999999932,
+        "completed_by_deadline": 2400
+      }
+    },
+    "updates": 120,
+    "reads": 2280,
+    "ready_updates": 120,
+    "ready_by_deadline": 120,
+    "outcomes": {
+      "applied": 120
+    },
+    "execution_errors": 0,
+    "final_keys": 180,
+    "final_mismatches": 0,
+    "final_failures": [],
+    "snapshot_content_mismatches": 0,
+    "mixed_target_snapshots": 137,
+    "requested_target_lag_snapshots": 292,
+    "target_post_ready_eligible": 1693,
+    "target_post_ready_stale": 0,
+    "returned_post_ready_eligible": 53,
+    "returned_post_ready_stale": 0,
+    "returned_cross_scope_leaks": 0,
+    "candidate_cross_scope_leaks": 0,
+    "service_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "mutation_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "latencies_ms": {
+      "arrival_to_ready": {
+        "n": 120,
+        "p50": 266.404,
+        "p95": 448.49571,
+        "p99": 492.916599
+      },
+      "planned_to_ready": {
+        "n": 120,
+        "p50": 268.66025,
+        "p95": 448.77824499999997,
+        "p99": 494.18651000000006
+      },
+      "read_arrival_to_query": {
+        "n": 2280,
+        "p50": 21.63925,
+        "p95": 95.7269249999995,
+        "p99": 235.41781700000004
+      },
+      "read_arrival_to_response": {
+        "n": 2280,
+        "p50": 21.8059,
+        "p95": 96.2565799999994,
+        "p99": 235.577233
+      },
+      "read_queue": {
+        "n": 2280,
+        "p50": 0.3307,
+        "p95": 11.226099999999994,
+        "p99": 143.07933900000012
+      },
+      "update_queue": {
+        "n": 120,
+        "p50": 0.32615,
+        "p95": 2.5823899999999953,
+        "p99": 155.00389300000003
+      },
+      "id_lock_wait": {
+        "n": 120,
+        "p50": 0.0062,
+        "p95": 0.0077,
+        "p99": 0.008543
+      },
+      "id_lock_hold": {
+        "n": 120,
+        "p50": 264.93985,
+        "p95": 328.21925999999996,
+        "p99": 475.980024
+      },
+      "raw_write": {
+        "n": 120,
+        "p50": 10.98105,
+        "p95": 18.693189999999998,
+        "p99": 24.316147
+      },
+      "structured": {
+        "n": 120,
+        "p50": 46.1237,
+        "p95": 50.25596,
+        "p99": 56.162397
+      },
+      "sparse_update": {
+        "n": 120,
+        "p50": 78.36314999999999,
+        "p95": 103.80164999999998,
+        "p99": 257.583766
+      },
+      "dense_update": {
+        "n": 120,
+        "p50": 13.2269,
+        "p95": 28.424295,
+        "p99": 32.244423000000005
+      },
+      "ready_checks": {
+        "n": 120,
+        "p50": 72.14275,
+        "p95": 101.76214,
+        "p99": 108.036237
+      }
+    },
+    "responses_during_injection_per_s": 20.0,
+    "responses_by_deadline": 2400,
+    "readiness_denominator_note": "Percentiles condition on a confirmed-ready target version; counts and all other outcomes retained. This is not saturation capacity."
+  },
+  {
+    "point_id": "08_disjoint_20261016_uncoordinated",
+    "arm": "uncoordinated",
+    "pattern": "disjoint",
+    "seed": 20261016,
+    "smoke": false,
+    "status": "PASS",
+    "errors": [],
+    "phases": {
+      "warmup": {
+        "receive_lag_p95_ms": 3.169625,
+        "offered_load_valid": true,
+        "operations": 1200,
+        "receiver_to_dispatch_p95_ms": 11.378839999999999,
+        "completed_by_deadline": 1200
+      },
+      "measured": {
+        "receive_lag_p95_ms": 3.6671049999999923,
+        "offered_load_valid": true,
+        "operations": 2400,
+        "receiver_to_dispatch_p95_ms": 10.579144999999958,
+        "completed_by_deadline": 2400
+      }
+    },
+    "updates": 120,
+    "reads": 2280,
+    "ready_updates": 120,
+    "ready_by_deadline": 120,
+    "outcomes": {
+      "applied": 120
+    },
+    "execution_errors": 0,
+    "final_keys": 180,
+    "final_mismatches": 0,
+    "final_failures": [],
+    "snapshot_content_mismatches": 0,
+    "mixed_target_snapshots": 156,
+    "requested_target_lag_snapshots": 357,
+    "target_post_ready_eligible": 1616,
+    "target_post_ready_stale": 0,
+    "returned_post_ready_eligible": 52,
+    "returned_post_ready_stale": 0,
+    "returned_cross_scope_leaks": 0,
+    "candidate_cross_scope_leaks": 0,
+    "service_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "mutation_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "latencies_ms": {
+      "arrival_to_ready": {
+        "n": 120,
+        "p50": 293.63275,
+        "p95": 505.4479749999998,
+        "p99": 620.9487750000001
+      },
+      "planned_to_ready": {
+        "n": 120,
+        "p50": 294.46155,
+        "p95": 506.68031999999977,
+        "p99": 623.551958
+      },
+      "read_arrival_to_query": {
+        "n": 2280,
+        "p50": 23.71785,
+        "p95": 104.01004499999955,
+        "p99": 273.8115460000001
+      },
+      "read_arrival_to_response": {
+        "n": 2280,
+        "p50": 23.9207,
+        "p95": 108.109595,
+        "p99": 274.94517500000006
+      },
+      "read_queue": {
+        "n": 2280,
+        "p50": 0.39055,
+        "p95": 15.67937999999994,
+        "p99": 173.15246500000012
+      },
+      "update_queue": {
+        "n": 120,
+        "p50": 0.40765,
+        "p95": 2.7769899999999965,
+        "p99": 135.77009900000013
+      },
+      "id_lock_wait": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null
+      },
+      "id_lock_hold": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null
+      },
+      "raw_write": {
+        "n": 120,
+        "p50": 13.6589,
+        "p95": 22.819225,
+        "p99": 30.421816000000007
+      },
+      "structured": {
+        "n": 120,
+        "p50": 47.5475,
+        "p95": 67.07077499999997,
+        "p99": 86.31540900000002
+      },
+      "sparse_update": {
+        "n": 120,
+        "p50": 87.5441,
+        "p95": 112.78409999999991,
+        "p99": 381.765137
+      },
+      "dense_update": {
+        "n": 120,
+        "p50": 16.8024,
+        "p95": 30.89291499999999,
+        "p99": 64.334542
+      },
+      "ready_checks": {
+        "n": 120,
+        "p50": 72.6394,
+        "p95": 95.851135,
+        "p99": 104.83518900000001
+      }
+    },
+    "responses_during_injection_per_s": 20.0,
+    "responses_by_deadline": 2400,
+    "readiness_denominator_note": "Percentiles condition on a confirmed-ready target version; counts and all other outcomes retained. This is not saturation capacity."
+  },
+  {
+    "point_id": "09_repeated_20261016_uncoordinated",
+    "arm": "uncoordinated",
+    "pattern": "repeated",
+    "seed": 20261016,
+    "smoke": false,
+    "status": "PASS",
+    "errors": [],
+    "phases": {
+      "warmup": {
+        "receive_lag_p95_ms": 2.7421749999999996,
+        "offered_load_valid": true,
+        "operations": 1200,
+        "receiver_to_dispatch_p95_ms": 10.294674999999991,
+        "completed_by_deadline": 1200
+      },
+      "measured": {
+        "receive_lag_p95_ms": 3.2088749999999924,
+        "offered_load_valid": true,
+        "operations": 2400,
+        "receiver_to_dispatch_p95_ms": 8.43183499999988,
+        "completed_by_deadline": 2400
+      }
+    },
+    "updates": 120,
+    "reads": 2280,
+    "ready_updates": 120,
+    "ready_by_deadline": 120,
+    "outcomes": {
+      "applied": 120
+    },
+    "execution_errors": 0,
+    "final_keys": 16,
+    "final_mismatches": 0,
+    "final_failures": [],
+    "snapshot_content_mismatches": 0,
+    "mixed_target_snapshots": 163,
+    "requested_target_lag_snapshots": 330,
+    "target_post_ready_eligible": 2276,
+    "target_post_ready_stale": 0,
+    "returned_post_ready_eligible": 50,
+    "returned_post_ready_stale": 0,
+    "returned_cross_scope_leaks": 0,
+    "candidate_cross_scope_leaks": 0,
+    "service_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "mutation_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "latencies_ms": {
+      "arrival_to_ready": {
+        "n": 120,
+        "p50": 337.44435,
+        "p95": 526.58932,
+        "p99": 598.495361
+      },
+      "planned_to_ready": {
+        "n": 120,
+        "p50": 338.61220000000003,
+        "p95": 529.29845,
+        "p99": 599.1182080000001
+      },
+      "read_arrival_to_query": {
+        "n": 2280,
+        "p50": 23.269550000000002,
+        "p95": 101.0262549999999,
+        "p99": 259.950737
+      },
+      "read_arrival_to_response": {
+        "n": 2280,
+        "p50": 23.493850000000002,
+        "p95": 102.52265999999953,
+        "p99": 260.376317
+      },
+      "read_queue": {
+        "n": 2280,
+        "p50": 0.3618,
+        "p95": 14.05434999999997,
+        "p99": 157.4815990000001
+      },
+      "update_queue": {
+        "n": 120,
+        "p50": 0.35114999999999996,
+        "p95": 1.0870999999999997,
+        "p99": 50.736759000000134
+      },
+      "id_lock_wait": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null
+      },
+      "id_lock_hold": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null
+      },
+      "raw_write": {
+        "n": 120,
+        "p50": 11.564250000000001,
+        "p95": 19.766315,
+        "p99": 21.363401000000003
+      },
+      "structured": {
+        "n": 120,
+        "p50": 45.969049999999996,
+        "p95": 49.88474,
+        "p99": 61.747473000000014
+      },
+      "sparse_update": {
+        "n": 120,
+        "p50": 89.447,
+        "p95": 273.901925,
+        "p99": 331.93221700000004
+      },
+      "dense_update": {
+        "n": 120,
+        "p50": 16.22165,
+        "p95": 30.410709999999998,
+        "p99": 55.357846000000016
+      },
+      "ready_checks": {
+        "n": 120,
+        "p50": 121.28800000000001,
+        "p95": 172.82688000000002,
+        "p99": 209.877281
+      }
+    },
+    "responses_during_injection_per_s": 20.0,
+    "responses_by_deadline": 2400,
+    "readiness_denominator_note": "Percentiles condition on a confirmed-ready target version; counts and all other outcomes retained. This is not saturation capacity."
+  },
+  {
+    "point_id": "10_repeated_20261016_serialized",
+    "arm": "serialized",
+    "pattern": "repeated",
+    "seed": 20261016,
+    "smoke": false,
+    "status": "PASS",
+    "errors": [],
+    "phases": {
+      "warmup": {
+        "receive_lag_p95_ms": 5.126935,
+        "offered_load_valid": true,
+        "operations": 1200,
+        "receiver_to_dispatch_p95_ms": 11.008785,
+        "completed_by_deadline": 1200
+      },
+      "measured": {
+        "receive_lag_p95_ms": 3.421909999999991,
+        "offered_load_valid": true,
+        "operations": 2400,
+        "receiver_to_dispatch_p95_ms": 10.3707,
+        "completed_by_deadline": 2400
+      }
+    },
+    "updates": 120,
+    "reads": 2280,
+    "ready_updates": 120,
+    "ready_by_deadline": 120,
+    "outcomes": {
+      "applied": 120
+    },
+    "execution_errors": 0,
+    "final_keys": 16,
+    "final_mismatches": 0,
+    "final_failures": [],
+    "snapshot_content_mismatches": 0,
+    "mixed_target_snapshots": 158,
+    "requested_target_lag_snapshots": 313,
+    "target_post_ready_eligible": 2276,
+    "target_post_ready_stale": 0,
+    "returned_post_ready_eligible": 48,
+    "returned_post_ready_stale": 0,
+    "returned_cross_scope_leaks": 0,
+    "candidate_cross_scope_leaks": 0,
+    "service_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "mutation_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "latencies_ms": {
+      "arrival_to_ready": {
+        "n": 120,
+        "p50": 324.08685,
+        "p95": 576.63166,
+        "p99": 667.290029
+      },
+      "planned_to_ready": {
+        "n": 120,
+        "p50": 324.79735,
+        "p95": 578.7094199999999,
+        "p99": 667.870424
+      },
+      "read_arrival_to_query": {
+        "n": 2280,
+        "p50": 23.2675,
+        "p95": 107.33117499999994,
+        "p99": 277.1420610000001
+      },
+      "read_arrival_to_response": {
+        "n": 2280,
+        "p50": 23.5315,
+        "p95": 108.63677499999969,
+        "p99": 279.70835000000005
+      },
+      "read_queue": {
+        "n": 2280,
+        "p50": 0.36195,
+        "p95": 12.613129999999957,
+        "p99": 164.13118800000012
+      },
+      "update_queue": {
+        "n": 120,
+        "p50": 0.36505,
+        "p95": 1.5075999999999978,
+        "p99": 111.07142400000023
+      },
+      "id_lock_wait": {
+        "n": 120,
+        "p50": 0.0067,
+        "p95": 0.00941,
+        "p99": 0.015478000000000007
+      },
+      "id_lock_hold": {
+        "n": 120,
+        "p50": 322.83619999999996,
+        "p95": 575.96665,
+        "p99": 666.254539
+      },
+      "raw_write": {
+        "n": 120,
+        "p50": 12.41905,
+        "p95": 19.089145000000002,
+        "p99": 20.894116
+      },
+      "structured": {
+        "n": 120,
+        "p50": 45.7856,
+        "p95": 48.875454999999995,
+        "p99": 50.47993
+      },
+      "sparse_update": {
+        "n": 120,
+        "p50": 87.83824999999999,
+        "p95": 312.549765,
+        "p99": 373.76886500000006
+      },
+      "dense_update": {
+        "n": 120,
+        "p50": 17.6074,
+        "p95": 29.692539999999994,
+        "p99": 48.61050200000001
+      },
+      "ready_checks": {
+        "n": 120,
+        "p50": 111.99260000000001,
+        "p95": 165.37883,
+        "p99": 191.610856
+      }
+    },
+    "responses_during_injection_per_s": 20.0,
+    "responses_by_deadline": 2400,
+    "readiness_denominator_note": "Percentiles condition on a confirmed-ready target version; counts and all other outcomes retained. This is not saturation capacity."
+  },
+  {
+    "point_id": "11_hotspot_20261016_serialized",
+    "arm": "serialized",
+    "pattern": "hotspot",
+    "seed": 20261016,
+    "smoke": false,
+    "status": "PASS",
+    "errors": [],
+    "phases": {
+      "warmup": {
+        "receive_lag_p95_ms": 3.1345299999999994,
+        "offered_load_valid": true,
+        "operations": 1200,
+        "receiver_to_dispatch_p95_ms": 11.49824,
+        "completed_by_deadline": 1200
+      },
+      "measured": {
+        "receive_lag_p95_ms": 3.2583109499999985,
+        "offered_load_valid": true,
+        "operations": 2400,
+        "receiver_to_dispatch_p95_ms": 12.075919999999984,
+        "completed_by_deadline": 2400
+      }
+    },
+    "updates": 120,
+    "reads": 2280,
+    "ready_updates": 120,
+    "ready_by_deadline": 120,
+    "outcomes": {
+      "applied": 120
+    },
+    "execution_errors": 0,
+    "final_keys": 16,
+    "final_mismatches": 0,
+    "final_failures": [],
+    "snapshot_content_mismatches": 0,
+    "mixed_target_snapshots": 159,
+    "requested_target_lag_snapshots": 332,
+    "target_post_ready_eligible": 2261,
+    "target_post_ready_stale": 0,
+    "returned_post_ready_eligible": 31,
+    "returned_post_ready_stale": 0,
+    "returned_cross_scope_leaks": 0,
+    "candidate_cross_scope_leaks": 0,
+    "service_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 2
+    },
+    "mutation_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "latencies_ms": {
+      "arrival_to_ready": {
+        "n": 120,
+        "p50": 621.3064999999999,
+        "p95": 852.577005,
+        "p99": 985.730584
+      },
+      "planned_to_ready": {
+        "n": 120,
+        "p50": 622.01165,
+        "p95": 853.5396049999999,
+        "p99": 986.274482
+      },
+      "read_arrival_to_query": {
+        "n": 2280,
+        "p50": 23.003,
+        "p95": 118.31743499999992,
+        "p99": 259.7935040000002
+      },
+      "read_arrival_to_response": {
+        "n": 2280,
+        "p50": 23.1837,
+        "p95": 120.55411499999995,
+        "p99": 260.82115600000037
+      },
+      "read_queue": {
+        "n": 2280,
+        "p50": 0.3542,
+        "p95": 15.653274999999853,
+        "p99": 165.68465100000014
+      },
+      "update_queue": {
+        "n": 120,
+        "p50": 0.3509,
+        "p95": 2.5334999999999974,
+        "p99": 109.56574500000012
+      },
+      "id_lock_wait": {
+        "n": 120,
+        "p50": 0.0065,
+        "p95": 0.009434999999999999,
+        "p99": 0.01963700000000002
+      },
+      "id_lock_hold": {
+        "n": 120,
+        "p50": 613.30745,
+        "p95": 851.4354,
+        "p99": 985.166107
+      },
+      "raw_write": {
+        "n": 120,
+        "p50": 11.75555,
+        "p95": 19.7603,
+        "p99": 25.860758000000004
+      },
+      "structured": {
+        "n": 120,
+        "p50": 46.2945,
+        "p95": 53.22605499999999,
+        "p99": 63.499642000000016
+      },
+      "sparse_update": {
+        "n": 120,
+        "p50": 97.657,
+        "p95": 109.71022,
+        "p99": 294.524622
+      },
+      "dense_update": {
+        "n": 120,
+        "p50": 20.914749999999998,
+        "p95": 29.95068,
+        "p99": 37.32592000000001
+      },
+      "ready_checks": {
+        "n": 120,
+        "p50": 387.3831,
+        "p95": 586.803475,
+        "p99": 771.999574
+      }
+    },
+    "responses_during_injection_per_s": 20.0,
+    "responses_by_deadline": 2400,
+    "readiness_denominator_note": "Percentiles condition on a confirmed-ready target version; counts and all other outcomes retained. This is not saturation capacity."
+  },
+  {
+    "point_id": "12_hotspot_20261016_uncoordinated",
+    "arm": "uncoordinated",
+    "pattern": "hotspot",
+    "seed": 20261016,
+    "smoke": false,
+    "status": "PASS",
+    "errors": [],
+    "phases": {
+      "warmup": {
+        "receive_lag_p95_ms": 3.0472699999999997,
+        "offered_load_valid": true,
+        "operations": 1200,
+        "receiver_to_dispatch_p95_ms": 12.477249999999966,
+        "completed_by_deadline": 1200
+      },
+      "measured": {
+        "receive_lag_p95_ms": 3.5121599999999993,
+        "offered_load_valid": true,
+        "operations": 2400,
+        "receiver_to_dispatch_p95_ms": 12.331309999999966,
+        "completed_by_deadline": 2400
+      }
+    },
+    "updates": 120,
+    "reads": 2280,
+    "ready_updates": 120,
+    "ready_by_deadline": 120,
+    "outcomes": {
+      "applied": 120
+    },
+    "execution_errors": 0,
+    "final_keys": 16,
+    "final_mismatches": 0,
+    "final_failures": [],
+    "snapshot_content_mismatches": 0,
+    "mixed_target_snapshots": 178,
+    "requested_target_lag_snapshots": 348,
+    "target_post_ready_eligible": 2265,
+    "target_post_ready_stale": 0,
+    "returned_post_ready_eligible": 24,
+    "returned_post_ready_stale": 0,
+    "returned_cross_scope_leaks": 0,
+    "candidate_cross_scope_leaks": 0,
+    "service_overlap": {
+      "updates_in_same_key_overlap": 6,
+      "same_key_pairs": 3,
+      "max_simultaneous_all_keys": 2
+    },
+    "mutation_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "latencies_ms": {
+      "arrival_to_ready": {
+        "n": 120,
+        "p50": 621.09915,
+        "p95": 918.992705,
+        "p99": 1060.631499
+      },
+      "planned_to_ready": {
+        "n": 120,
+        "p50": 622.1640500000001,
+        "p95": 920.9310099999999,
+        "p99": 1061.0985030000002
+      },
+      "read_arrival_to_query": {
+        "n": 2280,
+        "p50": 23.24465,
+        "p95": 122.33797499999993,
+        "p99": 286.61518800000016
+      },
+      "read_arrival_to_response": {
+        "n": 2280,
+        "p50": 23.45665,
+        "p95": 123.43531499999996,
+        "p99": 290.73556700000023
+      },
+      "read_queue": {
+        "n": 2280,
+        "p50": 0.35565,
+        "p95": 20.345434999999988,
+        "p99": 171.1846290000002
+      },
+      "update_queue": {
+        "n": 120,
+        "p50": 0.34745,
+        "p95": 1.5998849999999987,
+        "p99": 89.9406230000001
+      },
+      "id_lock_wait": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null
+      },
+      "id_lock_hold": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null
+      },
+      "raw_write": {
+        "n": 120,
+        "p50": 11.9666,
+        "p95": 20.321475,
+        "p99": 33.31419700000003
+      },
+      "structured": {
+        "n": 120,
+        "p50": 45.9474,
+        "p95": 53.56333,
+        "p99": 61.60827000000002
+      },
+      "sparse_update": {
+        "n": 120,
+        "p50": 97.78139999999999,
+        "p95": 112.41894500000001,
+        "p99": 356.8337770000001
+      },
+      "dense_update": {
+        "n": 120,
+        "p50": 21.5261,
+        "p95": 31.994429999999994,
+        "p99": 56.64120200000003
+      },
+      "ready_checks": {
+        "n": 120,
+        "p50": 372.90565000000004,
+        "p95": 555.80309,
+        "p99": 801.4242590000002
+      }
+    },
+    "responses_during_injection_per_s": 20.0,
+    "responses_by_deadline": 2400,
+    "readiness_denominator_note": "Percentiles condition on a confirmed-ready target version; counts and all other outcomes retained. This is not saturation capacity."
+  },
+  {
+    "point_id": "13_disjoint_20261017_uncoordinated",
+    "arm": "uncoordinated",
+    "pattern": "disjoint",
+    "seed": 20261017,
+    "smoke": false,
+    "status": "PASS",
+    "errors": [],
+    "phases": {
+      "warmup": {
+        "receive_lag_p95_ms": 2.8442099999999995,
+        "offered_load_valid": true,
+        "operations": 1200,
+        "receiver_to_dispatch_p95_ms": 8.948264999999996,
+        "completed_by_deadline": 1200
+      },
+      "measured": {
+        "receive_lag_p95_ms": 2.766039999999999,
+        "offered_load_valid": true,
+        "operations": 2400,
+        "receiver_to_dispatch_p95_ms": 8.840644999999915,
+        "completed_by_deadline": 2400
+      }
+    },
+    "updates": 120,
+    "reads": 2280,
+    "ready_updates": 120,
+    "ready_by_deadline": 120,
+    "outcomes": {
+      "applied": 120
+    },
+    "execution_errors": 0,
+    "final_keys": 180,
+    "final_mismatches": 0,
+    "final_failures": [],
+    "snapshot_content_mismatches": 0,
+    "mixed_target_snapshots": 102,
+    "requested_target_lag_snapshots": 262,
+    "target_post_ready_eligible": 1653,
+    "target_post_ready_stale": 0,
+    "returned_post_ready_eligible": 57,
+    "returned_post_ready_stale": 0,
+    "returned_cross_scope_leaks": 0,
+    "candidate_cross_scope_leaks": 0,
+    "service_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "mutation_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "latencies_ms": {
+      "arrival_to_ready": {
+        "n": 120,
+        "p50": 273.9014,
+        "p95": 518.9835649999999,
+        "p99": 565.922624
+      },
+      "planned_to_ready": {
+        "n": 120,
+        "p50": 275.23940000000005,
+        "p95": 519.595525,
+        "p99": 567.208708
+      },
+      "read_arrival_to_query": {
+        "n": 2280,
+        "p50": 23.73055,
+        "p95": 103.3861749999999,
+        "p99": 259.670021
+      },
+      "read_arrival_to_response": {
+        "n": 2280,
+        "p50": 23.9465,
+        "p95": 105.13025999999984,
+        "p99": 260.45613000000003
+      },
+      "read_queue": {
+        "n": 2280,
+        "p50": 0.3771,
+        "p95": 13.423984999999892,
+        "p99": 154.27893100000014
+      },
+      "update_queue": {
+        "n": 120,
+        "p50": 0.3952,
+        "p95": 1.0726199999999981,
+        "p99": 124.68661000000031
+      },
+      "id_lock_wait": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null
+      },
+      "id_lock_hold": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null
+      },
+      "raw_write": {
+        "n": 120,
+        "p50": 12.1262,
+        "p95": 18.92334,
+        "p99": 19.609748
+      },
+      "structured": {
+        "n": 120,
+        "p50": 45.91275,
+        "p95": 50.320305,
+        "p99": 51.929431
+      },
+      "sparse_update": {
+        "n": 120,
+        "p50": 82.19805,
+        "p95": 122.47152999999955,
+        "p99": 359.7995810000001
+      },
+      "dense_update": {
+        "n": 120,
+        "p50": 10.661,
+        "p95": 33.145199999999996,
+        "p99": 46.504233000000006
+      },
+      "ready_checks": {
+        "n": 120,
+        "p50": 75.96430000000001,
+        "p95": 101.36131999999999,
+        "p99": 115.70815800000001
+      }
+    },
+    "responses_during_injection_per_s": 20.0,
+    "responses_by_deadline": 2400,
+    "readiness_denominator_note": "Percentiles condition on a confirmed-ready target version; counts and all other outcomes retained. This is not saturation capacity."
+  },
+  {
+    "point_id": "14_disjoint_20261017_serialized",
+    "arm": "serialized",
+    "pattern": "disjoint",
+    "seed": 20261017,
+    "smoke": false,
+    "status": "PASS",
+    "errors": [],
+    "phases": {
+      "warmup": {
+        "receive_lag_p95_ms": 3.4132799999999968,
+        "offered_load_valid": true,
+        "operations": 1200,
+        "receiver_to_dispatch_p95_ms": 8.443614999999975,
+        "completed_by_deadline": 1200
+      },
+      "measured": {
+        "receive_lag_p95_ms": 3.282174999999995,
+        "offered_load_valid": true,
+        "operations": 2400,
+        "receiver_to_dispatch_p95_ms": 11.372839999999904,
+        "completed_by_deadline": 2400
+      }
+    },
+    "updates": 120,
+    "reads": 2280,
+    "ready_updates": 120,
+    "ready_by_deadline": 120,
+    "outcomes": {
+      "applied": 120
+    },
+    "execution_errors": 0,
+    "final_keys": 180,
+    "final_mismatches": 0,
+    "final_failures": [],
+    "snapshot_content_mismatches": 0,
+    "mixed_target_snapshots": 165,
+    "requested_target_lag_snapshots": 320,
+    "target_post_ready_eligible": 1636,
+    "target_post_ready_stale": 0,
+    "returned_post_ready_eligible": 57,
+    "returned_post_ready_stale": 0,
+    "returned_cross_scope_leaks": 0,
+    "candidate_cross_scope_leaks": 0,
+    "service_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "mutation_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "latencies_ms": {
+      "arrival_to_ready": {
+        "n": 120,
+        "p50": 282.97375,
+        "p95": 453.723485,
+        "p99": 566.460092
+      },
+      "planned_to_ready": {
+        "n": 120,
+        "p50": 284.95050000000003,
+        "p95": 455.1885199999999,
+        "p99": 567.348996
+      },
+      "read_arrival_to_query": {
+        "n": 2280,
+        "p50": 23.64845,
+        "p95": 107.84383499999994,
+        "p99": 274.86198300000007
+      },
+      "read_arrival_to_response": {
+        "n": 2280,
+        "p50": 23.837449999999997,
+        "p95": 108.21681999999991,
+        "p99": 276.33564300000006
+      },
+      "read_queue": {
+        "n": 2280,
+        "p50": 0.37815,
+        "p95": 13.768169999999989,
+        "p99": 172.56716600000024
+      },
+      "update_queue": {
+        "n": 120,
+        "p50": 0.37245,
+        "p95": 1.8630449999999994,
+        "p99": 144.221365
+      },
+      "id_lock_wait": {
+        "n": 120,
+        "p50": 0.0066,
+        "p95": 0.009925,
+        "p99": 0.013381
+      },
+      "id_lock_hold": {
+        "n": 120,
+        "p50": 278.38235,
+        "p95": 355.97878999999966,
+        "p99": 565.6002540000001
+      },
+      "raw_write": {
+        "n": 120,
+        "p50": 11.92985,
+        "p95": 19.22487,
+        "p99": 23.417063000000006
+      },
+      "structured": {
+        "n": 120,
+        "p50": 45.8331,
+        "p95": 50.650415,
+        "p99": 53.835862
+      },
+      "sparse_update": {
+        "n": 120,
+        "p50": 89.62389999999999,
+        "p95": 138.95731499999962,
+        "p99": 327.948774
+      },
+      "dense_update": {
+        "n": 120,
+        "p50": 18.5721,
+        "p95": 28.80893,
+        "p99": 32.811122000000005
+      },
+      "ready_checks": {
+        "n": 120,
+        "p50": 70.4734,
+        "p95": 96.25229999999999,
+        "p99": 114.50714900000001
+      }
+    },
+    "responses_during_injection_per_s": 20.0,
+    "responses_by_deadline": 2400,
+    "readiness_denominator_note": "Percentiles condition on a confirmed-ready target version; counts and all other outcomes retained. This is not saturation capacity."
+  },
+  {
+    "point_id": "15_repeated_20261017_serialized",
+    "arm": "serialized",
+    "pattern": "repeated",
+    "seed": 20261017,
+    "smoke": false,
+    "status": "PASS",
+    "errors": [],
+    "phases": {
+      "warmup": {
+        "receive_lag_p95_ms": 2.8688849999999997,
+        "offered_load_valid": true,
+        "operations": 1200,
+        "receiver_to_dispatch_p95_ms": 9.457094999999997,
+        "completed_by_deadline": 1200
+      },
+      "measured": {
+        "receive_lag_p95_ms": 3.5728949999999933,
+        "offered_load_valid": true,
+        "operations": 2400,
+        "receiver_to_dispatch_p95_ms": 10.146785,
+        "completed_by_deadline": 2400
+      }
+    },
+    "updates": 120,
+    "reads": 2280,
+    "ready_updates": 120,
+    "ready_by_deadline": 120,
+    "outcomes": {
+      "applied": 120
+    },
+    "execution_errors": 0,
+    "final_keys": 16,
+    "final_mismatches": 0,
+    "final_failures": [],
+    "snapshot_content_mismatches": 0,
+    "mixed_target_snapshots": 167,
+    "requested_target_lag_snapshots": 341,
+    "target_post_ready_eligible": 2274,
+    "target_post_ready_stale": 0,
+    "returned_post_ready_eligible": 33,
+    "returned_post_ready_stale": 0,
+    "returned_cross_scope_leaks": 0,
+    "candidate_cross_scope_leaks": 0,
+    "service_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "mutation_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "latencies_ms": {
+      "arrival_to_ready": {
+        "n": 120,
+        "p50": 320.2409,
+        "p95": 539.789185,
+        "p99": 695.9129550000001
+      },
+      "planned_to_ready": {
+        "n": 120,
+        "p50": 321.19399999999996,
+        "p95": 541.32828,
+        "p99": 696.6685400000001
+      },
+      "read_arrival_to_query": {
+        "n": 2280,
+        "p50": 23.6628,
+        "p95": 110.62775499999991,
+        "p99": 282.415003
+      },
+      "read_arrival_to_response": {
+        "n": 2280,
+        "p50": 23.8811,
+        "p95": 111.38795999999988,
+        "p99": 283.993532
+      },
+      "read_queue": {
+        "n": 2280,
+        "p50": 0.36035,
+        "p95": 15.161594999999997,
+        "p99": 164.737637
+      },
+      "update_queue": {
+        "n": 120,
+        "p50": 0.3754,
+        "p95": 2.1454599999999964,
+        "p99": 100.50794200000003
+      },
+      "id_lock_wait": {
+        "n": 120,
+        "p50": 0.00675,
+        "p95": 0.008525,
+        "p99": 0.010705000000000001
+      },
+      "id_lock_hold": {
+        "n": 120,
+        "p50": 318.3065,
+        "p95": 537.5953599999999,
+        "p99": 695.1535990000001
+      },
+      "raw_write": {
+        "n": 120,
+        "p50": 11.166450000000001,
+        "p95": 18.853315,
+        "p99": 20.706516
+      },
+      "structured": {
+        "n": 120,
+        "p50": 46.3375,
+        "p95": 55.74474,
+        "p99": 79.06535800000005
+      },
+      "sparse_update": {
+        "n": 120,
+        "p50": 93.29724999999999,
+        "p95": 119.183525,
+        "p99": 376.888883
+      },
+      "dense_update": {
+        "n": 120,
+        "p50": 16.6942,
+        "p95": 30.983469999999997,
+        "p99": 66.43592500000001
+      },
+      "ready_checks": {
+        "n": 120,
+        "p50": 102.13215,
+        "p95": 169.73923999999997,
+        "p99": 286.30622300000016
+      }
+    },
+    "responses_during_injection_per_s": 20.0,
+    "responses_by_deadline": 2400,
+    "readiness_denominator_note": "Percentiles condition on a confirmed-ready target version; counts and all other outcomes retained. This is not saturation capacity."
+  },
+  {
+    "point_id": "16_repeated_20261017_uncoordinated",
+    "arm": "uncoordinated",
+    "pattern": "repeated",
+    "seed": 20261017,
+    "smoke": false,
+    "status": "PASS",
+    "errors": [],
+    "phases": {
+      "warmup": {
+        "receive_lag_p95_ms": 3.473949999999999,
+        "offered_load_valid": true,
+        "operations": 1200,
+        "receiver_to_dispatch_p95_ms": 9.25144,
+        "completed_by_deadline": 1200
+      },
+      "measured": {
+        "receive_lag_p95_ms": 3.635289999999996,
+        "offered_load_valid": true,
+        "operations": 2400,
+        "receiver_to_dispatch_p95_ms": 10.003154999999984,
+        "completed_by_deadline": 2400
+      }
+    },
+    "updates": 120,
+    "reads": 2280,
+    "ready_updates": 120,
+    "ready_by_deadline": 120,
+    "outcomes": {
+      "applied": 120
+    },
+    "execution_errors": 0,
+    "final_keys": 16,
+    "final_mismatches": 0,
+    "final_failures": [],
+    "snapshot_content_mismatches": 0,
+    "mixed_target_snapshots": 169,
+    "requested_target_lag_snapshots": 326,
+    "target_post_ready_eligible": 2275,
+    "target_post_ready_stale": 0,
+    "returned_post_ready_eligible": 28,
+    "returned_post_ready_stale": 0,
+    "returned_cross_scope_leaks": 0,
+    "candidate_cross_scope_leaks": 0,
+    "service_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "mutation_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "latencies_ms": {
+      "arrival_to_ready": {
+        "n": 120,
+        "p50": 319.7063,
+        "p95": 523.398495,
+        "p99": 699.2532330000001
+      },
+      "planned_to_ready": {
+        "n": 120,
+        "p50": 320.17314999999996,
+        "p95": 524.29841,
+        "p99": 700.722152
+      },
+      "read_arrival_to_query": {
+        "n": 2280,
+        "p50": 23.7975,
+        "p95": 112.54682999999973,
+        "p99": 263.48838
+      },
+      "read_arrival_to_response": {
+        "n": 2280,
+        "p50": 24.06905,
+        "p95": 114.06863499999977,
+        "p99": 265.01501000000025
+      },
+      "read_queue": {
+        "n": 2280,
+        "p50": 0.36235,
+        "p95": 14.6808099999999,
+        "p99": 163.6551030000001
+      },
+      "update_queue": {
+        "n": 120,
+        "p50": 0.40190000000000003,
+        "p95": 1.1456199999999999,
+        "p99": 4.690192000000003
+      },
+      "id_lock_wait": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null
+      },
+      "id_lock_hold": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null
+      },
+      "raw_write": {
+        "n": 120,
+        "p50": 12.0366,
+        "p95": 18.448014999999998,
+        "p99": 20.992425
+      },
+      "structured": {
+        "n": 120,
+        "p50": 45.636250000000004,
+        "p95": 49.75618,
+        "p99": 53.57480700000001
+      },
+      "sparse_update": {
+        "n": 120,
+        "p50": 92.25915,
+        "p95": 120.62453499999995,
+        "p99": 392.00669000000005
+      },
+      "dense_update": {
+        "n": 120,
+        "p50": 16.09845,
+        "p95": 30.500129999999995,
+        "p99": 67.74486800000004
+      },
+      "ready_checks": {
+        "n": 120,
+        "p50": 99.9026,
+        "p95": 169.939035,
+        "p99": 220.00683400000005
+      }
+    },
+    "responses_during_injection_per_s": 20.0,
+    "responses_by_deadline": 2400,
+    "readiness_denominator_note": "Percentiles condition on a confirmed-ready target version; counts and all other outcomes retained. This is not saturation capacity."
+  },
+  {
+    "point_id": "17_hotspot_20261017_uncoordinated",
+    "arm": "uncoordinated",
+    "pattern": "hotspot",
+    "seed": 20261017,
+    "smoke": false,
+    "status": "PASS",
+    "errors": [],
+    "phases": {
+      "warmup": {
+        "receive_lag_p95_ms": 3.2755899999999993,
+        "offered_load_valid": true,
+        "operations": 1200,
+        "receiver_to_dispatch_p95_ms": 3.941254999999998,
+        "completed_by_deadline": 1200
+      },
+      "measured": {
+        "receive_lag_p95_ms": 3.2591999999999985,
+        "offered_load_valid": true,
+        "operations": 2400,
+        "receiver_to_dispatch_p95_ms": 5.103499999999914,
+        "completed_by_deadline": 2400
+      }
+    },
+    "updates": 120,
+    "reads": 2280,
+    "ready_updates": 119,
+    "ready_by_deadline": 119,
+    "outcomes": {
+      "applied": 119,
+      "guard_rejected": 1
+    },
+    "execution_errors": 0,
+    "final_keys": 16,
+    "final_mismatches": 0,
+    "final_failures": [],
+    "snapshot_content_mismatches": 0,
+    "mixed_target_snapshots": 90,
+    "requested_target_lag_snapshots": 272,
+    "target_post_ready_eligible": 2265,
+    "target_post_ready_stale": 0,
+    "returned_post_ready_eligible": 27,
+    "returned_post_ready_stale": 0,
+    "returned_cross_scope_leaks": 0,
+    "candidate_cross_scope_leaks": 0,
+    "service_overlap": {
+      "updates_in_same_key_overlap": 4,
+      "same_key_pairs": 2,
+      "max_simultaneous_all_keys": 2
+    },
+    "mutation_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "latencies_ms": {
+      "arrival_to_ready": {
+        "n": 119,
+        "p50": 673.9024,
+        "p95": 891.8355,
+        "p99": 954.5411739999998
+      },
+      "planned_to_ready": {
+        "n": 119,
+        "p50": 674.1683,
+        "p95": 892.7838999999999,
+        "p99": 955.1941539999999
+      },
+      "read_arrival_to_query": {
+        "n": 2280,
+        "p50": 19.202199999999998,
+        "p95": 70.28775499999995,
+        "p99": 226.9664680000001
+      },
+      "read_arrival_to_response": {
+        "n": 2280,
+        "p50": 19.45845,
+        "p95": 70.45311999999997,
+        "p99": 229.27848200000003
+      },
+      "read_queue": {
+        "n": 2280,
+        "p50": 0.32889999999999997,
+        "p95": 6.908599999999991,
+        "p99": 152.23009200000004
+      },
+      "update_queue": {
+        "n": 120,
+        "p50": 0.36805,
+        "p95": 3.2046650000000003,
+        "p99": 96.27991300000008
+      },
+      "id_lock_wait": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null
+      },
+      "id_lock_hold": {
+        "n": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null
+      },
+      "raw_write": {
+        "n": 120,
+        "p50": 12.3477,
+        "p95": 19.57988,
+        "p99": 20.752006
+      },
+      "structured": {
+        "n": 120,
+        "p50": 46.44225,
+        "p95": 54.387775,
+        "p99": 58.987217
+      },
+      "sparse_update": {
+        "n": 120,
+        "p50": 56.5257,
+        "p95": 103.70662999999999,
+        "p99": 259.10902200000044
+      },
+      "dense_update": {
+        "n": 120,
+        "p50": 9.64825,
+        "p95": 23.89741,
+        "p99": 35.962507000000016
+      },
+      "ready_checks": {
+        "n": 119,
+        "p50": 478.4653,
+        "p95": 671.23781,
+        "p99": 737.6227099999998
+      }
+    },
+    "responses_during_injection_per_s": 20.0,
+    "responses_by_deadline": 2400,
+    "readiness_denominator_note": "Percentiles condition on a confirmed-ready target version; counts and all other outcomes retained. This is not saturation capacity."
+  },
+  {
+    "point_id": "18_hotspot_20261017_serialized",
+    "arm": "serialized",
+    "pattern": "hotspot",
+    "seed": 20261017,
+    "smoke": false,
+    "status": "PASS",
+    "errors": [],
+    "phases": {
+      "warmup": {
+        "receive_lag_p95_ms": 3.4034800499999993,
+        "offered_load_valid": true,
+        "operations": 1200,
+        "receiver_to_dispatch_p95_ms": 4.807234999999988,
+        "completed_by_deadline": 1200
+      },
+      "measured": {
+        "receive_lag_p95_ms": 3.2630249999999985,
+        "offered_load_valid": true,
+        "operations": 2400,
+        "receiver_to_dispatch_p95_ms": 3.8164899999999866,
+        "completed_by_deadline": 2400
+      }
+    },
+    "updates": 120,
+    "reads": 2280,
+    "ready_updates": 120,
+    "ready_by_deadline": 120,
+    "outcomes": {
+      "applied": 120
+    },
+    "execution_errors": 0,
+    "final_keys": 16,
+    "final_mismatches": 0,
+    "final_failures": [],
+    "snapshot_content_mismatches": 0,
+    "mixed_target_snapshots": 78,
+    "requested_target_lag_snapshots": 270,
+    "target_post_ready_eligible": 2263,
+    "target_post_ready_stale": 0,
+    "returned_post_ready_eligible": 28,
+    "returned_post_ready_stale": 0,
+    "returned_cross_scope_leaks": 0,
+    "candidate_cross_scope_leaks": 0,
+    "service_overlap": {
+      "updates_in_same_key_overlap": 2,
+      "same_key_pairs": 1,
+      "max_simultaneous_all_keys": 2
+    },
+    "mutation_overlap": {
+      "updates_in_same_key_overlap": 0,
+      "same_key_pairs": 0,
+      "max_simultaneous_all_keys": 1
+    },
+    "latencies_ms": {
+      "arrival_to_ready": {
+        "n": 120,
+        "p50": 677.1231499999999,
+        "p95": 827.7750599999999,
+        "p99": 968.107442
+      },
+      "planned_to_ready": {
+        "n": 120,
+        "p50": 677.9369,
+        "p95": 831.6155099999999,
+        "p99": 968.860959
+      },
+      "read_arrival_to_query": {
+        "n": 2280,
+        "p50": 18.0584,
+        "p95": 49.87196999999997,
+        "p99": 168.21218800000005
+      },
+      "read_arrival_to_response": {
+        "n": 2280,
+        "p50": 18.3287,
+        "p95": 50.24431499999998,
+        "p99": 168.26216600000006
+      },
+      "read_queue": {
+        "n": 2280,
+        "p50": 0.30269999999999997,
+        "p95": 4.6348999999999085,
+        "p99": 83.37362400000012
+      },
+      "update_queue": {
+        "n": 120,
+        "p50": 0.3144,
+        "p95": 2.3072099999999987,
+        "p99": 74.62145900000017
+      },
+      "id_lock_wait": {
+        "n": 120,
+        "p50": 0.005350000000000001,
+        "p95": 0.0072,
+        "p99": 0.010115000000000002
+      },
+      "id_lock_hold": {
+        "n": 120,
+        "p50": 676.3943999999999,
+        "p95": 827.2261599999999,
+        "p99": 967.576496
+      },
+      "raw_write": {
+        "n": 120,
+        "p50": 12.6143,
+        "p95": 24.00545,
+        "p99": 26.506468
+      },
+      "structured": {
+        "n": 120,
+        "p50": 47.14845,
+        "p95": 61.993900000000004,
+        "p99": 84.10418400000005
+      },
+      "sparse_update": {
+        "n": 120,
+        "p50": 52.01535,
+        "p95": 97.41320499999999,
+        "p99": 209.4066430000003
+      },
+      "dense_update": {
+        "n": 120,
+        "p50": 6.46,
+        "p95": 23.61838,
+        "p99": 28.399753000000004
+      },
+      "ready_checks": {
+        "n": 120,
+        "p50": 500.53205,
+        "p95": 666.3673399999999,
+        "p99": 787.6603690000001
+      }
+    },
+    "responses_during_injection_per_s": 20.0,
+    "responses_by_deadline": 2400,
+    "readiness_denominator_note": "Percentiles condition on a confirmed-ready target version; counts and all other outcomes retained. This is not saturation capacity."
+  }
+]

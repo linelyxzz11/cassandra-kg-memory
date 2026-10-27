@@ -1,0 +1,91 @@
+{
+  "methods": [
+    "Dense_Raw",
+    "Dense_ERK",
+    "Dense_RawERK",
+    "BM25_Raw",
+    "BM25_ERK",
+    "BM25_RawERK",
+    "H_Raw_Raw",
+    "H_Raw_ERK",
+    "H_Raw_RawERK",
+    "H_ERK_Raw",
+    "H_ERK_ERK",
+    "H_ERK_RawERK",
+    "H_RawERK_Raw",
+    "H_RawERK_ERK",
+    "H_RawERK_RawERK"
+  ],
+  "rates": [
+    0.0,
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "seeds": [
+    20261012,
+    20261013,
+    20261014,
+    20261015,
+    20261016,
+    20261017,
+    20261018,
+    20261019,
+    20261020,
+    20261021
+  ],
+  "modes": [
+    "memory",
+    "field"
+  ],
+  "primary_split": "test1146",
+  "supplementary_splits": [
+    "dev390",
+    "all1536"
+  ],
+  "alpha": 0.6,
+  "candidate_depth": 50,
+  "final_k": 10,
+  "bm25": {
+    "k1": 1.5,
+    "b": 0.75,
+    "lowercase": true,
+    "stop_words": "english",
+    "ngram_range": [
+      1,
+      2
+    ],
+    "max_features": 50000
+  },
+  "encoding": {
+    "model": "C:\\Users\\PC\\.cache\\huggingface\\hub\\models--BAAI--bge-large-en-v1.5\\snapshots\\d4aa6901d3a41ba39fb536a557fa166f842b0e09",
+    "dtype": "float32",
+    "pooling": "CLS L2",
+    "char_limit": 1500,
+    "token_limit": 512,
+    "query": "same frozen normalized vectors",
+    "raw": "speaker: text",
+    "rawerk": "same raw prefix + labelled nonempty E/R/K; truncate concatenation to1500",
+    "empty_erk": "zero vector, all IDs retained",
+    "cache": "exact text; no stale uncorrupted embeddings"
+  },
+  "mask": "nested uniform threshold U<rate, scope-specific fixed seeds; memory: drop all available fields together; field: independent E/R/K blocks; queries and gold not used",
+  "statistics": "10000 paired conversation cluster resamples; across seeds mean and spread, joint seed/conversation resampling for robustness contrasts; marginal unadjusted95% intervals",
+  "sources": {
+    "D:\\memorytable\\cassandra-kg-memory\\results\\retrieval\\raw_preserving_stage1_20261012\\local_raw_vectors.npy": "97b1451d4cbd804e8055b2515f3e6fcb361e16e84e45ea7827ae156c02515fae",
+    "D:\\memorytable\\cassandra-kg-memory\\results\\retrieval\\raw_preserving_stage1_20261012\\local_erk_vectors.npy": "45a4a9708a98a3610feaa6134e661c76d9f48fe7037e4808323fdf6c482fb02e",
+    "D:\\memorytable\\cassandra-kg-memory\\results\\retrieval\\raw_preserving_stage1_20261012\\memory_inputs.json": "bf57bc85fdd062fc461a8cf45f45597d9b48b4ea4b29ef9a0911bf2b2d65ba98",
+    "D:\\memorytable\\cassandra-kg-memory\\results\\retrieval\\raw_preserving_stage1_20261012\\documents.json": "1ff2cdc83fd9299a7135066182a2fd041e2789be7bbb4ff3706802a9b0520c05",
+    "D:\\memorytable\\cassandra-kg-memory\\data\\retrieval_gold\\locomo_cat1_4_gold_memory.csv": "8946fd8f208b8dbd37540a7a45314c758e10744a762190bae2825a56b544e7f7",
+    "D:\\memorytable\\cassandra-kg-memory\\data\\frozen_retrieval\\p3_queries.csv": "312db7263dc0c6fba1f81eaa7f38dc0da51467a405284dfffb380fa79040b349",
+    "D:\\memorytable\\cassandra-kg-memory\\data\\frozen_retrieval\\p3_memory_features.csv": "b211c99df6f778b02d2c89670e6db90e12aedef3a313d0ab102708b24795c0cc",
+    "D:\\memorytable\\cassandra-kg-memory\\data\\locomo_qa_bge_large.npy": "9d74a961cebdccecfecd473c41636bce135ad2e6a510fc1262c8db4f29ce1e9e",
+    "D:\\memorytable\\cassandra-kg-memory\\experiments\\retrieval\\p1_compact_component_ablation\\p1c_config.json": "4cde07809d953522aa41584ce63510f9cbf5e43b4cf5423ae889559ee12f5ab1",
+    "D:\\memorytable\\cassandra-kg-memory\\experiments\\retrieval\\p1_compact_component_ablation\\run_p1c_ablation_v5.py": "5a8e870c17a732ef322eb29d3e8e47acce2a7a905ac782d4db17644eea8c1101",
+    "D:\\memorytable\\cassandra-kg-memory\\experiments\\retrieval\\run_representation_robustness.py": "aa1c9ed0cad14b8520abdc978d0940ed4d5b74e8b3c61589bd31792c283f2b46"
+  },
+  "reader_calls": 0,
+  "judge_calls": 0
+}

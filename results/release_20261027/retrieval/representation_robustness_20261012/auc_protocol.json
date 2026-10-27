@@ -1,0 +1,27 @@
+{
+  "range": [
+    0,
+    1
+  ],
+  "rates": [
+    0.0,
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "weights": [
+    0.05,
+    0.125,
+    0.2,
+    0.25,
+    0.25,
+    0.125
+  ],
+  "definition": "absolute normalized trapezoidal area under score-versus-missingness; not ROC-AUC; not relative to clean score",
+  "scope": "heldout1146",
+  "bootstrap": "10000 paired joint seed/conversation draws, same draws across methods and all rates; seed20261023; marginal95%CI, no multiplicity adjustment",
+  "verification": "per-seed integration then averaging equals trapezoid of mean curves to1e-12",
+  "source_overall_sha256": "cb49c1c3fc3607800a399afeca86a7a2fb6aa8465a9009242497a2ef4b7caae0"
+}

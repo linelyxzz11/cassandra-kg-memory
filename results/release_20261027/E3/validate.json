@@ -1,0 +1,11 @@
+{
+  "formal_cases": 4800,
+  "updates": 9600,
+  "all_independently_revalidated": true,
+  "harness_status": "PASS",
+  "baseline_regressions": 600,
+  "serialized_post_ready_reads": 7261,
+  "serialized_post_ready_failures": 0,
+  "source_case_ids_unique": true,
+  "partial_original_case": "Preserved under evidence; excluded from completed-case denominator, linked by same case ID."
+}

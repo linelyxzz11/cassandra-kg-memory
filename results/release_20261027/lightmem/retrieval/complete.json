@@ -1,0 +1,8 @@
+{
+  "scopes": 10,
+  "valid_gold_queries": 1536,
+  "heldout_queries": 1146,
+  "reader_judge_run": false,
+  "citation_status": "model-estimated support adapter; not independently verified ground truth",
+  "candidate_granularity": "Top50 facts projected to first10 unique turns; not identical to Top50 raw turns"
+}

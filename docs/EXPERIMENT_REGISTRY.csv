@@ -10,3 +10,14 @@ QUERY-TYPES,DONE,system,"Scope/relation/candidate/Top-10 query-type matrix",resu
 STORAGE-WORK,DONE,system,"Physical records and logical writes under semantic parity",results/serving_100k/locomo_workload_graph_v2_100k/storage_work_v2
 FRESHNESS,DONE,system,"Resource-matched online update stages with queue and raw-write timing separated",results/serving_100k/resource_matched_v3/resmatch_20260924_v3r2/freshness
 RECOVERY,DONE,system,"Application materializer-worker recovery; databases remain online",results/serving_100k/locomo_workload_graph_v2_100k/recovery_v2
+P0-OCTOBER,EXPORTED,retrieval-reader,"Original paired audit and later Judge completion retained separately",results/release_20261027/p0
+P1-REPRESENTATION-ROBUSTNESS,EXPORTED,retrieval,"15 settings with missingness and robustness AUC; frozen contracts",results/release_20261027/retrieval/representation_robustness_20261012
+CANDIDATE-BUDGET,EXPORTED,retrieval,"Candidate-depth and final-cutoff sensitivity; cached timing boundary",results/release_20261027/candidate_budget
+LIGHTMEM,EXPORTED,retrieval-reader,"Local BGE adaptation; model-estimated turn attribution and native-fact Reader",results/release_20261027/lightmem
+SCOPE-ISOLATION,PARTIAL_EXPORT,system,"Stage A summaries and Stage B completion marker; raw observations remain local",results/release_20261027/scope_isolation
+E0-MAIN,EXPORTED,system,"36 PASS arrival-to-ready run summaries under full auditing",results/release_20261027/E0_main
+E0-AUDIT,EXPORTED_WITH_INVALID,system,"72 original points: 66 PASS and 6 INVALID; do not merge with replacements",results/release_20261027/E0_audit
+E0-INDEPENDENT-INGRESS,EXPORTED,system,"Separate 12-point six-pair ingress-isolated follow-up",results/release_20261027/E0_ingress
+E3-OVERLAPPING-REVISIONS,EXPORTED,system,"Forced structured-delay regression versus serialized post-final-ready reads; different denominators",results/release_20261027/E3
+ACCESS-PATH,EXPORTED,system,"36 paired physical-access measurement points",results/release_20261027/access_path
+ORDINARY-CONCURRENCY,EXPORTED,system,"Ordinary load campaign separate from forced E3 races",results/release_20261027/ordinary_concurrency

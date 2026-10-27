@@ -1,0 +1,9 @@
+{
+  "points": 36,
+  "statuses": {
+    "PASS": 36
+  },
+  "measured_updates": 2520,
+  "measured_reads": 47880,
+  "checks": "Raw event/clock/content/coverage re-evaluated with corrected independent audit_phase; all final checkpoints content-checked. Original and corrected point statuses separately preserved."
+}

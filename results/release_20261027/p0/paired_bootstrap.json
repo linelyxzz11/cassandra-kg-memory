@@ -1,0 +1,282 @@
+[
+  {
+    "kind": "retrieval",
+    "population": "heldout1146",
+    "setting": "frozen",
+    "metric": "MRR@10",
+    "n": 1146,
+    "conversations": 8,
+    "cassmem": 0.5498223635003742,
+    "hipporag2": 0.5164942242167373,
+    "delta": 0.03332813928363687,
+    "cluster_ci95": [
+      -0.0030318527842936715,
+      0.0699468085106383
+    ],
+    "query_ci95": [
+      0.009970644962464336,
+      0.05619655322862129
+    ],
+    "cluster_ci_excludes_zero": false
+  },
+  {
+    "kind": "retrieval",
+    "population": "heldout1146",
+    "setting": "frozen",
+    "metric": "Hit@1",
+    "n": 1146,
+    "conversations": 8,
+    "cassmem": 0.42408376963350786,
+    "hipporag2": 0.387434554973822,
+    "delta": 0.03664921465968585,
+    "cluster_ci95": [
+      -0.007739938080495356,
+      0.08409658617818484
+    ],
+    "query_ci95": [
+      0.005235602094240838,
+      0.06719022687609075
+    ],
+    "cluster_ci_excludes_zero": false
+  },
+  {
+    "kind": "retrieval",
+    "population": "heldout1146",
+    "setting": "frozen",
+    "metric": "Hit@5",
+    "n": 1146,
+    "conversations": 8,
+    "cassmem": 0.7137870855148342,
+    "hipporag2": 0.6832460732984293,
+    "delta": 0.030541012216404817,
+    "cluster_ci95": [
+      -0.010890283934822925,
+      0.06250137665198235
+    ],
+    "query_ci95": [
+      0.004363001745200698,
+      0.055846422338568937
+    ],
+    "cluster_ci_excludes_zero": false
+  },
+  {
+    "kind": "retrieval",
+    "population": "heldout1146",
+    "setting": "frozen",
+    "metric": "Hit@10",
+    "n": 1146,
+    "conversations": 8,
+    "cassmem": 0.81239092495637,
+    "hipporag2": 0.7975567190226877,
+    "delta": 0.014834205933682343,
+    "cluster_ci95": [
+      -0.01399825021872266,
+      0.04958714286760023
+    ],
+    "query_ci95": [
+      -0.006108202443280977,
+      0.03577661431064572
+    ],
+    "cluster_ci_excludes_zero": false
+  },
+  {
+    "kind": "retrieval",
+    "population": "heldout1146",
+    "setting": "frozen",
+    "metric": "Recall@10",
+    "n": 1146,
+    "conversations": 8,
+    "cassmem": 0.73964007331934,
+    "hipporag2": 0.7301311702649776,
+    "delta": 0.009508903054362361,
+    "cluster_ci95": [
+      -0.020627637691423048,
+      0.042611470262681125
+    ],
+    "query_ci95": [
+      -0.009784815623018497,
+      0.028753702861857338
+    ],
+    "cluster_ci_excludes_zero": false
+  },
+  {
+    "kind": "retrieval",
+    "population": "heldout1146",
+    "setting": "frozen",
+    "metric": "nDCG@10",
+    "n": 1146,
+    "conversations": 8,
+    "cassmem": 0.575460531611072,
+    "hipporag2": 0.5483774448991904,
+    "delta": 0.027083086711881643,
+    "cluster_ci95": [
+      -0.004149480409648336,
+      0.05883198882057243
+    ],
+    "query_ci95": [
+      0.00773465122589635,
+      0.045643845463041545
+    ],
+    "cluster_ci_excludes_zero": false
+  },
+  {
+    "kind": "reader",
+    "population": "full1986",
+    "setting": "a_unified",
+    "metric": "F1",
+    "n": 1986,
+    "conversations": 10,
+    "cassmem": 0.3859051736265708,
+    "hipporag2": 0.3555700821087392,
+    "delta": 0.03033509151783159,
+    "cluster_ci95": [
+      0.015303886199143489,
+      0.048821450825237006
+    ],
+    "query_ci95": [
+      0.016770529484512887,
+      0.04452375504114983
+    ],
+    "cluster_ci_excludes_zero": true
+  },
+  {
+    "kind": "reader",
+    "population": "full1986",
+    "setting": "a_unified",
+    "metric": "B1",
+    "n": 1986,
+    "conversations": 10,
+    "cassmem": 0.31265631930065657,
+    "hipporag2": 0.2920888475756921,
+    "delta": 0.02056747172496448,
+    "cluster_ci95": [
+      0.007046442988684836,
+      0.03624091436262396
+    ],
+    "query_ci95": [
+      0.00870788060755835,
+      0.032611618177660645
+    ],
+    "cluster_ci_excludes_zero": true
+  },
+  {
+    "kind": "reader",
+    "population": "heldout1487",
+    "setting": "a_unified",
+    "metric": "F1",
+    "n": 1487,
+    "conversations": 8,
+    "cassmem": 0.3924841786928646,
+    "hipporag2": 0.3598163349011912,
+    "delta": 0.03266784379167342,
+    "cluster_ci95": [
+      0.013783050601602094,
+      0.05604555574052925
+    ],
+    "query_ci95": [
+      0.016753873174593977,
+      0.04894780907265617
+    ],
+    "cluster_ci_excludes_zero": true
+  },
+  {
+    "kind": "reader",
+    "population": "heldout1487",
+    "setting": "a_unified",
+    "metric": "B1",
+    "n": 1487,
+    "conversations": 8,
+    "cassmem": 0.3206371255740543,
+    "hipporag2": 0.29935016259541136,
+    "delta": 0.021286962978642965,
+    "cluster_ci95": [
+      0.006541427429629658,
+      0.039782786960921364
+    ],
+    "query_ci95": [
+      0.007066546548417523,
+      0.03557404496102826
+    ],
+    "cluster_ci_excludes_zero": true
+  },
+  {
+    "kind": "reader",
+    "population": "full1986",
+    "setting": "b_category",
+    "metric": "F1",
+    "n": 1986,
+    "conversations": 10,
+    "cassmem": 0.5856358775601357,
+    "hipporag2": 0.572387462000536,
+    "delta": 0.013248415559599658,
+    "cluster_ci95": [
+      0.0016445342070499336,
+      0.025256211577312067
+    ],
+    "query_ci95": [
+      -0.0012952491204845083,
+      0.027955041899254372
+    ],
+    "cluster_ci_excludes_zero": true
+  },
+  {
+    "kind": "reader",
+    "population": "full1986",
+    "setting": "b_category",
+    "metric": "B1",
+    "n": 1986,
+    "conversations": 10,
+    "cassmem": 0.5096158954703437,
+    "hipporag2": 0.49573235262922527,
+    "delta": 0.013883542841118424,
+    "cluster_ci95": [
+      0.0031107971207416634,
+      0.02482375122864017
+    ],
+    "query_ci95": [
+      0.00016437974929381081,
+      0.02746050322193823
+    ],
+    "cluster_ci_excludes_zero": true
+  },
+  {
+    "kind": "reader",
+    "population": "heldout1487",
+    "setting": "b_category",
+    "metric": "F1",
+    "n": 1487,
+    "conversations": 8,
+    "cassmem": 0.5937962072046409,
+    "hipporag2": 0.5814473452389537,
+    "delta": 0.012348861965687186,
+    "cluster_ci95": [
+      -0.0014338163081301816,
+      0.027102299357466834
+    ],
+    "query_ci95": [
+      -0.005137042527299924,
+      0.030152614481430574
+    ],
+    "cluster_ci_excludes_zero": false
+  },
+  {
+    "kind": "reader",
+    "population": "heldout1487",
+    "setting": "b_category",
+    "metric": "B1",
+    "n": 1487,
+    "conversations": 8,
+    "cassmem": 0.5179998357644408,
+    "hipporag2": 0.5041266126608536,
+    "delta": 0.013873223103587184,
+    "cluster_ci95": [
+      0.0012908987398140292,
+      0.026941348522842107
+    ],
+    "query_ci95": [
+      -0.00220410153769683,
+      0.030159430237077015
+    ],
+    "cluster_ci_excludes_zero": true
+  }
+]

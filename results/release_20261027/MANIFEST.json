@@ -1,0 +1,1447 @@
+{
+  "schema_version": 1,
+  "release_date": "2026-10-27",
+  "note": "Copies preserve source bytes. Source paths are relative to the private workspace, not URLs or bundled raw-data promises.",
+  "files": [
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/formal/E0_main/per-run-summary.csv",
+      "path": "results/release_20261027/E0_main/per-run-summary.csv",
+      "sha256": "09691fb8f4100a9b3612583c4513b8b8a4104714023186b80d1ef2c35fb4f738",
+      "bytes": 15027
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/formal/E0_main/workload-validity.csv",
+      "path": "results/release_20261027/E0_main/workload-validity.csv",
+      "sha256": "09691fb8f4100a9b3612583c4513b8b8a4104714023186b80d1ef2c35fb4f738",
+      "bytes": 15027
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/formal/E0_main/validate.json",
+      "path": "results/release_20261027/E0_main/validate.json",
+      "sha256": "39b268c4b8c8fcf7922bcf0aab68375dee381bb6a4d49854a1d83ccbd6d6f871",
+      "bytes": 317
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/formal/E0_audit/per-run-summary.csv",
+      "path": "results/release_20261027/E0_audit/per-run-summary.csv",
+      "sha256": "e793cb9f8c1ba0e3756cd0c1ecefd1f7cef875d62ae62497164a8980e75a81a3",
+      "bytes": 31794
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/formal/E0_audit/workload-validity.csv",
+      "path": "results/release_20261027/E0_audit/workload-validity.csv",
+      "sha256": "e793cb9f8c1ba0e3756cd0c1ecefd1f7cef875d62ae62497164a8980e75a81a3",
+      "bytes": 31794
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/formal/E0_audit/validate.json",
+      "path": "results/release_20261027/E0_audit/validate.json",
+      "sha256": "d7c8f26958359afae4cf8795aea50d0e57d1ed78d824c78e825d4ad39a708de3",
+      "bytes": 336
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/formal/E0_ingress/per-run-summary.csv",
+      "path": "results/release_20261027/E0_ingress/per-run-summary.csv",
+      "sha256": "48f7c1adfe1d45165cae8cd6b077614d6ee95fe879128d6318f709a25b112b1a",
+      "bytes": 5641
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/formal/E0_ingress/workload-validity.csv",
+      "path": "results/release_20261027/E0_ingress/workload-validity.csv",
+      "sha256": "48f7c1adfe1d45165cae8cd6b077614d6ee95fe879128d6318f709a25b112b1a",
+      "bytes": 5641
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/formal/E0_ingress/validate.json",
+      "path": "results/release_20261027/E0_ingress/validate.json",
+      "sha256": "19cfcc22fb8cf2e5b49cc5519f912c37a12fe0f3c4990b242f501b935674fcca",
+      "bytes": 317
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/formal/E3/per-scenario-summary.csv",
+      "path": "results/release_20261027/E3/per-scenario-summary.csv",
+      "sha256": "cc142bc5a251cae105ddbbff72372b6e1ac0e9bc50869d81fc4ae626dafe1a8e",
+      "bytes": 5952
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/formal/E3/per-window-summary.csv",
+      "path": "results/release_20261027/E3/per-window-summary.csv",
+      "sha256": "c82df33c647fbf5368ad2cf4b9026bbd5071e33bf2a8abcdd21b31a37e93b959",
+      "bytes": 6968
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/formal/E3/validate.json",
+      "path": "results/release_20261027/E3/validate.json",
+      "sha256": "a89cccbc41c36f18e850f79831cbb069b46fb41c8bcf8f106d399c0878a25427",
+      "bytes": 389
+    },
+    {
+      "source": "cassmem_access_path_delivery_20261020/CassMem_ACCESS_PATH_FINAL/formal/aggregate.json",
+      "path": "results/release_20261027/access_path/aggregate.json",
+      "sha256": "77b5471afca47f5a5532f1495b6d55be1ce13c81782dddc91e8b8b31500d8b04",
+      "bytes": 4666
+    },
+    {
+      "source": "cassmem_access_path_delivery_20261020/CassMem_ACCESS_PATH_FINAL/formal/all_36_points.csv",
+      "path": "results/release_20261027/access_path/all_36_points.csv",
+      "sha256": "95093bb7f46f2cb3336bca9207d8303d5bde956ebaf6bee09366a9639f99eea1",
+      "bytes": 3039
+    },
+    {
+      "source": "cassmem_access_path_delivery_20261020/CassMem_ACCESS_PATH_FINAL/formal/gates.json",
+      "path": "results/release_20261027/access_path/gates.json",
+      "sha256": "65939fc5a658a2882eacc8083571d535a3ee69565170890289c90561ade46777",
+      "bytes": 3474
+    },
+    {
+      "source": "cassmem_access_path_delivery_20261020/CassMem_ACCESS_PATH_FINAL/formal/pooled_descriptive_statistics.csv",
+      "path": "results/release_20261027/access_path/pooled_descriptive_statistics.csv",
+      "sha256": "5e955ed050defba28a8a9d85497b89b61524a1c5f4416281ce7944702fbcdffa",
+      "bytes": 1860
+    },
+    {
+      "source": "cassmem_ordinary_concurrency_20261021/run_v1/complete.json",
+      "path": "results/release_20261027/ordinary_concurrency/complete.json",
+      "sha256": "4926c1b544286c70c4f80c7623120bfeaeadbec4bad3c290ea8ee8825378a45b",
+      "bytes": 74
+    },
+    {
+      "source": "cassmem_ordinary_concurrency_20261021/run_v1/per_run_summary.csv",
+      "path": "results/release_20261027/ordinary_concurrency/per_run_summary.csv",
+      "sha256": "5c52e5fa896b81d2332f39e918d639b530a41b92ab22a6cd1b51d00b4d79b99f",
+      "bytes": 13188
+    },
+    {
+      "source": "cassmem_ordinary_concurrency_20261021/run_v1/metrics_summary.json",
+      "path": "results/release_20261027/ordinary_concurrency/metrics_summary.json",
+      "sha256": "b5dc5469f612d963aa4315b8dd57a559fad2fe62f65558cd0939a5bf88fd2f48",
+      "bytes": 68022
+    },
+    {
+      "source": "audit/candidate-budget-20261014/complete.json",
+      "path": "results/release_20261027/candidate_budget/complete.json",
+      "sha256": "8924d79c76f918f85e7f9a9ffcad13a607708207f8ac9d20601531feffa5ae7f",
+      "bytes": 206
+    },
+    {
+      "source": "audit/candidate-budget-20261014/metrics_summary.csv",
+      "path": "results/release_20261027/candidate_budget/metrics_summary.csv",
+      "sha256": "4f3dd0b314536ea2b2bfb860bef580e3547ed2d02d3277c040ae524faece1737",
+      "bytes": 165280
+    },
+    {
+      "source": "audit/candidate-budget-20261014/candidate_coverage.csv",
+      "path": "results/release_20261027/candidate_budget/candidate_coverage.csv",
+      "sha256": "04413fff99b96930bdf2ce2d0b0b98c8e62e35cf4e469e2545b744a5a60d5af4",
+      "bytes": 432858
+    },
+    {
+      "source": "audit/candidate-budget-20261014/paired_cluster_bootstrap.csv",
+      "path": "results/release_20261027/candidate_budget/paired_cluster_bootstrap.csv",
+      "sha256": "fdcdcb395168deefd4277292080ef461b6432e20a2b4f5d6828ea59904d64a4a",
+      "bytes": 8788
+    },
+    {
+      "source": "audit/candidate-budget-20261014/cached_postprocessing_timing.csv",
+      "path": "results/release_20261027/candidate_budget/cached_postprocessing_timing.csv",
+      "sha256": "dc14c64f8ac743504b7181e0b8ae36cad04bcebf6a1f07a9a841bfa0452ce0e6",
+      "bytes": 4706669
+    },
+    {
+      "source": "audit/candidate-budget-20261014/parity.json",
+      "path": "results/release_20261027/candidate_budget/parity.json",
+      "sha256": "92fb4df7bd4bc4cbae3b66a816ee69b7d321c4932222b951879a39c481324a21",
+      "bytes": 99
+    },
+    {
+      "source": "audit/scope-isolation-20261014/initial_complete.json",
+      "path": "results/release_20261027/scope_isolation/initial_complete.json",
+      "sha256": "d241cf89c0925794ac40f4a213f7db1e8c55f3eecd72003e355659fe24efc1d1",
+      "bytes": 166
+    },
+    {
+      "source": "audit/scope-isolation-20261014/initial_summary.json",
+      "path": "results/release_20261027/scope_isolation/initial_summary.json",
+      "sha256": "e6cedffba57ba058d804d046290749589ca10cfd978e2c580edb87d3546c63a1",
+      "bytes": 29627
+    },
+    {
+      "source": "audit/scope-isolation-20261014/backend_retry1/complete.json",
+      "path": "results/release_20261027/scope_isolation/backend/complete.json",
+      "sha256": "0fee0945b6b2d0bed73dbf411926f4dd82f351300d7ec311528900dbf26b8298",
+      "bytes": 176
+    },
+    {
+      "source": "audit/lightmem-reader-baseline-20261012/full_retrieval_v1/complete.json",
+      "path": "results/release_20261027/lightmem/retrieval/complete.json",
+      "sha256": "58a121ded39365dc2d900a94add845854d0ededd61ed86265a98ccb3836ebc13",
+      "bytes": 318
+    },
+    {
+      "source": "audit/lightmem-reader-baseline-20261012/full_retrieval_v1/metrics_summary.json",
+      "path": "results/release_20261027/lightmem/retrieval/metrics_summary.json",
+      "sha256": "3bdff70bc6cd799ccc56512c20ddc91d0c3189c81e17406125dd2350209f6c9e",
+      "bytes": 10400
+    },
+    {
+      "source": "audit/lightmem-reader-baseline-20261012/full_reader_v1/complete.json",
+      "path": "results/release_20261027/lightmem/reader/complete.json",
+      "sha256": "a237a75e6a883093379324f3b5b3932971a99e788076c7349c5099b533dfca73",
+      "bytes": 164
+    },
+    {
+      "source": "audit/lightmem-reader-baseline-20261012/full_reader_v1/reader_summary.json",
+      "path": "results/release_20261027/lightmem/reader/reader_summary.json",
+      "sha256": "597138b9e885e473d113557e2de9d8941b35e8fef6aa7c0d43a677d12f1eb5ea",
+      "bytes": 4885
+    },
+    {
+      "source": "audit/lightmem-reader-baseline-20261012/full_reader_v1/validation.json",
+      "path": "results/release_20261027/lightmem/reader/validation.json",
+      "sha256": "021a8d1a2d7f318fedbb4684b2893780a086523022bd9cc832b66a885ebaad2c",
+      "bytes": 245
+    },
+    {
+      "source": "cassandra-kg-memory/results/retrieval/raw_preserving_stage1_20261012/overall.csv",
+      "path": "results/release_20261027/retrieval/raw_preserving_stage1_20261012/overall.csv",
+      "sha256": "42288f319adcaa605948bc0e52dc7ba5a65897382e0a4fd728631afcda31a7d0",
+      "bytes": 3551
+    },
+    {
+      "source": "cassandra-kg-memory/results/retrieval/raw_preserving_stage1_20261012/by_category.csv",
+      "path": "results/release_20261027/retrieval/raw_preserving_stage1_20261012/by_category.csv",
+      "sha256": "aec866c14bdd6d072161fab34f879d4bcc3ceb6c49a8634c516282d378fc9c88",
+      "bytes": 14095
+    },
+    {
+      "source": "cassandra-kg-memory/results/retrieval/raw_preserving_stage1_20261012/paired_bootstrap.json",
+      "path": "results/release_20261027/retrieval/raw_preserving_stage1_20261012/paired_bootstrap.json",
+      "sha256": "92cbbdfa862f0301b4c6e0a6b596b2f72c54659bdb9e9c96a2aa85d7200fa1e9",
+      "bytes": 7553
+    },
+    {
+      "source": "cassandra-kg-memory/results/retrieval/raw_preserving_stage1_20261012/completion.json",
+      "path": "results/release_20261027/retrieval/raw_preserving_stage1_20261012/completion.json",
+      "sha256": "76bcf06b5c3932e53914ef98a048bd503ae832d3d8fc087c686a0aed0352a7bf",
+      "bytes": 288
+    },
+    {
+      "source": "cassandra-kg-memory/results/retrieval/raw_preserving_stage1_20261012/independent_verification.json",
+      "path": "results/release_20261027/retrieval/raw_preserving_stage1_20261012/independent_verification.json",
+      "sha256": "a7bcd822ccdf807c9912dfac527c38c828aaf83b6b9a4d28ab6357322c77a54d",
+      "bytes": 244
+    },
+    {
+      "source": "cassandra-kg-memory/results/retrieval/raw_preserving_stage1_20261012/parity_gate.json",
+      "path": "results/release_20261027/retrieval/raw_preserving_stage1_20261012/parity_gate.json",
+      "sha256": "ee1386344ed7263ca5c251f4e091224af82bc3d7280a5a423c7c3fc9dfed81cb",
+      "bytes": 118
+    },
+    {
+      "source": "cassandra-kg-memory/results/retrieval/raw_preserving_stage1_20261012/representation_stats.json",
+      "path": "results/release_20261027/retrieval/raw_preserving_stage1_20261012/representation_stats.json",
+      "sha256": "f521b533d4af2322caab5b9bb8577cc52848cd11896140ed72d1e39b08ed9f67",
+      "bytes": 1950
+    },
+    {
+      "source": "cassandra-kg-memory/results/retrieval/raw_preserving_stage1_20261012/contract.json",
+      "path": "results/release_20261027/retrieval/raw_preserving_stage1_20261012/contract.json",
+      "sha256": "e3c5211d706df95050f771a59bd48a6beb6a3143d6c3a9b2627e53cb477e621e",
+      "bytes": 3196
+    },
+    {
+      "source": "cassandra-kg-memory/results/retrieval/representation_robustness_20261012/overall.csv",
+      "path": "results/release_20261027/retrieval/representation_robustness_20261012/overall.csv",
+      "sha256": "cb49c1c3fc3607800a399afeca86a7a2fb6aa8465a9009242497a2ef4b7caae0",
+      "bytes": 573164
+    },
+    {
+      "source": "cassandra-kg-memory/results/retrieval/representation_robustness_20261012/robustness_summary.csv",
+      "path": "results/release_20261027/retrieval/representation_robustness_20261012/robustness_summary.csv",
+      "sha256": "bfd0db629e7ac1a77cf8ed2c85434b6b75ab0979eafc3f922af58d02616a9114",
+      "bytes": 47695
+    },
+    {
+      "source": "cassandra-kg-memory/results/retrieval/representation_robustness_20261012/robustness_auc.csv",
+      "path": "results/release_20261027/retrieval/representation_robustness_20261012/robustness_auc.csv",
+      "sha256": "33a786c88131dcb588daac438d718ee3af03acb4a5b49af51c26f7d71d984a78",
+      "bytes": 12616
+    },
+    {
+      "source": "cassandra-kg-memory/results/retrieval/representation_robustness_20261012/robustness_auc_paired.csv",
+      "path": "results/release_20261027/retrieval/representation_robustness_20261012/robustness_auc_paired.csv",
+      "sha256": "8a6dcbe65d5080571207f560d3f697b0875e6560a1e3e60027bc1395c840e4de",
+      "bytes": 104817
+    },
+    {
+      "source": "cassandra-kg-memory/results/retrieval/representation_robustness_20261012/supplement_metrics_by_rate.csv",
+      "path": "results/release_20261027/retrieval/representation_robustness_20261012/supplement_metrics_by_rate.csv",
+      "sha256": "c3eb80f29b0c54909460f9f361b6e86195c0dcc0cc1ae3e3459a98853f7812fb",
+      "bytes": 22794
+    },
+    {
+      "source": "cassandra-kg-memory/results/retrieval/representation_robustness_20261012/completion.json",
+      "path": "results/release_20261027/retrieval/representation_robustness_20261012/completion.json",
+      "sha256": "af6a3b517911e9e021691d1ef12b0bf87d63010749430a6db209080c7d3c5397",
+      "bytes": 187
+    },
+    {
+      "source": "cassandra-kg-memory/results/retrieval/representation_robustness_20261012/verification.json",
+      "path": "results/release_20261027/retrieval/representation_robustness_20261012/verification.json",
+      "sha256": "7184f717daeb9f7653285efd5b1a480732284ac3a677cbc599af788bcd3ea423",
+      "bytes": 191
+    },
+    {
+      "source": "cassandra-kg-memory/results/retrieval/representation_robustness_20261012/endpoint_sanity.json",
+      "path": "results/release_20261027/retrieval/representation_robustness_20261012/endpoint_sanity.json",
+      "sha256": "25229efd079b3abf75a3d236359e7b1487b2b6bb177ce5ebf4c59e0cab1ad0d6",
+      "bytes": 67
+    },
+    {
+      "source": "cassandra-kg-memory/results/retrieval/representation_robustness_20261012/contract.json",
+      "path": "results/release_20261027/retrieval/representation_robustness_20261012/contract.json",
+      "sha256": "09476512679c14923647eaf6878e6c1983fb218e77b6bcedab71828f2c8a82e3",
+      "bytes": 3843
+    },
+    {
+      "source": "cassandra-kg-memory/results/retrieval/representation_robustness_20261012/auc_protocol.json",
+      "path": "results/release_20261027/retrieval/representation_robustness_20261012/auc_protocol.json",
+      "sha256": "26d4f983a750abb38e5632fd1759381a4c7310f615bcaf878d2e4f4d487bc735",
+      "bytes": 718
+    },
+    {
+      "source": "cassandra-kg-memory/results/retrieval/reviewer_statistics/method_ci.csv",
+      "path": "results/release_20261027/retrieval/reviewer_statistics/method_ci.csv",
+      "sha256": "2ac521ac68455a24d4184e8210bf0574a7a650b5f0a5d867a0ff292904974b99",
+      "bytes": 3201
+    },
+    {
+      "source": "cassandra-kg-memory/results/retrieval/reviewer_statistics/paired_comparisons.csv",
+      "path": "results/release_20261027/retrieval/reviewer_statistics/paired_comparisons.csv",
+      "sha256": "59266732b86027e563a7868ce487619d887c31e2ac0af0acb30f471d5a844c22",
+      "bytes": 3622
+    },
+    {
+      "source": "cassandra-kg-memory/results/p0_audit_20261012/fusion_audit.json",
+      "path": "results/release_20261027/p0/fusion_audit.json",
+      "sha256": "b8ee437142ed34cecf05195e7d9718968204e7d22254900fcba38f83b1c2a1ac",
+      "bytes": 296
+    },
+    {
+      "source": "cassandra-kg-memory/results/p0_audit_20261012/populations.json",
+      "path": "results/release_20261027/p0/populations.json",
+      "sha256": "b232b8746b681fa9bbeca101631b61712787bb843ecc61f6eba1b3777d3caff2",
+      "bytes": 1134
+    },
+    {
+      "source": "cassandra-kg-memory/results/p0_audit_20261012/paired_bootstrap.json",
+      "path": "results/release_20261027/p0/paired_bootstrap.json",
+      "sha256": "45922279abb70b71ce916ad8d68a34b88c1de2564e9ecea159a7e6a648c26805",
+      "bytes": 6758
+    },
+    {
+      "source": "cassandra-kg-memory/results/p0_audit_20261012/verification.json",
+      "path": "results/release_20261027/p0/verification.json",
+      "sha256": "5509b0702920d69ef3c4df45e5322ee9862d2cdbf48a2ffe113a3bfdc9c999eb",
+      "bytes": 466
+    },
+    {
+      "source": "cassandra-kg-memory/results/p0_audit_20261012/judge_completion_v2_uiuihao/contract.json",
+      "path": "results/release_20261027/p0/judge_completion/contract.json",
+      "sha256": "14bc4612d4029e36fd57314b687daec7666d7f3ea1b4f0389fcc3132807e794d",
+      "bytes": 819
+    },
+    {
+      "source": "cassandra-kg-memory/results/p0_audit_20261012/judge_completion_v2_uiuihao/paired_all_metrics.json",
+      "path": "results/release_20261027/p0/judge_completion/paired_all_metrics.json",
+      "sha256": "6376a363992ce742a8e0d3a74488bcca0a206153e9792008d8d180df9a76e15f",
+      "bytes": 8686
+    },
+    {
+      "source": "cassandra-kg-memory/results/p0_audit_20261012/judge_completion_v2_uiuihao/paired_j_bootstrap.json",
+      "path": "results/release_20261027/p0/judge_completion/paired_j_bootstrap.json",
+      "sha256": "eba69c560c05c6554e410cb07671195fe63365e69d2c5215c6f61f7fe6c91bce",
+      "bytes": 1931
+    },
+    {
+      "source": "cassandra-kg-memory/results/p0_audit_20261012/judge_completion_v2_uiuihao/reader_population_summary.json",
+      "path": "results/release_20261027/p0/judge_completion/reader_population_summary.json",
+      "sha256": "1b773d016cd86d675b67cf25a6acd4cda9776287361421b88700eb25f058d1f6",
+      "bytes": 1659
+    },
+    {
+      "source": "cassandra-kg-memory/results/p0_audit_20261012/judge_completion_v2_uiuihao/historical_j_comparison.json",
+      "path": "results/release_20261027/p0/judge_completion/historical_j_comparison.json",
+      "sha256": "75b1c0413203eb04d2ec5d5bf11c6748325a3b69cc00302361a2fad32ffcd129",
+      "bytes": 414
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/cassandra-kg-memory/experiments/serving_100k/run_graph_100k_load_gate_v2.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/cassandra-kg-memory/experiments/serving_100k/run_graph_100k_load_gate_v2.py",
+      "sha256": "2bfe197ee41378fc6fc096af44d35ccc5e6178f502d5c138dc292b4a9b627d2d",
+      "bytes": 8880
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/cassandra-kg-memory/experiments/serving_100k/run_graph_canonical_gate_v2.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/cassandra-kg-memory/experiments/serving_100k/run_graph_canonical_gate_v2.py",
+      "sha256": "4f8341f22f4ff31928a598775e09b3bf63fa629eedc37111fd812b9753fd9830",
+      "bytes": 8097
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/cassandra-kg-memory/src/cassmem/__init__.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/cassandra-kg-memory/src/cassmem/__init__.py",
+      "sha256": "1db666d1be1527f73bc93b59accdbc01fb849986a5fb54dc6b45597360ff6153",
+      "bytes": 40
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/cassandra-kg-memory/src/cassmem/backend/__init__.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/cassandra-kg-memory/src/cassmem/backend/__init__.py",
+      "sha256": "9bea1ae689b8356341d2709948726d0bdfe76a3d60c7c3cc4079922d90708236",
+      "bytes": 182
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/cassandra-kg-memory/src/cassmem/backend/live_cells_graph.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/cassandra-kg-memory/src/cassmem/backend/live_cells_graph.py",
+      "sha256": "6d52db406d4c919c6d494fd83f20e880e030a05c06f781a0e42ff5fe62436bca",
+      "bytes": 32108
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/cassandra-kg-memory/src/cassmem/evaluation/locomo_official_eval_v1.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/cassandra-kg-memory/src/cassmem/evaluation/locomo_official_eval_v1.py",
+      "sha256": "21325e3cdb1a69cdad07b8e000459584725a94f1043f71c99959cf31720f1bce",
+      "bytes": 18589
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/cassandra-kg-memory/src/cassmem/evaluation/run_generic_reader.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/cassandra-kg-memory/src/cassmem/evaluation/run_generic_reader.py",
+      "sha256": "6e44dce83442214bed81f19ef8f1e4c1d8973987617bd5092e1c6fa0c6f3b0b2",
+      "bytes": 6896
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/cassandra-kg-memory/src/cassmem/evaluation/run_hingemem_reader.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/cassandra-kg-memory/src/cassmem/evaluation/run_hingemem_reader.py",
+      "sha256": "765b7189f352587c65f0e1c33fc1730291e0fa453011a8303860167edf92c04e",
+      "bytes": 11752
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/cassandra-kg-memory/src/cassmem/evaluation/run_locomo_prompt_protocol_gpt4o.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/cassandra-kg-memory/src/cassmem/evaluation/run_locomo_prompt_protocol_gpt4o.py",
+      "sha256": "a645ebfde81c2e99a6855dd7a303ba15357f5a81b50d98cd0a05fc1ce578b61e",
+      "bytes": 21010
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/cassandra-kg-memory/src/cassmem/evaluation/run_rrf_compact_canonical1540.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/cassandra-kg-memory/src/cassmem/evaluation/run_rrf_compact_canonical1540.py",
+      "sha256": "6d6c09886574e1d112b1628421ec32c73a7b54646d5872e5770e546efe439729",
+      "bytes": 25783
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/cassandra-kg-memory/src/cassmem/representation/__init__.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/cassandra-kg-memory/src/cassmem/representation/__init__.py",
+      "sha256": "a1a1233175ec4d274b2d8ed30ddfa69df7d344cda45e9f3d3f26c3fe640bfffa",
+      "bytes": 181
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/cassandra-kg-memory/src/cassmem/representation/graph_event.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/cassandra-kg-memory/src/cassmem/representation/graph_event.py",
+      "sha256": "c7d4fcbce856e7e1ef5edfdf75c3eabc6351d21fc28365ccc839fe8e0dce234d",
+      "bytes": 3793
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/cassandra-kg-memory/src/cassmem/retrieval/__init__.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/cassandra-kg-memory/src/cassmem/retrieval/__init__.py",
+      "sha256": "55f6c3dcd5385348b2e26557a0e893d38eb94f9801dfab0f2fcd97040021ad71",
+      "bytes": 204
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/cassandra-kg-memory/src/cassmem/retrieval/online.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/cassandra-kg-memory/src/cassmem/retrieval/online.py",
+      "sha256": "5162fa21c366e125c072908d47d0a5f1640e48a79446606b3b75dc50f7d4fc33",
+      "bytes": 12362
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/cassandra-kg-memory/src/cassmem/serving/__init__.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/cassandra-kg-memory/src/cassmem/serving/__init__.py",
+      "sha256": "8295503d5329cd6cbeb0679aa49b2d1fe05d0c377e89209eb37c0bad854515da",
+      "bytes": 182
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/cassandra-kg-memory/src/cassmem/serving/environment.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/cassandra-kg-memory/src/cassmem/serving/environment.py",
+      "sha256": "55c2073d57449ac4d873a62cca2f06069f4ea3f3679e2d1b17356b87c627a093",
+      "bytes": 750
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/cassandra-kg-memory/src/cassmem/serving/serialized_updates.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/cassandra-kg-memory/src/cassmem/serving/serialized_updates.py",
+      "sha256": "1cb5fcdbbc97037041b720dfac14c6a17fd641c77b1388c2498fcdedf2ef8f4e",
+      "bytes": 7788
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/concurrent_update_consistency/baseline_source/formal_trial_v3_switch1ms.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/concurrent_update_consistency/baseline_source/formal_trial_v3_switch1ms.py",
+      "sha256": "c2872335a045d62b2793a280025d93fae0171f96d260db3b6c9d7e2a5bbb64f3",
+      "bytes": 19016
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/concurrent_update_consistency/baseline_source/launch_v3_gates_switch1ms.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/concurrent_update_consistency/baseline_source/launch_v3_gates_switch1ms.py",
+      "sha256": "3dfd183cff24f404a192e7377e73f3b2dae49c34e2726a387967cda99e88e46d",
+      "bytes": 3539
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/concurrent_update_consistency/baseline_source/live_cells_graph_before_cleanup.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/concurrent_update_consistency/baseline_source/live_cells_graph_before_cleanup.py",
+      "sha256": "3646e44852fcb23a40d97be3259d8c53ca8770810a38d147dc1dd64c1ef34118",
+      "bytes": 28110
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/concurrent_update_consistency/baseline_source/live_cells_graph_before_neo4j_cleanup.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/concurrent_update_consistency/baseline_source/live_cells_graph_before_neo4j_cleanup.py",
+      "sha256": "b2206de4587b8c5d0ac7cbd504baaa445b2b3cfd40201c565f8ecc0d4e8678fd",
+      "bytes": 30740
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/concurrent_update_consistency/baseline_source/preflight_before_cleanup.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/concurrent_update_consistency/baseline_source/preflight_before_cleanup.py",
+      "sha256": "852565e40b7190c9bfb7e2bb0c4fbcd7196742165816d76a151c84dce7886613",
+      "bytes": 9693
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/concurrent_update_consistency/candidate_diagnostic/matched_index_control.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/concurrent_update_consistency/candidate_diagnostic/matched_index_control.py",
+      "sha256": "e958bbbfed1ce73333a3d4e7baf15ec28c62f50923082fda102401ac26191f4c",
+      "bytes": 3981
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/concurrent_update_consistency/candidate_diagnostic/run_diagnostic.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/concurrent_update_consistency/candidate_diagnostic/run_diagnostic.py",
+      "sha256": "473a6f2f15937ca86389b55ea9c1942f18fb5f07aa4e4001dcfaf1befec01d0c",
+      "bytes": 13835
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/concurrent_update_consistency/candidate_diagnostic/summarize.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/concurrent_update_consistency/candidate_diagnostic/summarize.py",
+      "sha256": "286bfa0aa6b2fadc4d0226cba2abfdf7eef7cc3d78372470461b603cf870fc89",
+      "bytes": 1351
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/concurrent_update_consistency/formal_trial.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/concurrent_update_consistency/formal_trial.py",
+      "sha256": "45253fc7709fa2939086686f05bc3a276816b54af18682490ce30288e2ca2528",
+      "bytes": 17795
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/concurrent_update_consistency/formal_trial_v3.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/concurrent_update_consistency/formal_trial_v3.py",
+      "sha256": "3ed706c647ca301cda77dc380089482a048b4bbe96b564d10d9e536cb0450eee",
+      "bytes": 19017
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/concurrent_update_consistency/formal_trial_v3c.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/concurrent_update_consistency/formal_trial_v3c.py",
+      "sha256": "4aca1a9af151ead022812d6c2824d5a974128ff2fdd1a7376be439d52979357e",
+      "bytes": 19017
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/concurrent_update_consistency/launch_v2.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/concurrent_update_consistency/launch_v2.py",
+      "sha256": "33a43328582825a7e5364db8e401109951f105e2ca1f3873889e5561c1914d5a",
+      "bytes": 2278
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/concurrent_update_consistency/launch_v3_formal_after_gates.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/concurrent_update_consistency/launch_v3_formal_after_gates.py",
+      "sha256": "765cef8faa517afb2286554b6a90a6051934f3e89078eded6d5c71b09953db62",
+      "bytes": 2487
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/concurrent_update_consistency/launch_v3_gates.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/concurrent_update_consistency/launch_v3_gates.py",
+      "sha256": "311680917fb83e3074c41e76f56373de25bf4efea202b4f05ef33aa18e55a773",
+      "bytes": 3541
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/concurrent_update_consistency/launch_v3c_formal_after_gates.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/concurrent_update_consistency/launch_v3c_formal_after_gates.py",
+      "sha256": "d1cdca1d2804fe4a7fff3014aeb250df5f342e1f8dfbbd9bc8e515ca5c61db41",
+      "bytes": 2559
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/concurrent_update_consistency/launch_v3c_gates.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/concurrent_update_consistency/launch_v3c_gates.py",
+      "sha256": "8451196e266656a88857ac7a8e27d28aaf261bd356c3722036ecb33ad41c9842",
+      "bytes": 3594
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/concurrent_update_consistency/neo4j_collected_v3.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/concurrent_update_consistency/neo4j_collected_v3.py",
+      "sha256": "24354db0d65126e6d62d779f9a611a465f2be4c80fa1c3ab45038e3fa64cb5ab",
+      "bytes": 766
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/concurrent_update_consistency/neo_preflight.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/concurrent_update_consistency/neo_preflight.py",
+      "sha256": "56d5acc16d70bf976832353608d9a0a76157c0e2b2e177ea908748d88cf9467a",
+      "bytes": 4785
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/concurrent_update_consistency/preflight.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/concurrent_update_consistency/preflight.py",
+      "sha256": "852565e40b7190c9bfb7e2bb0c4fbcd7196742165816d76a151c84dce7886613",
+      "bytes": 9693
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/concurrent_update_consistency/report_audit/audit.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/concurrent_update_consistency/report_audit/audit.py",
+      "sha256": "d53cb8b51f70fa09d6f9f218e9224695dc0e315beebece62efafdfc75d02cd2b",
+      "bytes": 5058
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/concurrent_update_consistency/run_matrix.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/concurrent_update_consistency/run_matrix.py",
+      "sha256": "686d74650c9dabdb97050d7fd5950464a85e8ba70054f66bee2947705db4f088",
+      "bytes": 6833
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/concurrent_update_consistency/run_matrix_v3.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/concurrent_update_consistency/run_matrix_v3.py",
+      "sha256": "6250e26bb3b579d89ed6758e380760279092bb6a4a6a17ab606d76f7d7073a11",
+      "bytes": 7109
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/concurrent_update_consistency/run_matrix_v3c.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/concurrent_update_consistency/run_matrix_v3c.py",
+      "sha256": "e46eb025df5796f4b56efd032f51c81c386ba1bbb5e19555c09990b474873e61",
+      "bytes": 7113
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/concurrent_update_consistency/runtime.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/concurrent_update_consistency/runtime.py",
+      "sha256": "a26d9fedabb167c7fc63f19eccb2c1e7f93c8313c32d142053f9fed6e763cc7a",
+      "bytes": 2981
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/concurrent_update_consistency/test_cleanup.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/concurrent_update_consistency/test_cleanup.py",
+      "sha256": "22d4e62a2a9e40248cf2518d1036063db67c0be838de155f9955d3ca10b31764",
+      "bytes": 2851
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/concurrent_update_consistency/test_formal.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/concurrent_update_consistency/test_formal.py",
+      "sha256": "f1be1f77b6467f47048f47e67f3d5c107391740cb4a372b13abf5b6caf8fb0ae",
+      "bytes": 1008
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/concurrent_update_consistency/test_v3.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/concurrent_update_consistency/test_v3.py",
+      "sha256": "f86904be4ac418b9aaf2d2605b0657f52639009c47812dccb40254e4ad92b74e",
+      "bytes": 1545
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/representation_serving_cost/arrival_emitter.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/representation_serving_cost/arrival_emitter.py",
+      "sha256": "07eecca17363aa0c4829993051d38b8a800e5797b945c31fd8bfc3ff4e803d21",
+      "bytes": 1036
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/representation_serving_cost/audit_quality_differences.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/representation_serving_cost/audit_quality_differences.py",
+      "sha256": "3e2026647aa272fc042ca36f07c2f4187a2086014998023784b9e32b3511931f",
+      "bytes": 3364
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/representation_serving_cost/benchmark.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/representation_serving_cost/benchmark.py",
+      "sha256": "99923ed9d4a2a61944b056148929c9abb793a3df2def48d47d7b3cc8d410929c",
+      "bytes": 20671
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/representation_serving_cost/common.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/representation_serving_cost/common.py",
+      "sha256": "a5894fe5083fde2903432c0a3b44b5f9b697440e8bcc0cb8080f9697c1e8456a",
+      "bytes": 3775
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/representation_serving_cost/environment.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/representation_serving_cost/environment.py",
+      "sha256": "3532b66109d7d99327817bd026176d08149762da287136db3c8b79f29c1a4b85",
+      "bytes": 3951
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/representation_serving_cost/freshness_retest.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/representation_serving_cost/freshness_retest.py",
+      "sha256": "edd2fc08607ad8047ff7dacb209d8ad6a8bfa7a4813252c660a8ba787544196c",
+      "bytes": 7712
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/representation_serving_cost/run_minimal_retest.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/representation_serving_cost/run_minimal_retest.py",
+      "sha256": "5615ad05e3898b62734f58e9192a9b9d52687570b9428500885994c93c085c4c",
+      "bytes": 4923
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/representation_serving_cost/run_quality.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/representation_serving_cost/run_quality.py",
+      "sha256": "d54ecee1ff5dc5dc0fc8c4a822779016ef9f5c6f8a78e030e9e9eb361a1eadc0",
+      "bytes": 5804
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/representation_serving_cost/run_suite.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/representation_serving_cost/run_suite.py",
+      "sha256": "df29f36eaffda90113f0d0941442f6f6987ea110fc4b52c38d07f728686d77ff",
+      "bytes": 8510
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/source/representation_serving_cost/test_retest_clocks.py",
+      "path": "experiments/snapshots/e0_e3_delivery/source/representation_serving_cost/test_retest_clocks.py",
+      "sha256": "cf4d3c8de76006950c9bd064b49f04ce2f9bf45382d7b34cd6b5d4ea8ba41711",
+      "bytes": 1147
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_audit_overhead_20261017/run.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_audit_overhead_20261017/run.py",
+      "sha256": "21750e081ad023b3f0d22da8232a6af8def24210b471978979b70b25dd0e3101",
+      "bytes": 7218
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_audit_overhead_20261017/run_v1/campaign_generated.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_audit_overhead_20261017/run_v1/campaign_generated.py",
+      "sha256": "3c109bb0bcd10aa95d4c0ef036560746546197a9ef3997876eba4c15639ef63b",
+      "bytes": 8711
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_audit_overhead_20261017/run_v1/engine_start_generated.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_audit_overhead_20261017/run_v1/engine_start_generated.py",
+      "sha256": "0adeabce0af4dac482cae70355f82c30d7390703545f90b8e8244b2626425578",
+      "bytes": 3422
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_audit_overhead_20261017/run_v1/phase_generated.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_audit_overhead_20261017/run_v1/phase_generated.py",
+      "sha256": "67b194c0de37c5c3256120665cbfdbdf5c832a95a53996ec2388a2e8c58f32bf",
+      "bytes": 7678
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_audit_overhead_20261017/test_boundary.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_audit_overhead_20261017/test_boundary.py",
+      "sha256": "0b2e19ed0bb6f29a0ad308ba1d6256601f087249b6fe9115cb27bc55b7b57a64",
+      "bytes": 1484
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_formal_20261015/formal.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_formal_20261015/formal.py",
+      "sha256": "ef09f88fd73a7d9e0612756c58c042eca535a11d66071323535f3b1435f4ef67",
+      "bytes": 14593
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_formal_20261015/run_b9da27ebdd6e/code_snapshot/formal.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_formal_20261015/run_b9da27ebdd6e/code_snapshot/formal.py",
+      "sha256": "ef09f88fd73a7d9e0612756c58c042eca535a11d66071323535f3b1435f4ef67",
+      "bytes": 14593
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_formal_20261015/run_b9da27ebdd6e/code_snapshot/test_formal.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_formal_20261015/run_b9da27ebdd6e/code_snapshot/test_formal.py",
+      "sha256": "82d6fab8663d22ff586e02696042bc6e805ef1ae6c81d83896542ba98e3c06cb",
+      "bytes": 3302
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_formal_20261015/run_b9da27ebdd6e/code_snapshot/validator.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_formal_20261015/run_b9da27ebdd6e/code_snapshot/validator.py",
+      "sha256": "a988204503f1a2869c94b7d18ef7f5f66508c329480e3ab9d36097eade035835",
+      "bytes": 7646
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_formal_20261015/run_b9da27ebdd6e/phase_generated.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_formal_20261015/run_b9da27ebdd6e/phase_generated.py",
+      "sha256": "675e5ae87804f0b145be64c778b0c2bdc271a2b5749bce016504f994f07a7d79",
+      "bytes": 7465
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_formal_20261015/test_formal.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_formal_20261015/test_formal.py",
+      "sha256": "82d6fab8663d22ff586e02696042bc6e805ef1ae6c81d83896542ba98e3c06cb",
+      "bytes": 3302
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_formal_20261015/validator.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_formal_20261015/validator.py",
+      "sha256": "a988204503f1a2869c94b7d18ef7f5f66508c329480e3ab9d36097eade035835",
+      "bytes": 7646
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_ingress_20261018/launch.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_ingress_20261018/launch.py",
+      "sha256": "96be3b65b4de5f59943b1fced52bf8254a90ca12e5841e08c8b3a140d2b5b6b8",
+      "bytes": 6949
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_ingress_20261018/receiver.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_ingress_20261018/receiver.py",
+      "sha256": "afe28b11ca065af5150a609337eac3d6c03769cf61cd37bd3306e112cf95f489",
+      "bytes": 2295
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_ingress_20261018/run_v1/campaign_generated.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_ingress_20261018/run_v1/campaign_generated.py",
+      "sha256": "73132d66e26869cee7efbcbdafa775fef0fd8ba8f1e38599a0122d31f28b23b3",
+      "bytes": 9120
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_ingress_20261018/run_v1/engine_start_generated.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_ingress_20261018/run_v1/engine_start_generated.py",
+      "sha256": "0adeabce0af4dac482cae70355f82c30d7390703545f90b8e8244b2626425578",
+      "bytes": 3422
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_ingress_20261018/run_v1/phase_generated.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_ingress_20261018/run_v1/phase_generated.py",
+      "sha256": "fab513936fc857ce32be72a71db222c9121d4df2438c50e1c014145be586e23a",
+      "bytes": 7749
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_ingress_20261018/test_loadgen.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_ingress_20261018/test_loadgen.py",
+      "sha256": "53945b8a44f0555b2dd55b8bd8796389eac49f95ca2a256b2a06d0bb0558162f",
+      "bytes": 2626
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_preflight_20261015/accept_e0.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_preflight_20261015/accept_e0.py",
+      "sha256": "e1004aaf242e73a47eac5fee030a5f6dc986c3021c4ff558f6a56583f6d8454d",
+      "bytes": 4980
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_preflight_20261015/e0_0246002cc853/code_snapshot/environment.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_preflight_20261015/e0_0246002cc853/code_snapshot/environment.py",
+      "sha256": "9fdac1bc5b1b659e3438ee6e28ffad5b81a7c3f5892218bd3f047c368d849456",
+      "bytes": 5117
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_preflight_20261015/e0_0246002cc853/code_snapshot/fourth.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_preflight_20261015/e0_0246002cc853/code_snapshot/fourth.py",
+      "sha256": "9e707d0619c15a2f79353fdd88790395f4e7cecf751f0b72cc262b02b416acda",
+      "bytes": 2398
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_preflight_20261015/e0_0246002cc853/code_snapshot/fourth_validate.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_preflight_20261015/e0_0246002cc853/code_snapshot/fourth_validate.py",
+      "sha256": "87e8b7b44c1fce4b934c82b6907e95efdcf8f83d44a453aa291fb492dc01204b",
+      "bytes": 4673
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_preflight_20261015/e0_0246002cc853/code_snapshot/instrumentation.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_preflight_20261015/e0_0246002cc853/code_snapshot/instrumentation.py",
+      "sha256": "97c7897a39ae7c89cb5cec9b0a2d94cd93babba7d4f09e182aa2fa35b8d25104",
+      "bytes": 1069
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_preflight_20261015/e0_0246002cc853/code_snapshot/prepare_e0.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_preflight_20261015/e0_0246002cc853/code_snapshot/prepare_e0.py",
+      "sha256": "e1283b0fc7947ae961f971fe47527d1bfe825ec34e8823453695a747db4e2a1d",
+      "bytes": 6393
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_preflight_20261015/e0_0246002cc853/code_snapshot/smoke.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_preflight_20261015/e0_0246002cc853/code_snapshot/smoke.py",
+      "sha256": "d257f969f9bcfa488a2e3988503cdd619f48af499658b3202e9abd62e0192855",
+      "bytes": 13221
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_preflight_20261015/e0_0246002cc853/code_snapshot/test_clocks.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_preflight_20261015/e0_0246002cc853/code_snapshot/test_clocks.py",
+      "sha256": "5fe77aed3ef6ae7db5f86f0271d8309e540d2db3e78f6bd2763efc16182d4449",
+      "bytes": 951
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_preflight_20261015/e0_0246002cc853/code_snapshot/validate_e0.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_preflight_20261015/e0_0246002cc853/code_snapshot/validate_e0.py",
+      "sha256": "d231c0ced48398153a0efe6bcf2a11b79cee94bc20049e5a851959448b94dcbc",
+      "bytes": 8135
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_preflight_20261015/environment.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_preflight_20261015/environment.py",
+      "sha256": "9fdac1bc5b1b659e3438ee6e28ffad5b81a7c3f5892218bd3f047c368d849456",
+      "bytes": 5117
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_preflight_20261015/fourth.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_preflight_20261015/fourth.py",
+      "sha256": "9e707d0619c15a2f79353fdd88790395f4e7cecf751f0b72cc262b02b416acda",
+      "bytes": 2398
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_preflight_20261015/fourth_validate.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_preflight_20261015/fourth_validate.py",
+      "sha256": "87e8b7b44c1fce4b934c82b6907e95efdcf8f83d44a453aa291fb492dc01204b",
+      "bytes": 4673
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_preflight_20261015/instrumentation.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_preflight_20261015/instrumentation.py",
+      "sha256": "97c7897a39ae7c89cb5cec9b0a2d94cd93babba7d4f09e182aa2fa35b8d25104",
+      "bytes": 1069
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_preflight_20261015/prepare_e0.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_preflight_20261015/prepare_e0.py",
+      "sha256": "e1283b0fc7947ae961f971fe47527d1bfe825ec34e8823453695a747db4e2a1d",
+      "bytes": 6393
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_preflight_20261015/smoke.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_preflight_20261015/smoke.py",
+      "sha256": "d257f969f9bcfa488a2e3988503cdd619f48af499658b3202e9abd62e0192855",
+      "bytes": 13221
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_preflight_20261015/test_clocks.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_preflight_20261015/test_clocks.py",
+      "sha256": "5fe77aed3ef6ae7db5f86f0271d8309e540d2db3e78f6bd2763efc16182d4449",
+      "bytes": 951
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_preflight_20261015/validate_e0.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_preflight_20261015/validate_e0.py",
+      "sha256": "d231c0ced48398153a0efe6bcf2a11b79cee94bc20049e5a851959448b94dcbc",
+      "bytes": 8135
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_recovery_20261016/compare_layouts.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_recovery_20261016/compare_layouts.py",
+      "sha256": "33dc1af9829f79f4d7519a0184b20c49bc8841a5f69063198ec2ab2b783ffc12",
+      "bytes": 10957
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_recovery_20261016/corrected_validator.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_recovery_20261016/corrected_validator.py",
+      "sha256": "9a2ec01f2e3b7fae3679557257b15e3e65381759f7d1548ad361267f43308c4c",
+      "bytes": 2602
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_recovery_20261016/dense_audit.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_recovery_20261016/dense_audit.py",
+      "sha256": "75939db864521283c6273067ca4797a4b348d51a2fd9053907730fdbfbf383cf",
+      "bytes": 2972
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_recovery_20261016/loader.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_recovery_20261016/loader.py",
+      "sha256": "f6d6a2939763880c5f429867641c73a8537155859adbad711dcf8957f345940d",
+      "bytes": 1402
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_recovery_20261016/resume.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_recovery_20261016/resume.py",
+      "sha256": "2fbd89bcf3022038ae540e67fc63d7072e180d5181a14dd12cdc1d9ab24ffc8b",
+      "bytes": 3585
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_recovery_20261016/resume_a3d619eff461/campaign_generated.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_recovery_20261016/resume_a3d619eff461/campaign_generated.py",
+      "sha256": "12213d937de772a83cc21a6cbc50079daba4faa1b0bbd2af270650ddbfefbe8e",
+      "bytes": 7537
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_recovery_20261016/resume_a3d619eff461/code_snapshot/corrected_validator.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_recovery_20261016/resume_a3d619eff461/code_snapshot/corrected_validator.py",
+      "sha256": "9a2ec01f2e3b7fae3679557257b15e3e65381759f7d1548ad361267f43308c4c",
+      "bytes": 2602
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_recovery_20261016/resume_a3d619eff461/code_snapshot/dense_audit.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_recovery_20261016/resume_a3d619eff461/code_snapshot/dense_audit.py",
+      "sha256": "75939db864521283c6273067ca4797a4b348d51a2fd9053907730fdbfbf383cf",
+      "bytes": 2972
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_recovery_20261016/resume_a3d619eff461/code_snapshot/loader.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_recovery_20261016/resume_a3d619eff461/code_snapshot/loader.py",
+      "sha256": "f6d6a2939763880c5f429867641c73a8537155859adbad711dcf8957f345940d",
+      "bytes": 1402
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_recovery_20261016/resume_a3d619eff461/code_snapshot/resume.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_recovery_20261016/resume_a3d619eff461/code_snapshot/resume.py",
+      "sha256": "2fbd89bcf3022038ae540e67fc63d7072e180d5181a14dd12cdc1d9ab24ffc8b",
+      "bytes": 3585
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_recovery_20261016/resume_a3d619eff461/code_snapshot/resume_v2.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_recovery_20261016/resume_a3d619eff461/code_snapshot/resume_v2.py",
+      "sha256": "ffd4babbc9c77a8a5006670809a50e6565b4565139bd07abdfe2600436cd60b0",
+      "bytes": 2677
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_recovery_20261016/resume_a3d619eff461/code_snapshot/test_repair.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_recovery_20261016/resume_a3d619eff461/code_snapshot/test_repair.py",
+      "sha256": "df4ae723266e1bbae9082edd15f96a6c66373480004060468d27ee1e56136360",
+      "bytes": 2080
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_recovery_20261016/resume_a3d619eff461/engine_start_generated.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_recovery_20261016/resume_a3d619eff461/engine_start_generated.py",
+      "sha256": "0adeabce0af4dac482cae70355f82c30d7390703545f90b8e8244b2626425578",
+      "bytes": 3422
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_recovery_20261016/resume_a3d619eff461/phase_generated.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_recovery_20261016/resume_a3d619eff461/phase_generated.py",
+      "sha256": "675e5ae87804f0b145be64c778b0c2bdc271a2b5749bce016504f994f07a7d79",
+      "bytes": 7465
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_recovery_20261016/resume_b0c23a1ffb45/campaign_generated.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_recovery_20261016/resume_b0c23a1ffb45/campaign_generated.py",
+      "sha256": "12213d937de772a83cc21a6cbc50079daba4faa1b0bbd2af270650ddbfefbe8e",
+      "bytes": 7537
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_recovery_20261016/resume_b0c23a1ffb45/code_snapshot/corrected_validator.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_recovery_20261016/resume_b0c23a1ffb45/code_snapshot/corrected_validator.py",
+      "sha256": "9a2ec01f2e3b7fae3679557257b15e3e65381759f7d1548ad361267f43308c4c",
+      "bytes": 2602
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_recovery_20261016/resume_b0c23a1ffb45/code_snapshot/dense_audit.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_recovery_20261016/resume_b0c23a1ffb45/code_snapshot/dense_audit.py",
+      "sha256": "75939db864521283c6273067ca4797a4b348d51a2fd9053907730fdbfbf383cf",
+      "bytes": 2972
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_recovery_20261016/resume_b0c23a1ffb45/code_snapshot/loader.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_recovery_20261016/resume_b0c23a1ffb45/code_snapshot/loader.py",
+      "sha256": "f6d6a2939763880c5f429867641c73a8537155859adbad711dcf8957f345940d",
+      "bytes": 1402
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_recovery_20261016/resume_b0c23a1ffb45/code_snapshot/resume.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_recovery_20261016/resume_b0c23a1ffb45/code_snapshot/resume.py",
+      "sha256": "2fbd89bcf3022038ae540e67fc63d7072e180d5181a14dd12cdc1d9ab24ffc8b",
+      "bytes": 3585
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_recovery_20261016/resume_b0c23a1ffb45/code_snapshot/test_repair.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_recovery_20261016/resume_b0c23a1ffb45/code_snapshot/test_repair.py",
+      "sha256": "df4ae723266e1bbae9082edd15f96a6c66373480004060468d27ee1e56136360",
+      "bytes": 2080
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_recovery_20261016/resume_b0c23a1ffb45/phase_generated.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_recovery_20261016/resume_b0c23a1ffb45/phase_generated.py",
+      "sha256": "675e5ae87804f0b145be64c778b0c2bdc271a2b5749bce016504f994f07a7d79",
+      "bytes": 7465
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_recovery_20261016/resume_v2.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_recovery_20261016/resume_v2.py",
+      "sha256": "ffd4babbc9c77a8a5006670809a50e6565b4565139bd07abdfe2600436cd60b0",
+      "bytes": 2677
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e0_recovery_20261016/test_repair.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e0_recovery_20261016/test_repair.py",
+      "sha256": "df4ae723266e1bbae9082edd15f96a6c66373480004060468d27ee1e56136360",
+      "bytes": 2080
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_formal_20261016/campaign.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_formal_20261016/campaign.py",
+      "sha256": "8843e648c31f96d6f6370beec52f2db091d7961ba4058154431e116fb4a1e169",
+      "bytes": 9923
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/code_snapshot/0_campaign.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/code_snapshot/0_campaign.py",
+      "sha256": "8843e648c31f96d6f6370beec52f2db091d7961ba4058154431e116fb4a1e169",
+      "bytes": 9923
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/code_snapshot/10_online.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/code_snapshot/10_online.py",
+      "sha256": "5162fa21c366e125c072908d47d0a5f1640e48a79446606b3b75dc50f7d4fc33",
+      "bytes": 12362
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/code_snapshot/11_graph_event.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/code_snapshot/11_graph_event.py",
+      "sha256": "c7d4fcbce856e7e1ef5edfdf75c3eabc6351d21fc28365ccc839fe8e0dce234d",
+      "bytes": 3793
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/code_snapshot/15_engine_start_generated.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/code_snapshot/15_engine_start_generated.py",
+      "sha256": "4279e75867211b7af91dc4ab994d5427be8c28ca5c8f7fcd220bce9d26d2af79",
+      "bytes": 3419
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/code_snapshot/16_serialized_run_generated.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/code_snapshot/16_serialized_run_generated.py",
+      "sha256": "b7fca5b226defc90565d8c39edadf28eff143356336ac2ada616d44dde868db5",
+      "bytes": 3153
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/code_snapshot/1_test_historical.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/code_snapshot/1_test_historical.py",
+      "sha256": "0bb7855838b522ad16392483b9c8b992b9ee5f99b85986d978e1ea03fc000fc9",
+      "bytes": 1672
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/code_snapshot/2_validator.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/code_snapshot/2_validator.py",
+      "sha256": "8709c0be80756c610dd2307c56e4f76c41a7aef407564d9e903c988c900d6ea9",
+      "bytes": 7458
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/code_snapshot/3_runner.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/code_snapshot/3_runner.py",
+      "sha256": "c4a469d412385d38ce69104bfbd825d3f31d65b589ed33d5055cf60880140f8a",
+      "bytes": 12130
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/code_snapshot/4_live.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/code_snapshot/4_live.py",
+      "sha256": "37f9c1e567d1af09cc3c6333a52afe9b717cdc74955fa81027e97865599bc6ed",
+      "bytes": 5388
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/code_snapshot/5_environment.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/code_snapshot/5_environment.py",
+      "sha256": "9fdac1bc5b1b659e3438ee6e28ffad5b81a7c3f5892218bd3f047c368d849456",
+      "bytes": 5117
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/code_snapshot/6_validate.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/code_snapshot/6_validate.py",
+      "sha256": "a1bb7cfb42f255fbeb216824303719905b8d1fec1809876cd838df3793041d75",
+      "bytes": 11024
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/code_snapshot/7_preflight.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/code_snapshot/7_preflight.py",
+      "sha256": "852565e40b7190c9bfb7e2bb0c4fbcd7196742165816d76a151c84dce7886613",
+      "bytes": 9693
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/code_snapshot/8_serialized_updates.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/code_snapshot/8_serialized_updates.py",
+      "sha256": "1cb5fcdbbc97037041b720dfac14c6a17fd641c77b1388c2498fcdedf2ef8f4e",
+      "bytes": 7788
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/code_snapshot/9_live_cells_graph.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/code_snapshot/9_live_cells_graph.py",
+      "sha256": "6d52db406d4c919c6d494fd83f20e880e030a05c06f781a0e42ff5fe62436bca",
+      "bytes": 32108
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/engine_start_generated.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/engine_start_generated.py",
+      "sha256": "4279e75867211b7af91dc4ab994d5427be8c28ca5c8f7fcd220bce9d26d2af79",
+      "bytes": 3419
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/serialized_run_generated.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_formal_20261016/run_d5e494f2dc2a/serialized_run_generated.py",
+      "sha256": "b7fca5b226defc90565d8c39edadf28eff143356336ac2ada616d44dde868db5",
+      "bytes": 3153
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_formal_20261016/test_historical.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_formal_20261016/test_historical.py",
+      "sha256": "0bb7855838b522ad16392483b9c8b992b9ee5f99b85986d978e1ea03fc000fc9",
+      "bytes": 1672
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_formal_20261016/validator.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_formal_20261016/validator.py",
+      "sha256": "8709c0be80756c610dd2307c56e4f76c41a7aef407564d9e903c988c900d6ea9",
+      "bytes": 7458
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_preflight_20261015/finalize.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_preflight_20261015/finalize.py",
+      "sha256": "4c614a006919982caff7ae011dc05803d5ec29717a120ddde5d5c8cea7fa4077",
+      "bytes": 4691
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_preflight_20261015/prepare.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_preflight_20261015/prepare.py",
+      "sha256": "268b62ade184eccc19fd712fd797ce1bbf9b679a49bd3f13471e1c7b880d3525",
+      "bytes": 5992
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_preflight_20261015/runner.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_preflight_20261015/runner.py",
+      "sha256": "c4a469d412385d38ce69104bfbd825d3f31d65b589ed33d5055cf60880140f8a",
+      "bytes": 12130
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_preflight_20261015/smoke_f0978e6a51a6/code_snapshot/prepare.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_preflight_20261015/smoke_f0978e6a51a6/code_snapshot/prepare.py",
+      "sha256": "268b62ade184eccc19fd712fd797ce1bbf9b679a49bd3f13471e1c7b880d3525",
+      "bytes": 5992
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_preflight_20261015/smoke_f0978e6a51a6/code_snapshot/runner.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_preflight_20261015/smoke_f0978e6a51a6/code_snapshot/runner.py",
+      "sha256": "c4a469d412385d38ce69104bfbd825d3f31d65b589ed33d5055cf60880140f8a",
+      "bytes": 12130
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_preflight_20261015/smoke_f0978e6a51a6/code_snapshot/test_gates.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_preflight_20261015/smoke_f0978e6a51a6/code_snapshot/test_gates.py",
+      "sha256": "46c8cd57a66baee12fcd02ab16a16ed55796809f75afc80cf9c83b7fe4f8e1c1",
+      "bytes": 5260
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_preflight_20261015/smoke_f0978e6a51a6/code_snapshot/validate.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_preflight_20261015/smoke_f0978e6a51a6/code_snapshot/validate.py",
+      "sha256": "a1bb7cfb42f255fbeb216824303719905b8d1fec1809876cd838df3793041d75",
+      "bytes": 11024
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_preflight_20261015/test_gates.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_preflight_20261015/test_gates.py",
+      "sha256": "46c8cd57a66baee12fcd02ab16a16ed55796809f75afc80cf9c83b7fe4f8e1c1",
+      "bytes": 5260
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_preflight_20261015/validate.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_preflight_20261015/validate.py",
+      "sha256": "a1bb7cfb42f255fbeb216824303719905b8d1fec1809876cd838df3793041d75",
+      "bytes": 11024
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_recovery_20261017/continuation_v1/continuation_generated.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_recovery_20261017/continuation_v1/continuation_generated.py",
+      "sha256": "02a0163dfb945d596dc8e994202ee71d6c331a1954a57000789ce812e9f3ad40",
+      "bytes": 3666
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_recovery_20261017/continuation_v1/engine_start_generated.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_recovery_20261017/continuation_v1/engine_start_generated.py",
+      "sha256": "4279e75867211b7af91dc4ab994d5427be8c28ca5c8f7fcd220bce9d26d2af79",
+      "bytes": 3419
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_recovery_20261017/continuation_v1/serialized_run_generated.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_recovery_20261017/continuation_v1/serialized_run_generated.py",
+      "sha256": "b7fca5b226defc90565d8c39edadf28eff143356336ac2ada616d44dde868db5",
+      "bytes": 3153
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_recovery_20261017/resume.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_recovery_20261017/resume.py",
+      "sha256": "84565b8f296bd3917658e2e6426b0bd4988854f456bacd1c69a960f910750bc5",
+      "bytes": 4126
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_serialized_20261015/accept.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_serialized_20261015/accept.py",
+      "sha256": "d903e0564ffe2cf0eb57abf5323e9597a1955ea8abbe428d751e51f8712b6079",
+      "bytes": 3687
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_serialized_20261015/live.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_serialized_20261015/live.py",
+      "sha256": "37f9c1e567d1af09cc3c6333a52afe9b717cdc74955fa81027e97865599bc6ed",
+      "bytes": 5388
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_serialized_20261015/prepare.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_serialized_20261015/prepare.py",
+      "sha256": "dee916536adce2687a354c0137f46d0f6a100032be68beab661ef84f43cfde36",
+      "bytes": 2612
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_serialized_20261015/smoke_95adb3ae31e5/code_snapshot/live.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_serialized_20261015/smoke_95adb3ae31e5/code_snapshot/live.py",
+      "sha256": "37f9c1e567d1af09cc3c6333a52afe9b717cdc74955fa81027e97865599bc6ed",
+      "bytes": 5388
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_serialized_20261015/smoke_95adb3ae31e5/code_snapshot/prepare.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_serialized_20261015/smoke_95adb3ae31e5/code_snapshot/prepare.py",
+      "sha256": "dee916536adce2687a354c0137f46d0f6a100032be68beab661ef84f43cfde36",
+      "bytes": 2612
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_serialized_20261015/smoke_95adb3ae31e5/code_snapshot/serialized_updates.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_serialized_20261015/smoke_95adb3ae31e5/code_snapshot/serialized_updates.py",
+      "sha256": "1cb5fcdbbc97037041b720dfac14c6a17fd641c77b1388c2498fcdedf2ef8f4e",
+      "bytes": 7788
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_serialized_20261015/smoke_95adb3ae31e5/code_snapshot/test_serialized.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_serialized_20261015/smoke_95adb3ae31e5/code_snapshot/test_serialized.py",
+      "sha256": "f7ca513a4501d919a3d0f2188912cbc1192a7329151754f8ddacbdc0697c6ef0",
+      "bytes": 5045
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_serialized_20261015/smoke_95adb3ae31e5/code_snapshot/validate.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_serialized_20261015/smoke_95adb3ae31e5/code_snapshot/validate.py",
+      "sha256": "00c5157b0f769705f3116891b813b614e86caab169319dd14fa42f45933b7219",
+      "bytes": 4674
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_serialized_20261015/test_serialized.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_serialized_20261015/test_serialized.py",
+      "sha256": "f7ca513a4501d919a3d0f2188912cbc1192a7329151754f8ddacbdc0697c6ef0",
+      "bytes": 5045
+    },
+    {
+      "source": "cassmem_e0_e3_delivery_20261018/CassMem_E0_E3_FINAL/evidence/cassmem_e3_serialized_20261015/validate.py",
+      "path": "experiments/snapshots/e0_e3_delivery/evidence/cassmem_e3_serialized_20261015/validate.py",
+      "sha256": "00c5157b0f769705f3116891b813b614e86caab169319dd14fa42f45933b7219",
+      "bytes": 4674
+    },
+    {
+      "source": "cassmem_access_path_delivery_20261020/CassMem_ACCESS_PATH_FINAL/source/memorytable/cassandra-kg-memory/experiments/serving_100k/run_graph_100k_load_gate_v2.py",
+      "path": "experiments/snapshots/access_path_delivery/source/memorytable/cassandra-kg-memory/experiments/serving_100k/run_graph_100k_load_gate_v2.py",
+      "sha256": "2bfe197ee41378fc6fc096af44d35ccc5e6178f502d5c138dc292b4a9b627d2d",
+      "bytes": 8880
+    },
+    {
+      "source": "cassmem_access_path_delivery_20261020/CassMem_ACCESS_PATH_FINAL/source/memorytable/cassandra-kg-memory/experiments/serving_100k/run_graph_canonical_gate_v2.py",
+      "path": "experiments/snapshots/access_path_delivery/source/memorytable/cassandra-kg-memory/experiments/serving_100k/run_graph_canonical_gate_v2.py",
+      "sha256": "4f8341f22f4ff31928a598775e09b3bf63fa629eedc37111fd812b9753fd9830",
+      "bytes": 8097
+    },
+    {
+      "source": "cassmem_access_path_delivery_20261020/CassMem_ACCESS_PATH_FINAL/source/memorytable/cassandra-kg-memory/src/cassmem/backend/live_cells_graph.py",
+      "path": "experiments/snapshots/access_path_delivery/source/memorytable/cassandra-kg-memory/src/cassmem/backend/live_cells_graph.py",
+      "sha256": "6d52db406d4c919c6d494fd83f20e880e030a05c06f781a0e42ff5fe62436bca",
+      "bytes": 32108
+    },
+    {
+      "source": "cassmem_access_path_delivery_20261020/CassMem_ACCESS_PATH_FINAL/source/memorytable/cassandra-kg-memory/src/cassmem/representation/graph_event.py",
+      "path": "experiments/snapshots/access_path_delivery/source/memorytable/cassandra-kg-memory/src/cassmem/representation/graph_event.py",
+      "sha256": "c7d4fcbce856e7e1ef5edfdf75c3eabc6351d21fc28365ccc839fe8e0dce234d",
+      "bytes": 3793
+    },
+    {
+      "source": "cassmem_access_path_delivery_20261020/CassMem_ACCESS_PATH_FINAL/source/memorytable/cassandra-kg-memory/src/cassmem/retrieval/online.py",
+      "path": "experiments/snapshots/access_path_delivery/source/memorytable/cassandra-kg-memory/src/cassmem/retrieval/online.py",
+      "sha256": "5162fa21c366e125c072908d47d0a5f1640e48a79446606b3b75dc50f7d4fc33",
+      "bytes": 12362
+    },
+    {
+      "source": "cassmem_access_path_delivery_20261020/CassMem_ACCESS_PATH_FINAL/source/memorytable/cassmem_access_path_20261019/campaign.py",
+      "path": "experiments/snapshots/access_path_delivery/source/memorytable/cassmem_access_path_20261019/campaign.py",
+      "sha256": "bba2c3449cfd3e86f8a20bc3694071fe884704847a99a10ad63091e6b27c5bf1",
+      "bytes": 25650
+    },
+    {
+      "source": "cassmem_access_path_delivery_20261020/CassMem_ACCESS_PATH_FINAL/source/memorytable/cassmem_access_path_20261019/independent_launcher.py",
+      "path": "experiments/snapshots/access_path_delivery/source/memorytable/cassmem_access_path_20261019/independent_launcher.py",
+      "sha256": "c0b48144552102e56d63624247f727ee7a6dd973e372c66ac06807320041b22c",
+      "bytes": 1254
+    },
+    {
+      "source": "cassmem_access_path_delivery_20261020/CassMem_ACCESS_PATH_FINAL/source/memorytable/cassmem_access_path_20261019/test_campaign.py",
+      "path": "experiments/snapshots/access_path_delivery/source/memorytable/cassmem_access_path_20261019/test_campaign.py",
+      "sha256": "c4b4ce867f1a19f568855d689d081c2f6795e86fdf2c506a2c359acd9fdb9955",
+      "bytes": 3481
+    },
+    {
+      "source": "cassmem_access_path_delivery_20261020/CassMem_ACCESS_PATH_FINAL/source/memorytable/cassmem_e0_preflight_20261015/environment.py",
+      "path": "experiments/snapshots/access_path_delivery/source/memorytable/cassmem_e0_preflight_20261015/environment.py",
+      "sha256": "9fdac1bc5b1b659e3438ee6e28ffad5b81a7c3f5892218bd3f047c368d849456",
+      "bytes": 5117
+    },
+    {
+      "source": "cassmem_access_path_delivery_20261020/CassMem_ACCESS_PATH_FINAL/source/memorytable/representation_serving_cost/common.py",
+      "path": "experiments/snapshots/access_path_delivery/source/memorytable/representation_serving_cost/common.py",
+      "sha256": "a5894fe5083fde2903432c0a3b44b5f9b697440e8bcc0cb8080f9697c1e8456a",
+      "bytes": 3775
+    },
+    {
+      "source": "cassmem_ordinary_concurrency_20261021/background.py",
+      "path": "experiments/snapshots/workspace/cassmem_ordinary_concurrency_20261021/background.py",
+      "sha256": "081bb78b8d62af9767d335317a01ef3692e45e13a702fa96a7b2c7b6d201af53",
+      "bytes": 280
+    },
+    {
+      "source": "cassmem_ordinary_concurrency_20261021/prepare.py",
+      "path": "experiments/snapshots/workspace/cassmem_ordinary_concurrency_20261021/prepare.py",
+      "sha256": "85eaa6a4036310638abcf5e37ef80809aad5615a180dcfbc009bb336f7b31f4b",
+      "bytes": 9727
+    },
+    {
+      "source": "cassmem_ordinary_concurrency_20261021/runner.py",
+      "path": "experiments/snapshots/workspace/cassmem_ordinary_concurrency_20261021/runner.py",
+      "sha256": "95750238e6d0805cd475ec14343c653caa77908b41869c82d7c730840cbb0399",
+      "bytes": 18857
+    },
+    {
+      "source": "cassmem_ordinary_concurrency_20261021/selftest.py",
+      "path": "experiments/snapshots/workspace/cassmem_ordinary_concurrency_20261021/selftest.py",
+      "sha256": "c95932a95d250fad81cbc9be2e37988239bad66d1e4675d72a1ad5905423ab1d",
+      "bytes": 7876
+    },
+    {
+      "source": "cassmem_ordinary_concurrency_20261021/support.py",
+      "path": "experiments/snapshots/workspace/cassmem_ordinary_concurrency_20261021/support.py",
+      "sha256": "2fe37e1e5dbbc2323e62ed4811dae189190773eaf547e11a30b2daddfd37fca6",
+      "bytes": 8837
+    },
+    {
+      "source": "cassmem_ordinary_concurrency_20261021/validate.py",
+      "path": "experiments/snapshots/workspace/cassmem_ordinary_concurrency_20261021/validate.py",
+      "sha256": "ae2c202e3b87f453061bae31a522daf4b7d3bae0f551866aa3cc9edd4c8f90da",
+      "bytes": 14304
+    },
+    {
+      "source": "audit/candidate-budget-20261014/run.py",
+      "path": "experiments/snapshots/workspace/audit/candidate-budget-20261014/run.py",
+      "sha256": "46fd22fe32a43dc117b6d6eb23a178c0eba88a7c59c08409f39451ca3eaa4584",
+      "bytes": 9560
+    },
+    {
+      "source": "audit/scope-isolation-20261014/launch_backend.py",
+      "path": "experiments/snapshots/workspace/audit/scope-isolation-20261014/launch_backend.py",
+      "sha256": "5f707c7e3e9be4cd0e60be2e36615a561395ec2fdf724cdf99f6eea7de6b24d1",
+      "bytes": 345
+    },
+    {
+      "source": "audit/scope-isolation-20261014/launch_backend_retry1.py",
+      "path": "experiments/snapshots/workspace/audit/scope-isolation-20261014/launch_backend_retry1.py",
+      "sha256": "21eb741b15659eb049872992c0b9d403c3d328d698b75b5bafd8d9c97f0c9d3a",
+      "bytes": 482
+    },
+    {
+      "source": "audit/scope-isolation-20261014/launch_stress.py",
+      "path": "experiments/snapshots/workspace/audit/scope-isolation-20261014/launch_stress.py",
+      "sha256": "b892676b81ca87c2946e151c809efaadfa1d0b92198737daa41a929ab1bac6d7",
+      "bytes": 343
+    },
+    {
+      "source": "audit/scope-isolation-20261014/run_backend.py",
+      "path": "experiments/snapshots/workspace/audit/scope-isolation-20261014/run_backend.py",
+      "sha256": "c69e9d318f9abf2a578acf0b8bdc38126ed0762bf4741d41a5c687e0129a68fb",
+      "bytes": 9884
+    },
+    {
+      "source": "audit/scope-isolation-20261014/run_initial.py",
+      "path": "experiments/snapshots/workspace/audit/scope-isolation-20261014/run_initial.py",
+      "sha256": "6ad58eb5d1efe0b2e82dd89b582c874827720fe93d515bb5beba18058d11fc9c",
+      "bytes": 8543
+    },
+    {
+      "source": "audit/scope-isolation-20261014/run_stress.py",
+      "path": "experiments/snapshots/workspace/audit/scope-isolation-20261014/run_stress.py",
+      "sha256": "8669db77fb139beb97115c53765497081a2c1de3b7caf9597418ec59daf5ebbe",
+      "bytes": 12582
+    },
+    {
+      "source": "audit/scope-isolation-20261014/validate_all.py",
+      "path": "experiments/snapshots/workspace/audit/scope-isolation-20261014/validate_all.py",
+      "sha256": "6c0ff7570e6c838f0ad6cb50457f14c8645731df2fd0595ff3bbd0c6efe7e2e0",
+      "bytes": 11207
+    }
+  ]
+}

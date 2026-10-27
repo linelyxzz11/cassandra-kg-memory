@@ -3,6 +3,19 @@
 This file defines the claims supported by the public CassMem artifact. Paths are
 relative to the repository root.
 
+## October extension
+
+The [2026-10-27 release index](releases/2026-10-27.md) adds source-preserving
+exports for representation robustness, candidate budgets, P0 pairing, LightMem,
+scope isolation, E0/E3, access paths and ordinary concurrency. Its population and
+timing boundaries apply to those exports. The sections below describe earlier
+artifacts and remain historical rather than a substitute for the newer index.
+
+The serialized coordinator is a single-process/single-owner implementation.
+Observed forced-race mitigation must not be generalized to multi-index atomicity
+or distributed consistency. Invalid original E0 audit points remain explicitly
+identified; independent-ingress replacement pairs are reported separately.
+
 ## Retrieval
 
 CassMem combines dense retrieval over raw memory text with BM25 over the RawERK

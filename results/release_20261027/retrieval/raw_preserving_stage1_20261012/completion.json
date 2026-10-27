@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "methods": 26,
+  "queries": 1146,
+  "paired_comparisons": 24,
+  "source_hashes_unchanged": true,
+  "reader_calls": 0,
+  "judge_calls": 0,
+  "runtime_note": "offline local CPU encoder; primary matched encoder contrasts separate from frozen reference"
+}

@@ -14,3 +14,8 @@ dependencies = [
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.pytest.ini_options]
+# Historical snapshots contain original launch scripts and path-bound tests.
+# They are provenance, not an automatically executable test suite.
+norecursedirs = [".git", ".venv*", "snapshots", "results", "models_cache", "external_data", "generated_data", "07_runtime"]

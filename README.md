@@ -68,7 +68,31 @@ the result of a post-update ranking. The current measurements report update-stag
 latency and observed Top-10 hits; a non-hit is not automatically classified as a
 backend freshness failure.
 
-## Evidence map
+## October artifact update
+
+The [October release index](docs/releases/2026-10-27.md) separates implementation,
+frozen source snapshots, and compact result exports. It includes representation
+robustness, candidate budgets, LightMem, scope checks, E0 readiness, E3 overlapping
+updates, physical access paths, and ordinary-concurrency summaries. Original raw
+traces and paid-model responses are intentionally not bundled.
+
+Use the [release manifest](results/release_20261027/MANIFEST.json) to verify the
+source-relative path, SHA-256 and byte count of each copied artifact. A copied
+validation report records its original run's checks; it is not a claim that the
+experiment was rerun during publication. Historical source snapshots retain their
+original path and environment assumptions; see their [usage boundary](experiments/snapshots/README.md).
+
+The reusable update coordinator is
+[`SerializedUpdateService`](src/cassmem/serving/serialized_updates.py). It serializes
+updates for each `(scope_id, memory_id)` within one process and rejects stale or
+conflicting revisions. A readiness check remains distinct from concurrent-reader
+snapshot atomicity. Run its service-independent regression tests with:
+
+~~~powershell
+python -m pytest -q experiments/consistency/test_serialized_updates.py experiments/consistency/test_structure_cleanup.py
+~~~
+
+## Earlier evidence (preserved)
 
 | Question | Canonical evidence |
 |---|---|

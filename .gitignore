@@ -69,3 +69,23 @@ docs/NEXT_GPT_HANDOFF.md
 /results/**/scored_predictions.jsonl
 /results/**/judgments_unique.jsonl
 /results/reader/**/reader_metrics_per_query.jsonl
+
+# Local submission material and internal review/handoff notes
+/docs/paper/
+/paper/
+/docs/EXPERIMENTAL_SETUP_AND_RETRIEVAL_STATISTICS_HANDOFF.md
+/docs/RETRIEVAL_MRR_PROVENANCE_AUDIT_20261011.md
+/docs/REVIEWER_REVISION_AUDIT.md
+/docs/SERVING_FAIRNESS_AND_FRESHNESS_AUDIT.md
+/docs/P1_1_RAW_PRESERVING_COMPLETE_REPORT.md
+LOCAL_SERVICE_CREDENTIALS.md
+
+# October working runs stay local; reviewed exports live in release_20261027.
+/results/consistency/
+/results/p0_audit_20261012/
+/results/retrieval/protocol_audit/
+/results/retrieval/raw_preserving_stage1_20261012/
+/results/retrieval/representation_robustness_20261012/
+/results/retrieval/reviewer_statistics/
+/results/serving_100k/resource_matched_v3/resmatch_20260924_v3/
+/results/serving_100k/resource_matched_v3/resmatch_20260924_v3r1/
